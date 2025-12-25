@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon TCG – Coleção Privada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { inter: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: { prismBlue: '#38bdf8' },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-thumb { background-color: rgba(148, 163, 184, 0.7); border-radius: 9999px; }
+
+    /* Efeito 3D nos Cards */
+    .card-3d {
+      perspective: 1000px;
+      transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      transform-style: preserve-3d;
+    }
+    .card-3d:hover { transform: rotateY(15deg) rotateX(10deg) scale(1.05); }
+
+    /* Efeito Holograma */
+    .hologram { position: relative; overflow: hidden; }
+    .hologram::after {
+      content: "";
+      position: absolute;
+      inset: -100%;
+      z-index: 5;
+      background: linear-gradient(110deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 15%, rgba(0,255,255,0.2) 30%, rgba(255,0,255,0.2) 45%, rgba(255,255,0,0.2) 60%, rgba(255,255,255,0) 100%);
+      background-size: 200% 200%;
+      animation: holo-slide 4s infinite linear;
+      pointer-events: none;
+      mix-blend-mode: color-dodge;
+    }
+    @keyframes holo-slide {
+      0% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
+      100% { transform: translateX(50%) translateY(50%) rotate(20deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+
+  <!-- 1. TELA DE LOGIN (Fundo totalmente sólido para privacidade) -->
+  <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950">
+    <div class="w-full max-w-md p-8 bg-slate-900 rounded-3xl border border-slate-700 shadow-2xl">
+      <div class="flex flex-col items-center mb-6">
+        <div class="w-16 h-16 rounded-2xl bg-sky-500 flex items-center justify-center shadow-lg shadow-sky-500/20 mb-4">
+          <i class="fa-solid fa-lock text-slate-950 text-2xl"></i>
+        </div>
+        <h2 class="text-2xl font-bold text-white">Treinador Master</h2>
+        <p class="text-slate-400 text-sm">Aceda à sua coleção privada</p>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs text-slate-400 mb-1 ml-1">E-mail</label>
+          <input type="email" id="login-email" placeholder="exemplo@email.com" class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-sky-500 transition">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-400 mb-1 ml-1">Senha</label>
+          <input type="password" id="login-pass" placeholder="••••••••" class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-sky-500 transition">
+        </div>
+        <button id="login-btn" class="w-full py-3 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">
+          Entrar no Painel
+        </button>
+        <p id="login-error" class="text-rose-500 text-xs text-center hidden">Credenciais inválidas ou acesso negado.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. CONTEÚDO PROTEGIDO -->
+  <div id="main-content" class="hidden">
+    
+    <!-- O Fundo Gradiente agora só aparece após o login -->
+    <div class="fixed inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 opacity-90 pointer-events-none"></div>
+
+    <nav class="fixed top-0 inset-x-0 z-20">
+      <div class="mx-auto max-w-6xl px-4 py-3 mt-3 rounded-2xl border border-slate-700/60 bg-slate-900/50 backdrop-blur-xl shadow-[0_0_40px_rgba(15,23,42,0.9)] flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 via-cyan-300 to-indigo-500 flex items-center justify-center shadow-lg">
+            <i class="fa-solid fa-dragon text-slate-950"></i>
+          </div>
+          <div>
+            <h1 class="text-sm sm:text-base font-semibold tracking-tight">Evoluções Prismáticas</h1>
+            <p class="text-[11px] text-slate-400">Coleção Privada</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div id="global-progress" class="hidden sm:flex flex-col items-end">
+            <div class="w-32 h-1.5 rounded-full bg-slate-800 overflow-hidden">
+              <div id="global-progress-bar" class="h-full bg-sky-400 transition-all duration-300" style="width:0%"></div>
+            </div>
+            <span id="global-progress-text" class="text-slate-300 text-[9px] mt-1">0%</span>
+          </div>
+          <button id="logout-btn" class="text-xs text-slate-400 hover:text-white transition flex items-center gap-2">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span class="hidden sm:inline">Sair</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-10">
+      <!-- Upload Section -->
+      <section id="upload-section" class="mb-6 border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-5 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-sm font-semibold">Dados da Coleção</h2>
+          <p id="upload-status" class="text-[11px] text-slate-400">A carregar JSON...</p>
+        </div>
+        <label class="inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-dashed border-slate-600/70 cursor-pointer hover:border-sky-500 transition text-xs">
+          <i class="fa-solid fa-upload text-sky-400"></i>
+          <span>Substituir TCG_CARD.json</span>
+          <input id="file-input" type="file" accept="application/json" class="hidden" />
+        </label>
+      </section>
+
+      <!-- Albums Grid -->
+      <div id="albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+
+      <!-- Details View -->
+      <section id="collection-details" class="mt-8 hidden space-y-4">
+        <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5">
+          <h3 id="details-title" class="text-lg font-bold mb-1"></h3>
+          <p id="details-subtitle" class="text-xs text-slate-400 mb-3"></p>
+          <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+            <div id="details-progress-bar" class="h-full bg-sky-400 transition-all duration-300" style="width:0%"></div>
+          </div>
+        </header>
+        <div id="cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+      </section>
+    </main>
+
+    <!-- CARD MODAL -->
+    <div id="card-modal" class="fixed inset-0 z-30 hidden items-center justify-center bg-slate-950/80 backdrop-blur-xl">
+      <div class="relative max-w-lg w-[90%] bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
+        <button id="modal-close" class="absolute top-4 right-4 text-slate-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+        <div class="flex flex-col sm:flex-row gap-6">
+          <div id="modal-image-container" class="flex-1">
+            <img id="modal-image" src="" class="w-full rounded-2xl shadow-lg border border-sky-500/30">
+          </div>
+          <div class="flex-1 flex flex-col justify-center">
+            <h3 id="modal-title" class="text-xl font-bold mb-1"></h3>
+            <p id="modal-number" class="text-sm text-slate-400 mb-4"></p>
+            <button id="modal-toggle-btn" class="w-full py-3 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg">
+              Adicionar à Coleção
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+    import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
+      authDomain: "pokemon-tcg-sp.firebaseapp.com",
+      projectId: "pokemon-tcg-sp",
+      storageBucket: "pokemon-tcg-sp.firebasestorage.app",
+      messagingSenderId: "898774636210",
+      appId: "1:898774636210:web:c385cc8df48aecd2c55bab"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const ADMIN_UID = "PZt2BWoC0TMjFOmDKH8DkfoEj6z2";
+
+    const $ = (s) => document.querySelector(s);
+    const state = { user: null, collections: {}, currentCollection: null, unsubscribeMap: {} };
+
+    // --- AUTENTICAÇÃO ---
+
+    $("#login-btn").addEventListener("click", async () => {
+      const email = $("#login-email").value;
+      const pass = $("#login-pass").value;
+      $("#login-error").classList.add("hidden");
+      
+      try {
+        await signInWithEmailAndPassword(auth, email, pass);
+      } catch (err) {
+        $("#login-error").classList.remove("hidden");
+        console.error("Login Error:", err);
+      }
+    });
+
+    $("#logout-btn").addEventListener("click", () => signOut(auth));
+
+    onAuthStateChanged(auth, (user) => {
+      if (user && user.uid === ADMIN_UID) {
+        state.user = user;
+        $("#login-screen").classList.add("hidden");
+        $("#main-content").classList.remove("hidden");
+        loadData();
+      } else {
+        state.user = null;
+        $("#login-screen").classList.remove("hidden");
+        $("#main-content").classList.add("hidden");
+        // Limpar subscrições ao sair
+        Object.values(state.unsubscribeMap).forEach(unsub => unsub());
+        state.unsubscribeMap = {};
+      }
+    });
+
+    // --- LÓGICA DE DADOS ---
+
+    async function loadData() {
+      try {
+        const res = await fetch("./TCG_CARD.json");
+        const json = await res.json();
+        processTCGJson(json);
+        $("#upload-status").textContent = "Ficheiro local carregado.";
+      } catch (e) {
+        $("#upload-status").textContent = "Erro ao carregar TCG_CARD.json local.";
+      }
+    }
+
+    function processTCGJson(json) {
+      const collectionNames = ["Evoluções Prismáticas", "151"];
+      collectionNames.forEach(name => {
+        const filteredCards = json.filter(c => c.Coleção.includes(name));
+        if (filteredCards.length > 0) {
+          const id = name.replace(/\s/g, '').toLowerCase();
+          state.collections[id] = { name, cards: filteredCards, owned: new Set() };
+          attachCollectionListener(id);
+        }
+      });
+      renderAlbums();
+    }
+
+    function attachCollectionListener(colId) {
+      const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "collections", colId);
+      
+      if (state.unsubscribeMap[colId]) state.unsubscribeMap[colId]();
+      
+      state.unsubscribeMap[colId] = onSnapshot(docRef, (snap) => {
+        const data = snap.data() || {};
+        state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+        
+        if (state.currentCollection === colId) renderCards();
+        renderAlbums();
+        updateGlobalProgress();
+      });
+    }
+
+    function renderAlbums() {
+      const grid = $("#albums-grid");
+      grid.innerHTML = "";
+      Object.keys(state.collections).forEach(id => {
+        const col = state.collections[id];
+        const pct = Math.round((col.owned.size / col.cards.length) * 100) || 0;
+        
+        const btn = document.createElement("button");
+        btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-sky-500 transition shadow-xl";
+        btn.innerHTML = `
+          <div class="flex justify-between items-start mb-4">
+            <h4 class="font-bold text-sky-400">${col.name}</h4>
+            <span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300">${pct}%</span>
+          </div>
+          <p class="text-xs text-slate-400">${col.owned.size} / ${col.cards.length} cartas obtidas</p>
+          <div class="mt-3 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden">
+            <div class="h-full bg-sky-500" style="width: ${pct}%"></div>
+          </div>
+        `;
+        btn.onclick = () => {
+          state.currentCollection = id;
+          $("#details-title").textContent = col.name;
+          $("#collection-details").classList.remove("hidden");
+          renderCards();
+          window.scrollTo({ top: grid.offsetTop + grid.offsetHeight, behavior: 'smooth' });
+        };
+        grid.appendChild(btn);
+      });
+    }
+
+    function renderCards() {
+      const grid = $("#cards-grid");
+      grid.innerHTML = "";
+      const col = state.collections[state.currentCollection];
+      
+      $("#details-subtitle").textContent = `${col.owned.size} obtidas de ${col.cards.length} totais`;
+      $("#details-progress-bar").style.width = `${(col.owned.size / col.cards.length) * 100}%`;
+
+      col.cards.forEach(card => {
+        const cardId = `${card.Coleção}#${card.Número}`;
+        const isOwned = col.owned.has(cardId);
+        
+        const container = document.createElement("div");
+        container.className = `relative group cursor-pointer transition transform hover:scale-105 ${isOwned ? 'card-3d hologram' : 'grayscale opacity-40'}`;
+        container.innerHTML = `
+          <img src="${card.Imagem}" class="rounded-xl border ${isOwned ? 'border-sky-500/50' : 'border-slate-800'}">
+          <div class="absolute bottom-0 inset-x-0 p-2 bg-black/60 backdrop-blur-sm rounded-b-xl opacity-0 group-hover:opacity-100 transition">
+            <p class="text-[9px] truncate font-bold">${card.Pokemon}</p>
+          </div>
+        `;
+        container.onclick = () => openModal(card, cardId, isOwned);
+        grid.appendChild(container);
+      });
+    }
+
+    function openModal(card, cardId, isOwned) {
+      $("#modal-title").textContent = card.Pokemon;
+      $("#modal-image").src = card.Imagem;
+      $("#modal-number").textContent = `Número: ${card.Número} | ${card.Coleção}`;
+      $("#card-modal").classList.remove("hidden");
+      $("#card-modal").classList.add("flex");
+      
+      const btn = $("#modal-toggle-btn");
+      btn.textContent = isOwned ? "Remover da Coleção" : "Adicionar à Coleção";
+      btn.className = `w-full py-3 font-bold rounded-xl transition shadow-lg ${isOwned ? 'bg-rose-600 text-white hover:bg-rose-500' : 'bg-sky-500 text-slate-950 hover:bg-sky-400'}`;
+      
+      btn.onclick = async () => {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "collections", state.currentCollection);
+        await setDoc(docRef, { [cardId]: !isOwned }, { merge: true });
+        $("#card-modal").classList.add("hidden");
+      };
+    }
+
+    $("#modal-close").onclick = () => $("#card-modal").classList.add("hidden");
+
+    function updateGlobalProgress() {
+      let total = 0; let owned = 0;
+      Object.values(state.collections).forEach(c => {
+        total += c.cards.length;
+        owned += c.owned.size;
+      });
+      const pct = Math.round((owned / total) * 100) || 0;
+      $("#global-progress").classList.remove("hidden");
+      $("#global-progress-bar").style.width = `${pct}%`;
+      $("#global-progress-text").textContent = `${pct}% Completo`;
+    }
+
+    $("#file-input").onchange = async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const text = await file.text();
+      processTCGJson(JSON.parse(text));
+    };
+
+  </script>
+</body>
+</html>
