@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon TCG – Evoluções Prismáticas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            prismBlue: '#38bdf8',
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    /* Scrollbar discreto */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(148, 163, 184, 0.7);
+      border-radius: 9999px;
+    }
+
+    /* --- NOVOS EFEITOS ADICIONADOS --- */
+    
+    /* Efeito 3D nos Cards */
+    .card-3d {
+      perspective: 1000px;
+      transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      transform-style: preserve-3d;
+    }
+    .card-3d:hover {
+      transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+    }
+
+    /* Efeito Holograma (Brilho Arco-íris Animado) */
+    /* .hologram {
+      position: relative;
+      overflow: hidden;
+    }
+    .hologram::after {
+      content: "";
+      position: absolute;
+      inset: -100%;
+      z-index: 5;
+      background: linear-gradient(
+        110deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.05) 15%,
+        rgba(0, 255, 255, 0.2) 30%,
+        rgba(255, 0, 255, 0.2) 45%,
+        rgba(255, 255, 0, 0.2) 60%,
+        rgba(255, 255, 255, 0.05) 75%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      background-size: 200% 200%;
+      animation: holo-slide 4s infinite linear;
+      pointer-events: none;
+      mix-blend-mode: color-dodge;
+    } */
+
+    @keyframes holo-slide {
+      0% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
+      100% { transform: translateX(50%) translateY(50%) rotate(20deg); }
+    }
+    /* --------------------------------- */
+  </style>
+</head>
+<body class="min-h-screen bg-slate-900 text-slate-100">
+
+  <div class="fixed inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 opacity-90 pointer-events-none"></div>
+
+  <nav class="fixed top-0 inset-x-0 z-20">
+    <div
+      class="mx-auto max-w-6xl px-4 py-3 mt-3 rounded-2xl border border-slate-700/60 bg-slate-900/50 backdrop-blur-xl shadow-[0_0_40px_rgba(15,23,42,0.9)] flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div
+          class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 via-cyan-300 to-indigo-500 flex items-center justify-center shadow-lg">
+          <i class="fa-solid fa-dragon text-slate-950"></i>
+        </div>
+        <div>
+          <h1 class="text-sm sm:text-base font-semibold tracking-tight">Evoluções Prismáticas</h1>
+          <p class="text-[11px] text-slate-400">Gestor de coleções Pokémon TCG</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 text-xs sm:text-sm">
+        <div id="global-progress" class="hidden sm:flex flex-col items-end">
+          <span class="text-slate-400">Progresso Global</span>
+          <div class="w-40 h-2 rounded-full bg-slate-800 overflow-hidden">
+            <div id="global-progress-bar" class="h-2 bg-sky-400 rounded-full transition-all duration-300"
+                 style="width:0%"></div>
+          </div>
+          <span id="global-progress-text" class="text-slate-300 text-[11px] mt-1">0 / 0 (0%)</span>
+        </div>
+        <div class="flex items-center gap-2 text-slate-400">
+          <i class="fa-solid fa-user-astronaut text-sky-400"></i>
+          <span id="user-badge" class="text-[11px] sm:text-xs px-2 py-1 rounded-full bg-slate-800/80 border border-slate-600/60">
+            Conectando...
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-10">
+
+    <section id="upload-section"
+             class="mb-6 border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-4 sm:p-5 flex flex-col gap-3">
+      <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div
+            class="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-rose-500 flex items-center justify-center shadow">
+            <i class="fa-solid fa-file-arrow-down text-slate-950 text-xs"></i>
+          </div>
+          <div>
+            <h2 class="text-sm sm:text-base font-semibold">Carregar TCG_CARD.json</h2>
+            <p id="upload-helper" class="text-[11px] sm:text-xs text-slate-400">
+              Tentando ler TCG_CARD.json local. Se falhar (CORS), selecione o arquivo manualmente.
+            </p>
+          </div>
+        </div>
+        <button id="retry-fetch"
+                class="hidden text-[11px] sm:text-xs px-3 py-1.5 rounded-full border border-sky-500/70 text-sky-300 hover:bg-sky-500/10 transition">
+          <i class="fa-solid fa-rotate-right mr-1"></i> Re-tentar fetch
+        </button>
+      </div>
+      <div class="mt-2 flex flex-col sm:flex-row gap-3 items-start sm:items-center">
+        <label
+          class="inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-dashed border-slate-600/70 bg-slate-900/80 hover:border-sky-500/80 hover:bg-slate-900 transition text-[12px] cursor-pointer">
+          <i class="fa-solid fa-upload text-sky-400"></i>
+          <span>Selecionar TCG_CARD.json</span>
+          <input id="file-input" type="file" accept="application/json" class="hidden" />
+        </label>
+        <p id="upload-status" class="text-[11px] text-slate-400">
+          Coleção mock “Fábulas Nebulosas” já carregada para demonstração.
+        </p>
+      </div>
+    </section>
+
+    <section id="albums-section" class="space-y-4">
+      <div class="flex items-center justify-between gap-3">
+        <div>
+          <h2 class="text-base sm:text-lg font-semibold">Álbuns de Coleções</h2>
+          <p class="text-[11px] sm:text-xs text-slate-400">
+            Selecione um álbum para ver estatísticas e gerir as cartas.
+          </p>
+        </div>
+      </div>
+
+      <div id="albums-grid"
+           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+        </div>
+    </section>
+
+    <section id="collection-details" class="mt-8 hidden space-y-4">
+      <header
+        class="border border-slate-700/60 bg-slate-900/70 backdrop-blur-xl rounded-2xl p-4 sm:p-5 flex flex-col lg:flex-row gap-4 lg:items-center lg:justify-between">
+        <div class="flex items-start gap-3">
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 via-cyan-300 to-indigo-500 flex items-center justify-center shadow-lg">
+            <i class="fa-solid fa-book-open text-slate-950"></i>
+          </div>
+          <div>
+            <h3 id="details-title" class="text-base sm:text-lg font-semibold">Coleção</h3>
+            <p id="details-subtitle" class="text-[11px] sm:text-xs text-slate-400">
+              0 cartas – 0 obtidas – 0 faltando
+            </p>
+            <div class="mt-2 w-full max-w-xs h-2 rounded-full bg-slate-800 overflow-hidden">
+              <div id="details-progress-bar"
+                   class="h-2 bg-sky-400 rounded-full transition-all duration-300"
+                   style="width:0%"></div>
+            </div>
+            <p id="details-progress-text" class="text-[11px] text-slate-300 mt-1">
+              0 / 0 (0%)
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-[11px] text-slate-400">Filtros:</span>
+          <button data-filter="all"
+                  class="filter-btn text-[11px] px-3 py-1.5 rounded-full border border-slate-700/80 bg-slate-800/80 text-slate-100 hover:border-sky-500/80 hover:text-sky-300 transition">
+            <i class="fa-solid fa-layer-group mr-1"></i>Todas
+          </button>
+          <button data-filter="owned"
+                  class="filter-btn text-[11px] px-3 py-1.5 rounded-full border border-slate-700/80 bg-slate-800/80 text-slate-100 hover:border-emerald-500/80 hover:text-emerald-300 transition">
+            <i class="fa-solid fa-check mr-1"></i>Tenho
+          </button>
+          <button data-filter="missing"
+                  class="filter-btn text-[11px] px-3 py-1.5 rounded-full border border-slate-700/80 bg-slate-800/80 text-slate-100 hover:border-rose-500/80 hover:text-rose-300 transition">
+            <i class="fa-regular fa-circle-xmark mr-1"></i>Faltam
+          </button>
+        </div>
+      </header>
+
+      <div id="cards-grid"
+           class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+        </div>
+    </section>
+  </main>
+
+  <div id="card-modal"
+       class="fixed inset-0 z-30 hidden items-center justify-center bg-slate-950/70 backdrop-blur-xl">
+    <div
+      class="relative max-w-lg w-[90%] sm:w-[80%] border border-slate-700/80 bg-slate-900/80 rounded-3xl shadow-[0_0_45px_rgba(56,189,248,0.35)] p-4 sm:p-6 flex flex-col gap-4">
+      <button id="modal-close"
+              class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-slate-800/80 text-slate-300 hover:bg-slate-700 transition">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex-1 flex items-center justify-center" id="modal-image-container">
+          <img id="modal-image"
+               src=""
+               alt="Carta Pokémon"
+               class="max-h-64 rounded-2xl shadow-lg border border-sky-500/70" />
+        </div>
+        <div class="flex-1 flex flex-col gap-2">
+          <h3 id="modal-title" class="text-base sm:text-lg font-semibold"></h3>
+          <p id="modal-number" class="text-[12px] text-slate-400"></p>
+          <p id="modal-collection" class="text-[12px] text-slate-400"></p>
+          <div class="mt-2">
+            <span id="modal-status-chip"
+                  class="inline-flex items-center px-2.5 py-1 rounded-full text-[11px] border border-slate-600/80 bg-slate-800/80 text-slate-200">
+              Status: desconhecido
+            </span>
+          </div>
+          <div class="mt-4 flex flex-col gap-2">
+            <button id="modal-toggle-btn"
+                    class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-[13px] font-medium bg-sky-500 text-slate-950 hover:bg-sky-400 transition shadow-lg shadow-sky-500/30">
+              <i class="fa-solid fa-plus"></i>
+              <span>Adicionar à Coleção</span>
+            </button>
+            <p class="text-[11px] text-slate-400">
+              Alterações são sincronizadas em tempo real com o Firestore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    // ===============================
+    // Firebase Imports (SDK v9+)
+    // ===============================
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+    import {
+      getAuth,
+      signInAnonymously,
+      onAuthStateChanged
+    } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+    import {
+      getFirestore,
+      doc,
+      setDoc,
+      getDoc,
+      onSnapshot
+    } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+
+    // ===============================
+    // Configuração Firebase
+    // ===============================
+    const firebaseConfig = {
+      apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
+      authDomain: "pokemon-tcg-sp.firebaseapp.com",
+      projectId: "pokemon-tcg-sp",
+      storageBucket: "pokemon-tcg-sp.firebasestorage.app",
+      messagingSenderId: "898774636210",
+      appId: "1:898774636210:web:c385cc8df48aecd2c55bab",
+      measurementId: "G-5KBJ3SVMM3"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const appId = firebaseConfig.appId;
+
+    // ===============================
+    // Estado da Aplicação
+    // ===============================
+    const state = {
+      user: null,
+      collections: {},         // { nome: { id, name, cards:[], owned:Set<string> } }
+      currentCollection: null, // string key
+      filter: "all",
+      unsubscribeMap: {}       // { collectionKey: () => void }
+    };
+
+    // ===============================
+    // DOM Helpers
+    // ===============================
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+    const albumsGrid = $("#albums-grid");
+    const detailsSection = $("#collection-details");
+    const detailsTitle = $("#details-title");
+    const detailsSubtitle = $("#details-subtitle");
+    const detailsProgressBar = $("#details-progress-bar");
+    const detailsProgressText = $("#details-progress-text");
+    const cardsGrid = $("#cards-grid");
+    const globalProgressBar = $("#global-progress-bar");
+    const globalProgressText = $("#global-progress-text");
+    const globalProgressWrapper = $("#global-progress");
+
+    const uploadSection = $("#upload-section");
+    const uploadStatus = $("#upload-status");
+    const uploadHelper = $("#upload-helper");
+    const retryFetchBtn = $("#retry-fetch");
+    const fileInput = $("#file-input");
+    const userBadge = $("#user-badge");
+
+    const cardModal = $("#card-modal");
+    const modalClose = $("#modal-close");
+    const modalImage = $("#modal-image");
+    const modalImageContainer = $("#modal-image-container");
+    const modalTitle = $("#modal-title");
+    const modalNumber = $("#modal-number");
+    const modalCollection = $("#modal-collection");
+    const modalStatusChip = $("#modal-status-chip");
+    const modalToggleBtn = $("#modal-toggle-btn");
+
+    let modalCurrentCard = null; // { id, collectionKey }
+
+    // ===============================
+    // Utilidades
+    // ===============================
+    function buildCardId(card) {
+      // ID estável: coleção-numero
+      return `${card.Coleção}#${card.Número}`;
+    }
+
+    function updateGlobalProgress() {
+      const colKeys = Object.keys(state.collections);
+      let total = 0;
+      let owned = 0;
+      colKeys.forEach((key) => {
+        const c = state.collections[key];
+        total += c.cards.length;
+        owned += c.owned.size;
+      });
+      const pct = total > 0 ? Math.round((owned / total) * 100) : 0;
+      globalProgressBar.style.width = `${pct}%`;
+      globalProgressText.textContent = `${owned} / ${total} (${pct}%)`;
+      globalProgressWrapper.classList.remove("hidden");
+    }
+
+    function calculateCollectionProgress(collectionKey) {
+      const col = state.collections[collectionKey];
+      const total = col.cards.length;
+      const owned = col.owned.size;
+      const missing = total - owned;
+      const pct = total > 0 ? Math.round((owned / total) * 100) : 0;
+      return { total, owned, missing, pct };
+    }
+
+    function renderAlbums() {
+      albumsGrid.innerHTML = "";
+      const keys = Object.keys(state.collections);
+      keys.forEach((key) => {
+        const col = state.collections[key];
+        const { total, owned, pct } = calculateCollectionProgress(key);
+
+        const album = document.createElement("button");
+        album.className =
+          "group relative overflow-hidden w-full text-left border border-slate-700/70 rounded-2xl bg-slate-900/70 backdrop-blur-xl p-4 flex flex-col gap-3 hover:border-sky-500/80 hover:shadow-[0_0_35px_rgba(56,189,248,0.3)] transition";
+        album.innerHTML = `
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 via-cyan-300 to-indigo-500 flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-clone text-slate-950"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold">${col.name}</h3>
+                <p class="text-[11px] text-slate-400">${owned} de ${total} cartas</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-sky-400 transition"></i>
+          </div>
+          <div class="mt-2">
+            <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+              <div class="h-2 bg-sky-400 rounded-full" style="width:${pct}%"></div>
+            </div>
+            <p class="mt-1 text-[11px] text-slate-300">${pct}% completo</p>
+          </div>
+        `;
+        album.addEventListener("click", () => {
+          openCollection(key);
+        });
+        albumsGrid.appendChild(album);
+      });
+    }
+
+    function openCollection(key) {
+      state.currentCollection = key;
+      state.filter = "all";
+      const col = state.collections[key];
+      const { total, owned, missing, pct } = calculateCollectionProgress(key);
+
+      detailsTitle.textContent = col.name;
+      detailsSubtitle.textContent = `${total} cartas – ${owned} obtidas – ${missing} faltando`;
+      detailsProgressBar.style.width = `${pct}%`;
+      detailsProgressText.textContent = `${owned} / ${total} (${pct}%)`;
+      detailsSection.classList.remove("hidden");
+
+      // Reset seleção de filtros
+      $$(".filter-btn").forEach((btn) => {
+        btn.classList.remove("border-sky-500/80", "border-emerald-500/80", "border-rose-500/80");
+      });
+
+      renderCards();
+    }
+
+    function renderCards() {
+      const colKey = state.currentCollection;
+      if (!colKey) return;
+      const col = state.collections[colKey];
+      cardsGrid.innerHTML = "";
+
+      const filter = state.filter;
+      const ownedSet = col.owned;
+
+      const cards = col.cards.filter((card) => {
+        const id = buildCardId(card);
+        const isOwned = ownedSet.has(id);
+        if (filter === "owned") return isOwned;
+        if (filter === "missing") return !isOwned;
+        return true;
+      });
+
+      cards.forEach((card) => {
+        const id = buildCardId(card);
+        const isOwned = ownedSet.has(id);
+        const cardEl = document.createElement("button");
+        const baseClasses =
+          "group relative rounded-xl overflow-hidden border transition transform";
+        
+        // --- ATUALIZAÇÃO: ADICIONADAS CLASSES 3D E HOLOGRAMA SE POSSUIR A CARTA ---
+        const ownedClasses =
+          "border-sky-500 shadow-[0_0_20px_rgba(56,189,248,0.5)] card-3d hologram hover:shadow-[0_0_35px_rgba(56,189,248,0.85)]";
+        
+        const missingClasses =
+          "border-slate-800 bg-slate-900/80 grayscale hover:grayscale-0 opacity-60 hover:opacity-90 scale-95 hover:scale-100";
+
+        cardEl.className = `${baseClasses} ${isOwned ? ownedClasses : missingClasses}`;
+        cardEl.innerHTML = `
+          <div class="aspect-[3/4] bg-slate-900/80 flex items-center justify-center">
+            <img src="${card.Imagem}" alt="${card.Pokemon}"
+                 class="w-full h-full object-cover">
+          </div>
+          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 to-transparent p-1.5 z-10">
+            <p class="text-[10px] text-slate-100 truncate">${card.Pokemon}</p>
+            <p class="text-[9px] text-slate-400">${card.Número}</p>
+          </div>
+        `;
+        cardEl.addEventListener("click", () => {
+          openCardModal(card, colKey);
+        });
+        cardsGrid.appendChild(cardEl);
+      });
+    }
+
+    function syncCollectionProgressUI(colKey) {
+      if (state.currentCollection === colKey) {
+        const { total, owned, missing, pct } = calculateCollectionProgress(colKey);
+        detailsSubtitle.textContent = `${total} cartas – ${owned} obtidas – ${missing} faltando`;
+        detailsProgressBar.style.width = `${pct}%`;
+        detailsProgressText.textContent = `${owned} / ${total} (${pct}%)`;
+        renderCards();
+      }
+      renderAlbums();
+      updateGlobalProgress();
+    }
+
+    // ===============================
+    // Modal
+    // ===============================
+    function openCardModal(card, collectionKey) {
+      const col = state.collections[collectionKey];
+      const id = buildCardId(card);
+      const isOwned = col.owned.has(id);
+
+      modalCurrentCard = { id, collectionKey, card };
+
+      modalImage.src = card.Imagem;
+      
+      // --- ATUALIZAÇÃO: ADICIONADOS EFEITOS NO MODAL TAMBÉM ---
+      if (isOwned) {
+        modalImageContainer.className = "flex-1 flex items-center justify-center card-3d hologram";
+      } else {
+        modalImageContainer.className = "flex-1 flex items-center justify-center";
+      }
+
+      modalTitle.textContent = card.Pokemon;
+      modalNumber.textContent = `Nº ${card.Número}`;
+      modalCollection.textContent = `Coleção: ${card.Coleção}`;
+      modalStatusChip.textContent = isOwned ? "Status: na coleção" : "Status: faltando";
+      modalStatusChip.className =
+        "inline-flex items-center px-2.5 py-1 rounded-full text-[11px] border " +
+        (isOwned
+          ? "border-emerald-500/80 bg-emerald-500/10 text-emerald-300"
+          : "border-rose-500/80 bg-rose-500/10 text-rose-300");
+
+      if (isOwned) {
+        modalToggleBtn.className =
+          "w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-[13px] font-medium bg-rose-500 text-slate-50 hover:bg-rose-400 transition shadow-lg shadow-rose-500/30";
+        modalToggleBtn.innerHTML = `<i class="fa-solid fa-minus"></i><span>Remover da Coleção</span>`;
+      } else {
+        modalToggleBtn.className =
+          "w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-[13px] font-medium bg-sky-500 text-slate-950 hover:bg-sky-400 transition shadow-lg shadow-sky-500/30";
+        modalToggleBtn.innerHTML = `<i class="fa-solid fa-plus"></i><span>Adicionar à Coleção</span>`;
+      }
+
+      cardModal.classList.remove("hidden");
+      cardModal.classList.add("flex");
+    }
+
+    function closeCardModal() {
+      cardModal.classList.add("hidden");
+      cardModal.classList.remove("flex");
+      modalCurrentCard = null;
+    }
+
+    modalClose.addEventListener("click", closeCardModal);
+    cardModal.addEventListener("click", (e) => {
+      if (e.target === cardModal) closeCardModal();
+    });
+
+    modalToggleBtn.addEventListener("click", async () => {
+      if (!modalCurrentCard || !state.user) return;
+      const { id, collectionKey } = modalCurrentCard;
+      const col = state.collections[collectionKey];
+      const docRef = doc(
+        db,
+        "artifacts",
+        appId,
+        "users",
+        state.user.uid,
+        "collections",
+        collectionKey
+      );
+      const currentlyOwned = col.owned.has(id);
+      const newValue = !currentlyOwned;
+
+      await setDoc(docRef, { [id]: newValue ? true : false }, { merge: true });
+      closeCardModal();
+    });
+
+    // ===============================
+    // Filtros
+    // ===============================
+    $$(".filter-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.filter = btn.dataset.filter;
+        $$(".filter-btn").forEach((b) => {
+          b.classList.remove(
+            "border-sky-500/80",
+            "border-emerald-500/80",
+            "border-rose-500/80"
+          );
+        });
+        if (state.filter === "all") {
+          btn.classList.add("border-sky-500/80");
+        } else if (state.filter === "owned") {
+          btn.classList.add("border-emerald-500/80");
+        } else {
+          btn.classList.add("border-rose-500/80");
+        }
+        renderCards();
+      });
+    });
+
+    // ===============================
+    // Firestore: listeners de coleção
+    // ===============================
+    function attachCollectionListener(collectionKey) {
+      if (!state.user) return;
+      const col = state.collections[collectionKey];
+      const docRef = doc(
+        db,
+        "artifacts",
+        appId,
+        "users",
+        state.user.uid,
+        "collections",
+        collectionKey
+      );
+      if (state.unsubscribeMap[collectionKey]) {
+        state.unsubscribeMap[collectionKey]();
+      }
+      const unsub = onSnapshot(docRef, (snapshot) => {
+        const data = snapshot.data() || {};
+        const newOwned = new Set(
+          Object.entries(data)
+            .filter(([_, v]) => !!v)
+            .map(([k]) => k)
+        );
+        col.owned = newOwned;
+        syncCollectionProgressUI(collectionKey);
+      });
+      state.unsubscribeMap[collectionKey] = unsub;
+    }
+
+    // ===============================
+    // Mock de coleção “Fábulas Nebulosas”
+    // ===============================
+    function createMockCollection() {
+      const mockKey = "fabulasNebulosas";
+      const mockCards = [];
+      for (let i = 1; i <= 12; i++) {
+        mockCards.push({
+          Coleção: "Fábulas Nebulosas",
+          Número: i.toString().padStart(3, "0"),
+          Pokemon: `Nebulon ${i}`,
+          Imagem: `https://via.placeholder.com/300x420.png?text=Nebulon+${i}`
+        });
+      }
+      state.collections[mockKey] = {
+        id: mockKey,
+        name: "Fábulas Nebulosas",
+        cards: mockCards,
+        owned: new Set()
+      };
+    }
+
+    // ===============================
+    // Carregamento de TCG_CARD.json
+    // ===============================
+    async function tryFetchLocalJSON() {
+      uploadStatus.textContent = "Tentando fetch de TCG_CARD.json na raiz do projeto...";
+      try {
+        const res = await fetch("./TCG_CARD.json");
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const json = await res.json();
+        processTCGJson(json);
+        uploadStatus.textContent = "TCG_CARD.json carregado com sucesso.";
+        uploadHelper.textContent = "JSON local carregado. Pode trocar o arquivo se desejar.";
+        retryFetchBtn.classList.add("hidden");
+      } catch (err) {
+        uploadStatus.textContent =
+          "Falha no fetch automático (provável CORS). Utilize o botão para carregar TCG_CARD.json manualmente.";
+        retryFetchBtn.classList.remove("hidden");
+      }
+    }
+
+    function processTCGJson(jsonArray) {
+      if (!Array.isArray(jsonArray)) return;
+      
+      const prismaCards = jsonArray.filter(
+        (c) => c.Coleção && c.Coleção.toLowerCase().includes("evoluções prismáticas".toLowerCase())
+      );
+      const key = "evolucoesPrismaticas";
+      state.collections[key] = {
+        id: key,
+        name: "Evoluções Prismáticas",
+        cards: prismaCards,
+        owned: new Set()
+      };
+
+      const colecao151Cards = jsonArray.filter(
+        (c) => c.Coleção && c.Coleção.toLowerCase().includes("151")
+      );
+      const key151 = "colecao151";
+      if (colecao151Cards.length > 0) {
+        state.collections[key151] = {
+          id: key151,
+          name: "Coleção 151",
+          cards: colecao151Cards,
+          owned: new Set()
+        };
+      }
+      
+      renderAlbums();
+      updateGlobalProgress();
+      if (state.user) {
+         Object.keys(state.collections).forEach(k => attachCollectionListener(k));
+      }
+    }
+
+    fileInput.addEventListener("change", async (e) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      uploadStatus.textContent = `Lendo arquivo: ${file.name}...`;
+      try {
+        const text = await file.text();
+        const json = JSON.parse(text);
+        processTCGJson(json);
+        uploadStatus.textContent = "Arquivo TCG_CARD.json carregado com sucesso.";
+      } catch (err) {
+        uploadStatus.textContent = "Erro ao ler/parsear JSON. Verifique o formato.";
+      }
+    });
+
+    retryFetchBtn.addEventListener("click", () => {
+      tryFetchLocalJSON();
+    });
+
+    // ===============================
+    // Autenticação Anônima
+    // ===============================
+    function initAuth() {
+      signInAnonymously(auth).catch((error) => {
+        console.error("Erro no login anônimo:", error);
+        userBadge.textContent = "Erro na autenticação";
+        userBadge.classList.add("bg-rose-900/60", "border", "border-rose-600/70");
+      });
+
+      onAuthStateChanged(auth, async (user) => {
+        if (user) {
+          state.user = user;
+          userBadge.textContent = `Treinador #${user.uid.slice(-6)}`;
+          userBadge.classList.remove("bg-rose-900/60");
+          userBadge.classList.add("bg-emerald-900/50", "border", "border-emerald-500/70");
+
+          Object.keys(state.collections).forEach((key) => {
+            attachCollectionListener(key);
+          });
+        } else {
+          state.user = null;
+          userBadge.textContent = "Desconectado";
+        }
+      });
+    }
+
+    // ===============================
+    // Inicialização
+    // ===============================
+    function init() {
+      createMockCollection();
+      renderAlbums();
+      updateGlobalProgress();
+      initAuth();
+      tryFetchLocalJSON();
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>
