@@ -28,7 +28,6 @@
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-thumb { background-color: rgba(148, 163, 184, 0.7); border-radius: 9999px; }
 
-    /* Efeito 3D nos Cards */
     .card-3d {
       perspective: 1000px;
       transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -36,7 +35,6 @@
     }
     .card-3d:hover { transform: rotateY(15deg) rotateX(10deg) scale(1.02); }
 
-    /* Efeito Holograma */
     .hologram { position: relative; overflow: hidden; }
     .hologram::after {
       content: "";
@@ -54,7 +52,6 @@
       100% { transform: translateX(50%) translateY(50%) rotate(20deg); }
     }
 
-    /* Estilo da Pokébola (Checkbox customizado) */
     .pokeball-toggle {
       width: 28px;
       height: 28px;
@@ -100,7 +97,6 @@
     .pokeball-toggle:hover { transform: rotate(20deg) scale(1.1); }
     .pokeball-toggle:active { transform: scale(0.9); }
 
-    /* Pokedex Theme */
     .pokedex-card-bg {
       background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
       border: 2px solid #334155;
@@ -148,7 +144,6 @@
 
   <!-- 2. CONTEÚDO PROTEGIDO -->
   <div id="main-content" class="hidden">
-    
     <div class="fixed inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 opacity-90 pointer-events-none"></div>
 
     <nav class="fixed top-0 inset-x-0 z-20">
@@ -198,12 +193,12 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <label class="inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-dashed border-slate-600/70 cursor-pointer hover:border-sky-500 transition text-[11px]">
               <i class="fa-solid fa-upload text-sky-400"></i>
-              <span>TCG_CARD.json</span>
+              <span>Carregar TCG_CARD.json</span>
               <input id="file-input" type="file" accept="application/json" class="hidden" />
             </label>
             <div id="pokedex-status" class="px-3 py-2 rounded-xl border border-slate-700 bg-slate-800/50 text-[11px] flex items-center gap-2 text-slate-400">
               <i class="fa-solid fa-circle-info text-blue-400"></i>
-              <span>Pokedex base carregada do servidor.</span>
+              <span>Pokedex base sincronizada.</span>
             </div>
           </div>
         </section>
@@ -239,7 +234,7 @@
               <i class="fa-solid fa-address-book text-rose-500"></i>
               Pokedex Nacional
             </h2>
-            <p class="text-xs text-slate-400 mt-1">Lista organizada por ID. Clique para gerir variações TCG.</p>
+            <p class="text-xs text-slate-400 mt-1">Lista organizada por ID oficial.</p>
           </div>
           <div class="relative w-full md:w-80">
             <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
@@ -399,32 +394,34 @@
         state.pokedexSpecies = pokedexJson.sort((a, b) => a.id - b.id);
         processTCGJson(tcgJson);
       } catch (e) { 
-        console.error("Erro ao carregar dados:", e); 
+        console.error("Erro ao carregar arquivos JSON:", e); 
       }
     }
 
     function processTCGJson(json) {
-      const albumKeys = ["Evoluções Prismáticas", "151", "Escarlate e Violeta", "Fenda Paradoxal"];
       state.pokedexCardsBySpecies = {};
-
       const speciesMap = {};
       state.pokedexSpecies.forEach(s => {
         speciesMap[s.name.english.toLowerCase()] = s.name.english;
         state.pokedexCardsBySpecies[s.name.english] = [];
       });
 
+      // Identifica TODAS as coleções presentes no JSON dinamicamente
+      const dynamicCollections = new Set();
       json.forEach(card => {
         const baseName = getBaseName(card.Pokemon).toLowerCase();
         const officialName = speciesMap[baseName];
-        if (officialName) {
-          state.pokedexCardsBySpecies[officialName].push(card);
-        }
+        if (officialName) state.pokedexCardsBySpecies[officialName].push(card);
+        
+        if (card.Coleção) dynamicCollections.add(card.Coleção);
       });
 
-      albumKeys.forEach(name => {
-        const filteredCards = json.filter(c => c.Coleção.includes(name));
-        if (filteredCards.length > 0) {
-          const id = name.replace(/\s/g, '').toLowerCase();
+      // Cria os álbuns baseados nas coleções encontradas
+      Array.from(dynamicCollections).sort().forEach(name => {
+        const filteredCards = json.filter(c => c.Coleção === name);
+        const id = name.replace(/\s/g, '').toLowerCase();
+        
+        if (!state.collections[id]) {
           state.collections[id] = { name, cards: filteredCards, owned: new Set() };
           attachCollectionListener(id);
         }
@@ -437,14 +434,17 @@
     function attachCollectionListener(colId) {
       const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "collections", colId);
       if (state.unsubscribeMap[colId]) state.unsubscribeMap[colId]();
+      
       state.unsubscribeMap[colId] = onSnapshot(docRef, (snap) => {
         const data = snap.data() || {};
-        state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
-        if (state.currentCollection === colId) renderCards();
-        renderAlbums();
-        updateGlobalProgress();
-        if (state.currentView === 'pokedex') renderPokedex();
-      });
+        if (state.collections[colId]) {
+           state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+           if (state.currentCollection === colId) renderCards();
+           renderAlbums();
+           updateGlobalProgress();
+           if (state.currentView === 'pokedex') renderPokedex();
+        }
+      }, (err) => console.error(`Erro na coleção ${colId}:`, err));
     }
 
     function attachPokedexPrefsListener() {
@@ -452,14 +452,15 @@
       onSnapshot(docRef, (snap) => {
         state.representatives = snap.data() || {};
         if (state.currentView === 'pokedex') renderPokedex();
-      });
+      }, (err) => console.error("Erro nas preferências da Pokedex:", err));
     }
 
     // --- RENDERIZADORES ---
 
     function renderAlbums() {
       const grid = $("#albums-grid"); grid.innerHTML = "";
-      Object.keys(state.collections).forEach(id => {
+      // Ordena alfabeticamente para ficar organizado
+      Object.keys(state.collections).sort().forEach(id => {
         const col = state.collections[id];
         const pct = Math.round((col.owned.size / col.cards.length) * 100) || 0;
         const btn = document.createElement("button");
@@ -557,7 +558,6 @@
         cardEl.innerHTML = `
           <div class="relative group aspect-[3/4] mb-2 overflow-hidden rounded-lg">
              <img src="${card.Imagem}" class="w-full h-full object-cover">
-             <!-- BOTÕES DE SOBREPOSIÇÃO -->
              <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col items-center justify-center gap-3">
                 <button class="set-fav-btn flex items-center gap-2 px-3 py-1.5 bg-amber-400 text-slate-950 rounded-lg text-[10px] font-bold hover:bg-amber-300 transition">
                   <i class="fa-solid fa-star"></i> Favorito
@@ -577,24 +577,9 @@
           </div>
         `;
         
-        // Listener: Definir Favorito
-        cardEl.querySelector('.set-fav-btn').onclick = (e) => { 
-          e.stopPropagation(); 
-          setPokedexRepresentative(name, cardId); 
-        };
-
-        // Listener: Lupa (Ampliar)
-        cardEl.querySelector('.zoom-card-btn').onclick = (e) => {
-          e.stopPropagation();
-          openModal(card, cardId, isOwned);
-        };
-
-        // Listener: Pokébola (Toggle)
-        cardEl.querySelector('.pokeball-toggle').onclick = (e) => {
-          e.stopPropagation();
-          toggleCard(cardId, isOwned);
-        };
-
+        cardEl.querySelector('.set-fav-btn').onclick = (e) => { e.stopPropagation(); setPokedexRepresentative(name, cardId); };
+        cardEl.querySelector('.zoom-card-btn').onclick = (e) => { e.stopPropagation(); openModal(card, cardId, isOwned); };
+        cardEl.querySelector('.pokeball-toggle').onclick = (e) => { e.stopPropagation(); toggleCard(cardId, isOwned); };
         container.appendChild(cardEl);
       });
 
@@ -631,7 +616,7 @@
     $("#modal-close").onclick = () => $("#card-modal").classList.add("hidden");
 
     function updateGlobalProgress() {
-      let total = 0; let owned = 0;
+      let total = 0, owned = 0;
       Object.values(state.collections).forEach(c => { total += c.cards.length; owned += c.owned.size; });
       const pct = Math.round((owned / total) * 100) || 0;
       $("#global-progress").classList.remove("hidden");
@@ -643,7 +628,6 @@
       const file = e.target.files[0]; if (!file) return;
       const text = await file.text(); processTCGJson(JSON.parse(text));
     };
-
   </script>
 </body>
 </html>
