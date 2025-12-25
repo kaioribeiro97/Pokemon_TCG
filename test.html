@@ -89,7 +89,20 @@
   </style>
 </head>
 <body class="min-h-screen bg-slate-900 text-slate-100">
+<div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950">
+  <div class="w-full max-w-md p-8 bg-slate-900 rounded-3xl border border-slate-700 shadow-2xl">
+    <h2 class="text-2xl font-bold text-sky-400 mb-6 text-center">Acesso Restrito</h2>
+    <div class="space-y-4">
+      <input type="email" id="login-email" placeholder="E-mail" class="w-full p-3 rounded-xl bg-slate-800 border border-slate-600 text-white outline-none focus:border-sky-500">
+      <input type="password" id="login-pass" placeholder="Senha" class="w-full p-3 rounded-xl bg-slate-800 border border-slate-600 text-white outline-none focus:border-sky-500">
+      <button id="login-btn" class="w-full py-3 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition">Entrar</button>
+      <p id="login-error" class="text-rose-500 text-xs text-center hidden">Credenciais incorretas.</p>
+    </div>
+  </div>
+</div>
 
+<main id="main-content" class="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-10 hidden">
+  </main>
   <div class="fixed inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 opacity-90 pointer-events-none"></div>
 
   <nav class="fixed top-0 inset-x-0 z-20">
@@ -755,7 +768,47 @@
       initAuth();
       tryFetchLocalJSON();
     }
+    // Adicione o signInWithEmailAndPassword nos imports
+import { 
+  getAuth, 
+  signInWithEmailAndPassword, // Adicionado
+  onAuthStateChanged 
+} from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 
+// ... (restante das configs)
+
+const loginScreen = $("#login-screen");
+const mainContent = $("#main-content");
+const loginBtn = $("#login-btn");
+
+// Função de Login Manual
+loginBtn.addEventListener("click", async () => {
+  const email = $("#login-email").value;
+  const pass = $("#login-pass").value;
+  try {
+    await signInWithEmailAndPassword(auth, email, pass);
+  } catch (error) {
+    $("#login-error").classList.remove("hidden");
+  }
+});
+
+function initAuth() {
+  onAuthStateChanged(auth, (user) => {
+    // IMPORTANTE: Substitua 'SEU_UID_AQUI' pelo UID que você copiou do console
+    if (user && user.uid === "PZt2BWoC0TMjFOmDKH8DkfoEj6z2") {
+      state.user = user;
+      loginScreen.classList.add("hidden"); // Esconde o login
+      mainContent.classList.remove("hidden"); // Mostra o app
+      userBadge.textContent = "Treinador Master";
+      
+      Object.keys(state.collections).forEach(k => attachCollectionListener(k));
+    } else {
+      state.user = null;
+      loginScreen.classList.remove("hidden");
+      mainContent.classList.add("hidden");
+    }
+  });
+}
     document.addEventListener("DOMContentLoaded", init);
   </script>
 </body>
