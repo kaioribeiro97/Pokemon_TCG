@@ -1,3 +1,4 @@
+const DATA_VERSION = "1.0"; 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
     import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
     import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
@@ -86,22 +87,61 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
     $("#pokedex-search").addEventListener("input", (e) => { state.pokedexSearch = e.target.value.toLowerCase(); renderPokedex(); });
 
     // --- LÓGICA DE DADOS ---
-    async function loadData() {
-      try {
-        const [tcgRes, pokedexRes] = await Promise.all([
-          fetch("./TCG_CARD.json"),
-          fetch("./pokedex.json")
-        ]);
-        
-        const tcgJson = await tcgRes.json();
-        const pokedexJson = await pokedexRes.json();
-        
-        state.pokedexSpecies = pokedexJson.sort((a, b) => a.id - b.id);
-        processTCGJson(tcgJson);
-      } catch (e) { 
-        console.error("Erro ao carregar arquivos JSON:", e); 
-      }
+    
+
+async function loadData() {
+  // 1. Tenta pegar os dados salvos no navegador do utilizador
+  const cachedVersion = localStorage.getItem("pokemon_data_version");
+  const cachedTCG = localStorage.getItem("tcg_data");
+  const cachedPokedex = localStorage.getItem("pokedex_data");
+
+  // 2. Verifica se existem e se a versão é a mesma
+  if (cachedVersion === DATA_VERSION && cachedTCG && cachedPokedex) {
+    console.log("⚡ Carregando dados do Cache (Modo Rápido)...");
+    try {
+      // Converte o texto salvo de volta para objetos JSON
+      state.pokedexSpecies = JSON.parse(cachedPokedex);
+      processTCGJson(JSON.parse(cachedTCG));
+      return; // Sai da função aqui, economizando internet
+    } catch (e) {
+      console.warn("Cache corrompido, baixando novamente...");
+      // Se der erro, o código continua para o download abaixo
     }
+  }
+
+  // 3. Se não tiver cache ou a versão for antiga, baixa da internet
+  console.log("🌐 Baixando dados atualizados do servidor...");
+  try {
+    const [tcgRes, pokedexRes] = await Promise.all([
+      fetch("./TCG_CARD.json"),
+      fetch("./pokedex.json")
+    ]);
+
+    const tcgJson = await tcgRes.json();
+    const pokedexJson = await pokedexRes.json();
+    
+    // Ordena a pokedex antes de salvar (para economizar processamento futuro)
+    const sortedPokedex = pokedexJson.sort((a, b) => a.id - b.id);
+
+    // 4. Salva os novos dados no LocalStorage para a próxima vez
+    try {
+      localStorage.setItem("tcg_data", JSON.stringify(tcgJson));
+      localStorage.setItem("pokedex_data", JSON.stringify(sortedPokedex));
+      localStorage.setItem("pokemon_data_version", DATA_VERSION);
+      console.log("✅ Dados salvos no cache com sucesso!");
+    } catch (e) {
+      console.warn("⚠️ Não foi possível salvar no cache (provavelmente limite de espaço atingido). O site funcionará, mas sem modo offline.");
+    }
+
+    // Atualiza o estado da aplicação
+    state.pokedexSpecies = sortedPokedex;
+    processTCGJson(tcgJson);
+
+  } catch (e) { 
+    console.error("Erro fatal ao carregar arquivos JSON:", e); 
+    alert("Erro ao carregar dados. Verifique sua conexão.");
+  }
+}
 
     function processTCGJson(json) {
       state.pokedexCardsBySpecies = {};
