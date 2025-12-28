@@ -114,7 +114,10 @@
             </div>
           </div>
         </section>
-
+        <button id="btn-open-add-card" class="px-3 py-2 rounded-xl border border-sky-500/50 bg-sky-500/10 text-[11px] flex items-center gap-2 text-sky-400 hover:bg-sky-500 hover:text-slate-950 transition">
+  <i class="fa-solid fa-plus"></i>
+  <span>Adicionar Carta Avulsa</span>
+</button>
         <div id="albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
 
         <section id="collection-details" class="mt-8 hidden space-y-4">
@@ -140,20 +143,48 @@
 
       <!-- VISÃO: POKEDEX -->
       <section id="view-pokedex" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
-              <i class="fa-solid fa-address-book text-rose-500"></i>
-              Pokedex Nacional
-            </h2>
-            <p class="text-xs text-slate-400 mt-1">Lista organizada por ID oficial.</p>
-          </div>
-          <div class="relative w-full md:w-80">
-            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-            <input type="text" id="pokedex-search" placeholder="Pesquisar por nome ou ID..." 
-              class="w-full pl-9 pr-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-rose-500 transition">
-          </div>
-        </header>
+        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+  
+  <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+    <div>
+      <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+        <i class="fa-solid fa-address-book text-rose-500"></i>
+        Pokedex Nacional
+      </h2>
+      <p class="text-xs text-slate-400 mt-1">Registo oficial de espécies.</p>
+    </div>
+    <div class="relative w-full md:w-80">
+      <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+      <input type="text" id="pokedex-search" placeholder="Pesquisar por nome ou ID..." 
+        class="w-full pl-9 pr-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-rose-500 transition">
+    </div>
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-4 items-center justify-between border-t border-slate-800 pt-4">
+    
+    <div class="w-full md:w-1/2 flex flex-col gap-2">
+      <div class="flex justify-between text-[10px] uppercase font-bold tracking-wider">
+        <span class="text-slate-400">Progresso da Coleção</span>
+        <span id="pokedex-stats-text" class="text-rose-400">0 / 0 (0%)</span>
+      </div>
+      <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+        <div id="pokedex-progress-bar" class="h-full bg-gradient-to-r from-rose-500 to-orange-500 transition-all duration-500" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="flex bg-slate-800 p-1 rounded-xl">
+      <button data-filter="all" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase transition bg-slate-600 text-white shadow">
+        Todos
+      </button>
+      <button data-filter="owned" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
+        Tenho
+      </button>
+      <button data-filter="missing" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
+        Falta
+      </button>
+    </div>
+  </div>
+</header>
 
         <div id="pokedex-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"></div>
       </section>
@@ -205,7 +236,46 @@
     </div>
 
   </div>
+  <div id="add-card-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
+  <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
+    <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+      <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
+    </h3>
+    
+    <form id="form-add-card" class="space-y-4">
+      <div>
+        <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
+        <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
+          class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+      </div>
 
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Coleção</label>
+          <input type="text" id="new-card-col" required placeholder="Ex: Base Set" 
+            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-400 mb-1 ml-1">Número</label>
+          <input type="text" id="new-card-num" required placeholder="Ex: 4/102" 
+            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-xs text-slate-400 mb-1 ml-1">Link da Imagem (URL)</label>
+        <input type="url" id="new-card-img" required placeholder="https://..." 
+          class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+        <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
+      </div>
+
+      <div class="flex gap-3 pt-2">
+        <button type="button" id="btn-cancel-add" class="flex-1 py-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-sm">Cancelar</button>
+        <button type="submit" class="flex-1 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-sm shadow-lg shadow-emerald-500/20">Salvar Carta</button>
+      </div>
+    </form>
+  </div>
+</div>
   </div> <script type="module" src="script.js"></script>
 </body>
 </html>

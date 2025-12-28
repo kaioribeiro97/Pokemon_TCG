@@ -1,7 +1,7 @@
-const DATA_VERSION = "1.0"; 
+const DATA_VERSION = "1.2"; 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
     import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
-    import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+    import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
@@ -28,15 +28,24 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
       unsubscribeMap: {},
       searchQuery: "",
       pokedexSearch: "",
+      pokedexFilter: "all",
       currentView: "albums"
     };
 
     // --- UTILITÁRIOS ---
     
     function getBaseName(fullName) {
-      if (!fullName) return "";
-      return fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X)\b/gi, '').trim();
-    }
+  if (!fullName) return "";
+  
+  // 1. Remove sufixos de raridade (ex, GX, V, etc.)
+  let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X)\b/gi, '');
+
+  // 2. NOVA REGRA: Remove posse/treinador (ex: " da Misty", " do Arven", " da Equipe Rocket")
+  // Procura por " da ", " do ", " de " seguido de qualquer coisa até ao fim do nome
+  cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
+
+  return cleaned.trim();
+}
 
     // --- AUTENTICAÇÃO ---
     $("#login-btn").addEventListener("click", async () => {
@@ -85,62 +94,82 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
     // --- PESQUISA ---
     $("#card-search").addEventListener("input", (e) => { state.searchQuery = e.target.value.toLowerCase(); renderCards(); });
     $("#pokedex-search").addEventListener("input", (e) => { state.pokedexSearch = e.target.value.toLowerCase(); renderPokedex(); });
-
+document.querySelectorAll(".pokedex-filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    // Atualiza estado visual dos botões
+    document.querySelectorAll(".pokedex-filter-btn").forEach(b => {
+      b.className = "pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition";
+    });
+    btn.className = "pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase transition bg-slate-600 text-white shadow";
+    
+    // Atualiza lógica e redesenha
+    state.pokedexFilter = btn.dataset.filter;
+    renderPokedex();
+  });
+});
     // --- LÓGICA DE DADOS ---
     
 
 async function loadData() {
-  // 1. Tenta pegar os dados salvos no navegador do utilizador
+  let finalTCGData = [];
+  let finalPokedexData = [];
+
+  // 1. Tenta carregar o JSON BASE (Cache ou Web)
   const cachedVersion = localStorage.getItem("pokemon_data_version");
   const cachedTCG = localStorage.getItem("tcg_data");
   const cachedPokedex = localStorage.getItem("pokedex_data");
 
-  // 2. Verifica se existem e se a versão é a mesma
   if (cachedVersion === DATA_VERSION && cachedTCG && cachedPokedex) {
-    console.log("⚡ Carregando dados do Cache (Modo Rápido)...");
+    console.log("⚡ Carregando JSON do Cache...");
+    finalTCGData = JSON.parse(cachedTCG);
+    finalPokedexData = JSON.parse(cachedPokedex);
+  } else {
+    console.log("🌐 Baixando JSON atualizado...");
     try {
-      // Converte o texto salvo de volta para objetos JSON
-      state.pokedexSpecies = JSON.parse(cachedPokedex);
-      processTCGJson(JSON.parse(cachedTCG));
-      return; // Sai da função aqui, economizando internet
-    } catch (e) {
-      console.warn("Cache corrompido, baixando novamente...");
-      // Se der erro, o código continua para o download abaixo
-    }
-  }
+      const [tcgRes, pokedexRes] = await Promise.all([
+        fetch("./TCG_CARD.json"),
+        fetch("./pokedex.json")
+      ]);
+      finalTCGData = await tcgRes.json();
+      finalPokedexData = await pokedexRes.json();
+      
+      // Ordena Pokedex
+      finalPokedexData.sort((a, b) => a.id - b.id);
 
-  // 3. Se não tiver cache ou a versão for antiga, baixa da internet
-  console.log("🌐 Baixando dados atualizados do servidor...");
-  try {
-    const [tcgRes, pokedexRes] = await Promise.all([
-      fetch("./TCG_CARD.json"),
-      fetch("./pokedex.json")
-    ]);
-
-    const tcgJson = await tcgRes.json();
-    const pokedexJson = await pokedexRes.json();
-    
-    // Ordena a pokedex antes de salvar (para economizar processamento futuro)
-    const sortedPokedex = pokedexJson.sort((a, b) => a.id - b.id);
-
-    // 4. Salva os novos dados no LocalStorage para a próxima vez
-    try {
-      localStorage.setItem("tcg_data", JSON.stringify(tcgJson));
-      localStorage.setItem("pokedex_data", JSON.stringify(sortedPokedex));
+      // Salva Cache
+      localStorage.setItem("tcg_data", JSON.stringify(finalTCGData));
+      localStorage.setItem("pokedex_data", JSON.stringify(finalPokedexData));
       localStorage.setItem("pokemon_data_version", DATA_VERSION);
-      console.log("✅ Dados salvos no cache com sucesso!");
     } catch (e) {
-      console.warn("⚠️ Não foi possível salvar no cache (provavelmente limite de espaço atingido). O site funcionará, mas sem modo offline.");
+      console.error("Erro ao baixar JSONs:", e);
     }
-
-    // Atualiza o estado da aplicação
-    state.pokedexSpecies = sortedPokedex;
-    processTCGJson(tcgJson);
-
-  } catch (e) { 
-    console.error("Erro fatal ao carregar arquivos JSON:", e); 
-    alert("Erro ao carregar dados. Verifique sua conexão.");
   }
+
+  // 2. Carregar CARTAS AVULSAS (Firebase) - Isto acontece SEMPRE (Live)
+  if (state.user) {
+      console.log("🔥 Buscando cartas avulsas personalizadas...");
+      try {
+          const customRef = collection(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "custom_cards");
+          const snapshot = await getDocs(customRef);
+          
+          const customCards = [];
+          snapshot.forEach(doc => {
+              customCards.push(doc.data());
+          });
+
+          if (customCards.length > 0) {
+              console.log(`Adicionando ${customCards.length} cartas personalizadas à lista.`);
+              // Junta as cartas do JSON com as cartas do Firebase
+              finalTCGData = [...finalTCGData, ...customCards];
+          }
+      } catch (err) {
+          console.error("Erro ao carregar cartas customizadas:", err);
+      }
+  }
+
+  // 3. Processa tudo junto
+  state.pokedexSpecies = finalPokedexData;
+  processTCGJson(finalTCGData);
 }
 
     function processTCGJson(json) {
@@ -300,45 +329,103 @@ async function loadData() {
 }
 
     function renderPokedex() {
-      const grid = $("#pokedex-grid"); grid.innerHTML = "";
-      const filteredSpecies = state.pokedexSpecies.filter(s => 
-        s.name.english.toLowerCase().includes(state.pokedexSearch) || 
-        s.id.toString().includes(state.pokedexSearch)
-      );
+  const grid = document.querySelector("#pokedex-grid"); 
+  grid.innerHTML = "";
 
-      filteredSpecies.forEach(species => {
-        const name = species.name.english;
-        const tcgCards = state.pokedexCardsBySpecies[name] || [];
-        const ownedCards = tcgCards.filter(c => {
-          const cid = `${c.Coleção}#${c.Número}`;
-          const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
-          return state.collections[colId]?.owned.has(cid);
-        });
+  // 1. Calcular Estatísticas Globais (Antes de filtrar visualmente)
+  let totalSpecies = 0;
+  let ownedSpeciesCount = 0;
 
-        const hasAny = ownedCards.length > 0;
-        let displayImage = species.image.thumbnail;
-        
-        if (hasAny) {
-          const repId = state.representatives[name];
-          const favoriteCard = ownedCards.find(c => `${c.Coleção}#${c.Número}` === repId);
-          displayImage = favoriteCard ? favoriteCard.Imagem : ownedCards[0].Imagem;
-        }
+  // Percorre toda a lista para saber o progresso real
+  state.pokedexSpecies.forEach(species => {
+    totalSpecies++;
+    const name = species.name.english;
+    const tcgCards = state.pokedexCardsBySpecies[name] || [];
+    
+    // Verifica se temos alguma carta dessa espécie em qualquer coleção
+    const hasAny = tcgCards.some(c => {
+      const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
 
-        const card = document.createElement("button");
-        card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-600 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'grayscale opacity-30 border-slate-800'}`;
-        card.innerHTML = `
-          <div class="absolute top-2 left-2 pokedex-number-badge">#${species.id.toString().padStart(3, '0')}</div>
-          <div class="w-full aspect-square mb-3 flex items-center justify-center relative">
-            <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl">
-            ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full"></i>' : ''}
-          </div>
-          <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider text-slate-100">${name}</p>
-          <p class="text-[8px] text-slate-500 font-bold">${ownedCards.length}/${tcgCards.length} Cards</p>
-        `;
-        card.onclick = () => openPokedexModal(species);
-        grid.appendChild(card);
-      });
+    if (hasAny) ownedSpeciesCount++;
+  });
+
+  // Atualiza a barra de progresso no topo
+  const pct = totalSpecies > 0 ? Math.round((ownedSpeciesCount / totalSpecies) * 100) : 0;
+  document.querySelector("#pokedex-progress-bar").style.width = `${pct}%`;
+  document.querySelector("#pokedex-stats-text").textContent = `${ownedSpeciesCount} / ${totalSpecies} (${pct}%)`;
+
+
+  // 2. Filtragem para Exibição (Pesquisa + Filtro de Botão)
+  const filteredSpecies = state.pokedexSpecies.filter(species => {
+    // Filtro de Texto (Nome ou ID)
+    const matchesSearch = species.name.english.toLowerCase().includes(state.pokedexSearch) || 
+                          species.id.toString().includes(state.pokedexSearch);
+    
+    if (!matchesSearch) return false;
+
+    // Lógica para saber se tem a carta
+    const name = species.name.english;
+    const tcgCards = state.pokedexCardsBySpecies[name] || [];
+    const hasAny = tcgCards.some(c => {
+      const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
+
+    // Filtro dos Botões (All / Owned / Missing)
+    if (state.pokedexFilter === "owned" && !hasAny) return false;
+    if (state.pokedexFilter === "missing" && hasAny) return false;
+
+    return true;
+  });
+
+  // 3. Renderização da Grid
+  filteredSpecies.forEach(species => {
+    const name = species.name.english;
+    const tcgCards = state.pokedexCardsBySpecies[name] || [];
+    
+    // Filtra as cartas que o usuário tem desta espécie específica
+    const ownedCards = tcgCards.filter(c => {
+      const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
+
+    const hasAny = ownedCards.length > 0;
+    
+    // Define imagem de capa (favorita ou padrão)
+    let displayImage = species.image.thumbnail;
+    if (hasAny) {
+      const repId = state.representatives[name];
+      const favoriteCard = ownedCards.find(c => `${c.Coleção}#${c.Número}` === repId);
+      displayImage = favoriteCard ? favoriteCard.Imagem : ownedCards[0].Imagem;
     }
+
+    const card = document.createElement("button");
+    // Ajuste visual: Se não tiver, fica cinza e transparente
+    card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-600 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'grayscale opacity-30 border-slate-800'}`;
+    
+    card.innerHTML = `
+      <div class="absolute top-2 left-2 pokedex-number-badge">#${species.id.toString().padStart(3, '0')}</div>
+      <div class="w-full aspect-square mb-3 flex items-center justify-center relative">
+        <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl" loading="lazy">
+        ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full"></i>' : ''}
+      </div>
+      <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider text-slate-100">${name}</p>
+      <p class="text-[8px] text-slate-500 font-bold">${ownedCards.length} Cartas</p>
+    `;
+    card.onclick = () => openPokedexModal(species);
+    grid.appendChild(card);
+  });
+  
+  // Mensagem se não encontrar nada
+  if (filteredSpecies.length === 0) {
+      grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500">Nenhum Pokémon encontrado com estes filtros.</div>`;
+  }
+}
 
     // --- LOGICA POKEDEX MODAL ---
 
@@ -506,3 +593,53 @@ async function loadData() {
       const file = e.target.files[0]; if (!file) return;
       const text = await file.text(); processTCGJson(JSON.parse(text));
     };
+    // --- LÓGICA DE ADICIONAR CARTA AVULSA ---
+
+// Abrir/Fechar Modal
+const addCardModal = document.querySelector("#add-card-modal");
+document.querySelector("#btn-open-add-card")?.addEventListener("click", () => {
+    addCardModal.classList.remove("hidden");
+    addCardModal.classList.add("flex");
+});
+document.querySelector("#btn-cancel-add")?.addEventListener("click", () => {
+    addCardModal.classList.add("hidden");
+});
+
+// Salvar Carta no Firebase
+document.querySelector("#form-add-card").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const btn = e.target.querySelector("button[type='submit']");
+    const originalText = btn.textContent;
+    btn.textContent = "Salvando...";
+    btn.disabled = true;
+
+    // Cria o objeto igual ao do JSON
+    const newCard = {
+        Pokemon: document.querySelector("#new-card-name").value,
+        Coleção: document.querySelector("#new-card-col").value,
+        Número: document.querySelector("#new-card-num").value,
+        Imagem: document.querySelector("#new-card-img").value
+    };
+
+    try {
+        // Salva na coleção 'custom_cards' do usuário
+        const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "custom_cards");
+        await addDoc(customCardsRef, newCard);
+
+        // Limpa e fecha
+        e.target.reset();
+        addCardModal.classList.add("hidden");
+        alert("Carta adicionada com sucesso! A página será recarregada.");
+        
+        // Recarrega para mostrar a nova carta (Limpa cache rápido para garantir)
+        localStorage.removeItem("pokemon_data_version"); 
+        window.location.reload();
+
+    } catch (error) {
+        console.error("Erro ao salvar:", error);
+        alert("Erro ao salvar carta. Veja o console.");
+    } finally {
+        btn.textContent = originalText;
+        btn.disabled = false;
+    }
+});
