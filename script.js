@@ -1,4 +1,4 @@
-const DATA_VERSION = "1.2"; 
+const DATA_VERSION = "1.4"; 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
     import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
     import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
@@ -387,7 +387,6 @@ async function loadData() {
     const name = species.name.english;
     const tcgCards = state.pokedexCardsBySpecies[name] || [];
     
-    // Filtra as cartas que o usuário tem desta espécie específica
     const ownedCards = tcgCards.filter(c => {
       const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
       const cardId = `${c.Coleção}#${c.Número}`;
@@ -396,8 +395,8 @@ async function loadData() {
 
     const hasAny = ownedCards.length > 0;
     
-    // Define imagem de capa (favorita ou padrão)
-    let displayImage = species.image.thumbnail;
+    // 1. Sua lógica de imagem atualizada
+    let displayImage = `https://repositorio.sbrauble.com/arquivos/up/pokedex/${species.id}.svg`;
     if (hasAny) {
       const repId = state.representatives[name];
       const favoriteCard = ownedCards.find(c => `${c.Coleção}#${c.Número}` === repId);
@@ -405,18 +404,19 @@ async function loadData() {
     }
 
     const card = document.createElement("button");
-    // Ajuste visual: Se não tiver, fica cinza e transparente
     card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-600 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'grayscale opacity-30 border-slate-800'}`;
     
+    // 2. HTML com o container de tamanho fixo (w-[137px] h-[205px])
     card.innerHTML = `
       <div class="absolute top-2 left-2 pokedex-number-badge">#${species.id.toString().padStart(3, '0')}</div>
-      <div class="w-full aspect-square mb-3 flex items-center justify-center relative">
+      <div class="w-[137px] h-[205px] mb-3 flex items-center justify-center relative mx-auto">
         <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl" loading="lazy">
         ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full"></i>' : ''}
       </div>
       <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider text-slate-100">${name}</p>
       <p class="text-[8px] text-slate-500 font-bold">${ownedCards.length} Cartas</p>
     `;
+    
     card.onclick = () => openPokedexModal(species);
     grid.appendChild(card);
   });
