@@ -34,15 +34,18 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
 
     // --- UTILITÁRIOS ---
     
-    function getBaseName(fullName) {
+ function getBaseName(fullName) {
   if (!fullName) return "";
   
-  // 1. Remove sufixos de raridade (ex, GX, V, etc.)
+  // 1. Remove sufixos de raridade
   let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X)\b/gi, '');
 
-  // 2. NOVA REGRA: Remove posse/treinador (ex: " da Misty", " do Arven", " da Equipe Rocket")
-  // Procura por " da ", " do ", " de " seguido de qualquer coisa até ao fim do nome
+  // 2. Remove posse/treinador
   cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
+
+  // 3. NOVA REGRA: Remove prefixos de Mega Evolução (Mega ou M)
+  // O "^" garante que só remova se estiver no começo do nome
+  cleaned = cleaned.replace(/^(Mega|M)\s/i, '');
 
   return cleaned.trim();
 }
