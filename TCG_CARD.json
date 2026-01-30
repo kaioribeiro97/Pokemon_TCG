@@ -18412,7 +18412,38 @@
     "Número": "130",
     "Pokemon": "Mega Charizard X ex",
     "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_130.png"
-  },{
+  },
+  {
+    "Coleção": "Raio Preto",
+    "Número": "001",
+    "Pokemon": "Snivy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/black-white/pt-br/SV10pt5_ZSV_PTBR_1.png"
+  },
+  {
+    "Coleção": "Raio Preto",
+    "Número": "002",
+    "Pokemon": "Servine",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/black-white/pt-br/SV10pt5_ZSV_PTBR_2.png"
+  },
+  {
+    "Coleção": "Raio Preto",
+    "Número": "003",
+    "Pokemon": "Serperior ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/black-white/pt-br/SV10pt5_ZSV_PTBR_3.png"
+  },
+  {
+    "Coleção": "Raio Preto",
+    "Número": "004",
+    "Pokemon": "Pansage",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/black-white/pt-br/SV10pt5_ZSV_PTBR_4.png"
+  },
+  {
+    "Coleção": "Raio Preto",
+    "Número": "005",
+    "Pokemon": "Simisage",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/black-white/pt-br/SV10pt5_ZSV_PTBR_5.png"
+  },
+  {
     "Coleção": "Raio Preto",
     "Número": "006",
     "Pokemon": "Petilil",
