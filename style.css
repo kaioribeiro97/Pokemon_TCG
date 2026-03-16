@@ -214,3 +214,41 @@ body { font-family: 'Inter', sans-serif; }
   0% { background-position: 100% 100%; opacity: 0.2; }
   100% { background-position: 0% 0%; opacity: 0.5; }
 }
+/* --- FUNDO POKÉBOLA FOIL (HOLOGRÁFICO) --- */
+.bg-pokeball-foil {
+  position: fixed;
+  inset: 0;
+  z-index: 1; /* Fica logo acima do fundo preto, mas atrás de todo o resto */
+  pointer-events: none; /* Garante que não bloqueie cliques */
+  
+  /* Gradiente Holográfico (mesmas cores base do seu efeito de carta) */
+  background: linear-gradient(
+    115deg, 
+    #ec9bb6 0%, 
+    #ccac6f 25%, 
+    #69e4a5 50%, 
+    #8ec5d6 75%, 
+    #b98cce 100%
+  );
+  background-size: 200% 200%;
+  animation: holo-bg-slide 10s infinite linear alternate;
+  
+  /* Máscara: Desenho da Pokébola (Outline) em SVG que se repete infinitamente */
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="white" stroke-width="2.5"/><line x1="10" y1="50" x2="35" y2="50" stroke="white" stroke-width="2.5"/><line x1="65" y1="50" x2="90" y2="50" stroke="white" stroke-width="2.5"/><circle cx="50" cy="50" r="14" fill="none" stroke="white" stroke-width="2.5"/><circle cx="50" cy="50" r="4" fill="white"/></svg>');
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="white" stroke-width="2.5"/><line x1="10" y1="50" x2="35" y2="50" stroke="white" stroke-width="2.5"/><line x1="65" y1="50" x2="90" y2="50" stroke="white" stroke-width="2.5"/><circle cx="50" cy="50" r="14" fill="none" stroke="white" stroke-width="2.5"/><circle cx="50" cy="50" r="4" fill="white"/></svg>');
+  
+  /* Tamanho de cada Pokébola e repetição */
+  -webkit-mask-size: 250px 250px;
+  mask-size: 25px 25px;
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  
+  /* Opacidade baixa para ser um detalhe sutil (aumente se quiser mais forte) */
+  opacity: 0.2; 
+}
+
+/* Animação que faz o "Foil" se mover */
+@keyframes holo-bg-slide {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}

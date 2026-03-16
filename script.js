@@ -34,7 +34,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
 
     // --- UTILITÁRIOS ---
     
- function getBaseName(fullName) {
+function getBaseName(fullName) {
   if (!fullName) return "";
   
   // 1. Remove sufixos de raridade
@@ -44,8 +44,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
   cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
 
   // 3. NOVA REGRA: Remove prefixos de Mega Evolução (Mega ou M)
-  // O "^" garante que só remova se estiver no começo do nome
   cleaned = cleaned.replace(/^(Mega|M)\s/i, '');
+
+  // 4. NOVA REGRA: Remove Formas/Máscaras (ex: Ogerpon Máscara Turquesa)
+  // Remove a palavra "Máscara" e qualquer texto que venha depois dela até o fim da linha
+  cleaned = cleaned.replace(/\sMáscara\s.+$/i, '');
+
+  // BÔNUS: Se você tiver Pokémon com "Estilo" (ex: Urshifu Estilo Golpe Fluido) ou "Forma"
+  cleaned = cleaned.replace(/\s(Estilo|Forma)\s.+$/i, '');
 
   return cleaned.trim();
 }
@@ -406,20 +412,20 @@ async function loadData() {
       displayImage = favoriteCard ? favoriteCard.Imagem : ownedCards[0].Imagem;
     }
 
-    const card = document.createElement("button");
-    card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-600 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'grayscale opacity-30 border-slate-800'}`;
+   const card = document.createElement("button");
+    // 1. Removemos a opacidade do fundo do cartão para ele não sumir na tela
+    card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-500 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'border-slate-800 opacity-80'}`;
     
-    // 2. HTML com o container de tamanho fixo (w-[137px] h-[205px])
+    // 2. Aplicamos o efeito de silhueta (brightness-0) apenas na IMAGEM do Pokémon
     card.innerHTML = `
-      <div class="absolute top-2 left-2 pokedex-number-badge">#${species.id.toString().padStart(3, '0')}</div>
+      <div class="absolute top-2 left-2 pokedex-number-badge ${hasAny ? 'bg-rose-500 text-white' : 'bg-slate-700 text-slate-400'}">#${species.id.toString().padStart(3, '0')}</div>
       <div class="w-[137px] h-[205px] mb-3 flex items-center justify-center relative mx-auto">
-        <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl" loading="lazy">
-        ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full"></i>' : ''}
+        <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl transition-all duration-300 ${hasAny ? '' : 'brightness-0 opacity-50'}" loading="lazy">
+        ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full shadow"></i>' : '<i class="fa-solid fa-lock absolute -bottom-1 -right-1 text-slate-600 text-sm bg-slate-900 rounded-full p-1"></i>'}
       </div>
-      <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider text-slate-100">${name}</p>
-      <p class="text-[8px] text-slate-500 font-bold">${ownedCards.length} Cartas</p>
+      <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider ${hasAny ? 'text-slate-100' : 'text-slate-500'}">${name}</p>
+      <p class="text-[8px] font-bold ${hasAny ? 'text-slate-400' : 'text-slate-600'}">${ownedCards.length} Cartas</p>
     `;
-    
     card.onclick = () => openPokedexModal(species);
     grid.appendChild(card);
   });
@@ -449,7 +455,7 @@ async function loadData() {
       tcgCards.forEach(card => {
         const cardId = `${card.Coleção}#${card.Número}`;
         const colId = card.Coleção.replace(/\s/g, '').toLowerCase();
-        const isOwned = state.collections[colId]?.owned.has(cardId);
+        let isOwned = state.collections[colId]?.owned.has(cardId);
         const isFav = state.representatives[name] === cardId;
 
         const cardEl = document.createElement("div");
@@ -478,7 +484,18 @@ async function loadData() {
         
         cardEl.querySelector('.set-fav-btn').onclick = (e) => { e.stopPropagation(); setPokedexRepresentative(name, cardId); };
         cardEl.querySelector('.zoom-card-btn').onclick = (e) => { e.stopPropagation(); openModal(card, cardId, isOwned); };
-        cardEl.querySelector('.pokeball-toggle').onclick = (e) => { e.stopPropagation(); toggleCard(cardId, isOwned); };
+        cardEl.querySelector('.pokeball-toggle').onclick = (e) => { 
+  e.stopPropagation(); 
+  
+  // 1. Envia a alteração para o Firebase
+  toggleCard(cardId, isOwned); 
+  
+  // 2. Inverte a variável local para que o botão "Ampliar" e os próximos cliques continuem funcionando
+  isOwned = !isOwned; 
+  
+  // 3. Muda a cor da Pokébola instantaneamente na tela!
+  e.currentTarget.classList.toggle("active");
+};
         container.appendChild(cardEl);
       });
 
