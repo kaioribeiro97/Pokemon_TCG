@@ -20875,5 +20875,1314 @@
   { "Coleção": "Fábulas Nebulosas", "Número": "096", "Pokemon": "Recipiente Terrestre", "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/shrouded-fable/pt-br/SV6pt5_PTBR_96.png"},
   { "Coleção": "Fábulas Nebulosas", "Número": "097", "Pokemon": "Ampulheta Poderosa", "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/shrouded-fable/pt-br/SV6pt5_PTBR_97.png"},
   { "Coleção": "Fábulas Nebulosas", "Número": "098", "Pokemon": "Energia Básica", "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/shrouded-fable/pt-br/SV6pt5_PTBR_98.png"},
-  { "Coleção": "Fábulas Nebulosas", "Número": "099", "Pokemon": "Energia Básica", "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/shrouded-fable/pt-br/SV6pt5_PTBR_99.png"}
+  { "Coleção": "Fábulas Nebulosas", "Número": "099", "Pokemon": "Energia Básica", "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/shrouded-fable/pt-br/SV6pt5_PTBR_99.png"},
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "001",
+    "Pokemon": "Scyther",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_1.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "002",
+    "Pokemon": "Pineco",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_2.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "003",
+    "Pokemon": "Seedot",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_3.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "004",
+    "Pokemon": "Nuzleaf",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_4.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "005",
+    "Pokemon": "Shiftry",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_5.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "006",
+    "Pokemon": "Shroomish",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_6.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "007",
+    "Pokemon": "Breloom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_7.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "008",
+    "Pokemon": "Roselia",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_8.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "009",
+    "Pokemon": "Roserade",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_9.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "010",
+    "Pokemon": "Turtwig",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_10.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "011",
+    "Pokemon": "Grotle",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_11.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "012",
+    "Pokemon": "Torterra ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_12.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "013",
+    "Pokemon": "Shaymin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_13.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "014",
+    "Pokemon": "Cottonee",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_14.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "015",
+    "Pokemon": "Whimsicott",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_15.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "016",
+    "Pokemon": "Deerling",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_16.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "017",
+    "Pokemon": "Sawsbuck",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_17.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "018",
+    "Pokemon": "Grubbin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_18.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "019",
+    "Pokemon": "Dhelmise",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_19.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "020",
+    "Pokemon": "Bramblin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_20.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "021",
+    "Pokemon": "Brambleghast",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_21.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "022",
+    "Pokemon": "Scovillain ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_22.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "023",
+    "Pokemon": "Rellar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_23.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "024",
+    "Pokemon": "Rabsca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_24.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "025",
+    "Pokemon": "Folhas Férreas ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_25.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "026",
+    "Pokemon": "Ponyta",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_26.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "027",
+    "Pokemon": "Rapidash",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_27.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "028",
+    "Pokemon": "Slugma",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_28.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "029",
+    "Pokemon": "Magcargo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_29.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "030",
+    "Pokemon": "Victini",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_30.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "031",
+    "Pokemon": "Heatmor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_31.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "032",
+    "Pokemon": "Litten",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_32.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "033",
+    "Pokemon": "Torracat",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_33.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "034",
+    "Pokemon": "Incineroar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_34.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "035",
+    "Pokemon": "Turtonator",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_35.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "036",
+    "Pokemon": "Sizzlipede",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_36.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "037",
+    "Pokemon": "Centiskorch",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_37.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "038",
+    "Pokemon": "Fogo Corrosão ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_38.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "039",
+    "Pokemon": "Totodile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_39.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "040",
+    "Pokemon": "Croconaw",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_40.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "041",
+    "Pokemon": "Feraligatr",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_41.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "042",
+    "Pokemon": "Carvanha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_42.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "043",
+    "Pokemon": "Sharpedo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_43.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "044",
+    "Pokemon": "Keldeo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_44.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "045",
+    "Pokemon": "Snom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_45.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "046",
+    "Pokemon": "Frosmoth",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_46.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "047",
+    "Pokemon": "Wiglett",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_47.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "048",
+    "Pokemon": "Finizen",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_48.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "049",
+    "Pokemon": "Palafin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_49.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "050",
+    "Pokemon": "Onda Ando ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_50.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "051",
+    "Pokemon": "Pikachu",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_51.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "052",
+    "Pokemon": "Raichu",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_52.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "053",
+    "Pokemon": "Electabuzz",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_53.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "054",
+    "Pokemon": "Electivire",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_54.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "055",
+    "Pokemon": "Charjabug",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_55.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "056",
+    "Pokemon": "Vikavolt",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_56.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "057",
+    "Pokemon": "Zeraora",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_57.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "058",
+    "Pokemon": "Yamper",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_58.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "059",
+    "Pokemon": "Boltund",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_59.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "060",
+    "Pokemon": "Wugtrio ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_60.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "061",
+    "Pokemon": "Mãos Férreas",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_61.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "062",
+    "Pokemon": "Espinhos Férreos",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_62.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "063",
+    "Pokemon": "Mr. Mime",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_63.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "064",
+    "Pokemon": "Marill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_64.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "065",
+    "Pokemon": "Azumarill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_65.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "066",
+    "Pokemon": "Girafarig",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_66.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "067",
+    "Pokemon": "Latias",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_67.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "068",
+    "Pokemon": "Bronzor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_68.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "069",
+    "Pokemon": "Bronzong",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_69.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "070",
+    "Pokemon": "Solosis",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_70.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "071",
+    "Pokemon": "Duosion",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_71.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "072",
+    "Pokemon": "Reuniclus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_72.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "073",
+    "Pokemon": "Elgyem",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_73.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "074",
+    "Pokemon": "Beheeyem",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_74.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "075",
+    "Pokemon": "Cutiefly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_75.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "076",
+    "Pokemon": "Ribombee",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_76.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "077",
+    "Pokemon": "Cauda Brado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_77.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "078",
+    "Pokemon": "Juba Sopro",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_78.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "079",
+    "Pokemon": "Valentia Férrea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_79.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "080",
+    "Pokemon": "Valentia Férrea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_80.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "081",
+    "Pokemon": "Chifres Férreos ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_81.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "082",
+    "Pokemon": "Meditite",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_82.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "083",
+    "Pokemon": "Medicham",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_83.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "084",
+    "Pokemon": "Relicanth",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_84.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "085",
+    "Pokemon": "Drilbur",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_85.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "086",
+    "Pokemon": "Excadrill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_86.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "087",
+    "Pokemon": "Golett",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_87.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "088",
+    "Pokemon": "Golurk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_88.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "089",
+    "Pokemon": "Rockruff",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_89.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "090",
+    "Pokemon": "Lycanroc",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_90.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "091",
+    "Pokemon": "Mudbray",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_91.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "092",
+    "Pokemon": "Mudsdale",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_92.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "093",
+    "Pokemon": "Rolycoly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_93.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "094",
+    "Pokemon": "Carkol",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_94.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "095",
+    "Pokemon": "Coalossal",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_95.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "096",
+    "Pokemon": "Presa Grande",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_96.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "097",
+    "Pokemon": "Presa Grande",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_97.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "098",
+    "Pokemon": "Choque Areia",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_98.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "099",
+    "Pokemon": "Rocha Férrea ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_99.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "100",
+    "Pokemon": "Ekans",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_100.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "101",
+    "Pokemon": "Arbok",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_101.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "102",
+    "Pokemon": "Gastly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_102.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "103",
+    "Pokemon": "Haunter",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_103.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "104",
+    "Pokemon": "Gengar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_104.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "105",
+    "Pokemon": "Poochyena",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_105.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "106",
+    "Pokemon": "Mightyena",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_106.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "107",
+    "Pokemon": "Sableye",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_107.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "108",
+    "Pokemon": "Farigiraf ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_108.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "109",
+    "Pokemon": "Lua Estrondo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_109.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "110",
+    "Pokemon": "Forretress",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_110.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "111",
+    "Pokemon": "Scizor ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_111.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "112",
+    "Pokemon": "Mawile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_112.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "113",
+    "Pokemon": "Beldum",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_113.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "114",
+    "Pokemon": "Metang",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_114.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "115",
+    "Pokemon": "Metagross",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_115.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "116",
+    "Pokemon": "Meltan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_116.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "117",
+    "Pokemon": "Melmetal",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_117.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "118",
+    "Pokemon": "Trilho Férreo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_118.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "119",
+    "Pokemon": "Koraidon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_119.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "120",
+    "Pokemon": "Koraidon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_120.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "121",
+    "Pokemon": "Miraidon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_121.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "122",
+    "Pokemon": "Miraidon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_122.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "123",
+    "Pokemon": "Raio Fúria ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_123.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "124",
+    "Pokemon": "Lickitung",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_124.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "125",
+    "Pokemon": "Lickilicky",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_125.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "126",
+    "Pokemon": "Hoothoot",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_126.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "127",
+    "Pokemon": "Noctowl",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_127.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "128",
+    "Pokemon": "Dunsparce",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_128.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "129",
+    "Pokemon": "Dudunsparce",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_129.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "130",
+    "Pokemon": "Skitty",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_130.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "131",
+    "Pokemon": "Delcatty",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_131.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "132",
+    "Pokemon": "Chatot",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_132.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "133",
+    "Pokemon": "Pidove",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_133.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "134",
+    "Pokemon": "Tranquill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_134.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "135",
+    "Pokemon": "Unfezant",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_135.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "136",
+    "Pokemon": "Minccino",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_136.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "137",
+    "Pokemon": "Cinccino",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_137.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "138",
+    "Pokemon": "Drampa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_138.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "139",
+    "Pokemon": "Jugulares Férreas",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_139.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "140",
+    "Pokemon": "Cápsula Energética de Melhoria Ancestral",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_140.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "141",
+    "Pokemon": "Tambor do Despertar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_141.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "142",
+    "Pokemon": "Dedicação da Bianca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_142.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "143",
+    "Pokemon": "Pedido Encaixotado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_143.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "144",
+    "Pokemon": "Poffin de Colega",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_144.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "145",
+    "Pokemon": "Decodificação da Criptomaniaca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_145.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "146",
+    "Pokemon": "Eri",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_146.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "147",
+    "Pokemon": "Liderança do Explorador",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_147.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "148",
+    "Pokemon": "Laboratório Metálico",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_148.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "149",
+    "Pokemon": "Cápsula Energética de Melhoria Futurista",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_149.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "150",
+    "Pokemon": "Aparador de Mão",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_150.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "151",
+    "Pokemon": "Bastão Pesado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_151.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "152",
+    "Pokemon": "Capa de Herói",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_152.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "153",
+    "Pokemon": "Bola Mestra",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_153.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "154",
+    "Pokemon": "Cinturão Máximo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_154.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "155",
+    "Pokemon": "Convicção do Morty",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_155.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "156",
+    "Pokemon": "Selva Perigosa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_156.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "157",
+    "Pokemon": "Pegador Superior",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_157.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "158",
+    "Pokemon": "Cápsula do Reinicio",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_158.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "159",
+    "Pokemon": "Skate de Resgate",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_159.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "160",
+    "Pokemon": "Salvatore",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_160.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "161",
+    "Pokemon": "Energia Nebulosa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_161.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "162",
+    "Pokemon": "Energia Neossuperior",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_162.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "163",
+    "Pokemon": "Shiftry",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_163.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "164",
+    "Pokemon": "Grotle",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_164.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "165",
+    "Pokemon": "Deerling",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_165.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "166",
+    "Pokemon": "Sawsbuck",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_166.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "167",
+    "Pokemon": "Litten",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_167.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "168",
+    "Pokemon": "Snom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_168.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "169",
+    "Pokemon": "Charjabug",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_169.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "170",
+    "Pokemon": "Bronzor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_170.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "171",
+    "Pokemon": "Reuniclus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_171.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "172",
+    "Pokemon": "Cutiefly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_172.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "173",
+    "Pokemon": "Relicanth",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_173.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "174",
+    "Pokemon": "Excadrill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_174.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "175",
+    "Pokemon": "Mudsdale",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_175.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "176",
+    "Pokemon": "Arbok",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_176.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "177",
+    "Pokemon": "Gastly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_177.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "178",
+    "Pokemon": "Metagross",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_178.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "179",
+    "Pokemon": "Meltan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_179.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "180",
+    "Pokemon": "Lickitung",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_180.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "181",
+    "Pokemon": "Chatot",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_181.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "182",
+    "Pokemon": "Minccino",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_182.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "183",
+    "Pokemon": "Cinccino",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_183.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "184",
+    "Pokemon": "Drampa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_184.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "185",
+    "Pokemon": "Torterra ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_185.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "186",
+    "Pokemon": "Folhas Férreas ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_186.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "187",
+    "Pokemon": "Incineroar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_187.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "188",
+    "Pokemon": "Fogo Corrosão ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_188.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "189",
+    "Pokemon": "Onda Ando ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_189.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "190",
+    "Pokemon": "Wugtrio ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_190.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "191",
+    "Pokemon": "Chifres Férreas ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_191.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "192",
+    "Pokemon": "Rocha Férrea ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_192.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "193",
+    "Pokemon": "Gengar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_193.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "194",
+    "Pokemon": "Farigiraf ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_194.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "195",
+    "Pokemon": "Scizor ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_195.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "196",
+    "Pokemon": "Raio Fúria ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_196.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "197",
+    "Pokemon": "Dedicação da Bianca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_197.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "198",
+    "Pokemon": "Decodificação da Criptomaníaca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_198.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "199",
+    "Pokemon": "Eri",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_199.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "200",
+    "Pokemon": "Liderança do Explorador",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_200.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "201",
+    "Pokemon": "Convicção do Morty",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_201.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "202",
+    "Pokemon": "Salvatore",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_202.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "203",
+    "Pokemon": "Folhas Férreas ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_203.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "204",
+    "Pokemon": "Fogo Corrosão ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_204.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "205",
+    "Pokemon": "Onda Ando ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_205.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "206",
+    "Pokemon": "Chifres Férreos ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_206.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "207",
+    "Pokemon": "Rocha Férrea ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_207.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "208",
+    "Pokemon": "Raio Fúria ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_208.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "209",
+    "Pokemon": "Dedicação da Bianca",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_209.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "210",
+    "Pokemon": "Eri",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_210.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "211",
+    "Pokemon": "Convicção do Morty",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_211.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "212",
+    "Pokemon": "Salvatore",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_212.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "213",
+    "Pokemon": "Folhas Férreas ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_213.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "214",
+    "Pokemon": "Fogo Corrosão ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_214.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "215",
+    "Pokemon": "Onda Ando ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_215.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "216",
+    "Pokemon": "Chifres Férreos ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_216.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "217",
+    "Pokemon": "Rocha Férrea ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_217.png"
+  },
+  {
+    "Coleção": "Forças Temporais",
+    "Número": "218",
+    "Pokemon": "Raio Fúria ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/temporal-forces/pt-br/SV05_PTBR_218.png"
+  }
+
 ]
