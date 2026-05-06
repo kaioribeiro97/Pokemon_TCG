@@ -31,7 +31,200 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
       pokedexFilter: "all",
       currentView: "albums"
     };
+// --- DADOS DA COPA DO MUNDO 2026 (Extraído do PDF) ---
+// --- DADOS DA COPA DO MUNDO 2026 (Extraído do PDF) ---
+const copaData = [
+  { id: "FWC", name: "Página Inicial", count: 9, start: 0, icon: "fa-globe" },
+  { id: "MEX", name: "México", count: 20, iso: "mx" },
+  { id: "RSA", name: "África do Sul", count: 20, iso: "za" },
+  { id: "KOR", name: "Coréia do Sul", count: 20, iso: "kr" },
+  { id: "CZE", name: "Rep. Tcheca", count: 20, iso: "cz" },
+  { id: "CAN", name: "Canadá", count: 20, iso: "ca" },
+  { id: "BIH", name: "Bósnia", count: 20, iso: "ba" },
+  { id: "QAT", name: "Catar", count: 20, iso: "qa" },
+  { id: "SUI", name: "Suiça", count: 20, iso: "ch" },
+  { id: "BRA", name: "Brasil", count: 20, iso: "br" },
+  { id: "MAR", name: "Marrocos", count: 20, iso: "ma" },
+  { id: "HAI", name: "Haiti", count: 20, iso: "ht" },
+  { id: "SCO", name: "Escócia", count: 20, iso: "gb-sct" },
+  { id: "USA", name: "Estados Unidos", count: 20, iso: "us" },
+  { id: "PAR", name: "Paraguai", count: 20, iso: "py" },
+  { id: "AUS", name: "Austrália", count: 20, iso: "au" },
+  { id: "TUR", name: "Turquia", count: 20, iso: "tr" },
+  { id: "GER", name: "Alemanha", count: 20, iso: "de" },
+  { id: "CUW", name: "Curaçao", count: 20, iso: "cw" },
+  { id: "CIV", name: "Costa do Marfim", count: 20, iso: "ci" },
+  { id: "ECU", name: "Equador", count: 20, iso: "ec" },
+  { id: "NED", name: "Holanda", count: 20, iso: "nl" },
+  { id: "JPN", name: "Japão", count: 20, iso: "jp" },
+  { id: "SWE", name: "Suécia", count: 20, iso: "se" },
+  { id: "TUN", name: "Tunísia", count: 20, iso: "tn" },
+  { id: "BEL", name: "Bélgica", count: 20, iso: "be" },
+  { id: "EGY", name: "Egito", count: 20, iso: "eg" },
+  { id: "IRN", name: "Irã", count: 20, iso: "ir" },
+  { id: "NZL", name: "Nova Zelândia", count: 20, iso: "nz" },
+  { id: "ESP", name: "Espanha", count: 20, iso: "es" },
+  { id: "CPV", name: "Cabo Verde", count: 20, iso: "cv" },
+  { id: "KSA", name: "Arábia Saudita", count: 20, iso: "sa" },
+  { id: "URU", name: "Uruguai", count: 20, iso: "uy" },
+  { id: "FRA", name: "França", count: 20, iso: "fr" },
+  { id: "SEN", name: "Senegal", count: 20, iso: "sn" },
+  { id: "IRQ", name: "Iraque", count: 20, iso: "iq" },
+  { id: "NOR", name: "Noruega", count: 20, iso: "no" },
+  { id: "ARG", name: "Argentina", count: 20, iso: "ar" },
+  { id: "ALG", name: "Argélia", count: 20, iso: "dz" },
+  { id: "AUT", name: "Áustria", count: 20, iso: "at" },
+  { id: "JOR", name: "Jordânia", count: 20, iso: "jo" },
+  { id: "POR", name: "Portugal", count: 20, iso: "pt" },
+  { id: "COD", name: "Congo", count: 20, iso: "cd" },
+  { id: "UZB", name: "Uzbequistão", count: 20, iso: "uz" },
+  { id: "COL", name: "Colômbia", count: 20, iso: "co" },
+  { id: "ENG", name: "Inglaterra", count: 20, iso: "gb-eng" },
+  { id: "CRO", name: "Croácia", count: 20, iso: "hr" },
+  { id: "GHA", name: "Gana", count: 20, iso: "gh" },
+  { id: "PAN", name: "Panamá", count: 20, iso: "pa" },
+  { id: "CC", name: "Coca-Cola", count: 14, icon: "fa-bottle-water" }
+];
 
+// Adiciona propriedades de estado para a Copa
+state.copaStickers = new Set();
+state.currentCopaTeam = null;
+
+// --- FUNÇÕES DA COPA ---
+
+// Escuta as figurinhas salvas no Firebase
+function attachCopaListener() {
+  const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "copa_2026", "stickers");
+  
+  if (state.unsubscribeMap['copa']) state.unsubscribeMap['copa']();
+  
+  state.unsubscribeMap['copa'] = onSnapshot(docRef, (snap) => {
+    const data = snap.data() || {};
+    state.copaStickers = new Set(Object.keys(data).filter(k => data[k]));
+    
+    if (state.currentView === 'copa') {
+      renderCopaTeams();
+      if(state.currentCopaTeam) renderCopaStickers(state.currentCopaTeam);
+    }
+  }, (err) => console.error("Erro na coleção da Copa:", err));
+}
+
+// Alterna o status da figurinha no Firebase
+async function toggleCopaSticker(stickerId, isOwned) {
+  const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "copa_2026", "stickers");
+  await setDoc(docRef, { [stickerId]: !isOwned }, { merge: true });
+}
+
+// Renderiza os times/grupos na tela
+function renderCopaTeams() {
+  const grid = document.querySelector("#copa-teams-grid");
+  grid.innerHTML = "";
+  
+  let totalStickers = 0;
+  let totalOwned = 0;
+
+  copaData.forEach(team => {
+    totalStickers += team.count;
+    
+    // Conta quantas figurinhas deste time você tem
+    let ownedInTeam = 0;
+    let startIdx = team.start !== undefined ? team.start : 1;
+    let endIdx = startIdx + team.count - 1;
+    
+    for(let i = startIdx; i <= endIdx; i++) {
+        let stickerId = `${team.id}${i}`;
+        if(state.copaStickers.has(stickerId)) {
+            ownedInTeam++;
+            totalOwned++;
+        }
+    }
+
+    const pct = Math.round((ownedInTeam / team.count) * 100) || 0;
+    
+    // Lógica para mostrar a bandeira ou um ícone
+    const flagHTML = team.iso 
+        ? `<img src="https://flagcdn.com/w40/${team.iso}.png" class="w-8 h-6 rounded-sm object-cover shadow-sm border border-slate-700" alt="${team.name}">`
+        : `<div class="w-8 h-6 rounded-sm bg-slate-800 flex items-center justify-center border border-slate-700"><i class="fa-solid ${team.icon} text-emerald-500 text-xs"></i></div>`;
+
+    const btn = document.createElement("button");
+    btn.className = "group p-4 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-emerald-500 transition shadow-xl relative overflow-hidden";
+    btn.innerHTML = `
+      <div class="flex justify-between items-start mb-3">
+        <div class="flex items-center gap-3">
+          ${flagHTML}
+          <div>
+            <h4 class="font-bold text-white text-sm group-hover:text-emerald-400 transition">${team.name}</h4>
+            <p class="text-[10px] text-slate-500 font-mono">${team.id}</p>
+          </div>
+        </div>
+        <span class="text-[10px] font-bold ${pct === 100 ? 'bg-emerald-500/20 text-emerald-400' : 'bg-slate-700 text-slate-300'} px-2 py-1 rounded-md transition">${pct}%</span>
+      </div>
+      <div class="mt-2 w-full h-1 bg-slate-700 rounded-full overflow-hidden">
+        <div class="h-full ${pct === 100 ? 'bg-emerald-400' : 'bg-emerald-600'} transition-all duration-500" style="width: ${pct}%"></div>
+      </div>
+    `;
+    
+    btn.onclick = () => {
+      state.currentCopaTeam = team.id;
+      document.querySelector("#copa-teams-grid").classList.add("hidden");
+      document.querySelector("#copa-details").classList.remove("hidden");
+      renderCopaStickers(team.id);
+    };
+    grid.appendChild(btn);
+  });
+
+  // Atualiza barra de progresso global da Copa
+  const globalPct = Math.round((totalOwned / totalStickers) * 100) || 0;
+  document.querySelector("#copa-progress-bar").style.width = `${globalPct}%`;
+  document.querySelector("#copa-stats-text").textContent = `${totalOwned} / ${totalStickers} (${globalPct}%)`;
+}
+
+// Renderiza a lista de 1 a 20 figurinhas de um time selecionado
+function renderCopaStickers(teamId) {
+  const team = copaData.find(t => t.id === teamId);
+  const grid = document.querySelector("#copa-stickers-grid");
+  grid.innerHTML = "";
+  
+  // Atualiza o Título com a Bandeira
+  const flagHTML = team.iso 
+      ? `<img src="https://flagcdn.com/w40/${team.iso}.png" class="w-8 h-6 rounded object-cover shadow-sm mr-3 border border-slate-700" alt="${team.name}">`
+      : `<i class="fa-solid ${team.icon || 'fa-futbol'} text-emerald-500 text-xl mr-3"></i>`;
+      
+  document.querySelector("#copa-details-title").innerHTML = `<div class="flex items-center">${flagHTML} <span>${team.name}</span></div>`;
+  
+  let ownedInTeam = 0;
+  let startIdx = team.start !== undefined ? team.start : 1;
+  let endIdx = startIdx + team.count - 1;
+
+  for(let i = startIdx; i <= endIdx; i++) {
+    const stickerId = `${team.id}${i}`;
+    const isOwned = state.copaStickers.has(stickerId);
+    if(isOwned) ownedInTeam++;
+
+    const btn = document.createElement("button");
+    const displayNum = team.id === "FWC" && i < 10 ? `0${i}` : i; 
+    
+    btn.className = `aspect-square flex flex-col items-center justify-center rounded-xl font-bold text-sm border-2 transition-all duration-200 transform hover:scale-105 active:scale-95 ${
+      isOwned 
+        ? 'bg-emerald-500/20 border-emerald-500 text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.3)]' 
+        : 'bg-slate-800 border-slate-700 text-slate-500 hover:border-slate-500 hover:text-slate-300'
+    }`;
+    
+    btn.innerHTML = `<span>${displayNum}</span>`;
+    
+    btn.onclick = () => { toggleCopaSticker(stickerId, isOwned); };
+    grid.appendChild(btn);
+  }
+  
+  document.querySelector("#copa-details-subtitle").textContent = `${ownedInTeam} de ${team.count} completas`;
+}
+
+// Lógica de fechamento do detalhe
+document.querySelector("#close-copa-details").onclick = () => {
+  state.currentCopaTeam = null;
+  document.querySelector("#copa-details").classList.add("hidden");
+  document.querySelector("#copa-teams-grid").classList.remove("hidden");
+};
     // --- UTILITÁRIOS ---
     
 function getBaseName(fullName) {
@@ -72,6 +265,7 @@ function getBaseName(fullName) {
         $("#main-content").classList.remove("hidden");
         loadData();
         attachPokedexPrefsListener();
+        attachCopaListener(); // <--- ADICIONE ESTA LINHA
       } else {
         state.user = null;
         $("#login-screen").classList.remove("hidden");
@@ -82,20 +276,36 @@ function getBaseName(fullName) {
     });
 
     // --- NAVEGAÇÃO ---
+// --- NAVEGAÇÃO ---
     document.querySelectorAll(".view-tab").forEach(tab => {
       tab.addEventListener("click", () => {
         const view = tab.dataset.view;
         state.currentView = view;
-        document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition");
-        tab.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950";
         
+        // Reseta todos os botões
+        document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition");
+        
+        // Ativa o botão clicado com a cor correspondente
+        if(view === 'copa') {
+            tab.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-emerald-500 text-slate-950";
+        } else {
+            tab.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950";
+        }
+        
+        // Esconde todas as seções
+        $("#view-albums").classList.add("hidden");
+        $("#view-pokedex").classList.add("hidden");
+        $("#view-copa").classList.add("hidden");
+        
+        // Mostra a seção correta
         if (view === "albums") {
           $("#view-albums").classList.remove("hidden");
-          $("#view-pokedex").classList.add("hidden");
-        } else {
-          $("#view-albums").classList.add("hidden");
+        } else if (view === "pokedex") {
           $("#view-pokedex").classList.remove("hidden");
           renderPokedex();
+        } else if (view === "copa") {
+          $("#view-copa").classList.remove("hidden");
+          renderCopaTeams();
         }
       });
     });

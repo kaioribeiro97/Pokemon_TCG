@@ -75,13 +75,16 @@
 
         <!-- ABA DE NAVEGAÇÃO -->
         <div class="flex items-center bg-slate-800/80 p-1 rounded-xl border border-slate-700">
-          <button data-view="albums" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950">
-            Álbuns
-          </button>
-          <button data-view="pokedex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
-            Pokedex
-          </button>
-        </div>
+  <button data-view="albums" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950">
+    Álbuns
+  </button>
+  <button data-view="pokedex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+    Pokedex
+  </button>
+  <button data-view="copa" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+    Copa 2026
+  </button>
+</div>
 
         <div class="flex items-center gap-3">
           <button id="logout-btn" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 text-slate-400 hover:text-white border border-slate-700 transition">
@@ -191,7 +194,42 @@
 
         <div id="pokedex-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"></div>
       </section>
+<section id="view-copa" class="hidden space-y-6">
+        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+                <i class="fa-solid fa-futbol text-emerald-500"></i> Álbum Copa 2026
+              </h2>
+              <p class="text-xs text-slate-400 mt-1">Mundo das Figurinhas - Controle de Repetidas e Faltantes</p>
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col gap-2">
+              <div class="flex justify-between text-[10px] uppercase font-bold tracking-wider">
+                <span class="text-slate-400">Progresso do Álbum</span>
+                <span id="copa-stats-text" class="text-emerald-400">0 / 0 (0%)</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+                <div id="copa-progress-bar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500" style="width:0%"></div>
+              </div>
+            </div>
+          </div>
+        </header>
 
+        <div id="copa-teams-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+
+        <section id="copa-details" class="mt-8 hidden space-y-4">
+          <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex justify-between items-center">
+            <div>
+              <h3 id="copa-details-title" class="text-lg font-bold text-emerald-400 mb-1"></h3>
+              <p id="copa-details-subtitle" class="text-xs text-slate-400"></p>
+            </div>
+            <button id="close-copa-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </header>
+          <div id="copa-stickers-grid" class="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12 gap-2"></div>
+        </section>
+      </section>
     </main>
 
     <!-- MODAL: DETALHES POKEMON (POKEDEX) -->
