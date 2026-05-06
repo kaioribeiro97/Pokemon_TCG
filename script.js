@@ -34,7 +34,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebas
 // --- DADOS DA COPA DO MUNDO 2026 (Extraído do PDF) ---
 // --- DADOS DA COPA DO MUNDO 2026 (Extraído do PDF) ---
 const copaData = [
-  { id: "FWC", name: "Página Inicial", count: 9, start: 0, icon: "fa-globe" },
+  { id: "FWC", name: "Página Inicial", count: 20, start: 0, icon: "fa-globe" },
   { id: "MEX", name: "México", count: 20, iso: "mx" },
   { id: "RSA", name: "África do Sul", count: 20, iso: "za" },
   { id: "KOR", name: "Coréia do Sul", count: 20, iso: "kr" },
