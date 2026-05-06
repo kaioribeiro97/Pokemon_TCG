@@ -116,6 +116,7 @@ async function toggleCopaSticker(stickerId, isOwned) {
 }
 
 // Renderiza os times/grupos na tela
+// Renderiza os times/grupos na tela
 function renderCopaTeams() {
   const grid = document.querySelector("#copa-teams-grid");
   grid.innerHTML = "";
@@ -123,25 +124,42 @@ function renderCopaTeams() {
   let totalStickers = 0;
   let totalOwned = 0;
 
+  // 1. Calcula o progresso global (passando por todos os times, sem filtrar)
   copaData.forEach(team => {
     totalStickers += team.count;
+    let startIdx = team.start !== undefined ? team.start : 1;
+    let endIdx = startIdx + team.count - 1;
     
-    // Conta quantas figurinhas deste time você tem
+    for(let i = startIdx; i <= endIdx; i++) {
+        if(state.copaStickers.has(`${team.id}${i}`)) totalOwned++;
+    }
+  });
+
+  // 2. Aplica o filtro de pesquisa dinâmico
+  const query = state.copaSearch || "";
+  const filteredTeams = copaData.filter(team => {
+      if (!query) return true;
+      const searchVal = query.toLowerCase();
+      
+      // Filtra pelo nome do país (ex: "bosnia"), pela sigla exata (ex: "bih"), 
+      // ou se a busca começar com a sigla (ex: buscar por "bih10" vai encontrar a equipe "BIH")
+      return team.name.toLowerCase().includes(searchVal) || 
+             team.id.toLowerCase().includes(searchVal) || 
+             searchVal.startsWith(team.id.toLowerCase());
+  });
+
+  // 3. Renderiza a grade
+  filteredTeams.forEach(team => {
     let ownedInTeam = 0;
     let startIdx = team.start !== undefined ? team.start : 1;
     let endIdx = startIdx + team.count - 1;
     
     for(let i = startIdx; i <= endIdx; i++) {
-        let stickerId = `${team.id}${i}`;
-        if(state.copaStickers.has(stickerId)) {
-            ownedInTeam++;
-            totalOwned++;
-        }
+        if(state.copaStickers.has(`${team.id}${i}`)) ownedInTeam++;
     }
 
     const pct = Math.round((ownedInTeam / team.count) * 100) || 0;
     
-    // Lógica para mostrar a bandeira ou um ícone
     const flagHTML = team.iso 
         ? `<img src="https://flagcdn.com/w40/${team.iso}.png" class="w-8 h-6 rounded-sm object-cover shadow-sm border border-slate-700" alt="${team.name}">`
         : `<div class="w-8 h-6 rounded-sm bg-slate-800 flex items-center justify-center border border-slate-700"><i class="fa-solid ${team.icon} text-emerald-500 text-xs"></i></div>`;
@@ -168,10 +186,21 @@ function renderCopaTeams() {
       state.currentCopaTeam = team.id;
       document.querySelector("#copa-teams-grid").classList.add("hidden");
       document.querySelector("#copa-details").classList.remove("hidden");
+      
+      // Limpa a barra de pesquisa ao abrir a seleção, melhorando a navegação
+      state.copaSearch = "";
+      const searchInput = document.querySelector("#copa-search");
+      if(searchInput) searchInput.value = "";
+      
       renderCopaStickers(team.id);
     };
     grid.appendChild(btn);
   });
+  
+  // Mensagem se a pesquisa não retornar nada
+  if (filteredTeams.length === 0) {
+      grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500">Nenhum país encontrado para "${query}".</div>`;
+  }
 
   // Atualiza barra de progresso global da Copa
   const globalPct = Math.round((totalOwned / totalStickers) * 100) || 0;
@@ -310,9 +339,16 @@ function getBaseName(fullName) {
       });
     });
 
-    // --- PESQUISA ---
+// --- PESQUISA ---
     $("#card-search").addEventListener("input", (e) => { state.searchQuery = e.target.value.toLowerCase(); renderCards(); });
     $("#pokedex-search").addEventListener("input", (e) => { state.pokedexSearch = e.target.value.toLowerCase(); renderPokedex(); });
+    
+    // Pesquisa da Copa 2026
+    document.querySelector("#copa-search")?.addEventListener("input", (e) => { 
+      state.copaSearch = e.target.value.toLowerCase().trim(); 
+      renderCopaTeams(); 
+    });
+
 document.querySelectorAll(".pokedex-filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     // Atualiza estado visual dos botões
