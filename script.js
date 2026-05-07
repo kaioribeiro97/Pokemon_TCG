@@ -114,9 +114,7 @@ async function toggleCopaSticker(stickerId, isOwned) {
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", ADMIN_UID, "copa_2026", "stickers");
   await setDoc(docRef, { [stickerId]: !isOwned }, { merge: true });
 }
-
-// Renderiza os times/grupos na tela
-// Renderiza os times/grupos na tela
+// Renderiza os times/grupos na tela com contador fracionado (ex: 11/20)
 function renderCopaTeams() {
   const grid = document.querySelector("#copa-teams-grid");
   grid.innerHTML = "";
@@ -124,31 +122,27 @@ function renderCopaTeams() {
   let totalStickers = 0;
   let totalOwned = 0;
 
-  // 1. Calcula o progresso global (passando por todos os times, sem filtrar)
+  // 1. Calcula o progresso global
   copaData.forEach(team => {
     totalStickers += team.count;
     let startIdx = team.start !== undefined ? team.start : 1;
     let endIdx = startIdx + team.count - 1;
-    
     for(let i = startIdx; i <= endIdx; i++) {
         if(state.copaStickers.has(`${team.id}${i}`)) totalOwned++;
     }
   });
 
-  // 2. Aplica o filtro de pesquisa dinâmico
+  // 2. Filtro de pesquisa
   const query = state.copaSearch || "";
   const filteredTeams = copaData.filter(team => {
       if (!query) return true;
       const searchVal = query.toLowerCase();
-      
-      // Filtra pelo nome do país (ex: "bosnia"), pela sigla exata (ex: "bih"), 
-      // ou se a busca começar com a sigla (ex: buscar por "bih10" vai encontrar a equipe "BIH")
       return team.name.toLowerCase().includes(searchVal) || 
              team.id.toLowerCase().includes(searchVal) || 
              searchVal.startsWith(team.id.toLowerCase());
   });
 
-  // 3. Renderiza a grade
+  // 3. Renderiza a grade com o novo layout de contador
   filteredTeams.forEach(team => {
     let ownedInTeam = 0;
     let startIdx = team.start !== undefined ? team.start : 1;
@@ -166,6 +160,8 @@ function renderCopaTeams() {
 
     const btn = document.createElement("button");
     btn.className = "group p-4 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-emerald-500 transition shadow-xl relative overflow-hidden";
+    
+    // NOVO LAYOUT: Adicionado o contador "ownedInTeam / team.count"
     btn.innerHTML = `
       <div class="flex justify-between items-start mb-3">
         <div class="flex items-center gap-3">
@@ -175,8 +171,17 @@ function renderCopaTeams() {
             <p class="text-[10px] text-slate-500 font-mono">${team.id}</p>
           </div>
         </div>
-        <span class="text-[10px] font-bold ${pct === 100 ? 'bg-emerald-500/20 text-emerald-400' : 'bg-slate-700 text-slate-300'} px-2 py-1 rounded-md transition">${pct}%</span>
+        
+        <div class="flex flex-col items-end">
+          <span class="text-[11px] font-black ${pct === 100 ? 'text-emerald-400' : 'text-slate-200'} transition">
+            ${ownedInTeam} / ${team.count}
+          </span>
+          <span class="text-[9px] font-bold opacity-60 text-slate-400">
+            ${pct}%
+          </span>
+        </div>
       </div>
+      
       <div class="mt-2 w-full h-1 bg-slate-700 rounded-full overflow-hidden">
         <div class="h-full ${pct === 100 ? 'bg-emerald-400' : 'bg-emerald-600'} transition-all duration-500" style="width: ${pct}%"></div>
       </div>
@@ -186,27 +191,20 @@ function renderCopaTeams() {
       state.currentCopaTeam = team.id;
       document.querySelector("#copa-teams-grid").classList.add("hidden");
       document.querySelector("#copa-details").classList.remove("hidden");
-      
-      // Limpa a barra de pesquisa ao abrir a seleção, melhorando a navegação
       state.copaSearch = "";
       const searchInput = document.querySelector("#copa-search");
       if(searchInput) searchInput.value = "";
-      
       renderCopaStickers(team.id);
     };
     grid.appendChild(btn);
   });
   
-  // Mensagem se a pesquisa não retornar nada
-  if (filteredTeams.length === 0) {
-      grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500">Nenhum país encontrado para "${query}".</div>`;
-  }
-
-  // Atualiza barra de progresso global da Copa
+  // Atualiza barra global
   const globalPct = Math.round((totalOwned / totalStickers) * 100) || 0;
   document.querySelector("#copa-progress-bar").style.width = `${globalPct}%`;
   document.querySelector("#copa-stats-text").textContent = `${totalOwned} / ${totalStickers} (${globalPct}%)`;
 }
+
 
 // Renderiza a lista de 1 a 20 figurinhas de um time selecionado
 function renderCopaStickers(teamId) {
