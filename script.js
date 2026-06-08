@@ -19,7 +19,8 @@ const db = getFirestore(app);
 // Lista de UIDs autorizados a aceder ao painel
 const ALLOWED_UIDS = [
   "PZt2BWoC0TMjFOmDKH8DkfoEj6z2", // UID Antigo
-  "gC3VGb9rQbhDtdPF6g5WLdPx23g2"           // <--- SUBSTITUA PELO UID REAL DO NOVO UTILIZADOR
+  "gC3VGb9rQbhDtdPF6g5WLdPx23g2",
+  "qTsDSJjhLEbWc1Hs1SdBToh78wV2"           // <--- SUBSTITUA PELO UID REAL DO NOVO UTILIZADOR
 ];
 
 const $ = (s) => document.querySelector(s);
