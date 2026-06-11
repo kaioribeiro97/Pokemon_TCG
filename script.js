@@ -1,7 +1,8 @@
 const DATA_VERSION = "1.16"; 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
-import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+// ATUALIZADO: Importações do Firebase agora incluem deleteDoc e updateDoc
+import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
@@ -20,7 +21,7 @@ const db = getFirestore(app);
 const ALLOWED_UIDS = [
   "PZt2BWoC0TMjFOmDKH8DkfoEj6z2", // UID Antigo
   "gC3VGb9rQbhDtdPF6g5WLdPx23g2",
-  "qTsDSJjhLEbWc1Hs1SdBToh78wV2"           // <--- SUBSTITUA PELO UID REAL DO NOVO UTILIZADOR
+  "qTsDSJjhLEbWc1Hs1SdBToh78wV2"          // <--- SUBSTITUA PELO UID REAL DO NOVO UTILIZADOR
 ];
 
 const $ = (s) => document.querySelector(s);
@@ -252,7 +253,7 @@ document.querySelector("#close-copa-details").onclick = () => {
 // --- UTILITÁRIOS ---
 function getBaseName(fullName) {
   if (!fullName) return "";
-  let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X)\b/gi, '');
+  let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X|Lua Sangrenta)\b/gi, '');
   cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
   cleaned = cleaned.replace(/^(Mega|M)\s/i, '');
   cleaned = cleaned.replace(/\sMáscara\s.+$/i, '');
@@ -375,7 +376,12 @@ async function loadData() {
           const snapshot = await getDocs(customRef);
           
           const customCards = [];
-          snapshot.forEach(doc => { customCards.push(doc.data()); });
+          snapshot.forEach(doc => { 
+              // ATUALIZADO: Guardando o customId gerado pelo Firestore
+              let cardData = doc.data();
+              cardData.customId = doc.id;
+              customCards.push(cardData); 
+          });
 
           if (customCards.length > 0) {
               finalTCGData = [...finalTCGData, ...customCards];
@@ -706,6 +712,7 @@ async function toggleCard(cardId, isOwned) {
   }
 }
 
+
 function openModal(card, cardId, isOwned) {
   const titleEl = document.querySelector("#modal-title");
   const imgEl = document.querySelector("#modal-image");
@@ -771,6 +778,33 @@ function openModal(card, cardId, isOwned) {
       wrapper.onmousemove = null;
       wrapper.onmouseleave = null;
   }
+  
+  // Lógica para mostrar/esconder os botões de Edição/Exclusão para cartas customizadas
+  const customActions = document.querySelector("#custom-card-actions");
+  if (card.customId) {
+      customActions.classList.remove("hidden");
+      
+      // Ação do botão de excluir
+      document.querySelector("#btn-delete-custom").onclick = () => {
+          deleteCustomCard(card.customId);
+      };
+
+      // Ação do botão de editar (abre o modal de edição e preenche os dados)
+      document.querySelector("#btn-edit-custom").onclick = () => {
+          document.querySelector("#card-modal").classList.add("hidden");
+          document.querySelector("#edit-card-modal").classList.remove("hidden");
+          document.querySelector("#edit-card-modal").classList.add("flex");
+          
+          // Preenche os campos do formulário
+          document.querySelector("#edit-card-id").value = card.customId;
+          document.querySelector("#edit-card-name").value = card.Pokemon;
+          document.querySelector("#edit-card-col").value = card.Coleção;
+          document.querySelector("#edit-card-num").value = card.Número;
+          document.querySelector("#edit-card-img").value = card.Imagem;
+      };
+  } else {
+      customActions.classList.add("hidden");
+  }
 }
 
 $("#modal-close").onclick = () => $("#card-modal").classList.add("hidden");
@@ -833,4 +867,71 @@ document.querySelector("#form-add-card").addEventListener("submit", async (e) =>
         btn.textContent = originalText;
         btn.disabled = false;
     }
+});
+
+// --- ATUALIZADO: NOVAS FUNÇÕES DE REMOVER E EDITAR ---
+
+// Remove uma carta customizada
+async function deleteCustomCard(customId) {
+    if (!state.user) return;
+    
+    const confirmDelete = confirm("Tem certeza que deseja remover esta carta permanentemente da base de dados?");
+    if (!confirmDelete) return;
+
+    try {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
+        await deleteDoc(docRef);
+        
+        alert("Carta removida com sucesso!");
+        localStorage.removeItem("pokemon_data_version"); 
+        window.location.reload();
+    } catch (error) {
+        console.error("Erro ao remover carta:", error);
+        alert("Erro! Não foi possível remover a carta. Verifique as permissões.");
+    }
+}
+
+// Edita os dados no Firebase
+async function editCustomCard(customId, updatedFields) {
+    if (!state.user) return;
+
+    try {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
+        await updateDoc(docRef, updatedFields);
+        
+        alert("Carta editada com sucesso!");
+        localStorage.removeItem("pokemon_data_version"); 
+        window.location.reload();
+    } catch (error) {
+        console.error("Erro ao editar carta:", error);
+        alert("Erro! Não foi possível editar a carta.");
+    }
+}
+
+// Fechar modal de edição
+document.querySelector("#btn-cancel-edit").addEventListener("click", () => {
+    document.querySelector("#edit-card-modal").classList.add("hidden");
+});
+
+// Enviar formulário do modal de edição
+document.querySelector("#form-edit-card").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    
+    const customId = document.querySelector("#edit-card-id").value;
+    const updatedFields = {
+        Pokemon: document.querySelector("#edit-card-name").value,
+        Coleção: document.querySelector("#edit-card-col").value,
+        Número: document.querySelector("#edit-card-num").value,
+        Imagem: document.querySelector("#edit-card-img").value
+    };
+
+    const btn = e.target.querySelector("button[type='submit']");
+    const originalText = btn.textContent;
+    btn.textContent = "Salvando...";
+    btn.disabled = true;
+
+    await editCustomCard(customId, updatedFields);
+    
+    btn.textContent = originalText;
+    btn.disabled = false;
 });

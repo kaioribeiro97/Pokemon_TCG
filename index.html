@@ -279,6 +279,15 @@
               <button id="modal-toggle-btn" class="w-full py-4 text-lg bg-sky-500 text-slate-950 font-black rounded-2xl hover:bg-sky-400 transition shadow-xl shadow-sky-500/20 active:scale-95">
                 Adicionar à Coleção
               </button>
+              <!-- ADICIONE ISTO LOGO ABAIXO DO BOTÃO ACIMA -->
+<div id="custom-card-actions" class="hidden flex gap-2 mt-3 w-full">
+    <button id="btn-edit-custom" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-bold rounded-xl hover:bg-amber-400 transition">
+        <i class="fa-solid fa-pen"></i> Editar
+    </button>
+    <button id="btn-delete-custom" class="w-1/2 py-3 bg-red-500 text-white font-bold rounded-xl hover:bg-red-400 transition">
+        <i class="fa-solid fa-trash"></i> Excluir
+    </button>
+</div>
             </div>
           </div>
         </div>
@@ -326,6 +335,47 @@
     </form>
   </div>
 </div>
-  </div> <script type="module" src="script.js"></script>
+<!-- MODAL DE EDITAR CARTA CUSTOMIZADA -->
+<div id="edit-card-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-md shadow-2xl relative">
+        <h2 class="text-xl font-black text-amber-400 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-pen-to-square"></i> Editar Carta
+        </h2>
+        
+        <form id="form-edit-card" class="space-y-4">
+            <!-- Input oculto para guardar o ID do Firebase -->
+            <input type="hidden" id="edit-card-id">
+
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">Nome do Pokémon</label>
+                <input type="text" id="edit-card-name" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+            </div>
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">Coleção</label>
+                <input type="text" id="edit-card-col" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+            </div>
+            <div class="flex gap-4">
+                <div class="w-1/2">
+                    <label class="block text-xs font-bold text-slate-400 mb-1">Número</label>
+                    <input type="text" id="edit-card-num" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+                </div>
+                <div class="w-1/2">
+                    <label class="block text-xs font-bold text-slate-400 mb-1">URL da Imagem</label>
+                    <input type="url" id="edit-card-img" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+                </div>
+            </div>
+            
+            <div class="flex gap-3 mt-6">
+                <button type="button" id="btn-cancel-edit" class="w-1/2 py-3 bg-slate-800 text-slate-300 font-bold rounded-xl hover:bg-slate-700 transition">
+                    Cancelar
+                </button>
+                <button type="submit" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-black rounded-xl hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">
+                    Salvar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="module" src="script.js"></script>
 </body>
 </html>
