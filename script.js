@@ -318,8 +318,7 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     
     $("#view-albums").classList.add("hidden");
     $("#view-pokedex").classList.add("hidden");
-    $("#view-copa").classList.add("hidden");   
-    $("#view-tcgdex").classList.add("hidden");
+    $("#view-copa").classList.add("hidden");
     
     if (view === "albums") {
       $("#view-albums").classList.remove("hidden");
@@ -329,8 +328,6 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     } else if (view === "copa") {
       $("#view-copa").classList.remove("hidden");
       renderCopaTeams();
-    } else if (view === "tcgdex") {
-      $("#view-tcgdex").classList.remove("hidden"); // <-- ADICIONE ESTA LINHA
     }
   });
 });
@@ -846,7 +843,6 @@ document.querySelector("#btn-cancel-add")?.addEventListener("click", () => {
     addCardModal.classList.add("hidden");
 });
 
-// --- LÓGICA DE ADICIONAR CARTA AVULSA ---
 document.querySelector("#form-add-card").addEventListener("submit", async (e) => {
     e.preventDefault();
     if (!state.user) return;
@@ -863,35 +859,13 @@ document.querySelector("#form-add-card").addEventListener("submit", async (e) =>
         Imagem: document.querySelector("#new-card-img").value
     };
 
-    // Pega o valor do checkbox
-    const isFav = document.querySelector("#new-card-fav").checked;
-
     try {
-        // 1. Salva a carta customizada no Firebase
         const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
         await addDoc(customCardsRef, newCard);
 
-        // 2. Se o checkbox estiver marcado, favorita e marca como obtida
-        if (isFav) {
-            const cardId = `${newCard.Coleção}#${newCard.Número}`;
-            
-            // Lógica para limpar o nome (ex: "Charizard ex" vira "Charizard")
-            const baseName = getBaseName(newCard.Pokemon).toLowerCase();
-            const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
-            const officialName = species ? species.name.english : newCard.Pokemon;
-            
-            // Grava como representante da Pokedex
-            await setPokedexRepresentative(officialName, cardId);
-
-            // Marca a carta como "Obtida/Tenho" no álbum daquela coleção
-            const colId = newCard.Coleção.replace(/\s/g, '').toLowerCase();
-            const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
-            await setDoc(colRef, { [cardId]: true }, { merge: true });
-        }
-
         e.target.reset();
-        document.querySelector("#add-card-modal").classList.add("hidden");
-        alert("Carta importada com sucesso! A página será recarregada.");
+        addCardModal.classList.add("hidden");
+        alert("Carta adicionada com sucesso! A página será recarregada.");
         
         localStorage.removeItem("pokemon_data_version"); 
         window.location.reload();
@@ -971,185 +945,3 @@ document.querySelector("#form-edit-card").addEventListener("submit", async (e) =
     btn.textContent = originalText;
     btn.disabled = false;
 });
-// ==========================================
-// MÓDULO TCGDEX API (INTEGRAÇÃO)
-// ==========================================
-
-const tcgdexMapColecoes = new Map();
-const tcgdexSetsData = {}; // NOVO: Dicionário para mapear ID -> Nome da Coleção
-
-const tcgdexIdiomas = [
-    { codigo: 'pt', label: 'PT-BR', color: 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' },
-    { codigo: 'en', label: 'EN', color: 'bg-sky-500/20 text-sky-400 border border-sky-500/30' },
-    { codigo: 'ja', label: 'JP', color: 'bg-rose-500/20 text-rose-400 border border-rose-500/30' }
-];
-
-// Carrega a lista de coleções para o Datalist e para o dicionário interno
-async function initTCGdex() {
-    try {
-        const res = await fetch('https://api.tcgdex.net/v2/pt/sets');
-        const sets = await res.json();
-        const datalist = document.getElementById('tcgdex-set-list');
-        
-        sets.reverse().forEach(set => {
-            // Salva o nome oficial usando o ID como chave (ex: tcgdexSetsData['sv1'] = 'Escarlate e Violeta')
-            tcgdexSetsData[set.id] = set.name;
-            
-            const ano = set.releaseDate ? set.releaseDate.split('-')[0] : 'S/D';
-            const nomeExibicao = `${set.name} (${ano})`;
-            tcgdexMapColecoes.set(nomeExibicao, set.id);
-            
-            const option = document.createElement('option');
-            option.value = nomeExibicao;
-            datalist.appendChild(option);
-        });
-    } catch (err) {
-        console.error("Erro ao carregar coleções TCGdex:", err);
-    }
-}
-
-// Inicia o carregamento em background quando a página carrega
-setTimeout(initTCGdex, 2000);
-
-window.handleTCGdexSet = function(value) {
-    const setId = tcgdexMapColecoes.get(value);
-    if (setId) {
-        document.getElementById('tcgdex-name').value = ''; 
-        buscarDadosTCGdex(`sets/${setId}`, true);
-    }
-};
-window.buscarTCGdexNome = function() {
-    const rawValue = document.getElementById('tcgdex-name').value.trim();
-    if (!rawValue) return;
-    
-    // Limpa o campo de coleção para evitar conflitos
-    document.getElementById('tcgdex-set').value = '';
-
-    let nome = rawValue;
-    let numeroBuscado = null;
-
-    // LÓGICA DE SEPARAÇÃO: Verifica se o usuário digitou um número no final (ex: "Luxray 46")
-    const partes = rawValue.split(' ');
-    if (partes.length > 1) {
-        const ultimoTermo = partes[partes.length - 1];
-        
-        // Se o último termo contém pelo menos um dígito (pega casos como "46", "046" ou "TG04")
-        if (/\d/.test(ultimoTermo)) {
-            numeroBuscado = ultimoTermo; // Guarda o número
-            partes.pop(); // Remove o número do array de palavras
-            nome = partes.join(' '); // Junta o resto para formar o nome do Pokémon
-        }
-    }
-
-    // Passamos o nome para a API e o número para filtrar internamente
-    buscarDadosTCGdex(`cards?name=${nome}`, false, numeroBuscado);
-};
-
-// Adicionamos o terceiro parâmetro "numeroFiltro" (por padrão é null)
-async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
-    const resultsDiv = document.getElementById('tcgdex-results');
-    const loadingDiv = document.getElementById('tcgdex-loading');
-    
-    resultsDiv.innerHTML = '';
-    loadingDiv.classList.remove('hidden');
-
-    try {
-        const promessas = tcgdexIdiomas.map(async (idioma) => {
-            try {
-                const response = await fetch(`https://api.tcgdex.net/v2/${idioma.codigo}/${endpoint}`);
-                if (!response.ok) return [];
-                const dados = await response.json();
-                
-                let listaCartas = isSetInfo ? dados.cards : dados;
-
-                // ==========================================
-                // APLICAÇÃO DO FILTRO DE NÚMERO
-                // ==========================================
-                if (numeroFiltro && !isSetInfo) {
-                    listaCartas = listaCartas.filter(carta => {
-                        if (!carta.localId) return false;
-                        
-                        // Removemos os zeros à esquerda e transformamos em minúscula para a busca ser à prova de falhas
-                        const localIdFormatado = carta.localId.toString().toLowerCase().replace(/^0+/, '');
-                        const filtroFormatado = numeroFiltro.toLowerCase().replace(/^0+/, '');
-                        
-                        // Retorna true se o número for exato (ex: 46 == 46) ou se fizer parte do código (ex: TG04 contém 4)
-                        return localIdFormatado === filtroFormatado || localIdFormatado.includes(filtroFormatado);
-                    });
-                }
-
-                return listaCartas.map(carta => ({ ...carta, idiomaObj: idioma }));
-            } catch (error) {
-                return [];
-            }
-        });
-
-        const resultadosTratados = await Promise.all(promessas);
-        renderizarResultadosTCGdex(resultadosTratados.flat());
-    } catch (error) {
-        loadingDiv.classList.add('hidden');
-        resultsDiv.innerHTML = '<p class="text-rose-500 col-span-full text-center py-8">Erro na comunicação com a API.</p>';
-    }
-}
-
-function renderizarResultadosTCGdex(todasAsCartas) {
-    const resultsDiv = document.getElementById('tcgdex-results');
-    document.getElementById('tcgdex-loading').classList.add('hidden');
-
-    if (todasAsCartas.length === 0) {
-        resultsDiv.innerHTML = '<p class="text-slate-500 col-span-full text-center py-8">Nenhuma carta encontrada.</p>';
-        return;
-    }
-
-    todasAsCartas.forEach(carta => {
-        const imgUrl = carta.image ? `${carta.image}/low.webp` : 'https://via.placeholder.com/240x330?text=Sem+Imagem';
-        const imgHighUrl = carta.image ? `${carta.image}/high.png` : '';
-        const { label, color } = carta.idiomaObj;
-        
-        // -----------------------------------------------------------
-        // A MÁGICA ACONTECE AQUI:
-        // O ID de toda carta na TCGdex segue o padrão "setId-numero" (Ex: "sv4pt5-24").
-        // Dividimos a string pelo "-" e usamos a primeira parte para buscar o nome no nosso dicionário.
-        // -----------------------------------------------------------
-        const setId = carta.id ? carta.id.split('-')[0] : '';
-        const nomeColecao = tcgdexSetsData[setId] || 'Promo / Desconhecida';
-        
-        const cardElement = document.createElement('div');
-        cardElement.className = 'flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition cursor-pointer group';
-        
-        cardElement.innerHTML = `
-            <div class="relative w-full aspect-[3/4] rounded-xl overflow-hidden shadow-lg">
-                <span class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] font-black rounded backdrop-blur-md z-20 ${color}">
-                    ${label}
-                </span>
-                
-                <div class="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center z-10">
-                    <div class="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center text-slate-950 shadow-lg shadow-sky-500/40 transform scale-75 group-hover:scale-100 transition">
-                        <i class="fa-solid fa-plus text-xl"></i>
-                    </div>
-                    <p class="text-[10px] text-white font-bold mt-2 uppercase tracking-wide">Importar</p>
-                </div>
-
-                <img src="${imgUrl}" alt="${carta.name}" class="w-full h-full object-cover">
-            </div>
-            
-            <div class="w-full px-1 text-center">
-                <p class="text-[10px] font-bold text-slate-200 truncate" title="${carta.name}">${carta.name}</p>
-                <p class="text-[9px] font-mono text-slate-500 truncate" title="${nomeColecao}">${nomeColecao} #${carta.localId || '0'}</p>
-            </div>
-        `;
-
-        // Agora o nomeColecao alimenta o campo corretamente
-        cardElement.onclick = () => {
-            document.querySelector("#new-card-name").value = carta.name;
-            document.querySelector("#new-card-col").value = nomeColecao;
-            document.querySelector("#new-card-num").value = carta.localId || '0';
-            document.querySelector("#new-card-img").value = imgHighUrl;
-            
-            document.querySelector("#add-card-modal").classList.remove("hidden");
-            document.querySelector("#add-card-modal").classList.add("flex");
-        };
-
-        resultsDiv.appendChild(cardElement);
-    });
-}
