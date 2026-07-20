@@ -847,13 +847,14 @@ document.querySelector("#btn-cancel-add")?.addEventListener("click", () => {
 });
 
 // --- LÓGICA DE ADICIONAR CARTA AVULSA ---
+// --- LÓGICA DE ADICIONAR CARTA AVULSA ---
 document.querySelector("#form-add-card").addEventListener("submit", async (e) => {
     e.preventDefault();
     if (!state.user) return;
 
     const btn = e.target.querySelector("button[type='submit']");
     const originalText = btn.textContent;
-    btn.textContent = "A guardar...";
+    btn.textContent = "Salvando...";
     btn.disabled = true;
 
     const newCard = {
@@ -863,43 +864,45 @@ document.querySelector("#form-add-card").addEventListener("submit", async (e) =>
         Imagem: document.querySelector("#new-card-img").value
     };
 
-    // Pega o valor do checkbox
     const isFav = document.querySelector("#new-card-fav").checked;
 
     try {
-        // 1. Salva a carta customizada no Firebase
+        // 1. Salva no Firebase
         const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
         await addDoc(customCardsRef, newCard);
 
-        // 2. Se o checkbox estiver marcado, favorita e marca como obtida
+        // 2. Lógica de favorita e álbum
         if (isFav) {
             const cardId = `${newCard.Coleção}#${newCard.Número}`;
-            
-            // Lógica para limpar o nome (ex: "Charizard ex" vira "Charizard")
             const baseName = getBaseName(newCard.Pokemon).toLowerCase();
             const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
             const officialName = species ? species.name.english : newCard.Pokemon;
             
-            // Grava como representante da Pokedex
             await setPokedexRepresentative(officialName, cardId);
 
-            // Marca a carta como "Obtida/Tenho" no álbum daquela coleção
             const colId = newCard.Coleção.replace(/\s/g, '').toLowerCase();
             const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
             await setDoc(colRef, { [cardId]: true }, { merge: true });
         }
 
-        e.target.reset();
-        document.querySelector("#add-card-modal").classList.add("hidden");
-        alert("Carta importada com sucesso! A página será recarregada.");
+        // 3. Feedback visual sem Alert e Atualização Silenciosa
+        btn.textContent = "Sucesso! ✔️";
+        btn.classList.replace("bg-emerald-500", "bg-emerald-400"); // Dá um brilho no botão
         
-        localStorage.removeItem("pokemon_data_version"); 
-        window.location.reload();
+        await loadData(); // Atualiza as cartas na tela instantaneamente
+
+        // Aguarda 1 segundo para o usuário ver o "Sucesso!" e depois fecha o modal
+        setTimeout(() => {
+            e.target.reset();
+            document.querySelector("#add-card-modal").classList.add("hidden");
+            btn.textContent = originalText;
+            btn.classList.replace("bg-emerald-400", "bg-emerald-500");
+            btn.disabled = false;
+        }, 1000);
 
     } catch (error) {
         console.error("Erro ao guardar carta personalizada:", error);
         alert("Erro de Permissão! O Firebase bloqueou a gravação da carta.");
-    } finally {
         btn.textContent = originalText;
         btn.disabled = false;
     }
@@ -907,6 +910,7 @@ document.querySelector("#form-add-card").addEventListener("submit", async (e) =>
 
 // --- ATUALIZADO: NOVAS FUNÇÕES DE REMOVER E EDITAR ---
 
+// Remove uma carta customizada
 // Remove uma carta customizada
 async function deleteCustomCard(customId) {
     if (!state.user) return;
@@ -918,9 +922,10 @@ async function deleteCustomCard(customId) {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
         await deleteDoc(docRef);
         
-        alert("Carta removida com sucesso!");
-        localStorage.removeItem("pokemon_data_version"); 
-        window.location.reload();
+        // Fecha o modal da carta grande e atualiza os dados em background
+        document.querySelector("#card-modal").classList.add("hidden");
+        await loadData(); 
+        
     } catch (error) {
         console.error("Erro ao remover carta:", error);
         alert("Erro! Não foi possível remover a carta. Verifique as permissões.");
@@ -935,15 +940,38 @@ async function editCustomCard(customId, updatedFields) {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
         await updateDoc(docRef, updatedFields);
         
-        alert("Carta editada com sucesso!");
-        localStorage.removeItem("pokemon_data_version"); 
-        window.location.reload();
+        // Fecha o modal de edição e atualiza os dados em background
+        document.querySelector("#edit-card-modal").classList.add("hidden");
+        await loadData(); 
+        
     } catch (error) {
         console.error("Erro ao editar carta:", error);
         alert("Erro! Não foi possível editar a carta.");
     }
 }
+// Enviar formulário do modal de edição
+document.querySelector("#form-edit-card").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    
+    const customId = document.querySelector("#edit-card-id").value;
+    const updatedFields = {
+        Pokemon: document.querySelector("#edit-card-name").value,
+        Coleção: document.querySelector("#edit-card-col").value,
+        Número: document.querySelector("#edit-card-num").value,
+        Imagem: document.querySelector("#edit-card-img").value
+    };
 
+    const btn = e.target.querySelector("button[type='submit']");
+    const originalText = btn.textContent;
+    btn.textContent = "Salvando...";
+    btn.disabled = true;
+
+    await editCustomCard(customId, updatedFields);
+    
+    // O modal fecha sozinho dentro do editCustomCard, então só resetamos o botão
+    btn.textContent = originalText;
+    btn.disabled = false;
+});
 // Fechar modal de edição
 document.querySelector("#btn-cancel-edit").addEventListener("click", () => {
     document.querySelector("#edit-card-modal").classList.add("hidden");
