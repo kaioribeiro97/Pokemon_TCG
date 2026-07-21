@@ -1,8 +1,7 @@
 // 1. IMPORTAÇÕES (Devem ser sempre a primeira coisa do arquivo)
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
-import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
-
+import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 // 2. CONFIGURAÇÃO
 const DATA_VERSION = "1.16"; 
 const firebaseConfig = {
@@ -37,7 +36,11 @@ const state = {
   searchQuery: "",
   pokedexSearch: "",
   pokedexFilter: "all",
-  currentView: "albums"
+  currentView: "albums",
+  // NOVIDADES:
+  thematicCollections: {},
+  currentThematicCollection: null,
+  currentViewedCardId: null
 };
 
 // --- DADOS DA COPA DO MUNDO 2026 ---
@@ -294,6 +297,7 @@ onAuthStateChanged(auth, (user) => {
     loadData();
     attachPokedexPrefsListener();
     attachCopaListener(); 
+    attachThematicListener(); 
   } else {
     state.user = null;
     $("#login-screen").classList.remove("hidden");
@@ -321,6 +325,7 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     $("#view-pokedex").classList.add("hidden");
     $("#view-copa").classList.add("hidden");   
     $("#view-tcgdex").classList.add("hidden");
+    $("#view-custom-col").classList.add("hidden");
     
     if (view === "albums") {
       $("#view-albums").classList.remove("hidden");
@@ -332,6 +337,9 @@ document.querySelectorAll(".view-tab").forEach(tab => {
       renderCopaTeams();
     } else if (view === "tcgdex") {
       $("#view-tcgdex").classList.remove("hidden"); // <-- ADICIONE ESTA LINHA
+    }else if (view === "custom-col") { // <--- ADICIONE ESTE BLOCO NOVO
+      $("#view-custom-col").classList.remove("hidden");
+      renderThematicAlbums();
     }
   });
 });
@@ -728,6 +736,7 @@ async function toggleCard(cardId, isOwned) {
 
 
 function openModal(card, cardId, isOwned) {
+  state.currentViewedCardId = cardId;
   const titleEl = document.querySelector("#modal-title");
   const imgEl = document.querySelector("#modal-image");
   const numEl = document.querySelector("#modal-number");
@@ -1196,6 +1205,198 @@ async function adicionarCartaACollection(colId, colName, cardId) {
     document.querySelector("#custom-col-modal").classList.add("hidden");
     alert("Adicionado à coleção " + colName);
 }
+// ==========================================
+// MÓDULO COLEÇÕES TEMÁTICAS
+// ==========================================
+function attachThematicListener() {
+    if (!state.user) return;
+    const colRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections");
+    
+    if (state.unsubscribeMap['thematic']) state.unsubscribeMap['thematic']();
+    
+    state.unsubscribeMap['thematic'] = onSnapshot(colRef, (snapshot) => {
+        state.thematicCollections = {};
+        snapshot.forEach(doc => { state.thematicCollections[doc.id] = { id: doc.id, ...doc.data() }; });
+        
+        if (state.currentView === 'custom-col') {
+            renderThematicAlbums();
+            if (state.currentThematicCollection) renderThematicCards();
+        }
+    }, (err) => console.error("Erro nas coleções temáticas:", err));
+}
+
+function renderThematicAlbums() {
+    const grid = $("#thematic-albums-grid"); 
+    if (!grid) return;
+    grid.innerHTML = "";
+
+    const keys = Object.keys(state.thematicCollections);
+    if (keys.length === 0) {
+        grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500">Você ainda não tem nenhuma Coleção Temática. <br> Abra uma carta e clique em "Adicionar a Coleção Temática".</div>`;
+        return;
+    }
+
+    keys.sort().forEach(id => {
+        const col = state.thematicCollections[id];
+        const numCards = col.cards ? Object.keys(col.cards).length : 0;
+        
+        const btn = document.createElement("button");
+        btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-indigo-500 transition shadow-xl";
+        btn.innerHTML = `
+            <div class="flex justify-between items-start mb-4">
+                <h4 class="font-bold text-indigo-400">${col.name}</h4>
+                <div class="w-8 h-8 bg-indigo-500/20 text-indigo-400 rounded-full flex items-center justify-center text-xs border border-indigo-500/50">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="text-xs text-slate-400">${numCards} cartas cadastradas</p>
+        `;
+        
+        btn.onclick = () => { 
+            state.currentThematicCollection = id; 
+            $("#thematic-details-title").textContent = col.name; 
+            $("#thematic-collection-details").classList.remove("hidden");
+            $("#thematic-albums-grid").classList.add("hidden");
+            renderThematicCards(); 
+        };
+        grid.appendChild(btn);
+    });
+}
+
+$("#close-thematic-details").onclick = () => {
+    state.currentThematicCollection = null;
+    $("#thematic-collection-details").classList.add("hidden");
+    $("#thematic-albums-grid").classList.remove("hidden");
+};
+
+function renderThematicCards() {
+    const grid = $("#thematic-cards-grid"); 
+    if (!grid) return;
+    grid.innerHTML = "";
+    
+    const colData = state.thematicCollections[state.currentThematicCollection];
+    if (!colData || !colData.cards) return;
+
+    const cardsArray = Object.keys(colData.cards);
+    $("#thematic-details-subtitle").textContent = `${cardsArray.length} cartas totais`;
+
+    if (cardsArray.length === 0) {
+        grid.innerHTML = `<p class="col-span-full text-center text-slate-500 py-10">Não há cartas nesta coleção.</p>`;
+        return;
+    }
+
+    let todasAsCartas = [];
+    Object.values(state.collections).forEach(c => { todasAsCartas = todasAsCartas.concat(c.cards); });
+
+    cardsArray.forEach(cardId => {
+        const cardObj = todasAsCartas.find(c => `${c.Coleção}#${c.Número}` === cardId);
+        if (!cardObj) return;
+
+        const container = document.createElement("div");
+        container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-indigo-500/50 hover:border-indigo-400 transition relative`;
+
+        // ATUALIZAÇÃO: O botão de remover agora é estático e bem visível
+        container.innerHTML = `
+        <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition">
+            <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border border-indigo-500/50" loading="lazy">
+        </div>
+        <div class="flex items-center justify-center w-full px-1">
+            <span class="text-[9px] font-mono text-slate-500">#${cardObj.Número}</span>
+        </div>
+        <button class="remove-thematic-btn absolute -top-2 -right-2 w-8 h-8 bg-rose-500 text-white rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:bg-rose-400 transition flex items-center justify-center text-[12px] z-40 border-2 border-slate-900">
+            <i class="fa-solid fa-trash"></i>
+        </button>
+        `;
+
+        container.querySelector('.card-container').onclick = () => openModal(cardObj, cardId, true);
+        
+        // Função do botão de remover
+        container.querySelector('.remove-thematic-btn').onclick = async (e) => {
+            e.stopPropagation();
+            if (confirm(`Tem certeza que deseja remover ${cardObj.Pokemon} desta coleção temática?`)) {
+                const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", state.currentThematicCollection);
+                try {
+                    await setDoc(docRef, { cards: { [cardId]: deleteField() } }, { merge: true });
+                } catch (err) {
+                    console.error("Erro ao remover:", err);
+                    alert("Erro ao remover a carta.");
+                }
+            }
+        };
+        grid.appendChild(container);
+    });
+}
+
+// Botões do Modal
+document.querySelector("#btn-add-to-custom-col").onclick = () => {
+    const select = document.querySelector("#select-custom-col");
+    select.innerHTML = '<option value="">Selecione uma existente...</option>';
+    
+    Object.values(state.thematicCollections).sort((a,b) => a.name.localeCompare(b.name)).forEach(col => {
+        const opt = document.createElement("option");
+        opt.value = col.id;
+        opt.textContent = col.name;
+        select.appendChild(opt);
+    });
+
+    document.querySelector("#new-custom-col-name").value = "";
+    document.querySelector("#custom-col-modal").classList.remove("hidden");
+    document.querySelector("#custom-col-modal").classList.add("flex");
+};
+
+// Aqui eu substituo a função que estava vazia pela lógica correta
+document.querySelector("#btn-cancel-custom-col").onclick = () => {
+    document.querySelector("#custom-col-modal").classList.add("hidden");
+    document.querySelector("#custom-col-modal").classList.remove("flex");
+};
+
+document.querySelector("#btn-save-custom-col").onclick = async () => {
+    if (!state.user || !state.currentViewedCardId) return;
+
+    const selectVal = document.querySelector("#select-custom-col").value;
+    const inputVal = document.querySelector("#new-custom-col-name").value.trim();
+    
+    let colId = "";
+    let colName = "";
+
+    if (inputVal) {
+        colName = inputVal;
+        colId = inputVal.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() + '_' + Date.now();
+    } else if (selectVal) {
+        colId = selectVal;
+        colName = state.thematicCollections[selectVal].name;
+    } else {
+        alert("Selecione uma coleção ou crie uma nova!");
+        return;
+    }
+
+    const btn = document.querySelector("#btn-save-custom-col");
+    btn.textContent = "Salvando...";
+
+    try {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
+        await setDoc(docRef, { name: colName, cards: { [state.currentViewedCardId]: true } }, { merge: true });
+
+        document.querySelector("#custom-col-modal").classList.add("hidden");
+        document.querySelector("#custom-col-modal").classList.remove("flex");
+        
+        const addBtn = document.querySelector("#btn-add-to-custom-col");
+        const originalText = addBtn.innerHTML;
+        addBtn.innerHTML = "<i class='fa-solid fa-check'></i> Adicionado!";
+        addBtn.classList.replace("bg-indigo-600", "bg-emerald-500");
+        
+        setTimeout(() => {
+            addBtn.innerHTML = originalText;
+            addBtn.classList.replace("bg-emerald-500", "bg-indigo-600");
+        }, 2000);
+
+    } catch (err) {
+        console.error(err);
+        alert("Erro ao salvar na coleção temática.");
+    } finally {
+        btn.textContent = "Adicionar";
+    }
+};
 
 // Lembre-se de importar arrayUnion no topo do script.js:
 // import { ..., arrayUnion } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";

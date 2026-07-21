@@ -88,6 +88,10 @@
   <button data-view="tcgdex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
     <i class="fa-solid fa-globe"></i> TCGdex
   </button>
+     <!-- NOVO BOTÃO: MINHAS COLEÇÕES -->
+  <button data-view="custom-col" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
+    <i class="fa-solid fa-star text-indigo-400"></i> Minhas Coleções
+  </button>
 </div>
 
         <div class="flex items-center gap-3">
@@ -96,6 +100,8 @@
           </button>
         </div>
       </div>
+
+
     </nav>
 
     <main class="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-10">
@@ -241,6 +247,34 @@
             </button>
           </header>
           <div id="copa-stickers-grid" class="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12 gap-2"></div>
+        </section>
+      </section>
+            <!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
+      <section id="view-custom-col" class="hidden space-y-6">
+        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+                <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
+              </h2>
+              <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
+            </div>
+          </div>
+        </header>
+
+        <div id="thematic-albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+
+        <section id="thematic-collection-details" class="mt-8 hidden space-y-4">
+          <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex justify-between items-center">
+            <div>
+              <h3 id="thematic-details-title" class="text-lg font-bold text-indigo-400 mb-1"></h3>
+              <p id="thematic-details-subtitle" class="text-xs text-slate-400"></p>
+            </div>
+            <button id="close-thematic-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </header>
+          <div id="thematic-cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
         </section>
       </section>
     </main>
