@@ -84,6 +84,10 @@
   <button data-view="copa" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
     Copa 2026
   </button>
+  <!-- NOVO BOTÃO TCGDEX -->
+  <button data-view="tcgdex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
+    <i class="fa-solid fa-globe"></i> TCGdex
+  </button>
 </div>
 
         <div class="flex items-center gap-3">
@@ -240,6 +244,54 @@
         </section>
       </section>
     </main>
+    <!-- VISÃO: TCGDEX EXPLORER -->
+      <section id="view-tcgdex" class="hidden space-y-6">
+        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+                <i class="fa-solid fa-satellite-dish text-sky-500"></i> Banco de Dados Global
+              </h2>
+              <p class="text-xs text-slate-400 mt-1">Busque cartas oficiais (PT, EN, JP) e adicione à sua coleção privada.</p>
+            </div>
+          </div>
+
+          <!-- Controles de Busca -->
+          <div class="flex flex-col md:flex-row gap-6 border-t border-slate-800 pt-5">
+            <!-- Busca por Nome -->
+            <div class="flex-1 flex flex-col gap-2">
+              <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Buscar por Pokémon</label>
+              <div class="flex gap-2">
+                <input type="text" id="tcgdex-name" placeholder="Ex: Charizard..." 
+                  class="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition"
+                  onkeypress="if(event.key === 'Enter') window.buscarTCGdexNome()">
+                <button onclick="window.buscarTCGdexNome()" class="px-5 py-2.5 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">
+                  Buscar
+                </button>
+              </div>
+            </div>
+
+            <div class="hidden md:block w-px bg-slate-700/50"></div>
+
+            <!-- Busca por Coleção -->
+            <div class="flex-1 flex flex-col gap-2">
+              <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Filtrar por Coleção (Set)</label>
+              <input type="text" id="tcgdex-set" list="tcgdex-set-list" placeholder="Digite o nome da coleção..." 
+                class="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition"
+                onchange="window.handleTCGdexSet(this.value)">
+              <datalist id="tcgdex-set-list"></datalist>
+            </div>
+          </div>
+        </header>
+
+        <!-- Status e Resultados -->
+        <div id="tcgdex-loading" class="hidden flex flex-col items-center justify-center py-12 text-slate-500 animate-pulse">
+          <i class="fa-solid fa-circle-notch text-3xl text-sky-500 mb-3"></i>
+          <p class="text-xs uppercase tracking-widest font-bold">Sincronizando com a API...</p>
+        </div>
+        
+        <div id="tcgdex-results" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-5"></div>
+      </section>
 
     <!-- MODAL: DETALHES POKEMON (POKEDEX) -->
     <div id="pokedex-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 backdrop-blur-xl p-4">
@@ -271,6 +323,7 @@
   <div id="modal-card-wrapper" class="card-container relative w-full max-w-[350px] aspect-[3/4] rounded-2xl shadow-2xl">
       <img id="modal-image" src="" class="w-full h-full object-cover rounded-2xl border border-sky-500/30">
       </div>
+      
 </div>
           <div class="flex-1 flex flex-col justify-center py-4">
             <h3 id="modal-title" class="text-3xl font-black text-white mb-2 uppercase tracking-tight"></h3>
@@ -279,6 +332,10 @@
               <button id="modal-toggle-btn" class="w-full py-4 text-lg bg-sky-500 text-slate-950 font-black rounded-2xl hover:bg-sky-400 transition shadow-xl shadow-sky-500/20 active:scale-95">
                 Adicionar à Coleção
               </button>
+              <!-- Local: dentro da div de botões do #card-modal -->
+<button id="btn-add-to-custom-col" class="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl hover:bg-indigo-500 transition mt-2">
+    <i class="fa-solid fa-folder-plus"></i> Adicionar a Coleção Temática
+</button>
               <!-- ADICIONE ISTO LOGO ABAIXO DO BOTÃO ACIMA -->
 <div id="custom-card-actions" class="hidden flex gap-2 mt-3 w-full">
     <button id="btn-edit-custom" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-bold rounded-xl hover:bg-amber-400 transition">
@@ -328,10 +385,19 @@
         <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
       </div>
 
+      <!-- NOVO: Checkbox de Favorita (Já vem marcado) -->
+      <div class="flex items-center gap-3 mt-2 bg-slate-800/50 p-3 rounded-xl border border-slate-700">
+        <input type="checkbox" id="new-card-fav" checked class="w-4 h-4 accent-emerald-500 cursor-pointer">
+        <label for="new-card-fav" class="text-xs text-slate-300 font-medium cursor-pointer">
+          Definir como favorita na Pokedex e marcar como obtida
+        </label>
+      </div>
+
       <div class="flex gap-3 pt-2">
         <button type="button" id="btn-cancel-add" class="flex-1 py-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-sm">Cancelar</button>
         <button type="submit" class="flex-1 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-sm shadow-lg shadow-emerald-500/20">Salvar Carta</button>
       </div>
+
     </form>
   </div>
 </div>
@@ -374,6 +440,25 @@
                 </button>
             </div>
         </form>
+    </div>
+</div>
+<!-- Local: No fim do arquivo, junto com os outros modais -->
+<div id="custom-col-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+    <!-- COLE ESTE CONTEÚDO AQUI DENTRO -->
+    <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+        <h3 class="text-lg font-bold text-white mb-4">Adicionar a qual coleção?</h3>
+        
+        <select id="select-custom-col" class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm">
+            <option value="">Selecione uma existente...</option>
+        </select>
+        
+        <input type="text" id="new-custom-col-name" placeholder="Ou criar nova (ex: Oswaldo Kato)..." 
+               class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm outline-none focus:border-indigo-500">
+        
+        <div class="flex gap-3">
+            <button id="btn-cancel-custom-col" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
+            <button id="btn-save-custom-col" class="flex-1 py-3 bg-indigo-500 text-white rounded-xl font-bold text-sm hover:bg-indigo-400 transition">Adicionar</button>
+        </div>
     </div>
 </div>
 <script type="module" src="script.js"></script>
