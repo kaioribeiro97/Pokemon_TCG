@@ -249,34 +249,63 @@
           <div id="copa-stickers-grid" class="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12 gap-2"></div>
         </section>
       </section>
-            <!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
-      <section id="view-custom-col" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
-          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
-                <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
-              </h2>
-              <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
-            </div>
-          </div>
-        </header>
 
-        <div id="thematic-albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
 
-        <section id="thematic-collection-details" class="mt-8 hidden space-y-4">
-          <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex justify-between items-center">
-            <div>
-              <h3 id="thematic-details-title" class="text-lg font-bold text-indigo-400 mb-1"></h3>
-              <p id="thematic-details-subtitle" class="text-xs text-slate-400"></p>
-            </div>
-            <button id="close-thematic-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
-              <i class="fa-solid fa-arrow-left"></i>
-            </button>
-          </header>
-          <div id="thematic-cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
-        </section>
-      </section>
+
+<!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
+<section id="view-custom-col" class="hidden space-y-6">
+  <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+          <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
+        </h2>
+        <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
+      </div>
+    </div>
+  </header>
+  <div id="thematic-albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+  <!-- SEÇÃO DE DETALHES DA COLEÇÃO TEMÁTICA (COM BOTÕES DE EDITAR/EXCLUIR NO CABEÇALHO) -->
+  <section id="thematic-collection-details" class="mt-8 hidden space-y-4">
+    <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div>
+        <h3 id="thematic-details-title" class="text-lg font-bold text-indigo-400 mb-1"></h3>
+        <p id="thematic-details-subtitle" class="text-xs text-slate-400"></p>
+      </div>
+      <div class="flex items-center gap-2 self-end sm:self-auto">
+        <button id="btn-rename-thematic" title="Renomear Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-amber-500/20 text-slate-300 hover:text-amber-400 border border-slate-700 hover:border-amber-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-pen"></i> <span class="hidden sm:inline">Renomear</span>
+        </button>
+        <button id="btn-delete-thematic" title="Excluir Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 border border-slate-700 hover:border-rose-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-trash"></i> <span class="hidden sm:inline">Excluir</span>
+        </button>
+        <button id="close-thematic-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </header>
+    <div id="thematic-cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+  </section>
+</section>
+<!-- NOVO MODAL: RENOMEAR COLEÇÃO TEMÁTICA (Coloque junto aos outros modais no fim do body) -->
+<div id="rename-thematic-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+  <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+    <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+      <i class="fa-solid fa-pen-to-square text-amber-400"></i> Renomear Coleção
+    </h3>
+    <p class="text-xs text-slate-400 mb-4">Digite o novo nome para esta coleção temática.</p>
+    
+    <input type="hidden" id="rename-thematic-id">
+    <input type="text" id="rename-thematic-name-input" placeholder="Ex: Coleção Pikachu" 
+           class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm outline-none focus:border-amber-400 transition"
+           onkeypress="if(event.key === 'Enter') document.querySelector('#btn-save-rename-thematic').click()">
+    
+    <div class="flex gap-3">
+      <button id="btn-cancel-rename-thematic" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
+      <button id="btn-save-rename-thematic" class="flex-1 py-3 bg-amber-500 text-slate-950 rounded-xl font-bold text-sm hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">Salvar</button>
+    </div>
+  </div>
+</div>
     </main>
     <!-- VISÃO: TCGDEX EXPLORER -->
       <section id="view-tcgdex" class="hidden space-y-6">
@@ -386,55 +415,66 @@
     </div>
 
   </div>
+  <!-- MODAL: ADICIONAR CARTA AVULSA -->
   <div id="add-card-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
-  <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
-    <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-      <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
-    </h3>
-    
-    <form id="form-add-card" class="space-y-4">
-      <div>
-        <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
-        <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
-          class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
-      </div>
-
-      <div class="grid grid-cols-2 gap-4">
+    <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
+      <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+        <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
+      </h3>
+      
+      <form id="form-add-card" class="space-y-4">
         <div>
-          <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Coleção</label>
-          <input type="text" id="new-card-col" required placeholder="Ex: Base Set" 
+          <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
+          <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
             class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
         </div>
-        <div>
-          <label class="block text-xs text-slate-400 mb-1 ml-1">Número</label>
-          <input type="text" id="new-card-num" required placeholder="Ex: 4/102" 
-            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Coleção</label>
+            <input type="text" id="new-card-col" required placeholder="Ex: Base Set" 
+              class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+          </div>
+          <div>
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Número</label>
+            <input type="text" id="new-card-num" required placeholder="Ex: 4/102" 
+              class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+          </div>
         </div>
-      </div>
 
-      <div>
-        <label class="block text-xs text-slate-400 mb-1 ml-1">Link da Imagem (URL)</label>
-        <input type="url" id="new-card-img" required placeholder="https://..." 
-          class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
-        <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
-      </div>
+        <div>
+          <label class="block text-xs text-slate-400 mb-1 ml-1">Link da Imagem (URL)</label>
+          <input type="url" id="new-card-img" required placeholder="https://..." 
+            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+          <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
+        </div>
 
-      <!-- NOVO: Checkbox de Favorita (Já vem marcado) -->
-      <div class="flex items-center gap-3 mt-2 bg-slate-800/50 p-3 rounded-xl border border-slate-700">
-        <input type="checkbox" id="new-card-fav" checked class="w-4 h-4 accent-emerald-500 cursor-pointer">
-        <label for="new-card-fav" class="text-xs text-slate-300 font-medium cursor-pointer">
-          Definir como favorita na Pokedex e marcar como obtida
-        </label>
-      </div>
+        <!-- NOVOS BOTÕES DE AÇÃO -->
+        <div class="flex flex-col gap-2 pt-3 border-t border-slate-800">
+          <button type="button" id="btn-save-card-fav" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-emerald-500 text-slate-950 font-bold hover:from-amber-400 hover:to-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/10">
+            <i class="fa-solid fa-star text-slate-950"></i>
+            <span>Salvar como obtida e favorita</span>
+          </button>
+          
+          <button type="button" id="btn-save-card-owned" class="w-full py-2.5 px-4 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Salvar como obtida</span>
+          </button>
+          
+          <div class="flex gap-2 mt-1">
+            <button type="button" id="btn-save-card-only" class="flex-1 py-2.5 px-3 rounded-xl bg-slate-800 text-slate-200 font-bold hover:bg-slate-700 border border-slate-700 transition text-xs flex items-center justify-center gap-1.5">
+              <i class="fa-solid fa-floppy-disk text-slate-400"></i>
+              <span>Salvar Carta</span>
+            </button>
+            <button type="button" id="btn-cancel-add" class="flex-1 py-2.5 px-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-xs">
+              Cancelar
+            </button>
+          </div>
+        </div>
 
-      <div class="flex gap-3 pt-2">
-        <button type="button" id="btn-cancel-add" class="flex-1 py-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-sm">Cancelar</button>
-        <button type="submit" class="flex-1 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-sm shadow-lg shadow-emerald-500/20">Salvar Carta</button>
-      </div>
-
-    </form>
+      </form>
+    </div>
   </div>
-</div>
 <!-- MODAL DE EDITAR CARTA CUSTOMIZADA -->
 <div id="edit-card-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-md shadow-2xl relative">

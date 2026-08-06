@@ -2,6 +2,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+
 // 2. CONFIGURAÇÃO
 const DATA_VERSION = "1.16"; 
 const firebaseConfig = {
@@ -19,9 +20,9 @@ const db = getFirestore(app);
 
 // Lista de UIDs autorizados a aceder ao painel
 const ALLOWED_UIDS = [
-  "PZt2BWoC0TMjFOmDKH8DkfoEj6z2", // UID Antigo
+  "PZt2BWoC0TMjFOmDKH8DkfoEj6z2",
   "gC3VGb9rQbhDtdPF6g5WLdPx23g2",
-  "qTsDSJjhLEbWc1Hs1SdBToh78wV2"          // <--- SUBSTITUA PELO UID REAL DO NOVO UTILIZADOR
+  "qTsDSJjhLEbWc1Hs1SdBToh78wV2"
 ];
 
 const $ = (s) => document.querySelector(s);
@@ -37,7 +38,6 @@ const state = {
   pokedexSearch: "",
   pokedexFilter: "all",
   currentView: "albums",
-  // NOVIDADES:
   thematicCollections: {},
   currentThematicCollection: null,
   currentViewedCardId: null
@@ -258,20 +258,12 @@ document.querySelector("#close-copa-details").onclick = () => {
 function getBaseName(fullName) {
   if (!fullName) return "";
   
-  // 1. Remove sufixos de raridade, climas e formas (Adicionados: Lavagem, Corte, Calor, Ventilador)
   let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X|Lua Sangrenta|Lavagem|Corte|Calor|Ventilador)\b/gi, '');
-  
-  // 2. Remove posse/treinador do final
   cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
-  
-  // 3. Remove prefixos do início do nome (Adicionado: Dark, Brock's, etc)
   cleaned = cleaned.replace(/^(Mega|M|Brock's|Onix do|Dark)\s/i, '');
-  
-  // 4. Outras regras específicas da sua base
   cleaned = cleaned.replace(/\sMáscara\s.+$/i, '');
   cleaned = cleaned.replace(/\s(Estilo|Forma)\s.+$/i, '');
   
-  // 5. Remove espaços extras que sobraram no início, fim ou duplos no meio
   return cleaned.trim().replace(/\s+/g, ' ');
 }
 
@@ -300,7 +292,7 @@ onAuthStateChanged(auth, (user) => {
     attachThematicListener(); 
   } else {
     state.user = null;
-    $("#login-screen").classList.remove("hidden");
+    $("#login-screen").classList.add("hidden");
     $("#main-content").classList.add("hidden");
     Object.values(state.unsubscribeMap).forEach(unsub => unsub());
     state.unsubscribeMap = {};
@@ -336,8 +328,8 @@ document.querySelectorAll(".view-tab").forEach(tab => {
       $("#view-copa").classList.remove("hidden");
       renderCopaTeams();
     } else if (view === "tcgdex") {
-      $("#view-tcgdex").classList.remove("hidden"); // <-- ADICIONE ESTA LINHA
-    }else if (view === "custom-col") { // <--- ADICIONE ESTE BLOCO NOVO
+      $("#view-tcgdex").classList.remove("hidden");
+    } else if (view === "custom-col") {
       $("#view-custom-col").classList.remove("hidden");
       renderThematicAlbums();
     }
@@ -399,7 +391,6 @@ async function loadData() {
           
           const customCards = [];
           snapshot.forEach(doc => { 
-              // ATUALIZADO: Guardando o customId gerado pelo Firestore
               let cardData = doc.data();
               cardData.customId = doc.id;
               customCards.push(cardData); 
@@ -726,14 +717,12 @@ async function toggleCard(cardId, isOwned) {
   const colId = cardId.split('#')[0].replace(/[\s/]/g, '').toLowerCase();
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
   try {
-    // Tenta gravar na Firestore
     await setDoc(docRef, { [cardId]: !isOwned }, { merge: true });
   } catch (error) {
     console.error("Erro ao alterar o estado da carta:", error);
     alert("Erro de Permissão! O Firebase bloqueou a gravação. Verifique as 'Regras' (Rules) do seu Firestore Database.");
   }
 }
-
 
 function openModal(card, cardId, isOwned) {
   state.currentViewedCardId = cardId;
@@ -802,23 +791,19 @@ function openModal(card, cardId, isOwned) {
       wrapper.onmouseleave = null;
   }
   
-  // Lógica para mostrar/esconder os botões de Edição/Exclusão para cartas customizadas
   const customActions = document.querySelector("#custom-card-actions");
   if (card.customId) {
       customActions.classList.remove("hidden");
       
-      // Ação do botão de excluir
       document.querySelector("#btn-delete-custom").onclick = () => {
           deleteCustomCard(card.customId);
       };
 
-      // Ação do botão de editar (abre o modal de edição e preenche os dados)
       document.querySelector("#btn-edit-custom").onclick = () => {
           document.querySelector("#card-modal").classList.add("hidden");
           document.querySelector("#edit-card-modal").classList.remove("hidden");
           document.querySelector("#edit-card-modal").classList.add("flex");
           
-          // Preenche os campos do formulário
           document.querySelector("#edit-card-id").value = card.customId;
           document.querySelector("#edit-card-name").value = card.Pokemon;
           document.querySelector("#edit-card-col").value = card.Coleção;
@@ -828,10 +813,10 @@ function openModal(card, cardId, isOwned) {
   } else {
       customActions.classList.add("hidden");
   }
-  // Adicione isso ao final do script.js
-document.querySelector("#btn-cancel-custom-col").onclick = () => {
-    document.querySelector("#custom-col-modal").classList.add("hidden");
-};
+
+  document.querySelector("#btn-cancel-custom-col").onclick = () => {
+      document.querySelector("#custom-col-modal").classList.add("hidden");
+  };
 }
 
 $("#modal-close").onclick = () => $("#card-modal").classList.add("hidden");
@@ -850,79 +835,107 @@ $("#file-input").onchange = async (e) => {
   const text = await file.text(); processTCGJson(JSON.parse(text));
 };
 
-// --- LÓGICA DE ADICIONAR CARTA AVULSA ---
+// --- LÓGICA DE ADICIONAR CARTA AVULSA COM DIFERENTES MODOS DE SALVAMENTO ---
 const addCardModal = document.querySelector("#add-card-modal");
+
 document.querySelector("#btn-open-add-card")?.addEventListener("click", () => {
     addCardModal.classList.remove("hidden");
     addCardModal.classList.add("flex");
 });
+
 document.querySelector("#btn-cancel-add")?.addEventListener("click", () => {
     addCardModal.classList.add("hidden");
+    addCardModal.classList.remove("flex");
 });
 
-// --- LÓGICA DE ADICIONAR CARTA AVULSA ---
-document.querySelector("#form-add-card").addEventListener("submit", async (e) => {
-    e.preventDefault();
+// Função centralizada para processar a gravação conforme o botão clicado
+async function handleAddCustomCard(saveMode, btn) {
     if (!state.user) return;
 
-    const btn = e.target.querySelector("button[type='submit']");
-    const originalText = btn.textContent;
-    btn.textContent = "Salvando...";
+    const name = document.querySelector("#new-card-name").value.trim();
+    const colName = document.querySelector("#new-card-col").value.trim();
+    const num = document.querySelector("#new-card-num").value.trim();
+    const img = document.querySelector("#new-card-img").value.trim();
+
+    if (!name || !colName || !num || !img) {
+        alert("Por favor, preencha todos os campos da carta.");
+        return;
+    }
+
+    const originalHTML = btn.innerHTML;
+    btn.innerHTML = "<i class='fa-solid fa-circle-notch animate-spin'></i> Salvando...";
     btn.disabled = true;
 
     const newCard = {
-        Pokemon: document.querySelector("#new-card-name").value,
-        Coleção: document.querySelector("#new-card-col").value,
-        Número: document.querySelector("#new-card-num").value,
-        Imagem: document.querySelector("#new-card-img").value
+        Pokemon: name,
+        Coleção: colName,
+        Número: num,
+        Imagem: img
     };
 
-    const isFav = document.querySelector("#new-card-fav").checked;
-
     try {
-        // 1. Salva no Firebase
+        // 1. Salva a carta no banco de dados geral
         const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
         await addDoc(customCardsRef, newCard);
 
-        // 2. Lógica de favorita e álbum
-        if (isFav) {
-            const cardId = `${newCard.Coleção}#${newCard.Número}`;
+        const cardId = `${newCard.Coleção}#${newCard.Número}`;
+        const colId = newCard.Coleção.replace(/[\s/]/g, '').toLowerCase();
+
+        // 2. Se o modo inclui marcar como obtida ('owned' ou 'fav')
+        if (saveMode === 'owned' || saveMode === 'fav') {
+            const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
+            await setDoc(colRef, { [cardId]: true }, { merge: true });
+        }
+
+        // 3. Se o modo inclui definir como favorita na Pokédex ('fav')
+        if (saveMode === 'fav') {
             const baseName = getBaseName(newCard.Pokemon).toLowerCase();
             const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
             const officialName = species ? species.name.english : newCard.Pokemon;
             
             await setPokedexRepresentative(officialName, cardId);
-
-            const colId = newCard.Coleção.replace(/[\s/]/g, '').toLowerCase();
-            const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
-            await setDoc(colRef, { [cardId]: true }, { merge: true });
         }
 
-        // 3. Feedback visual sem Alert e Atualização Silenciosa
-        btn.textContent = "Sucesso! ✔️";
-        btn.classList.replace("bg-emerald-500", "bg-emerald-400"); // Dá um brilho no botão
-        
-        await loadData(); // Atualiza as cartas na tela instantaneamente
+        // 4. Feedback e fechamento do modal
+        btn.innerHTML = "<i class='fa-solid fa-check'></i> Sucesso!";
+        await loadData();
 
-        // Aguarda 1 segundo para o usuário ver o "Sucesso!" e depois fecha o modal
         setTimeout(() => {
-            e.target.reset();
-            document.querySelector("#add-card-modal").classList.add("hidden");
-            btn.textContent = originalText;
-            btn.classList.replace("bg-emerald-400", "bg-emerald-500");
+            document.querySelector("#form-add-card").reset();
+            addCardModal.classList.add("hidden");
+            addCardModal.classList.remove("flex");
+            btn.innerHTML = originalHTML;
             btn.disabled = false;
         }, 1000);
 
     } catch (error) {
         console.error("Erro ao guardar carta personalizada:", error);
         alert("Erro de Permissão! O Firebase bloqueou a gravação da carta.");
-        btn.textContent = originalText;
+        btn.innerHTML = originalHTML;
         btn.disabled = false;
     }
+}
+
+// Event Listeners dos botões de salvamento
+document.querySelector("#btn-save-card-fav")?.addEventListener("click", function() {
+    handleAddCustomCard('fav', this);
 });
 
-// --- ATUALIZADO: NOVAS FUNÇÕES DE REMOVER E EDITAR ---
-// Remove uma carta customizada
+document.querySelector("#btn-save-card-owned")?.addEventListener("click", function() {
+    handleAddCustomCard('owned', this);
+});
+
+document.querySelector("#btn-save-card-only")?.addEventListener("click", function() {
+    handleAddCustomCard('only', this);
+});
+
+// Evita envio padrão do formulário se o usuário pressionar 'Enter'
+document.querySelector("#form-add-card")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const btnFav = document.querySelector("#btn-save-card-fav");
+    if (btnFav) handleAddCustomCard('fav', btnFav);
+});
+
 async function deleteCustomCard(customId) {
     if (!state.user) return;
     
@@ -933,7 +946,6 @@ async function deleteCustomCard(customId) {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
         await deleteDoc(docRef);
         
-        // Fecha o modal da carta grande e atualiza os dados em background
         document.querySelector("#card-modal").classList.add("hidden");
         await loadData(); 
         
@@ -943,7 +955,6 @@ async function deleteCustomCard(customId) {
     }
 }
 
-// Edita os dados no Firebase
 async function editCustomCard(customId, updatedFields) {
     if (!state.user) return;
 
@@ -951,7 +962,6 @@ async function editCustomCard(customId, updatedFields) {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards", customId);
         await updateDoc(docRef, updatedFields);
         
-        // Fecha o modal de edição e atualiza os dados em background
         document.querySelector("#edit-card-modal").classList.add("hidden");
         await loadData(); 
         
@@ -961,7 +971,6 @@ async function editCustomCard(customId, updatedFields) {
     }
 }
 
-// Enviar formulário do modal de edição
 document.querySelector("#form-edit-card").addEventListener("submit", async (e) => {
     e.preventDefault();
     
@@ -980,16 +989,16 @@ document.querySelector("#form-edit-card").addEventListener("submit", async (e) =
 
     await editCustomCard(customId, updatedFields);
     
-    // O modal fecha sozinho dentro do editCustomCard, então só resetamos o botão
     btn.textContent = originalText;
     btn.disabled = false;
 });
+
 // ==========================================
 // MÓDULO TCGDEX API (INTEGRAÇÃO)
 // ==========================================
 
 const tcgdexMapColecoes = new Map();
-const tcgdexSetsData = {}; // NOVO: Dicionário para mapear ID -> Nome da Coleção
+const tcgdexSetsData = {};
 
 const tcgdexIdiomas = [
     { codigo: 'pt', label: 'PT-BR', color: 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' },
@@ -997,7 +1006,6 @@ const tcgdexIdiomas = [
     { codigo: 'ja', label: 'JP', color: 'bg-rose-500/20 text-rose-400 border border-rose-500/30' }
 ];
 
-// Carrega a lista de coleções para o Datalist e para o dicionário interno
 async function initTCGdex() {
     try {
         const res = await fetch('https://api.tcgdex.net/v2/pt/sets');
@@ -1005,7 +1013,6 @@ async function initTCGdex() {
         const datalist = document.getElementById('tcgdex-set-list');
         
         sets.reverse().forEach(set => {
-            // Salva o nome oficial usando o ID como chave (ex: tcgdexSetsData['sv1'] = 'Escarlate e Violeta')
             tcgdexSetsData[set.id] = set.name;
             
             const ano = set.releaseDate ? set.releaseDate.split('-')[0] : 'S/D';
@@ -1021,7 +1028,6 @@ async function initTCGdex() {
     }
 }
 
-// Inicia o carregamento em background quando a página carrega
 setTimeout(initTCGdex, 2000);
 
 window.handleTCGdexSet = function(value) {
@@ -1031,34 +1037,30 @@ window.handleTCGdexSet = function(value) {
         buscarDadosTCGdex(`sets/${setId}`, true);
     }
 };
+
 window.buscarTCGdexNome = function() {
     const rawValue = document.getElementById('tcgdex-name').value.trim();
     if (!rawValue) return;
     
-    // Limpa o campo de coleção para evitar conflitos
     document.getElementById('tcgdex-set').value = '';
 
     let nome = rawValue;
     let numeroBuscado = null;
 
-    // LÓGICA DE SEPARAÇÃO: Verifica se o usuário digitou um número no final (ex: "Luxray 46")
     const partes = rawValue.split(' ');
     if (partes.length > 1) {
         const ultimoTermo = partes[partes.length - 1];
         
-        // Se o último termo contém pelo menos um dígito (pega casos como "46", "046" ou "TG04")
         if (/\d/.test(ultimoTermo)) {
-            numeroBuscado = ultimoTermo; // Guarda o número
-            partes.pop(); // Remove o número do array de palavras
-            nome = partes.join(' '); // Junta o resto para formar o nome do Pokémon
+            numeroBuscado = ultimoTermo;
+            partes.pop();
+            nome = partes.join(' ');
         }
     }
 
-    // Passamos o nome para a API e o número para filtrar internamente
     buscarDadosTCGdex(`cards?name=${nome}`, false, numeroBuscado);
 };
 
-// Adicionamos o terceiro parâmetro "numeroFiltro" (por padrão é null)
 async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
     const resultsDiv = document.getElementById('tcgdex-results');
     const loadingDiv = document.getElementById('tcgdex-loading');
@@ -1075,18 +1077,13 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
                 
                 let listaCartas = isSetInfo ? dados.cards : dados;
 
-                // ==========================================
-                // APLICAÇÃO DO FILTRO DE NÚMERO
-                // ==========================================
                 if (numeroFiltro && !isSetInfo) {
                     listaCartas = listaCartas.filter(carta => {
                         if (!carta.localId) return false;
                         
-                        // Removemos os zeros à esquerda e transformamos em minúscula para a busca ser à prova de falhas
                         const localIdFormatado = carta.localId.toString().toLowerCase().replace(/^0+/, '');
                         const filtroFormatado = numeroFiltro.toLowerCase().replace(/^0+/, '');
                         
-                        // Retorna true se o número for exato (ex: 46 == 46) ou se fizer parte do código (ex: TG04 contém 4)
                         return localIdFormatado === filtroFormatado || localIdFormatado.includes(filtroFormatado);
                     });
                 }
@@ -1119,11 +1116,6 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         const imgHighUrl = carta.image ? `${carta.image}/high.png` : '';
         const { label, color } = carta.idiomaObj;
         
-        // -----------------------------------------------------------
-        // A MÁGICA ACONTECE AQUI:
-        // O ID de toda carta na TCGdex segue o padrão "setId-numero" (Ex: "sv4pt5-24").
-        // Dividimos a string pelo "-" e usamos a primeira parte para buscar o nome no nosso dicionário.
-        // -----------------------------------------------------------
         const setId = carta.id ? carta.id.split('-')[0] : '';
         const nomeColecao = tcgdexSetsData[setId] || 'Promo / Desconhecida';
         
@@ -1152,7 +1144,6 @@ function renderizarResultadosTCGdex(todasAsCartas) {
             </div>
         `;
 
-        // Agora o nomeColecao alimenta o campo corretamente
         cardElement.onclick = () => {
             document.querySelector("#new-card-name").value = carta.name;
             document.querySelector("#new-card-col").value = nomeColecao;
@@ -1166,48 +1157,61 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         resultsDiv.appendChild(cardElement);
     });
 }
-// --- LÓGICA DE COLEÇÕES PERSONALIZADAS ---
 
-async function openCustomColModal(cardId) {
-    const select = document.querySelector("#select-custom-col");
-    // Carrega as coleções personalizadas existentes
-    const snap = await getDocs(collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_collections"));
-    
-    select.innerHTML = '<option value="">Selecione uma existente...</option>';
-    snap.forEach(doc => {
-        const opt = document.createElement("option");
-        opt.value = doc.id;
-        opt.textContent = doc.data().name;
-        select.appendChild(opt);
-    });
-
-    document.querySelector("#custom-col-modal").classList.remove("hidden");
-    document.querySelector("#custom-col-modal").classList.add("flex");
-    
-    document.querySelector("#btn-save-custom-col").onclick = () => {
-        const colName = document.querySelector("#new-custom-col-name").value;
-        const colId = select.value || colName.replace(/\s/g, '').toLowerCase();
-        adicionarCartaACollection(colId, colName, cardId);
-    };
-}
-
-async function adicionarCartaACollection(colId, colName, cardId) {
-    if (!state.user) return;
-    
-    const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_collections", colId);
-    
-    // Salva o nome da coleção e adiciona o cardId ao array de cartas
-    await setDoc(colRef, {
-        name: colName,
-        cards: arrayUnion(cardId) // Requer importar arrayUnion do Firestore
-    }, { merge: true });
-
-    document.querySelector("#custom-col-modal").classList.add("hidden");
-    alert("Adicionado à coleção " + colName);
-}
 // ==========================================
 // MÓDULO COLEÇÕES TEMÁTICAS
 // ==========================================
+
+// Renomeia a coleção temática no Firebase
+async function renameThematicCollection(colId, newName) {
+    if (!state.user || !colId || !newName.trim()) return;
+    try {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
+        await updateDoc(docRef, { name: newName.trim() });
+        if (state.currentThematicCollection === colId) {
+            $("#thematic-details-title").textContent = newName.trim();
+        }
+    } catch (err) {
+        console.error("Erro ao renomear coleção temática:", err);
+        alert("Erro ao renomear a coleção no Firebase.");
+    }
+}
+
+// Exclui a coleção temática no Firebase
+async function deleteThematicCollection(colId) {
+    if (!state.user || !colId) return;
+    const colName = state.thematicCollections[colId]?.name || "esta coleção";
+    
+    if (!confirm(`Tem certeza que deseja excluir permanentemente a coleção "${colName}"?`)) return;
+
+    try {
+        const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
+        await deleteDoc(docRef);
+
+        if (state.currentThematicCollection === colId) {
+            state.currentThematicCollection = null;
+            $("#thematic-collection-details").classList.add("hidden");
+            $("#thematic-albums-grid").classList.remove("hidden");
+        }
+    } catch (err) {
+        console.error("Erro ao excluir coleção temática:", err);
+        alert("Erro ao excluir a coleção no Firebase.");
+    }
+}
+
+function openRenameThematicModal(colId) {
+    const col = state.thematicCollections[colId];
+    if (!col) return;
+
+    $("#rename-thematic-id").value = colId;
+    $("#rename-thematic-name-input").value = col.name;
+
+    const modal = $("#rename-thematic-modal");
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+    setTimeout(() => $("#rename-thematic-name-input").focus(), 100);
+}
+
 function attachThematicListener() {
     if (!state.user) return;
     const colRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections");
@@ -1240,26 +1244,47 @@ function renderThematicAlbums() {
         const col = state.thematicCollections[id];
         const numCards = col.cards ? Object.keys(col.cards).length : 0;
         
-        const btn = document.createElement("button");
-        btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-indigo-500 transition shadow-xl";
-        btn.innerHTML = `
-            <div class="flex justify-between items-start mb-4">
-                <h4 class="font-bold text-indigo-400">${col.name}</h4>
-                <div class="w-8 h-8 bg-indigo-500/20 text-indigo-400 rounded-full flex items-center justify-center text-xs border border-indigo-500/50">
-                    <i class="fa-solid fa-star"></i>
+        const cardDiv = document.createElement("div");
+        cardDiv.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-indigo-500 transition shadow-xl flex flex-col justify-between cursor-pointer";
+        cardDiv.innerHTML = `
+            <div>
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="font-bold text-indigo-400 text-base group-hover:text-indigo-300 transition pr-2">${col.name}</h4>
+                    <div class="flex items-center gap-1">
+                        <button class="btn-card-rename p-2 rounded-lg bg-slate-800 hover:bg-amber-500/20 text-slate-400 hover:text-amber-400 border border-slate-700 transition" title="Renomear Coleção">
+                            <i class="fa-solid fa-pen text-xs"></i>
+                        </button>
+                        <button class="btn-card-delete p-2 rounded-lg bg-slate-800 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 border border-slate-700 transition" title="Excluir Coleção">
+                            <i class="fa-solid fa-trash text-xs"></i>
+                        </button>
+                    </div>
                 </div>
+                <p class="text-xs text-slate-400">${numCards} cartas cadastradas</p>
             </div>
-            <p class="text-xs text-slate-400">${numCards} cartas cadastradas</p>
+            <div class="mt-4 pt-3 border-t border-slate-700/50 flex justify-between items-center text-xs font-bold text-indigo-400 group-hover:text-indigo-300">
+                <span>Ver Coleção</span>
+                <i class="fa-solid fa-arrow-right transition transform group-hover:translate-x-1"></i>
+            </div>
         `;
         
-        btn.onclick = () => { 
+        cardDiv.onclick = (e) => {
+            if (e.target.closest('.btn-card-rename')) {
+                e.stopPropagation();
+                openRenameThematicModal(id);
+                return;
+            }
+            if (e.target.closest('.btn-card-delete')) {
+                e.stopPropagation();
+                deleteThematicCollection(id);
+                return;
+            }
             state.currentThematicCollection = id; 
             $("#thematic-details-title").textContent = col.name; 
             $("#thematic-collection-details").classList.remove("hidden");
             $("#thematic-albums-grid").classList.add("hidden");
             renderThematicCards(); 
         };
-        grid.appendChild(btn);
+        grid.appendChild(cardDiv);
     });
 }
 
@@ -1295,7 +1320,6 @@ function renderThematicCards() {
         const container = document.createElement("div");
         container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-indigo-500/50 hover:border-indigo-400 transition relative`;
 
-        // ATUALIZAÇÃO: O botão de remover agora é estático e bem visível
         container.innerHTML = `
         <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition">
             <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border border-indigo-500/50" loading="lazy">
@@ -1310,7 +1334,6 @@ function renderThematicCards() {
 
         container.querySelector('.card-container').onclick = () => openModal(cardObj, cardId, true);
         
-        // Função do botão de remover
         container.querySelector('.remove-thematic-btn').onclick = async (e) => {
             e.stopPropagation();
             if (confirm(`Tem certeza que deseja remover ${cardObj.Pokemon} desta coleção temática?`)) {
@@ -1327,7 +1350,38 @@ function renderThematicCards() {
     });
 }
 
-// Botões do Modal
+// Botões de Ação das Coleções Temáticas
+document.querySelector("#btn-rename-thematic")?.addEventListener("click", () => {
+    if (state.currentThematicCollection) {
+        openRenameThematicModal(state.currentThematicCollection);
+    }
+});
+
+document.querySelector("#btn-delete-thematic")?.addEventListener("click", () => {
+    if (state.currentThematicCollection) {
+        deleteThematicCollection(state.currentThematicCollection);
+    }
+});
+
+document.querySelector("#btn-cancel-rename-thematic")?.addEventListener("click", () => {
+    const modal = $("#rename-thematic-modal");
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+});
+
+document.querySelector("#btn-save-rename-thematic")?.addEventListener("click", async () => {
+    const colId = $("#rename-thematic-id").value;
+    const newName = $("#rename-thematic-name-input").value;
+    if (newName && newName.trim()) {
+        await renameThematicCollection(colId, newName);
+        const modal = $("#rename-thematic-modal");
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+    } else {
+        alert("Por favor, digite um nome válido para a coleção.");
+    }
+});
+
 document.querySelector("#btn-add-to-custom-col").onclick = () => {
     const select = document.querySelector("#select-custom-col");
     select.innerHTML = '<option value="">Selecione uma existente...</option>';
@@ -1344,7 +1398,6 @@ document.querySelector("#btn-add-to-custom-col").onclick = () => {
     document.querySelector("#custom-col-modal").classList.add("flex");
 };
 
-// Aqui eu substituo a função que estava vazia pela lógica correta
 document.querySelector("#btn-cancel-custom-col").onclick = () => {
     document.querySelector("#custom-col-modal").classList.add("hidden");
     document.querySelector("#custom-col-modal").classList.remove("flex");
@@ -1397,6 +1450,3 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
         btn.textContent = "Adicionar";
     }
 };
-
-// Lembre-se de importar arrayUnion no topo do script.js:
-// import { ..., arrayUnion } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
