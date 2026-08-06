@@ -267,6 +267,39 @@ function getBaseName(fullName) {
   return cleaned.trim().replace(/\s+/g, ' ');
 }
 
+// --- FUNÇÃO ANTI-DUPLICAÇÃO DE CARTAS ---
+function isDuplicateCard(pokemonName, colName, cardNumber) {
+    if (!pokemonName || !colName || !cardNumber) return false;
+    
+    const p1 = pokemonName.trim().toLowerCase();
+    const c1 = colName.trim().toLowerCase();
+    const n1 = cardNumber.toString().trim().toLowerCase();
+    const n1Clean = n1.replace(/^0+/, '').split('/')[0];
+
+    let found = false;
+
+    Object.values(state.collections).forEach(col => {
+        if (found) return;
+        col.cards.forEach(card => {
+            if (found) return;
+            const p2 = (card.Pokemon || "").trim().toLowerCase();
+            const c2 = (card.Coleção || "").trim().toLowerCase();
+            const n2 = (card.Número || "").toString().trim().toLowerCase();
+            const n2Clean = n2.replace(/^0+/, '').split('/')[0];
+
+            const samePokemon = (p1 === p2) || (getBaseName(p1) === getBaseName(p2));
+            const sameCollection = (c1 === c2) || c1.includes(c2) || c2.includes(c1);
+            const sameNumber = (n1 === n2) || (n1Clean === n2Clean && n1Clean !== "");
+
+            if (samePokemon && sameCollection && sameNumber) {
+                found = true;
+            }
+        });
+    });
+
+    return found;
+}
+
 // --- AUTENTICAÇÃO ---
 $("#login-btn").addEventListener("click", async () => {
   const email = $("#login-email").value;
@@ -835,7 +868,7 @@ $("#file-input").onchange = async (e) => {
   const text = await file.text(); processTCGJson(JSON.parse(text));
 };
 
-// --- LÓGICA DE ADICIONAR CARTA AVULSA COM DIFERENTES MODOS DE SALVAMENTO ---
+// --- LÓGICA DE ADICIONAR CARTA AVULSA COM VERIFICAÇÃO ANTI-DUPLICAÇÃO ---
 const addCardModal = document.querySelector("#add-card-modal");
 
 document.querySelector("#btn-open-add-card")?.addEventListener("click", () => {
@@ -860,6 +893,12 @@ async function handleAddCustomCard(saveMode, btn) {
     if (!name || !colName || !num || !img) {
         alert("Por favor, preencha todos os campos da carta.");
         return;
+    }
+
+    // VERIFICAÇÃO ANTI-DUPLICAÇÃO
+    if (isDuplicateCard(name, colName, num)) {
+        const confirmar = confirm(`Atenção: A carta "${name}" (${colName} #${num}) já está cadastrada na sua base de dados!\n\nDeseja realmente salvar uma cópia duplicada?`);
+        if (!confirmar) return; // Aborta a gravação se o usuário cancelar
     }
 
     const originalHTML = btn.innerHTML;
@@ -1119,6 +1158,9 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         const setId = carta.id ? carta.id.split('-')[0] : '';
         const nomeColecao = tcgdexSetsData[setId] || 'Promo / Desconhecida';
         
+        // VERIFICA SE A CARTA JÁ EXISTE NO SEU BANCO
+        const jaCadastrada = isDuplicateCard(carta.name, nomeColecao, carta.localId || '0');
+
         const cardElement = document.createElement('div');
         cardElement.className = 'flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition cursor-pointer group';
         
@@ -1127,12 +1169,18 @@ function renderizarResultadosTCGdex(todasAsCartas) {
                 <span class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] font-black rounded backdrop-blur-md z-20 ${color}">
                     ${label}
                 </span>
+
+                ${jaCadastrada ? `
+                <span class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-black rounded backdrop-blur-md z-20 bg-emerald-500 text-slate-950 border border-emerald-400 flex items-center gap-1 shadow">
+                    <i class="fa-solid fa-circle-check"></i> Cadastrada
+                </span>
+                ` : ''}
                 
                 <div class="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center z-10">
-                    <div class="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center text-slate-950 shadow-lg shadow-sky-500/40 transform scale-75 group-hover:scale-100 transition">
-                        <i class="fa-solid fa-plus text-xl"></i>
+                    <div class="w-10 h-10 ${jaCadastrada ? 'bg-amber-500' : 'bg-sky-500'} rounded-full flex items-center justify-center text-slate-950 shadow-lg transform scale-75 group-hover:scale-100 transition">
+                        <i class="fa-solid ${jaCadastrada ? 'fa-copy' : 'fa-plus'} text-xl"></i>
                     </div>
-                    <p class="text-[10px] text-white font-bold mt-2 uppercase tracking-wide">Importar</p>
+                    <p class="text-[10px] text-white font-bold mt-2 uppercase tracking-wide">${jaCadastrada ? 'Importar Cópia' : 'Importar'}</p>
                 </div>
 
                 <img src="${imgUrl}" alt="${carta.name}" class="w-full h-full object-cover">
@@ -1145,6 +1193,11 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         `;
 
         cardElement.onclick = () => {
+            if (jaCadastrada) {
+                const confirmar = confirm(`A carta "${carta.name}" (${nomeColecao} #${carta.localId}) já existe na sua coleção!\n\nDeseja abrir o formulário para adicionar uma cópia duplicada?`);
+                if (!confirmar) return;
+            }
+
             document.querySelector("#new-card-name").value = carta.name;
             document.querySelector("#new-card-col").value = nomeColecao;
             document.querySelector("#new-card-num").value = carta.localId || '0';
