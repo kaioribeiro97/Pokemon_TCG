@@ -43,6 +43,105 @@ const state = {
   currentViewedCardId: null
 };
 
+// --- SISTEMA DE TOAST NOTIFICATIONS ---
+function showToast(message, type = 'info', duration = 3500) {
+    const container = document.getElementById("toast-container");
+    if (!container) return;
+
+    const toast = document.createElement("div");
+    
+    let config = {
+        bg: "bg-slate-900/90 border-sky-500/50 text-sky-300 shadow-sky-500/10",
+        icon: "fa-circle-info text-sky-400"
+    };
+
+    if (type === "success") {
+        config = { bg: "bg-slate-900/90 border-emerald-500/50 text-emerald-300 shadow-emerald-500/10", icon: "fa-circle-check text-emerald-400" };
+    } else if (type === "error" || type === "danger") {
+        config = { bg: "bg-slate-900/90 border-rose-500/50 text-rose-300 shadow-rose-500/10", icon: "fa-circle-xmark text-rose-400" };
+    } else if (type === "warning") {
+        config = { bg: "bg-slate-900/90 border-amber-500/50 text-amber-300 shadow-amber-500/10", icon: "fa-triangle-exclamation text-amber-400" };
+    }
+
+    toast.className = `pointer-events-auto flex items-center gap-3 p-4 rounded-2xl border backdrop-blur-xl shadow-2xl transition-all duration-300 transform translate-y-4 opacity-0 ${config.bg}`;
+    toast.innerHTML = `
+        <i class="fa-solid ${config.icon} text-lg shrink-0"></i>
+        <p class="text-xs font-medium text-slate-200 flex-1 leading-snug">${message}</p>
+        <button class="text-slate-500 hover:text-slate-300 transition text-xs ml-2" onclick="this.parentElement.remove()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    `;
+
+    container.appendChild(toast);
+
+    requestAnimationFrame(() => {
+        toast.classList.remove("translate-y-4", "opacity-0");
+        toast.classList.add("translate-y-0", "opacity-100");
+    });
+
+    setTimeout(() => {
+        toast.classList.remove("translate-y-0", "opacity-100");
+        toast.classList.add("translate-y-2", "opacity-0");
+        setTimeout(() => toast.remove(), 300);
+    }, duration);
+}
+
+// --- SISTEMA DE MODAL DE CONFIRMAÇÃO ASYNC ---
+function showConfirmModal({ title = "Confirmação", message, confirmText = "Confirmar", cancelText = "Cancelar", type = "warning" }) {
+    return new Promise((resolve) => {
+        const modal = document.getElementById("custom-confirm-modal");
+        const box = document.getElementById("custom-confirm-box");
+        const iconBg = document.getElementById("confirm-icon-bg");
+        const icon = document.getElementById("confirm-icon");
+        const titleEl = document.getElementById("confirm-title");
+        const msgEl = document.getElementById("confirm-message");
+        const btnCancel = document.getElementById("confirm-btn-cancel");
+        const btnOk = document.getElementById("confirm-btn-ok");
+
+        titleEl.textContent = title;
+        msgEl.textContent = message;
+        btnCancel.textContent = cancelText;
+        btnOk.textContent = confirmText;
+
+        if (type === "danger") {
+            iconBg.className = "w-12 h-12 rounded-2xl flex items-center justify-center mb-4 text-xl shadow-lg bg-rose-500/20 text-rose-400 border border-rose-500/30";
+            icon.className = "fa-solid fa-trash";
+            btnOk.className = "flex-1 py-3 bg-rose-500 text-white rounded-xl font-bold text-xs hover:bg-rose-400 transition shadow-lg shadow-rose-500/20";
+        } else if (type === "warning") {
+            iconBg.className = "w-12 h-12 rounded-2xl flex items-center justify-center mb-4 text-xl shadow-lg bg-amber-500/20 text-amber-400 border border-amber-500/30";
+            icon.className = "fa-solid fa-triangle-exclamation";
+            btnOk.className = "flex-1 py-3 bg-amber-500 text-slate-950 rounded-xl font-bold text-xs hover:bg-amber-400 transition shadow-lg shadow-amber-500/20";
+        } else {
+            iconBg.className = "w-12 h-12 rounded-2xl flex items-center justify-center mb-4 text-xl shadow-lg bg-sky-500/20 text-sky-400 border border-sky-500/30";
+            icon.className = "fa-solid fa-circle-question";
+            btnOk.className = "flex-1 py-3 bg-sky-500 text-slate-950 rounded-xl font-bold text-xs hover:bg-sky-400 transition shadow-lg shadow-sky-500/20";
+        }
+
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+
+        requestAnimationFrame(() => {
+            box.classList.remove("scale-95", "opacity-0");
+            box.classList.add("scale-100", "opacity-100");
+        });
+
+        const close = (result) => {
+            box.classList.remove("scale-100", "opacity-100");
+            box.classList.add("scale-95", "opacity-0");
+            setTimeout(() => {
+                modal.classList.add("hidden");
+                modal.classList.remove("flex");
+                btnOk.onclick = null;
+                btnCancel.onclick = null;
+                resolve(result);
+            }, 200);
+        };
+
+        btnOk.onclick = () => close(true);
+        btnCancel.onclick = () => close(false);
+    });
+}
+
 // --- DADOS DA COPA DO MUNDO 2026 ---
 const copaData = [
   { id: "FWC", name: "Página Inicial", count: 20, start: 0, icon: "fa-globe" },
@@ -125,7 +224,7 @@ async function toggleCopaSticker(stickerId, isOwned) {
     await setDoc(docRef, { [stickerId]: !isOwned }, { merge: true });
   } catch (error) {
     console.error("Erro de Permissão (Copa):", error);
-    alert("Erro! O Firebase bloqueou a gravação. Verifique as 'Rules' da sua Base de Dados.");
+    showToast("Erro! O Firebase bloqueou a gravação.", "error");
   }
 }
 
@@ -305,9 +404,17 @@ $("#login-btn").addEventListener("click", async () => {
   const email = $("#login-email").value;
   const pass = $("#login-pass").value;
   $("#login-error").classList.add("hidden");
-  try { await signInWithEmailAndPassword(auth, email, pass); } catch (err) { $("#login-error").classList.remove("hidden"); }
+  try { 
+      await signInWithEmailAndPassword(auth, email, pass); 
+      showToast("Bem-vindo, Treinador!", "success");
+  } catch (err) { 
+      $("#login-error").classList.remove("hidden"); 
+  }
 });
-$("#logout-btn").addEventListener("click", () => signOut(auth));
+$("#logout-btn").addEventListener("click", () => {
+    signOut(auth);
+    showToast("Sessão encerrada.", "info");
+});
 
 onAuthStateChanged(auth, (user) => {
   if (user && ALLOWED_UIDS.includes(user.uid)) {
@@ -739,9 +846,10 @@ async function setPokedexRepresentative(pokemonName, cardId) {
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "pokedex_prefs", "representatives");
   try {
     await setDoc(docRef, { [pokemonName]: cardId }, { merge: true });
+    showToast(`Carta favorita atualizada para ${pokemonName}!⭐`, "success");
   } catch (error) {
     console.error("Erro ao definir favorito:", error);
-    alert("Erro! O Firebase bloqueou a gravação do favorito.");
+    showToast("Erro! O Firebase bloqueou a gravação do favorito.", "error");
   }
 }
 
@@ -751,9 +859,10 @@ async function toggleCard(cardId, isOwned) {
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
   try {
     await setDoc(docRef, { [cardId]: !isOwned }, { merge: true });
+    showToast(!isOwned ? "Carta adicionada à coleção! ✔️" : "Carta removida da coleção.", !isOwned ? "success" : "info");
   } catch (error) {
     console.error("Erro ao alterar o estado da carta:", error);
-    alert("Erro de Permissão! O Firebase bloqueou a gravação. Verifique as 'Regras' (Rules) do seu Firestore Database.");
+    showToast("Erro de permissão no Firebase ao alterar carta.", "error");
   }
 }
 
@@ -881,7 +990,6 @@ document.querySelector("#btn-cancel-add")?.addEventListener("click", () => {
     addCardModal.classList.remove("flex");
 });
 
-// Função centralizada para processar a gravação conforme o botão clicado
 async function handleAddCustomCard(saveMode, btn) {
     if (!state.user) return;
 
@@ -891,14 +999,20 @@ async function handleAddCustomCard(saveMode, btn) {
     const img = document.querySelector("#new-card-img").value.trim();
 
     if (!name || !colName || !num || !img) {
-        alert("Por favor, preencha todos os campos da carta.");
+        showToast("Por favor, preencha todos os campos da carta.", "warning");
         return;
     }
 
-    // VERIFICAÇÃO ANTI-DUPLICAÇÃO
+    // VERIFICAÇÃO ANTI-DUPLICAÇÃO USANDO O NOVO CONFIRM MODAL
     if (isDuplicateCard(name, colName, num)) {
-        const confirmar = confirm(`Atenção: A carta "${name}" (${colName} #${num}) já está cadastrada na sua base de dados!\n\nDeseja realmente salvar uma cópia duplicada?`);
-        if (!confirmar) return; // Aborta a gravação se o usuário cancelar
+        const confirmar = await showConfirmModal({
+            title: "Carta Duplicada",
+            message: `A carta "${name}" (${colName} #${num}) já existe na sua base de dados!\n\nDeseja salvar mesmo assim uma cópia duplicada?`,
+            confirmText: "Salvar Cópia",
+            cancelText: "Cancelar",
+            type: "warning"
+        });
+        if (!confirmar) return;
     }
 
     const originalHTML = btn.innerHTML;
@@ -913,20 +1027,17 @@ async function handleAddCustomCard(saveMode, btn) {
     };
 
     try {
-        // 1. Salva a carta no banco de dados geral
         const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
         await addDoc(customCardsRef, newCard);
 
         const cardId = `${newCard.Coleção}#${newCard.Número}`;
         const colId = newCard.Coleção.replace(/[\s/]/g, '').toLowerCase();
 
-        // 2. Se o modo inclui marcar como obtida ('owned' ou 'fav')
         if (saveMode === 'owned' || saveMode === 'fav') {
             const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
             await setDoc(colRef, { [cardId]: true }, { merge: true });
         }
 
-        // 3. Se o modo inclui definir como favorita na Pokédex ('fav')
         if (saveMode === 'fav') {
             const baseName = getBaseName(newCard.Pokemon).toLowerCase();
             const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
@@ -935,8 +1046,7 @@ async function handleAddCustomCard(saveMode, btn) {
             await setPokedexRepresentative(officialName, cardId);
         }
 
-        // 4. Feedback e fechamento do modal
-        btn.innerHTML = "<i class='fa-solid fa-check'></i> Sucesso!";
+        showToast(`Carta "${name}" salva com sucesso!`, "success");
         await loadData();
 
         setTimeout(() => {
@@ -949,13 +1059,12 @@ async function handleAddCustomCard(saveMode, btn) {
 
     } catch (error) {
         console.error("Erro ao guardar carta personalizada:", error);
-        alert("Erro de Permissão! O Firebase bloqueou a gravação da carta.");
+        showToast("Erro de permissão no Firebase ao salvar carta.", "error");
         btn.innerHTML = originalHTML;
         btn.disabled = false;
     }
 }
 
-// Event Listeners dos botões de salvamento
 document.querySelector("#btn-save-card-fav")?.addEventListener("click", function() {
     handleAddCustomCard('fav', this);
 });
@@ -968,7 +1077,6 @@ document.querySelector("#btn-save-card-only")?.addEventListener("click", functio
     handleAddCustomCard('only', this);
 });
 
-// Evita envio padrão do formulário se o usuário pressionar 'Enter'
 document.querySelector("#form-add-card")?.addEventListener("submit", (e) => {
     e.preventDefault();
     const btnFav = document.querySelector("#btn-save-card-fav");
@@ -978,7 +1086,14 @@ document.querySelector("#form-add-card")?.addEventListener("submit", (e) => {
 async function deleteCustomCard(customId) {
     if (!state.user) return;
     
-    const confirmDelete = confirm("Tem certeza que deseja remover esta carta permanentemente da base de dados?");
+    const confirmDelete = await showConfirmModal({
+        title: "Excluir Carta",
+        message: "Tem certeza que deseja remover esta carta permanentemente da sua coleção?",
+        confirmText: "Sim, Excluir",
+        cancelText: "Cancelar",
+        type: "danger"
+    });
+
     if (!confirmDelete) return;
 
     try {
@@ -986,11 +1101,12 @@ async function deleteCustomCard(customId) {
         await deleteDoc(docRef);
         
         document.querySelector("#card-modal").classList.add("hidden");
+        showToast("Carta removida com sucesso!", "success");
         await loadData(); 
         
     } catch (error) {
         console.error("Erro ao remover carta:", error);
-        alert("Erro! Não foi possível remover a carta. Verifique as permissões.");
+        showToast("Erro! Não foi possível remover a carta.", "error");
     }
 }
 
@@ -1002,11 +1118,12 @@ async function editCustomCard(customId, updatedFields) {
         await updateDoc(docRef, updatedFields);
         
         document.querySelector("#edit-card-modal").classList.add("hidden");
+        showToast("Carta atualizada com sucesso!", "success");
         await loadData(); 
         
     } catch (error) {
         console.error("Erro ao editar carta:", error);
-        alert("Erro! Não foi possível editar a carta.");
+        showToast("Erro! Não foi possível editar a carta.", "error");
     }
 }
 
@@ -1158,7 +1275,6 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         const setId = carta.id ? carta.id.split('-')[0] : '';
         const nomeColecao = tcgdexSetsData[setId] || 'Promo / Desconhecida';
         
-        // VERIFICA SE A CARTA JÁ EXISTE NO SEU BANCO
         const jaCadastrada = isDuplicateCard(carta.name, nomeColecao, carta.localId || '0');
 
         const cardElement = document.createElement('div');
@@ -1192,9 +1308,15 @@ function renderizarResultadosTCGdex(todasAsCartas) {
             </div>
         `;
 
-        cardElement.onclick = () => {
+        cardElement.onclick = async () => {
             if (jaCadastrada) {
-                const confirmar = confirm(`A carta "${carta.name}" (${nomeColecao} #${carta.localId}) já existe na sua coleção!\n\nDeseja abrir o formulário para adicionar uma cópia duplicada?`);
+                const confirmar = await showConfirmModal({
+                    title: "Carta Já Cadastrada",
+                    message: `A carta "${carta.name}" (${nomeColecao} #${carta.localId}) já existe na sua coleção!\n\nDeseja abrir o formulário para adicionar uma cópia duplicada?`,
+                    confirmText: "Importar Cópia",
+                    cancelText: "Cancelar",
+                    type: "warning"
+                });
                 if (!confirmar) return;
             }
 
@@ -1215,7 +1337,6 @@ function renderizarResultadosTCGdex(todasAsCartas) {
 // MÓDULO COLEÇÕES TEMÁTICAS
 // ==========================================
 
-// Renomeia a coleção temática no Firebase
 async function renameThematicCollection(colId, newName) {
     if (!state.user || !colId || !newName.trim()) return;
     try {
@@ -1224,18 +1345,26 @@ async function renameThematicCollection(colId, newName) {
         if (state.currentThematicCollection === colId) {
             $("#thematic-details-title").textContent = newName.trim();
         }
+        showToast("Coleção renomeada com sucesso!", "success");
     } catch (err) {
         console.error("Erro ao renomear coleção temática:", err);
-        alert("Erro ao renomear a coleção no Firebase.");
+        showToast("Erro ao renomear a coleção no Firebase.", "error");
     }
 }
 
-// Exclui a coleção temática no Firebase
 async function deleteThematicCollection(colId) {
     if (!state.user || !colId) return;
     const colName = state.thematicCollections[colId]?.name || "esta coleção";
     
-    if (!confirm(`Tem certeza que deseja excluir permanentemente a coleção "${colName}"?`)) return;
+    const confirmar = await showConfirmModal({
+        title: "Excluir Coleção Temática",
+        message: `Tem certeza que deseja excluir permanentemente a coleção "${colName}"?`,
+        confirmText: "Sim, Excluir",
+        cancelText: "Cancelar",
+        type: "danger"
+    });
+
+    if (!confirmar) return;
 
     try {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
@@ -1246,9 +1375,10 @@ async function deleteThematicCollection(colId) {
             $("#thematic-collection-details").classList.add("hidden");
             $("#thematic-albums-grid").classList.remove("hidden");
         }
+        showToast(`Coleção "${colName}" excluída.`, "info");
     } catch (err) {
         console.error("Erro ao excluir coleção temática:", err);
-        alert("Erro ao excluir a coleção no Firebase.");
+        showToast("Erro ao excluir a coleção no Firebase.", "error");
     }
 }
 
@@ -1389,13 +1519,23 @@ function renderThematicCards() {
         
         container.querySelector('.remove-thematic-btn').onclick = async (e) => {
             e.stopPropagation();
-            if (confirm(`Tem certeza que deseja remover ${cardObj.Pokemon} desta coleção temática?`)) {
+            
+            const confirmar = await showConfirmModal({
+                title: "Remover Carta",
+                message: `Tem certeza que deseja remover ${cardObj.Pokemon} desta coleção temática?`,
+                confirmText: "Remover",
+                cancelText: "Cancelar",
+                type: "danger"
+            });
+
+            if (confirmar) {
                 const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", state.currentThematicCollection);
                 try {
                     await setDoc(docRef, { cards: { [cardId]: deleteField() } }, { merge: true });
+                    showToast("Carta removida da coleção temática.", "info");
                 } catch (err) {
                     console.error("Erro ao remover:", err);
-                    alert("Erro ao remover a carta.");
+                    showToast("Erro ao remover a carta.", "error");
                 }
             }
         };
@@ -1431,7 +1571,7 @@ document.querySelector("#btn-save-rename-thematic")?.addEventListener("click", a
         modal.classList.add("hidden");
         modal.classList.remove("flex");
     } else {
-        alert("Por favor, digite um nome válido para a coleção.");
+        showToast("Por favor, digite um nome válido para a coleção.", "warning");
     }
 });
 
@@ -1472,7 +1612,7 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
         colId = selectVal;
         colName = state.thematicCollections[selectVal].name;
     } else {
-        alert("Selecione uma coleção ou crie uma nova!");
+        showToast("Selecione uma coleção ou crie uma nova!", "warning");
         return;
     }
 
@@ -1486,19 +1626,11 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
         document.querySelector("#custom-col-modal").classList.add("hidden");
         document.querySelector("#custom-col-modal").classList.remove("flex");
         
-        const addBtn = document.querySelector("#btn-add-to-custom-col");
-        const originalText = addBtn.innerHTML;
-        addBtn.innerHTML = "<i class='fa-solid fa-check'></i> Adicionado!";
-        addBtn.classList.replace("bg-indigo-600", "bg-emerald-500");
-        
-        setTimeout(() => {
-            addBtn.innerHTML = originalText;
-            addBtn.classList.replace("bg-emerald-500", "bg-indigo-600");
-        }, 2000);
+        showToast(`Carta adicionada à coleção "${colName}"! ⭐`, "success");
 
     } catch (err) {
         console.error(err);
-        alert("Erro ao salvar na coleção temática.");
+        showToast("Erro ao salvar na coleção temática.", "error");
     } finally {
         btn.textContent = "Adicionar";
     }

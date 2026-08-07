@@ -27,6 +27,25 @@
 </head>
 <body class="min-h-screen bg-slate-950 text-slate-100">
 
+  <!-- CONTAINER DE TOAST NOTIFICATIONS -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-[100] flex flex-col gap-3 pointer-events-none max-w-sm w-full px-4 sm:px-0"></div>
+
+  <!-- MODAL DE CONFIRMAÇÃO CUSTOMIZADO -->
+  <div id="custom-confirm-modal" class="fixed inset-0 z-[90] hidden bg-slate-950/80 backdrop-blur-md items-center justify-center p-4">
+    <div id="custom-confirm-box" class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl relative transform transition-all scale-95 opacity-0 duration-200">
+      <div id="confirm-icon-bg" class="w-12 h-12 rounded-2xl flex items-center justify-center mb-4 text-xl shadow-lg">
+        <i id="confirm-icon" class="fa-solid fa-triangle-exclamation"></i>
+      </div>
+      <h3 id="confirm-title" class="text-lg font-bold text-white mb-2"></h3>
+      <p id="confirm-message" class="text-xs text-slate-400 mb-6 leading-relaxed whitespace-pre-line"></p>
+      
+      <div class="flex gap-3">
+        <button id="confirm-btn-cancel" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-xs hover:bg-slate-700 transition">Cancelar</button>
+        <button id="confirm-btn-ok" class="flex-1 py-3 bg-rose-500 text-white rounded-xl font-bold text-xs hover:bg-rose-400 transition shadow-lg shadow-rose-500/20">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- 1. TELA DE LOGIN -->
   <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950">
     <div class="w-full max-w-md p-8 bg-slate-900 rounded-3xl border border-slate-700 shadow-2xl">
@@ -75,24 +94,22 @@
 
         <!-- ABA DE NAVEGAÇÃO -->
         <div class="flex items-center bg-slate-800/80 p-1 rounded-xl border border-slate-700">
-  <button data-view="albums" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950">
-    Álbuns
-  </button>
-  <button data-view="pokedex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
-    Pokedex
-  </button>
-  <button data-view="copa" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
-    Copa 2026
-  </button>
-  <!-- NOVO BOTÃO TCGDEX -->
-  <button data-view="tcgdex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
-    <i class="fa-solid fa-globe"></i> TCGdex
-  </button>
-     <!-- NOVO BOTÃO: MINHAS COLEÇÕES -->
-  <button data-view="custom-col" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
-    <i class="fa-solid fa-star text-indigo-400"></i> Minhas Coleções
-  </button>
-</div>
+          <button data-view="albums" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950">
+            Álbuns
+          </button>
+          <button data-view="pokedex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+            Pokedex
+          </button>
+          <button data-view="copa" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition">
+            Copa 2026
+          </button>
+          <button data-view="tcgdex" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
+            <i class="fa-solid fa-globe"></i> TCGdex
+          </button>
+          <button data-view="custom-col" class="view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-2">
+            <i class="fa-solid fa-star text-indigo-400"></i> Minhas Coleções
+          </button>
+        </div>
 
         <div class="flex items-center gap-3">
           <button id="logout-btn" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 text-slate-400 hover:text-white border border-slate-700 transition">
@@ -100,8 +117,6 @@
           </button>
         </div>
       </div>
-
-
     </nav>
 
     <main class="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-10">
@@ -131,9 +146,9 @@
           </div>
         </section>
         <button id="btn-open-add-card" class="px-3 py-2 rounded-xl border border-sky-500/50 bg-sky-500/10 text-[11px] flex items-center gap-2 text-sky-400 hover:bg-sky-500 hover:text-slate-950 transition">
-  <i class="fa-solid fa-plus"></i>
-  <span>Adicionar Carta Avulsa</span>
-</button>
+          <i class="fa-solid fa-plus"></i>
+          <span>Adicionar Carta Avulsa</span>
+        </button>
         <div id="albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
 
         <section id="collection-details" class="mt-8 hidden space-y-4">
@@ -160,51 +175,51 @@
       <!-- VISÃO: POKEDEX -->
       <section id="view-pokedex" class="hidden space-y-6">
         <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
-  
-  <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-    <div>
-      <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
-        <i class="fa-solid fa-address-book text-rose-500"></i>
-        Pokedex Nacional
-      </h2>
-      <p class="text-xs text-slate-400 mt-1">Registo oficial de espécies.</p>
-    </div>
-    <div class="relative w-full md:w-80">
-      <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-      <input type="text" id="pokedex-search" placeholder="Pesquisar por nome ou ID..." 
-        class="w-full pl-9 pr-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-rose-500 transition">
-    </div>
-  </div>
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+                <i class="fa-solid fa-address-book text-rose-500"></i>
+                Pokedex Nacional
+              </h2>
+              <p class="text-xs text-slate-400 mt-1">Registo oficial de espécies.</p>
+            </div>
+            <div class="relative w-full md:w-80">
+              <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+              <input type="text" id="pokedex-search" placeholder="Pesquisar por nome ou ID..." 
+                class="w-full pl-9 pr-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-rose-500 transition">
+            </div>
+          </div>
 
-  <div class="flex flex-col md:flex-row gap-4 items-center justify-between border-t border-slate-800 pt-4">
-    
-    <div class="w-full md:w-1/2 flex flex-col gap-2">
-      <div class="flex justify-between text-[10px] uppercase font-bold tracking-wider">
-        <span class="text-slate-400">Progresso da Coleção</span>
-        <span id="pokedex-stats-text" class="text-rose-400">0 / 0 (0%)</span>
-      </div>
-      <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-        <div id="pokedex-progress-bar" class="h-full bg-gradient-to-r from-rose-500 to-orange-500 transition-all duration-500" style="width:0%"></div>
-      </div>
-    </div>
+          <div class="flex flex-col md:flex-row gap-4 items-center justify-between border-t border-slate-800 pt-4">
+            <div class="w-full md:w-1/2 flex flex-col gap-2">
+              <div class="flex justify-between text-[10px] uppercase font-bold tracking-wider">
+                <span class="text-slate-400">Progresso da Coleção</span>
+                <span id="pokedex-stats-text" class="text-rose-400">0 / 0 (0%)</span>
+              </div>
+              <div class="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+                <div id="pokedex-progress-bar" class="h-full bg-gradient-to-r from-rose-500 to-orange-500 transition-all duration-500" style="width:0%"></div>
+              </div>
+            </div>
 
-    <div class="flex bg-slate-800 p-1 rounded-xl">
-      <button data-filter="all" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase transition bg-slate-600 text-white shadow">
-        Todos
-      </button>
-      <button data-filter="owned" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
-        Tenho
-      </button>
-      <button data-filter="missing" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
-        Falta
-      </button>
-    </div>
-  </div>
-</header>
+            <div class="flex bg-slate-800 p-1 rounded-xl">
+              <button data-filter="all" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase transition bg-slate-600 text-white shadow">
+                Todos
+              </button>
+              <button data-filter="owned" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
+                Tenho
+              </button>
+              <button data-filter="missing" class="pokedex-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition">
+                Falta
+              </button>
+            </div>
+          </div>
+        </header>
 
         <div id="pokedex-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"></div>
       </section>
-<section id="view-copa" class="hidden space-y-6">
+
+      <!-- VISÃO: COPA 2026 -->
+      <section id="view-copa" class="hidden space-y-6">
         <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
@@ -250,64 +265,44 @@
         </section>
       </section>
 
+      <!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
+      <section id="view-custom-col" class="hidden space-y-6">
+        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+                <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
+              </h2>
+              <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
+            </div>
+          </div>
+        </header>
 
+        <div id="thematic-albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
 
-<!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
-<section id="view-custom-col" class="hidden space-y-6">
-  <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
-    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-      <div>
-        <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
-          <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
-        </h2>
-        <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
-      </div>
-    </div>
-  </header>
-  <div id="thematic-albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-  <!-- SEÇÃO DE DETALHES DA COLEÇÃO TEMÁTICA (COM BOTÕES DE EDITAR/EXCLUIR NO CABEÇALHO) -->
-  <section id="thematic-collection-details" class="mt-8 hidden space-y-4">
-    <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-      <div>
-        <h3 id="thematic-details-title" class="text-lg font-bold text-indigo-400 mb-1"></h3>
-        <p id="thematic-details-subtitle" class="text-xs text-slate-400"></p>
-      </div>
-      <div class="flex items-center gap-2 self-end sm:self-auto">
-        <button id="btn-rename-thematic" title="Renomear Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-amber-500/20 text-slate-300 hover:text-amber-400 border border-slate-700 hover:border-amber-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
-          <i class="fa-solid fa-pen"></i> <span class="hidden sm:inline">Renomear</span>
-        </button>
-        <button id="btn-delete-thematic" title="Excluir Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 border border-slate-700 hover:border-rose-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
-          <i class="fa-solid fa-trash"></i> <span class="hidden sm:inline">Excluir</span>
-        </button>
-        <button id="close-thematic-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
-          <i class="fa-solid fa-arrow-left"></i>
-        </button>
-      </div>
-    </header>
-    <div id="thematic-cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
-  </section>
-</section>
-<!-- NOVO MODAL: RENOMEAR COLEÇÃO TEMÁTICA (Coloque junto aos outros modais no fim do body) -->
-<div id="rename-thematic-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-  <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
-    <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
-      <i class="fa-solid fa-pen-to-square text-amber-400"></i> Renomear Coleção
-    </h3>
-    <p class="text-xs text-slate-400 mb-4">Digite o novo nome para esta coleção temática.</p>
-    
-    <input type="hidden" id="rename-thematic-id">
-    <input type="text" id="rename-thematic-name-input" placeholder="Ex: Coleção Pikachu" 
-           class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm outline-none focus:border-amber-400 transition"
-           onkeypress="if(event.key === 'Enter') document.querySelector('#btn-save-rename-thematic').click()">
-    
-    <div class="flex gap-3">
-      <button id="btn-cancel-rename-thematic" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
-      <button id="btn-save-rename-thematic" class="flex-1 py-3 bg-amber-500 text-slate-950 rounded-xl font-bold text-sm hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">Salvar</button>
-    </div>
-  </div>
-</div>
-    </main>
-    <!-- VISÃO: TCGDEX EXPLORER -->
+        <section id="thematic-collection-details" class="mt-8 hidden space-y-4">
+          <header class="border border-slate-700/60 bg-slate-900/70 rounded-2xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+              <h3 id="thematic-details-title" class="text-lg font-bold text-indigo-400 mb-1"></h3>
+              <p id="thematic-details-subtitle" class="text-xs text-slate-400"></p>
+            </div>
+            <div class="flex items-center gap-2 self-end sm:self-auto">
+              <button id="btn-rename-thematic" title="Renomear Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-amber-500/20 text-slate-300 hover:text-amber-400 border border-slate-700 hover:border-amber-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <i class="fa-solid fa-pen"></i> <span class="hidden sm:inline">Renomear</span>
+              </button>
+              <button id="btn-delete-thematic" title="Excluir Coleção" class="px-3 py-1.5 bg-slate-800 hover:bg-rose-500/20 text-slate-300 hover:text-rose-400 border border-slate-700 hover:border-rose-500/50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <i class="fa-solid fa-trash"></i> <span class="hidden sm:inline">Excluir</span>
+              </button>
+              <button id="close-thematic-details" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+            </div>
+          </header>
+          <div id="thematic-cards-grid" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+        </section>
+      </section>
+
+      <!-- VISÃO: TCGDEX EXPLORER -->
       <section id="view-tcgdex" class="hidden space-y-6">
         <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -319,9 +314,7 @@
             </div>
           </div>
 
-          <!-- Controles de Busca -->
           <div class="flex flex-col md:flex-row gap-6 border-t border-slate-800 pt-5">
-            <!-- Busca por Nome -->
             <div class="flex-1 flex flex-col gap-2">
               <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Buscar por Pokémon</label>
               <div class="flex gap-2">
@@ -336,7 +329,6 @@
 
             <div class="hidden md:block w-px bg-slate-700/50"></div>
 
-            <!-- Busca por Coleção -->
             <div class="flex-1 flex flex-col gap-2">
               <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Filtrar por Coleção (Set)</label>
               <input type="text" id="tcgdex-set" list="tcgdex-set-list" placeholder="Digite o nome da coleção..." 
@@ -347,7 +339,6 @@
           </div>
         </header>
 
-        <!-- Status e Resultados -->
         <div id="tcgdex-loading" class="hidden flex flex-col items-center justify-center py-12 text-slate-500 animate-pulse">
           <i class="fa-solid fa-circle-notch text-3xl text-sky-500 mb-3"></i>
           <p class="text-xs uppercase tracking-widest font-bold">Sincronizando com a API...</p>
@@ -355,6 +346,8 @@
         
         <div id="tcgdex-results" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-5"></div>
       </section>
+
+    </main>
 
     <!-- MODAL: DETALHES POKEMON (POKEDEX) -->
     <div id="pokedex-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 backdrop-blur-xl p-4">
@@ -383,11 +376,10 @@
         </button>
         <div class="flex flex-col sm:flex-row gap-8">
           <div id="modal-image-container" class="flex-1 flex justify-center items-center">
-  <div id="modal-card-wrapper" class="card-container relative w-full max-w-[350px] aspect-[3/4] rounded-2xl shadow-2xl">
-      <img id="modal-image" src="" class="w-full h-full object-cover rounded-2xl border border-sky-500/30">
-      </div>
-      
-</div>
+            <div id="modal-card-wrapper" class="card-container relative w-full max-w-[350px] aspect-[3/4] rounded-2xl shadow-2xl">
+              <img id="modal-image" src="" class="w-full h-full object-cover rounded-2xl border border-sky-500/30">
+            </div>
+          </div>
           <div class="flex-1 flex flex-col justify-center py-4">
             <h3 id="modal-title" class="text-3xl font-black text-white mb-2 uppercase tracking-tight"></h3>
             <p id="modal-number" class="text-lg text-slate-400 mb-8 font-medium"></p>
@@ -395,146 +387,166 @@
               <button id="modal-toggle-btn" class="w-full py-4 text-lg bg-sky-500 text-slate-950 font-black rounded-2xl hover:bg-sky-400 transition shadow-xl shadow-sky-500/20 active:scale-95">
                 Adicionar à Coleção
               </button>
-              <!-- Local: dentro da div de botões do #card-modal -->
-<button id="btn-add-to-custom-col" class="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl hover:bg-indigo-500 transition mt-2">
-    <i class="fa-solid fa-folder-plus"></i> Adicionar a Coleção Temática
-</button>
-              <!-- ADICIONE ISTO LOGO ABAIXO DO BOTÃO ACIMA -->
-<div id="custom-card-actions" class="hidden flex gap-2 mt-3 w-full">
-    <button id="btn-edit-custom" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-bold rounded-xl hover:bg-amber-400 transition">
-        <i class="fa-solid fa-pen"></i> Editar
-    </button>
-    <button id="btn-delete-custom" class="w-1/2 py-3 bg-red-500 text-white font-bold rounded-xl hover:bg-red-400 transition">
-        <i class="fa-solid fa-trash"></i> Excluir
-    </button>
-</div>
+              <button id="btn-add-to-custom-col" class="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl hover:bg-indigo-500 transition mt-2">
+                <i class="fa-solid fa-folder-plus"></i> Adicionar a Coleção Temática
+              </button>
+              <div id="custom-card-actions" class="hidden flex gap-2 mt-3 w-full">
+                <button id="btn-edit-custom" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-bold rounded-xl hover:bg-amber-400 transition">
+                  <i class="fa-solid fa-pen"></i> Editar
+                </button>
+                <button id="btn-delete-custom" class="w-1/2 py-3 bg-red-500 text-white font-bold rounded-xl hover:bg-red-400 transition">
+                  <i class="fa-solid fa-trash"></i> Excluir
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-  </div>
-  <!-- MODAL: ADICIONAR CARTA AVULSA -->
-  <div id="add-card-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
-    <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
-      <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-        <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
-      </h3>
-      
-      <form id="form-add-card" class="space-y-4">
-        <div>
-          <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
-          <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
-            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
-        </div>
-
-        <div class="grid grid-cols-2 gap-4">
+    <!-- MODAL: ADICIONAR CARTA AVULSA -->
+    <div id="add-card-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
+      <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
+        <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
+        </h3>
+        
+        <form id="form-add-card" class="space-y-4">
           <div>
-            <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Coleção</label>
-            <input type="text" id="new-card-col" required placeholder="Ex: Base Set" 
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
+            <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
               class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
           </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Coleção</label>
+              <input type="text" id="new-card-col" required placeholder="Ex: Base Set" 
+                class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+            </div>
+            <div>
+              <label class="block text-xs text-slate-400 mb-1 ml-1">Número</label>
+              <input type="text" id="new-card-num" required placeholder="Ex: 4/102" 
+                class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+            </div>
+          </div>
+
           <div>
-            <label class="block text-xs text-slate-400 mb-1 ml-1">Número</label>
-            <input type="text" id="new-card-num" required placeholder="Ex: 4/102" 
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Link da Imagem (URL)</label>
+            <input type="url" id="new-card-img" required placeholder="https://..." 
               class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
+            <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
           </div>
-        </div>
 
-        <div>
-          <label class="block text-xs text-slate-400 mb-1 ml-1">Link da Imagem (URL)</label>
-          <input type="url" id="new-card-img" required placeholder="https://..." 
-            class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
-          <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da Liga pokemon ou artofpkm.</p>
-        </div>
-
-        <!-- NOVOS BOTÕES DE AÇÃO -->
-        <div class="flex flex-col gap-2 pt-3 border-t border-slate-800">
-          <button type="button" id="btn-save-card-fav" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-emerald-500 text-slate-950 font-bold hover:from-amber-400 hover:to-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/10">
-            <i class="fa-solid fa-star text-slate-950"></i>
-            <span>Salvar como obtida e favorita</span>
-          </button>
-          
-          <button type="button" id="btn-save-card-owned" class="w-full py-2.5 px-4 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20">
-            <i class="fa-solid fa-circle-check"></i>
-            <span>Salvar como obtida</span>
-          </button>
-          
-          <div class="flex gap-2 mt-1">
-            <button type="button" id="btn-save-card-only" class="flex-1 py-2.5 px-3 rounded-xl bg-slate-800 text-slate-200 font-bold hover:bg-slate-700 border border-slate-700 transition text-xs flex items-center justify-center gap-1.5">
-              <i class="fa-solid fa-floppy-disk text-slate-400"></i>
-              <span>Salvar Carta</span>
+          <!-- BOTÕES DE AÇÃO -->
+          <div class="flex flex-col gap-2 pt-3 border-t border-slate-800">
+            <button type="button" id="btn-save-card-fav" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-emerald-500 text-slate-950 font-bold hover:from-amber-400 hover:to-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/10">
+              <i class="fa-solid fa-star text-slate-950"></i>
+              <span>Salvar como obtida e favorita</span>
             </button>
-            <button type="button" id="btn-cancel-add" class="flex-1 py-2.5 px-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-xs">
-              Cancelar
+            
+            <button type="button" id="btn-save-card-owned" class="w-full py-2.5 px-4 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Salvar como obtida</span>
             </button>
+            
+            <div class="flex gap-2 mt-1">
+              <button type="button" id="btn-save-card-only" class="flex-1 py-2.5 px-3 rounded-xl bg-slate-800 text-slate-200 font-bold hover:bg-slate-700 border border-slate-700 transition text-xs flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-floppy-disk text-slate-400"></i>
+                <span>Salvar Carta</span>
+              </button>
+              <button type="button" id="btn-cancel-add" class="flex-1 py-2.5 px-3 rounded-xl border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition font-bold text-xs">
+                Cancelar
+              </button>
+            </div>
           </div>
-        </div>
 
-      </form>
+        </form>
+      </div>
     </div>
-  </div>
-<!-- MODAL DE EDITAR CARTA CUSTOMIZADA -->
-<div id="edit-card-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-md shadow-2xl relative">
+
+    <!-- MODAL: EDITAR CARTA CUSTOMIZADA -->
+    <div id="edit-card-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-md shadow-2xl relative">
         <h2 class="text-xl font-black text-amber-400 mb-4 flex items-center gap-2">
-            <i class="fa-solid fa-pen-to-square"></i> Editar Carta
+          <i class="fa-solid fa-pen-to-square"></i> Editar Carta
         </h2>
         
         <form id="form-edit-card" class="space-y-4">
-            <!-- Input oculto para guardar o ID do Firebase -->
-            <input type="hidden" id="edit-card-id">
+          <input type="hidden" id="edit-card-id">
 
-            <div>
-                <label class="block text-xs font-bold text-slate-400 mb-1">Nome do Pokémon</label>
-                <input type="text" id="edit-card-name" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1">Nome do Pokémon</label>
+            <input type="text" id="edit-card-name" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1">Coleção</label>
+            <input type="text" id="edit-card-col" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+          </div>
+          <div class="flex gap-4">
+            <div class="w-1/2">
+              <label class="block text-xs font-bold text-slate-400 mb-1">Número</label>
+              <input type="text" id="edit-card-num" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
             </div>
-            <div>
-                <label class="block text-xs font-bold text-slate-400 mb-1">Coleção</label>
-                <input type="text" id="edit-card-col" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
+            <div class="w-1/2">
+              <label class="block text-xs font-bold text-slate-400 mb-1">URL da Imagem</label>
+              <input type="url" id="edit-card-img" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
             </div>
-            <div class="flex gap-4">
-                <div class="w-1/2">
-                    <label class="block text-xs font-bold text-slate-400 mb-1">Número</label>
-                    <input type="text" id="edit-card-num" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
-                </div>
-                <div class="w-1/2">
-                    <label class="block text-xs font-bold text-slate-400 mb-1">URL da Imagem</label>
-                    <input type="url" id="edit-card-img" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-amber-400 outline-none transition">
-                </div>
-            </div>
-            
-            <div class="flex gap-3 mt-6">
-                <button type="button" id="btn-cancel-edit" class="w-1/2 py-3 bg-slate-800 text-slate-300 font-bold rounded-xl hover:bg-slate-700 transition">
-                    Cancelar
-                </button>
-                <button type="submit" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-black rounded-xl hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">
-                    Salvar
-                </button>
-            </div>
+          </div>
+          
+          <div class="flex gap-3 mt-6">
+            <button type="button" id="btn-cancel-edit" class="w-1/2 py-3 bg-slate-800 text-slate-300 font-bold rounded-xl hover:bg-slate-700 transition">
+              Cancelar
+            </button>
+            <button type="submit" class="w-1/2 py-3 bg-amber-500 text-slate-950 font-black rounded-xl hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">
+              Salvar
+            </button>
+          </div>
         </form>
+      </div>
     </div>
-</div>
-<!-- Local: No fim do arquivo, junto com os outros modais -->
-<div id="custom-col-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-    <!-- COLE ESTE CONTEÚDO AQUI DENTRO -->
-    <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+
+    <!-- MODAL: SELECIONAR COLEÇÃO TEMÁTICA -->
+    <div id="custom-col-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
         <h3 class="text-lg font-bold text-white mb-4">Adicionar a qual coleção?</h3>
         
         <select id="select-custom-col" class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm">
-            <option value="">Selecione uma existente...</option>
+          <option value="">Selecione uma existente...</option>
         </select>
         
         <input type="text" id="new-custom-col-name" placeholder="Ou criar nova (ex: Oswaldo Kato)..." 
                class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm outline-none focus:border-indigo-500">
         
         <div class="flex gap-3">
-            <button id="btn-cancel-custom-col" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
-            <button id="btn-save-custom-col" class="flex-1 py-3 bg-indigo-500 text-white rounded-xl font-bold text-sm hover:bg-indigo-400 transition">Adicionar</button>
+          <button id="btn-cancel-custom-col" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
+          <button id="btn-save-custom-col" class="flex-1 py-3 bg-indigo-500 text-white rounded-xl font-bold text-sm hover:bg-indigo-400 transition">Adicionar</button>
         </div>
+      </div>
     </div>
-</div>
-<script type="module" src="script.js"></script>
+
+    <!-- MODAL: RENOMEAR COLEÇÃO TEMÁTICA -->
+    <div id="rename-thematic-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+        <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+          <i class="fa-solid fa-pen-to-square text-amber-400"></i> Renomear Coleção
+        </h3>
+        <p class="text-xs text-slate-400 mb-4">Digite o novo nome para esta coleção temática.</p>
+        
+        <input type="hidden" id="rename-thematic-id">
+        <input type="text" id="rename-thematic-name-input" placeholder="Ex: Coleção Pikachu" 
+               class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm outline-none focus:border-amber-400 transition"
+               onkeypress="if(event.key === 'Enter') document.querySelector('#btn-save-rename-thematic').click()">
+        
+        <div class="flex gap-3">
+          <button id="btn-cancel-rename-thematic" class="flex-1 py-3 bg-slate-800 text-slate-300 rounded-xl font-bold text-sm hover:bg-slate-700 transition">Cancelar</button>
+          <button id="btn-save-rename-thematic" class="flex-1 py-3 bg-amber-500 text-slate-950 rounded-xl font-bold text-sm hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">Salvar</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
 </body>
 </html>
