@@ -1195,7 +1195,7 @@ document.querySelector("#form-edit-card").addEventListener("submit", async (e) =
 });
 
 // ==========================================
-// MÓDULO TCGDEX API (INTEGRAÇÃO)
+// MÓDULO TCGDEX API (INTEGRAÇÃO MULTI-FILTRO)
 // ==========================================
 
 const tcgdexMapColecoes = new Map();
@@ -1252,52 +1252,62 @@ async function initTCGdex() {
     }
 }
 
-setTimeout(initTCGdex, 2000);
+setTimeout(initTCGdex, 1500);
 
-window.handleTCGdexSet = function(value) {
-    const setId = tcgdexMapColecoes.get(value);
-    if (setId) {
-        document.getElementById('tcgdex-name').value = ''; 
-        if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
-        buscarDadosTCGdex(`sets/${setId}`, true);
-    }
+window.limparFiltrosTCGdex = function() {
+    if (document.getElementById('tcgdex-name')) document.getElementById('tcgdex-name').value = '';
+    if (document.getElementById('tcgdex-set')) document.getElementById('tcgdex-set').value = '';
+    if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
+    const resultsDiv = document.getElementById('tcgdex-results');
+    if (resultsDiv) resultsDiv.innerHTML = '';
 };
 
-window.buscarTCGdexNome = function() {
-    const rawValue = document.getElementById('tcgdex-name').value.trim();
-    if (!rawValue) return;
-    
-    document.getElementById('tcgdex-set').value = '';
-    if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
+window.buscarTCGdex = function() {
+    const rawNome = document.getElementById('tcgdex-name')?.value.trim() || "";
+    const rawSet = document.getElementById('tcgdex-set')?.value.trim() || "";
+    const rawArtista = document.getElementById('tcgdex-artist')?.value.trim() || "";
 
-    let nome = rawValue;
+    if (!rawNome && !rawSet && !rawArtista) {
+        showToast("Digite ou selecione pelo menos um filtro (Nome, Coleção ou Artista).", "warning");
+        return;
+    }
+
+    let nome = rawNome;
     let numeroBuscado = null;
 
-    const partes = rawValue.split(' ');
-    if (partes.length > 1) {
-        const ultimoTermo = partes[partes.length - 1];
-        
-        if (/\d/.test(ultimoTermo)) {
-            numeroBuscado = ultimoTermo;
-            partes.pop();
-            nome = partes.join(' ');
+    if (rawNome) {
+        const partes = rawNome.split(' ');
+        if (partes.length > 1) {
+            const ultimoTermo = partes[partes.length - 1];
+            if (/\d/.test(ultimoTermo)) {
+                numeroBuscado = ultimoTermo;
+                partes.pop();
+                nome = partes.join(' ');
+            }
         }
     }
 
-    buscarDadosTCGdex(`cards?name=${encodeURIComponent(nome)}`, false, numeroBuscado);
-};
-
-window.buscarTCGdexArtista = function() {
-    const rawValue = document.getElementById('tcgdex-artist').value.trim();
-    if (!rawValue) return;
+    const queryParams = [];
+    if (nome) queryParams.push(`name=${encodeURIComponent(nome)}`);
+    if (rawArtista) queryParams.push(`illustrator=${encodeURIComponent(rawArtista)}`);
     
-    document.getElementById('tcgdex-name').value = '';
-    document.getElementById('tcgdex-set').value = '';
+    const setId = tcgdexMapColecoes.get(rawSet);
+    if (setId) {
+        queryParams.push(`set=${encodeURIComponent(setId)}`);
+    } else if (rawSet) {
+        queryParams.push(`set=${encodeURIComponent(rawSet)}`);
+    }
 
-    buscarDadosTCGdex(`illustrators/${encodeURIComponent(rawValue)}`, true);
+    const endpoint = `cards?${queryParams.join('&')}`;
+    buscarDadosTCGdex(endpoint, false, numeroBuscado, rawArtista);
 };
 
-async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
+// Mantém retrocompatibilidade caso alguma chamada use o nome antigo
+window.handleTCGdexSet = function(val) { window.buscarTCGdex(); };
+window.buscarTCGdexNome = function() { window.buscarTCGdex(); };
+window.buscarTCGdexArtista = function() { window.buscarTCGdex(); };
+
+async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artistaFiltro = null) {
     const resultsDiv = document.getElementById('tcgdex-results');
     const loadingDiv = document.getElementById('tcgdex-loading');
     
@@ -1314,14 +1324,24 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
                 let listaCartas = isSetInfo ? (dados.cards || dados) : dados;
                 if (!Array.isArray(listaCartas)) listaCartas = [];
 
-                if (numeroFiltro && !isSetInfo) {
+                // Filtro por número do card (se informado no campo nome)
+                if (numeroFiltro) {
                     listaCartas = listaCartas.filter(carta => {
                         if (!carta.localId) return false;
-                        
                         const localIdFormatado = carta.localId.toString().toLowerCase().replace(/^0+/, '');
                         const filtroFormatado = numeroFiltro.toLowerCase().replace(/^0+/, '');
-                        
                         return localIdFormatado === filtroFormatado || localIdFormatado.includes(filtroFormatado);
+                    });
+                }
+
+                // Filtro adicional por artista no lado do cliente
+                if (artistaFiltro) {
+                    const artLower = artistaFiltro.toLowerCase();
+                    listaCartas = listaCartas.filter(carta => {
+                        if (carta.illustrator) {
+                            return carta.illustrator.toLowerCase().includes(artLower);
+                        }
+                        return true;
                     });
                 }
 
@@ -1344,7 +1364,7 @@ function renderizarResultadosTCGdex(todasAsCartas) {
     document.getElementById('tcgdex-loading').classList.add('hidden');
 
     if (todasAsCartas.length === 0) {
-        resultsDiv.innerHTML = '<p class="text-slate-500 col-span-full text-center py-8">Nenhuma carta encontrada.</p>';
+        resultsDiv.innerHTML = '<p class="text-slate-500 col-span-full text-center py-8">Nenhuma carta encontrada para esta combinação de filtros.</p>';
         return;
     }
 
