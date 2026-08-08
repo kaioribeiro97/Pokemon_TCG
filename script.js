@@ -399,6 +399,23 @@ function isDuplicateCard(pokemonName, colName, cardNumber) {
     return found;
 }
 
+// Preenche a caixa de seleção de coleções temáticas no modal de adicionar
+function populateThematicSelectInAddModal() {
+    const select = document.querySelector("#new-card-thematic-select");
+    if (!select) return;
+    select.innerHTML = '<option value="">Selecione uma existente...</option>';
+    
+    Object.values(state.thematicCollections).sort((a,b) => a.name.localeCompare(b.name)).forEach(col => {
+        const opt = document.createElement("option");
+        opt.value = col.id;
+        opt.textContent = col.name;
+        select.appendChild(opt);
+    });
+
+    const input = document.querySelector("#new-card-thematic-input");
+    if (input) input.value = "";
+}
+
 // --- AUTENTICAÇÃO ---
 $("#login-btn").addEventListener("click", async () => {
   const email = $("#login-email").value;
@@ -981,6 +998,7 @@ $("#file-input").onchange = async (e) => {
 const addCardModal = document.querySelector("#add-card-modal");
 
 document.querySelector("#btn-open-add-card")?.addEventListener("click", () => {
+    populateThematicSelectInAddModal();
     addCardModal.classList.remove("hidden");
     addCardModal.classList.add("flex");
 });
@@ -1003,7 +1021,7 @@ async function handleAddCustomCard(saveMode, btn) {
         return;
     }
 
-    // VERIFICAÇÃO ANTI-DUPLICAÇÃO USANDO O NOVO CONFIRM MODAL
+    // VERIFICAÇÃO ANTI-DUPLICAÇÃO
     if (isDuplicateCard(name, colName, num)) {
         const confirmar = await showConfirmModal({
             title: "Carta Duplicada",
@@ -1027,17 +1045,20 @@ async function handleAddCustomCard(saveMode, btn) {
     };
 
     try {
+        // 1. Salva a carta no banco de dados geral
         const customCardsRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
         await addDoc(customCardsRef, newCard);
 
         const cardId = `${newCard.Coleção}#${newCard.Número}`;
         const colId = newCard.Coleção.replace(/[\s/]/g, '').toLowerCase();
 
+        // 2. Se o modo inclui marcar como obtida ('owned' ou 'fav')
         if (saveMode === 'owned' || saveMode === 'fav') {
             const colRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
             await setDoc(colRef, { [cardId]: true }, { merge: true });
         }
 
+        // 3. Se o modo inclui definir como favorita na Pokédex ('fav')
         if (saveMode === 'fav') {
             const baseName = getBaseName(newCard.Pokemon).toLowerCase();
             const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
@@ -1046,7 +1067,31 @@ async function handleAddCustomCard(saveMode, btn) {
             await setPokedexRepresentative(officialName, cardId);
         }
 
-        showToast(`Carta "${name}" salva com sucesso!`, "success");
+        // 4. Se informou Coleção Temática (existente ou nova)
+        const thematicSelectVal = document.querySelector("#new-card-thematic-select")?.value;
+        const thematicInputVal = document.querySelector("#new-card-thematic-input")?.value.trim();
+
+        if (thematicInputVal || thematicSelectVal) {
+            let targetColId = "";
+            let targetColName = "";
+
+            if (thematicInputVal) {
+                targetColName = thematicInputVal;
+                targetColId = thematicInputVal.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() + '_' + Date.now();
+            } else if (thematicSelectVal && state.thematicCollections[thematicSelectVal]) {
+                targetColId = thematicSelectVal;
+                targetColName = state.thematicCollections[thematicSelectVal].name;
+            }
+
+            if (targetColId) {
+                const thematicRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", targetColId);
+                await setDoc(thematicRef, { name: targetColName, cards: { [cardId]: true } }, { merge: true });
+                showToast(`Carta associada à coleção "${targetColName}"! ⭐`, "success");
+            }
+        } else {
+            showToast(`Carta "${name}" salva com sucesso!`, "success");
+        }
+
         await loadData();
 
         setTimeout(() => {
@@ -1164,23 +1209,46 @@ const tcgdexIdiomas = [
 
 async function initTCGdex() {
     try {
-        const res = await fetch('https://api.tcgdex.net/v2/pt/sets');
-        const sets = await res.json();
-        const datalist = document.getElementById('tcgdex-set-list');
+        const [setsRes, illustratorsRes] = await Promise.allSettled([
+            fetch('https://api.tcgdex.net/v2/pt/sets'),
+            fetch('https://api.tcgdex.net/v2/pt/illustrators')
+        ]);
         
-        sets.reverse().forEach(set => {
-            tcgdexSetsData[set.id] = set.name;
-            
-            const ano = set.releaseDate ? set.releaseDate.split('-')[0] : 'S/D';
-            const nomeExibicao = `${set.name} (${ano})`;
-            tcgdexMapColecoes.set(nomeExibicao, set.id);
-            
-            const option = document.createElement('option');
-            option.value = nomeExibicao;
-            datalist.appendChild(option);
-        });
+        if (setsRes.status === 'fulfilled') {
+            const sets = await setsRes.value.json();
+            const datalist = document.getElementById('tcgdex-set-list');
+            if (datalist && Array.isArray(sets)) {
+                datalist.innerHTML = '';
+                sets.reverse().forEach(set => {
+                    tcgdexSetsData[set.id] = set.name;
+                    const ano = set.releaseDate ? set.releaseDate.split('-')[0] : 'S/D';
+                    const nomeExibicao = `${set.name} (${ano})`;
+                    tcgdexMapColecoes.set(nomeExibicao, set.id);
+                    
+                    const option = document.createElement('option');
+                    option.value = nomeExibicao;
+                    datalist.appendChild(option);
+                });
+            }
+        }
+
+        if (illustratorsRes.status === 'fulfilled') {
+            const illustrators = await illustratorsRes.value.json();
+            const artistDatalist = document.getElementById('tcgdex-artist-list');
+            if (artistDatalist && Array.isArray(illustrators)) {
+                artistDatalist.innerHTML = '';
+                illustrators.forEach(artist => {
+                    const name = typeof artist === 'string' ? artist : (artist.name || artist.id);
+                    if (name) {
+                        const option = document.createElement('option');
+                        option.value = name;
+                        artistDatalist.appendChild(option);
+                    }
+                });
+            }
+        }
     } catch (err) {
-        console.error("Erro ao carregar coleções TCGdex:", err);
+        console.error("Erro ao carregar coleções/ilustradores TCGdex:", err);
     }
 }
 
@@ -1190,6 +1258,7 @@ window.handleTCGdexSet = function(value) {
     const setId = tcgdexMapColecoes.get(value);
     if (setId) {
         document.getElementById('tcgdex-name').value = ''; 
+        if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
         buscarDadosTCGdex(`sets/${setId}`, true);
     }
 };
@@ -1199,6 +1268,7 @@ window.buscarTCGdexNome = function() {
     if (!rawValue) return;
     
     document.getElementById('tcgdex-set').value = '';
+    if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
 
     let nome = rawValue;
     let numeroBuscado = null;
@@ -1214,7 +1284,17 @@ window.buscarTCGdexNome = function() {
         }
     }
 
-    buscarDadosTCGdex(`cards?name=${nome}`, false, numeroBuscado);
+    buscarDadosTCGdex(`cards?name=${encodeURIComponent(nome)}`, false, numeroBuscado);
+};
+
+window.buscarTCGdexArtista = function() {
+    const rawValue = document.getElementById('tcgdex-artist').value.trim();
+    if (!rawValue) return;
+    
+    document.getElementById('tcgdex-name').value = '';
+    document.getElementById('tcgdex-set').value = '';
+
+    buscarDadosTCGdex(`illustrators/${encodeURIComponent(rawValue)}`, true);
 };
 
 async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
@@ -1231,7 +1311,8 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null) {
                 if (!response.ok) return [];
                 const dados = await response.json();
                 
-                let listaCartas = isSetInfo ? dados.cards : dados;
+                let listaCartas = isSetInfo ? (dados.cards || dados) : dados;
+                if (!Array.isArray(listaCartas)) listaCartas = [];
 
                 if (numeroFiltro && !isSetInfo) {
                     listaCartas = listaCartas.filter(carta => {
@@ -1324,6 +1405,8 @@ function renderizarResultadosTCGdex(todasAsCartas) {
             document.querySelector("#new-card-col").value = nomeColecao;
             document.querySelector("#new-card-num").value = carta.localId || '0';
             document.querySelector("#new-card-img").value = imgHighUrl;
+            
+            populateThematicSelectInAddModal();
             
             document.querySelector("#add-card-modal").classList.remove("hidden");
             document.querySelector("#add-card-modal").classList.add("flex");

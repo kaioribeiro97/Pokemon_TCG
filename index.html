@@ -302,7 +302,7 @@
         </section>
       </section>
 
-      <!-- VISÃO: TCGDEX EXPLORER -->
+      <!-- VISÃO: TCGDEX EXPLORER (COM BUSCA POR POKÉMON, SET E ILUSTRADOR) -->
       <section id="view-tcgdex" class="hidden space-y-6">
         <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -310,35 +310,53 @@
               <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
                 <i class="fa-solid fa-satellite-dish text-sky-500"></i> Banco de Dados Global
               </h2>
-              <p class="text-xs text-slate-400 mt-1">Busque cartas oficiais (PT, EN, JP) e adicione à sua coleção privada.</p>
+              <p class="text-xs text-slate-400 mt-1">Busque cartas oficiais por Nome, Coleção ou Artista Ilustrador (PT, EN, JP).</p>
             </div>
           </div>
 
-          <div class="flex flex-col md:flex-row gap-6 border-t border-slate-800 pt-5">
-            <div class="flex-1 flex flex-col gap-2">
+          <!-- CONTROLES DE BUSCA (3 COLUNAS) -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-slate-800 pt-5">
+            <!-- Busca por Nome -->
+            <div class="flex flex-col gap-2">
               <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Buscar por Pokémon</label>
               <div class="flex gap-2">
                 <input type="text" id="tcgdex-name" placeholder="Ex: Charizard..." 
                   class="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition"
                   onkeypress="if(event.key === 'Enter') window.buscarTCGdexNome()">
-                <button onclick="window.buscarTCGdexNome()" class="px-5 py-2.5 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">
+                <button onclick="window.buscarTCGdexNome()" class="px-4 py-2.5 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20 text-xs">
                   Buscar
                 </button>
               </div>
             </div>
 
-            <div class="hidden md:block w-px bg-slate-700/50"></div>
-
-            <div class="flex-1 flex flex-col gap-2">
+            <!-- Busca por Coleção (Set) -->
+            <div class="flex flex-col gap-2">
               <label class="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Filtrar por Coleção (Set)</label>
-              <input type="text" id="tcgdex-set" list="tcgdex-set-list" placeholder="Digite o nome da coleção..." 
+              <input type="text" id="tcgdex-set" list="tcgdex-set-list" placeholder="Digite a coleção..." 
                 class="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition"
                 onchange="window.handleTCGdexSet(this.value)">
               <datalist id="tcgdex-set-list"></datalist>
             </div>
+
+            <!-- BUSCA POR ARTISTA / ILUSTRADOR -->
+            <div class="flex flex-col gap-2">
+              <label class="text-[10px] font-bold text-indigo-400 uppercase tracking-wide flex items-center gap-1">
+                <i class="fa-solid fa-palette"></i> Buscar por Artista
+              </label>
+              <div class="flex gap-2">
+                <input type="text" id="tcgdex-artist" list="tcgdex-artist-list" placeholder="Ex: Ken Sugimori..." 
+                  class="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-indigo-500 transition"
+                  onkeypress="if(event.key === 'Enter') window.buscarTCGdexArtista()">
+                <button onclick="window.buscarTCGdexArtista()" class="px-4 py-2.5 bg-indigo-500 text-white font-bold rounded-xl hover:bg-indigo-400 transition shadow-lg shadow-indigo-500/20 text-xs">
+                  Buscar
+                </button>
+              </div>
+              <datalist id="tcgdex-artist-list"></datalist>
+            </div>
           </div>
         </header>
 
+        <!-- Status e Resultados -->
         <div id="tcgdex-loading" class="hidden flex flex-col items-center justify-center py-12 text-slate-500 animate-pulse">
           <i class="fa-solid fa-circle-notch text-3xl text-sky-500 mb-3"></i>
           <p class="text-xs uppercase tracking-widest font-bold">Sincronizando com a API...</p>
@@ -436,6 +454,21 @@
             <input type="url" id="new-card-img" required placeholder="https://..." 
               class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
             <p class="text-[9px] text-slate-500 mt-1 ml-1">Dica: Copie o endereço da imagem do Google Imagens ou Pokellector.</p>
+          </div>
+
+          <!-- CAMPO OPCIONAL: VINCULAR A UMA COLEÇÃO TEMÁTICA -->
+          <div class="bg-slate-800/40 p-3 rounded-2xl border border-slate-700/60 space-y-2">
+            <label class="block text-xs font-bold text-indigo-400 flex items-center gap-1.5 ml-1">
+              <i class="fa-solid fa-folder-plus text-indigo-400"></i>
+              <span>Adicionar à Coleção Temática (Opcional)</span>
+            </label>
+            
+            <select id="new-card-thematic-select" class="w-full p-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-indigo-500 transition text-xs">
+              <option value="">Selecione uma existente...</option>
+            </select>
+
+            <input type="text" id="new-card-thematic-input" placeholder="Ou crie uma nova (ex: Coleção Charizard)..." 
+              class="w-full p-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-indigo-500 transition text-xs">
           </div>
 
           <!-- BOTÕES DE AÇÃO -->
