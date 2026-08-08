@@ -428,11 +428,13 @@ $("#login-btn").addEventListener("click", async () => {
       $("#login-error").classList.remove("hidden"); 
   }
 });
+
 $("#logout-btn").addEventListener("click", () => {
     signOut(auth);
     showToast("Sessão encerrada.", "info");
 });
 
+// ✅ CORREÇÃO CRÍTICA DO STATUS DE AUTENTICAÇÃO
 onAuthStateChanged(auth, (user) => {
   if (user && ALLOWED_UIDS.includes(user.uid)) {
     state.user = user;
@@ -449,7 +451,7 @@ onAuthStateChanged(auth, (user) => {
     attachThematicListener(); 
   } else {
     state.user = null;
-    $("#login-screen").classList.add("hidden");
+    $("#login-screen").classList.remove("hidden"); // <-- CORRIGIDO! Mantém a tela de login visível para deslogados
     $("#main-content").classList.add("hidden");
     Object.values(state.unsubscribeMap).forEach(unsub => unsub());
     state.unsubscribeMap = {};
@@ -1302,7 +1304,6 @@ window.buscarTCGdex = function() {
     buscarDadosTCGdex(endpoint, false, numeroBuscado, rawArtista);
 };
 
-// Mantém retrocompatibilidade caso alguma chamada use o nome antigo
 window.handleTCGdexSet = function(val) { window.buscarTCGdex(); };
 window.buscarTCGdexNome = function() { window.buscarTCGdex(); };
 window.buscarTCGdexArtista = function() { window.buscarTCGdex(); };
@@ -1324,7 +1325,6 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artis
                 let listaCartas = isSetInfo ? (dados.cards || dados) : dados;
                 if (!Array.isArray(listaCartas)) listaCartas = [];
 
-                // Filtro por número do card (se informado no campo nome)
                 if (numeroFiltro) {
                     listaCartas = listaCartas.filter(carta => {
                         if (!carta.localId) return false;
@@ -1334,7 +1334,6 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artis
                     });
                 }
 
-                // Filtro adicional por artista no lado do cliente
                 if (artistaFiltro) {
                     const artLower = artistaFiltro.toLowerCase();
                     listaCartas = listaCartas.filter(carta => {
