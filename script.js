@@ -40,7 +40,9 @@ const state = {
   currentView: "albums",
   thematicCollections: {},
   currentThematicCollection: null,
-  currentViewedCardId: null
+  currentViewedCardId: null,
+  tcgdexLangFilter: "all",      // <-- NOVO: controle de filtro de idioma
+  tcgdexLastResults: []         // <-- NOVO: cache da última busca para filtro instantâneo
 };
 
 // --- SISTEMA DE TOAST NOTIFICATIONS ---
@@ -1196,9 +1198,9 @@ document.querySelector("#form-edit-card").addEventListener("submit", async (e) =
     btn.disabled = false;
 });
 
-// ==========================================
-// MÓDULO TCGDEX API (INTEGRAÇÃO MULTI-FILTRO)
-// ==========================================
+// ==========================================================
+// MÓDULO TCGDEX API (INTEGRAÇÃO MULTI-FILTRO E MULTI-IDIOMA)
+// ==========================================================
 
 const tcgdexMapColecoes = new Map();
 const tcgdexSetsData = {};
@@ -1208,6 +1210,65 @@ const tcgdexIdiomas = [
     { codigo: 'en', label: 'EN', color: 'bg-sky-500/20 text-sky-400 border border-sky-500/30' },
     { codigo: 'ja', label: 'JP', color: 'bg-rose-500/20 text-rose-400 border border-rose-500/30' }
 ];
+
+const POKEMON_JA_CACHE = JSON.parse(localStorage.getItem("pokemon_ja_names_cache") || "{}");
+
+async function getJapanesePokemonName(inputName) {
+    if (!inputName) return "";
+    const cleanName = getBaseName(inputName).trim();
+    const cleanLower = cleanName.toLowerCase();
+
+    if (/[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/.test(cleanName)) {
+        return cleanName;
+    }
+
+    if (POKEMON_JA_CACHE[cleanLower]) {
+        return POKEMON_JA_CACHE[cleanLower];
+    }
+
+    if (Array.isArray(state.pokedexSpecies) && state.pokedexSpecies.length > 0) {
+        const found = state.pokedexSpecies.find(s => 
+            s.name.english.toLowerCase() === cleanLower ||
+            (s.name.french && s.name.french.toLowerCase() === cleanLower)
+        );
+
+        if (found && found.name && found.name.japanese) {
+            POKEMON_JA_CACHE[cleanLower] = found.name.japanese;
+            return found.name.japanese;
+        }
+    }
+
+    try {
+        const apiRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${encodeURIComponent(cleanLower)}`);
+        if (apiRes.ok) {
+            const data = await apiRes.json();
+            const jaObj = data.names?.find(n => n.language?.name === 'ja-Hrkt' || n.language?.name === 'ja');
+            if (jaObj && jaObj.name) {
+                POKEMON_JA_CACHE[cleanLower] = jaObj.name;
+                localStorage.setItem("pokemon_ja_names_cache", JSON.stringify(POKEMON_JA_CACHE));
+                return jaObj.name;
+            }
+        }
+    } catch (e) {
+        console.warn(`[TCGdex] Não foi possível consultar PokéAPI para ${cleanName}:`, e);
+    }
+
+    return cleanName;
+}
+
+function getEnglishPokemonNameFromJapanese(japaneseName) {
+    if (!japaneseName) return "";
+    if (Array.isArray(state.pokedexSpecies)) {
+        const found = state.pokedexSpecies.find(s => s.name?.japanese === japaneseName.trim());
+        if (found && found.name?.english) return found.name.english;
+    }
+    for (const [enName, jaName] of Object.entries(POKEMON_JA_CACHE)) {
+        if (jaName === japaneseName.trim()) {
+            return enName.charAt(0).toUpperCase() + enName.slice(1);
+        }
+    }
+    return japaneseName;
+}
 
 async function initTCGdex() {
     try {
@@ -1256,15 +1317,53 @@ async function initTCGdex() {
 
 setTimeout(initTCGdex, 1500);
 
+// --- EVENTOS DOS BOTÕES DE FILTRO DE IDIOMA ---
+document.querySelectorAll(".tcgdex-lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const selectedLang = btn.dataset.lang;
+        state.tcgdexLangFilter = selectedLang;
+
+        // Atualiza o visual dos botões
+        document.querySelectorAll(".tcgdex-lang-btn").forEach(b => {
+            b.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition flex items-center gap-1.5";
+        });
+
+        if (selectedLang === 'pt') {
+            btn.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 shadow flex items-center gap-1.5";
+        } else if (selectedLang === 'en') {
+            btn.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase bg-sky-500/20 text-sky-400 border border-sky-500/40 shadow flex items-center gap-1.5";
+        } else if (selectedLang === 'ja') {
+            btn.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase bg-rose-500/20 text-rose-400 border border-rose-500/40 shadow flex items-center gap-1.5";
+        } else {
+            btn.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase bg-slate-600 text-white shadow";
+        }
+
+        // Se já existem resultados na tela, filtra instantaneamente sem refazer requisição
+        if (state.tcgdexLastResults && state.tcgdexLastResults.length > 0) {
+            filtrarEExibirResultados();
+        }
+    });
+});
+
 window.limparFiltrosTCGdex = function() {
     if (document.getElementById('tcgdex-name')) document.getElementById('tcgdex-name').value = '';
     if (document.getElementById('tcgdex-set')) document.getElementById('tcgdex-set').value = '';
     if (document.getElementById('tcgdex-artist')) document.getElementById('tcgdex-artist').value = '';
+    
+    // Reseta filtro de idioma para "Todos"
+    state.tcgdexLangFilter = "all";
+    state.tcgdexLastResults = [];
+    document.querySelectorAll(".tcgdex-lang-btn").forEach(b => {
+        b.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition flex items-center gap-1.5";
+    });
+    const btnAll = document.querySelector('.tcgdex-lang-btn[data-lang="all"]');
+    if (btnAll) btnAll.className = "tcgdex-lang-btn px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase bg-slate-600 text-white shadow";
+
     const resultsDiv = document.getElementById('tcgdex-results');
     if (resultsDiv) resultsDiv.innerHTML = '';
 };
 
-window.buscarTCGdex = function() {
+window.buscarTCGdex = async function() {
     const rawNome = document.getElementById('tcgdex-name')?.value.trim() || "";
     const rawSet = document.getElementById('tcgdex-set')?.value.trim() || "";
     const rawArtista = document.getElementById('tcgdex-artist')?.value.trim() || "";
@@ -1274,7 +1373,7 @@ window.buscarTCGdex = function() {
         return;
     }
 
-    let nome = rawNome;
+    let nomeOcidental = rawNome;
     let numeroBuscado = null;
 
     if (rawNome) {
@@ -1284,31 +1383,32 @@ window.buscarTCGdex = function() {
             if (/\d/.test(ultimoTermo)) {
                 numeroBuscado = ultimoTermo;
                 partes.pop();
-                nome = partes.join(' ');
+                nomeOcidental = partes.join(' ');
             }
         }
     }
 
-    const queryParams = [];
-    if (nome) queryParams.push(`name=${encodeURIComponent(nome)}`);
-    if (rawArtista) queryParams.push(`illustrator=${encodeURIComponent(rawArtista)}`);
-    
-    const setId = tcgdexMapColecoes.get(rawSet);
-    if (setId) {
-        queryParams.push(`set=${encodeURIComponent(setId)}`);
-    } else if (rawSet) {
-        queryParams.push(`set=${encodeURIComponent(rawSet)}`);
+    const setId = tcgdexMapColecoes.get(rawSet) || (rawSet ? rawSet : null);
+
+    let nomeJapones = "";
+    if (nomeOcidental) {
+        nomeJapones = await getJapanesePokemonName(nomeOcidental);
     }
 
-    const endpoint = `cards?${queryParams.join('&')}`;
-    buscarDadosTCGdex(endpoint, false, numeroBuscado, rawArtista);
+    buscarDadosTCGdexMultiIdioma({
+        nomeOcidental,
+        nomeJapones,
+        setId,
+        artista: rawArtista,
+        numeroFiltro: numeroBuscado
+    });
 };
 
 window.handleTCGdexSet = function(val) { window.buscarTCGdex(); };
 window.buscarTCGdexNome = function() { window.buscarTCGdex(); };
 window.buscarTCGdexArtista = function() { window.buscarTCGdex(); };
 
-async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artistaFiltro = null) {
+async function buscarDadosTCGdexMultiIdioma({ nomeOcidental, nomeJapones, setId, artista, numeroFiltro }) {
     const resultsDiv = document.getElementById('tcgdex-results');
     const loadingDiv = document.getElementById('tcgdex-loading');
     
@@ -1316,13 +1416,35 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artis
     loadingDiv.classList.remove('hidden');
 
     try {
-        const promessas = tcgdexIdiomas.map(async (idioma) => {
+        // Se o usuário selecionou um idioma específico, busca somente nele!
+        const idiomasParaConsultar = state.tcgdexLangFilter === 'all'
+            ? tcgdexIdiomas
+            : tcgdexIdiomas.filter(i => i.codigo === state.tcgdexLangFilter);
+
+        const promessas = idiomasParaConsultar.map(async (idioma) => {
             try {
+                const queryParams = [];
+
+                if (idioma.codigo === 'ja') {
+                    const nomeParaBusca = nomeJapones || nomeOcidental;
+                    if (nomeParaBusca) queryParams.push(`name=${encodeURIComponent(nomeParaBusca)}`);
+                } else {
+                    if (nomeOcidental) queryParams.push(`name=${encodeURIComponent(nomeOcidental)}`);
+                }
+
+                if (artista) {
+                    queryParams.push(`illustrator=${encodeURIComponent(artista)}`);
+                }
+                
+                if (setId) {
+                    queryParams.push(`set=${encodeURIComponent(setId)}`);
+                }
+
+                const endpoint = `cards?${queryParams.join('&')}`;
                 const response = await fetch(`https://api.tcgdex.net/v2/${idioma.codigo}/${endpoint}`);
                 if (!response.ok) return [];
-                const dados = await response.json();
                 
-                let listaCartas = isSetInfo ? (dados.cards || dados) : dados;
+                let listaCartas = await response.json();
                 if (!Array.isArray(listaCartas)) listaCartas = [];
 
                 if (numeroFiltro) {
@@ -1334,28 +1456,35 @@ async function buscarDadosTCGdex(endpoint, isSetInfo, numeroFiltro = null, artis
                     });
                 }
 
-                if (artistaFiltro) {
-                    const artLower = artistaFiltro.toLowerCase();
-                    listaCartas = listaCartas.filter(carta => {
-                        if (carta.illustrator) {
-                            return carta.illustrator.toLowerCase().includes(artLower);
-                        }
-                        return true;
-                    });
-                }
-
-                return listaCartas.map(carta => ({ ...carta, idiomaObj: idioma }));
+                return listaCartas.map(carta => ({ 
+                    ...carta, 
+                    idiomaObj: idioma,
+                    nomeBuscaOcidental: nomeOcidental
+                }));
             } catch (error) {
                 return [];
             }
         });
 
         const resultadosTratados = await Promise.all(promessas);
-        renderizarResultadosTCGdex(resultadosTratados.flat());
+        state.tcgdexLastResults = resultadosTratados.flat();
+        filtrarEExibirResultados();
+
     } catch (error) {
         loadingDiv.classList.add('hidden');
         resultsDiv.innerHTML = '<p class="text-rose-500 col-span-full text-center py-8">Erro na comunicação com a API.</p>';
     }
+}
+
+function filtrarEExibirResultados() {
+    let cartas = state.tcgdexLastResults || [];
+
+    // Filtra localmente de acordo com o idioma ativo
+    if (state.tcgdexLangFilter !== 'all') {
+        cartas = cartas.filter(c => c.idiomaObj.codigo === state.tcgdexLangFilter);
+    }
+
+    renderizarResultadosTCGdex(cartas);
 }
 
 function renderizarResultadosTCGdex(todasAsCartas) {
@@ -1363,9 +1492,11 @@ function renderizarResultadosTCGdex(todasAsCartas) {
     document.getElementById('tcgdex-loading').classList.add('hidden');
 
     if (todasAsCartas.length === 0) {
-        resultsDiv.innerHTML = '<p class="text-slate-500 col-span-full text-center py-8">Nenhuma carta encontrada para esta combinação de filtros.</p>';
+        resultsDiv.innerHTML = '<p class="text-slate-500 col-span-full text-center py-8">Nenhuma carta encontrada para este idioma ou filtro.</p>';
         return;
     }
+
+    resultsDiv.innerHTML = '';
 
     todasAsCartas.forEach(carta => {
         const imgUrl = carta.image ? `${carta.image}/low.webp` : 'https://via.placeholder.com/240x330?text=Sem+Imagem';
@@ -1375,7 +1506,12 @@ function renderizarResultadosTCGdex(todasAsCartas) {
         const setId = carta.id ? carta.id.split('-')[0] : '';
         const nomeColecao = tcgdexSetsData[setId] || 'Promo / Desconhecida';
         
-        const jaCadastrada = isDuplicateCard(carta.name, nomeColecao, carta.localId || '0');
+        let nomePokemonParaImportar = carta.name;
+        if (carta.idiomaObj.codigo === 'ja') {
+            nomePokemonParaImportar = carta.nomeBuscaOcidental || getEnglishPokemonNameFromJapanese(carta.name) || carta.name;
+        }
+
+        const jaCadastrada = isDuplicateCard(nomePokemonParaImportar, nomeColecao, carta.localId || '0');
 
         const cardElement = document.createElement('div');
         cardElement.className = 'flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition cursor-pointer group';
@@ -1403,7 +1539,9 @@ function renderizarResultadosTCGdex(todasAsCartas) {
             </div>
             
             <div class="w-full px-1 text-center">
-                <p class="text-[10px] font-bold text-slate-200 truncate" title="${carta.name}">${carta.name}</p>
+                <p class="text-[10px] font-bold text-slate-200 truncate" title="${carta.name}">
+                    ${carta.name} ${carta.idiomaObj.codigo === 'ja' && nomePokemonParaImportar !== carta.name ? `<span class="text-[8px] text-slate-400 font-normal">(${nomePokemonParaImportar})</span>` : ''}
+                </p>
                 <p class="text-[9px] font-mono text-slate-500 truncate" title="${nomeColecao}">${nomeColecao} #${carta.localId || '0'}</p>
             </div>
         `;
@@ -1412,7 +1550,7 @@ function renderizarResultadosTCGdex(todasAsCartas) {
             if (jaCadastrada) {
                 const confirmar = await showConfirmModal({
                     title: "Carta Já Cadastrada",
-                    message: `A carta "${carta.name}" (${nomeColecao} #${carta.localId}) já existe na sua coleção!\n\nDeseja abrir o formulário para adicionar uma cópia duplicada?`,
+                    message: `A carta "${nomePokemonParaImportar}" (${nomeColecao} #${carta.localId}) já existe na sua coleção!\n\nDeseja abrir o formulário para adicionar uma cópia duplicada?`,
                     confirmText: "Importar Cópia",
                     cancelText: "Cancelar",
                     type: "warning"
@@ -1420,7 +1558,7 @@ function renderizarResultadosTCGdex(todasAsCartas) {
                 if (!confirmar) return;
             }
 
-            document.querySelector("#new-card-name").value = carta.name;
+            document.querySelector("#new-card-name").value = nomePokemonParaImportar;
             document.querySelector("#new-card-col").value = nomeColecao;
             document.querySelector("#new-card-num").value = carta.localId || '0';
             document.querySelector("#new-card-img").value = imgHighUrl;
