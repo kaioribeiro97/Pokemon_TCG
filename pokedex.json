@@ -31873,7 +31873,7 @@
   { "id": 989, "name": { "english": "Choque Areia" }, "type": ["Electric", "Ground"] },
   { "id": 990, "name": { "english": "Trilho Férreo" }, "type": ["Ground", "Steel"] },
   { "id": 991, "name": { "english": "Pacote Férreo" }, "type": ["Ice", "Water"] },
-  { "id": 992, "name": { "english": "Mãos Ferreas" }, "type": ["Fighting", "Electric"] },
+  { "id": 992, "name": { "english": "Mãos Férreas" }, "type": ["Fighting", "Electric"] },
   { "id": 993, "name": { "english": "Jugulares Férreas" }, "type": ["Dark", "Flying"] },
   { "id": 994, "name": { "english": "Mariposa Férrea" }, "type": ["Fire", "Poison"] },
   { "id": 995, "name": { "english": "Espinhos Férreos" }, "type": ["Rock", "Electric"] },

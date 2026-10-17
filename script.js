@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from
 import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 // 2. CONFIGURAÇÃO
-const DATA_VERSION = "1.16"; 
+const DATA_VERSION = "1.18"; 
 const firebaseConfig = {
   apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
   authDomain: "pokemon-tcg-sp.firebaseapp.com",
@@ -42,8 +42,14 @@ const state = {
   currentThematicCollection: null,
   currentViewedCardId: null,
   tcgdexLangFilter: "all",      // <-- NOVO: controle de filtro de idioma
-  tcgdexLastResults: []         // <-- NOVO: cache da última busca para filtro instantâneo
+  tcgdexLastResults: [],        // <-- NOVO: cache da última busca para filtro instantâneo
+  trainersSearch: "",           // <-- NOVO: busca para treinadores/itens
+  trainersFilter: "all",        // <-- NOVO: filtro de posse de treinadores
+  trainerCards: [],              // <-- NOVO: cache de cartas de treinadores/itens
+  trainersCardsByName: {},           // <-- Guarda as cartas agrupadas por Treinador { "Misty": [cards...] }
+  trainerRepresentatives: {},        // <-- Guarda a carta de capa/favorita de cada Treinador
 };
+
 
 // --- SISTEMA DE TOAST NOTIFICATIONS ---
 function showToast(message, type = 'info', duration = 3500) {
@@ -358,16 +364,74 @@ document.querySelector("#close-copa-details").onclick = () => {
 // --- UTILITÁRIOS ---
 function getBaseName(fullName) {
   if (!fullName) return "";
-  
-  let cleaned = fullName.replace(/\s(ex|GX|VMAX|VSTAR|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X|Lua Sangrenta|Lavagem|Corte|Calor|Ventilador)\b/gi, '');
-  cleaned = cleaned.replace(/\s(da|do|de)\s.+$/i, '');
-  cleaned = cleaned.replace(/^(Mega|M|Brock's|Onix do|Dark)\s/i, '');
-  cleaned = cleaned.replace(/\sMáscara\s.+$/i, '');
-  cleaned = cleaned.replace(/\s(Estilo|Forma)\s.+$/i, '');
-  
+  let cleaned = fullName.trim();
+
+  // 1. Remove colchetes ou parênteses e tudo que vier depois (ex: "Pikachu [World Championships", "Deoxys (Ataque)")
+  cleaned = cleaned.replace(/[\[\(].*$/g, '');
+
+  // 2. Remove complementos promocionais "with ..." (ex: "Pikachu with Grey Felt Hat")
+  cleaned = cleaned.replace(/\s+with\s+.+$/i, '');
+
+  // 3. Remove prefixos de treinadores com apóstrofo (ex: "Cynthia's Garchomp", "Rocket's Snorlax", "Brock's Zubat")
+  cleaned = cleaned.replace(/^[A-Za-z0-9.\s]+['’]s\s+/i, '');
+
+  // 4. Remove sufixos de cartas especiais do TCG (ex, GX, VMAX, VSTAR, etc.)
+  cleaned = cleaned.replace(/[-\s](<ex|GX|VMAX|VSTAR|V-UNION|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X|BREAK|Break|Prism Star|Lua Sangrenta|Bloodmoon>)\b/gi, '');
+
+  // 5. Remove formas do Rotom (Ventilador, Calor, Lavagem, Corte, Congelador / Fan, Heat, Mow, Wash, Frost)
+  cleaned = cleaned.replace(/\s+(Ventilador|Calor|Lavagem|Corte|Congelador|Gelo|Fan|Heat|Wash|Mow|Frost)\b/gi, '');
+
+  // 6. Remove cores de formas (ex: "Kyurem Preto", "Kyurem Branco", "Black Kyurem", "White Kyurem")
+  cleaned = cleaned.replace(/^(Black|White|Preto|Branco)\s+/i, '');
+  cleaned = cleaned.replace(/\s+(Preto|Branco|Black|White)\b/gi, '');
+
+  // 7. Remove o "X" ou "Y" de Megaevoluções (ex: "Charizard X")
+  cleaned = cleaned.replace(/[-\s][XY]\b/gi, '');
+
+  // 8. Remove prefixos de modificadores (Mega, M, Dark, Light, Shining, Radiant)
+  cleaned = cleaned.replace(/^(Mega|M|Dark|Light|Shining|Radiant|Equipe Rocket|Team Rocket)[-\s]/i, '');
+
+  // 9. Remove proprietários e equipes após "da", "do", "de" (ex: "Nidoran♀ da Equipe Rocket" -> "Nidoran♀")
+  cleaned = cleaned.replace(/\s+(da|do|de)\s+.+$/i, '');
+
+  // 10. Remove formas e estilos gerais
+  cleaned = cleaned.replace(/\s+Máscara\s+.+$/i, '');
+  cleaned = cleaned.replace(/\s+(Estilo|Forma)\s+.+$/i, '');
+
+  // 11. Normaliza espaçamento do Nidoran (ex: "Nidoran ♀" -> "Nidoran♀")
+  cleaned = cleaned.replace(/Nidoran\s+([♀♂])/gi, 'Nidoran$1');
+
   return cleaned.trim().replace(/\s+/g, ' ');
 }
+// Agrupa variações de cartas de um mesmo treinador (ex: "Misty's Determination" -> "Misty")
+function getTrainerGroupName(fullName) {
+  if (!fullName) return "Desconhecido";
+  let name = fullName.trim();
 
+  // 1. Padrões em inglês: "Misty's Determination" -> "Misty"
+  if (name.includes("'s ")) {
+    name = name.split("'s ")[0].trim();
+  } else if (name.includes("’s ")) {
+    name = name.split("’s ")[0].trim();
+  }
+
+  // 2. Padrões em português: "Determinação da Misty" -> "Misty"
+  const ptPrefixRegex = /^(Determinação|Favor|Ordens|Pesquisa|Estratégia|Convite|Ajuda|Conselho|Ambição|Carinho|Resolução|Compaixão|Entusiasmo|Vitalidade|Bênção|Intuição|Sentimento|Truque|Esquema|Astúcia|Ginga|Estilo)\s+(da|do|de)\s+/i;
+  name = name.replace(ptPrefixRegex, '');
+
+  // 3. Remove sufixos comuns
+  name = name.replace(/\s(Apoiador|Item|Estádio|Ferramenta|Supporter|Stadium|Tool)\b/gi, '');
+
+  return name.trim();
+}
+// Verifica se uma carta é Treinador/Item (não pertence às espécies da Pokédex nacional)
+function isTrainerCard(card) {
+  if (!card || !card.Pokemon) return false;
+  const baseName = getBaseName(card.Pokemon).toLowerCase();
+  // Se bater com alguma espécie de Pokémon oficial, é Pokémon. Caso contrário, é Treinador/Item/Estádio/etc.
+  const isPokemon = state.pokedexSpecies.some(s => s.name?.english?.toLowerCase() === baseName);
+  return !isPokemon;
+}
 // --- FUNÇÃO ANTI-DUPLICAÇÃO DE CARTAS ---
 function isDuplicateCard(pokemonName, colName, cardNumber) {
     if (!pokemonName || !colName || !cardNumber) return false;
@@ -451,6 +515,7 @@ onAuthStateChanged(auth, (user) => {
     attachPokedexPrefsListener();
     attachCopaListener(); 
     attachThematicListener(); 
+    attachTrainerPrefsListener(); // <-- Adicione esta linha
   } else {
     state.user = null;
     $("#login-screen").classList.remove("hidden"); // <-- CORRIGIDO! Mantém a tela de login visível para deslogados
@@ -466,16 +531,19 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     const view = tab.dataset.view;
     state.currentView = view;
     
-    document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition");
+    document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition whitespace-nowrap");
     
-    if(view === 'copa') {
-        tab.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-emerald-500 text-slate-950";
+    if (view === 'copa') {
+        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-emerald-500 text-slate-950 whitespace-nowrap";
+    } else if (view === 'trainers') {
+        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-amber-500 text-slate-950 whitespace-nowrap";
     } else {
-        tab.className = "view-tab px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950";
+        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950 whitespace-nowrap";
     }
     
     $("#view-albums").classList.add("hidden");
     $("#view-pokedex").classList.add("hidden");
+    $("#view-trainers")?.classList.add("hidden");
     $("#view-copa").classList.add("hidden");   
     $("#view-tcgdex").classList.add("hidden");
     $("#view-custom-col").classList.add("hidden");
@@ -485,6 +553,9 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     } else if (view === "pokedex") {
       $("#view-pokedex").classList.remove("hidden");
       renderPokedex();
+    } else if (view === "trainers") {
+      $("#view-trainers").classList.remove("hidden");
+      renderTrainers();
     } else if (view === "copa") {
       $("#view-copa").classList.remove("hidden");
       renderCopaTeams();
@@ -494,6 +565,23 @@ document.querySelectorAll(".view-tab").forEach(tab => {
       $("#view-custom-col").classList.remove("hidden");
       renderThematicAlbums();
     }
+  });
+});
+
+// Eventos de Busca e Filtro da aba Treinadores
+$("#trainers-search")?.addEventListener("input", (e) => { 
+  state.trainersSearch = e.target.value.toLowerCase().trim(); 
+  renderTrainers(); 
+});
+
+document.querySelectorAll(".trainers-filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".trainers-filter-btn").forEach(b => {
+      b.className = "trainers-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase text-slate-400 hover:text-white transition";
+    });
+    btn.className = "trainers-filter-btn px-4 py-1.5 rounded-lg text-[10px] font-bold uppercase transition bg-slate-600 text-white shadow";
+    state.trainersFilter = btn.dataset.filter;
+    renderTrainers();
   });
 });
 
@@ -571,17 +659,47 @@ async function loadData() {
 
 function processTCGJson(json) {
   state.pokedexCardsBySpecies = {};
-  const speciesMap = {};
+  state.trainersCardsByName = {}; // <-- Limpa o grupo de treinadores
+    const speciesMap = {};
   state.pokedexSpecies.forEach(s => {
-    speciesMap[s.name.english.toLowerCase()] = s.name.english;
+    const engLower = s.name.english.toLowerCase();
+    speciesMap[engLower] = s.name.english;
     state.pokedexCardsBySpecies[s.name.english] = [];
+
+    // Garante que Nidoran♀ (#029) e Nidoran♂ (#032) sejam reconhecidos com qualquer variação
+    if (s.id === 29) {
+      speciesMap["nidoran♀"] = s.name.english;
+      speciesMap["nidoran ♀"] = s.name.english;
+      speciesMap["nidoran f"] = s.name.english;
+      speciesMap["nidoran-f"] = s.name.english;
+      speciesMap["nidoran femea"] = s.name.english;
+      speciesMap["nidoran fêmea"] = s.name.english;
+    } else if (s.id === 32) {
+      speciesMap["nidoran♂"] = s.name.english;
+      speciesMap["nidoran ♂"] = s.name.english;
+      speciesMap["nidoran m"] = s.name.english;
+      speciesMap["nidoran-m"] = s.name.english;
+      speciesMap["nidoran macho"] = s.name.english;
+    }
   });
 
   const dynamicCollections = new Set();
   json.forEach(card => {
     const baseName = getBaseName(card.Pokemon).toLowerCase();
     const officialName = speciesMap[baseName];
-    if (officialName) state.pokedexCardsBySpecies[officialName].push(card);
+
+    if (officialName) {
+      // É Pokémon -> vai para a Pokédex
+      state.pokedexCardsBySpecies[officialName].push(card);
+    } else {
+      // NÃO é Pokémon -> é Treinador/Item! Agrupa pelo nome (ex: "Misty")
+      const groupName = getTrainerGroupName(card.Pokemon);
+      if (!state.trainersCardsByName[groupName]) {
+        state.trainersCardsByName[groupName] = [];
+      }
+      state.trainersCardsByName[groupName].push(card);
+    }
+
     if (card.Coleção) dynamicCollections.add(card.Coleção);
   });
 
@@ -597,6 +715,7 @@ function processTCGJson(json) {
   
   renderAlbums();
   renderPokedex();
+  renderTrainers(); // <-- Renderiza os treinadores
 }
 
 function attachCollectionListener(colId) {
@@ -612,6 +731,7 @@ function attachCollectionListener(colId) {
        renderAlbums();
        updateGlobalProgress();
        if (state.currentView === 'pokedex') renderPokedex();
+       if (state.currentView === 'trainers') renderTrainers();
     }
   }, (err) => console.error(`Erro na coleção ${colId}:`, err));
 }
@@ -801,6 +921,197 @@ function renderPokedex() {
   }
 }
 
+// --- RENDERIZADOR DA GALERIA DE TREINADORES & ITENS (ESTILO POKEDEX) ---
+function renderTrainers() {
+  const grid = document.querySelector("#trainers-grid");
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  const trainerNames = Object.keys(state.trainersCardsByName).sort();
+  let totalGroups = trainerNames.length;
+  let ownedGroupsCount = 0;
+
+  trainerNames.forEach(name => {
+    const cards = state.trainersCardsByName[name] || [];
+    const hasAny = cards.some(c => {
+      const colId = (c.Coleção || "").replace(/[\s/]/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
+    if (hasAny) ownedGroupsCount++;
+  });
+
+  const pct = totalGroups > 0 ? Math.round((ownedGroupsCount / totalGroups) * 100) : 0;
+  const pBar = document.querySelector("#trainers-progress-bar");
+  const pText = document.querySelector("#trainers-stats-text");
+  if (pBar) pBar.style.width = `${pct}%`;
+  if (pText) pText.textContent = `${ownedGroupsCount} / ${totalGroups} (${pct}%)`;
+
+  const query = state.trainersSearch || "";
+  const filter = state.trainersFilter;
+
+  const filteredNames = trainerNames.filter(name => {
+    const matchesSearch = name.toLowerCase().includes(query);
+    if (!matchesSearch) return false;
+
+    const cards = state.trainersCardsByName[name] || [];
+    const hasAny = cards.some(c => {
+      const colId = (c.Coleção || "").replace(/[\s/]/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
+
+    if (filter === "owned" && !hasAny) return false;
+    if (filter === "missing" && hasAny) return false;
+
+    return true;
+  });
+
+  if (filteredNames.length === 0) {
+    grid.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500">Nenhum Treinador ou Item encontrado com estes filtros.</div>`;
+    return;
+  }
+
+  filteredNames.forEach(name => {
+    const cards = state.trainersCardsByName[name] || [];
+    const ownedCards = cards.filter(c => {
+      const colId = (c.Coleção || "").replace(/[\s/]/g, '').toLowerCase();
+      const cardId = `${c.Coleção}#${c.Número}`;
+      return state.collections[colId]?.owned.has(cardId);
+    });
+
+    const hasAny = ownedCards.length > 0;
+
+    // Foto de capa: usa a favorita escolhida, ou a primeira obtida, ou a primeira da lista
+    let displayImage = cards[0]?.Imagem || "";
+    const repId = state.trainerRepresentatives[name];
+    if (repId) {
+      const favCard = cards.find(c => `${c.Coleção}#${c.Número}` === repId);
+      if (favCard) displayImage = favCard.Imagem;
+    } else if (hasAny) {
+      displayImage = ownedCards[0].Imagem;
+    }
+
+    const cardEl = document.createElement("button");
+    cardEl.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${
+      hasAny ? 'border-amber-500/60 shadow-[0_10px_30px_rgba(245,158,11,0.15)]' : 'border-slate-800 opacity-80'
+    }`;
+
+    cardEl.innerHTML = `
+      <div class="w-[137px] h-[205px] mb-3 flex items-center justify-center relative mx-auto">
+        <img src="${displayImage}" class="max-h-full max-w-full object-contain rounded-lg drop-shadow-2xl transition-all duration-300 ${hasAny ? '' : 'grayscale opacity-50'}" loading="lazy">
+        ${hasAny 
+          ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-amber-400 text-lg bg-slate-900 rounded-full shadow"></i>' 
+          : '<i class="fa-solid fa-lock absolute -bottom-1 -right-1 text-slate-600 text-sm bg-slate-900 rounded-full p-1"></i>'}
+      </div>
+      <p class="text-[11px] font-black uppercase text-center truncate w-full tracking-wider ${hasAny ? 'text-slate-100' : 'text-slate-500'}">${name}</p>
+      <p class="text-[9px] font-bold ${hasAny ? 'text-amber-400' : 'text-slate-600'}">${ownedCards.length} de ${cards.length} Cartas</p>
+    `;
+
+    cardEl.onclick = () => openTrainersModal(name);
+    grid.appendChild(cardEl);
+  });
+}
+
+// --- MODAL DE TODAS AS CARTAS DO TREINADOR SELECIONADO ---
+function openTrainersModal(trainerName) {
+  const cards = state.trainersCardsByName[trainerName] || [];
+
+  document.querySelector("#trainers-modal-name").textContent = trainerName;
+  const container = document.querySelector("#trainers-cards-container");
+  container.innerHTML = "";
+
+  cards.forEach(card => {
+    const cardId = `${card.Coleção}#${card.Número}`;
+    const colId = (card.Coleção || "").replace(/[\s/]/g, '').toLowerCase();
+    let isOwned = !!state.collections[colId]?.owned.has(cardId);
+    const isFav = state.trainerRepresentatives[trainerName] === cardId;
+
+    const cardEl = document.createElement("div");
+    cardEl.className = `relative flex flex-col gap-2 p-3 bg-slate-800/40 rounded-2xl border-2 transition ${
+      isFav ? 'border-amber-400 shadow-[0_0_20px_rgba(251,191,36,0.2)]' : 'border-slate-700 opacity-70 hover:opacity-100'
+    }`;
+
+    cardEl.innerHTML = `
+      <div class="relative group aspect-[3/4] mb-2 overflow-hidden rounded-lg">
+         <img src="${card.Imagem}" class="w-full h-full object-cover">
+         <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col items-center justify-center gap-3">
+            <button class="set-trainer-fav-btn flex items-center gap-2 px-3 py-1.5 bg-amber-400 text-slate-950 rounded-lg text-[10px] font-bold hover:bg-amber-300 transition">
+              <i class="fa-solid fa-star"></i> Capa
+            </button>
+            <button class="zoom-card-btn flex items-center gap-2 px-3 py-1.5 bg-sky-500 text-slate-950 rounded-lg text-[10px] font-bold hover:bg-sky-400 transition">
+              <i class="fa-solid fa-magnifying-glass-plus"></i> Ampliar
+            </button>
+         </div>
+      </div>
+      <div class="space-y-1">
+        <p class="text-[9px] text-slate-100 font-bold truncate" title="${card.Pokemon}">${card.Pokemon}</p>
+        <p class="text-[8px] text-amber-400 font-medium truncate uppercase tracking-wider italic opacity-80">${card.Coleção}</p>
+        <div class="flex items-center justify-between pt-1">
+          <span class="text-[8px] text-slate-500 font-mono">#${card.Número}</span>
+          <div class="pokeball-toggle sm ${isOwned ? 'active' : ''}"></div>
+        </div>
+      </div>
+    `;
+
+    // Botão de Favorito / Foto de Capa
+    cardEl.querySelector('.set-trainer-fav-btn').onclick = (e) => {
+      e.stopPropagation();
+      setTrainerRepresentative(trainerName, cardId);
+      openTrainersModal(trainerName); // Recarrega o modal para destacar o novo favorito
+    };
+
+    // Botão Ampliar
+    cardEl.querySelector('.zoom-card-btn').onclick = (e) => {
+      e.stopPropagation();
+      openModal(card, cardId, isOwned);
+    };
+
+    // Toggle Pokébola (Tenho / Não Tenho)
+    cardEl.querySelector('.pokeball-toggle').onclick = (e) => {
+      e.stopPropagation();
+      toggleCard(cardId, isOwned);
+      isOwned = !isOwned;
+      e.currentTarget.classList.toggle("active");
+    };
+
+    container.appendChild(cardEl);
+  });
+
+  const modal = document.querySelector("#trainers-modal");
+  modal.classList.remove("hidden");
+  modal.classList.add("flex");
+}
+
+document.querySelector("#trainers-modal-close")?.addEventListener("click", () => {
+  document.querySelector("#trainers-modal").classList.add("hidden");
+  document.querySelector("#trainers-modal").classList.remove("flex");
+  renderTrainers(); // Atualiza a tela com as capas escolhidas
+});
+
+// Salva a carta de capa no Firebase
+async function setTrainerRepresentative(trainerName, cardId) {
+  state.trainerRepresentatives[trainerName] = cardId;
+  if (!state.user) return;
+  const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "trainer_prefs", "representatives");
+  try {
+    await setDoc(docRef, { [trainerName]: cardId }, { merge: true });
+    showToast(`Capa de ${trainerName} atualizada! ⭐`, "success");
+  } catch (error) {
+    console.error("Erro ao salvar capa do treinador:", error);
+  }
+}
+
+// Listener para sincronizar as capas favoritas do Firebase ao logar
+function attachTrainerPrefsListener() {
+  if (!state.user) return;
+  const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "trainer_prefs", "representatives");
+  onSnapshot(docRef, (snap) => {
+    state.trainerRepresentatives = snap.data() || {};
+    if (state.currentView === 'trainers') renderTrainers();
+  }, (err) => console.error("Erro nas preferências de Treinadores:", err));
+}
+
 function openPokedexModal(species) {
   const name = species.name.english;
   const tcgCards = state.pokedexCardsBySpecies[name] || [];
@@ -884,6 +1195,7 @@ async function toggleCard(cardId, isOwned) {
   } catch (error) {
     console.error("Erro ao alterar o estado da carta:", error);
     showToast("Erro de permissão no Firebase ao alterar carta.", "error");
+    if (state.currentView === 'trainers') renderTrainers();
   }
 }
 
