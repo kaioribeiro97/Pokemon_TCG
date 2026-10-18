@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from
 import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 // 2. CONFIGURAÇÃO
-const DATA_VERSION = "1.19"; 
+const DATA_VERSION = "1.20"; 
 const firebaseConfig = {
   apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
   authDomain: "pokemon-tcg-sp.firebaseapp.com",
@@ -642,60 +642,65 @@ async function loadData() {
   let finalTCGData = [];
   let finalPokedexData = [];
 
-  const cachedVersion = localStorage.getItem("pokemon_data_version");
-  const cachedTCG = localStorage.getItem("tcg_data");
-  const cachedPokedex = localStorage.getItem("pokedex_data");
+  try {
+    // 1. Carrega a Pokédex base e a lista de coleções (index.json)
+    const [pokedexRes, indexRes] = await Promise.all([
+      fetch("./pokedex.json"),
+      fetch("./data/index.json")
+    ]);
+    
+    finalPokedexData = await pokedexRes.json();
+    finalPokedexData.sort((a, b) => a.id - b.id);
+    state.pokedexSpecies = finalPokedexData;
 
-  if (cachedVersion === DATA_VERSION && cachedTCG && cachedPokedex) {
-    finalTCGData = JSON.parse(cachedTCG);
-    finalPokedexData = JSON.parse(cachedPokedex);
-  } else {
+    const listaColecoes = await indexRes.json();
+    state.colecoesIndex = listaColecoes; // Guarda a lista de logos e nomes
+
+    // 2. Carrega todos os JSONs de coleções da pasta 'data/' em paralelo
+    const promessasColecoes = listaColecoes.map(async (col) => {
+      try {
+        const res = await fetch(`./data/${col.arquivo}`);
+        if (!res.ok) return [];
+        const cartas = await res.json();
+        // Garante que o nome da coleção no card seja o nome oficial do index
+        return cartas.map(c => ({ ...c, Coleção: c.Coleção || col.name }));
+      } catch (err) {
+        console.warn(`Aviso: Não foi possível carregar ./data/${col.arquivo}`, err);
+        return [];
+      }
+    });
+
+    const resultados = await Promise.all(promessasColecoes);
+    finalTCGData = resultados.flat();
+
+  } catch (e) {
+    console.error("Erro ao carregar dados modulares:", e);
+  }
+
+  // 3. Carrega cartas avulsas customizadas do Firebase
+  if (state.user) {
     try {
-      const [tcgRes, pokedexRes] = await Promise.all([
-        fetch("./TCG_CARD.json"),
-        fetch("./pokedex.json")
-      ]);
-      finalTCGData = await tcgRes.json();
-      finalPokedexData = await pokedexRes.json();
-      
-      finalPokedexData.sort((a, b) => a.id - b.id);
-      localStorage.setItem("tcg_data", JSON.stringify(finalTCGData));
-      localStorage.setItem("pokedex_data", JSON.stringify(finalPokedexData));
-      localStorage.setItem("pokemon_data_version", DATA_VERSION);
-    } catch (e) {
-      console.error("Erro ao baixar JSONs:", e);
+      const customRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
+      const snapshot = await getDocs(customRef);
+      snapshot.forEach(docSnap => {
+        let cardData = docSnap.data();
+        cardData.customId = docSnap.id;
+        finalTCGData.push(cardData);
+      });
+    } catch (err) {
+      console.error("Erro ao carregar cartas customizadas:", err);
     }
   }
 
-  // Carrega cartas avulsas customizadas
-  if (state.user) {
-      try {
-          const customRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
-          const snapshot = await getDocs(customRef);
-          
-          const customCards = [];
-          snapshot.forEach(doc => { 
-              let cardData = doc.data();
-              cardData.customId = doc.id;
-              customCards.push(cardData); 
-          });
-
-          if (customCards.length > 0) {
-              finalTCGData = [...finalTCGData, ...customCards];
-          }
-      } catch (err) {
-          console.error("Erro ao carregar cartas customizadas:", err);
-      }
-  }
-
-  state.pokedexSpecies = finalPokedexData;
+  // Processa todas as cartas
   processTCGJson(finalTCGData);
 
-  // Carrega o status de posse de TODAS as coleções com 1 única requisição rápida
+  // Carrega posse do Firebase
   if (state.user) {
     await loadAllUserCollectionsOnce();
   }
 }
+
 
 function processTCGJson(json) {
   state.pokedexCardsBySpecies = {};
@@ -815,23 +820,64 @@ function renderAlbums() {
   if (!grid) return;
   grid.innerHTML = "";
 
+  // Cria um mapa rápido de Logos a partir do index.json
+  const logosMap = {};
+  if (state.colecoesIndex) {
+    state.colecoesIndex.forEach(col => {
+      logosMap[col.name.toLowerCase()] = col.logo;
+      logosMap[col.id.toLowerCase()] = col.logo;
+    });
+  }
+
   Object.keys(state.collections).sort().forEach(id => {
     const col = state.collections[id];
     const pct = Math.round((col.owned.size / col.cards.length) * 100) || 0;
+    
+    // Procura o logo da coleção
+    const logoUrl = logosMap[col.name.toLowerCase()] || logosMap[id.toLowerCase()];
+
     const btn = document.createElement("button");
-    btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-sky-500 transition shadow-xl";
-    btn.innerHTML = `<div class="flex justify-between items-start mb-4"><h4 class="font-bold text-sky-400">${col.name}</h4><span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300">${pct}%</span></div><p class="text-xs text-slate-400">${col.owned.size} / ${col.cards.length} obtidas</p><div class="mt-3 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden"><div class="h-full bg-sky-500" style="width: ${pct}%"></div></div>`;
+    btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-sky-500 transition shadow-xl flex flex-col justify-between";
+
+    // Se tiver logo, mostra a imagem do logo; se não tiver, mostra o texto padrão
+    const headerHTML = logoUrl
+      ? `
+        <div class="flex justify-between items-start mb-4 gap-2">
+          <div class="h-12 flex items-center max-w-[70%]">
+            <img src="${logoUrl}" alt="${col.name}" class="max-h-full max-w-full object-contain filter drop-shadow">
+          </div>
+          <span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300 font-bold shrink-0">${pct}%</span>
+        </div>
+        <h4 class="font-bold text-sky-400 text-sm mb-1">${col.name}</h4>
+      `
+      : `
+        <div class="flex justify-between items-start mb-4">
+          <h4 class="font-bold text-sky-400 text-base">${col.name}</h4>
+          <span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300 font-bold">${pct}%</span>
+        </div>
+      `;
+
+    btn.innerHTML = `
+      <div>
+        ${headerHTML}
+        <p class="text-xs text-slate-400">${col.owned.size} / ${col.cards.length} obtidas</p>
+      </div>
+      <div class="mt-4 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden">
+        <div class="h-full bg-sky-500 transition-all duration-500" style="width: ${pct}%"></div>
+      </div>
+    `;
+
     btn.onclick = () => { 
       state.currentCollection = id; 
       state.searchQuery = ""; 
       $("#card-search").value = ""; 
       $("#details-title").textContent = col.name; 
       $("#collection-details").classList.remove("hidden"); 
-      attachActiveCollectionListener(id); // <-- Ativa listener sob demanda
+      attachActiveCollectionListener(id);
       renderCards(); 
-      // Rola suavemente até as cartas no celular
       $("#collection-details").scrollIntoView({ behavior: 'smooth' });
     };
+
     grid.appendChild(btn);
   });
 }
