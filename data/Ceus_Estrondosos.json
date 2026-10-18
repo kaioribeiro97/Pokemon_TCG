@@ -1,0 +1,674 @@
+[
+  {
+    "Pokemon": "Exeggcute",
+    "Coleção": "Céus Estrondosos",
+    "Número": "1/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdb0ec545-ute3c-6yv95-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor",
+    "Coleção": "Céus Estrondosos",
+    "Número": "2/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdb2c3851-xjk0d-mcl29-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Wurmple",
+    "Coleção": "Céus Estrondosos",
+    "Número": "3/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdb4a8cc9-56wsq-vdjwl-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Silcoon",
+    "Coleção": "Céus Estrondosos",
+    "Número": "4/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdb669c06-f4m3q-trk3h-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Beautifly",
+    "Coleção": "Céus Estrondosos",
+    "Número": "5/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdb83c7ef-8pb31-3sa5q-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Cascoon",
+    "Coleção": "Céus Estrondosos",
+    "Número": "6/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdba21d1b-6xugj-gjcrp-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dustox",
+    "Coleção": "Céus Estrondosos",
+    "Número": "7/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdbbd33c7-i76nl-87qol-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dustox",
+    "Coleção": "Céus Estrondosos",
+    "Número": "8/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdbd9d50c-13owr-jo7gs-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Nincada",
+    "Coleção": "Céus Estrondosos",
+    "Número": "9/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdbf54928-qp4vk-1rzwv-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Ninjask",
+    "Coleção": "Céus Estrondosos",
+    "Número": "10/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc111337-fuo6y-f3vi7-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shedinja",
+    "Coleção": "Céus Estrondosos",
+    "Número": "11/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc2b01f3-oue3b-7iyxh-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Tropius",
+    "Coleção": "Céus Estrondosos",
+    "Número": "12/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc46ce48-cqfzg-p8s95-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Céus Estrondosos",
+    "Número": "13/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc62c96a-lyv02-voiy7-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Céus Estrondosos",
+    "Número": "14/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc7da898-m8x3y-o0apc-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Talonflame",
+    "Coleção": "Céus Estrondosos",
+    "Número": "15/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdc9aa904-hstxk-5up9y-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Articuno",
+    "Coleção": "Céus Estrondosos",
+    "Número": "16/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdcb88382-k6cuq-vs6cz-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Articuno",
+    "Coleção": "Céus Estrondosos",
+    "Número": "17/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdcd5264e-rd09z-xhc4l-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Wingull",
+    "Coleção": "Céus Estrondosos",
+    "Número": "18/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdcf0fe26-vp8dr-1njys-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Pelipper",
+    "Coleção": "Céus Estrondosos",
+    "Número": "19/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd0e15b4-s7z0n-c3z5t-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Céus Estrondosos",
+    "Número": "20/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd2bb520-7czhv-2e0x9-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "Céus Estrondosos",
+    "Número": "21/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd47e52e-csv61-ki85m-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Céus Estrondosos",
+    "Número": "22/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd640b04-54xws-42fm3-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Zapdos",
+    "Coleção": "Céus Estrondosos",
+    "Número": "23/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd7f2b6c-l2gv0-s8arf-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Céus Estrondosos",
+    "Número": "24/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdd994cf6-lavro-l7ifb-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Céus Estrondosos",
+    "Número": "25/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fddb55715-c6a3e-b5jyf-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Thundurus-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "26/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fddd1e68e-6u98m-4k6b0-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Natu",
+    "Coleção": "Céus Estrondosos",
+    "Número": "27/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdded7e29-dqzsl-ymjgw-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Natu",
+    "Coleção": "Céus Estrondosos",
+    "Número": "28/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde089378-aedfc-8eblh-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Xatu",
+    "Coleção": "Céus Estrondosos",
+    "Número": "29/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde25c4c2-k6nis-gmcao-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shuppet",
+    "Coleção": "Céus Estrondosos",
+    "Número": "30/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde4037b9-nwclh-89d0w-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Banette",
+    "Coleção": "Céus Estrondosos",
+    "Número": "31/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde5b5a5c-2wcxa-rufg0-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Banette",
+    "Coleção": "Céus Estrondosos",
+    "Número": "32/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde779994-ial91-e9jsm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Deoxys",
+    "Coleção": "Céus Estrondosos",
+    "Número": "33/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fde93818c-1b8mi-49zr7-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Gallade-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "34/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdeada753-7coku-kh4bq-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Gallade-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "35/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdeca020e-hbc02-hs2kj-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Gligar",
+    "Coleção": "Céus Estrondosos",
+    "Número": "36/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdee4bda2-q9wm5-br5tq-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Gliscor",
+    "Coleção": "Céus Estrondosos",
+    "Número": "37/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf01a0b9-onpb3-4ifep-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Binacle",
+    "Coleção": "Céus Estrondosos",
+    "Número": "38/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf20ab13-8mg0o-ifj3a-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Céus Estrondosos",
+    "Número": "39/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf3bd29f-1itqe-sgr34-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Absol",
+    "Coleção": "Céus Estrondosos",
+    "Número": "40/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf59c233-5q4fr-86jd1-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "Céus Estrondosos",
+    "Número": "41/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf769f0e-shtyl-i9fne-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Jirachi",
+    "Coleção": "Céus Estrondosos",
+    "Número": "42/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdf970a7d-r7bmc-n3q9u-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Togepi",
+    "Coleção": "Céus Estrondosos",
+    "Número": "43/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdfb32dec-tr6k4-fxvbi-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Togetic",
+    "Coleção": "Céus Estrondosos",
+    "Número": "44/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdfccb014-0ulwa-oz6ah-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Togekiss",
+    "Coleção": "Céus Estrondosos",
+    "Número": "45/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fdfe98eac-jteqk-54s63-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Togekiss",
+    "Coleção": "Céus Estrondosos",
+    "Número": "46/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe0049d7d-uk8hl-kpq6l-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Carbink",
+    "Coleção": "Céus Estrondosos",
+    "Número": "47/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe02e0ba1-rqob2-zwhdc-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Klefki",
+    "Coleção": "Céus Estrondosos",
+    "Número": "48/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe050a369-li5w1-2o8z3-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dratini",
+    "Coleção": "Céus Estrondosos",
+    "Número": "49/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe06da590-dmuwt-mtkx3-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dragonair",
+    "Coleção": "Céus Estrondosos",
+    "Número": "50/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe08dd2fb-wzhsk-rx1y5-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dragonite",
+    "Coleção": "Céus Estrondosos",
+    "Número": "51/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe0add4f8-azm3x-m93bh-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dragonite",
+    "Coleção": "Céus Estrondosos",
+    "Número": "52/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe0cdc47a-htewi-oajep-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Céus Estrondosos",
+    "Número": "53/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe0f79db3-0pr36-nzqym-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Bagon",
+    "Coleção": "Céus Estrondosos",
+    "Número": "54/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe1dce36c-f20hu-uitgq-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Bagon",
+    "Coleção": "Céus Estrondosos",
+    "Número": "55/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe1f9ab29-u4phg-wo5cl-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shelgon",
+    "Coleção": "Céus Estrondosos",
+    "Número": "56/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe215eca4-sq4rg-9ah18-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Salamence",
+    "Coleção": "Céus Estrondosos",
+    "Número": "57/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe23395a2-buhdk-ogxd9-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Latios-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "58/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe24f1fac-7u4zq-6fjs5-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Latios-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "59/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe26b5084-v5sjh-5uq91-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "60/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe2886ced-opkgj-zdj1l-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "61/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe2a7b37a-f4jrh-831xj-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Hydreigon-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "62/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe2c4bc64-n9cte-bgz0o-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Céus Estrondosos",
+    "Número": "63/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe2e07576-9lgez-3kn6i-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Zekrom",
+    "Coleção": "Céus Estrondosos",
+    "Número": "64/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe2fbcf6d-krw0q-ypnli-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Spearow",
+    "Coleção": "Céus Estrondosos",
+    "Número": "65/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe318681d-kreo0-ev5rs-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Fearow",
+    "Coleção": "Céus Estrondosos",
+    "Número": "66/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe33aa1cf-m6h3s-hugbm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Céus Estrondosos",
+    "Número": "67/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe356794b-ew82z-pn2v8-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Dunsparce",
+    "Coleção": "Céus Estrondosos",
+    "Número": "68/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe3728beb-g2o9u-znrjm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Céus Estrondosos",
+    "Número": "69/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe38d12ab-67zbo-nmxsr-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Taillow",
+    "Coleção": "Céus Estrondosos",
+    "Número": "70/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe3a98510-vgakq-doqun-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Swellow",
+    "Coleção": "Céus Estrondosos",
+    "Número": "71/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe3c3f589-r658b-xqvpu-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Swellow",
+    "Coleção": "Céus Estrondosos",
+    "Número": "72/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe3ddafc5-kc4p5-ovu31-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Swablu",
+    "Coleção": "Céus Estrondosos",
+    "Número": "73/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe3fa83d8-ptbhd-tk8sx-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Céus Estrondosos",
+    "Número": "74/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe414ec32-ta6nh-vc1il-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "75/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe4311cb4-yc7vo-sg9on-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "76/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe44cd740-jrpfm-npwbd-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shaymin-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "77",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f800dc044ce-acfbx-hfo4y-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shaymin-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "77/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe46966a7-k79u2-f0oc2-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Pidove",
+    "Coleção": "Céus Estrondosos",
+    "Número": "78/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe484cd99-i8c4j-yprav-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Tranquill",
+    "Coleção": "Céus Estrondosos",
+    "Número": "79/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe4a029f1-8mgrq-3dt09-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Céus Estrondosos",
+    "Número": "80/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe4bc812a-m2i0k-xmuol-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Céus Estrondosos",
+    "Número": "81/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe4d6d01d-f56c3-xgli9-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "Céus Estrondosos",
+    "Número": "82/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe4f2398d-ne2xk-yhb2w-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Gallade",
+    "Coleção": "Céus Estrondosos",
+    "Número": "83/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe50d5f5a-19pe6-kyel7-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Cachecol da Cur",
+    "Coleção": "Céus Estrondosos",
+    "Número": "84/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5295e1e-k6bh1-19iwm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Latios",
+    "Coleção": "Céus Estrondosos",
+    "Número": "85/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5457061-q7yl3-lb2vw-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Mega Turbo",
+    "Coleção": "Céus Estrondosos",
+    "Número": "86/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe560e3a5-w18y6-scdnz-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Rayquaza",
+    "Coleção": "Céus Estrondosos",
+    "Número": "87/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe57c066f-1oic7-txp8h-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Reviver",
+    "Coleção": "Céus Estrondosos",
+    "Número": "88/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5980699-4itcd-kcld9-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Campo Celeste",
+    "Coleção": "Céus Estrondosos",
+    "Número": "89/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5b3c5c5-7dim0-jsg73-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Steven",
+    "Coleção": "Céus Estrondosos",
+    "Número": "90/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5d2cd51-vh53y-slmwk-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Céus Estrondosos",
+    "Número": "91/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe5eddddb-wn1ud-zus0t-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Correio de Treinadores",
+    "Coleção": "Céus Estrondosos",
+    "Número": "92",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f800ddc8e85-9n7gp-s2zil-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Correio de Treinadores",
+    "Coleção": "Céus Estrondosos",
+    "Número": "92/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe609620b-muexy-jltdu-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Céus Estrondosos",
+    "Número": "93/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe6255ab2-f841e-ogk8h-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Wally",
+    "Coleção": "Céus Estrondosos",
+    "Número": "94/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe642bb84-fxhuk-jcd14-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Lente Ampla",
+    "Coleção": "Céus Estrondosos",
+    "Número": "95/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe65de2c7-1g2e3-ds71o-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Winona",
+    "Coleção": "Céus Estrondosos",
+    "Número": "96/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe678386d-7fo52-e9rn7-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Energia Dragão Dupla",
+    "Coleção": "Céus Estrondosos",
+    "Número": "97/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe6943434-c28v4-fl643-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Thundurus-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "98/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe6b03ac9-lezfr-zkb41-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Gallade-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "99/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe6cb53de-3arto-cnyjm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Gallade-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "100/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe6ea9ed9-rtlfv-90vrf-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Latios-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "101/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe705da2c-up94l-swdek-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Latios-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "102/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe725ea87-kpnjy-jw1in-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Hydreigon-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "103/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe742dd08-cptb5-f854v-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "104/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe75eeb2c-7m0gl-ftusv-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "M Rayquaza-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "105/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe77c3257-w895t-80wc5-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Shaymin-EX",
+    "Coleção": "Céus Estrondosos",
+    "Número": "106/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe796c9ed-e7pt0-febgn-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Wally",
+    "Coleção": "Céus Estrondosos",
+    "Número": "107/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe7b21edc-x6mlv-kb1gm-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Winona",
+    "Coleção": "Céus Estrondosos",
+    "Número": "108/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe7cd166e-xew3t-4nq1b-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Céus Estrondosos",
+    "Número": "109/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe7e9cc71-otnlu-5f2gb-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  },
+  {
+    "Pokemon": "Explorador VS",
+    "Coleção": "Céus Estrondosos",
+    "Número": "110/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/1/68f7fe805278f-1wjl8-e4h8c-8fbdbf5573b18fae93736180f8d0197a.jpg"
+  }
+]

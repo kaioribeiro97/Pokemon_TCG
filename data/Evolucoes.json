@@ -1,0 +1,680 @@
+[
+  {
+    "Pokemon": "Venusaur-EX",
+    "Coleção": "Evoluções",
+    "Número": "1/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/563.1.jpg"
+  },
+  {
+    "Pokemon": "M Venusaur-EX",
+    "Coleção": "Evoluções",
+    "Número": "2/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/564.2.jpg"
+  },
+  {
+    "Pokemon": "Caterpie",
+    "Coleção": "Evoluções",
+    "Número": "3/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/201.3.jpg"
+  },
+  {
+    "Pokemon": "Metapod",
+    "Coleção": "Evoluções",
+    "Número": "4/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/186.4.jpg"
+  },
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "Evoluções",
+    "Número": "5/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/229.5.jpg"
+  },
+  {
+    "Pokemon": "Kakuna",
+    "Coleção": "Evoluções",
+    "Número": "6/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/212.6.jpg"
+  },
+  {
+    "Pokemon": "Beedrill",
+    "Coleção": "Evoluções",
+    "Número": "7/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/155.7.jpg"
+  },
+  {
+    "Pokemon": "Tangela",
+    "Coleção": "Evoluções",
+    "Número": "8/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/18.8.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Evoluções",
+    "Número": "9/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/33.9.jpg"
+  },
+  {
+    "Pokemon": "Charmeleon",
+    "Coleção": "Evoluções",
+    "Número": "10/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/34.10.jpg"
+  },
+  {
+    "Pokemon": "Charizard",
+    "Coleção": "Evoluções",
+    "Número": "11/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/35.11.jpg"
+  },
+  {
+    "Pokemon": "Charizard-EX",
+    "Coleção": "Evoluções",
+    "Número": "12/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1680.12.jpg"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Evoluções",
+    "Número": "13/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1952.13.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Evoluções",
+    "Número": "14/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/36.14.jpg"
+  },
+  {
+    "Pokemon": "Ninetales",
+    "Coleção": "Evoluções",
+    "Número": "15/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/37.15.jpg"
+  },
+  {
+    "Pokemon": "Ninetales TURBO",
+    "Coleção": "Evoluções",
+    "Número": "16/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/99/4214s_16.jpg"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Evoluções",
+    "Número": "17/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/122.17.jpg"
+  },
+  {
+    "Pokemon": "Arcanine",
+    "Coleção": "Evoluções",
+    "Número": "18/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/267.18.jpg"
+  },
+  {
+    "Pokemon": "Ponyta",
+    "Coleção": "Evoluções",
+    "Número": "19/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/694.19.jpg"
+  },
+  {
+    "Pokemon": "Magmar",
+    "Coleção": "Evoluções",
+    "Número": "20/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/328.20.jpg"
+  },
+  {
+    "Pokemon": "Blastoise-EX",
+    "Coleção": "Evoluções",
+    "Número": "21/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/584.21.jpg"
+  },
+  {
+    "Pokemon": "M Blastoise-EX",
+    "Coleção": "Evoluções",
+    "Número": "22/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/585.22.jpg"
+  },
+  {
+    "Pokemon": "Poliwag",
+    "Coleção": "Evoluções",
+    "Número": "23/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/535.23.jpg"
+  },
+  {
+    "Pokemon": "Poliwhirl",
+    "Coleção": "Evoluções",
+    "Número": "24/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/524.24.jpg"
+  },
+  {
+    "Pokemon": "Poliwrath",
+    "Coleção": "Evoluções",
+    "Número": "25/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/512.25.jpg"
+  },
+  {
+    "Pokemon": "Slowbro-EX",
+    "Coleção": "Evoluções",
+    "Número": "26/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4210.26.jpg"
+  },
+  {
+    "Pokemon": "M Slowbro-EX",
+    "Coleção": "Evoluções",
+    "Número": "27/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4208.27.jpg"
+  },
+  {
+    "Pokemon": "Seel",
+    "Coleção": "Evoluções",
+    "Número": "28/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/526.28.jpg"
+  },
+  {
+    "Pokemon": "Dewgong",
+    "Coleção": "Evoluções",
+    "Número": "29/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/516.29.jpg"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "Evoluções",
+    "Número": "30/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/497.30.jpg"
+  },
+  {
+    "Pokemon": "Starmie",
+    "Coleção": "Evoluções",
+    "Número": "31/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/486.31.jpg"
+  },
+  {
+    "Pokemon": "Starmie TURBO",
+    "Coleção": "Evoluções",
+    "Número": "32/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/99/4215s_32.jpg"
+  },
+  {
+    "Pokemon": "Magikarp",
+    "Coleção": "Evoluções",
+    "Número": "33/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/46.33.jpg"
+  },
+  {
+    "Pokemon": "Gyarados",
+    "Coleção": "Evoluções",
+    "Número": "34/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/47.34.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Evoluções",
+    "Número": "35/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/15.35.jpg"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Evoluções",
+    "Número": "36/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/3.36.jpg"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Evoluções",
+    "Número": "37/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/453.37.jpg"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Evoluções",
+    "Número": "38/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/431.38.jpg"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "Evoluções",
+    "Número": "39/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/349.39.jpg"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Evoluções",
+    "Número": "40/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/271.40.jpg"
+  },
+  {
+    "Pokemon": "Electabuzz",
+    "Coleção": "Evoluções",
+    "Número": "41/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/323.41.jpg"
+  },
+  {
+    "Pokemon": "Zapdos",
+    "Coleção": "Evoluções",
+    "Número": "42/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/61.42.jpg"
+  },
+  {
+    "Pokemon": "Nidoran Macho",
+    "Coleção": "Evoluções",
+    "Número": "43/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/331.43.jpg"
+  },
+  {
+    "Pokemon": "Nidorino",
+    "Coleção": "Evoluções",
+    "Número": "44/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/295.44.jpg"
+  },
+  {
+    "Pokemon": "Nidoking",
+    "Coleção": "Evoluções",
+    "Número": "45/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/278.45.jpg"
+  },
+  {
+    "Pokemon": "Nidoking TURBO",
+    "Coleção": "Evoluções",
+    "Número": "46/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/99/4213s_46.jpg"
+  },
+  {
+    "Pokemon": "Gastly",
+    "Coleção": "Evoluções",
+    "Número": "47/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/448.47.jpg"
+  },
+  {
+    "Pokemon": "Haunter",
+    "Coleção": "Evoluções",
+    "Número": "48/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/438.48.jpg"
+  },
+  {
+    "Pokemon": "Drowzee",
+    "Coleção": "Evoluções",
+    "Número": "49/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/204.49.jpg"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Evoluções",
+    "Número": "50/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/213.50.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo",
+    "Coleção": "Evoluções",
+    "Número": "51/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/68.51.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Evoluções",
+    "Número": "52/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/69.52.jpg"
+  },
+  {
+    "Pokemon": "Mew",
+    "Coleção": "Evoluções",
+    "Número": "53/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/260.53.jpg"
+  },
+  {
+    "Pokemon": "Sandshrew",
+    "Coleção": "Evoluções",
+    "Número": "54/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/537.54.jpg"
+  },
+  {
+    "Pokemon": "Diglett",
+    "Coleção": "Evoluções",
+    "Número": "55/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/321.55.jpg"
+  },
+  {
+    "Pokemon": "Dugtrio",
+    "Coleção": "Evoluções",
+    "Número": "56/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/269.56.jpg"
+  },
+  {
+    "Pokemon": "Machop",
+    "Coleção": "Evoluções",
+    "Número": "57/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/451.57.jpg"
+  },
+  {
+    "Pokemon": "Machoke",
+    "Coleção": "Evoluções",
+    "Número": "58/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/440.58.jpg"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Evoluções",
+    "Número": "59/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/426.59.jpg"
+  },
+  {
+    "Pokemon": "Machamp TURBO",
+    "Coleção": "Evoluções",
+    "Número": "60/108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/99/4212s_60.jpg"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Evoluções",
+    "Número": "61/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/534.61.jpg"
+  },
+  {
+    "Pokemon": "Hitmonchan",
+    "Coleção": "Evoluções",
+    "Número": "62/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/510.62.jpg"
+  },
+  {
+    "Pokemon": "Clefairy",
+    "Coleção": "Evoluções",
+    "Número": "63/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/319.63.jpg"
+  },
+  {
+    "Pokemon": "Pidgeot-EX",
+    "Coleção": "Evoluções",
+    "Número": "64/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4209.64.jpg"
+  },
+  {
+    "Pokemon": "M Pidgeot-EX",
+    "Coleção": "Evoluções",
+    "Número": "65/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4207.65.jpg"
+  },
+  {
+    "Pokemon": "Rattata",
+    "Coleção": "Evoluções",
+    "Número": "66/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/336.66.jpg"
+  },
+  {
+    "Pokemon": "Raticate",
+    "Coleção": "Evoluções",
+    "Número": "67/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/299.67.jpg"
+  },
+  {
+    "Pokemon": "Farfetch'd",
+    "Coleção": "Evoluções",
+    "Número": "68/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/289.68.jpg"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Evoluções",
+    "Número": "69/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/530.69.jpg"
+  },
+  {
+    "Pokemon": "Chansey",
+    "Coleção": "Evoluções",
+    "Número": "70/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/508.70.jpg"
+  },
+  {
+    "Pokemon": "Porygon",
+    "Coleção": "Evoluções",
+    "Número": "71/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/220.71.jpg"
+  },
+  {
+    "Pokemon": "Dragonite-EX",
+    "Coleção": "Evoluções",
+    "Número": "72/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1660.72.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Blastoise",
+    "Coleção": "Evoluções",
+    "Número": "73/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4199.73.jpg"
+  },
+  {
+    "Pokemon": "Valentia do Brock",
+    "Coleção": "Evoluções",
+    "Número": "74/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4200.74.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Charizard",
+    "Coleção": "Evoluções",
+    "Número": "75/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4201.75.jpg"
+  },
+  {
+    "Pokemon": "Spray de Involução",
+    "Coleção": "Evoluções",
+    "Número": "76/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1551.76.jpg"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Evoluções",
+    "Número": "77/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/547.77.jpg"
+  },
+  {
+    "Pokemon": "Cura Total",
+    "Coleção": "Evoluções",
+    "Número": "78/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/548.78.jpg"
+  },
+  {
+    "Pokemon": "Manutenção",
+    "Coleção": "Evoluções",
+    "Número": "79/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/549.79.jpg"
+  },
+  {
+    "Pokemon": "Determinação da Misty",
+    "Coleção": "Evoluções",
+    "Número": "80/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/3998.80.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Pidgeot",
+    "Coleção": "Evoluções",
+    "Número": "81/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4202.81.jpg"
+  },
+  {
+    "Pokemon": "Pokédex",
+    "Coleção": "Evoluções",
+    "Número": "82/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4203.82.jpg"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Evoluções",
+    "Número": "83/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/359.83.jpg"
+  },
+  {
+    "Pokemon": "Dica do Professor Carvalho",
+    "Coleção": "Evoluções",
+    "Número": "84/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4204.84.jpg"
+  },
+  {
+    "Pokemon": "Reviver",
+    "Coleção": "Evoluções",
+    "Número": "85/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1442.85.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Slowbro",
+    "Coleção": "Evoluções",
+    "Número": "86/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4205.86.jpg"
+  },
+  {
+    "Pokemon": "Super Poção",
+    "Coleção": "Evoluções",
+    "Número": "87/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/553.87.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Evoluções",
+    "Número": "88/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/360.88.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Venusaur",
+    "Coleção": "Evoluções",
+    "Número": "89/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4206.89.jpg"
+  },
+  {
+    "Pokemon": "Energia Incolor Dupla",
+    "Coleção": "Evoluções",
+    "Número": "90/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/121.90.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Evoluções",
+    "Número": "91/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/559.91.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Evoluções",
+    "Número": "92/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/558.92.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Evoluções",
+    "Número": "93/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/562.93.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Evoluções",
+    "Número": "94/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/560.94.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Evoluções",
+    "Número": "95/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/561.95.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Evoluções",
+    "Número": "96/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/557.96.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Evoluções",
+    "Número": "97/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/361.97.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Evoluções",
+    "Número": "98/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/362.98.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "Evoluções",
+    "Número": "99/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/648.99.jpg"
+  },
+  {
+    "Pokemon": "M Venusaur-EX",
+    "Coleção": "Evoluções",
+    "Número": "100/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/564.100.jpg"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Evoluções",
+    "Número": "101/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1952.101.jpg"
+  },
+  {
+    "Pokemon": "M Blastoise-EX",
+    "Coleção": "Evoluções",
+    "Número": "102/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/585.102.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Evoluções",
+    "Número": "103/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/69.103.jpg"
+  },
+  {
+    "Pokemon": "Pidgeot-EX",
+    "Coleção": "Evoluções",
+    "Número": "104/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4209.104.jpg"
+  },
+  {
+    "Pokemon": "M Pidgeot-EX",
+    "Coleção": "Evoluções",
+    "Número": "105/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4207.105.jpg"
+  },
+  {
+    "Pokemon": "Dragonite-EX",
+    "Coleção": "Evoluções",
+    "Número": "106/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1660.106.jpg"
+  },
+  {
+    "Pokemon": "Valentia do Brock",
+    "Coleção": "Evoluções",
+    "Número": "107/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4200.107.jpg"
+  },
+  {
+    "Pokemon": "Determinação da Misty",
+    "Coleção": "Evoluções",
+    "Número": "108/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/3998.108.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor",
+    "Coleção": "Evoluções",
+    "Número": "109/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/519.109.jpg"
+  },
+  {
+    "Pokemon": "Pikachu Voador",
+    "Coleção": "Evoluções",
+    "Número": "110/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1867.110.jpg"
+  },
+  {
+    "Pokemon": "Pikachu Surfista",
+    "Coleção": "Evoluções",
+    "Número": "111/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1868.111.jpg"
+  },
+  {
+    "Pokemon": "Doduo de Imakuni?",
+    "Coleção": "Evoluções",
+    "Número": "112/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/4211.112.jpg"
+  },
+  {
+    "Pokemon": "Lá vem a Equipe Rocket!",
+    "Coleção": "Evoluções",
+    "Número": "113/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/99/1071.113.jpg"
+  }
+]

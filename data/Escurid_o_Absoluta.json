@@ -1,0 +1,722 @@
+[
+  {
+    "Pokemon": "Tropius",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "001/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0c8bc8c3-azev3-9mekq-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Grubbin",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "002/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0ca3e043-b37u5-gj68o-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Fomantis",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "003/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0cbca888-chonf-kpxei-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Lurantis ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "004/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0cd628ee-sklf5-h1kqw-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Poltchageist",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "005/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0ced7ab4-3upq9-hdbs8-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Sinistcha",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "006/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d05f5b0-wkbhn-r56lw-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Heatran",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "007/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d1f2a02-g9ucm-6t05d-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Delphox ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "008/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d3787d4-he1i3-dpc15-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Sizzlipede",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "009/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d504cc6-rjky3-hfi3a-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "010/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d676203-edat6-s7cgr-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Charcadet",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "011/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d800a99-bp5ji-6pa10-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Armarouge",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "012/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0d98afda-7lkwj-epd6y-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "013/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0db0b603-53lhq-45wz1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Seaking",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "014/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0dc914b2-0na74-ijnyg-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Wailmer",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "015/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0de20542-sczej-5sqp4-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Wailord ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "016/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0df91e1d-ztgie-xzku0-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "017/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e190e35-cj7u0-75rf4-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Popplio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "018/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e30c755-sfmei-8zh2b-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Brionne",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "019/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e4dbe01-5xuqr-sd3a1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Primarina",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "020/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e65e259-hj0ig-fehol-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Finizen",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "021/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e7cc341-mrf1u-drnws-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Palafin",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "022/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0e94644a-vqsx6-32ule-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "023/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0eab8b5a-5iu7g-20ndu-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "024/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0ec3d46b-yrnw8-ft68e-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Charjabug",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "025/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0edb6eee-tros7-s9omv-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Vikavolt",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "026/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0ef41c66-4xsh2-i3gza-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Zeraora ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "027/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f0b4520-gtbiy-y7nia-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Miraidon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "028/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f28edc4-307yd-f325k-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "029/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f411205-xlyf6-chop9-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Slowbro",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "030/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f581fbd-1lveh-tz7f8-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Slowbro ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "031/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f7116df-e0zwl-rgaml-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Jynx",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "032/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0f881fa9-b70as-zk271-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Shuppet",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "033/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0fa005f5-bnv4h-z2xv4-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Banette",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "034/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0fb72573-9uqcf-5ivu1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Spiritomb",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "035/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0fd028b0-7l94a-vsk5d-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Litwick",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "036/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f0fe80145-uhg2e-ltykj-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Lampent",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "037/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1009cb52-afnvj-h04lc-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Chandelure ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "038/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f10229fc8-traid-yzfbv-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Dhelmise",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "039/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f103acc47-fajm4-0967g-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Marshadow",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "040/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f105bb1a7-mpv3b-b86oq-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Annihilape",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "041/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f107b4ea0-xh13b-pqg5n-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mankey",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "042/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f109442e5-oxf9b-k5vnq-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Primeape",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "043/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f10ac8db2-7nr3u-dh7zg-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Cranidos",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "044/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f10c5bf10-0cmyp-isbrq-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Rampardos ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "045/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f10de4af8-why7t-hwb29-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Drilbur",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "046/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f10f6fd25-nmg10-e607a-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "047/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1117621e-x63iq-jlqom-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Darkrai ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "048/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1136ae9a-e8bc3-jnbch-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Vullaby",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "049/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f114e42e4-45buc-qvuh0-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mandibuzz",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "050/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1166a514-09jdi-j3iyr-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "051/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f117df630-ipyl2-fp53u-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Malamar",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "052/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1196ac4f-8ioal-9t8nw-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Nickit",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "053/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f11b78cb5-zp46i-xvdlp-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Thievul",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "054/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f11e31846-hjtc6-hwk78-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Morpeko ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "055/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12041276-hvsdw-7yjah-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Zarude",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "056/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f121dd04d-rfhyw-fueop-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Maschiff",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "057/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12430a45-tnrao-2edgh-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mabosstiff",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "058/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f125b4c70-brv9l-t73dp-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Chi-Yu",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "059/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1275b7aa-9ah08-bk9rj-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "060/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f128de6e4-c2sx1-z3pqe-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Shieldon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "061/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12ae912c-ain37-2cfxw-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bastiodon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "062/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12c74ca5-vueha-jd8a3-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bronzor",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "063/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12e1c36b-wktxn-r4sc1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bronzong",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "064/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f12f9458f-tsij9-x3hi0-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Excadrill ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "065/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13111e81-513vh-flnyc-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Pikipek",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "066/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1328f8fa-8e052-0ah3r-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Trumbeak",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "067/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13437f72-p10zs-fiyk8-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Toucannon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "068/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f135e33f7-bv6rk-vjd8u-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Tipo Nulo",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "069/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f137693de-zi95j-gnzth-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Silvally",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "070/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f139148d0-rxil9-5ue6c-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bombirdier",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "071/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13aac496-e25mb-a2qx5-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Fóssil Armadura Arcaico",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "072/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13c449ee-yd5ca-0veyz-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Fóssil Crânio Arcaico",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "073/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13db9b77-sq0eu-d53i1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Distintivo de Recomeço",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "074/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f13f360b3-9bgs0-nzb7f-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Sino Sombrio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "075/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f140c99ef-8avkt-9hnm3-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Pedreira de Fóssil",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "076/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f1424ec2f-dyaup-tzli9-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Batalha Decisiva do Gladio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "077/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f143bebcf-1ndhb-h2k67-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Clarita",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "078/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14544f9a-a1x4y-3rho4-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Jett",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "079/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f146b69f8-q0lfz-pa1yb-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Vitalidade da Misty",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "080/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14853ad6-f785c-0wvbs-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Recruta do Clã Corrosão",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "081/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f149c75d9-i5bwa-l1pyx-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bombona",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "082/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14b4a024-b69hs-4r8k6-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Energia E Sombria",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "083/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14cccf7e-4lf8q-dn286-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Energia E Voltaica",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "084/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14e52599-m24r7-2ymsw-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Fomantis",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "085/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecca9b7d0-mx75q-o5rbp-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Armarouge",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "086/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68eccc91574-uwren-52mjo-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "087/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecce18a65-is6u9-i896j-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Primarina",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "088/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68eccfa0270-46q9a-ivm4x-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "089/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd13754e-9ajn6-unzdi-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Slowbro",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "090/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f14fc2c1f-qc7h9-b689y-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Dhelmise",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "091/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f151bd283-t8937-r7ls8-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Thievul",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "092/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd2b8fa6-fl12c-vgale-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bastiodon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "093/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd44c0be-g7sf5-oqsv2-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Toucannon",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "094/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd62f087-1nsuj-1pniv-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Silvally",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "095/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd7c2384-kystd-20keh-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Lurantis ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "096/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecd940f8d-4f2cp-h3w0o-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Wailord ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "097/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecdab547c-a3j9k-6a51p-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Zeraora ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "098/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecdc537a2-rblj1-4tanl-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Chandelure ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "099/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecdde5ce0-vyt1j-954xv-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Rampardos ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "100/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecdf783a0-vact4-ltcea-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Darkrai ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "101/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece0f03e9-noy9m-8etx2-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Morpeko ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "102/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece289db3-bt9pm-ex0tz-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Excadrill ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "103/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece40dec0-2otcs-dus35-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bracelete Bravio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "104/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece581c5d-2ielb-0lec4-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Martelo Esmagador",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "105/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece7031da-ewvgt-wsrxf-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Sino Sombrio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "106/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ece98da84-glisc-4miy0-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "107/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68eceb89b9a-7ci8s-3nxjf-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Batalha Decisiva do Gladio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "108/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68eced95ff6-8jzm3-jfqn1-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Clarita",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "109/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecef983fa-sxrv1-4muiq-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Defensor Férreo",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "110/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecf18f666-0nv8b-a5gfo-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Vitalidade da Misty",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "111/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecf39d361-pvuwo-306l7-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Recruta do Clã Corrosão",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "112/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecf533159-uhxby-q6why-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Bombona",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "113/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecf6cf691-wd6tn-anjc6-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Zeraora ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "114/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecf88d35d-7kwc2-d5ypb-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Chandelure ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "115/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f15337432-bc4ph-mq2ga-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Darkrai ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "116/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f154b7247-4ek02-eu62x-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Morpeko ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "117/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f15645509-8eq53-fkc08-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Batalha Decisiva do Gladio",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "118/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecfa8ca9e-vfy4t-duhs2-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Clarita",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "119/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a57f157c0bb0-g7zco-75ema-c12613501292e3e4835bcc8170db2e99.jpg"
+  },
+  {
+    "Pokemon": "Mega Darkrai ex",
+    "Coleção": "Escuridão Absoluta",
+    "Número": "120/084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/792/6a68ecfc928af-2h6y3-qytn0-c12613501292e3e4835bcc8170db2e99.jpg"
+  }
+]

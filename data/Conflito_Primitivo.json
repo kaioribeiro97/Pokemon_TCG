@@ -1,0 +1,986 @@
+[
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "Conflito Primitivo",
+    "Número": "1/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8113c28c71-67god-au482-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kakuna",
+    "Coleção": "Conflito Primitivo",
+    "Número": "2/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8113df20ac-w4ucz-27atf-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Beedrill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "3/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8113fc8fee-s0kzo-1hyfe-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tangela",
+    "Coleção": "Conflito Primitivo",
+    "Número": "4/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114188070-b32do-ih5r3-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tangrowth",
+    "Coleção": "Conflito Primitivo",
+    "Número": "5/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811435cb23-k7z3s-szkjg-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Treecko",
+    "Coleção": "Conflito Primitivo",
+    "Número": "6/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114515b9d-na8l1-nwx8r-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Grovyle",
+    "Coleção": "Conflito Primitivo",
+    "Número": "7/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81146e20a2-ys190-auvsn-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Conflito Primitivo",
+    "Número": "8/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811489503b-78rdx-osrez-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Conflito Primitivo",
+    "Número": "9/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114a5a560-wonbq-hgrp9-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Lotad",
+    "Coleção": "Conflito Primitivo",
+    "Número": "10/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114c29a04-1kpjq-96wvz-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Lombre",
+    "Coleção": "Conflito Primitivo",
+    "Número": "11/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114de47ac-gr2oy-rlg83-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Ludicolo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "12/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8114f9c310-bami5-hxugm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Surskit",
+    "Coleção": "Conflito Primitivo",
+    "Número": "13/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81151571a2-7tvoe-7sz0o-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Masquerain",
+    "Coleção": "Conflito Primitivo",
+    "Número": "14/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81152eff17-qmax0-x7qcd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Shroomish",
+    "Coleção": "Conflito Primitivo",
+    "Número": "15/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81154b5f30-0qc6n-0o23p-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Breloom",
+    "Coleção": "Conflito Primitivo",
+    "Número": "16/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8115680ffc-x1ec7-zjg9u-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Volbeat",
+    "Coleção": "Conflito Primitivo",
+    "Número": "17/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811588c346-4s07j-pd41v-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Illumise",
+    "Coleção": "Conflito Primitivo",
+    "Número": "18/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8115ad00f8-psb2g-ejya6-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Trevenant-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "19/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8115cd3cf1-fvund-k41tu-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Conflito Primitivo",
+    "Número": "20/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8115ecfbc9-m0rkc-sqdzx-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Ninetales",
+    "Coleção": "Conflito Primitivo",
+    "Número": "21/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81160e4e96-849oz-v5rqf-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Slugma",
+    "Coleção": "Conflito Primitivo",
+    "Número": "22/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81162cf6fb-ihrb1-eutnj-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Magcargo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "23/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81164cf8c9-gym1w-fbxvn-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Magcargo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "24/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81167030fc-jl3xi-vd3m2-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Conflito Primitivo",
+    "Número": "25/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8117a75176-npzhx-nvtsr-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Conflito Primitivo",
+    "Número": "26/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8117c5113f-ic6tj-u6gkw-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Combusken",
+    "Coleção": "Conflito Primitivo",
+    "Número": "27/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8117e023f1-d2bju-8dt7v-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Blaziken",
+    "Coleção": "Conflito Primitivo",
+    "Número": "28/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8117fb4438-3epcn-kftjl-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Camerupt-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "29/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81181796d5-t8q0z-jms89-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Horsea",
+    "Coleção": "Conflito Primitivo",
+    "Número": "30/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811833c429-z5vsf-ksn2b-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Seadra",
+    "Coleção": "Conflito Primitivo",
+    "Número": "31/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81184e9254-xcubo-0hwrd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "Conflito Primitivo",
+    "Número": "32/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81186b5d80-vjrx3-ti793-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Mudkip",
+    "Coleção": "Conflito Primitivo",
+    "Número": "33/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811888da32-w5sep-7eh8o-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Marshtomp",
+    "Coleção": "Conflito Primitivo",
+    "Número": "34/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8118a2abae-7ba3w-nbhwi-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Swampert",
+    "Coleção": "Conflito Primitivo",
+    "Número": "35/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8118bdb5e2-w1eki-89uym-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Swampert",
+    "Coleção": "Conflito Primitivo",
+    "Número": "36/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8118d9d300-alwf8-fuikw-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Ludicolo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "37/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8118f5ed9a-52h96-0hgw5-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Wailord-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "38/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811911d278-xq3ln-fmjg5-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Barboach",
+    "Coleção": "Conflito Primitivo",
+    "Número": "39/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81192b54a5-m5bk1-p2ghy-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Whiscash",
+    "Coleção": "Conflito Primitivo",
+    "Número": "40/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8119472284-tqkv2-5usng-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Whiscash",
+    "Coleção": "Conflito Primitivo",
+    "Número": "41/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81196339b0-m1puc-faucw-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Corphish",
+    "Coleção": "Conflito Primitivo",
+    "Número": "42/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81197e192e-pl9ji-4wnd9-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Feebas",
+    "Coleção": "Conflito Primitivo",
+    "Número": "43/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811999f441-c8wdt-rsdmc-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Conflito Primitivo",
+    "Número": "44/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8119b62029-eik9f-n0eqd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Spheal",
+    "Coleção": "Conflito Primitivo",
+    "Número": "45/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8119d24e25-9qagr-n589w-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Spheal",
+    "Coleção": "Conflito Primitivo",
+    "Número": "46/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8119ed9abd-xbsqp-ztqfv-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Sealeo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "47/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a0958f8-vqagk-c1m7a-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Walrein",
+    "Coleção": "Conflito Primitivo",
+    "Número": "48/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a285bc9-ni6df-lv5gs-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Clamperl",
+    "Coleção": "Conflito Primitivo",
+    "Número": "49/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a441a53-76xct-zkh7p-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Huntail",
+    "Coleção": "Conflito Primitivo",
+    "Número": "50/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a626b3c-0w9yz-cybpz-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Gorebyss",
+    "Coleção": "Conflito Primitivo",
+    "Número": "51/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a7c2b7d-p80oj-ic9e1-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Gorebyss",
+    "Coleção": "Conflito Primitivo",
+    "Número": "52/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811a99eb95-mtlc4-qc6ey-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kyogre",
+    "Coleção": "Conflito Primitivo",
+    "Número": "53/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811ab56f14-n6kfv-d2610-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kyogre-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "54/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811add2631-hseml-1b0uo-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kyogre Primitivo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "55/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811afdb9bd-hmzj6-zg8l1-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Manaphy",
+    "Coleção": "Conflito Primitivo",
+    "Número": "56/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811b1cdd22-ki0tx-jx1yp-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Chinchou",
+    "Coleção": "Conflito Primitivo",
+    "Número": "57/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811b3cd4f1-7uy1m-tl1qp-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Lanturn",
+    "Coleção": "Conflito Primitivo",
+    "Número": "58/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811b5cc882-yu6co-myht1-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Conflito Primitivo",
+    "Número": "59/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811b85167d-prcjm-spckd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Conflito Primitivo",
+    "Número": "60/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811ba11472-9f0vx-61in0-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Conflito Primitivo",
+    "Número": "61/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811bbe8747-o5mlv-5w07x-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tynamo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "62/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811bda8f25-i5zr1-wxctp-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Eelektrik",
+    "Coleção": "Conflito Primitivo",
+    "Número": "63/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811bf7e6d0-82n0c-oybc9-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Eelektrik",
+    "Coleção": "Conflito Primitivo",
+    "Número": "64/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811c13ce9c-21gyt-tdq7y-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Eelektross",
+    "Coleção": "Conflito Primitivo",
+    "Número": "65/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811c2ed54e-exln3-8x9h2-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Nidoran Fêmea",
+    "Coleção": "Conflito Primitivo",
+    "Número": "66/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811c4c396a-mph6a-d4egq-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Nidorina",
+    "Coleção": "Conflito Primitivo",
+    "Número": "67/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811c68bfde-3nbuh-tamyg-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Nidoqueen",
+    "Coleção": "Conflito Primitivo",
+    "Número": "68/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811c84c8bb-89xi1-1uyof-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Nidoqueen",
+    "Coleção": "Conflito Primitivo",
+    "Número": "69/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811ca0c335-83vjh-hpkr6-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tentacool",
+    "Coleção": "Conflito Primitivo",
+    "Número": "70/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811cbadff7-x6za8-qen81-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tentacool",
+    "Coleção": "Conflito Primitivo",
+    "Número": "71/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811cd6c491-lq93a-jzkli-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Tentacruel",
+    "Coleção": "Conflito Primitivo",
+    "Número": "72/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811cf3cdb0-2p630-58izm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Starmie",
+    "Coleção": "Conflito Primitivo",
+    "Número": "73/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d0e9297-l3h2x-tun23-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Conflito Primitivo",
+    "Número": "74/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d2a6002-nfr7u-8qp6d-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Rhydon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "75/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d464af0-scdpy-597rj-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Rhyperior",
+    "Coleção": "Conflito Primitivo",
+    "Número": "76/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d6228fd-tzh3x-lenqc-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Rhyperior",
+    "Coleção": "Conflito Primitivo",
+    "Número": "77/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d7c3c40-d6iyp-aqyu4-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Nosepass",
+    "Coleção": "Conflito Primitivo",
+    "Número": "78/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811d998a79-npshk-q6lsc-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Meditite",
+    "Coleção": "Conflito Primitivo",
+    "Número": "79/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811db69fa7-da57v-zv36i-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Medicham",
+    "Coleção": "Conflito Primitivo",
+    "Número": "80/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811dd2b174-wrk6s-br0ka-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Medicham",
+    "Coleção": "Conflito Primitivo",
+    "Número": "81/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811dee3183-4u59i-9ltia-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Trapinch",
+    "Coleção": "Conflito Primitivo",
+    "Número": "82/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e0a2f60-qbwjz-j7f85-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Solrock",
+    "Coleção": "Conflito Primitivo",
+    "Número": "83/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e2ae270-h8g3f-culf6-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Groudon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "84/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e46a00a-u0v5h-dzs85-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Groudon-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "85/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e62f796-qhy0z-6eo5i-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Groudon Primitivo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "86/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e7eae46-uzn63-gt0ml-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Hippopotas",
+    "Coleção": "Conflito Primitivo",
+    "Número": "87/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811e9ab18c-4pmby-o6sya-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Hippowdon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "88/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811eb8350f-m1kby-vkern-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Drilbur",
+    "Coleção": "Conflito Primitivo",
+    "Número": "89/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811ed3e94a-iyr5g-lswox-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Diggersby",
+    "Coleção": "Conflito Primitivo",
+    "Número": "90/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811ef00616-gfdju-xle35-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Sharpedo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "91/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f0ad997-xawkz-a034y-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Crawdaunt",
+    "Coleção": "Conflito Primitivo",
+    "Número": "92/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f253eb5-z9wbt-irvp4-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Aggron-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "93/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f4537e7-gltuc-pztng-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "M Aggron-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "94/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f603862-vqlpa-phn7e-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Probopass",
+    "Coleção": "Conflito Primitivo",
+    "Número": "95/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f7bdd13-yx3tq-z2hfi-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Excadrill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "96/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811f981a2b-7p4cg-xo0ek-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Excadrill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "97/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811fb3fa52-c8k7y-7x9wd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "Conflito Primitivo",
+    "Número": "98/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811fd00680-8b5lr-o3vxr-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Doublade",
+    "Coleção": "Conflito Primitivo",
+    "Número": "99/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f811feb11e9-y9nhg-fcos6-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "Conflito Primitivo",
+    "Número": "100/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812006220e-tcfqd-u9dkg-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Mr. Mime",
+    "Coleção": "Conflito Primitivo",
+    "Número": "101/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812021af65-60hol-73p8a-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Marill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "102/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81203e9164-m4e5y-i5e3r-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Azumarill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "103/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81205a8d62-qtl3m-q2k87-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Azumarill",
+    "Coleção": "Conflito Primitivo",
+    "Número": "104/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8120766f30-g5a7t-7tpoq-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "105/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812092ba23-qfv6y-otbwv-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "M Gardevoir-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "106/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8120ae6463-pzf34-1yml2-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kingdra",
+    "Coleção": "Conflito Primitivo",
+    "Número": "107/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8120cb7c3e-qejwi-6re2a-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kingdra",
+    "Coleção": "Conflito Primitivo",
+    "Número": "108/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8120e718ee-epsl9-8ho43-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Vibrava",
+    "Coleção": "Conflito Primitivo",
+    "Número": "109/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812103273d-tqaef-rhou3-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Flygon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "110/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81211cd86e-frlvd-z58f7-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Zigzagoon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "111/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8121393a7a-b7xif-koiqf-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Linoone",
+    "Coleção": "Conflito Primitivo",
+    "Número": "112/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812156bcd7-le6qp-f2ocl-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Conflito Primitivo",
+    "Número": "113/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812172bb1b-aornz-uh1gd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Delcatty",
+    "Coleção": "Conflito Primitivo",
+    "Número": "114/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8121901fd1-flwj4-c1hum-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Spinda",
+    "Coleção": "Conflito Primitivo",
+    "Número": "115/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8121ab7ae0-swvz2-oku4h-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Conflito Primitivo",
+    "Número": "116/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8121c8c60e-n32kb-9muqd-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Conflito Primitivo",
+    "Número": "117/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8121e4c0d3-2ztxn-8s0zm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bibarel",
+    "Coleção": "Conflito Primitivo",
+    "Número": "118/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8122009d52-6k38c-0xkg5-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bouffalant",
+    "Coleção": "Conflito Primitivo",
+    "Número": "119/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81221bf50c-j7dng-r1v7z-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bunnelby",
+    "Coleção": "Conflito Primitivo",
+    "Número": "120/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812238149e-6lm2e-0nah5-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bunnelby",
+    "Coleção": "Conflito Primitivo",
+    "Número": "121/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812253c30e-ketb3-w6980-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bicicleta Acro",
+    "Coleção": "Conflito Primitivo",
+    "Número": "122/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81226eafe3-txc2d-w7z2h-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Aggron",
+    "Coleção": "Conflito Primitivo",
+    "Número": "123/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81228ac531-1wrlx-ambkr-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Ás na Manga de Archie",
+    "Coleção": "Conflito Primitivo",
+    "Número": "124/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8122a6ae3e-40xf1-49bcx-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bola de Mergulho",
+    "Coleção": "Conflito Primitivo",
+    "Número": "125/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8122c17851-ecl51-fx7lk-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Conflito Primitivo",
+    "Número": "126/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8122ddbf7e-bknq9-btj9k-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Corda de Fuga",
+    "Coleção": "Conflito Primitivo",
+    "Número": "127/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8122f98ac4-p6wmj-u7emx-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Compart. Exp.",
+    "Coleção": "Conflito Primitivo",
+    "Número": "128/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123167147-xdzy2-02cuk-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Conjunto de Água Fresca",
+    "Coleção": "Conflito Primitivo",
+    "Número": "129/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812330c68c-9vkoy-bv4wt-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Gardevoir",
+    "Coleção": "Conflito Primitivo",
+    "Número": "130/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81234d0bb1-r713s-ni483-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Groudon",
+    "Coleção": "Conflito Primitivo",
+    "Número": "131/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812368f543-tdfxh-xrdkm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Kyogre",
+    "Coleção": "Conflito Primitivo",
+    "Número": "132/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123863235-quayb-duofm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Truque da Bola Escondida de Maxie",
+    "Coleção": "Conflito Primitivo",
+    "Número": "133/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123a07684-li9xg-bwp0r-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Observações do Professor Birch",
+    "Coleção": "Conflito Primitivo",
+    "Número": "134/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123ba1432-dzig7-y7oti-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Conflito Primitivo",
+    "Número": "135/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123d5e039-2a1b7-gxvsc-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bola de Repetição",
+    "Coleção": "Conflito Primitivo",
+    "Número": "136/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8123f03d83-ksd75-ji94e-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Mares Agitados",
+    "Coleção": "Conflito Primitivo",
+    "Número": "137/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81240d5e82-jgs8n-wvkci-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Terra Queimada",
+    "Coleção": "Conflito Primitivo",
+    "Número": "138/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812429059f-xh19k-hy4ko-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Santuário das Memórias",
+    "Coleção": "Conflito Primitivo",
+    "Número": "139/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812445ab1f-ivwbf-5mgun-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Laboratório do Silêncio",
+    "Coleção": "Conflito Primitivo",
+    "Número": "140/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8124611bf7-8lmx1-ubm9i-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Companheiros de Equipe",
+    "Coleção": "Conflito Primitivo",
+    "Número": "141/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81247c5115-12t68-p1vn8-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Política de Fraqueza",
+    "Coleção": "Conflito Primitivo",
+    "Número": "142/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812498b751-ds6zx-vk3jb-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escudo",
+    "Coleção": "Conflito Primitivo",
+    "Número": "143/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8124b46c23-ztlca-t5p8g-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Energia Encantada",
+    "Coleção": "Conflito Primitivo",
+    "Número": "144/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8124cf3bcc-c6hdg-507yh-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Trevenant-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "145/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8124eb8180-i8m56-ldhr9-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Camerupt-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "146/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812505e155-zacql-fmk57-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Wailord-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "147/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812521c314-as70k-pgr8w-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kyogre-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "148/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81253da37d-i7qaf-7evxq-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Kyogre Primitivo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "149/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81255aa436-rtxhb-swzbk-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Groudon-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "150/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8125796f16-qzui4-fti3m-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Groudon Primitivo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "151/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812596495d-pi7ax-i4z2m-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Sharpedo-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "152/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8125b249b1-4w5hk-0m2bz-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Aggron-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "153/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8125cc763b-nrv8j-voafm-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "M Aggron-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "154/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8125e77fdd-8f93n-knya0-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "155/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812604c333-2duc1-in82p-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "M Gardevoir-EX",
+    "Coleção": "Conflito Primitivo",
+    "Número": "156/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81262105f1-qu248-v1ist-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Ás na Manga de Archie",
+    "Coleção": "Conflito Primitivo",
+    "Número": "157/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f81263cb170-pg7mn-167my-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Truque da Bola Escondida de Maxie",
+    "Coleção": "Conflito Primitivo",
+    "Número": "158/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8126570ba8-qmhsd-dxsia-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Observações do Professor Birch",
+    "Coleção": "Conflito Primitivo",
+    "Número": "159/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8126748d23-7lmng-y48c2-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Companheiros de Equipe",
+    "Coleção": "Conflito Primitivo",
+    "Número": "160/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812690d9ed-uzfj1-ugnht-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Bola de Mergulho",
+    "Coleção": "Conflito Primitivo",
+    "Número": "161/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8126ad81ac-w1479-undmk-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Martelo Avançado",
+    "Coleção": "Conflito Primitivo",
+    "Número": "162/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8126c98ee1-1xfut-s3jrx-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Conflito Primitivo",
+    "Número": "163/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f8126e5c1f2-payqj-10w42-c22c60349630d688cef20a3fd708ad87.jpg"
+  },
+  {
+    "Pokemon": "Política de Fraqueza",
+    "Coleção": "Conflito Primitivo",
+    "Número": "164/160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/3/68f812705b286-rmsa1-7nplh-c22c60349630d688cef20a3fd708ad87.jpg"
+  }
+]

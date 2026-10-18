@@ -1,0 +1,494 @@
+[
+  {
+    "Pokemon": "Butterfree-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "1/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5118_1.jpg"
+  },
+  {
+    "Pokemon": "Butterfree-VMAX",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "2/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5110_2.jpg"
+  },
+  {
+    "Pokemon": "Paras",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "3/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/495s_3.jpg"
+  },
+  {
+    "Pokemon": "Parasect",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "4/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/489_4.jpg"
+  },
+  {
+    "Pokemon": "Carnivine",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "5/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/22_5.jpg"
+  },
+  {
+    "Pokemon": "Pansage",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "6/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/567_6.jpg"
+  },
+  {
+    "Pokemon": "Simisage",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "7/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/568_7.jpg"
+  },
+  {
+    "Pokemon": "Karrablast",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "8/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/709_8.jpg"
+  },
+  {
+    "Pokemon": "Shelmet",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "9/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/710_9.jpg"
+  },
+  {
+    "Pokemon": "Accelgor",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "10/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/711_10.jpg"
+  },
+  {
+    "Pokemon": "Rowlet",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "11/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4216_11.jpg"
+  },
+  {
+    "Pokemon": "Dartrix",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "12/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4247_12.jpg"
+  },
+  {
+    "Pokemon": "Decidueye",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "13/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4248_13.jpg"
+  },
+  {
+    "Pokemon": "Bounsweet",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4238_14.jpg"
+  },
+  {
+    "Pokemon": "Steenee",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "15/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4283_15.jpg"
+  },
+  {
+    "Pokemon": "Tsareena",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "16/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4293_16.jpg"
+  },
+  {
+    "Pokemon": "Wimpod",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "17/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4364_17.jpg"
+  },
+  {
+    "Pokemon": "Golisopod",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "18/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4349_18.jpg"
+  },
+  {
+    "Pokemon": "Charizard-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "19/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5114_19.jpg"
+  },
+  {
+    "Pokemon": "Charizard-VMAX",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "20/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5092_20.jpg"
+  },
+  {
+    "Pokemon": "Houndoom-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "21/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5106_21.jpg"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "22/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/123_22.jpg"
+  },
+  {
+    "Pokemon": "Combusken",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "23/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/138_23.jpg"
+  },
+  {
+    "Pokemon": "Blaziken",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "24/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/148_24.jpg"
+  },
+  {
+    "Pokemon": "Heatran",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "25/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/1000_25.jpg"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "26/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/577_26.jpg"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "27/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/578_27.jpg"
+  },
+  {
+    "Pokemon": "Darmanitan de Galar",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "28/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5041_28.jpg"
+  },
+  {
+    "Pokemon": "Larvesta",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "29/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/714_29.jpg"
+  },
+  {
+    "Pokemon": "Volcarona",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "30/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/715_30.jpg"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "31/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/582_31.jpg"
+  },
+  {
+    "Pokemon": "Talonflame",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "32/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/583_32.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "33/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5087_33.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch-VMAX",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "34/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5088_34.jpg"
+  },
+  {
+    "Pokemon": "Mr. Mime de Galar",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "35/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5020_35.jpg"
+  },
+  {
+    "Pokemon": "Mr. Rime de Galar",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "36/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5024_36.jpg"
+  },
+  {
+    "Pokemon": "Suicune",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "37/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/264_37.jpg"
+  },
+  {
+    "Pokemon": "Feebas",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "38/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/206_38.jpg"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "39/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/167_39.jpg"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "40/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/190_40.jpg"
+  },
+  {
+    "Pokemon": "Panpour",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "41/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/586_41.jpg"
+  },
+  {
+    "Pokemon": "Simipour",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "42/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/587_42.jpg"
+  },
+  {
+    "Pokemon": "Darumaka de Galar",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "43/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5022_43.jpg"
+  },
+  {
+    "Pokemon": "Darmanitan de Galar",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "44/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5041_44.jpg"
+  },
+  {
+    "Pokemon": "Vanillite",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "45/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/717_45.jpg"
+  },
+  {
+    "Pokemon": "Vanillish",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "46/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/718_46.jpg"
+  },
+  {
+    "Pokemon": "Vanilluxe",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "47/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/812_47.jpg"
+  },
+  {
+    "Pokemon": "Cubchoo",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "48/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/1417_48.jpg"
+  },
+  {
+    "Pokemon": "Beartic",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "49/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/1418_49.jpg"
+  },
+  {
+    "Pokemon": "Wishiwashi",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "50/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4296_50.jpg"
+  },
+  {
+    "Pokemon": "Mareanie",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "51/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4263_51.jpg"
+  },
+  {
+    "Pokemon": "Toxapex",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "52/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4291_52.jpg"
+  },
+  {
+    "Pokemon": "Dracovish",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "53/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5097_53.jpg"
+  },
+  {
+    "Pokemon": "Arctovish",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "54/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5112_54.jpg"
+  },
+  {
+    "Pokemon": "Mareep",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "55/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/329_55.jpg"
+  },
+  {
+    "Pokemon": "Flaaffy",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "56/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/290_56.jpg"
+  },
+  {
+    "Pokemon": "Ampharos",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "57/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/250_57.jpg"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "58/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/394_58.jpg"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "59/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/382_59.jpg"
+  },
+  {
+    "Pokemon": "Vikavolt-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "60/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5082_60.jpg"
+  },
+  {
+    "Pokemon": "Tapu Koko",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "61/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4368_61.jpg"
+  },
+  {
+    "Pokemon": "Toxel",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "62/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5039_62.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "63/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5032_63.jpg"
+  },
+  {
+    "Pokemon": "Pincurchin",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "64/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/4945_64.jpg"
+  },
+  {
+    "Pokemon": "Dracozolt",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "65/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5107_65.jpg"
+  },
+  {
+    "Pokemon": "Arctozolt",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "66/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5099_66.jpg"
+  },
+  {
+    "Pokemon": "Jigglypuff",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "67/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/211_67.jpg"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "68/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/174_68.jpg"
+  },
+  {
+    "Pokemon": "Mew-V",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "69/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5113_69.jpg"
+  },
+  {
+    "Pokemon": "Snubbull",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "70/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/223_70.jpg"
+  },
+  {
+    "Pokemon": "Granbull",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "71/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/179_71.jpg"
+  },
+  {
+    "Pokemon": "Lunatone",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "72/189",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/215_72.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/422_123.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/837_103.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/445_121.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5096_162.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/630_150.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5118_177.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5110_190.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5083_160.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5087_179.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Escuridão Incandescente",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/170/5088_191.jpg"
+  }
+]

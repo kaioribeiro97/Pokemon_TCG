@@ -1,0 +1,692 @@
+[
+  {
+    "Pokemon": "Snivy",
+    "Coleção": "Black & White",
+    "Número": "1/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2736.1.png"
+  },
+  {
+    "Pokemon": "Snivy",
+    "Coleção": "Black & White",
+    "Número": "2/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2737.2.png"
+  },
+  {
+    "Pokemon": "Servine",
+    "Coleção": "Black & White",
+    "Número": "3/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2752.3.png"
+  },
+  {
+    "Pokemon": "Servine",
+    "Coleção": "Black & White",
+    "Número": "4/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2753.4.png"
+  },
+  {
+    "Pokemon": "Serperior",
+    "Coleção": "Black & White",
+    "Número": "5/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2734.5.png"
+  },
+  {
+    "Pokemon": "Serperior",
+    "Coleção": "Black & White",
+    "Número": "6/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2735.6.png"
+  },
+  {
+    "Pokemon": "Pansage",
+    "Coleção": "Black & White",
+    "Número": "7/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/567.png"
+  },
+  {
+    "Pokemon": "Simisage",
+    "Coleção": "Black & White",
+    "Número": "8/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/568.png"
+  },
+  {
+    "Pokemon": "Petilil",
+    "Coleção": "Black & White",
+    "Número": "9/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/806.png"
+  },
+  {
+    "Pokemon": "Lilligant",
+    "Coleção": "Black & White",
+    "Número": "10/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/807.png"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Black & White",
+    "Número": "11/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2754.11.png"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Black & White",
+    "Número": "12/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2755.12.png"
+  },
+  {
+    "Pokemon": "Deerling",
+    "Coleção": "Black & White",
+    "Número": "13/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1803.png"
+  },
+  {
+    "Pokemon": "Sawsbuck",
+    "Coleção": "Black & White",
+    "Número": "14/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1804.png"
+  },
+  {
+    "Pokemon": "Tepig",
+    "Coleção": "Black & White",
+    "Número": "15/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2750.15.png"
+  },
+  {
+    "Pokemon": "Tepig",
+    "Coleção": "Black & White",
+    "Número": "16/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2751.16.png"
+  },
+  {
+    "Pokemon": "Pignite",
+    "Coleção": "Black & White",
+    "Número": "17/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2726.17.png"
+  },
+  {
+    "Pokemon": "Pignite",
+    "Coleção": "Black & White",
+    "Número": "18/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2727.18.png"
+  },
+  {
+    "Pokemon": "Emboar",
+    "Coleção": "Black & White",
+    "Número": "19/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2746.19.png"
+  },
+  {
+    "Pokemon": "Emboar",
+    "Coleção": "Black & White",
+    "Número": "20/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2747.20.png"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "Black & White",
+    "Número": "21/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/577.png"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "Black & White",
+    "Número": "22/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/578.png"
+  },
+  {
+    "Pokemon": "Darumaka",
+    "Coleção": "Black & White",
+    "Número": "23/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2728.23.png"
+  },
+  {
+    "Pokemon": "Darumaka",
+    "Coleção": "Black & White",
+    "Número": "24/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2729.24.png"
+  },
+  {
+    "Pokemon": "Darmanitan",
+    "Coleção": "Black & White",
+    "Número": "25/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1419.png"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Black & White",
+    "Número": "26/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2731.26.png"
+  },
+  {
+    "Pokemon": "Oshawott",
+    "Coleção": "Black & White",
+    "Número": "27/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2732.27.png"
+  },
+  {
+    "Pokemon": "Oshawott",
+    "Coleção": "Black & White",
+    "Número": "28/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2733.28.png"
+  },
+  {
+    "Pokemon": "Dewott",
+    "Coleção": "Black & White",
+    "Número": "29/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2748.29.png"
+  },
+  {
+    "Pokemon": "Dewott",
+    "Coleção": "Black & White",
+    "Número": "30/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2749.30.png"
+  },
+  {
+    "Pokemon": "Samurott",
+    "Coleção": "Black & White",
+    "Número": "31/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2760.31.png"
+  },
+  {
+    "Pokemon": "Samurott",
+    "Coleção": "Black & White",
+    "Número": "32/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2761.32.png"
+  },
+  {
+    "Pokemon": "Panpour",
+    "Coleção": "Black & White",
+    "Número": "33/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/586.png"
+  },
+  {
+    "Pokemon": "Simipour",
+    "Coleção": "Black & White",
+    "Número": "34/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/587.png"
+  },
+  {
+    "Pokemon": "Basculin",
+    "Coleção": "Black & White",
+    "Número": "35/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1416.png"
+  },
+  {
+    "Pokemon": "Ducklett",
+    "Coleção": "Black & White",
+    "Número": "36/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/719.png"
+  },
+  {
+    "Pokemon": "Swanna",
+    "Coleção": "Black & White",
+    "Número": "37/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/720.png"
+  },
+  {
+    "Pokemon": "Alomomola",
+    "Coleção": "Black & White",
+    "Número": "38/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2724.38.png"
+  },
+  {
+    "Pokemon": "Alomomola",
+    "Coleção": "Black & White",
+    "Número": "39/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2725.39.png"
+  },
+  {
+    "Pokemon": "Blitzle",
+    "Coleção": "Black & White",
+    "Número": "40/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2744.40.png"
+  },
+  {
+    "Pokemon": "Blitzle",
+    "Coleção": "Black & White",
+    "Número": "41/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2745.41.png"
+  },
+  {
+    "Pokemon": "Zebstrika",
+    "Coleção": "Black & White",
+    "Número": "42/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2758.42.png"
+  },
+  {
+    "Pokemon": "Zebstrika",
+    "Coleção": "Black & White",
+    "Número": "43/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2759.43.png"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Black & White",
+    "Número": "44/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2722.44.png"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Black & White",
+    "Número": "45/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2723.45.png"
+  },
+  {
+    "Pokemon": "Galvantula",
+    "Coleção": "Black & White",
+    "Número": "46/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/723.png"
+  },
+  {
+    "Pokemon": "Zekrom",
+    "Coleção": "Black & White",
+    "Número": "47/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2757.47.png"
+  },
+  {
+    "Pokemon": "Munna",
+    "Coleção": "Black & White",
+    "Número": "48/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/246.png"
+  },
+  {
+    "Pokemon": "Musharna",
+    "Coleção": "Black & White",
+    "Número": "49/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1163.png"
+  },
+  {
+    "Pokemon": "Woobat",
+    "Coleção": "Black & White",
+    "Número": "50/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/78.png"
+  },
+  {
+    "Pokemon": "Swoobat",
+    "Coleção": "Black & White",
+    "Número": "51/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/79.png"
+  },
+  {
+    "Pokemon": "Venipede",
+    "Coleção": "Black & White",
+    "Número": "52/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/594.png"
+  },
+  {
+    "Pokemon": "Whirlipede",
+    "Coleção": "Black & White",
+    "Número": "53/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/595.png"
+  },
+  {
+    "Pokemon": "Scolipede",
+    "Coleção": "Black & White",
+    "Número": "54/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/596.png"
+  },
+  {
+    "Pokemon": "Solosis",
+    "Coleção": "Black & White",
+    "Número": "55/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/86.png"
+  },
+  {
+    "Pokemon": "Duosion",
+    "Coleção": "Black & White",
+    "Número": "56/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/87.png"
+  },
+  {
+    "Pokemon": "Reuniclus",
+    "Coleção": "Black & White",
+    "Número": "57/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/88.png"
+  },
+  {
+    "Pokemon": "Timburr",
+    "Coleção": "Black & White",
+    "Número": "58/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2740.58.png"
+  },
+  {
+    "Pokemon": "Timburr",
+    "Coleção": "Black & White",
+    "Número": "59/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2741.59.png"
+  },
+  {
+    "Pokemon": "Gurdurr",
+    "Coleção": "Black & White",
+    "Número": "60/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/603.png"
+  },
+  {
+    "Pokemon": "Throh",
+    "Coleção": "Black & White",
+    "Número": "61/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1452.png"
+  },
+  {
+    "Pokemon": "Sawk",
+    "Coleção": "Black & White",
+    "Número": "62/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1453.png"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Black & White",
+    "Número": "63/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/247.png"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Black & White",
+    "Número": "64/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/605.png"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "Black & White",
+    "Número": "65/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/606.png"
+  },
+  {
+    "Pokemon": "Purrloin",
+    "Coleção": "Black & White",
+    "Número": "66/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/126.png"
+  },
+  {
+    "Pokemon": "Liepard",
+    "Coleção": "Black & White",
+    "Número": "67/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1166.png"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Black & White",
+    "Número": "68/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/732.png"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Black & White",
+    "Número": "69/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/733.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "Black & White",
+    "Número": "70/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/100.png"
+  },
+  {
+    "Pokemon": "Zoroark",
+    "Coleção": "Black & White",
+    "Número": "71/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/101.png"
+  },
+  {
+    "Pokemon": "Vullaby",
+    "Coleção": "Black & White",
+    "Número": "72/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/734.png"
+  },
+  {
+    "Pokemon": "Mandibuzz",
+    "Coleção": "Black & White",
+    "Número": "73/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1805.png"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Black & White",
+    "Número": "74/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/248.png"
+  },
+  {
+    "Pokemon": "Klang",
+    "Coleção": "Black & White",
+    "Número": "75/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/736.png"
+  },
+  {
+    "Pokemon": "Klinklang",
+    "Coleção": "Black & White",
+    "Número": "76/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/737.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Black & White",
+    "Número": "77/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2738.77.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Black & White",
+    "Número": "78/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2739.78.png"
+  },
+  {
+    "Pokemon": "Watchog",
+    "Coleção": "Black & White",
+    "Número": "79/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1663.png"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "Black & White",
+    "Número": "80/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2720.80.png"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "Black & White",
+    "Número": "81/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2721.81.png"
+  },
+  {
+    "Pokemon": "Herdier",
+    "Coleção": "Black & White",
+    "Número": "82/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/628.png"
+  },
+  {
+    "Pokemon": "Stoutland",
+    "Coleção": "Black & White",
+    "Número": "83/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/629.png"
+  },
+  {
+    "Pokemon": "Pidove",
+    "Coleção": "Black & White",
+    "Número": "84/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/249.png"
+  },
+  {
+    "Pokemon": "Tranquill",
+    "Coleção": "Black & White",
+    "Número": "85/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1435.png"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Black & White",
+    "Número": "86/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1436.png"
+  },
+  {
+    "Pokemon": "Audino",
+    "Coleção": "Black & White",
+    "Número": "87/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/130.png"
+  },
+  {
+    "Pokemon": "Minccino",
+    "Coleção": "Black & White",
+    "Número": "88/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/112.png"
+  },
+  {
+    "Pokemon": "Cinccino",
+    "Coleção": "Black & White",
+    "Número": "89/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/113.png"
+  },
+  {
+    "Pokemon": "Bouffalant",
+    "Coleção": "Black & White",
+    "Número": "90/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2742.90.png"
+  },
+  {
+    "Pokemon": "Bouffalant",
+    "Coleção": "Black & White",
+    "Número": "91/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2743.91.png"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Black & White",
+    "Número": "92/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/547.png"
+  },
+  {
+    "Pokemon": "Busca de Energia",
+    "Coleção": "Black & White",
+    "Número": "93/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/413.png"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Black & White",
+    "Número": "94/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/120.png"
+  },
+  {
+    "Pokemon": "Cura Total",
+    "Coleção": "Black & White",
+    "Número": "95/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/548.png"
+  },
+  {
+    "Pokemon": "PlusPower",
+    "Coleção": "Black & White",
+    "Número": "96/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/353.png"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Black & White",
+    "Número": "97/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/408.png"
+  },
+  {
+    "Pokemon": "Pokédex",
+    "Coleção": "Black & White",
+    "Número": "98/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/551.png"
+  },
+  {
+    "Pokemon": "Comunicação Pokémon",
+    "Coleção": "Black & White",
+    "Número": "99/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1089.png"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Black & White",
+    "Número": "100/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/359.png"
+  },
+  {
+    "Pokemon": "Professora Juniper",
+    "Coleção": "Black & White",
+    "Número": "101/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/747.png"
+  },
+  {
+    "Pokemon": "Reviver",
+    "Coleção": "Black & White",
+    "Número": "102/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/1442.png"
+  },
+  {
+    "Pokemon": "Super-recolhida",
+    "Coleção": "Black & White",
+    "Número": "103/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/410.png"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Black & White",
+    "Número": "104/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/360.png"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Black & White",
+    "Número": "105/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/559.png"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Black & White",
+    "Número": "106/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/558.png"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Black & White",
+    "Número": "107/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/562.png"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Black & White",
+    "Número": "108/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/560.png"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Black & White",
+    "Número": "109/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/561.png"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Black & White",
+    "Número": "110/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/557.png"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Black & White",
+    "Número": "111/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/361.png"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Black & White",
+    "Número": "112/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/362.png"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Black & White",
+    "Número": "113/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2730.113.png"
+  },
+  {
+    "Pokemon": "Zekrom",
+    "Coleção": "Black & White",
+    "Número": "114/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/2756.114.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Black & White",
+    "Número": "115/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/21/15.png"
+  }
+]

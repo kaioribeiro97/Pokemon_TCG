@@ -1,0 +1,656 @@
+[
+  {
+    "Pokemon": "Aggron",
+    "Coleção": "Rubi & Safira",
+    "Número": "1/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/422.png"
+  },
+  {
+    "Pokemon": "Beautifly",
+    "Coleção": "Rubi & Safira",
+    "Número": "2/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/922.png"
+  },
+  {
+    "Pokemon": "Blaziken",
+    "Coleção": "Rubi & Safira",
+    "Número": "3/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3302.3.png"
+  },
+  {
+    "Pokemon": "Camerupt",
+    "Coleção": "Rubi & Safira",
+    "Número": "4/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/923.png"
+  },
+  {
+    "Pokemon": "Delcatty",
+    "Coleção": "Rubi & Safira",
+    "Número": "5/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3269.5.png"
+  },
+  {
+    "Pokemon": "Dustox",
+    "Coleção": "Rubi & Safira",
+    "Número": "6/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1250.png"
+  },
+  {
+    "Pokemon": "Gardevoir",
+    "Coleção": "Rubi & Safira",
+    "Número": "7/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/124.png"
+  },
+  {
+    "Pokemon": "Hariyama",
+    "Coleção": "Rubi & Safira",
+    "Número": "8/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3262.8.png"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Rubi & Safira",
+    "Número": "9/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3260.9.png"
+  },
+  {
+    "Pokemon": "Mightyena",
+    "Coleção": "Rubi & Safira",
+    "Número": "10/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3280.10.png"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Rubi & Safira",
+    "Número": "11/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3303.11.png"
+  },
+  {
+    "Pokemon": "Slaking",
+    "Coleção": "Rubi & Safira",
+    "Número": "12/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/754.png"
+  },
+  {
+    "Pokemon": "Swampert",
+    "Coleção": "Rubi & Safira",
+    "Número": "13/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3291.13.png"
+  },
+  {
+    "Pokemon": "Wailord",
+    "Coleção": "Rubi & Safira",
+    "Número": "14/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/172.png"
+  },
+  {
+    "Pokemon": "Blaziken",
+    "Coleção": "Rubi & Safira",
+    "Número": "15/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3301.15.png"
+  },
+  {
+    "Pokemon": "Breloom",
+    "Coleção": "Rubi & Safira",
+    "Número": "16/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/287.png"
+  },
+  {
+    "Pokemon": "Donphan",
+    "Coleção": "Rubi & Safira",
+    "Número": "17/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/139.png"
+  },
+  {
+    "Pokemon": "Nosepass",
+    "Coleção": "Rubi & Safira",
+    "Número": "18/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/931.png"
+  },
+  {
+    "Pokemon": "Pelipper",
+    "Coleção": "Rubi & Safira",
+    "Número": "19/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/187.png"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Rubi & Safira",
+    "Número": "20/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3304.20.png"
+  },
+  {
+    "Pokemon": "Seaking",
+    "Coleção": "Rubi & Safira",
+    "Número": "21/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/491.png"
+  },
+  {
+    "Pokemon": "Sharpedo",
+    "Coleção": "Rubi & Safira",
+    "Número": "22/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/280.png"
+  },
+  {
+    "Pokemon": "Swampert",
+    "Coleção": "Rubi & Safira",
+    "Número": "23/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3292.23.png"
+  },
+  {
+    "Pokemon": "Weezing",
+    "Coleção": "Rubi & Safira",
+    "Número": "24/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/173.png"
+  },
+  {
+    "Pokemon": "Aron",
+    "Coleção": "Rubi & Safira",
+    "Número": "25/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3298.25.png"
+  },
+  {
+    "Pokemon": "Cascoon",
+    "Coleção": "Rubi & Safira",
+    "Número": "26/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/435.png"
+  },
+  {
+    "Pokemon": "Combusken",
+    "Coleção": "Rubi & Safira",
+    "Número": "27/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3284.27.png"
+  },
+  {
+    "Pokemon": "Combusken",
+    "Coleção": "Rubi & Safira",
+    "Número": "28/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3285.28.png"
+  },
+  {
+    "Pokemon": "Delcatty",
+    "Coleção": "Rubi & Safira",
+    "Número": "29/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3268.29.png"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Rubi & Safira",
+    "Número": "30/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3265.30.png"
+  },
+  {
+    "Pokemon": "Grovyle",
+    "Coleção": "Rubi & Safira",
+    "Número": "31/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3263.31.png"
+  },
+  {
+    "Pokemon": "Grovyle",
+    "Coleção": "Rubi & Safira",
+    "Número": "32/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3264.32.png"
+  },
+  {
+    "Pokemon": "Hariyama",
+    "Coleção": "Rubi & Safira",
+    "Número": "33/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3261.33.png"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Rubi & Safira",
+    "Número": "34/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3282.34.png"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Rubi & Safira",
+    "Número": "35/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3283.35.png"
+  },
+  {
+    "Pokemon": "Lairon",
+    "Coleção": "Rubi & Safira",
+    "Número": "36/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3270.36.png"
+  },
+  {
+    "Pokemon": "Lairon",
+    "Coleção": "Rubi & Safira",
+    "Número": "37/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3271.37.png"
+  },
+  {
+    "Pokemon": "Linoone",
+    "Coleção": "Rubi & Safira",
+    "Número": "38/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/183.png"
+  },
+  {
+    "Pokemon": "Manectric",
+    "Coleção": "Rubi & Safira",
+    "Número": "39/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3259.39.png"
+  },
+  {
+    "Pokemon": "Marshtomp",
+    "Coleção": "Rubi & Safira",
+    "Número": "40/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3286.40.png"
+  },
+  {
+    "Pokemon": "Marshtomp",
+    "Coleção": "Rubi & Safira",
+    "Número": "41/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3287.41.png"
+  },
+  {
+    "Pokemon": "Mightyena",
+    "Coleção": "Rubi & Safira",
+    "Número": "42/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3281.42.png"
+  },
+  {
+    "Pokemon": "Silcoon",
+    "Coleção": "Rubi & Safira",
+    "Número": "43/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/932.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Rubi & Safira",
+    "Número": "44/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3275.44.png"
+  },
+  {
+    "Pokemon": "Slakoth",
+    "Coleção": "Rubi & Safira",
+    "Número": "45/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/763.png"
+  },
+  {
+    "Pokemon": "Swellow",
+    "Coleção": "Rubi & Safira",
+    "Número": "46/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/624.png"
+  },
+  {
+    "Pokemon": "Vigoroth",
+    "Coleção": "Rubi & Safira",
+    "Número": "47/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/759.png"
+  },
+  {
+    "Pokemon": "Wailmer",
+    "Coleção": "Rubi & Safira",
+    "Número": "48/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/197.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Rubi & Safira",
+    "Número": "66/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3272.66.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Rubi & Safira",
+    "Número": "67/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3273.67.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Rubi & Safira",
+    "Número": "68/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3274.68.png"
+  },
+  {
+    "Pokemon": "Shroomish",
+    "Coleção": "Rubi & Safira",
+    "Número": "69/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/341.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Rubi & Safira",
+    "Número": "70/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3276.70.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Rubi & Safira",
+    "Número": "71/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3277.71.png"
+  },
+  {
+    "Pokemon": "Aron",
+    "Coleção": "Rubi & Safira",
+    "Número": "49/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3299.49.png"
+  },
+  {
+    "Pokemon": "Aron",
+    "Coleção": "Rubi & Safira",
+    "Número": "50/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3300.50.png"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Rubi & Safira",
+    "Número": "51/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/318.png"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Rubi & Safira",
+    "Número": "52/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3266.52.png"
+  },
+  {
+    "Pokemon": "Electrike",
+    "Coleção": "Rubi & Safira",
+    "Número": "53/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3267.53.png"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Rubi & Safira",
+    "Número": "54/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/213.png"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Rubi & Safira",
+    "Número": "55/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/494.png"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Rubi & Safira",
+    "Número": "56/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3288.56.png"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Rubi & Safira",
+    "Número": "57/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3289.57.png"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Rubi & Safira",
+    "Número": "58/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3290.58.png"
+  },
+  {
+    "Pokemon": "Mudkip",
+    "Coleção": "Rubi & Safira",
+    "Número": "59/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3278.59.png"
+  },
+  {
+    "Pokemon": "Mudkip",
+    "Coleção": "Rubi & Safira",
+    "Número": "60/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3279.60.png"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Rubi & Safira",
+    "Número": "61/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/936.png"
+  },
+  {
+    "Pokemon": "Phanpy",
+    "Coleção": "Rubi & Safira",
+    "Número": "62/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/332.png"
+  },
+  {
+    "Pokemon": "Poochyena",
+    "Coleção": "Rubi & Safira",
+    "Número": "63/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3293.63.png"
+  },
+  {
+    "Pokemon": "Poochyena",
+    "Coleção": "Rubi & Safira",
+    "Número": "64/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3294.64.png"
+  },
+  {
+    "Pokemon": "Poochyena",
+    "Coleção": "Rubi & Safira",
+    "Número": "65/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3295.65.png"
+  },
+  {
+    "Pokemon": "Taillow",
+    "Coleção": "Rubi & Safira",
+    "Número": "72/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/623.png"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Rubi & Safira",
+    "Número": "73/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3296.73.png"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Rubi & Safira",
+    "Número": "74/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3297.74.png"
+  },
+  {
+    "Pokemon": "Treecko",
+    "Coleção": "Rubi & Safira",
+    "Número": "75/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3305.75.png"
+  },
+  {
+    "Pokemon": "Treecko",
+    "Coleção": "Rubi & Safira",
+    "Número": "76/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/3306.76.png"
+  },
+  {
+    "Pokemon": "Wingull",
+    "Coleção": "Rubi & Safira",
+    "Número": "77/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/231.png"
+  },
+  {
+    "Pokemon": "Wurmple",
+    "Coleção": "Rubi & Safira",
+    "Número": "78/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/458.png"
+  },
+  {
+    "Pokemon": "Zigzagoon",
+    "Coleção": "Rubi & Safira",
+    "Número": "79/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/232.png"
+  },
+  {
+    "Pokemon": "Energy Removal 2",
+    "Coleção": "Rubi & Safira",
+    "Número": "80/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/768.png"
+  },
+  {
+    "Pokemon": "Energy Restore",
+    "Coleção": "Rubi & Safira",
+    "Número": "81/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/404.png"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Rubi & Safira",
+    "Número": "82/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/120.png"
+  },
+  {
+    "Pokemon": "Lady Outing",
+    "Coleção": "Rubi & Safira",
+    "Número": "83/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/940.png"
+  },
+  {
+    "Pokemon": "Fruta Lum",
+    "Coleção": "Rubi & Safira",
+    "Número": "84/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1251.png"
+  },
+  {
+    "Pokemon": "Oran Berry",
+    "Coleção": "Rubi & Safira",
+    "Número": "85/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1252.png"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Rubi & Safira",
+    "Número": "86/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/408.png"
+  },
+  {
+    "Pokemon": "Pokémon Reversal",
+    "Coleção": "Rubi & Safira",
+    "Número": "87/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/792.png"
+  },
+  {
+    "Pokemon": "PokéNav",
+    "Coleção": "Rubi & Safira",
+    "Número": "88/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1253.png"
+  },
+  {
+    "Pokemon": "Professor Birch",
+    "Coleção": "Rubi & Safira",
+    "Número": "89/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/772.png"
+  },
+  {
+    "Pokemon": "Busca de Energia",
+    "Coleção": "Rubi & Safira",
+    "Número": "90/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/413.png"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Rubi & Safira",
+    "Número": "91/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/359.png"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Rubi & Safira",
+    "Número": "92/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/360.png"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Rubi & Safira",
+    "Número": "93/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/361.png"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Rubi & Safira",
+    "Número": "94/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/362.png"
+  },
+  {
+    "Pokemon": "Energia Arco-Íris",
+    "Coleção": "Rubi & Safira",
+    "Número": "95/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/469.png"
+  },
+  {
+    "Pokemon": "Chansey ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "96/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1254.png"
+  },
+  {
+    "Pokemon": "Electabuzz ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "97/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1255.png"
+  },
+  {
+    "Pokemon": "Hitmonchan ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "98/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1256.png"
+  },
+  {
+    "Pokemon": "Lapras ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "99/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1257.png"
+  },
+  {
+    "Pokemon": "Magmar ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "100/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1258.png"
+  },
+  {
+    "Pokemon": "Mewtwo ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "101/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1259.png"
+  },
+  {
+    "Pokemon": "Scyther ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "102/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1260.png"
+  },
+  {
+    "Pokemon": "Sneasel ex",
+    "Coleção": "Rubi & Safira",
+    "Número": "103/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/1261.png"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Rubi & Safira",
+    "Número": "104/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/559.png"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Rubi & Safira",
+    "Número": "105/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/557.png"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Rubi & Safira",
+    "Número": "106/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/562.png"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Rubi & Safira",
+    "Número": "107/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/561.png"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Rubi & Safira",
+    "Número": "108/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/558.png"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Rubi & Safira",
+    "Número": "109/109",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/58/560.png"
+  }
+]

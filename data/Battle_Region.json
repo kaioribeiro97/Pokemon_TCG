@@ -1,0 +1,560 @@
+[
+  {
+    "Pokemon": "Oddish",
+    "Coleção": "Battle Region",
+    "Número": "001/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/849_001.jpg"
+  },
+  {
+    "Pokemon": "Gloom",
+    "Coleção": "Battle Region",
+    "Número": "002/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/842_002.jpg"
+  },
+  {
+    "Pokemon": "Vileplume",
+    "Coleção": "Battle Region",
+    "Número": "003/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/841_003.jpg"
+  },
+  {
+    "Pokemon": "Scyther",
+    "Coleção": "Battle Region",
+    "Número": "004/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/384_004.jpg"
+  },
+  {
+    "Pokemon": "Heracross",
+    "Coleção": "Battle Region",
+    "Número": "005/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1041_005.jpg"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Battle Region",
+    "Número": "006/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/300_006.jpg"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Battle Region",
+    "Número": "007/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/262_007.jpg"
+  },
+  {
+    "Pokemon": "Combee",
+    "Coleção": "Battle Region",
+    "Número": "008/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/392_008.jpg"
+  },
+  {
+    "Pokemon": "Vespiquen",
+    "Coleção": "Battle Region",
+    "Número": "009/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/688_009.jpg"
+  },
+  {
+    "Pokemon": "Virizion-V",
+    "Coleção": "Battle Region",
+    "Número": "010/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5846_010.jpg"
+  },
+  {
+    "Pokemon": "Sparkling Heatran",
+    "Coleção": "Battle Region",
+    "Número": "011/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5847_011.jpg"
+  },
+  {
+    "Pokemon": "Litwick",
+    "Coleção": "Battle Region",
+    "Número": "012/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/819_012.jpg"
+  },
+  {
+    "Pokemon": "Lampent",
+    "Coleção": "Battle Region",
+    "Número": "013/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/820_013.jpg"
+  },
+  {
+    "Pokemon": "Chandelure",
+    "Coleção": "Battle Region",
+    "Número": "014/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/821_014.jpg"
+  },
+  {
+    "Pokemon": "Litleo",
+    "Coleção": "Battle Region",
+    "Número": "015/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1155_015.jpg"
+  },
+  {
+    "Pokemon": "Pyroar",
+    "Coleção": "Battle Region",
+    "Número": "016/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1156_016.jpg"
+  },
+  {
+    "Pokemon": "Starmie-V",
+    "Coleção": "Battle Region",
+    "Número": "017/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5849_017.jpg"
+  },
+  {
+    "Pokemon": "Swinub",
+    "Coleção": "Battle Region",
+    "Número": "018/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/498_018.jpg"
+  },
+  {
+    "Pokemon": "Piloswine",
+    "Coleção": "Battle Region",
+    "Número": "019/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/490_019.jpg"
+  },
+  {
+    "Pokemon": "Mamoswine",
+    "Coleção": "Battle Region",
+    "Número": "020/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/682_020.jpg"
+  },
+  {
+    "Pokemon": "Barboach",
+    "Coleção": "Battle Region",
+    "Número": "021/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5066_021.jpg"
+  },
+  {
+    "Pokemon": "Whiscash",
+    "Coleção": "Battle Region",
+    "Número": "022/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/929_022.jpg"
+  },
+  {
+    "Pokemon": "Basculin",
+    "Coleção": "Battle Region",
+    "Número": "023/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1416_023.jpg"
+  },
+  {
+    "Pokemon": "Basculegion",
+    "Coleção": "Battle Region",
+    "Número": "024/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5850_024.jpg"
+  },
+  {
+    "Pokemon": "Keldeo",
+    "Coleção": "Battle Region",
+    "Número": "025/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/994_025.jpg"
+  },
+  {
+    "Pokemon": "Sparkling Greninja",
+    "Coleção": "Battle Region",
+    "Número": "026/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5851_026.jpg"
+  },
+  {
+    "Pokemon": "Jynx",
+    "Coleção": "Battle Region",
+    "Número": "027/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/275_027.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "028/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5852_028.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "029/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5853_029.jpg"
+  },
+  {
+    "Pokemon": "Misdreavus",
+    "Coleção": "Battle Region",
+    "Número": "030/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/72_030.jpg"
+  },
+  {
+    "Pokemon": "Mismagius",
+    "Coleção": "Battle Region",
+    "Número": "031/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/73_031.jpg"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Battle Region",
+    "Número": "032/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/74_032.jpg"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Battle Region",
+    "Número": "033/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/75_033.jpg"
+  },
+  {
+    "Pokemon": "Gallade",
+    "Coleção": "Battle Region",
+    "Número": "034/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/93_034.jpg"
+  },
+  {
+    "Pokemon": "Diancie",
+    "Coleção": "Battle Region",
+    "Número": "035/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1173_035.jpg"
+  },
+  {
+    "Pokemon": "Wyrdeer",
+    "Coleção": "Battle Region",
+    "Número": "036/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5854_036.jpg"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Battle Region",
+    "Número": "037/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/536_037.jpg"
+  },
+  {
+    "Pokemon": "Rhydon",
+    "Coleção": "Battle Region",
+    "Número": "038/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/525_038.jpg"
+  },
+  {
+    "Pokemon": "Rhyperior",
+    "Coleção": "Battle Region",
+    "Número": "039/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/601_039.jpg"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Battle Region",
+    "Número": "040/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/190_040.jpg"
+  },
+  {
+    "Pokemon": "Hippopotas",
+    "Coleção": "Battle Region",
+    "Número": "041/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/395_041.jpg"
+  },
+  {
+    "Pokemon": "Hippowdon",
+    "Coleção": "Battle Region",
+    "Número": "042/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/371_042.jpg"
+  },
+  {
+    "Pokemon": "Sparkling Hawlucha",
+    "Coleção": "Battle Region",
+    "Número": "043/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5856_043.jpg"
+  },
+  {
+    "Pokemon": "Decidueye de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "044/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5857_044.jpg"
+  },
+  {
+    "Pokemon": "Decidueye de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "045/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5858_045.jpg"
+  },
+  {
+    "Pokemon": "Kleavor",
+    "Coleção": "Battle Region",
+    "Número": "046/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5859_046.jpg"
+  },
+  {
+    "Pokemon": "Qwilfish de Hisui",
+    "Coleção": "Battle Region",
+    "Número": "047/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5860_047.jpg"
+  },
+  {
+    "Pokemon": "Overqwil de Hisui",
+    "Coleção": "Battle Region",
+    "Número": "048/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5861_048.jpg"
+  },
+  {
+    "Pokemon": "Poochyena",
+    "Coleção": "Battle Region",
+    "Número": "049/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/762_049.jpg"
+  },
+  {
+    "Pokemon": "Mightyena",
+    "Coleção": "Battle Region",
+    "Número": "050/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/755_050.jpg"
+  },
+  {
+    "Pokemon": "Absol",
+    "Coleção": "Battle Region",
+    "Número": "051/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/266_051.jpg"
+  },
+  {
+    "Pokemon": "Samurott de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "052/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5862_052.jpg"
+  },
+  {
+    "Pokemon": "Samurott de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "053/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5863_053.jpg"
+  },
+  {
+    "Pokemon": "Garchomp-V",
+    "Coleção": "Battle Region",
+    "Número": "054/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5864_054.jpg"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Battle Region",
+    "Número": "055/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1083_055.jpg"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Battle Region",
+    "Número": "056/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1072_056.jpg"
+  },
+  {
+    "Pokemon": "Stantler",
+    "Coleção": "Battle Region",
+    "Número": "057/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/345_057.jpg"
+  },
+  {
+    "Pokemon": "Miltank",
+    "Coleção": "Battle Region",
+    "Número": "058/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/293_058.jpg"
+  },
+  {
+    "Pokemon": "Glameow",
+    "Coleção": "Battle Region",
+    "Número": "059/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/207_059.jpg"
+  },
+  {
+    "Pokemon": "Purugly",
+    "Coleção": "Battle Region",
+    "Número": "060/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/189_060.jpg"
+  },
+  {
+    "Pokemon": "Esperar para Ver Turbo",
+    "Coleção": "Battle Region",
+    "Número": "061/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5866_061.jpg"
+  },
+  {
+    "Pokemon": "Mel",
+    "Coleção": "Battle Region",
+    "Número": "062/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5430_62.jpg"
+  },
+  {
+    "Pokemon": "Cancelling Cologne",
+    "Coleção": "Battle Region",
+    "Número": "063/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5867_063.jpg"
+  },
+  {
+    "Pokemon": "Cilene",
+    "Coleção": "Battle Region",
+    "Número": "064/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5868_064.jpg"
+  },
+  {
+    "Pokemon": "Roxanne",
+    "Coleção": "Battle Region",
+    "Número": "065/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5869_065.jpg"
+  },
+  {
+    "Pokemon": "Sorbus",
+    "Coleção": "Battle Region",
+    "Número": "066/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5870_066.jpg"
+  },
+  {
+    "Pokemon": "Vilarejo de Jubilife",
+    "Coleção": "Battle Region",
+    "Número": "067/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5871_067.jpg"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Battle Region",
+    "Número": "068/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/262_068.jpg"
+  },
+  {
+    "Pokemon": "Chandelure",
+    "Coleção": "Battle Region",
+    "Número": "069/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/821_069.jpg"
+  },
+  {
+    "Pokemon": "Wyrdeer",
+    "Coleção": "Battle Region",
+    "Número": "070/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5854_070.jpg"
+  },
+  {
+    "Pokemon": "Kleavor",
+    "Coleção": "Battle Region",
+    "Número": "071/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5859_071.jpg"
+  },
+  {
+    "Pokemon": "Mightyena",
+    "Coleção": "Battle Region",
+    "Número": "072/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/755_072.jpg"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Battle Region",
+    "Número": "073/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/1083_073.jpg"
+  },
+  {
+    "Pokemon": "Virizion-V",
+    "Coleção": "Battle Region",
+    "Número": "074/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5846_074.jpg"
+  },
+  {
+    "Pokemon": "Starmie-V",
+    "Coleção": "Battle Region",
+    "Número": "075/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5849_075.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "076/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5852_076.jpg"
+  },
+  {
+    "Pokemon": "Decidueye de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "077/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5857_077.jpg"
+  },
+  {
+    "Pokemon": "Samurott de Hisui-V",
+    "Coleção": "Battle Region",
+    "Número": "078/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5862_078.jpg"
+  },
+  {
+    "Pokemon": "Garchomp-V",
+    "Coleção": "Battle Region",
+    "Número": "079/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5864_079.jpg"
+  },
+  {
+    "Pokemon": "Cilene",
+    "Coleção": "Battle Region",
+    "Número": "080/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5868_080.jpg"
+  },
+  {
+    "Pokemon": "Roxanne",
+    "Coleção": "Battle Region",
+    "Número": "081/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5869_081.jpg"
+  },
+  {
+    "Pokemon": "Sorbus",
+    "Coleção": "Battle Region",
+    "Número": "082/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5870_082.jpg"
+  },
+  {
+    "Pokemon": "Starmie-V",
+    "Coleção": "Battle Region",
+    "Número": "083/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5849_083.jpg"
+  },
+  {
+    "Pokemon": "Garchomp-V",
+    "Coleção": "Battle Region",
+    "Número": "084/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5864_084.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "085/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5853_085.jpg"
+  },
+  {
+    "Pokemon": "Decidueye de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "086/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5858_086.jpg"
+  },
+  {
+    "Pokemon": "Samurott de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "087/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5863_087.jpg"
+  },
+  {
+    "Pokemon": "Cilene",
+    "Coleção": "Battle Region",
+    "Número": "088/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5868_088.jpg"
+  },
+  {
+    "Pokemon": "Roxanne",
+    "Coleção": "Battle Region",
+    "Número": "089/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5869_089.jpg"
+  },
+  {
+    "Pokemon": "Sorbus",
+    "Coleção": "Battle Region",
+    "Número": "090/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5870_090.jpg"
+  },
+  {
+    "Pokemon": "Samurott de Hisui-V-ASTRO",
+    "Coleção": "Battle Region",
+    "Número": "091/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5863_091.jpg"
+  },
+  {
+    "Pokemon": "Cinturão da Escolha",
+    "Coleção": "Battle Region",
+    "Número": "092/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5804_092.jpg"
+  },
+  {
+    "Pokemon": "Vilarejo de Jubilife",
+    "Coleção": "Battle Region",
+    "Número": "093/067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/261/5871_093.jpg"
+  }
+]

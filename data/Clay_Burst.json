@@ -1,0 +1,596 @@
+[
+  {
+    "Pokemon": "Hoppip",
+    "Coleção": "Clay Burst",
+    "Número": "001/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/325_001.jpg"
+  },
+  {
+    "Pokemon": "Skiploom",
+    "Coleção": "Clay Burst",
+    "Número": "002/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/302_002.jpg"
+  },
+  {
+    "Pokemon": "Jumpluff",
+    "Coleção": "Clay Burst",
+    "Número": "003/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/256_003.jpg"
+  },
+  {
+    "Pokemon": "Pineco",
+    "Coleção": "Clay Burst",
+    "Número": "004/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/911_004.jpg"
+  },
+  {
+    "Pokemon": "Forretress ex",
+    "Coleção": "Clay Burst",
+    "Número": "005/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6456_005.jpg"
+  },
+  {
+    "Pokemon": "Heracross",
+    "Coleção": "Clay Burst",
+    "Número": "006/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/1041_006.jpg"
+  },
+  {
+    "Pokemon": "Tarountula",
+    "Coleção": "Clay Burst",
+    "Número": "007/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6322_007.jpg"
+  },
+  {
+    "Pokemon": "Tarountula",
+    "Coleção": "Clay Burst",
+    "Número": "008/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6322_008.jpg"
+  },
+  {
+    "Pokemon": "Spidops",
+    "Coleção": "Clay Burst",
+    "Número": "009/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6359_009.jpg"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Clay Burst",
+    "Número": "010/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/936_010.jpg"
+  },
+  {
+    "Pokemon": "Camerupt",
+    "Coleção": "Clay Burst",
+    "Número": "011/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/923_011.jpg"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Clay Burst",
+    "Número": "012/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/582_012.jpg"
+  },
+  {
+    "Pokemon": "Talonflame",
+    "Coleção": "Clay Burst",
+    "Número": "013/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/583_013.jpg"
+  },
+  {
+    "Pokemon": "Charcadet",
+    "Coleção": "Clay Burst",
+    "Número": "014/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6294_014.jpg"
+  },
+  {
+    "Pokemon": "Charcadet",
+    "Coleção": "Clay Burst",
+    "Número": "015/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6294_015.jpg"
+  },
+  {
+    "Pokemon": "Chi-Yu ex",
+    "Coleção": "Clay Burst",
+    "Número": "016/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6457_016.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Clay Burst",
+    "Número": "017/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/15_017.jpg"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Clay Burst",
+    "Número": "018/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/3_018.jpg"
+  },
+  {
+    "Pokemon": "Shinx",
+    "Coleção": "Clay Burst",
+    "Número": "019/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/656_019.jpg"
+  },
+  {
+    "Pokemon": "Luxio",
+    "Coleção": "Clay Burst",
+    "Número": "020/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/988_020.jpg"
+  },
+  {
+    "Pokemon": "Luxray",
+    "Coleção": "Clay Burst",
+    "Número": "021/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/1001_021.jpg"
+  },
+  {
+    "Pokemon": "Pincurchin",
+    "Coleção": "Clay Burst",
+    "Número": "022/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4945_022.jpg"
+  },
+  {
+    "Pokemon": "Tadbulb",
+    "Coleção": "Clay Burst",
+    "Número": "023/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6458_023.jpg"
+  },
+  {
+    "Pokemon": "Tadbulb",
+    "Coleção": "Clay Burst",
+    "Número": "024/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6458_024.jpg"
+  },
+  {
+    "Pokemon": "Bellibolt ex",
+    "Coleção": "Clay Burst",
+    "Número": "025/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6459_025.jpg"
+  },
+  {
+    "Pokemon": "Jigglypuff",
+    "Coleção": "Clay Burst",
+    "Número": "026/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/211_026.jpg"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "Clay Burst",
+    "Número": "027/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/174_027.jpg"
+  },
+  {
+    "Pokemon": "Spiritomb",
+    "Coleção": "Clay Burst",
+    "Número": "028/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/98_028.jpg"
+  },
+  {
+    "Pokemon": "Sandygast",
+    "Coleção": "Clay Burst",
+    "Número": "029/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4280_029.jpg"
+  },
+  {
+    "Pokemon": "Palossand",
+    "Coleção": "Clay Burst",
+    "Número": "030/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4890_030.jpg"
+  },
+  {
+    "Pokemon": "Ceruledge",
+    "Coleção": "Clay Burst",
+    "Número": "031/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6460_031.jpg"
+  },
+  {
+    "Pokemon": "Tinkatink",
+    "Coleção": "Clay Burst",
+    "Número": "032/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6392_032.jpg"
+  },
+  {
+    "Pokemon": "Tinkatink",
+    "Coleção": "Clay Burst",
+    "Número": "033/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6392_033.jpg"
+  },
+  {
+    "Pokemon": "Tinkatuff",
+    "Coleção": "Clay Burst",
+    "Número": "034/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6393_034.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton ex",
+    "Coleção": "Clay Burst",
+    "Número": "035/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6461_035.jpg"
+  },
+  {
+    "Pokemon": "Larvitar",
+    "Coleção": "Clay Burst",
+    "Número": "036/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/693_036.jpg"
+  },
+  {
+    "Pokemon": "Pupitar",
+    "Coleção": "Clay Burst",
+    "Número": "037/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/691_037.jpg"
+  },
+  {
+    "Pokemon": "Barboach",
+    "Coleção": "Clay Burst",
+    "Número": "038/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/5066_038.jpg"
+  },
+  {
+    "Pokemon": "Whiscash",
+    "Coleção": "Clay Burst",
+    "Número": "039/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/929_039.jpg"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Clay Burst",
+    "Número": "040/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/7_040.jpg"
+  },
+  {
+    "Pokemon": "Toxicroak",
+    "Coleção": "Clay Burst",
+    "Número": "041/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/77_041.jpg"
+  },
+  {
+    "Pokemon": "Crabrawler",
+    "Coleção": "Clay Burst",
+    "Número": "042/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4245_042.jpg"
+  },
+  {
+    "Pokemon": "Crabominable",
+    "Coleção": "Clay Burst",
+    "Número": "043/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4244_043.jpg"
+  },
+  {
+    "Pokemon": "Passimian",
+    "Coleção": "Clay Burst",
+    "Número": "044/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4268_044.jpg"
+  },
+  {
+    "Pokemon": "Nacli",
+    "Coleção": "Clay Burst",
+    "Número": "045/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6462_045.jpg"
+  },
+  {
+    "Pokemon": "Nacli",
+    "Coleção": "Clay Burst",
+    "Número": "046/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6462_046.jpg"
+  },
+  {
+    "Pokemon": "Naclstack",
+    "Coleção": "Clay Burst",
+    "Número": "047/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6463_047.jpg"
+  },
+  {
+    "Pokemon": "Garganacl",
+    "Coleção": "Clay Burst",
+    "Número": "048/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6464_048.jpg"
+  },
+  {
+    "Pokemon": "Ting-Lu ex",
+    "Coleção": "Clay Burst",
+    "Número": "049/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6465_049.jpg"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Clay Burst",
+    "Número": "050/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/485_050.jpg"
+  },
+  {
+    "Pokemon": "Weavile",
+    "Coleção": "Clay Burst",
+    "Número": "051/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/283_051.jpg"
+  },
+  {
+    "Pokemon": "Tyranitar",
+    "Coleção": "Clay Burst",
+    "Número": "052/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/687_052.jpg"
+  },
+  {
+    "Pokemon": "Shroodle",
+    "Coleção": "Clay Burst",
+    "Número": "053/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6466_053.jpg"
+  },
+  {
+    "Pokemon": "Shroodle",
+    "Coleção": "Clay Burst",
+    "Número": "054/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6466_054.jpg"
+  },
+  {
+    "Pokemon": "Grafaiai",
+    "Coleção": "Clay Burst",
+    "Número": "055/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6467_055.jpg"
+  },
+  {
+    "Pokemon": "Bombirdier",
+    "Coleção": "Clay Burst",
+    "Número": "056/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6340_056.jpg"
+  },
+  {
+    "Pokemon": "Noibat",
+    "Coleção": "Clay Burst",
+    "Número": "057/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/1664_057.jpg"
+  },
+  {
+    "Pokemon": "Noivern ex",
+    "Coleção": "Clay Burst",
+    "Número": "058/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6468_058.jpg"
+  },
+  {
+    "Pokemon": "Girafarig",
+    "Coleção": "Clay Burst",
+    "Número": "059/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/429_059.jpg"
+  },
+  {
+    "Pokemon": "Farigiraf",
+    "Coleção": "Clay Burst",
+    "Número": "060/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6469_060.jpg"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "Clay Burst",
+    "Número": "061/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/632_061.jpg"
+  },
+  {
+    "Pokemon": "Tandemaus",
+    "Coleção": "Clay Burst",
+    "Número": "062/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6342_062.jpg"
+  },
+  {
+    "Pokemon": "Tandemaus",
+    "Coleção": "Clay Burst",
+    "Número": "063/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6342_063.jpg"
+  },
+  {
+    "Pokemon": "Maushold",
+    "Coleção": "Clay Burst",
+    "Número": "064/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6343_064.jpg"
+  },
+  {
+    "Pokemon": "Flamigo",
+    "Coleção": "Clay Burst",
+    "Número": "065/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6420_065.jpg"
+  },
+  {
+    "Pokemon": "Drone de Entrega",
+    "Coleção": "Clay Burst",
+    "Número": "066/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6470_066.jpg"
+  },
+  {
+    "Pokemon": "Courage Charm",
+    "Coleção": "Clay Burst",
+    "Número": "067/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6471_067.jpg"
+  },
+  {
+    "Pokemon": "Saguaro",
+    "Coleção": "Clay Burst",
+    "Número": "068/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6472_068.jpg"
+  },
+  {
+    "Pokemon": "Kissera",
+    "Coleção": "Clay Burst",
+    "Número": "069/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6473_069.jpg"
+  },
+  {
+    "Pokemon": "Badlands of Disaster",
+    "Coleção": "Clay Burst",
+    "Número": "070/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6474_070.jpg"
+  },
+  {
+    "Pokemon": "Therapy Energy",
+    "Coleção": "Clay Burst",
+    "Número": "071/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6475_071.jpg"
+  },
+  {
+    "Pokemon": "Heracross",
+    "Coleção": "Clay Burst",
+    "Número": "072/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/1041_072.jpg"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Clay Burst",
+    "Número": "073/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/582_073.jpg"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Clay Burst",
+    "Número": "074/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/3_074.jpg"
+  },
+  {
+    "Pokemon": "Sandygast",
+    "Coleção": "Clay Burst",
+    "Número": "075/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/4280_075.jpg"
+  },
+  {
+    "Pokemon": "Tinkatink",
+    "Coleção": "Clay Burst",
+    "Número": "076/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6392_076.jpg"
+  },
+  {
+    "Pokemon": "Tinkatuff",
+    "Coleção": "Clay Burst",
+    "Número": "077/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6393_077.jpg"
+  },
+  {
+    "Pokemon": "Nacli",
+    "Coleção": "Clay Burst",
+    "Número": "078/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6462_078.jpg"
+  },
+  {
+    "Pokemon": "Tyranitar",
+    "Coleção": "Clay Burst",
+    "Número": "079/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/687_079.jpg"
+  },
+  {
+    "Pokemon": "Grafaiai",
+    "Coleção": "Clay Burst",
+    "Número": "080/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6467_080.jpg"
+  },
+  {
+    "Pokemon": "Maushold",
+    "Coleção": "Clay Burst",
+    "Número": "081/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6343_081.jpg"
+  },
+  {
+    "Pokemon": "Flamigo",
+    "Coleção": "Clay Burst",
+    "Número": "082/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6420_082.jpg"
+  },
+  {
+    "Pokemon": "Farigiraf",
+    "Coleção": "Clay Burst",
+    "Número": "083/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6469_083.jpg"
+  },
+  {
+    "Pokemon": "Forretress ex",
+    "Coleção": "Clay Burst",
+    "Número": "084/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6456_084.jpg"
+  },
+  {
+    "Pokemon": "Chi-Yu ex",
+    "Coleção": "Clay Burst",
+    "Número": "085/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6457_085.jpg"
+  },
+  {
+    "Pokemon": "Bellibolt ex",
+    "Coleção": "Clay Burst",
+    "Número": "086/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6459_086.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton ex",
+    "Coleção": "Clay Burst",
+    "Número": "087/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6461_087.jpg"
+  },
+  {
+    "Pokemon": "Ting-Lu ex",
+    "Coleção": "Clay Burst",
+    "Número": "088/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6465_088.jpg"
+  },
+  {
+    "Pokemon": "Noivern ex",
+    "Coleção": "Clay Burst",
+    "Número": "089/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6468_089.jpg"
+  },
+  {
+    "Pokemon": "Saguaro",
+    "Coleção": "Clay Burst",
+    "Número": "090/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6472_090.jpg"
+  },
+  {
+    "Pokemon": "Kissera",
+    "Coleção": "Clay Burst",
+    "Número": "091/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6473_091.jpg"
+  },
+  {
+    "Pokemon": "Chi-Yu ex",
+    "Coleção": "Clay Burst",
+    "Número": "092/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6457_092.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton ex",
+    "Coleção": "Clay Burst",
+    "Número": "093/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6461_093.jpg"
+  },
+  {
+    "Pokemon": "Ting-Lu ex",
+    "Coleção": "Clay Burst",
+    "Número": "094/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6465_094.jpg"
+  },
+  {
+    "Pokemon": "Saguaro",
+    "Coleção": "Clay Burst",
+    "Número": "095/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6472_095.jpg"
+  },
+  {
+    "Pokemon": "Kissera",
+    "Coleção": "Clay Burst",
+    "Número": "096/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6473_096.jpg"
+  },
+  {
+    "Pokemon": "Ting-Lu ex",
+    "Coleção": "Clay Burst",
+    "Número": "097/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/6465_097.jpg"
+  },
+  {
+    "Pokemon": "Recuperação de Energia Superior",
+    "Coleção": "Clay Burst",
+    "Número": "098/071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/1114_098.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Clay Burst",
+    "Número": "099",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/374/5154_099b.jpg"
+  }
+]

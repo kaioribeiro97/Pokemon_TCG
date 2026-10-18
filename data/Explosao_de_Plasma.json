@@ -1,0 +1,494 @@
+[
+  {
+    "Pokemon": "Surskit",
+    "Coleção": "Explosão de Plasma",
+    "Número": "1/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/937.png"
+  },
+  {
+    "Pokemon": "Masquerain",
+    "Coleção": "Explosão de Plasma",
+    "Número": "2/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/930.png"
+  },
+  {
+    "Pokemon": "Lileep",
+    "Coleção": "Explosão de Plasma",
+    "Número": "3/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/450.png"
+  },
+  {
+    "Pokemon": "Cradily",
+    "Coleção": "Explosão de Plasma",
+    "Número": "4/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/423.png"
+  },
+  {
+    "Pokemon": "Tropius",
+    "Coleção": "Explosão de Plasma",
+    "Número": "5/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/928.png"
+  },
+  {
+    "Pokemon": "Karrablast",
+    "Coleção": "Explosão de Plasma",
+    "Número": "6/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/709.png"
+  },
+  {
+    "Pokemon": "Shelmet",
+    "Coleção": "Explosão de Plasma",
+    "Número": "7/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/710.png"
+  },
+  {
+    "Pokemon": "Accelgor",
+    "Coleção": "Explosão de Plasma",
+    "Número": "8/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/711.png"
+  },
+  {
+    "Pokemon": "Virizion-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "9/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2445.9.png"
+  },
+  {
+    "Pokemon": "Genesect",
+    "Coleção": "Explosão de Plasma",
+    "Número": "10/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/32.png"
+  },
+  {
+    "Pokemon": "Genesect-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "11/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2435.11.png"
+  },
+  {
+    "Pokemon": "Larvesta",
+    "Coleção": "Explosão de Plasma",
+    "Número": "12/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/714.png"
+  },
+  {
+    "Pokemon": "Volcarona",
+    "Coleção": "Explosão de Plasma",
+    "Número": "13/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/715.png"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/344.png"
+  },
+  {
+    "Pokemon": "Wartortle",
+    "Coleção": "Explosão de Plasma",
+    "Número": "15/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/312.png"
+  },
+  {
+    "Pokemon": "Blastoise",
+    "Coleção": "Explosão de Plasma",
+    "Número": "16/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/134.png"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "Explosão de Plasma",
+    "Número": "17/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/163.png"
+  },
+  {
+    "Pokemon": "Remoraid",
+    "Coleção": "Explosão de Plasma",
+    "Número": "18/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/496.png"
+  },
+  {
+    "Pokemon": "Octillery",
+    "Coleção": "Explosão de Plasma",
+    "Número": "19/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/488.png"
+  },
+  {
+    "Pokemon": "Suicune",
+    "Coleção": "Explosão de Plasma",
+    "Número": "20/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/264.png"
+  },
+  {
+    "Pokemon": "Snorunt",
+    "Coleção": "Explosão de Plasma",
+    "Número": "21/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/764.png"
+  },
+  {
+    "Pokemon": "Glalie",
+    "Coleção": "Explosão de Plasma",
+    "Número": "22/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/756.png"
+  },
+  {
+    "Pokemon": "Froslass",
+    "Coleção": "Explosão de Plasma",
+    "Número": "23/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/999.png"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Explosão de Plasma",
+    "Número": "24/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/190.png"
+  },
+  {
+    "Pokemon": "Snover",
+    "Coleção": "Explosão de Plasma",
+    "Número": "25/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/696.png"
+  },
+  {
+    "Pokemon": "Abomasnow",
+    "Coleção": "Explosão de Plasma",
+    "Número": "26/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/679.png"
+  },
+  {
+    "Pokemon": "Tirtouga",
+    "Coleção": "Explosão de Plasma",
+    "Número": "27/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/810.png"
+  },
+  {
+    "Pokemon": "Carracosta",
+    "Coleção": "Explosão de Plasma",
+    "Número": "28/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/811.png"
+  },
+  {
+    "Pokemon": "Ducklett",
+    "Coleção": "Explosão de Plasma",
+    "Número": "29/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/719.png"
+  },
+  {
+    "Pokemon": "Kyurem-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "30/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/59.png"
+  },
+  {
+    "Pokemon": "Tynamo",
+    "Coleção": "Explosão de Plasma",
+    "Número": "31/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/724.png"
+  },
+  {
+    "Pokemon": "Eelektrik",
+    "Coleção": "Explosão de Plasma",
+    "Número": "32/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/725.png"
+  },
+  {
+    "Pokemon": "Eelektross",
+    "Coleção": "Explosão de Plasma",
+    "Número": "33/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/726.png"
+  },
+  {
+    "Pokemon": "Drifloon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "34/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/393.png"
+  },
+  {
+    "Pokemon": "Drifblim",
+    "Coleção": "Explosão de Plasma",
+    "Número": "35/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/664.png"
+  },
+  {
+    "Pokemon": "Uxie",
+    "Coleção": "Explosão de Plasma",
+    "Número": "36/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1124.png"
+  },
+  {
+    "Pokemon": "Mesprit",
+    "Coleção": "Explosão de Plasma",
+    "Número": "37/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1123.png"
+  },
+  {
+    "Pokemon": "Azelf",
+    "Coleção": "Explosão de Plasma",
+    "Número": "38/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1121.png"
+  },
+  {
+    "Pokemon": "Munna",
+    "Coleção": "Explosão de Plasma",
+    "Número": "39/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/246.png"
+  },
+  {
+    "Pokemon": "Musharna",
+    "Coleção": "Explosão de Plasma",
+    "Número": "40/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1163.png"
+  },
+  {
+    "Pokemon": "Sigilyph",
+    "Coleção": "Explosão de Plasma",
+    "Número": "41/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/80.png"
+  },
+  {
+    "Pokemon": "Solosis",
+    "Coleção": "Explosão de Plasma",
+    "Número": "42/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/86.png"
+  },
+  {
+    "Pokemon": "Duosion",
+    "Coleção": "Explosão de Plasma",
+    "Número": "43/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/87.png"
+  },
+  {
+    "Pokemon": "Reuniclus",
+    "Coleção": "Explosão de Plasma",
+    "Número": "44/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/88.png"
+  },
+  {
+    "Pokemon": "Golett",
+    "Coleção": "Explosão de Plasma",
+    "Número": "45/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/826.png"
+  },
+  {
+    "Pokemon": "Golurk",
+    "Coleção": "Explosão de Plasma",
+    "Número": "46/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/827.png"
+  },
+  {
+    "Pokemon": "Machop",
+    "Coleção": "Explosão de Plasma",
+    "Número": "47/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/451.png"
+  },
+  {
+    "Pokemon": "Machoke",
+    "Coleção": "Explosão de Plasma",
+    "Número": "48/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/440.png"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Explosão de Plasma",
+    "Número": "49/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2439.49.png"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Explosão de Plasma",
+    "Número": "50/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2440.50.png"
+  },
+  {
+    "Pokemon": "Throh",
+    "Coleção": "Explosão de Plasma",
+    "Número": "51/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1452.png"
+  },
+  {
+    "Pokemon": "Sawk",
+    "Coleção": "Explosão de Plasma",
+    "Número": "52/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1453.png"
+  },
+  {
+    "Pokemon": "Archen",
+    "Coleção": "Explosão de Plasma",
+    "Número": "53/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/823.png"
+  },
+  {
+    "Pokemon": "Archeops",
+    "Coleção": "Explosão de Plasma",
+    "Número": "54/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/751.png"
+  },
+  {
+    "Pokemon": "Houndour",
+    "Coleção": "Explosão de Plasma",
+    "Número": "55/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/208.png"
+  },
+  {
+    "Pokemon": "Houndoom",
+    "Coleção": "Explosão de Plasma",
+    "Número": "56/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/160.png"
+  },
+  {
+    "Pokemon": "Aron",
+    "Coleção": "Explosão de Plasma",
+    "Número": "57/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/445.png"
+  },
+  {
+    "Pokemon": "Lairon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "58/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/439.png"
+  },
+  {
+    "Pokemon": "Aggron",
+    "Coleção": "Explosão de Plasma",
+    "Número": "59/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/422.png"
+  },
+  {
+    "Pokemon": "Jirachi-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "60/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2441.60.png"
+  },
+  {
+    "Pokemon": "Escavalier",
+    "Coleção": "Explosão de Plasma",
+    "Número": "61/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/735.png"
+  },
+  {
+    "Pokemon": "Bagon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "62/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/313.png"
+  },
+  {
+    "Pokemon": "Shelgon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "63/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/301.png"
+  },
+  {
+    "Pokemon": "Salamence",
+    "Coleção": "Explosão de Plasma",
+    "Número": "64/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/263.png"
+  },
+  {
+    "Pokemon": "Dialga-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "65/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2447.65.png"
+  },
+  {
+    "Pokemon": "Palkia-EX",
+    "Coleção": "Explosão de Plasma",
+    "Número": "66/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2450.66.png"
+  },
+  {
+    "Pokemon": "Axew",
+    "Coleção": "Explosão de Plasma",
+    "Número": "67/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/829.png"
+  },
+  {
+    "Pokemon": "Fraxure",
+    "Coleção": "Explosão de Plasma",
+    "Número": "68/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/830.png"
+  },
+  {
+    "Pokemon": "Haxorus",
+    "Coleção": "Explosão de Plasma",
+    "Número": "69/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/738.png"
+  },
+  {
+    "Pokemon": "Druddigon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "70/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/114.png"
+  },
+  {
+    "Pokemon": "Kangaskhan",
+    "Coleção": "Explosão de Plasma",
+    "Número": "71/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/381.png"
+  },
+  {
+    "Pokemon": "Porygon",
+    "Coleção": "Explosão de Plasma",
+    "Número": "72/101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/220.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1463.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/770.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1462.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1460.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/1456.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/390.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/831.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2448.99.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2444.85.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Explosão de Plasma",
+    "Número": "14/08",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/11/2443.105.png"
+  }
+]

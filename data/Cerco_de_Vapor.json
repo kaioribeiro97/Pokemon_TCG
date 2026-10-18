@@ -1,0 +1,698 @@
+[
+  {
+    "Pokemon": "Tangela",
+    "Coleção": "Cerco de Vapor",
+    "Número": "1/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/18.1.jpg"
+  },
+  {
+    "Pokemon": "Tangrowth",
+    "Coleção": "Cerco de Vapor",
+    "Número": "2/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/19.2.jpg"
+  },
+  {
+    "Pokemon": "Hoppip",
+    "Coleção": "Cerco de Vapor",
+    "Número": "3/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/325.3.jpg"
+  },
+  {
+    "Pokemon": "Skiploom",
+    "Coleção": "Cerco de Vapor",
+    "Número": "4/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/302.4.jpg"
+  },
+  {
+    "Pokemon": "Jumpluff",
+    "Coleção": "Cerco de Vapor",
+    "Número": "5/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/256.5.jpg"
+  },
+  {
+    "Pokemon": "Yanma",
+    "Coleção": "Cerco de Vapor",
+    "Número": "6/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/880.6.jpg"
+  },
+  {
+    "Pokemon": "Yanmega",
+    "Coleção": "Cerco de Vapor",
+    "Número": "7/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/878.7.jpg"
+  },
+  {
+    "Pokemon": "Yanmega TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "8/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4188s_8.jpg"
+  },
+  {
+    "Pokemon": "Seedot",
+    "Coleção": "Cerco de Vapor",
+    "Número": "9/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/454.9.jpg"
+  },
+  {
+    "Pokemon": "Nuzleaf",
+    "Coleção": "Cerco de Vapor",
+    "Número": "10/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/441.10.jpg"
+  },
+  {
+    "Pokemon": "Shiftry",
+    "Coleção": "Cerco de Vapor",
+    "Número": "11/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/427.11.jpg"
+  },
+  {
+    "Pokemon": "Foongus",
+    "Coleção": "Cerco de Vapor",
+    "Número": "12/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/808.12.jpg"
+  },
+  {
+    "Pokemon": "Amoonguss",
+    "Coleção": "Cerco de Vapor",
+    "Número": "13/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/809.13.jpg"
+  },
+  {
+    "Pokemon": "Larvesta",
+    "Coleção": "Cerco de Vapor",
+    "Número": "14/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/714.14.jpg"
+  },
+  {
+    "Pokemon": "Volcarona",
+    "Coleção": "Cerco de Vapor",
+    "Número": "15/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/715.15.jpg"
+  },
+  {
+    "Pokemon": "Ponyta",
+    "Coleção": "Cerco de Vapor",
+    "Número": "16/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/694.16.jpg"
+  },
+  {
+    "Pokemon": "Rapidash",
+    "Coleção": "Cerco de Vapor",
+    "Número": "17/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/683.17.jpg"
+  },
+  {
+    "Pokemon": "Chimchar",
+    "Coleção": "Cerco de Vapor",
+    "Número": "18/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/13.18.jpg"
+  },
+  {
+    "Pokemon": "Monferno",
+    "Coleção": "Cerco de Vapor",
+    "Número": "19/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/383.19.jpg"
+  },
+  {
+    "Pokemon": "Infernape",
+    "Coleção": "Cerco de Vapor",
+    "Número": "20/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/372.20.jpg"
+  },
+  {
+    "Pokemon": "Talonflame TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "21/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4184s_21.jpg"
+  },
+  {
+    "Pokemon": "Litleo",
+    "Coleção": "Cerco de Vapor",
+    "Número": "22/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1155.22.jpg"
+  },
+  {
+    "Pokemon": "Pyroar",
+    "Coleção": "Cerco de Vapor",
+    "Número": "23/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1156.23.jpg"
+  },
+  {
+    "Pokemon": "Pyroar TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "24/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4180s_24.jpg"
+  },
+  {
+    "Pokemon": "Volcanion",
+    "Coleção": "Cerco de Vapor",
+    "Número": "25/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4185.25.jpg"
+  },
+  {
+    "Pokemon": "Volcanion-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "26/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4192.26.jpg"
+  },
+  {
+    "Pokemon": "Mantine",
+    "Coleção": "Cerco de Vapor",
+    "Número": "27/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1042.27.jpg"
+  },
+  {
+    "Pokemon": "Shellos",
+    "Coleção": "Cerco de Vapor",
+    "Número": "28/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4181.28.jpg"
+  },
+  {
+    "Pokemon": "Gastrodon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "29/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4171.29.jpg"
+  },
+  {
+    "Pokemon": "Oshawott",
+    "Coleção": "Cerco de Vapor",
+    "Número": "30/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/52.30.jpg"
+  },
+  {
+    "Pokemon": "Dewott",
+    "Coleção": "Cerco de Vapor",
+    "Número": "31/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/53.31.jpg"
+  },
+  {
+    "Pokemon": "Samurott",
+    "Coleção": "Cerco de Vapor",
+    "Número": "32/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/54.32.jpg"
+  },
+  {
+    "Pokemon": "Clauncher",
+    "Coleção": "Cerco de Vapor",
+    "Número": "33/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1648.33.jpg"
+  },
+  {
+    "Pokemon": "Clawitzer",
+    "Coleção": "Cerco de Vapor",
+    "Número": "34/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1649.34.jpg"
+  },
+  {
+    "Pokemon": "Clawitzer TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "35/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4170s_35.jpg"
+  },
+  {
+    "Pokemon": "Bergmite",
+    "Coleção": "Cerco de Vapor",
+    "Número": "36/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1953.36.jpg"
+  },
+  {
+    "Pokemon": "Avalugg",
+    "Coleção": "Cerco de Vapor",
+    "Número": "37/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1954.37.jpg"
+  },
+  {
+    "Pokemon": "Mareep",
+    "Coleção": "Cerco de Vapor",
+    "Número": "38/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/329.38.jpg"
+  },
+  {
+    "Pokemon": "Flaaffy",
+    "Coleção": "Cerco de Vapor",
+    "Número": "39/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/290.39.jpg"
+  },
+  {
+    "Pokemon": "Ampharos",
+    "Coleção": "Cerco de Vapor",
+    "Número": "40/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/250.40.jpg"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Cerco de Vapor",
+    "Número": "41/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/722.41.jpg"
+  },
+  {
+    "Pokemon": "Galvantula",
+    "Coleção": "Cerco de Vapor",
+    "Número": "42/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/723.42.jpg"
+  },
+  {
+    "Pokemon": "Nidoran Macho",
+    "Coleção": "Cerco de Vapor",
+    "Número": "43/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/331.43.jpg"
+  },
+  {
+    "Pokemon": "Nidorino",
+    "Coleção": "Cerco de Vapor",
+    "Número": "44/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/295.44.jpg"
+  },
+  {
+    "Pokemon": "Nidoking",
+    "Coleção": "Cerco de Vapor",
+    "Número": "45/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/278.45.jpg"
+  },
+  {
+    "Pokemon": "Drifloon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "46/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/393.46.jpg"
+  },
+  {
+    "Pokemon": "Drifblim",
+    "Coleção": "Cerco de Vapor",
+    "Número": "47/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/664.47.jpg"
+  },
+  {
+    "Pokemon": "Litwick",
+    "Coleção": "Cerco de Vapor",
+    "Número": "48/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/819.48.jpg"
+  },
+  {
+    "Pokemon": "Lampent",
+    "Coleção": "Cerco de Vapor",
+    "Número": "49/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/820.49.jpg"
+  },
+  {
+    "Pokemon": "Chandelure",
+    "Coleção": "Cerco de Vapor",
+    "Número": "50/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/821.50.jpg"
+  },
+  {
+    "Pokemon": "Hoopa",
+    "Coleção": "Cerco de Vapor",
+    "Número": "51/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4047.51.jpg"
+  },
+  {
+    "Pokemon": "Mankey",
+    "Coleção": "Cerco de Vapor",
+    "Número": "52/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/218.52.jpg"
+  },
+  {
+    "Pokemon": "Primeape",
+    "Coleção": "Cerco de Vapor",
+    "Número": "53/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/169.53.jpg"
+  },
+  {
+    "Pokemon": "Nosepass",
+    "Coleção": "Cerco de Vapor",
+    "Número": "54/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/931.54.jpg"
+  },
+  {
+    "Pokemon": "Probopass",
+    "Coleção": "Cerco de Vapor",
+    "Número": "55/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1002.55.jpg"
+  },
+  {
+    "Pokemon": "Anorith",
+    "Coleção": "Cerco de Vapor",
+    "Número": "56/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/434.56.jpg"
+  },
+  {
+    "Pokemon": "Armaldo",
+    "Coleção": "Cerco de Vapor",
+    "Número": "57/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/753.57.jpg"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Cerco de Vapor",
+    "Número": "58/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/7.58.jpg"
+  },
+  {
+    "Pokemon": "Toxicroak",
+    "Coleção": "Cerco de Vapor",
+    "Número": "59/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/77.59.jpg"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Cerco de Vapor",
+    "Número": "60/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/485.60.jpg"
+  },
+  {
+    "Pokemon": "Weavile",
+    "Coleção": "Cerco de Vapor",
+    "Número": "61/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/283.61.jpg"
+  },
+  {
+    "Pokemon": "Spiritomb",
+    "Coleção": "Cerco de Vapor",
+    "Número": "62/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/98.62.jpg"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Cerco de Vapor",
+    "Número": "63/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/612.63.jpg"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Cerco de Vapor",
+    "Número": "64/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/613.64.jpg"
+  },
+  {
+    "Pokemon": "Yveltal",
+    "Coleção": "Cerco de Vapor",
+    "Número": "65/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/609.65.jpg"
+  },
+  {
+    "Pokemon": "Yveltal TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "66/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4189s_66.jpg"
+  },
+  {
+    "Pokemon": "Steelix-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "67/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4193.67.jpg"
+  },
+  {
+    "Pokemon": "M Steelix-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "68/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4194.68.jpg"
+  },
+  {
+    "Pokemon": "Shieldon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "69/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/651.69.jpg"
+  },
+  {
+    "Pokemon": "Bastiodon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "70/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1125.70.jpg"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Cerco de Vapor",
+    "Número": "71/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/248.71.jpg"
+  },
+  {
+    "Pokemon": "Klang",
+    "Coleção": "Cerco de Vapor",
+    "Número": "72/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/736.72.jpg"
+  },
+  {
+    "Pokemon": "Klinklang",
+    "Coleção": "Cerco de Vapor",
+    "Número": "73/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/737.73.jpg"
+  },
+  {
+    "Pokemon": "Cobalion",
+    "Coleção": "Cerco de Vapor",
+    "Número": "74/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/102.74.jpg"
+  },
+  {
+    "Pokemon": "Magearna-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "75/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4195.75.jpg"
+  },
+  {
+    "Pokemon": "Marill",
+    "Coleção": "Cerco de Vapor",
+    "Número": "76/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/843.76.jpg"
+  },
+  {
+    "Pokemon": "Azumarill",
+    "Coleção": "Cerco de Vapor",
+    "Número": "77/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/838.77.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "78/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1272.78.jpg"
+  },
+  {
+    "Pokemon": "M Gardevoir-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "79/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1273.79.jpg"
+  },
+  {
+    "Pokemon": "Klefki",
+    "Coleção": "Cerco de Vapor",
+    "Número": "80/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1170.80.jpg"
+  },
+  {
+    "Pokemon": "Xerneas",
+    "Coleção": "Cerco de Vapor",
+    "Número": "81/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/621.81.jpg"
+  },
+  {
+    "Pokemon": "Xerneas TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "82/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4187s_82.jpg"
+  },
+  {
+    "Pokemon": "Druddigon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "83/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/114.83.jpg"
+  },
+  {
+    "Pokemon": "Deino",
+    "Coleção": "Cerco de Vapor",
+    "Número": "84/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/105.84.jpg"
+  },
+  {
+    "Pokemon": "Zweilous",
+    "Coleção": "Cerco de Vapor",
+    "Número": "85/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/106.85.jpg"
+  },
+  {
+    "Pokemon": "Hydreigon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "86/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/107.86.jpg"
+  },
+  {
+    "Pokemon": "Hydreigon TURBO",
+    "Coleção": "Cerco de Vapor",
+    "Número": "87/114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/97/4173s_87.jpg"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Cerco de Vapor",
+    "Número": "88/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/532.88.jpg"
+  },
+  {
+    "Pokemon": "Persian",
+    "Coleção": "Cerco de Vapor",
+    "Número": "89/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/523.89.jpg"
+  },
+  {
+    "Pokemon": "Aipom",
+    "Coleção": "Cerco de Vapor",
+    "Número": "90/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/388.90.jpg"
+  },
+  {
+    "Pokemon": "Ambipom",
+    "Coleção": "Cerco de Vapor",
+    "Número": "91/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/378.91.jpg"
+  },
+  {
+    "Pokemon": "Rufflet",
+    "Coleção": "Cerco de Vapor",
+    "Número": "92/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1549.92.jpg"
+  },
+  {
+    "Pokemon": "Braviary",
+    "Coleção": "Cerco de Vapor",
+    "Número": "93/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1550.93.jpg"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "Cerco de Vapor",
+    "Número": "94/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/632.94.jpg"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Cerco de Vapor",
+    "Número": "95/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/582.95.jpg"
+  },
+  {
+    "Pokemon": "Talonflame",
+    "Coleção": "Cerco de Vapor",
+    "Número": "96/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/583.96.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Cerco de Vapor",
+    "Número": "97/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1430.97.jpg"
+  },
+  {
+    "Pokemon": "Fóssil Armadura de Shieldon",
+    "Coleção": "Cerco de Vapor",
+    "Número": "98/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4167.98.jpg"
+  },
+  {
+    "Pokemon": "Pokélina Cativante",
+    "Coleção": "Cerco de Vapor",
+    "Número": "99/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4196.99.jpg"
+  },
+  {
+    "Pokemon": "Fóssil Garra de Anorith",
+    "Coleção": "Cerco de Vapor",
+    "Número": "100/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4169.100.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Gardevoir",
+    "Coleção": "Cerco de Vapor",
+    "Número": "101/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1280.101.jpg"
+  },
+  {
+    "Pokemon": "Dado Ganancioso",
+    "Coleção": "Cerco de Vapor",
+    "Número": "102/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4172.102.jpg"
+  },
+  {
+    "Pokemon": "Menino Ninja",
+    "Coleção": "Cerco de Vapor",
+    "Número": "103/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4178.103.jpg"
+  },
+  {
+    "Pokemon": "Pokémon Ranger",
+    "Coleção": "Cerco de Vapor",
+    "Número": "104/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4197.104.jpg"
+  },
+  {
+    "Pokemon": "Carga Especial",
+    "Coleção": "Cerco de Vapor",
+    "Número": "105/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4182.105.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Steelix",
+    "Coleção": "Cerco de Vapor",
+    "Número": "106/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4183.106.jpg"
+  },
+  {
+    "Pokemon": "Volcanion-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "107/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4192.107.jpg"
+  },
+  {
+    "Pokemon": "Steelix-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "108/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4193.108.jpg"
+  },
+  {
+    "Pokemon": "M Steelix-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "109/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4194.109.jpg"
+  },
+  {
+    "Pokemon": "Magearna-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "110/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4195.110.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "111/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1272.111.jpg"
+  },
+  {
+    "Pokemon": "M Gardevoir-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "112/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1273.112.jpg"
+  },
+  {
+    "Pokemon": "Pokémon Ranger",
+    "Coleção": "Cerco de Vapor",
+    "Número": "113/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4197.113.jpg"
+  },
+  {
+    "Pokemon": "Professor Sycamore",
+    "Coleção": "Cerco de Vapor",
+    "Número": "114/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/641.114.jpg"
+  },
+  {
+    "Pokemon": "Volcanion-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "115/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/4192.115.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Cerco de Vapor",
+    "Número": "116/114",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/97/1272.116.jpg"
+  }
+]

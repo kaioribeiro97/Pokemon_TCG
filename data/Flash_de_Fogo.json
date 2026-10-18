@@ -1,0 +1,662 @@
+[
+  {
+    "Pokemon": "Caterpie",
+    "Coleção": "Flash de Fogo",
+    "Número": "1/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/201.png"
+  },
+  {
+    "Pokemon": "Metapod",
+    "Coleção": "Flash de Fogo",
+    "Número": "2/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/186.png"
+  },
+  {
+    "Pokemon": "Butterfree",
+    "Coleção": "Flash de Fogo",
+    "Número": "3/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/156.png"
+  },
+  {
+    "Pokemon": "Pineco",
+    "Coleção": "Flash de Fogo",
+    "Número": "4/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/911.png"
+  },
+  {
+    "Pokemon": "Seedot",
+    "Coleção": "Flash de Fogo",
+    "Número": "5/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/454.png"
+  },
+  {
+    "Pokemon": "Nuzleaf",
+    "Coleção": "Flash de Fogo",
+    "Número": "6/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/441.png"
+  },
+  {
+    "Pokemon": "Shiftry",
+    "Coleção": "Flash de Fogo",
+    "Número": "7/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/427.png"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Flash de Fogo",
+    "Número": "8/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/300.png"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Flash de Fogo",
+    "Número": "9/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/262.png"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Flash de Fogo",
+    "Número": "10/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/243.png"
+  },
+  {
+    "Pokemon": "Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "11/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2342.11.png"
+  },
+  {
+    "Pokemon": "Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "12/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2343.12.png"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "13/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2354.13.png"
+  },
+  {
+    "Pokemon": "Ponyta",
+    "Coleção": "Flash de Fogo",
+    "Número": "14/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/694.png"
+  },
+  {
+    "Pokemon": "Rapidash",
+    "Coleção": "Flash de Fogo",
+    "Número": "15/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/683.png"
+  },
+  {
+    "Pokemon": "Torkoal",
+    "Coleção": "Flash de Fogo",
+    "Número": "16/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/432.png"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "Flash de Fogo",
+    "Número": "17/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/582.png"
+  },
+  {
+    "Pokemon": "Litleo",
+    "Coleção": "Flash de Fogo",
+    "Número": "18/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2362.18.png"
+  },
+  {
+    "Pokemon": "Litleo",
+    "Coleção": "Flash de Fogo",
+    "Número": "19/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2363.19.png"
+  },
+  {
+    "Pokemon": "Pyroar",
+    "Coleção": "Flash de Fogo",
+    "Número": "20/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1156.png"
+  },
+  {
+    "Pokemon": "Qwilfish",
+    "Coleção": "Flash de Fogo",
+    "Número": "21/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/335.png"
+  },
+  {
+    "Pokemon": "Feebas",
+    "Coleção": "Flash de Fogo",
+    "Número": "22/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/206.png"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Flash de Fogo",
+    "Número": "23/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/167.png"
+  },
+  {
+    "Pokemon": "Spheal",
+    "Coleção": "Flash de Fogo",
+    "Número": "24/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/456.png"
+  },
+  {
+    "Pokemon": "Sealeo",
+    "Coleção": "Flash de Fogo",
+    "Número": "25/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/442.png"
+  },
+  {
+    "Pokemon": "Walrein",
+    "Coleção": "Flash de Fogo",
+    "Número": "26/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1127.png"
+  },
+  {
+    "Pokemon": "Luvdisc",
+    "Coleção": "Flash de Fogo",
+    "Número": "27/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/216.png"
+  },
+  {
+    "Pokemon": "Buizel",
+    "Coleção": "Flash de Fogo",
+    "Número": "28/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/6.png"
+  },
+  {
+    "Pokemon": "Floatzel",
+    "Coleção": "Flash de Fogo",
+    "Número": "29/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/177.png"
+  },
+  {
+    "Pokemon": "Bergmite",
+    "Coleção": "Flash de Fogo",
+    "Número": "30/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1953.png"
+  },
+  {
+    "Pokemon": "Avalugg",
+    "Coleção": "Flash de Fogo",
+    "Número": "31/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1954.png"
+  },
+  {
+    "Pokemon": "Shinx",
+    "Coleção": "Flash de Fogo",
+    "Número": "32/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/656.png"
+  },
+  {
+    "Pokemon": "Luxio",
+    "Coleção": "Flash de Fogo",
+    "Número": "33/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/988.png"
+  },
+  {
+    "Pokemon": "Luxray",
+    "Coleção": "Flash de Fogo",
+    "Número": "34/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1001.png"
+  },
+  {
+    "Pokemon": "Magnezone-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "35/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2365.35.png"
+  },
+  {
+    "Pokemon": "Helioptile",
+    "Coleção": "Flash de Fogo",
+    "Número": "36/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1159.png"
+  },
+  {
+    "Pokemon": "Heliolisk",
+    "Coleção": "Flash de Fogo",
+    "Número": "37/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1160.png"
+  },
+  {
+    "Pokemon": "Duskull",
+    "Coleção": "Flash de Fogo",
+    "Número": "38/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/322.png"
+  },
+  {
+    "Pokemon": "Dusclops",
+    "Coleção": "Flash de Fogo",
+    "Número": "39/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/690.png"
+  },
+  {
+    "Pokemon": "Dusknoir",
+    "Coleção": "Flash de Fogo",
+    "Número": "40/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/663.png"
+  },
+  {
+    "Pokemon": "Toxicroak-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "41/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2367.41.png"
+  },
+  {
+    "Pokemon": "Espurr",
+    "Coleção": "Flash de Fogo",
+    "Número": "42/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1957.png"
+  },
+  {
+    "Pokemon": "Meowstic",
+    "Coleção": "Flash de Fogo",
+    "Número": "43/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1690.png"
+  },
+  {
+    "Pokemon": "Skrelp",
+    "Coleção": "Flash de Fogo",
+    "Número": "44/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1958.png"
+  },
+  {
+    "Pokemon": "Geodude",
+    "Coleção": "Flash de Fogo",
+    "Número": "45/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/449.png"
+  },
+  {
+    "Pokemon": "Graveler",
+    "Coleção": "Flash de Fogo",
+    "Número": "46/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/437.png"
+  },
+  {
+    "Pokemon": "Golem",
+    "Coleção": "Flash de Fogo",
+    "Número": "47/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/274.png"
+  },
+  {
+    "Pokemon": "Binacle",
+    "Coleção": "Flash de Fogo",
+    "Número": "48/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1429.png"
+  },
+  {
+    "Pokemon": "Barbaracle",
+    "Coleção": "Flash de Fogo",
+    "Número": "49/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1959.png"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Flash de Fogo",
+    "Número": "50/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2348.50.png"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Flash de Fogo",
+    "Número": "51/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2349.51.png"
+  },
+  {
+    "Pokemon": "Weavile",
+    "Coleção": "Flash de Fogo",
+    "Número": "52/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/283.png"
+  },
+  {
+    "Pokemon": "Stunky",
+    "Coleção": "Flash de Fogo",
+    "Número": "53/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2358.53.png"
+  },
+  {
+    "Pokemon": "Stunky",
+    "Coleção": "Flash de Fogo",
+    "Número": "54/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2359.54.png"
+  },
+  {
+    "Pokemon": "Skuntank",
+    "Coleção": "Flash de Fogo",
+    "Número": "55/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/684.png"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Flash de Fogo",
+    "Número": "56/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/247.png"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Flash de Fogo",
+    "Número": "57/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/605.png"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Flash de Fogo",
+    "Número": "58/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/732.png"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Flash de Fogo",
+    "Número": "59/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/733.png"
+  },
+  {
+    "Pokemon": "Forretress",
+    "Coleção": "Flash de Fogo",
+    "Número": "60/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/140.png"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Flash de Fogo",
+    "Número": "61/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/828.png"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Flash de Fogo",
+    "Número": "62/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2346.62.png"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Flash de Fogo",
+    "Número": "63/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2347.63.png"
+  },
+  {
+    "Pokemon": "Floette",
+    "Coleção": "Flash de Fogo",
+    "Número": "64/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2350.64.png"
+  },
+  {
+    "Pokemon": "Floette",
+    "Coleção": "Flash de Fogo",
+    "Número": "65/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2351.65.png"
+  },
+  {
+    "Pokemon": "Florges",
+    "Coleção": "Flash de Fogo",
+    "Número": "66/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1962.png"
+  },
+  {
+    "Pokemon": "Spritzee",
+    "Coleção": "Flash de Fogo",
+    "Número": "67/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/617.png"
+  },
+  {
+    "Pokemon": "Carbink",
+    "Coleção": "Flash de Fogo",
+    "Número": "68/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1431.png"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "69/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2355.69.png"
+  },
+  {
+    "Pokemon": "Druddigon",
+    "Coleção": "Flash de Fogo",
+    "Número": "70/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/114.png"
+  },
+  {
+    "Pokemon": "Dragalge",
+    "Coleção": "Flash de Fogo",
+    "Número": "71/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1679.png"
+  },
+  {
+    "Pokemon": "Goomy",
+    "Coleção": "Flash de Fogo",
+    "Número": "72/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1174.png"
+  },
+  {
+    "Pokemon": "Sliggoo",
+    "Coleção": "Flash de Fogo",
+    "Número": "73/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1175.png"
+  },
+  {
+    "Pokemon": "Goodra",
+    "Coleção": "Flash de Fogo",
+    "Número": "74/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1176.png"
+  },
+  {
+    "Pokemon": "Pidgey",
+    "Coleção": "Flash de Fogo",
+    "Número": "75/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/333.png"
+  },
+  {
+    "Pokemon": "Pidgeotto",
+    "Coleção": "Flash de Fogo",
+    "Número": "76/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/296.png"
+  },
+  {
+    "Pokemon": "Pidgeot",
+    "Coleção": "Flash de Fogo",
+    "Número": "77/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/279.png"
+  },
+  {
+    "Pokemon": "Kangaskhan-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "78/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2357.78.png"
+  },
+  {
+    "Pokemon": "M Kangaskhan-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "79/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2361.79.png"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Flash de Fogo",
+    "Número": "80/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/515.png"
+  },
+  {
+    "Pokemon": "Sentret",
+    "Coleção": "Flash de Fogo",
+    "Número": "81/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/337.png"
+  },
+  {
+    "Pokemon": "Furret",
+    "Coleção": "Flash de Fogo",
+    "Número": "82/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/272.png"
+  },
+  {
+    "Pokemon": "Miltank",
+    "Coleção": "Flash de Fogo",
+    "Número": "83/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/293.png"
+  },
+  {
+    "Pokemon": "Buneary",
+    "Coleção": "Flash de Fogo",
+    "Número": "84/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/12.png"
+  },
+  {
+    "Pokemon": "Lopunny",
+    "Coleção": "Flash de Fogo",
+    "Número": "85/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/9.png"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "Flash de Fogo",
+    "Número": "86/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/632.png"
+  },
+  {
+    "Pokemon": "Furfrou",
+    "Coleção": "Flash de Fogo",
+    "Número": "87/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/633.png"
+  },
+  {
+    "Pokemon": "Ferreiro",
+    "Coleção": "Flash de Fogo",
+    "Número": "88",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1965.88a.jpg"
+  },
+  {
+    "Pokemon": "Ferreiro",
+    "Coleção": "Flash de Fogo",
+    "Número": "88/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1965.png"
+  },
+  {
+    "Pokemon": "Tocha Ardente",
+    "Coleção": "Flash de Fogo",
+    "Número": "89/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1966.png"
+  },
+  {
+    "Pokemon": "Lysandre",
+    "Coleção": "Flash de Fogo",
+    "Número": "90/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2369.90.png"
+  },
+  {
+    "Pokemon": "Tempestade Magnética",
+    "Coleção": "Flash de Fogo",
+    "Número": "91/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1630.png"
+  },
+  {
+    "Pokemon": "Pal Pad",
+    "Coleção": "Flash de Fogo",
+    "Número": "92/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1968.png"
+  },
+  {
+    "Pokemon": "Dama do Centro Pokémon",
+    "Coleção": "Flash de Fogo",
+    "Número": "93/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2345.93.png"
+  },
+  {
+    "Pokemon": "Fã Clube Pokémon",
+    "Coleção": "Flash de Fogo",
+    "Número": "94/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2340.94.png"
+  },
+  {
+    "Pokemon": "Cubo de Proteção",
+    "Coleção": "Flash de Fogo",
+    "Número": "95/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1970.png"
+  },
+  {
+    "Pokemon": "Cinza Sagrada",
+    "Coleção": "Flash de Fogo",
+    "Número": "96/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1971.png"
+  },
+  {
+    "Pokemon": "Megafone Assustador",
+    "Coleção": "Flash de Fogo",
+    "Número": "97/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1972.png"
+  },
+  {
+    "Pokemon": "Pá Travessa",
+    "Coleção": "Flash de Fogo",
+    "Número": "98/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/1973.png"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Flash de Fogo",
+    "Número": "99/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/750.png"
+  },
+  {
+    "Pokemon": "Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "100/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2341.100.png"
+  },
+  {
+    "Pokemon": "Magnezone-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "101/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2364.101.png"
+  },
+  {
+    "Pokemon": "Toxicroak-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "102/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2366.102.png"
+  },
+  {
+    "Pokemon": "Kangaskhan-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "103/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2356.103.png"
+  },
+  {
+    "Pokemon": "Lysandre",
+    "Coleção": "Flash de Fogo",
+    "Número": "104/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2368.104.png"
+  },
+  {
+    "Pokemon": "Dama do Centro Pokémon",
+    "Coleção": "Flash de Fogo",
+    "Número": "105/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2344.105.png"
+  },
+  {
+    "Pokemon": "Fã Clube Pokémon",
+    "Coleção": "Flash de Fogo",
+    "Número": "106/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2339.106.png"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "107/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2352.107.png"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "108/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2353.108.png"
+  },
+  {
+    "Pokemon": "M Kangaskhan-EX",
+    "Coleção": "Flash de Fogo",
+    "Número": "109/106",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/6/2360.109.png"
+  }
+]

@@ -1,0 +1,734 @@
+[
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "1/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/229.png"
+  },
+  {
+    "Pokemon": "Kakuna",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "2/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/212.png"
+  },
+  {
+    "Pokemon": "Beedrill",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "3/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/155.png"
+  },
+  {
+    "Pokemon": "Exeggcute",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "4/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/531.png"
+  },
+  {
+    "Pokemon": "Exeggutor",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "5/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/519.png"
+  },
+  {
+    "Pokemon": "Treecko",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "6/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/226.png"
+  },
+  {
+    "Pokemon": "Grovyle",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "7/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/180.png"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "8/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/152.png"
+  },
+  {
+    "Pokemon": "Cacnea",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "9/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/200.png"
+  },
+  {
+    "Pokemon": "Cacturne",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "10/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/202.png"
+  },
+  {
+    "Pokemon": "Leafeon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "11/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/367.png"
+  },
+  {
+    "Pokemon": "Flareon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "12/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/135.png"
+  },
+  {
+    "Pokemon": "Heatran-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "13/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2462.13.png"
+  },
+  {
+    "Pokemon": "Litwick",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "14/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/819.png"
+  },
+  {
+    "Pokemon": "Lampent",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "15/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/820.png"
+  },
+  {
+    "Pokemon": "Chandelure",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "16/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/821.png"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "17/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/44.png"
+  },
+  {
+    "Pokemon": "Horsea",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "18/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/848.png"
+  },
+  {
+    "Pokemon": "Seadra",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "19/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/844.png"
+  },
+  {
+    "Pokemon": "Vaporeon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "20/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/137.png"
+  },
+  {
+    "Pokemon": "Wooper",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "21/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/350.png"
+  },
+  {
+    "Pokemon": "Quagsire",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "22/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/298.png"
+  },
+  {
+    "Pokemon": "Glaceon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "23/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/365.png"
+  },
+  {
+    "Pokemon": "Tympole",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "24/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/55.png"
+  },
+  {
+    "Pokemon": "Palpitoad",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "25/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/56.png"
+  },
+  {
+    "Pokemon": "Seismitoad",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "26/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/57.png"
+  },
+  {
+    "Pokemon": "Vanillite",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "27/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/717.png"
+  },
+  {
+    "Pokemon": "Vanillish",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "28/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/718.png"
+  },
+  {
+    "Pokemon": "Vanilluxe",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "29/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/812.png"
+  },
+  {
+    "Pokemon": "Cryogonal",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "30/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/815.png"
+  },
+  {
+    "Pokemon": "Kyurem",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "31/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/58.png"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "32/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/349.png"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "33/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/271.png"
+  },
+  {
+    "Pokemon": "Jolteon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "34/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/136.png"
+  },
+  {
+    "Pokemon": "Chinchou",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "35/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/447.png"
+  },
+  {
+    "Pokemon": "Lanturn",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "36/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/430.png"
+  },
+  {
+    "Pokemon": "Pachirisu",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "37/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/10.png"
+  },
+  {
+    "Pokemon": "Thundurus-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "38/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2466.38.png"
+  },
+  {
+    "Pokemon": "Zekrom",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "39/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/66.png"
+  },
+  {
+    "Pokemon": "Nidoran Fêmea",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "40/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/533.png"
+  },
+  {
+    "Pokemon": "Nidorina",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "41/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/522.png"
+  },
+  {
+    "Pokemon": "Nidoqueen",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "42/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/511.png"
+  },
+  {
+    "Pokemon": "Nidoran Macho",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "43/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/331.png"
+  },
+  {
+    "Pokemon": "Nidorino",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "44/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/295.png"
+  },
+  {
+    "Pokemon": "Grimer",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "45/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/324.png"
+  },
+  {
+    "Pokemon": "Muk",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "46/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/294.png"
+  },
+  {
+    "Pokemon": "Mr. Mime",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "47/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/514.png"
+  },
+  {
+    "Pokemon": "Espeon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "48/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/370.png"
+  },
+  {
+    "Pokemon": "Sableye",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "49/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/76.png"
+  },
+  {
+    "Pokemon": "Beldum",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "50/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/760.png"
+  },
+  {
+    "Pokemon": "Metang",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "51/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/758.png"
+  },
+  {
+    "Pokemon": "Metagross",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "52/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/925.png"
+  },
+  {
+    "Pokemon": "Deoxys-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "53/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2476.53.png"
+  },
+  {
+    "Pokemon": "Yamask",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "54/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2463.54.png"
+  },
+  {
+    "Pokemon": "Yamask",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "55/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2464.55.png"
+  },
+  {
+    "Pokemon": "Cofagrigus",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "56/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2451.56.png"
+  },
+  {
+    "Pokemon": "Cofagrigus",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "57/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2452.57.png"
+  },
+  {
+    "Pokemon": "Nidoking",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "58/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/278.png"
+  },
+  {
+    "Pokemon": "Mankey",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "59/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/218.png"
+  },
+  {
+    "Pokemon": "Primeape",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "60/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/169.png"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "61/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/534.png"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "62/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/217.png"
+  },
+  {
+    "Pokemon": "Hariyama",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "63/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/181.png"
+  },
+  {
+    "Pokemon": "Umbreon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "64/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/376.png"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "65/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/485.png"
+  },
+  {
+    "Pokemon": "Weavile",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "66/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/283.png"
+  },
+  {
+    "Pokemon": "Absol",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "67/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/266.png"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "68/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/247.png"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "69/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/605.png"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "70/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/606.png"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "71/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2467.71.png"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "72/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2468.72.png"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "73/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2457.73.png"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "74/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2458.74.png"
+  },
+  {
+    "Pokemon": "Deino",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "75/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2453.75.png"
+  },
+  {
+    "Pokemon": "Deino",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "76/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2454.76.png"
+  },
+  {
+    "Pokemon": "Zweilous",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "77/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/106.png"
+  },
+  {
+    "Pokemon": "Hydreigon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "78/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/107.png"
+  },
+  {
+    "Pokemon": "Steelix",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "79/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/686.png"
+  },
+  {
+    "Pokemon": "Mawile",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "80/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/166.png"
+  },
+  {
+    "Pokemon": "Dratini",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "81/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/518.png"
+  },
+  {
+    "Pokemon": "Dragonair",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "82/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/513.png"
+  },
+  {
+    "Pokemon": "Dragonite",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "83/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/875.png"
+  },
+  {
+    "Pokemon": "Kingdra",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "84/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/484.png"
+  },
+  {
+    "Pokemon": "Latias-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "85/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2470.85.png"
+  },
+  {
+    "Pokemon": "Latios-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "86/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2472.86.png"
+  },
+  {
+    "Pokemon": "Rattata",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "87/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/336.png"
+  },
+  {
+    "Pokemon": "Raticate",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "88/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/299.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "89/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2473.89.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "90/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2474.90.png"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "91/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1083.png"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "92/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1072.png"
+  },
+  {
+    "Pokemon": "Miltank",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "93/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/293.png"
+  },
+  {
+    "Pokemon": "Kecleon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "94/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/291.png"
+  },
+  {
+    "Pokemon": "Starly",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "95/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/400.png"
+  },
+  {
+    "Pokemon": "Staravia",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "96/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/385.png"
+  },
+  {
+    "Pokemon": "Staraptor",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "97/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/685.png"
+  },
+  {
+    "Pokemon": "Tornadus-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "98/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2460.98.png"
+  },
+  {
+    "Pokemon": "Pedra Flutuante",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "99/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1110.png"
+  },
+  {
+    "Pokemon": "Cidade Congelada",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "100/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1111.png"
+  },
+  {
+    "Pokemon": "Ghetsis",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "101/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2455.101.png"
+  },
+  {
+    "Pokemon": "Tríade das Sombras",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "102/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1113.png"
+  },
+  {
+    "Pokemon": "Recuperação de Energia Superior",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "103/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1114.png"
+  },
+  {
+    "Pokemon": "Insígnia da Equipe Plasma",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "104/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1115.png"
+  },
+  {
+    "Pokemon": "Bola da Equipe Plasma",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "105/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1116.png"
+  },
+  {
+    "Pokemon": "Energia de Plasma",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "106/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1117.png"
+  },
+  {
+    "Pokemon": "Orvalho da Vida",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "107/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1118.png"
+  },
+  {
+    "Pokemon": "Protetor de Pedras",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "108/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1119.png"
+  },
+  {
+    "Pokemon": "Heatran-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "109/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2461.109.png"
+  },
+  {
+    "Pokemon": "Thundurus-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "110/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2465.110.png"
+  },
+  {
+    "Pokemon": "Deoxys-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "111/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2475.111.png"
+  },
+  {
+    "Pokemon": "Latias-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "112/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2469.112.png"
+  },
+  {
+    "Pokemon": "Latios-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "113/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2471.113.png"
+  },
+  {
+    "Pokemon": "Tornadus-EX",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "114/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2459.114.png"
+  },
+  {
+    "Pokemon": "Ghetsis",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "115/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/2456.115.png"
+  },
+  {
+    "Pokemon": "Professora Juniper",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "116/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/747.png"
+  },
+  {
+    "Pokemon": "Empoleon",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "117/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/50.png"
+  },
+  {
+    "Pokemon": "Sigilyph",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "118/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/80.png"
+  },
+  {
+    "Pokemon": "Garbodor",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "119/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/82.png"
+  },
+  {
+    "Pokemon": "Garchomp",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "120/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1.png"
+  },
+  {
+    "Pokemon": "Poção Máxima",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "121/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/1120.png"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Congelamento de Plasma",
+    "Número": "122/116",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/12/750.png"
+  }
+]
