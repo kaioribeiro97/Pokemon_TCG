@@ -56,11 +56,13 @@ const state = {
   unsubscribeMap: {},
   searchQuery: "",
   pokedexSearch: "",
+  albumSort: "date-desc", // <-- Padrão: mais recentes primeiro
   pokedexFilter: "all",
   currentView: "albums",
   thematicCollections: {},
   currentThematicCollection: null,
-  currentViewedCardId: null,
+  currentViewedCardId: null,  
+  albumSearch: "",   // <-- Guarda o texto de busca dos álbuns
   tcgdexLangFilter: "all",      // <-- NOVO: controle de filtro de idioma
   tcgdexLastResults: [],        // <-- NOVO: cache da última busca para filtro instantâneo
   trainersSearch: "",           // <-- NOVO: busca para treinadores/itens
@@ -401,24 +403,28 @@ function getBaseName(fullName) {
   // 5. Remove formas do Rotom (Ventilador, Calor, Lavagem, Corte, Congelador / Fan, Heat, Mow, Wash, Frost)
   cleaned = cleaned.replace(/\s+(Ventilador|Calor|Lavagem|Corte|Congelador|Gelo|Fan|Heat|Wash|Mow|Frost)\b/gi, '');
 
-  // 6. Remove cores de formas (ex: "Kyurem Preto", "Kyurem Branco", "Black Kyurem", "White Kyurem")
+  // 6. Remove formas do Calyrex (Cavaleiro Espectral, Cavaleiro Glacial / Shadow Rider, Ice Rider)
+  cleaned = cleaned.replace(/^(Shadow|Ice)\s+Rider\s+/i, '');
+  cleaned = cleaned.replace(/[-\s]+Cavaleiro\s+(Espectral|Glacial)\b/gi, '');
+
+  // 7. Remove cores de formas (ex: "Kyurem Preto", "Kyurem Branco", "Black Kyurem", "White Kyurem")
   cleaned = cleaned.replace(/^(Black|White|Preto|Branco)\s+/i, '');
   cleaned = cleaned.replace(/\s+(Preto|Branco|Black|White)\b/gi, '');
 
-  // 7. Remove o "X" ou "Y" de Megaevoluções (ex: "Charizard X")
+  // 8. Remove o "X" ou "Y" de Megaevoluções (ex: "Charizard X")
   cleaned = cleaned.replace(/[-\s][XY]\b/gi, '');
 
-  // 8. Remove prefixos de modificadores (Mega, M, Dark, Light, Shining, Radiant)
+  // 9. Remove prefixos de modificadores (Mega, M, Dark, Light, Shining, Radiant)
   cleaned = cleaned.replace(/^(Mega|M|Dark|Light|Shining|Radiant|Equipe Rocket|Team Rocket)[-\s]/i, '');
 
-  // 9. Remove proprietários e equipes após "da", "do", "de" (ex: "Nidoran♀ da Equipe Rocket" -> "Nidoran♀")
+  // 10. Remove proprietários e equipes após "da", "do", "de" (ex: "Nidoran♀ da Equipe Rocket" -> "Nidoran♀")
   cleaned = cleaned.replace(/\s+(da|do|de)\s+.+$/i, '');
 
-  // 10. Remove formas e estilos gerais
+  // 11. Remove formas e estilos gerais
   cleaned = cleaned.replace(/\s+Máscara\s+.+$/i, '');
   cleaned = cleaned.replace(/\s+(Estilo|Forma)\s+.+$/i, '');
 
-  // 11. Normaliza espaçamento do Nidoran (ex: "Nidoran ♀" -> "Nidoran♀")
+  // 12. Normaliza espaçamento do Nidoran (ex: "Nidoran ♀" -> "Nidoran♀")
   cleaned = cleaned.replace(/Nidoran\s+([♀♂])/gi, 'Nidoran$1');
 
   return cleaned.trim().replace(/\s+/g, ' ');
@@ -620,6 +626,14 @@ $("#trainers-search")?.addEventListener("input", debounce((e) => {
   state.trainersSearch = e.target.value.toLowerCase().trim(); 
   renderTrainers(); 
 }, 250));
+$("#album-search")?.addEventListener("input", debounce((e) => { 
+  state.albumSearch = e.target.value.toLowerCase().trim(); 
+  renderAlbums(); 
+}, 200));
+$("#album-sort")?.addEventListener("change", (e) => {
+  state.albumSort = e.target.value;
+  renderAlbums();
+});
 
 document.querySelector("#copa-search")?.addEventListener("input", debounce((e) => { 
   state.copaSearch = e.target.value.toLowerCase().trim(); 
@@ -820,47 +834,107 @@ function renderAlbums() {
   if (!grid) return;
   grid.innerHTML = "";
 
-  // Cria um mapa rápido de Logos a partir do index.json
-  const logosMap = {};
+  // Cria um mapa com todos os metadados do index.json (logo, código, data)
+  const metaMap = {};
   if (state.colecoesIndex) {
     state.colecoesIndex.forEach(col => {
-      logosMap[col.name.toLowerCase()] = col.logo;
-      logosMap[col.id.toLowerCase()] = col.logo;
+      metaMap[col.name.toLowerCase()] = col;
+      metaMap[col.id.toLowerCase()] = col;
     });
   }
 
-  Object.keys(state.collections).sort().forEach(id => {
+  const query = state.albumSearch || "";
+
+  // 1. FILTRAGEM: Busca por Nome, ID da pasta ou Código da coleção
+  let colKeys = Object.keys(state.collections).filter(id => {
+    const col = state.collections[id];
+    const meta = metaMap[col.name.toLowerCase()] || metaMap[id.toLowerCase()] || {};
+    const codigo = (meta.codigo || "").toLowerCase();
+    const nome = col.name.toLowerCase();
+
+    if (!query) return true;
+    return nome.includes(query) || id.toLowerCase().includes(query) || codigo.includes(query);
+  });
+
+  // 2. ORDENAÇÃO: Classifica conforme o seletor selecionado
+  colKeys.sort((idA, idB) => {
+    const colA = state.collections[idA];
+    const colB = state.collections[idB];
+    const metaA = metaMap[colA.name.toLowerCase()] || metaMap[idA.toLowerCase()] || {};
+    const metaB = metaMap[colB.name.toLowerCase()] || metaMap[idB.toLowerCase()] || {};
+
+    const dataA = metaA.dataLancamento || "1900-01-01";
+    const dataB = metaB.dataLancamento || "1900-01-01";
+    const nomeA = colA.name.toLowerCase();
+    const nomeB = colB.name.toLowerCase();
+
+    if (state.albumSort === "date-desc") return dataB.localeCompare(dataA);
+    if (state.albumSort === "date-asc") return dataA.localeCompare(dataB);
+    if (state.albumSort === "name-asc") return nomeA.localeCompare(nomeB);
+    if (state.albumSort === "name-desc") return nomeB.localeCompare(nomeA);
+    if (state.albumSort === "progress-desc") {
+      const pctA = colA.cards.length ? colA.owned.size / colA.cards.length : 0;
+      const pctB = colB.cards.length ? colB.owned.size / colB.cards.length : 0;
+      return pctB - pctA;
+    }
+    return 0;
+  });
+
+  if (colKeys.length === 0) {
+    grid.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-xs">Nenhum álbum encontrado para "${query}".</div>`;
+    return;
+  }
+
+  // 3. RENDERIZAÇÃO DOS CARDS
+  colKeys.forEach(id => {
     const col = state.collections[id];
     const pct = Math.round((col.owned.size / col.cards.length) * 100) || 0;
+    const meta = metaMap[col.name.toLowerCase()] || metaMap[id.toLowerCase()] || {};
+    const logoUrl = meta.logo || "";
+    const codigo = meta.codigo || "";
     
-    // Procura o logo da coleção
-    const logoUrl = logosMap[col.name.toLowerCase()] || logosMap[id.toLowerCase()];
+    // Formata o ano ou data para exibição discreta
+    let anoExibicao = "";
+    if (meta.dataLancamento) {
+      anoExibicao = meta.dataLancamento.split("-")[0]; // Pega o ano (ex: 2025)
+    }
 
     const btn = document.createElement("button");
     btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-sky-500 transition shadow-xl flex flex-col justify-between";
 
-    // Se tiver logo, mostra a imagem do logo; se não tiver, mostra o texto padrão
+    // Cabeçalho com Logo ou Nome + Código e Porcentagem
     const headerHTML = logoUrl
       ? `
-        <div class="flex justify-between items-start mb-4 gap-2">
-          <div class="h-12 flex items-center max-w-[70%]">
+        <div class="flex justify-between items-start mb-3 gap-2">
+          <div class="h-12 flex items-center max-w-[65%]">
             <img src="${logoUrl}" alt="${col.name}" class="max-h-full max-w-full object-contain filter drop-shadow">
           </div>
-          <span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300 font-bold shrink-0">${pct}%</span>
+          <div class="flex flex-col items-end gap-1 shrink-0">
+            <span class="text-[10px] bg-slate-700 px-2 py-0.5 rounded-md text-slate-300 font-bold">${pct}%</span>
+            ${codigo ? `<span class="text-[9px] font-mono text-sky-400 bg-sky-500/10 border border-sky-500/30 px-1.5 py-0.5 rounded font-black">${codigo}</span>` : ''}
+          </div>
         </div>
-        <h4 class="font-bold text-sky-400 text-sm mb-1">${col.name}</h4>
+        <h4 class="font-bold text-sky-400 text-sm mb-1 truncate" title="${col.name}">${col.name}</h4>
       `
       : `
-        <div class="flex justify-between items-start mb-4">
-          <h4 class="font-bold text-sky-400 text-base">${col.name}</h4>
-          <span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300 font-bold">${pct}%</span>
+        <div class="flex justify-between items-start mb-3">
+          <div class="max-w-[70%]">
+            <h4 class="font-bold text-sky-400 text-base leading-tight">${col.name}</h4>
+          </div>
+          <div class="flex flex-col items-end gap-1 shrink-0">
+            <span class="text-[10px] bg-slate-700 px-2 py-0.5 rounded-md text-slate-300 font-bold">${pct}%</span>
+            ${codigo ? `<span class="text-[9px] font-mono text-sky-400 bg-sky-500/10 border border-sky-500/30 px-1.5 py-0.5 rounded font-black">${codigo}</span>` : ''}
+          </div>
         </div>
       `;
 
     btn.innerHTML = `
       <div>
         ${headerHTML}
-        <p class="text-xs text-slate-400">${col.owned.size} / ${col.cards.length} obtidas</p>
+        <div class="flex justify-between items-center text-xs text-slate-400 mt-1">
+          <span>${col.owned.size} / ${col.cards.length} obtidas</span>
+          ${anoExibicao ? `<span class="text-[10px] text-slate-500 font-mono">${anoExibicao}</span>` : ''}
+        </div>
       </div>
       <div class="mt-4 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden">
         <div class="h-full bg-sky-500 transition-all duration-500" style="width: ${pct}%"></div>
@@ -873,7 +947,9 @@ function renderAlbums() {
       $("#card-search").value = ""; 
       $("#details-title").textContent = col.name; 
       $("#collection-details").classList.remove("hidden"); 
-      attachActiveCollectionListener(id);
+      if (typeof attachActiveCollectionListener === "function") {
+        attachActiveCollectionListener(id);
+      }
       renderCards(); 
       $("#collection-details").scrollIntoView({ behavior: 'smooth' });
     };
@@ -881,6 +957,7 @@ function renderAlbums() {
     grid.appendChild(btn);
   });
 }
+
 
 function renderCards() {
   const grid = document.querySelector("#cards-grid"); 

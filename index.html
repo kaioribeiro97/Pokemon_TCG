@@ -148,10 +148,35 @@
             </div>
           </div>
         </section>
-        <button id="btn-open-add-card" class="px-3 py-2 rounded-xl border border-sky-500/50 bg-sky-500/10 text-[11px] flex items-center gap-2 text-sky-400 hover:bg-sky-500 hover:text-slate-950 transition">
-          <i class="fa-solid fa-plus"></i>
-          <span>Adicionar Carta Avulsa</span>
-        </button>
+                <!-- BARRA DE AÇÕES: ADICIONAR CARTA + PESQUISAR ÁLBUM -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+          <button id="btn-open-add-card" class="px-3 py-2 rounded-xl border border-sky-500/50 bg-sky-500/10 text-[11px] flex items-center justify-center gap-2 text-sky-400 hover:bg-sky-500 hover:text-slate-950 transition shrink-0">
+            <i class="fa-solid fa-plus"></i>
+            <span>Adicionar Carta Avulsa</span>
+          </button>
+
+                    <!-- CONTROLES: BUSCA E ORDENAÇÃO -->
+          <div class="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+            <!-- CAMPO DE BUSCA (POR NOME OU CÓDIGO) -->
+            <div class="relative w-full sm:w-64">
+              <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+              <input type="text" id="album-search" placeholder="Buscar por nome ou código (ex: SV09)..." 
+                class="w-full pl-9 pr-3 py-2 bg-slate-800/80 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition">
+            </div>
+
+            <!-- SELETOR DE ORDENAÇÃO -->
+            <div class="relative w-full sm:w-auto shrink-0">
+              <select id="album-sort" class="w-full sm:w-auto px-3 py-2 bg-slate-800/80 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-sky-500 transition cursor-pointer">
+                <option value="date-desc">📅 Mais Recentes</option>
+                <option value="date-asc">📅 Mais Antigas</option>
+                <option value="name-asc">🔤 Nome (A - Z)</option>
+                <option value="name-desc">🔤 Nome (Z - A)</option>
+                <option value="progress-desc">🏆 Maior Conclusão</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
         <div id="albums-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
 
         <section id="collection-details" class="mt-8 hidden space-y-4">
