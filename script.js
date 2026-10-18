@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from
 import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 // 2. CONFIGURAÇÃO
-const DATA_VERSION = "1.18"; 
+const DATA_VERSION = "1.19"; 
 const firebaseConfig = {
   apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
   authDomain: "pokemon-tcg-sp.firebaseapp.com",
@@ -26,9 +26,29 @@ const ALLOWED_UIDS = [
 ];
 
 const $ = (s) => document.querySelector(s);
+// --- UTILITÁRIOS DE DESEMPENHO ---
+
+// 1. Debounce para evitar que buscas executem a cada tecla digitada
+function debounce(func, delay = 250) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => func.apply(this, args), delay);
+  };
+}
+
+// 2. Feedback háptico leve no smartphone ao marcar cartas
+function vibrateTouch() {
+  if (navigator.vibrate) navigator.vibrate(25);
+}
+
+// 3. Fallback para imagens com erro de carregamento
+const PLACEHOLDER_IMG = "https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg";
+
 const state = { 
   user: null, 
   collections: {}, 
+  allCardsMap: new Map(),        // <-- NOVO: Acesso instantâneo a qualquer carta em O(1) 
   pokedexSpecies: [], 
   pokedexCardsBySpecies: {}, 
   representatives: {}, 
@@ -530,7 +550,7 @@ document.querySelectorAll(".view-tab").forEach(tab => {
   tab.addEventListener("click", () => {
     const view = tab.dataset.view;
     state.currentView = view;
-    
+    window.scrollTo({ top: 0, behavior: 'instant' });
     document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition whitespace-nowrap");
     
     if (view === 'copa') {
@@ -585,12 +605,26 @@ document.querySelectorAll(".trainers-filter-btn").forEach(btn => {
   });
 });
 
-$("#card-search").addEventListener("input", (e) => { state.searchQuery = e.target.value.toLowerCase(); renderCards(); });
-$("#pokedex-search").addEventListener("input", (e) => { state.pokedexSearch = e.target.value.toLowerCase(); renderPokedex(); });
-document.querySelector("#copa-search")?.addEventListener("input", (e) => { 
+// Pesquisas com Debounce (Digitação instantânea sem travamento)
+$("#card-search")?.addEventListener("input", debounce((e) => { 
+  state.searchQuery = e.target.value.toLowerCase(); 
+  renderCards(); 
+}, 200));
+
+$("#pokedex-search")?.addEventListener("input", debounce((e) => { 
+  state.pokedexSearch = e.target.value.toLowerCase(); 
+  renderPokedex(); 
+}, 250));
+
+$("#trainers-search")?.addEventListener("input", debounce((e) => { 
+  state.trainersSearch = e.target.value.toLowerCase().trim(); 
+  renderTrainers(); 
+}, 250));
+
+document.querySelector("#copa-search")?.addEventListener("input", debounce((e) => { 
   state.copaSearch = e.target.value.toLowerCase().trim(); 
   renderCopaTeams(); 
-});
+}, 250));
 
 document.querySelectorAll(".pokedex-filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -603,7 +637,7 @@ document.querySelectorAll(".pokedex-filter-btn").forEach(btn => {
   });
 });
 
-// --- LÓGICA DE DADOS (DINÂMICA) ---
+// --- LÓGICA DE DADOS OTIMIZADA ---
 async function loadData() {
   let finalTCGData = [];
   let finalPokedexData = [];
@@ -633,6 +667,7 @@ async function loadData() {
     }
   }
 
+  // Carrega cartas avulsas customizadas
   if (state.user) {
       try {
           const customRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "custom_cards");
@@ -655,44 +690,49 @@ async function loadData() {
 
   state.pokedexSpecies = finalPokedexData;
   processTCGJson(finalTCGData);
+
+  // Carrega o status de posse de TODAS as coleções com 1 única requisição rápida
+  if (state.user) {
+    await loadAllUserCollectionsOnce();
+  }
 }
 
 function processTCGJson(json) {
   state.pokedexCardsBySpecies = {};
-  state.trainersCardsByName = {}; // <-- Limpa o grupo de treinadores
-    const speciesMap = {};
+  state.trainersCardsByName = {};
+  state.allCardsMap.clear();
+
+  const speciesMap = {};
   state.pokedexSpecies.forEach(s => {
     const engLower = s.name.english.toLowerCase();
     speciesMap[engLower] = s.name.english;
     state.pokedexCardsBySpecies[s.name.english] = [];
 
-    // Garante que Nidoran♀ (#029) e Nidoran♂ (#032) sejam reconhecidos com qualquer variação
     if (s.id === 29) {
       speciesMap["nidoran♀"] = s.name.english;
       speciesMap["nidoran ♀"] = s.name.english;
       speciesMap["nidoran f"] = s.name.english;
       speciesMap["nidoran-f"] = s.name.english;
-      speciesMap["nidoran femea"] = s.name.english;
-      speciesMap["nidoran fêmea"] = s.name.english;
     } else if (s.id === 32) {
       speciesMap["nidoran♂"] = s.name.english;
       speciesMap["nidoran ♂"] = s.name.english;
       speciesMap["nidoran m"] = s.name.english;
       speciesMap["nidoran-m"] = s.name.english;
-      speciesMap["nidoran macho"] = s.name.english;
     }
   });
 
   const dynamicCollections = new Set();
   json.forEach(card => {
+    // Guarda no mapa rápido O(1)
+    const cardId = `${card.Coleção}#${card.Número}`;
+    state.allCardsMap.set(cardId, card);
+
     const baseName = getBaseName(card.Pokemon).toLowerCase();
     const officialName = speciesMap[baseName];
 
     if (officialName) {
-      // É Pokémon -> vai para a Pokédex
       state.pokedexCardsBySpecies[officialName].push(card);
     } else {
-      // NÃO é Pokémon -> é Treinador/Item! Agrupa pelo nome (ex: "Misty")
       const groupName = getTrainerGroupName(card.Pokemon);
       if (!state.trainersCardsByName[groupName]) {
         state.trainersCardsByName[groupName] = [];
@@ -708,32 +748,56 @@ function processTCGJson(json) {
   Array.from(dynamicCollections).sort().forEach(name => {
     const filteredCards = json.filter(c => c.Coleção === name);
     const id = name.replace(/[\s/]/g, '').toLowerCase();
-    
     state.collections[id] = { name, cards: filteredCards, owned: new Set() };
-    attachCollectionListener(id);
   });
-  
+
   renderAlbums();
   renderPokedex();
-  renderTrainers(); // <-- Renderiza os treinadores
+  renderTrainers();
 }
 
-function attachCollectionListener(colId) {
-  if (!state.user) return;
+// Carrega todas as coleções de uma só vez (Economiza até 40 conexões no Firebase)
+async function loadAllUserCollectionsOnce() {
+  try {
+    const colRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections");
+    const snapshot = await getDocs(colRef);
+    snapshot.forEach(docSnap => {
+      const colId = docSnap.id;
+      const data = docSnap.data() || {};
+      if (state.collections[colId]) {
+        state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+      }
+    });
+
+    renderAlbums();
+    updateGlobalProgress();
+    if (state.currentView === 'pokedex') renderPokedex();
+    if (state.currentView === 'trainers') renderTrainers();
+  } catch (err) {
+    console.error("Erro ao carregar progresso inicial das coleções:", err);
+  }
+}
+
+// Ouve em tempo real SOMENTE a coleção que o usuário está visualizando agora
+function attachActiveCollectionListener(colId) {
+  if (!state.user || !colId) return;
+
+  // Desconecta listener de coleção anterior
+  if (state.unsubscribeMap['active_collection']) {
+    state.unsubscribeMap['active_collection']();
+    delete state.unsubscribeMap['active_collection'];
+  }
+
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
-  if (state.unsubscribeMap[colId]) state.unsubscribeMap[colId]();
-  
-  state.unsubscribeMap[colId] = onSnapshot(docRef, (snap) => {
+  state.unsubscribeMap['active_collection'] = onSnapshot(docRef, (snap) => {
     const data = snap.data() || {};
     if (state.collections[colId]) {
-       state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
-       if (state.currentCollection === colId) renderCards();
-       renderAlbums();
-       updateGlobalProgress();
-       if (state.currentView === 'pokedex') renderPokedex();
-       if (state.currentView === 'trainers') renderTrainers();
+      state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+      if (state.currentCollection === colId) renderCards();
+      renderAlbums();
+      updateGlobalProgress();
     }
-  }, (err) => console.error(`Erro na coleção ${colId}:`, err));
+  }, (err) => console.error(`Erro no listener da coleção ${colId}:`, err));
 }
 
 function attachPokedexPrefsListener() {
@@ -757,7 +821,17 @@ function renderAlbums() {
     const btn = document.createElement("button");
     btn.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-sky-500 transition shadow-xl";
     btn.innerHTML = `<div class="flex justify-between items-start mb-4"><h4 class="font-bold text-sky-400">${col.name}</h4><span class="text-[10px] bg-slate-700 px-2 py-1 rounded-md text-slate-300">${pct}%</span></div><p class="text-xs text-slate-400">${col.owned.size} / ${col.cards.length} obtidas</p><div class="mt-3 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden"><div class="h-full bg-sky-500" style="width: ${pct}%"></div></div>`;
-    btn.onclick = () => { state.currentCollection = id; state.searchQuery = ""; $("#card-search").value = ""; $("#details-title").textContent = col.name; $("#collection-details").classList.remove("hidden"); renderCards(); };
+    btn.onclick = () => { 
+      state.currentCollection = id; 
+      state.searchQuery = ""; 
+      $("#card-search").value = ""; 
+      $("#details-title").textContent = col.name; 
+      $("#collection-details").classList.remove("hidden"); 
+      attachActiveCollectionListener(id); // <-- Ativa listener sob demanda
+      renderCards(); 
+      // Rola suavemente até as cartas no celular
+      $("#collection-details").scrollIntoView({ behavior: 'smooth' });
+    };
     grid.appendChild(btn);
   });
 }
@@ -773,17 +847,17 @@ function renderCards() {
   
   document.querySelector("#details-subtitle").textContent = `${col.owned.size} obtidas de ${col.cards.length} totais`;
   document.querySelector("#details-progress-bar").style.width = `${(col.owned.size / col.cards.length) * 100}%`;
-
+  // DocumentFragment renderiza tudo de uma só vez (sem lag no DOM)
+  const fragment = document.createDocumentFragment();
   filtered.forEach(card => {
     const cardId = `${card.Coleção}#${card.Número}`;
     const isOwned = col.owned.has(cardId);
     
     const container = document.createElement("div");
     container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-slate-800 hover:border-slate-700 transition`;
-
     container.innerHTML = `
       <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition ${isOwned ? '' : 'grayscale opacity-40'}">
-         <img src="${card.Imagem}" class="w-full h-full object-cover rounded-xl border ${isOwned ? 'border-sky-500/50' : 'border-slate-800'}" loading="lazy">
+         <img src="${card.Imagem}" class="w-full h-full object-cover rounded-xl border ${isOwned ? 'border-sky-500/50' : 'border-slate-800'}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'">
          <div class="absolute bottom-0 inset-x-0 p-2 bg-black/60 backdrop-blur-sm rounded-b-xl opacity-0 hover:opacity-100 transition text-center z-30">
             <p class="text-[8px] font-bold truncate">${card.Pokemon}</p>
          </div>
@@ -793,47 +867,20 @@ function renderCards() {
          <div class="pokeball-toggle ${isOwned ? 'active' : ''}"></div>
       </div>
     `;
-
     const holoCard = container.querySelector('.card-container');
-
     if (isOwned) {
-        holoCard.addEventListener('mousemove', (e) => {
-            const rect = holoCard.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            const w = rect.width;
-            const h = rect.height;
-
-            const px = Math.abs(Math.floor(100 / w * x) - 100);
-            const py = Math.abs(Math.floor(100 / h * y) - 100);
-            const pa = (50 - px) + (50 - py);
-
-            const lp = (50 + (px - 50) / 1.5);
-            const tp = (50 + (py - 50) / 1.5);
-            const px_spark = (50 + (px - 50) / 7);
-            const py_spark = (50 + (py - 50) / 7);
-            const p_opc = 20 + (Math.abs(pa) * 1.5);
-
-            holoCard.classList.add("active");
-            holoCard.style.setProperty('--grad-pos-x', `${lp}%`);
-            holoCard.style.setProperty('--grad-pos-y', `${tp}%`);
-            holoCard.style.setProperty('--spark-pos-x', `${px_spark}%`);
-            holoCard.style.setProperty('--spark-pos-y', `${py_spark}%`);
-            holoCard.style.setProperty('--opacity', `${p_opc / 100}`);
-        });
-
-        holoCard.addEventListener('mouseleave', () => {
-            holoCard.classList.remove("active");
-            holoCard.removeAttribute("style");
-        });
-        
         holoCard.onclick = () => openModal(card, cardId, isOwned);
     }
-
-    container.querySelector('.pokeball-toggle').onclick = (e) => { e.stopPropagation(); toggleCard(cardId, isOwned); };
-    grid.appendChild(container);
+    container.querySelector('.pokeball-toggle').onclick = (e) => { 
+      e.stopPropagation(); 
+      vibrateTouch();
+      toggleCard(cardId, isOwned); 
+    };
+    fragment.appendChild(container);
   });
+  grid.appendChild(fragment);
 }
+
 
 function renderPokedex() {
   const grid = document.querySelector("#pokedex-grid"); 
@@ -1187,15 +1234,37 @@ async function setPokedexRepresentative(pokemonName, cardId) {
 
 async function toggleCard(cardId, isOwned) {
   if (!state.user) return;
+  vibrateTouch();
+
   const colId = cardId.split('#')[0].replace(/[\s/]/g, '').toLowerCase();
+
+  // 1. Atualização Otimista imediata na memória local
+  if (state.collections[colId]) {
+    if (!isOwned) {
+      state.collections[colId].owned.add(cardId);
+    } else {
+      state.collections[colId].owned.delete(cardId);
+    }
+    updateGlobalProgress();
+  }
+
+  // 2. Gravação no Firebase
   const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId);
   try {
     await setDoc(docRef, { [cardId]: !isOwned }, { merge: true });
     showToast(!isOwned ? "Carta adicionada à coleção! ✔️" : "Carta removida da coleção.", !isOwned ? "success" : "info");
+    
+    // Atualiza a tela ativa
+    if (state.currentView === 'trainers') renderTrainers();
+    if (state.currentView === 'pokedex') renderPokedex();
   } catch (error) {
+    // Se falhar, reverte o estado local
+    if (state.collections[colId]) {
+      if (!isOwned) state.collections[colId].owned.delete(cardId);
+      else state.collections[colId].owned.add(cardId);
+    }
     console.error("Erro ao alterar o estado da carta:", error);
     showToast("Erro de permissão no Firebase ao alterar carta.", "error");
-    if (state.currentView === 'trainers') renderTrainers();
   }
 }
 
@@ -2036,28 +2105,22 @@ function renderThematicCards() {
     
     const colData = state.thematicCollections[state.currentThematicCollection];
     if (!colData || !colData.cards) return;
-
     const cardsArray = Object.keys(colData.cards);
     $("#thematic-details-subtitle").textContent = `${cardsArray.length} cartas totais`;
-
     if (cardsArray.length === 0) {
         grid.innerHTML = `<p class="col-span-full text-center text-slate-500 py-10">Não há cartas nesta coleção.</p>`;
         return;
     }
-
-    let todasAsCartas = [];
-    Object.values(state.collections).forEach(c => { todasAsCartas = todasAsCartas.concat(c.cards); });
-
+    const fragment = document.createDocumentFragment();
     cardsArray.forEach(cardId => {
-        const cardObj = todasAsCartas.find(c => `${c.Coleção}#${c.Número}` === cardId);
+        // Busca instantânea em O(1) através do Mapa
+        const cardObj = state.allCardsMap.get(cardId);
         if (!cardObj) return;
-
         const container = document.createElement("div");
         container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-indigo-500/50 hover:border-indigo-400 transition relative`;
-
         container.innerHTML = `
         <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition">
-            <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border border-indigo-500/50" loading="lazy">
+            <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border border-indigo-500/50" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'">
         </div>
         <div class="flex items-center justify-center w-full px-1">
             <span class="text-[9px] font-mono text-slate-500">#${cardObj.Número}</span>
@@ -2066,12 +2129,11 @@ function renderThematicCards() {
             <i class="fa-solid fa-trash"></i>
         </button>
         `;
-
         container.querySelector('.card-container').onclick = () => openModal(cardObj, cardId, true);
         
         container.querySelector('.remove-thematic-btn').onclick = async (e) => {
             e.stopPropagation();
-            
+            vibrateTouch();
             const confirmar = await showConfirmModal({
                 title: "Remover Carta",
                 message: `Tem certeza que deseja remover ${cardObj.Pokemon} desta coleção temática?`,
@@ -2079,7 +2141,6 @@ function renderThematicCards() {
                 cancelText: "Cancelar",
                 type: "danger"
             });
-
             if (confirmar) {
                 const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", state.currentThematicCollection);
                 try {
@@ -2091,8 +2152,9 @@ function renderThematicCards() {
                 }
             }
         };
-        grid.appendChild(container);
+        fragment.appendChild(container);
     });
+    grid.appendChild(fragment);
 }
 
 // Botões de Ação das Coleções Temáticas
