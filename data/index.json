@@ -1,0 +1,170 @@
+[
+  {
+    "id": "151",
+    "name": "151",
+    "arquivo": "151.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/sv-expansions/sv3dot5/logo/pt-br/logo.png",
+    "totalCartas": 207
+  },
+  {
+    "id": "amigos_de_jornada",
+    "name": "Amigos de Jornada",
+    "arquivo": "amigos_de_jornada.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/sv-expansions/sv09/logo/pt-br/sv9-logo.png",
+    "totalCartas": 190
+  },
+  {
+    "id": "caos_ascendente",
+    "name": "Caos Ascendente",
+    "arquivo": "caos_ascendente.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me04/logo/pt-br/me04-logo.png",
+    "totalCartas": 122
+  },
+  {
+    "id": "celebração_de_30_anos",
+    "name": "Celebração de 30 Anos",
+    "arquivo": "celebração_de_30_anos.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/thirty/logo/ptbr/logo-no-video.png",
+    "totalCartas": 188
+  },
+  {
+    "id": "coroa_estelar",
+    "name": "Coroa Estelar",
+    "arquivo": "coroa_estelar.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv07.png",
+    "totalCartas": 175
+  },
+  {
+    "id": "destinos_de_paldea",
+    "name": "Destinos de Paldea",
+    "arquivo": "destinos_de_paldea.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv04pt5.png",
+    "totalCartas": 245
+  },
+  {
+    "id": "equilíbrio_perfeito",
+    "name": "Equilíbrio Perfeito",
+    "arquivo": "equilíbrio_perfeito.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me03/logo/pt-br/me03-logo.png",
+    "totalCartas": 124
+  },
+  {
+    "id": "escarlate_e_violeta",
+    "name": "Escarlate e Violeta",
+    "arquivo": "escarlate_e_violeta.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv01.png",
+    "totalCartas": 258
+  },
+  {
+    "id": "escarlate_e_violeta_promo",
+    "name": "Escarlate e violeta PROMO",
+    "arquivo": "escarlate_e_violeta_promo.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv01.png",
+    "totalCartas": 225
+  },
+  {
+    "id": "evoluções_prismáticas",
+    "name": "Evoluções Prismáticas",
+    "arquivo": "evoluções_prismáticas.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv08pt5.png",
+    "totalCartas": 180
+  },
+  {
+    "id": "evoluções_em_paldea",
+    "name": "Evoluções em Paldea",
+    "arquivo": "evoluções_em_paldea.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv02.png",
+    "totalCartas": 279
+  },
+  {
+    "id": "fagulhas_impetuosas",
+    "name": "Fagulhas Impetuosas",
+    "arquivo": "fagulhas_impetuosas.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv08.png",
+    "totalCartas": 252
+  },
+  {
+    "id": "fenda_paradoxal",
+    "name": "Fenda Paradoxal",
+    "arquivo": "fenda_paradoxal.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv04.png",
+    "totalCartas": 266
+  },
+  {
+    "id": "fogo_branco",
+    "name": "Fogo Branco",
+    "arquivo": "fogo_branco.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10pt5.png",
+    "totalCartas": 173
+  },
+  {
+    "id": "fogo_fantasmagórico",
+    "name": "Fogo Fantasmagórico",
+    "arquivo": "fogo_fantasmagórico.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/logo/pt-br/me02-logo.png",
+    "totalCartas": 130
+  },
+  {
+    "id": "forças_temporais",
+    "name": "Forças Temporais",
+    "arquivo": "forças_temporais.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv05.png",
+    "totalCartas": 218
+  },
+  {
+    "id": "fábulas_nebulosas",
+    "name": "Fábulas Nebulosas",
+    "arquivo": "fábulas_nebulosas.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv06pt5.png",
+    "totalCartas": 99
+  },
+  {
+    "id": "heróis_excelsos",
+    "name": "Heróis Excelsos",
+    "arquivo": "heróis_excelsos.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/me02pt5.png",
+    "totalCartas": 295
+  },
+  {
+    "id": "mega_evolution_promos",
+    "name": "Mega Evolution Promos",
+    "arquivo": "mega_evolution_promos.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/logo/pt-br/me01-logo.png",
+    "totalCartas": 153
+  },
+  {
+    "id": "megaevolução",
+    "name": "Megaevolução",
+    "arquivo": "megaevolução.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/logo/pt-br/me01-logo.png",
+    "totalCartas": 188
+  },
+  {
+    "id": "máscaras_do_crepúsculo",
+    "name": "Máscaras do Crepúsculo",
+    "arquivo": "máscaras_do_crepúsculo.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv06.png",
+    "totalCartas": 226
+  },
+  {
+    "id": "obsidiana_em_chamas",
+    "name": "Obsidiana em Chamas",
+    "arquivo": "obsidiana_em_chamas.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv03.png",
+    "totalCartas": 230
+  },
+  {
+    "id": "raio_preto",
+    "name": "Raio Preto",
+    "arquivo": "raio_preto.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10pt5.png",
+    "totalCartas": 172
+  },
+  {
+    "id": "rivais_predestinados",
+    "name": "Rivais Predestinados",
+    "arquivo": "rivais_predestinados.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10.png",
+    "totalCartas": 244
+  }
+]

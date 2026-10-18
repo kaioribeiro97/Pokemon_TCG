@@ -1,0 +1,782 @@
+[
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "001",
+    "Pokemon": "Oddish",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_1.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "002",
+    "Pokemon": "Gloom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_2.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "003",
+    "Pokemon": "Vileplume",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_3.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "004",
+    "Pokemon": "Mega Heracross ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_4.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "005",
+    "Pokemon": "Lotad",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_5.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "006",
+    "Pokemon": "Lombre",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_6.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "007",
+    "Pokemon": "Ludicolo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_7.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "008",
+    "Pokemon": "Genesect",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_8.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "009",
+    "Pokemon": "Nymble",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_9.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "010",
+    "Pokemon": "Lokix",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_10.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "011",
+    "Pokemon": "Charmander",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_11.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "012",
+    "Pokemon": "Charmeleon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_12.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "013",
+    "Pokemon": "Mega Charizard X ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_13.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "014",
+    "Pokemon": "Moltres",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_14.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "015",
+    "Pokemon": "Darumaka",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_15.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "016",
+    "Pokemon": "Darmanitan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_16.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "017",
+    "Pokemon": "Reshiram",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_17.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "018",
+    "Pokemon": "Oricorio ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_18.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "019",
+    "Pokemon": "Charcadet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_19.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "020",
+    "Pokemon": "Ceruledge",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_20.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "021",
+    "Pokemon": "Seel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_21.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "022",
+    "Pokemon": "Dewgong",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_22.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "023",
+    "Pokemon": "Swinub",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_23.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "024",
+    "Pokemon": "Piloswine",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_24.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "025",
+    "Pokemon": "Mamoswine",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_25.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "026",
+    "Pokemon": "Suicune",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_26.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "027",
+    "Pokemon": "Piplup",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_27.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "028",
+    "Pokemon": "Prinplup",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_28.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "029",
+    "Pokemon": "Rotom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_29.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "030",
+    "Pokemon": "Yamper",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_30.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "031",
+    "Pokemon": "Boltund",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_31.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "032",
+    "Pokemon": "Pawmi",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_32.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "033",
+    "Pokemon": "Pawmo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_33.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "034",
+    "Pokemon": "Pawmot",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_34.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "035",
+    "Pokemon": "Misdreavus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_35.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "036",
+    "Pokemon": "Mismagius ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_36.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "037",
+    "Pokemon": "Snubbull",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_37.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "038",
+    "Pokemon": "Granbull",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_38.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "039",
+    "Pokemon": "Cresselia",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_39.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "040",
+    "Pokemon": "Meloetta",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_40.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "041",
+    "Pokemon": "Mega Diancie ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_41.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "042",
+    "Pokemon": "Mimikyu",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_42.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "043",
+    "Pokemon": "Milcery",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_43.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "044",
+    "Pokemon": "Alcremie",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_44.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "045",
+    "Pokemon": "Zacian",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_45.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "046",
+    "Pokemon": "Bramblin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_46.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "047",
+    "Pokemon": "Brambleghast",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_47.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "048",
+    "Pokemon": "Tauros de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_48.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "049",
+    "Pokemon": "Gligar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_49.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "050",
+    "Pokemon": "Gliscor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_50.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "051",
+    "Pokemon": "Trapinch",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_51.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "052",
+    "Pokemon": "Vibrava",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_52.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "053",
+    "Pokemon": "Flygon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_53.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "054",
+    "Pokemon": "Gastly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_54.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "055",
+    "Pokemon": "Haunter",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_55.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "056",
+    "Pokemon": "Mega Gengar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_56.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "057",
+    "Pokemon": "Murkrow",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_57.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "058",
+    "Pokemon": "Honchkrow",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_58.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "059",
+    "Pokemon": "Sableye",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_59.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "060",
+    "Pokemon": "Carvanha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_60.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "061",
+    "Pokemon": "Mega Sharpedo ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_61.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "062",
+    "Pokemon": "Seviper",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_62.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "063",
+    "Pokemon": "Absol",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_63.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "064",
+    "Pokemon": "Sandile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_64.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "065",
+    "Pokemon": "Krokorok",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_65.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "066",
+    "Pokemon": "Krookodile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_66.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "067",
+    "Pokemon": "Toxel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_67.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "068",
+    "Pokemon": "Toxtricity",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_68.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "069",
+    "Pokemon": "Eternatus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_69.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "070",
+    "Pokemon": "Empoleon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_70.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "071",
+    "Pokemon": "Bronzor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_71.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "072",
+    "Pokemon": "Bronzong",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_72.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "073",
+    "Pokemon": "Togedemaru",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_73.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "074",
+    "Pokemon": "Duraludon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_74.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "075",
+    "Pokemon": "Archaludon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_75.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "076",
+    "Pokemon": "Jigglypuff",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_76.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "077",
+    "Pokemon": "Wigglytuff",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_77.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "078",
+    "Pokemon": "Aipom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_78.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "079",
+    "Pokemon": "Ambipom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_79.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "080",
+    "Pokemon": "Smeargle",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_80.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "081",
+    "Pokemon": "Zigzagoon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_81.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "082",
+    "Pokemon": "Linoone",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_82.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "083",
+    "Pokemon": "Buneary",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_83.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "084",
+    "Pokemon": "Mega Lopunny ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_84.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "085",
+    "Pokemon": "Jaula de Batalha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_85.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "086",
+    "Pokemon": "Maçarico",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_86.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "087",
+    "Pokemon": "Dawn",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_87.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "088",
+    "Pokemon": "Vale Vertiginoso",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_88.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "089",
+    "Pokemon": "Cuspidor de Fogo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_89.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "090",
+    "Pokemon": "Artimanha do Funesto",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_90.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "091",
+    "Pokemon": "Sorvetão Jumbo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_91.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "092",
+    "Pokemon": "Capacete Punk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_92.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "093",
+    "Pokemon": "Pingente Sagrado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_93.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "094",
+    "Pokemon": "Fragmento Encantado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_94.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "095",
+    "Pokemon": "Ludicolo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_95.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "096",
+    "Pokemon": "Nymble",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_96.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "097",
+    "Pokemon": "Dewgong",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_97.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "098",
+    "Pokemon": "Piplup",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_98.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "099",
+    "Pokemon": "Yamper",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_99.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "100",
+    "Pokemon": "Zacian",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_100.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "101",
+    "Pokemon": "Flygon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_101.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "102",
+    "Pokemon": "Wooper de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_102.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "103",
+    "Pokemon": "Toxtricity",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_103.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "104",
+    "Pokemon": "Togedemaru",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_104.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "105",
+    "Pokemon": "Wigglytuff",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_105.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "106",
+    "Pokemon": "Meowth",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_106.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "107",
+    "Pokemon": "Ambipom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_107.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "108",
+    "Pokemon": "Mega Heracross ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_108.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "109",
+    "Pokemon": "Mega Charizard X ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_109.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "110",
+    "Pokemon": "Oricorio ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_110.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "111",
+    "Pokemon": "Rotom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_111.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "112",
+    "Pokemon": "Mismagius ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_112.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "113",
+    "Pokemon": "Mega Sharpedo ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_113.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "114",
+    "Pokemon": "Empoleon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_114.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "115",
+    "Pokemon": "Mega Lopunny ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_115.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "116",
+    "Pokemon": "Jaula de Batalha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_116.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "117",
+    "Pokemon": "Maçarico",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_117.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "118",
+    "Pokemon": "Dawn",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_118.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "119",
+    "Pokemon": "Cuspidor de Fogo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_119.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "120",
+    "Pokemon": "Artimanha do Funesto",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_120.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "121",
+    "Pokemon": "Capacete Punk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_121.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "122",
+    "Pokemon": "Pingente Sagrado",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_122.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "123",
+    "Pokemon": "Substituição",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_123.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "124",
+    "Pokemon": "Energia de Ignição",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_124.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "125",
+    "Pokemon": "Mega Charizard X ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_125.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "126",
+    "Pokemon": "Rotom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_126.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "127",
+    "Pokemon": "Mega Sharpedo ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_127.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "128",
+    "Pokemon": "Mega Lopunny ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_128.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "129",
+    "Pokemon": "Dawn",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_129.png"
+  },
+  {
+    "Coleção": "Fogo Fantasmagórico",
+    "Número": "130",
+    "Pokemon": "Mega Charizard X ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/phantasmal-flames/pt-br/8BXG_PTBR_130.png"
+  }
+]

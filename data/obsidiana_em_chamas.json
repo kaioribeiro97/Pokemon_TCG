@@ -1,0 +1,1382 @@
+[
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "001",
+    "Pokemon": "Oddish",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_1.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "002",
+    "Pokemon": "Gloom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_2.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "003",
+    "Pokemon": "Bellossom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_3.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "004",
+    "Pokemon": "Scyther",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_4.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "005",
+    "Pokemon": "Shuckle",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_5.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "006",
+    "Pokemon": "Surskit",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_6.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "007",
+    "Pokemon": "Masquerain",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_7.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "008",
+    "Pokemon": "Combee",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_8.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "009",
+    "Pokemon": "Foongus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_9.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "010",
+    "Pokemon": "Amoonguss",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_10.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "011",
+    "Pokemon": "Phantump",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_11.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "012",
+    "Pokemon": "Trevenant",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_12.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "013",
+    "Pokemon": "Rowlet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_13.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "014",
+    "Pokemon": "Dartrix",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_14.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "015",
+    "Pokemon": "Decidueye ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_15.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "016",
+    "Pokemon": "Bounsweet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_16.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "017",
+    "Pokemon": "Steenee",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_17.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "018",
+    "Pokemon": "Tsareena",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_18.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "019",
+    "Pokemon": "Smoliv",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_19.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "020",
+    "Pokemon": "Dolliv",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_20.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "021",
+    "Pokemon": "Arboliva",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_21.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "022",
+    "Pokemon": "Toedscruel ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_22.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "023",
+    "Pokemon": "Capsakid",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_23.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "024",
+    "Pokemon": "Capsakid",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_24.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "025",
+    "Pokemon": "Scovillain",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_25.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "026",
+    "Pokemon": "Charmander",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_26.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "027",
+    "Pokemon": "Charmeleon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_27.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "028",
+    "Pokemon": "Vulpix",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_28.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "029",
+    "Pokemon": "Ninetales",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_29.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "030",
+    "Pokemon": "Entei",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_30.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "031",
+    "Pokemon": "Numel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_31.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "032",
+    "Pokemon": "Camerupt",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_32.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "033",
+    "Pokemon": "Victini ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_33.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "034",
+    "Pokemon": "Darumaka",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_34.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "035",
+    "Pokemon": "Darmanitan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_35.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "036",
+    "Pokemon": "Litwick",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_36.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "037",
+    "Pokemon": "Lampent",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_37.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "038",
+    "Pokemon": "Chandelure",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_38.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "039",
+    "Pokemon": "Heatmor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_39.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "040",
+    "Pokemon": "Larvesta",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_40.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "041",
+    "Pokemon": "Volcarona",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_41.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "042",
+    "Pokemon": "Eiscue ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_42.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "043",
+    "Pokemon": "Charcadet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_43.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "044",
+    "Pokemon": "Armarouge",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_44.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "045",
+    "Pokemon": "Lapras",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_45.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "046",
+    "Pokemon": "Carvanha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_46.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "047",
+    "Pokemon": "Sharpedo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_47.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "048",
+    "Pokemon": "Buizel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_48.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "049",
+    "Pokemon": "Floatzel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_49.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "050",
+    "Pokemon": "Tympole",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_50.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "051",
+    "Pokemon": "Palpitoad",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_51.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "052",
+    "Pokemon": "Seismitoad",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_52.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "053",
+    "Pokemon": "Cubchoo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_53.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "054",
+    "Pokemon": "Beartic",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_54.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "055",
+    "Pokemon": "Cryogonal",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_55.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "056",
+    "Pokemon": "Froakie",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_56.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "057",
+    "Pokemon": "Frogadier",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_57.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "058",
+    "Pokemon": "Wiglett",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_58.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "059",
+    "Pokemon": "Wugtrio",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_59.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "060",
+    "Pokemon": "Finizen",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_60.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "061",
+    "Pokemon": "Finizen",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_61.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "062",
+    "Pokemon": "Palafin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_62.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "063",
+    "Pokemon": "Magnemite",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_63.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "064",
+    "Pokemon": "Magneton",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_64.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "065",
+    "Pokemon": "Magnezone",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_65.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "066",
+    "Pokemon": "Tyranitar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_66.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "067",
+    "Pokemon": "Tynamo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_67.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "068",
+    "Pokemon": "Eelektrik",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_68.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "069",
+    "Pokemon": "Eelektross",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_69.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "070",
+    "Pokemon": "Thundurus",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_70.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "071",
+    "Pokemon": "Toxel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_71.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "072",
+    "Pokemon": "Toxtricity",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_72.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "073",
+    "Pokemon": "Pawmot ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_73.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "074",
+    "Pokemon": "Tadbulb",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_74.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "075",
+    "Pokemon": "Tadbulb",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_75.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "076",
+    "Pokemon": "Tadbulb",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_76.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "077",
+    "Pokemon": "Bellibolt",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_77.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "078",
+    "Pokemon": "Bellibolt",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_78.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "079",
+    "Pokemon": "Miraidon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_79.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "080",
+    "Pokemon": "Cleffa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_80.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "081",
+    "Pokemon": "Clefairy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_81.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "082",
+    "Pokemon": "Clefable ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_82.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "083",
+    "Pokemon": "Togepi",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_83.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "084",
+    "Pokemon": "Togetic",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_84.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "085",
+    "Pokemon": "Togekiss",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_85.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "086",
+    "Pokemon": "Espeon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_86.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "087",
+    "Pokemon": "Snubbull",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_87.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "088",
+    "Pokemon": "Granbull",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_88.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "089",
+    "Pokemon": "Mawile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_89.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "090",
+    "Pokemon": "Spoink",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_90.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "091",
+    "Pokemon": "Grumpig",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_91.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "092",
+    "Pokemon": "Lunatone",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_92.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "093",
+    "Pokemon": "Solrock",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_93.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "094",
+    "Pokemon": "Baltoy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_94.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "095",
+    "Pokemon": "Claydol",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_95.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "096",
+    "Pokemon": "Vespiquen ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_96.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "097",
+    "Pokemon": "Sinistea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_97.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "098",
+    "Pokemon": "Polteageist",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_98.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "099",
+    "Pokemon": "Greavard",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_99.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "100",
+    "Pokemon": "Greavard",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_100.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "101",
+    "Pokemon": "Houndstone",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_101.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "102",
+    "Pokemon": "Houndstone ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_102.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "103",
+    "Pokemon": "Diglett",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_103.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "104",
+    "Pokemon": "Dugtrio",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_104.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "105",
+    "Pokemon": "Larvitar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_105.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "106",
+    "Pokemon": "Pupitar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_106.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "107",
+    "Pokemon": "Nosepass",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_107.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "108",
+    "Pokemon": "Barboach",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_108.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "109",
+    "Pokemon": "Whiscash",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_109.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "110",
+    "Pokemon": "Bonsly",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_110.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "111",
+    "Pokemon": "Drilbur",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_111.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "112",
+    "Pokemon": "Stunfisk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_112.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "113",
+    "Pokemon": "Diggersby",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_113.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "114",
+    "Pokemon": "Crabrawler",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_114.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "115",
+    "Pokemon": "Crabominable",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_115.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "116",
+    "Pokemon": "Rockruff",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_116.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "117",
+    "Pokemon": "Lycanroc",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_117.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "118",
+    "Pokemon": "Toedscool",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_118.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "119",
+    "Pokemon": "Toedscruel",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_119.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "120",
+    "Pokemon": "Klawf ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_120.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "121",
+    "Pokemon": "Glimmet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_121.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "122",
+    "Pokemon": "Glimmet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_122.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "123",
+    "Pokemon": "Glimmora ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_123.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "124",
+    "Pokemon": "Koraidon ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_124.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "125",
+    "Pokemon": "Charizard ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_125.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "126",
+    "Pokemon": "Wooper de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_126.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "127",
+    "Pokemon": "Wooper de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_127.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "128",
+    "Pokemon": "Clodsire de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_128.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "129",
+    "Pokemon": "Clodsire de Paldea",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_129.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "130",
+    "Pokemon": "Umbreon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_130.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "131",
+    "Pokemon": "Houndour",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_131.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "132",
+    "Pokemon": "Houndour",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_132.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "133",
+    "Pokemon": "Houndoom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_133.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "134",
+    "Pokemon": "Houndoom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_134.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "135",
+    "Pokemon": "Absol ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_135.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "136",
+    "Pokemon": "Darkrai",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_136.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "137",
+    "Pokemon": "Inkay",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_137.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "138",
+    "Pokemon": "Malamar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_138.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "139",
+    "Pokemon": "Salandit",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_139.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "140",
+    "Pokemon": "Salazzle",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_140.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "141",
+    "Pokemon": "Scizor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_141.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "142",
+    "Pokemon": "Skarmory",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_142.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "143",
+    "Pokemon": "Mawile",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_143.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "144",
+    "Pokemon": "Bronzor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_144.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "145",
+    "Pokemon": "Bronzong",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_145.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "146",
+    "Pokemon": "Probopass",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_146.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "147",
+    "Pokemon": "Excadrill",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_147.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "148",
+    "Pokemon": "Pawniard",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_148.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "149",
+    "Pokemon": "Bisharp",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_149.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "150",
+    "Pokemon": "Kingambit",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_150.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "151",
+    "Pokemon": "Togedemaru",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_151.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "152",
+    "Pokemon": "Meltan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_152.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "153",
+    "Pokemon": "Melmetal ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_153.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "154",
+    "Pokemon": "Varoom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_154.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "155",
+    "Pokemon": "Varoom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_155.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "156",
+    "Pokemon": "Revavroom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_156.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "157",
+    "Pokemon": "Dratini",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_157.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "158",
+    "Pokemon": "Dragonair",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_158.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "159",
+    "Pokemon": "Dragonite ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_159.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "160",
+    "Pokemon": "Altaria",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_160.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "161",
+    "Pokemon": "Drampa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_161.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "162",
+    "Pokemon": "Pidgey",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_162.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "163",
+    "Pokemon": "Pidgeotto",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_163.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "164",
+    "Pokemon": "Pidgeot ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_164.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "165",
+    "Pokemon": "Kangaskhan",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_165.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "166",
+    "Pokemon": "Eevee",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_166.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "167",
+    "Pokemon": "Zigzagoon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_167.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "168",
+    "Pokemon": "Linoone",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_168.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "169",
+    "Pokemon": "Swablu",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_169.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "170",
+    "Pokemon": "Lillipup",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_170.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "171",
+    "Pokemon": "Herdier",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_171.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "172",
+    "Pokemon": "Stoutland",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_172.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "173",
+    "Pokemon": "Audino",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_173.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "174",
+    "Pokemon": "Bouffalant",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_174.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "175",
+    "Pokemon": "Bunnelby",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_175.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "176",
+    "Pokemon": "Yungoos",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_176.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "177",
+    "Pokemon": "Gumshoos",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_177.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "178",
+    "Pokemon": "Skwovet",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_178.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "179",
+    "Pokemon": "Greedent ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_179.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "180",
+    "Pokemon": "Lechonk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_180.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "181",
+    "Pokemon": "Lechonk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_181.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "182",
+    "Pokemon": "Lechonk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_182.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "183",
+    "Pokemon": "Oinkologne",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_183.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "184",
+    "Pokemon": "Oinkologne",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_184.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "185",
+    "Pokemon": "Flamigo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_185.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "186",
+    "Pokemon": "Arven",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_186.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "187",
+    "Pokemon": "Doal",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_187.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "188",
+    "Pokemon": "Gita",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_188.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "189",
+    "Pokemon": "Carta de Encorajamento",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_189.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "190",
+    "Pokemon": "Ortega",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_190.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "191",
+    "Pokemon": "Boina de Patrulha",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_191.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "192",
+    "Pokemon": "Sede da Liga Pokémon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_192.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "193",
+    "Pokemon": "Poppy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_193.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "194",
+    "Pokemon": "Ryme",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_194.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "195",
+    "Pokemon": "Capanga da Equipe Star",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_195.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "196",
+    "Pokemon": "Loja de Departamentos",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_196.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "197",
+    "Pokemon": "Soco Vingativo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_197.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "198",
+    "Pokemon": "Gloom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_198.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "199",
+    "Pokemon": "Ninetales",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_199.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "200",
+    "Pokemon": "Palafin",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_200.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "201",
+    "Pokemon": "Bellibolt",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_201.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "202",
+    "Pokemon": "Cleffa",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_202.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "203",
+    "Pokemon": "Larvitar",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_203.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "204",
+    "Pokemon": "Houndour",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_204.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "205",
+    "Pokemon": "Scizor",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_205.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "206",
+    "Pokemon": "Varoom",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_206.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "207",
+    "Pokemon": "Pidgey",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_207.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "208",
+    "Pokemon": "Pidgeotto",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_208.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "209",
+    "Pokemon": "Lechonk",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_209.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "210",
+    "Pokemon": "Eiscue ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_210.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "211",
+    "Pokemon": "Tyranitar ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_211.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "212",
+    "Pokemon": "Vespiquen ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_212.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "213",
+    "Pokemon": "Glimmora ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_213.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "214",
+    "Pokemon": "Absol ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_214.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "215",
+    "Pokemon": "Charizard ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_215.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "216",
+    "Pokemon": "Revavroom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_216.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "217",
+    "Pokemon": "Pidgeot ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_217.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "218",
+    "Pokemon": "Gita",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_218.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "219",
+    "Pokemon": "Ortega",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_219.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "220",
+    "Pokemon": "Poppy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_220.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "221",
+    "Pokemon": "Ryme",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_221.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "222",
+    "Pokemon": "Eiscue ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_222.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "223",
+    "Pokemon": "Charizard ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_223.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "224",
+    "Pokemon": "Revavroom ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_224.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "225",
+    "Pokemon": "Pidgeot ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_225.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "226",
+    "Pokemon": "Gita",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_226.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "227",
+    "Pokemon": "Poppy",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_227.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "228",
+    "Pokemon": "Charizard ex",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_228.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "229",
+    "Pokemon": "Artazon",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_229.png"
+  },
+  {
+    "Coleção": "Obsidiana em Chamas",
+    "Número": "230",
+    "Pokemon": "Energia Básica de Fogo",
+    "Imagem": "https://dz3we2x72f7ol.cloudfront.net/expansions/obsidian-flames/pt-br/SV03_PTBR_230.png"
+  }
+]
