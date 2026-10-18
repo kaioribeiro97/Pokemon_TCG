@@ -1,0 +1,476 @@
+[
+  {
+    "Pokemon": "Dusknoir",
+    "Coleção": "Stormfront",
+    "Número": "1/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2917.1.png"
+  },
+  {
+    "Pokemon": "Empoleon",
+    "Coleção": "Stormfront",
+    "Número": "2/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/50.png"
+  },
+  {
+    "Pokemon": "Infernape",
+    "Coleção": "Stormfront",
+    "Número": "3/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/372.png"
+  },
+  {
+    "Pokemon": "Lumineon",
+    "Coleção": "Stormfront",
+    "Número": "4/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/678.png"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Stormfront",
+    "Número": "5/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2905.5.png"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Stormfront",
+    "Número": "6/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2906.6.png"
+  },
+  {
+    "Pokemon": "Mismagius",
+    "Coleção": "Stormfront",
+    "Número": "7/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/73.png"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Stormfront",
+    "Número": "8/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/3.png"
+  },
+  {
+    "Pokemon": "Regigigas",
+    "Coleção": "Stormfront",
+    "Número": "9/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/4.png"
+  },
+  {
+    "Pokemon": "Sceptile",
+    "Coleção": "Stormfront",
+    "Número": "10/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/152.png"
+  },
+  {
+    "Pokemon": "Torterra",
+    "Coleção": "Stormfront",
+    "Número": "11/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/375.png"
+  },
+  {
+    "Pokemon": "Abomasnow",
+    "Coleção": "Stormfront",
+    "Número": "12/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/679.png"
+  },
+  {
+    "Pokemon": "Bronzong",
+    "Coleção": "Stormfront",
+    "Número": "13/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/369.png"
+  },
+  {
+    "Pokemon": "Cherrim",
+    "Coleção": "Stormfront",
+    "Número": "14/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/680.png"
+  },
+  {
+    "Pokemon": "Drapion",
+    "Coleção": "Stormfront",
+    "Número": "15/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/681.png"
+  },
+  {
+    "Pokemon": "Drifblim",
+    "Coleção": "Stormfront",
+    "Número": "16/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/664.png"
+  },
+  {
+    "Pokemon": "Dusknoir",
+    "Coleção": "Stormfront",
+    "Número": "17/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2918.17.png"
+  },
+  {
+    "Pokemon": "Gengar",
+    "Coleção": "Stormfront",
+    "Número": "18/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/425.png"
+  },
+  {
+    "Pokemon": "Gyarados",
+    "Coleção": "Stormfront",
+    "Número": "19/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/47.png"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Stormfront",
+    "Número": "20/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/426.png"
+  },
+  {
+    "Pokemon": "Mamoswine",
+    "Coleção": "Stormfront",
+    "Número": "21/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/682.png"
+  },
+  {
+    "Pokemon": "Rapidash",
+    "Coleção": "Stormfront",
+    "Número": "22/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/683.png"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Stormfront",
+    "Número": "23/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/262.png"
+  },
+  {
+    "Pokemon": "Salamence",
+    "Coleção": "Stormfront",
+    "Número": "24/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/263.png"
+  },
+  {
+    "Pokemon": "Scizor",
+    "Coleção": "Stormfront",
+    "Número": "25/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/374.png"
+  },
+  {
+    "Pokemon": "Skuntank",
+    "Coleção": "Stormfront",
+    "Número": "26/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/684.png"
+  },
+  {
+    "Pokemon": "Staraptor",
+    "Coleção": "Stormfront",
+    "Número": "27/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/685.png"
+  },
+  {
+    "Pokemon": "Steelix",
+    "Coleção": "Stormfront",
+    "Número": "28/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/686.png"
+  },
+  {
+    "Pokemon": "Tangrowth",
+    "Coleção": "Stormfront",
+    "Número": "29/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/19.png"
+  },
+  {
+    "Pokemon": "Tyranitar",
+    "Coleção": "Stormfront",
+    "Número": "30/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/687.png"
+  },
+  {
+    "Pokemon": "Vespiquen",
+    "Coleção": "Stormfront",
+    "Número": "31/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/688.png"
+  },
+  {
+    "Pokemon": "Bibarel",
+    "Coleção": "Stormfront",
+    "Número": "32/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/626.png"
+  },
+  {
+    "Pokemon": "Budew",
+    "Coleção": "Stormfront",
+    "Número": "33/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/689.png"
+  },
+  {
+    "Pokemon": "Dusclops",
+    "Coleção": "Stormfront",
+    "Número": "34/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2910.34.png"
+  },
+  {
+    "Pokemon": "Dusclops",
+    "Coleção": "Stormfront",
+    "Número": "35/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2911.35.png"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Stormfront",
+    "Número": "36/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2903.36.png"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Stormfront",
+    "Número": "37/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2904.37.png"
+  },
+  {
+    "Pokemon": "Farfetch'd",
+    "Coleção": "Stormfront",
+    "Número": "38/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/289.png"
+  },
+  {
+    "Pokemon": "Grovyle",
+    "Coleção": "Stormfront",
+    "Número": "39/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/180.png"
+  },
+  {
+    "Pokemon": "Haunter",
+    "Coleção": "Stormfront",
+    "Número": "40/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/438.png"
+  },
+  {
+    "Pokemon": "Machoke",
+    "Coleção": "Stormfront",
+    "Número": "41/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/440.png"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Stormfront",
+    "Número": "42/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2921.42.png"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Stormfront",
+    "Número": "43/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2922.43.png"
+  },
+  {
+    "Pokemon": "Miltank",
+    "Coleção": "Stormfront",
+    "Número": "44/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/293.png"
+  },
+  {
+    "Pokemon": "Pichu",
+    "Coleção": "Stormfront",
+    "Número": "45/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/11.png"
+  },
+  {
+    "Pokemon": "Piloswine",
+    "Coleção": "Stormfront",
+    "Número": "46/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/490.png"
+  },
+  {
+    "Pokemon": "Pupitar",
+    "Coleção": "Stormfront",
+    "Número": "47/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/691.png"
+  },
+  {
+    "Pokemon": "Sableye",
+    "Coleção": "Stormfront",
+    "Número": "48/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/76.png"
+  },
+  {
+    "Pokemon": "Scyther",
+    "Coleção": "Stormfront",
+    "Número": "49/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/384.png"
+  },
+  {
+    "Pokemon": "Shelgon",
+    "Coleção": "Stormfront",
+    "Número": "50/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/301.png"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Stormfront",
+    "Número": "51/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/192.png"
+  },
+  {
+    "Pokemon": "Staravia",
+    "Coleção": "Stormfront",
+    "Número": "52/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/385.png"
+  },
+  {
+    "Pokemon": "Bagon",
+    "Coleção": "Stormfront",
+    "Número": "53/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/313.png"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Stormfront",
+    "Número": "54/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/625.png"
+  },
+  {
+    "Pokemon": "Bronzor",
+    "Coleção": "Stormfront",
+    "Número": "55/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/389.png"
+  },
+  {
+    "Pokemon": "Cherubi",
+    "Coleção": "Stormfront",
+    "Número": "56/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/21.png"
+  },
+  {
+    "Pokemon": "Combee",
+    "Coleção": "Stormfront",
+    "Número": "57/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/392.png"
+  },
+  {
+    "Pokemon": "Drifloon",
+    "Coleção": "Stormfront",
+    "Número": "58/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2915.58.png"
+  },
+  {
+    "Pokemon": "Duskull",
+    "Coleção": "Stormfront",
+    "Número": "59/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2912.59.png"
+  },
+  {
+    "Pokemon": "Duskull",
+    "Coleção": "Stormfront",
+    "Número": "60/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2913.60.png"
+  },
+  {
+    "Pokemon": "Finneon",
+    "Coleção": "Stormfront",
+    "Número": "61/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/692.png"
+  },
+  {
+    "Pokemon": "Gastly",
+    "Coleção": "Stormfront",
+    "Número": "62/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/448.png"
+  },
+  {
+    "Pokemon": "Larvitar",
+    "Coleção": "Stormfront",
+    "Número": "63/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/693.png"
+  },
+  {
+    "Pokemon": "Machop",
+    "Coleção": "Stormfront",
+    "Número": "64/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/451.png"
+  },
+  {
+    "Pokemon": "Magikarp",
+    "Coleção": "Stormfront",
+    "Número": "65/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/46.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Stormfront",
+    "Número": "66/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2919.66.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Stormfront",
+    "Número": "67/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2920.67.png"
+  },
+  {
+    "Pokemon": "Misdreavus",
+    "Coleção": "Stormfront",
+    "Número": "68/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/72.png"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Stormfront",
+    "Número": "69/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/534.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Stormfront",
+    "Número": "70/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/15.png"
+  },
+  {
+    "Pokemon": "Ponyta",
+    "Coleção": "Stormfront",
+    "Número": "71/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/694.png"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Stormfront",
+    "Número": "72/100",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/300.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/35.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/33.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/34.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/697.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/704.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/2916.SH1.png"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Stormfront",
+    "Número": "05/11",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/35/706.png"
+  }
+]

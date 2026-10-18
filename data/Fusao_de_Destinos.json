@@ -1,0 +1,404 @@
+[
+  {
+    "Pokemon": "Shuckle",
+    "Coleção": "Fusão de Destinos",
+    "Número": "1/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/20.1.jpg"
+  },
+  {
+    "Pokemon": "Burmy",
+    "Coleção": "Fusão de Destinos",
+    "Número": "2/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4085.2.jpg"
+  },
+  {
+    "Pokemon": "Wormadam",
+    "Coleção": "Fusão de Destinos",
+    "Número": "3/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4108.3.jpg"
+  },
+  {
+    "Pokemon": "Mothim",
+    "Coleção": "Fusão de Destinos",
+    "Número": "4/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/277.4.jpg"
+  },
+  {
+    "Pokemon": "Snivy",
+    "Coleção": "Fusão de Destinos",
+    "Número": "5/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/23.5.jpg"
+  },
+  {
+    "Pokemon": "Servine",
+    "Coleção": "Fusão de Destinos",
+    "Número": "6/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/24.6.jpg"
+  },
+  {
+    "Pokemon": "Serperior",
+    "Coleção": "Fusão de Destinos",
+    "Número": "7/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/25.7.jpg"
+  },
+  {
+    "Pokemon": "Deerling",
+    "Coleção": "Fusão de Destinos",
+    "Número": "8/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1803.8.jpg"
+  },
+  {
+    "Pokemon": "Moltres",
+    "Coleção": "Fusão de Destinos",
+    "Número": "9/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/38.9.jpg"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Fusão de Destinos",
+    "Número": "10/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/579.10.jpg"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Fusão de Destinos",
+    "Número": "11/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/579.11.jpg"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "Fusão de Destinos",
+    "Número": "12/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/580.12.jpg"
+  },
+  {
+    "Pokemon": "Delphox",
+    "Coleção": "Fusão de Destinos",
+    "Número": "13/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/581.13.jpg"
+  },
+  {
+    "Pokemon": "Delphox TURBO",
+    "Coleção": "Fusão de Destinos",
+    "Número": "14/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4088.14.jpg"
+  },
+  {
+    "Pokemon": "Seel",
+    "Coleção": "Fusão de Destinos",
+    "Número": "15/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/526.15.jpg"
+  },
+  {
+    "Pokemon": "Dewgong",
+    "Coleção": "Fusão de Destinos",
+    "Número": "16/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/516.16.jpg"
+  },
+  {
+    "Pokemon": "Omanyte",
+    "Coleção": "Fusão de Destinos",
+    "Número": "17/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/398.17.jpg"
+  },
+  {
+    "Pokemon": "Omastar",
+    "Coleção": "Fusão de Destinos",
+    "Número": "18/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/373.18.jpg"
+  },
+  {
+    "Pokemon": "Omastar TURBO",
+    "Coleção": "Fusão de Destinos",
+    "Número": "19/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4104.19.jpg"
+  },
+  {
+    "Pokemon": "Glaceon-EX",
+    "Coleção": "Fusão de Destinos",
+    "Número": "20/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4154.20.jpg"
+  },
+  {
+    "Pokemon": "Kyurem Branco",
+    "Coleção": "Fusão de Destinos",
+    "Número": "21/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/993.21.jpg"
+  },
+  {
+    "Pokemon": "Binacle",
+    "Coleção": "Fusão de Destinos",
+    "Número": "22/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1429.22.jpg"
+  },
+  {
+    "Pokemon": "Barbaracle",
+    "Coleção": "Fusão de Destinos",
+    "Número": "23/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1959.23.jpg"
+  },
+  {
+    "Pokemon": "Rotom",
+    "Coleção": "Fusão de Destinos",
+    "Número": "24/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/5.24.jpg"
+  },
+  {
+    "Pokemon": "Alakazam-EX",
+    "Coleção": "Fusão de Destinos",
+    "Número": "25/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4155.25.jpg"
+  },
+  {
+    "Pokemon": "M Alakazam-EX",
+    "Coleção": "Fusão de Destinos",
+    "Número": "26/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4156.26.jpg"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Fusão de Destinos",
+    "Número": "27/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/213.27.jpg"
+  },
+  {
+    "Pokemon": "Weezing",
+    "Coleção": "Fusão de Destinos",
+    "Número": "28/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/173.28.jpg"
+  },
+  {
+    "Pokemon": "Mew",
+    "Coleção": "Fusão de Destinos",
+    "Número": "29/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/260.29.jpg"
+  },
+  {
+    "Pokemon": "Spoink",
+    "Coleção": "Fusão de Destinos",
+    "Número": "30/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/592.30.jpg"
+  },
+  {
+    "Pokemon": "Grumpig",
+    "Coleção": "Fusão de Destinos",
+    "Número": "31/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/593.31.jpg"
+  },
+  {
+    "Pokemon": "Gothita",
+    "Coleção": "Fusão de Destinos",
+    "Número": "32/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/83.32.jpg"
+  },
+  {
+    "Pokemon": "Solosis",
+    "Coleção": "Fusão de Destinos",
+    "Número": "33/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/86.33.jpg"
+  },
+  {
+    "Pokemon": "Duosion",
+    "Coleção": "Fusão de Destinos",
+    "Número": "34/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/87.34.jpg"
+  },
+  {
+    "Pokemon": "Reuniclus",
+    "Coleção": "Fusão de Destinos",
+    "Número": "35/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/88.35.jpg"
+  },
+  {
+    "Pokemon": "Diglett",
+    "Coleção": "Fusão de Destinos",
+    "Número": "36/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/321.36.jpg"
+  },
+  {
+    "Pokemon": "Marowak",
+    "Coleção": "Fusão de Destinos",
+    "Número": "37/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/521.37.jpg"
+  },
+  {
+    "Pokemon": "Kabuto",
+    "Coleção": "Fusão de Destinos",
+    "Número": "38/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/396.38.jpg"
+  },
+  {
+    "Pokemon": "Kabutops",
+    "Coleção": "Fusão de Destinos",
+    "Número": "39/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/366.39.jpg"
+  },
+  {
+    "Pokemon": "Larvitar",
+    "Coleção": "Fusão de Destinos",
+    "Número": "40/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/693.40.jpg"
+  },
+  {
+    "Pokemon": "Larvitar",
+    "Coleção": "Fusão de Destinos",
+    "Número": "41/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/693.41.jpg"
+  },
+  {
+    "Pokemon": "Pupitar",
+    "Coleção": "Fusão de Destinos",
+    "Número": "42/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/691.42.jpg"
+  },
+  {
+    "Pokemon": "Regirock-EX",
+    "Coleção": "Fusão de Destinos",
+    "Número": "43",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4157.43a.jpg"
+  },
+  {
+    "Pokemon": "Regirock-EX",
+    "Coleção": "Fusão de Destinos",
+    "Número": "43/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4157.43.jpg"
+  },
+  {
+    "Pokemon": "Wormadam",
+    "Coleção": "Fusão de Destinos",
+    "Número": "44/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4108.44.jpg"
+  },
+  {
+    "Pokemon": "Riolu",
+    "Coleção": "Fusão de Destinos",
+    "Número": "45/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/91.45.jpg"
+  },
+  {
+    "Pokemon": "Riolu",
+    "Coleção": "Fusão de Destinos",
+    "Número": "46/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/91.46.jpg"
+  },
+  {
+    "Pokemon": "Lucario",
+    "Coleção": "Fusão de Destinos",
+    "Número": "47/124",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/92.47.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/368.76.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4155.125.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4155.117.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4161.83.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4161.123.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/746.106.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4162.84.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4093.99.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4091.97.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/369.61.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4084.62.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/389.60.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1431.50.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1431.49.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4086.51.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/113.89.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/113.88.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/4082.93.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Fusão de Destinos",
+    "Número": "02/05",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/1801.70.jpg"
+  }
+]

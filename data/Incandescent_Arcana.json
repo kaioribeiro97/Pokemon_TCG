@@ -1,0 +1,566 @@
+[
+  {
+    "Pokemon": "Scyther",
+    "Coleção": "Incandescent Arcana",
+    "Número": "001/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/384_001.jpg"
+  },
+  {
+    "Pokemon": "Yanma",
+    "Coleção": "Incandescent Arcana",
+    "Número": "002/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/880_002.jpg"
+  },
+  {
+    "Pokemon": "Yanmega",
+    "Coleção": "Incandescent Arcana",
+    "Número": "003/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/878_003.jpg"
+  },
+  {
+    "Pokemon": "Carnivine",
+    "Coleção": "Incandescent Arcana",
+    "Número": "004/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/22_004.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "005/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6066_005.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "006/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6067_006.jpg"
+  },
+  {
+    "Pokemon": "Petilil",
+    "Coleção": "Incandescent Arcana",
+    "Número": "007/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/806_007.jpg"
+  },
+  {
+    "Pokemon": "Lilligant de Hisui",
+    "Coleção": "Incandescent Arcana",
+    "Número": "008/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/5923_008.jpg"
+  },
+  {
+    "Pokemon": "Tsareena Radiante",
+    "Coleção": "Incandescent Arcana",
+    "Número": "009/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6068_009.jpg"
+  },
+  {
+    "Pokemon": "Zarude",
+    "Coleção": "Incandescent Arcana",
+    "Número": "010/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/5250_010.jpg"
+  },
+  {
+    "Pokemon": "Calyrex",
+    "Coleção": "Incandescent Arcana",
+    "Número": "011/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6069_011.jpg"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Incandescent Arcana",
+    "Número": "012/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/122_012.jpg"
+  },
+  {
+    "Pokemon": "Arcanine",
+    "Coleção": "Incandescent Arcana",
+    "Número": "013/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/267_013.jpg"
+  },
+  {
+    "Pokemon": "Entei",
+    "Coleção": "Incandescent Arcana",
+    "Número": "014/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/251_014.jpg"
+  },
+  {
+    "Pokemon": "Reshiram-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "015/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6070_015.jpg"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Incandescent Arcana",
+    "Número": "016/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/579_016.jpg"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "Incandescent Arcana",
+    "Número": "017/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/580_017.jpg"
+  },
+  {
+    "Pokemon": "Delphox",
+    "Coleção": "Incandescent Arcana",
+    "Número": "018/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/581_018.jpg"
+  },
+  {
+    "Pokemon": "Volcanion",
+    "Coleção": "Incandescent Arcana",
+    "Número": "019/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/4185_019.jpg"
+  },
+  {
+    "Pokemon": "Salandit",
+    "Coleção": "Incandescent Arcana",
+    "Número": "020/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/4360_020.jpg"
+  },
+  {
+    "Pokemon": "Salazzle",
+    "Coleção": "Incandescent Arcana",
+    "Número": "021/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/4361_021.jpg"
+  },
+  {
+    "Pokemon": "Vulpix de Alola-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "022/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6071_022.jpg"
+  },
+  {
+    "Pokemon": "Vulpix de Alola-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "023/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6072_023.jpg"
+  },
+  {
+    "Pokemon": "Articuno",
+    "Coleção": "Incandescent Arcana",
+    "Número": "024/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/48_024.jpg"
+  },
+  {
+    "Pokemon": "Wailmer",
+    "Coleção": "Incandescent Arcana",
+    "Número": "025/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/197_025.jpg"
+  },
+  {
+    "Pokemon": "Wailord",
+    "Coleção": "Incandescent Arcana",
+    "Número": "026/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/172_026.jpg"
+  },
+  {
+    "Pokemon": "Feebas",
+    "Coleção": "Incandescent Arcana",
+    "Número": "027/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/206_027.jpg"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Incandescent Arcana",
+    "Número": "028/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/167_028.jpg"
+  },
+  {
+    "Pokemon": "Luvdisc",
+    "Coleção": "Incandescent Arcana",
+    "Número": "029/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/216_029.jpg"
+  },
+  {
+    "Pokemon": "Kyogre",
+    "Coleção": "Incandescent Arcana",
+    "Número": "030/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/1265_030.jpg"
+  },
+  {
+    "Pokemon": "Alakazam Radiante",
+    "Coleção": "Incandescent Arcana",
+    "Número": "031/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6073_031.jpg"
+  },
+  {
+    "Pokemon": "Exeggcute",
+    "Coleção": "Incandescent Arcana",
+    "Número": "032/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/531_032.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor",
+    "Coleção": "Incandescent Arcana",
+    "Número": "033/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/519_033.jpg"
+  },
+  {
+    "Pokemon": "Jynx",
+    "Coleção": "Incandescent Arcana",
+    "Número": "034/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/275_034.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo",
+    "Coleção": "Incandescent Arcana",
+    "Número": "035/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/68_035.jpg"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Incandescent Arcana",
+    "Número": "036/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/74_036.jpg"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Incandescent Arcana",
+    "Número": "037/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/75_037.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir",
+    "Coleção": "Incandescent Arcana",
+    "Número": "038/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/124_038.jpg"
+  },
+  {
+    "Pokemon": "Mawile-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "039/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6074_039.jpg"
+  },
+  {
+    "Pokemon": "Mawile-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "040/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6075_040.jpg"
+  },
+  {
+    "Pokemon": "Espurr",
+    "Coleção": "Incandescent Arcana",
+    "Número": "041/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/1957_041.jpg"
+  },
+  {
+    "Pokemon": "Meowstic",
+    "Coleção": "Incandescent Arcana",
+    "Número": "042/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/1690_042.jpg"
+  },
+  {
+    "Pokemon": "Tapu Lele",
+    "Coleção": "Incandescent Arcana",
+    "Número": "043/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/4406_043.jpg"
+  },
+  {
+    "Pokemon": "Scizor",
+    "Coleção": "Incandescent Arcana",
+    "Número": "044/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/374_044.jpg"
+  },
+  {
+    "Pokemon": "Jirachi Radiante",
+    "Coleção": "Incandescent Arcana",
+    "Número": "045/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6076_045.jpg"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Incandescent Arcana",
+    "Número": "046/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/248_046.jpg"
+  },
+  {
+    "Pokemon": "Klang",
+    "Coleção": "Incandescent Arcana",
+    "Número": "047/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/736_047.jpg"
+  },
+  {
+    "Pokemon": "Klinklang",
+    "Coleção": "Incandescent Arcana",
+    "Número": "048/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/737_048.jpg"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Incandescent Arcana",
+    "Número": "049/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/612_049.jpg"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Incandescent Arcana",
+    "Número": "050/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/613_050.jpg"
+  },
+  {
+    "Pokemon": "Magearna-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "051/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6077_051.jpg"
+  },
+  {
+    "Pokemon": "Zacian",
+    "Coleção": "Incandescent Arcana",
+    "Número": "052/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/5057_052.jpg"
+  },
+  {
+    "Pokemon": "Zamazenta",
+    "Coleção": "Incandescent Arcana",
+    "Número": "053/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/5059_053.jpg"
+  },
+  {
+    "Pokemon": "Smeargle",
+    "Coleção": "Incandescent Arcana",
+    "Número": "054/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/303_054.jpg"
+  },
+  {
+    "Pokemon": "Ho-Oh-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "055/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6078_055.jpg"
+  },
+  {
+    "Pokemon": "Swablu",
+    "Coleção": "Incandescent Arcana",
+    "Número": "056/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/111_056.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Incandescent Arcana",
+    "Número": "057/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/103_057.jpg"
+  },
+  {
+    "Pokemon": "Chatot",
+    "Coleção": "Incandescent Arcana",
+    "Número": "058/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/390_058.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Incandescent Arcana",
+    "Número": "059/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/120_059.jpg"
+  },
+  {
+    "Pokemon": "Capture Aroma",
+    "Coleção": "Incandescent Arcana",
+    "Número": "060/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6079_060.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Incandescent Arcana",
+    "Número": "061/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/360_061.jpg"
+  },
+  {
+    "Pokemon": "Geleia Emergencial",
+    "Coleção": "Incandescent Arcana",
+    "Número": "062/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6080_062.jpg"
+  },
+  {
+    "Pokemon": "Juiz",
+    "Coleção": "Incandescent Arcana",
+    "Número": "063/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/1405_063.jpg"
+  },
+  {
+    "Pokemon": "Serena",
+    "Coleção": "Incandescent Arcana",
+    "Número": "064/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6081_064.jpg"
+  },
+  {
+    "Pokemon": "Garota Furisode",
+    "Coleção": "Incandescent Arcana",
+    "Número": "065/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6082_065.jpg"
+  },
+  {
+    "Pokemon": "Wallace",
+    "Coleção": "Incandescent Arcana",
+    "Número": "066/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6083_066.jpg"
+  },
+  {
+    "Pokemon": "Energia Turbo Dupla",
+    "Coleção": "Incandescent Arcana",
+    "Número": "067/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/5805_067.jpg"
+  },
+  {
+    "Pokemon": "Energia de Proteção V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "068/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6084_068.jpg"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "Incandescent Arcana",
+    "Número": "069/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/580_069.jpg"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Incandescent Arcana",
+    "Número": "070/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/167_070.jpg"
+  },
+  {
+    "Pokemon": "Jynx",
+    "Coleção": "Incandescent Arcana",
+    "Número": "071/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/275_071.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir",
+    "Coleção": "Incandescent Arcana",
+    "Número": "072/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/124_072.jpg"
+  },
+  {
+    "Pokemon": "Smeargle",
+    "Coleção": "Incandescent Arcana",
+    "Número": "073/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/303_073.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Incandescent Arcana",
+    "Número": "074/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/103_074.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "075/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6066_075.jpg"
+  },
+  {
+    "Pokemon": "Reshiram-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "076/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6070_076.jpg"
+  },
+  {
+    "Pokemon": "Vulpix de Alola-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "077/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6071_077.jpg"
+  },
+  {
+    "Pokemon": "Mawile-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "078/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6074_078.jpg"
+  },
+  {
+    "Pokemon": "Magearna-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "079/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6077_079.jpg"
+  },
+  {
+    "Pokemon": "Ho-Oh-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "080/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6078_080.jpg"
+  },
+  {
+    "Pokemon": "Serena",
+    "Coleção": "Incandescent Arcana",
+    "Número": "081/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6081_081.jpg"
+  },
+  {
+    "Pokemon": "Garota Furisode",
+    "Coleção": "Incandescent Arcana",
+    "Número": "082/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6082_082.jpg"
+  },
+  {
+    "Pokemon": "Wallace",
+    "Coleção": "Incandescent Arcana",
+    "Número": "083/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6083_083.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "084/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6066_084.jpg"
+  },
+  {
+    "Pokemon": "Mawile-V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "085/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6074_085.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "086/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6067_086.jpg"
+  },
+  {
+    "Pokemon": "Vulpix de Alola-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "087/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6072_087.jpg"
+  },
+  {
+    "Pokemon": "Mawile-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "088/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6075_088.jpg"
+  },
+  {
+    "Pokemon": "Serena",
+    "Coleção": "Incandescent Arcana",
+    "Número": "089/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6081_089.jpg"
+  },
+  {
+    "Pokemon": "Garota Furisode",
+    "Coleção": "Incandescent Arcana",
+    "Número": "090/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6082_090.jpg"
+  },
+  {
+    "Pokemon": "Wallace",
+    "Coleção": "Incandescent Arcana",
+    "Número": "091/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6083_091.jpg"
+  },
+  {
+    "Pokemon": "Serperior-V-ASTRO",
+    "Coleção": "Incandescent Arcana",
+    "Número": "092/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6067_092.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Incandescent Arcana",
+    "Número": "093/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/120_093.jpg"
+  },
+  {
+    "Pokemon": "Energia de Proteção V",
+    "Coleção": "Incandescent Arcana",
+    "Número": "094/068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/280/6084_094.jpg"
+  }
+]

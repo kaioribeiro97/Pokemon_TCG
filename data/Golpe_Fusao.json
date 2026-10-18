@@ -1,0 +1,536 @@
+[
+  {
+    "Pokemon": "Caterpie",
+    "Coleção": "Golpe Fusão",
+    "Número": "1/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/201_1.jpg"
+  },
+  {
+    "Pokemon": "Metapod",
+    "Coleção": "Golpe Fusão",
+    "Número": "2/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/186_2.jpg"
+  },
+  {
+    "Pokemon": "Butterfree",
+    "Coleção": "Golpe Fusão",
+    "Número": "3/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/156_3.jpg"
+  },
+  {
+    "Pokemon": "Shroomish",
+    "Coleção": "Golpe Fusão",
+    "Número": "4/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/341_4.jpg"
+  },
+  {
+    "Pokemon": "Breloom",
+    "Coleção": "Golpe Fusão",
+    "Número": "5/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/287_5.jpg"
+  },
+  {
+    "Pokemon": "Breloom-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "6/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5740_6.jpg"
+  },
+  {
+    "Pokemon": "Pansage",
+    "Coleção": "Golpe Fusão",
+    "Número": "7/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/567_7.jpg"
+  },
+  {
+    "Pokemon": "Simisage",
+    "Coleção": "Golpe Fusão",
+    "Número": "8/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/568_8.jpg"
+  },
+  {
+    "Pokemon": "Sewaddle",
+    "Coleção": "Golpe Fusão",
+    "Número": "9/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/26_9.jpg"
+  },
+  {
+    "Pokemon": "Swadloon",
+    "Coleção": "Golpe Fusão",
+    "Número": "10/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/27_10.jpg"
+  },
+  {
+    "Pokemon": "Leavanny",
+    "Coleção": "Golpe Fusão",
+    "Número": "11/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/28_11.jpg"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/243_12.jpg"
+  },
+  {
+    "Pokemon": "Shelmet",
+    "Coleção": "Golpe Fusão",
+    "Número": "13/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/710_13.jpg"
+  },
+  {
+    "Pokemon": "Accelgor",
+    "Coleção": "Golpe Fusão",
+    "Número": "14/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/711_14.jpg"
+  },
+  {
+    "Pokemon": "Virizion",
+    "Coleção": "Golpe Fusão",
+    "Número": "15/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/31_15.jpg"
+  },
+  {
+    "Pokemon": "Phantump",
+    "Coleção": "Golpe Fusão",
+    "Número": "16/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/597_16.jpg"
+  },
+  {
+    "Pokemon": "Trevenant",
+    "Coleção": "Golpe Fusão",
+    "Número": "17/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/598_17.jpg"
+  },
+  {
+    "Pokemon": "Grubbin",
+    "Coleção": "Golpe Fusão",
+    "Número": "18/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4253_18.jpg"
+  },
+  {
+    "Pokemon": "Dewpider",
+    "Coleção": "Golpe Fusão",
+    "Número": "19/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4250_19.jpg"
+  },
+  {
+    "Pokemon": "Araquanid",
+    "Coleção": "Golpe Fusão",
+    "Número": "20/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4235_20.jpg"
+  },
+  {
+    "Pokemon": "Tsareena-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "21/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5738_21.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "22/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5124_22.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom-VMAX",
+    "Coleção": "Golpe Fusão",
+    "Número": "23/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5053_23.jpg"
+  },
+  {
+    "Pokemon": "Gossifleur",
+    "Coleção": "Golpe Fusão",
+    "Número": "24/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4958_24.jpg"
+  },
+  {
+    "Pokemon": "Eldegoss",
+    "Coleção": "Golpe Fusão",
+    "Número": "25/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4956_25.jpg"
+  },
+  {
+    "Pokemon": "Appletun-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "26/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5736_26.jpg"
+  },
+  {
+    "Pokemon": "Zarude",
+    "Coleção": "Golpe Fusão",
+    "Número": "27/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5250_27.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Golpe Fusão",
+    "Número": "28/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/36_28.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Golpe Fusão",
+    "Número": "29/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/36_29.jpg"
+  },
+  {
+    "Pokemon": "Ninetales",
+    "Coleção": "Golpe Fusão",
+    "Número": "30/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/37_30.jpg"
+  },
+  {
+    "Pokemon": "Ninetales",
+    "Coleção": "Golpe Fusão",
+    "Número": "31/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/37_31.jpg"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Golpe Fusão",
+    "Número": "32/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/122_32.jpg"
+  },
+  {
+    "Pokemon": "Arcanine",
+    "Coleção": "Golpe Fusão",
+    "Número": "33/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/267_33.jpg"
+  },
+  {
+    "Pokemon": "Slugma",
+    "Coleção": "Golpe Fusão",
+    "Número": "34/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/222_34.jpg"
+  },
+  {
+    "Pokemon": "Magcargo",
+    "Coleção": "Golpe Fusão",
+    "Número": "35/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/185_35.jpg"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Golpe Fusão",
+    "Número": "36/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/39_36.jpg"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "Golpe Fusão",
+    "Número": "37/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/577_37.jpg"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "Golpe Fusão",
+    "Número": "38/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/578_38.jpg"
+  },
+  {
+    "Pokemon": "Chandelure-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "39/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5733_39.jpg"
+  },
+  {
+    "Pokemon": "Chandelure-VMAX",
+    "Coleção": "Golpe Fusão",
+    "Número": "40/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5726_40.jpg"
+  },
+  {
+    "Pokemon": "Heatmor",
+    "Coleção": "Golpe Fusão",
+    "Número": "41/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/713_41.jpg"
+  },
+  {
+    "Pokemon": "Oricorio",
+    "Coleção": "Golpe Fusão",
+    "Número": "42/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4317_42.jpg"
+  },
+  {
+    "Pokemon": "Cinderace-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "43/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5125_43.jpg"
+  },
+  {
+    "Pokemon": "Cinderace-V",
+    "Coleção": "Golpe Fusão",
+    "Número": "44/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5125_44.jpg"
+  },
+  {
+    "Pokemon": "Cinderace-VMAX",
+    "Coleção": "Golpe Fusão",
+    "Número": "45/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5012_45.jpg"
+  },
+  {
+    "Pokemon": "Sizzlipede",
+    "Coleção": "Golpe Fusão",
+    "Número": "46/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4977_46.jpg"
+  },
+  {
+    "Pokemon": "Sizzlipede",
+    "Coleção": "Golpe Fusão",
+    "Número": "47/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4977_47.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch",
+    "Coleção": "Golpe Fusão",
+    "Número": "48/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4949_48.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch",
+    "Coleção": "Golpe Fusão",
+    "Número": "49/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4949_49.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Golpe Fusão",
+    "Número": "50/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/338_50.jpg"
+  },
+  {
+    "Pokemon": "Cloyster",
+    "Coleção": "Golpe Fusão",
+    "Número": "51/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/288_51.jpg"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "Golpe Fusão",
+    "Número": "52/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/497_52.jpg"
+  },
+  {
+    "Pokemon": "Starmie",
+    "Coleção": "Golpe Fusão",
+    "Número": "53/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/486_53.jpg"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "Golpe Fusão",
+    "Número": "54/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/163_54.jpg"
+  },
+  {
+    "Pokemon": "Totodile",
+    "Coleção": "Golpe Fusão",
+    "Número": "55/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/1084_55.jpg"
+  },
+  {
+    "Pokemon": "Croconaw",
+    "Coleção": "Golpe Fusão",
+    "Número": "56/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/1077_56.jpg"
+  },
+  {
+    "Pokemon": "Feraligatr",
+    "Coleção": "Golpe Fusão",
+    "Número": "57/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/1074_57.jpg"
+  },
+  {
+    "Pokemon": "Marill",
+    "Coleção": "Golpe Fusão",
+    "Número": "58/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/843_58.jpg"
+  },
+  {
+    "Pokemon": "Azumarill",
+    "Coleção": "Golpe Fusão",
+    "Número": "59/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/838_59.jpg"
+  },
+  {
+    "Pokemon": "Qwilfish",
+    "Coleção": "Golpe Fusão",
+    "Número": "60/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/335_60.jpg"
+  },
+  {
+    "Pokemon": "Mantine",
+    "Coleção": "Golpe Fusão",
+    "Número": "61/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/1042_61.jpg"
+  },
+  {
+    "Pokemon": "Mudkip",
+    "Coleção": "Golpe Fusão",
+    "Número": "62/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/219_62.jpg"
+  },
+  {
+    "Pokemon": "Marshtomp",
+    "Coleção": "Golpe Fusão",
+    "Número": "63/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/145_63.jpg"
+  },
+  {
+    "Pokemon": "Swampert",
+    "Coleção": "Golpe Fusão",
+    "Número": "64/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/153_64.jpg"
+  },
+  {
+    "Pokemon": "Clamperl",
+    "Coleção": "Golpe Fusão",
+    "Número": "65/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/203_65.jpg"
+  },
+  {
+    "Pokemon": "Huntail",
+    "Coleção": "Golpe Fusão",
+    "Número": "66/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/182_66.jpg"
+  },
+  {
+    "Pokemon": "Gorebyss",
+    "Coleção": "Golpe Fusão",
+    "Número": "67/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/178_67.jpg"
+  },
+  {
+    "Pokemon": "Panpour",
+    "Coleção": "Golpe Fusão",
+    "Número": "68/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/586_68.jpg"
+  },
+  {
+    "Pokemon": "Simipour",
+    "Coleção": "Golpe Fusão",
+    "Número": "69/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/587_69.jpg"
+  },
+  {
+    "Pokemon": "Basculin",
+    "Coleção": "Golpe Fusão",
+    "Número": "70/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/1416_70.jpg"
+  },
+  {
+    "Pokemon": "Darumaka de Galar",
+    "Coleção": "Golpe Fusão",
+    "Número": "71/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5022_71.jpg"
+  },
+  {
+    "Pokemon": "Darmanitan de Galar",
+    "Coleção": "Golpe Fusão",
+    "Número": "72/264",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5041_72.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/266_164.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5737_277.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5737_262.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5737_239.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5739_276.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5739_261.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5739_238.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5043_82.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/199_144.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5029_83.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/4236_151.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/481_203.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/409_237.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5052_249.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5052_103.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5725_267.jpg"
+  },
+  {
+    "Pokemon": "Marketplace",
+    "Coleção": "Golpe Fusão",
+    "Número": "12/11",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/255/5725_104.jpg"
+  }
+]

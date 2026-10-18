@@ -1,0 +1,998 @@
+[
+  {
+    "Pokemon": "Paras",
+    "Coleção": "Turbo Revolução",
+    "Número": "1/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/495.1.png"
+  },
+  {
+    "Pokemon": "Parasect",
+    "Coleção": "Turbo Revolução",
+    "Número": "2/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/489.2.png"
+  },
+  {
+    "Pokemon": "Pinsir",
+    "Coleção": "Turbo Revolução",
+    "Número": "3/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/297.3.png"
+  },
+  {
+    "Pokemon": "Cacnea",
+    "Coleção": "Turbo Revolução",
+    "Número": "4/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/200.4.png"
+  },
+  {
+    "Pokemon": "Pansage",
+    "Coleção": "Turbo Revolução",
+    "Número": "5/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/567.5.png"
+  },
+  {
+    "Pokemon": "Simisage",
+    "Coleção": "Turbo Revolução",
+    "Número": "6/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/568.6.png"
+  },
+  {
+    "Pokemon": "Chespin",
+    "Coleção": "Turbo Revolução",
+    "Número": "7/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/569.7.png"
+  },
+  {
+    "Pokemon": "Chespin",
+    "Coleção": "Turbo Revolução",
+    "Número": "8/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/569.8.png"
+  },
+  {
+    "Pokemon": "Chespin",
+    "Coleção": "Turbo Revolução",
+    "Número": "9/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/569.9.png"
+  },
+  {
+    "Pokemon": "Quilladin",
+    "Coleção": "Turbo Revolução",
+    "Número": "10/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/570.10.png"
+  },
+  {
+    "Pokemon": "Chesnaught",
+    "Coleção": "Turbo Revolução",
+    "Número": "11/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/571.11.png"
+  },
+  {
+    "Pokemon": "Chesnaught BREAK",
+    "Coleção": "Turbo Revolução",
+    "Número": "12/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3857.12.png"
+  },
+  {
+    "Pokemon": "Scatterbug",
+    "Coleção": "Turbo Revolução",
+    "Número": "13/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/572.13.png"
+  },
+  {
+    "Pokemon": "Spewpa",
+    "Coleção": "Turbo Revolução",
+    "Número": "14/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/573.14.png"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "Turbo Revolução",
+    "Número": "15/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/574.15.png"
+  },
+  {
+    "Pokemon": "Skiddo",
+    "Coleção": "Turbo Revolução",
+    "Número": "16/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/575.16.png"
+  },
+  {
+    "Pokemon": "Gogoat",
+    "Coleção": "Turbo Revolução",
+    "Número": "17/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/576.17.png"
+  },
+  {
+    "Pokemon": "Cyndaquil",
+    "Coleção": "Turbo Revolução",
+    "Número": "18/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1082.18.png"
+  },
+  {
+    "Pokemon": "Quilava",
+    "Coleção": "Turbo Revolução",
+    "Número": "19/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1078.19.png"
+  },
+  {
+    "Pokemon": "Typhlosion",
+    "Coleção": "Turbo Revolução",
+    "Número": "20/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/904.20.png"
+  },
+  {
+    "Pokemon": "Houndoom-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "21/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3909.21.png"
+  },
+  {
+    "Pokemon": "M Houndoom-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "22/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3910.22.png"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "Turbo Revolução",
+    "Número": "23/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/577.23.png"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "Turbo Revolução",
+    "Número": "24/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/578.24.png"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Turbo Revolução",
+    "Número": "25/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/579.25.png"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "Turbo Revolução",
+    "Número": "26/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/580.26.png"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Turbo Revolução",
+    "Número": "27/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/494.27.png"
+  },
+  {
+    "Pokemon": "Seaking",
+    "Coleção": "Turbo Revolução",
+    "Número": "28/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/491.28.png"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "Turbo Revolução",
+    "Número": "29/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/497.29.png"
+  },
+  {
+    "Pokemon": "Starmie",
+    "Coleção": "Turbo Revolução",
+    "Número": "30/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/486.30.png"
+  },
+  {
+    "Pokemon": "Remoraid",
+    "Coleção": "Turbo Revolução",
+    "Número": "31/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/496.31.png"
+  },
+  {
+    "Pokemon": "Remoraid",
+    "Coleção": "Turbo Revolução",
+    "Número": "32/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/496.32.png"
+  },
+  {
+    "Pokemon": "Octillery",
+    "Coleção": "Turbo Revolução",
+    "Número": "33/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/488.33.png"
+  },
+  {
+    "Pokemon": "Glalie-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "34/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3911.34.png"
+  },
+  {
+    "Pokemon": "M Glalie-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "35/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3912.35.png"
+  },
+  {
+    "Pokemon": "Piplup",
+    "Coleção": "Turbo Revolução",
+    "Número": "36/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/16.36.png"
+  },
+  {
+    "Pokemon": "Prinplup",
+    "Coleção": "Turbo Revolução",
+    "Número": "37/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/49.37.png"
+  },
+  {
+    "Pokemon": "Empoleon",
+    "Coleção": "Turbo Revolução",
+    "Número": "38/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/50.38.png"
+  },
+  {
+    "Pokemon": "Snover",
+    "Coleção": "Turbo Revolução",
+    "Número": "39/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/696.39.png"
+  },
+  {
+    "Pokemon": "Abomasnow",
+    "Coleção": "Turbo Revolução",
+    "Número": "40/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/679.40.png"
+  },
+  {
+    "Pokemon": "Panpour",
+    "Coleção": "Turbo Revolução",
+    "Número": "41/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/586.41.png"
+  },
+  {
+    "Pokemon": "Simipour",
+    "Coleção": "Turbo Revolução",
+    "Número": "42/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/587.42.png"
+  },
+  {
+    "Pokemon": "Vanillite",
+    "Coleção": "Turbo Revolução",
+    "Número": "43/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/717.43.png"
+  },
+  {
+    "Pokemon": "Vanillish",
+    "Coleção": "Turbo Revolução",
+    "Número": "44/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/718.44.png"
+  },
+  {
+    "Pokemon": "Vanilluxe",
+    "Coleção": "Turbo Revolução",
+    "Número": "45/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/812.45.png"
+  },
+  {
+    "Pokemon": "Froakie",
+    "Coleção": "Turbo Revolução",
+    "Número": "46/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/588.46.png"
+  },
+  {
+    "Pokemon": "Frogadier",
+    "Coleção": "Turbo Revolução",
+    "Número": "47/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/589.47.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Turbo Revolução",
+    "Número": "48/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/15.48.png"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Turbo Revolução",
+    "Número": "49/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3.49.png"
+  },
+  {
+    "Pokemon": "Raichu TURBO",
+    "Coleção": "Turbo Revolução",
+    "Número": "50/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3913.50.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Turbo Revolução",
+    "Número": "51/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/453.51.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Turbo Revolução",
+    "Número": "52/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/453.52.png"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Turbo Revolução",
+    "Número": "53/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/431.53.png"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Turbo Revolução",
+    "Número": "54/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/662.54.png"
+  },
+  {
+    "Pokemon": "Raikou",
+    "Coleção": "Turbo Revolução",
+    "Número": "55/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/261.55.png"
+  },
+  {
+    "Pokemon": "Stunfisk",
+    "Coleção": "Turbo Revolução",
+    "Número": "56/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/95.56.png"
+  },
+  {
+    "Pokemon": "Dedenne",
+    "Coleção": "Turbo Revolução",
+    "Número": "57/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1172.57.png"
+  },
+  {
+    "Pokemon": "Gastly",
+    "Coleção": "Turbo Revolução",
+    "Número": "58/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/448.58.png"
+  },
+  {
+    "Pokemon": "Haunter",
+    "Coleção": "Turbo Revolução",
+    "Número": "59/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/438.59.png"
+  },
+  {
+    "Pokemon": "Gengar",
+    "Coleção": "Turbo Revolução",
+    "Número": "60/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/425.60.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "61/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.61.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "62/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.62.png"
+  },
+  {
+    "Pokemon": "M Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "63/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3914.63.png"
+  },
+  {
+    "Pokemon": "M Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "64/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3914.64.png"
+  },
+  {
+    "Pokemon": "Misdreavus",
+    "Coleção": "Turbo Revolução",
+    "Número": "65/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/72.65.png"
+  },
+  {
+    "Pokemon": "Mismagius",
+    "Coleção": "Turbo Revolução",
+    "Número": "66/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/73.66.png"
+  },
+  {
+    "Pokemon": "Wobbuffet",
+    "Coleção": "Turbo Revolução",
+    "Número": "67/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/433.67.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Turbo Revolução",
+    "Número": "68/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/74.68.png"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Turbo Revolução",
+    "Número": "69/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/75.69.png"
+  },
+  {
+    "Pokemon": "Cresselia",
+    "Coleção": "Turbo Revolução",
+    "Número": "70/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/149.70.png"
+  },
+  {
+    "Pokemon": "Woobat",
+    "Coleção": "Turbo Revolução",
+    "Número": "71/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/78.71.png"
+  },
+  {
+    "Pokemon": "Swoobat",
+    "Coleção": "Turbo Revolução",
+    "Número": "72/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/79.72.png"
+  },
+  {
+    "Pokemon": "Elgyem",
+    "Coleção": "Turbo Revolução",
+    "Número": "73/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/817.73.png"
+  },
+  {
+    "Pokemon": "Beheeyem",
+    "Coleção": "Turbo Revolução",
+    "Número": "74/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/818.74.png"
+  },
+  {
+    "Pokemon": "Sandshrew",
+    "Coleção": "Turbo Revolução",
+    "Número": "75/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/537.75.png"
+  },
+  {
+    "Pokemon": "Sandslash",
+    "Coleção": "Turbo Revolução",
+    "Número": "76/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/957.76.png"
+  },
+  {
+    "Pokemon": "Cubone",
+    "Coleção": "Turbo Revolução",
+    "Número": "77/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/529.77.png"
+  },
+  {
+    "Pokemon": "Marowak",
+    "Coleção": "Turbo Revolução",
+    "Número": "78/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/521.78.png"
+  },
+  {
+    "Pokemon": "Marowak TURBO",
+    "Coleção": "Turbo Revolução",
+    "Número": "79/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3915.79.png"
+  },
+  {
+    "Pokemon": "Swinub",
+    "Coleção": "Turbo Revolução",
+    "Número": "80/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/498.80.png"
+  },
+  {
+    "Pokemon": "Piloswine",
+    "Coleção": "Turbo Revolução",
+    "Número": "81/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/490.81.png"
+  },
+  {
+    "Pokemon": "Mamoswine",
+    "Coleção": "Turbo Revolução",
+    "Número": "82/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/682.82.png"
+  },
+  {
+    "Pokemon": "Hippopotas",
+    "Coleção": "Turbo Revolução",
+    "Número": "83/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/395.83.png"
+  },
+  {
+    "Pokemon": "Gallade",
+    "Coleção": "Turbo Revolução",
+    "Número": "84/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/93.84.png"
+  },
+  {
+    "Pokemon": "Meloetta",
+    "Coleção": "Turbo Revolução",
+    "Número": "85/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/90.85.png"
+  },
+  {
+    "Pokemon": "Pancham",
+    "Coleção": "Turbo Revolução",
+    "Número": "86/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1654.86.png"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Turbo Revolução",
+    "Número": "87/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1430.87.png"
+  },
+  {
+    "Pokemon": "Cacturne",
+    "Coleção": "Turbo Revolução",
+    "Número": "88/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/202.88.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "Turbo Revolução",
+    "Número": "89/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/100.89.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "Turbo Revolução",
+    "Número": "90/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/100.90.png"
+  },
+  {
+    "Pokemon": "Zoroark",
+    "Coleção": "Turbo Revolução",
+    "Número": "91/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/101.91.png"
+  },
+  {
+    "Pokemon": "Zoroark TURBO",
+    "Coleção": "Turbo Revolução",
+    "Número": "92/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3916.92.png"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "Turbo Revolução",
+    "Número": "93/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/607.93.png"
+  },
+  {
+    "Pokemon": "Yveltal",
+    "Coleção": "Turbo Revolução",
+    "Número": "94/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/609.94.png"
+  },
+  {
+    "Pokemon": "Bronzor",
+    "Coleção": "Turbo Revolução",
+    "Número": "95/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/389.95.png"
+  },
+  {
+    "Pokemon": "Bronzong",
+    "Coleção": "Turbo Revolução",
+    "Número": "96/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/369.96.png"
+  },
+  {
+    "Pokemon": "Mr. Mime",
+    "Coleção": "Turbo Revolução",
+    "Número": "97/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/514.97.png"
+  },
+  {
+    "Pokemon": "Snubbull",
+    "Coleção": "Turbo Revolução",
+    "Número": "98/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/223.98.png"
+  },
+  {
+    "Pokemon": "Granbull",
+    "Coleção": "Turbo Revolução",
+    "Número": "99/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/179.99.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Turbo Revolução",
+    "Número": "100/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/74.100.png"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Turbo Revolução",
+    "Número": "101/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1960.101.png"
+  },
+  {
+    "Pokemon": "Floette",
+    "Coleção": "Turbo Revolução",
+    "Número": "102/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1961.102.png"
+  },
+  {
+    "Pokemon": "Florges",
+    "Coleção": "Turbo Revolução",
+    "Número": "103/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1962.103.png"
+  },
+  {
+    "Pokemon": "Florges TURBO",
+    "Coleção": "Turbo Revolução",
+    "Número": "104/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3917.104.png"
+  },
+  {
+    "Pokemon": "Spritzee",
+    "Coleção": "Turbo Revolução",
+    "Número": "105/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/617.105.png"
+  },
+  {
+    "Pokemon": "Aromatisse",
+    "Coleção": "Turbo Revolução",
+    "Número": "106/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/618.106.png"
+  },
+  {
+    "Pokemon": "Xerneas",
+    "Coleção": "Turbo Revolução",
+    "Número": "107/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/621.107.png"
+  },
+  {
+    "Pokemon": "Axew",
+    "Coleção": "Turbo Revolução",
+    "Número": "108/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/829.108.png"
+  },
+  {
+    "Pokemon": "Axew",
+    "Coleção": "Turbo Revolução",
+    "Número": "109/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/829.109.png"
+  },
+  {
+    "Pokemon": "Fraxure",
+    "Coleção": "Turbo Revolução",
+    "Número": "110/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/830.110.png"
+  },
+  {
+    "Pokemon": "Haxorus",
+    "Coleção": "Turbo Revolução",
+    "Número": "111/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/738.111.png"
+  },
+  {
+    "Pokemon": "Noivern",
+    "Coleção": "Turbo Revolução",
+    "Número": "112/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1661.112.png"
+  },
+  {
+    "Pokemon": "Noivern TURBO",
+    "Coleção": "Turbo Revolução",
+    "Número": "113/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3918.113.png"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Turbo Revolução",
+    "Número": "114/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/532.114.png"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Turbo Revolução",
+    "Número": "115/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/530.115.png"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Turbo Revolução",
+    "Número": "116/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/530.116.png"
+  },
+  {
+    "Pokemon": "Dodrio",
+    "Coleção": "Turbo Revolução",
+    "Número": "117/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/517.117.png"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Turbo Revolução",
+    "Número": "118/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/515.118.png"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Turbo Revolução",
+    "Número": "119/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1083.119.png"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Turbo Revolução",
+    "Número": "120/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1072.120.png"
+  },
+  {
+    "Pokemon": "Teddiursa",
+    "Coleção": "Turbo Revolução",
+    "Número": "121/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/128.121.png"
+  },
+  {
+    "Pokemon": "Ursaring",
+    "Coleção": "Turbo Revolução",
+    "Número": "122/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/129.122.png"
+  },
+  {
+    "Pokemon": "Smeargle",
+    "Coleção": "Turbo Revolução",
+    "Número": "123/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/303.123.png"
+  },
+  {
+    "Pokemon": "Swablu",
+    "Coleção": "Turbo Revolução",
+    "Número": "124/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/111.124.png"
+  },
+  {
+    "Pokemon": "Starly",
+    "Coleção": "Turbo Revolução",
+    "Número": "125/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/400.125.png"
+  },
+  {
+    "Pokemon": "Staravia",
+    "Coleção": "Turbo Revolução",
+    "Número": "126/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/385.126.png"
+  },
+  {
+    "Pokemon": "Staraptor",
+    "Coleção": "Turbo Revolução",
+    "Número": "127/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/685.127.png"
+  },
+  {
+    "Pokemon": "Chatot",
+    "Coleção": "Turbo Revolução",
+    "Número": "128/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/390.128.png"
+  },
+  {
+    "Pokemon": "Rufflet",
+    "Coleção": "Turbo Revolução",
+    "Número": "129/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1549.129.png"
+  },
+  {
+    "Pokemon": "Braviary",
+    "Coleção": "Turbo Revolução",
+    "Número": "130/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1550.130.png"
+  },
+  {
+    "Pokemon": "Noibat",
+    "Coleção": "Turbo Revolução",
+    "Número": "131/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1664.131.png"
+  },
+  {
+    "Pokemon": "Noibat",
+    "Coleção": "Turbo Revolução",
+    "Número": "132/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1664.132.png"
+  },
+  {
+    "Pokemon": "Colete de Ataque",
+    "Coleção": "Turbo Revolução",
+    "Número": "133/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3919.133.png"
+  },
+  {
+    "Pokemon": "Brigette",
+    "Coleção": "Turbo Revolução",
+    "Número": "134/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3920.134.png"
+  },
+  {
+    "Pokemon": "Resgate de Colega",
+    "Coleção": "Turbo Revolução",
+    "Número": "135/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3921.135.png"
+  },
+  {
+    "Pokemon": "Pescador",
+    "Coleção": "Turbo Revolução",
+    "Número": "136/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1085.136.png"
+  },
+  {
+    "Pokemon": "Pedra Flutuante",
+    "Coleção": "Turbo Revolução",
+    "Número": "137/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1110.137.png"
+  },
+  {
+    "Pokemon": "Esquema do Giovanni",
+    "Coleção": "Turbo Revolução",
+    "Número": "138/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3922.138.png"
+  },
+  {
+    "Pokemon": "Esquema do Giovanni - Promo",
+    "Coleção": "Turbo Revolução",
+    "Número": "138",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/5283s_138b.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Glalie",
+    "Coleção": "Turbo Revolução",
+    "Número": "139/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3923.139.png"
+  },
+  {
+    "Pokemon": "Bola Pesada",
+    "Coleção": "Turbo Revolução",
+    "Número": "140/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1423.140.png"
+  },
+  {
+    "Pokemon": "Botas Pesadas",
+    "Coleção": "Turbo Revolução",
+    "Número": "141/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3924.141.png"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Houndoom",
+    "Coleção": "Turbo Revolução",
+    "Número": "142/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3925.142.png"
+  },
+  {
+    "Pokemon": "Juiz",
+    "Coleção": "Turbo Revolução",
+    "Número": "143/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1405.143.png"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Mewtwo",
+    "Coleção": "Turbo Revolução",
+    "Número": "144/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3926.144.png"
+  },
+  {
+    "Pokemon": "Cidade Paralela",
+    "Coleção": "Turbo Revolução",
+    "Número": "145/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3927.145.png"
+  },
+  {
+    "Pokemon": "Carta do Professor",
+    "Coleção": "Turbo Revolução",
+    "Número": "146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/4850s_146a.jpg"
+  },
+  {
+    "Pokemon": "Carta do Professor",
+    "Coleção": "Turbo Revolução",
+    "Número": "146/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/642.146.png"
+  },
+  {
+    "Pokemon": "Tíquete Reservado",
+    "Coleção": "Turbo Revolução",
+    "Número": "147/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3928.147.png"
+  },
+  {
+    "Pokemon": "Skyla",
+    "Coleção": "Turbo Revolução",
+    "Número": "148/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1947.148.png"
+  },
+  {
+    "Pokemon": "Supervara",
+    "Coleção": "Turbo Revolução",
+    "Número": "149/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/835.149.png"
+  },
+  {
+    "Pokemon": "Mapa da Cidade",
+    "Coleção": "Turbo Revolução",
+    "Número": "150/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/1948.150.png"
+  },
+  {
+    "Pokemon": "Energia Ardente",
+    "Coleção": "Turbo Revolução",
+    "Número": "151/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3929.151.png"
+  },
+  {
+    "Pokemon": "Energia Arco-Íris",
+    "Coleção": "Turbo Revolução",
+    "Número": "152/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/469.152.png"
+  },
+  {
+    "Pokemon": "Houndoom-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "153/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3909.153.png"
+  },
+  {
+    "Pokemon": "M Houndoom-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "154/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3910.154.png"
+  },
+  {
+    "Pokemon": "Glalie-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "155/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3911.155.png"
+  },
+  {
+    "Pokemon": "M Glalie-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "156/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3912.156.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "157/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.157.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "158/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.158.png"
+  },
+  {
+    "Pokemon": "M Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "159/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3914.159.png"
+  },
+  {
+    "Pokemon": "M Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "160/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3914.160.png"
+  },
+  {
+    "Pokemon": "Brigette",
+    "Coleção": "Turbo Revolução",
+    "Número": "161/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3920.161.png"
+  },
+  {
+    "Pokemon": "Esquema do Giovanni",
+    "Coleção": "Turbo Revolução",
+    "Número": "162/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/3922.162.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "163/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.163.png"
+  },
+  {
+    "Pokemon": "Mewtwo-EX",
+    "Coleção": "Turbo Revolução",
+    "Número": "164/162",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/69.164.png"
+  }
+]

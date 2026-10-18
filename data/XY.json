@@ -1,0 +1,908 @@
+[
+  {
+    "Pokemon": "Venusaur-EX",
+    "Coleção": "XY",
+    "Número": "1/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2388.1.png"
+  },
+  {
+    "Pokemon": "M Venusaur-EX",
+    "Coleção": "XY",
+    "Número": "2/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/564.png"
+  },
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "XY",
+    "Número": "3/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/229.png"
+  },
+  {
+    "Pokemon": "Kakuna",
+    "Coleção": "XY",
+    "Número": "4/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/212.png"
+  },
+  {
+    "Pokemon": "Beedrill",
+    "Coleção": "XY",
+    "Número": "5/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/155.png"
+  },
+  {
+    "Pokemon": "Ledyba",
+    "Coleção": "XY",
+    "Número": "6/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/565.png"
+  },
+  {
+    "Pokemon": "Ledian",
+    "Coleção": "XY",
+    "Número": "7/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/566.png"
+  },
+  {
+    "Pokemon": "Volbeat",
+    "Coleção": "XY",
+    "Número": "8/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/228.png"
+  },
+  {
+    "Pokemon": "Illumise",
+    "Coleção": "XY",
+    "Número": "9/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/210.png"
+  },
+  {
+    "Pokemon": "Pansage",
+    "Coleção": "XY",
+    "Número": "10/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/567.png"
+  },
+  {
+    "Pokemon": "Simisage",
+    "Coleção": "XY",
+    "Número": "11/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/568.png"
+  },
+  {
+    "Pokemon": "Chespin",
+    "Coleção": "XY",
+    "Número": "12/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/569.png"
+  },
+  {
+    "Pokemon": "Quilladin",
+    "Coleção": "XY",
+    "Número": "13/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/570.png"
+  },
+  {
+    "Pokemon": "Chesnaught",
+    "Coleção": "XY",
+    "Número": "14/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/571.png"
+  },
+  {
+    "Pokemon": "Scatterbug",
+    "Coleção": "XY",
+    "Número": "15/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/572.png"
+  },
+  {
+    "Pokemon": "Spewpa",
+    "Coleção": "XY",
+    "Número": "16/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/573.png"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870b956994-u3ce8-06p45-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870b787568-8p7io-mzxoh-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870beb1624-51uds-njzth-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870bb1585f-du60f-hyzkp-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17/146",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870b5b1ba7-8jolv-uero4-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "XY",
+    "Número": "17",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/7/68c870bce0093-rlfjz-v5nc7-92c0ffac162388702954e5e94def34b3.jpg"
+  },
+  {
+    "Pokemon": "Skiddo",
+    "Coleção": "XY",
+    "Número": "18/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/575.png"
+  },
+  {
+    "Pokemon": "Gogoat",
+    "Coleção": "XY",
+    "Número": "19/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/576.png"
+  },
+  {
+    "Pokemon": "Slugma",
+    "Coleção": "XY",
+    "Número": "20/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/222.png"
+  },
+  {
+    "Pokemon": "Magcargo",
+    "Coleção": "XY",
+    "Número": "21/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/185.png"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "XY",
+    "Número": "22/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/577.png"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "XY",
+    "Número": "23/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/578.png"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "XY",
+    "Número": "24/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/579.png"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "XY",
+    "Número": "25/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/580.png"
+  },
+  {
+    "Pokemon": "Delphox",
+    "Coleção": "XY",
+    "Número": "26/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/581.png"
+  },
+  {
+    "Pokemon": "Fletchinder",
+    "Coleção": "XY",
+    "Número": "27/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/582.png"
+  },
+  {
+    "Pokemon": "Talonflame",
+    "Coleção": "XY",
+    "Número": "28/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/583.png"
+  },
+  {
+    "Pokemon": "Blastoise-EX",
+    "Coleção": "XY",
+    "Número": "29/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2381.29.png"
+  },
+  {
+    "Pokemon": "M Blastoise-EX",
+    "Coleção": "XY",
+    "Número": "30/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/585.png"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "XY",
+    "Número": "31/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/338.png"
+  },
+  {
+    "Pokemon": "Cloyster",
+    "Coleção": "XY",
+    "Número": "32/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/288.png"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "XY",
+    "Número": "33/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/497.png"
+  },
+  {
+    "Pokemon": "Starmie",
+    "Coleção": "XY",
+    "Número": "34/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/486.png"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "XY",
+    "Número": "35/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/163.png"
+  },
+  {
+    "Pokemon": "Corsola",
+    "Coleção": "XY",
+    "Número": "36/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/320.png"
+  },
+  {
+    "Pokemon": "Panpour",
+    "Coleção": "XY",
+    "Número": "37/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/586.png"
+  },
+  {
+    "Pokemon": "Simipour",
+    "Coleção": "XY",
+    "Número": "38/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/587.png"
+  },
+  {
+    "Pokemon": "Froakie",
+    "Coleção": "XY",
+    "Número": "39/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/588.png"
+  },
+  {
+    "Pokemon": "Frogadier",
+    "Coleção": "XY",
+    "Número": "40/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/589.png"
+  },
+  {
+    "Pokemon": "Greninja",
+    "Coleção": "XY",
+    "Número": "41/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/590.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "XY",
+    "Número": "42/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/15.png"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "XY",
+    "Número": "43/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/3.png"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "XY",
+    "Número": "44/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/349.png"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "XY",
+    "Número": "45/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/271.png"
+  },
+  {
+    "Pokemon": "Emolga-EX",
+    "Coleção": "XY",
+    "Número": "46/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2379.46.png"
+  },
+  {
+    "Pokemon": "Ekans",
+    "Coleção": "XY",
+    "Número": "47/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/205.png"
+  },
+  {
+    "Pokemon": "Arbok",
+    "Coleção": "XY",
+    "Número": "48/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/175.png"
+  },
+  {
+    "Pokemon": "Spoink",
+    "Coleção": "XY",
+    "Número": "49/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/592.png"
+  },
+  {
+    "Pokemon": "Grumpig",
+    "Coleção": "XY",
+    "Número": "50/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/593.png"
+  },
+  {
+    "Pokemon": "Venipede",
+    "Coleção": "XY",
+    "Número": "51/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/594.png"
+  },
+  {
+    "Pokemon": "Whirlipede",
+    "Coleção": "XY",
+    "Número": "52/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/595.png"
+  },
+  {
+    "Pokemon": "Scolipede",
+    "Coleção": "XY",
+    "Número": "53/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/596.png"
+  },
+  {
+    "Pokemon": "Phantump",
+    "Coleção": "XY",
+    "Número": "54/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/597.png"
+  },
+  {
+    "Pokemon": "Trevenant",
+    "Coleção": "XY",
+    "Número": "55/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/598.png"
+  },
+  {
+    "Pokemon": "Pumpkaboo",
+    "Coleção": "XY",
+    "Número": "56/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/599.png"
+  },
+  {
+    "Pokemon": "Gourgeist",
+    "Coleção": "XY",
+    "Número": "57/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/600.png"
+  },
+  {
+    "Pokemon": "Diglett",
+    "Coleção": "XY",
+    "Número": "58/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/321.png"
+  },
+  {
+    "Pokemon": "Dugtrio",
+    "Coleção": "XY",
+    "Número": "59/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/269.png"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "XY",
+    "Número": "60/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/536.png"
+  },
+  {
+    "Pokemon": "Rhydon",
+    "Coleção": "XY",
+    "Número": "61/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/525.png"
+  },
+  {
+    "Pokemon": "Rhyperior",
+    "Coleção": "XY",
+    "Número": "62/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/601.png"
+  },
+  {
+    "Pokemon": "Lunatone",
+    "Coleção": "XY",
+    "Número": "63/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/215.png"
+  },
+  {
+    "Pokemon": "Solrock",
+    "Coleção": "XY",
+    "Número": "64/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/224.png"
+  },
+  {
+    "Pokemon": "Timburr",
+    "Coleção": "XY",
+    "Número": "65/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/602.png"
+  },
+  {
+    "Pokemon": "Gurdurr",
+    "Coleção": "XY",
+    "Número": "66/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/603.png"
+  },
+  {
+    "Pokemon": "Conkeldurr",
+    "Coleção": "XY",
+    "Número": "67/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/604.png"
+  },
+  {
+    "Pokemon": "Sableye",
+    "Coleção": "XY",
+    "Número": "68/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/76.png"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "XY",
+    "Número": "69/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/247.png"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "XY",
+    "Número": "70/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/605.png"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "XY",
+    "Número": "71/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/606.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "XY",
+    "Número": "72/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/100.png"
+  },
+  {
+    "Pokemon": "Zoroark",
+    "Coleção": "XY",
+    "Número": "73/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/101.png"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "XY",
+    "Número": "74/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2384.74.png"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "XY",
+    "Número": "75/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2385.75.png"
+  },
+  {
+    "Pokemon": "Malamar",
+    "Coleção": "XY",
+    "Número": "76/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2390.76.png"
+  },
+  {
+    "Pokemon": "Malamar",
+    "Coleção": "XY",
+    "Número": "77/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2391.77.png"
+  },
+  {
+    "Pokemon": "Yveltal",
+    "Coleção": "XY",
+    "Número": "78/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/609.png"
+  },
+  {
+    "Pokemon": "Yveltal-EX",
+    "Coleção": "XY",
+    "Número": "79/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2375.79.png"
+  },
+  {
+    "Pokemon": "Skarmory-EX",
+    "Coleção": "XY",
+    "Número": "80/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2383.80.png"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "XY",
+    "Número": "81/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/612.png"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "XY",
+    "Número": "82/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/613.png"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "XY",
+    "Número": "83/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/614.png"
+  },
+  {
+    "Pokemon": "Doublade",
+    "Coleção": "XY",
+    "Número": "84/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/615.png"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "XY",
+    "Número": "85/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2372.85.png"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "XY",
+    "Número": "86/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2373.86.png"
+  },
+  {
+    "Pokemon": "Jigglypuff",
+    "Coleção": "XY",
+    "Número": "87/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2370.87.png"
+  },
+  {
+    "Pokemon": "Jigglypuff",
+    "Coleção": "XY",
+    "Número": "88/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2371.88.png"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "XY",
+    "Número": "89/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2386.89.png"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "XY",
+    "Número": "90/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2387.90.png"
+  },
+  {
+    "Pokemon": "Mr. Mime",
+    "Coleção": "XY",
+    "Número": "91/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/514.png"
+  },
+  {
+    "Pokemon": "Spritzee",
+    "Coleção": "XY",
+    "Número": "92/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/617.png"
+  },
+  {
+    "Pokemon": "Aromatisse",
+    "Coleção": "XY",
+    "Número": "93/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/618.png"
+  },
+  {
+    "Pokemon": "Swirlix",
+    "Coleção": "XY",
+    "Número": "94/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/619.png"
+  },
+  {
+    "Pokemon": "Slurpuff",
+    "Coleção": "XY",
+    "Número": "95/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/620.png"
+  },
+  {
+    "Pokemon": "Xerneas",
+    "Coleção": "XY",
+    "Número": "96/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/621.png"
+  },
+  {
+    "Pokemon": "Xerneas-EX",
+    "Coleção": "XY",
+    "Número": "97/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2377.97.png"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "XY",
+    "Número": "98/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/530.png"
+  },
+  {
+    "Pokemon": "Dodrio",
+    "Coleção": "XY",
+    "Número": "99/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/517.png"
+  },
+  {
+    "Pokemon": "Tauros",
+    "Coleção": "XY",
+    "Número": "100/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/527.png"
+  },
+  {
+    "Pokemon": "Dunsparce",
+    "Coleção": "XY",
+    "Número": "101/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/436.png"
+  },
+  {
+    "Pokemon": "Taillow",
+    "Coleção": "XY",
+    "Número": "102/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/623.png"
+  },
+  {
+    "Pokemon": "Swellow",
+    "Coleção": "XY",
+    "Número": "103/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/624.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "XY",
+    "Número": "104/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/455.png"
+  },
+  {
+    "Pokemon": "Delcatty",
+    "Coleção": "XY",
+    "Número": "105/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/424.png"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "XY",
+    "Número": "106/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/625.png"
+  },
+  {
+    "Pokemon": "Bibarel",
+    "Coleção": "XY",
+    "Número": "107/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/626.png"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "XY",
+    "Número": "108/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/627.png"
+  },
+  {
+    "Pokemon": "Herdier",
+    "Coleção": "XY",
+    "Número": "109/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/628.png"
+  },
+  {
+    "Pokemon": "Stoutland",
+    "Coleção": "XY",
+    "Número": "110/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/629.png"
+  },
+  {
+    "Pokemon": "Bunnelby",
+    "Coleção": "XY",
+    "Número": "111/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/630.png"
+  },
+  {
+    "Pokemon": "Diggersby",
+    "Coleção": "XY",
+    "Número": "112/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/631.png"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "XY",
+    "Número": "113/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/632.png"
+  },
+  {
+    "Pokemon": "Furfrou",
+    "Coleção": "XY",
+    "Número": "114/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/633.png"
+  },
+  {
+    "Pokemon": "Cassius",
+    "Coleção": "XY",
+    "Número": "115/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/634.png"
+  },
+  {
+    "Pokemon": "Evosoda",
+    "Coleção": "XY",
+    "Número": "116/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/635.png"
+  },
+  {
+    "Pokemon": "Jardim das Fadas",
+    "Coleção": "XY",
+    "Número": "117/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/636.png"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "XY",
+    "Número": "118/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/637.png"
+  },
+  {
+    "Pokemon": "Encanto Severo",
+    "Coleção": "XY",
+    "Número": "119/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/638.png"
+  },
+  {
+    "Pokemon": "Máximo Reviver",
+    "Coleção": "XY",
+    "Número": "120/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/639.png"
+  },
+  {
+    "Pokemon": "Faixa Musculosa",
+    "Coleção": "XY",
+    "Número": "121/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/640.png"
+  },
+  {
+    "Pokemon": "Professor Sycamore",
+    "Coleção": "XY",
+    "Número": "122/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/641.png"
+  },
+  {
+    "Pokemon": "Carta do Professor",
+    "Coleção": "XY",
+    "Número": "123/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/642.png"
+  },
+  {
+    "Pokemon": "Cartão Vermelho",
+    "Coleção": "XY",
+    "Número": "124/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/643.png"
+  },
+  {
+    "Pokemon": "Patins",
+    "Coleção": "XY",
+    "Número": "125/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/644.png"
+  },
+  {
+    "Pokemon": "Círculo das Sombras",
+    "Coleção": "XY",
+    "Número": "126/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/645.png"
+  },
+  {
+    "Pokemon": "Shauna",
+    "Coleção": "XY",
+    "Número": "127/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/646.png"
+  },
+  {
+    "Pokemon": "Super Poção",
+    "Coleção": "XY",
+    "Número": "128/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/553.png"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Flare",
+    "Coleção": "XY",
+    "Número": "129/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/647.png"
+  },
+  {
+    "Pokemon": "Energia Incolor Dupla",
+    "Coleção": "XY",
+    "Número": "130/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/121.png"
+  },
+  {
+    "Pokemon": "Energia Arco-Íris",
+    "Coleção": "XY",
+    "Número": "131/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/469.png"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "XY",
+    "Número": "132/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/559.png"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "XY",
+    "Número": "133/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/558.png"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "XY",
+    "Número": "134/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/562.png"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "XY",
+    "Número": "135/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/560.png"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "XY",
+    "Número": "136/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/561.png"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "XY",
+    "Número": "137/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/557.png"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "XY",
+    "Número": "138/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/361.png"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "XY",
+    "Número": "139/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/362.png"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "XY",
+    "Número": "140/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/648.png"
+  },
+  {
+    "Pokemon": "Venusaur-EX",
+    "Coleção": "XY",
+    "Número": "141/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2389.141.png"
+  },
+  {
+    "Pokemon": "Blastoise-EX",
+    "Coleção": "XY",
+    "Número": "142/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2380.142.png"
+  },
+  {
+    "Pokemon": "Emolga-EX",
+    "Coleção": "XY",
+    "Número": "143/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2378.143.png"
+  },
+  {
+    "Pokemon": "Yveltal-EX",
+    "Coleção": "XY",
+    "Número": "144/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2374.144.png"
+  },
+  {
+    "Pokemon": "Skarmory-EX",
+    "Coleção": "XY",
+    "Número": "145/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2382.145.png"
+  },
+  {
+    "Pokemon": "Xerneas-EX",
+    "Coleção": "XY",
+    "Número": "146/146",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/2376.146.png"
+  }
+]

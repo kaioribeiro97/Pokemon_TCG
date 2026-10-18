@@ -1,0 +1,704 @@
+[
+  {
+    "Pokemon": "Venusaur-EX",
+    "Coleção": "Gerações",
+    "Número": "1/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/563.1.jpg"
+  },
+  {
+    "Pokemon": "M Venusaur-EX",
+    "Coleção": "Gerações",
+    "Número": "2/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/564.2.jpg"
+  },
+  {
+    "Pokemon": "Caterpie",
+    "Coleção": "Gerações",
+    "Número": "3/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/201.3.jpg"
+  },
+  {
+    "Pokemon": "Metapod",
+    "Coleção": "Gerações",
+    "Número": "4/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/186.4.jpg"
+  },
+  {
+    "Pokemon": "Butterfree",
+    "Coleção": "Gerações",
+    "Número": "5/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/156.5.jpg"
+  },
+  {
+    "Pokemon": "Paras",
+    "Coleção": "Gerações",
+    "Número": "6/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/495.6.jpg"
+  },
+  {
+    "Pokemon": "Parasect",
+    "Coleção": "Gerações",
+    "Número": "7/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/489.7.jpg"
+  },
+  {
+    "Pokemon": "Tangela",
+    "Coleção": "Gerações",
+    "Número": "8/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/18.8.jpg"
+  },
+  {
+    "Pokemon": "Pinsir",
+    "Coleção": "Gerações",
+    "Número": "9/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/297.9.jpg"
+  },
+  {
+    "Pokemon": "Leafeon-EX",
+    "Coleção": "Gerações",
+    "Número": "10/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4023.10.jpg"
+  },
+  {
+    "Pokemon": "Charizard-EX",
+    "Coleção": "Gerações",
+    "Número": "11/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1680.11.jpg"
+  },
+  {
+    "Pokemon": "M Charizard-EX",
+    "Coleção": "Gerações",
+    "Número": "12/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1952.12.jpg"
+  },
+  {
+    "Pokemon": "Ninetales-EX",
+    "Coleção": "Gerações",
+    "Número": "13/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4024.13.jpg"
+  },
+  {
+    "Pokemon": "Ponyta",
+    "Coleção": "Gerações",
+    "Número": "14/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/694.14.jpg"
+  },
+  {
+    "Pokemon": "Rapidash",
+    "Coleção": "Gerações",
+    "Número": "15/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/683.15.jpg"
+  },
+  {
+    "Pokemon": "Magmar",
+    "Coleção": "Gerações",
+    "Número": "16/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/328.16.jpg"
+  },
+  {
+    "Pokemon": "Blastoise-EX",
+    "Coleção": "Gerações",
+    "Número": "17/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/584.17.jpg"
+  },
+  {
+    "Pokemon": "M Blastoise-EX",
+    "Coleção": "Gerações",
+    "Número": "18/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/585.18.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Gerações",
+    "Número": "19/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/338.19.jpg"
+  },
+  {
+    "Pokemon": "Cloyster",
+    "Coleção": "Gerações",
+    "Número": "20/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/288.20.jpg"
+  },
+  {
+    "Pokemon": "Krabby",
+    "Coleção": "Gerações",
+    "Número": "21/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/214.21.jpg"
+  },
+  {
+    "Pokemon": "Magikarp",
+    "Coleção": "Gerações",
+    "Número": "22/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/46.22.jpg"
+  },
+  {
+    "Pokemon": "Gyarados",
+    "Coleção": "Gerações",
+    "Número": "23/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/47.23.jpg"
+  },
+  {
+    "Pokemon": "Vaporeon-EX",
+    "Coleção": "Gerações",
+    "Número": "24/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4025.24.jpg"
+  },
+  {
+    "Pokemon": "Articuno",
+    "Coleção": "Gerações",
+    "Número": "25/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/48.25.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Gerações",
+    "Número": "26/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/15.26.jpg"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Gerações",
+    "Número": "27/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/3.27.jpg"
+  },
+  {
+    "Pokemon": "Jolteon-EX",
+    "Coleção": "Gerações",
+    "Número": "28",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4026.28a.jpg"
+  },
+  {
+    "Pokemon": "Jolteon-EX",
+    "Coleção": "Gerações",
+    "Número": "28/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4026.28.jpg"
+  },
+  {
+    "Pokemon": "Zapdos",
+    "Coleção": "Gerações",
+    "Número": "29/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/61.29.jpg"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Gerações",
+    "Número": "30/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/499.30.jpg"
+  },
+  {
+    "Pokemon": "Golbat",
+    "Coleção": "Gerações",
+    "Número": "31/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/487.31.jpg"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Gerações",
+    "Número": "32/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/221.32.jpg"
+  },
+  {
+    "Pokemon": "Gastly",
+    "Coleção": "Gerações",
+    "Número": "33/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/448.33.jpg"
+  },
+  {
+    "Pokemon": "Haunter",
+    "Coleção": "Gerações",
+    "Número": "34/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/438.34.jpg"
+  },
+  {
+    "Pokemon": "Gengar",
+    "Coleção": "Gerações",
+    "Número": "35/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/425.35.jpg"
+  },
+  {
+    "Pokemon": "Jynx",
+    "Coleção": "Gerações",
+    "Número": "36/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/275.36.jpg"
+  },
+  {
+    "Pokemon": "Meowstic-EX",
+    "Coleção": "Gerações",
+    "Número": "37/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4027.37.jpg"
+  },
+  {
+    "Pokemon": "Diglett",
+    "Coleção": "Gerações",
+    "Número": "38/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/321.38.jpg"
+  },
+  {
+    "Pokemon": "Dugtrio",
+    "Coleção": "Gerações",
+    "Número": "39/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/269.39.jpg"
+  },
+  {
+    "Pokemon": "Machop",
+    "Coleção": "Gerações",
+    "Número": "40/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/451.40.jpg"
+  },
+  {
+    "Pokemon": "Machoke",
+    "Coleção": "Gerações",
+    "Número": "41/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/440.41.jpg"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Gerações",
+    "Número": "42/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/426.42.jpg"
+  },
+  {
+    "Pokemon": "Geodude",
+    "Coleção": "Gerações",
+    "Número": "43/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/449.43.jpg"
+  },
+  {
+    "Pokemon": "Graveler",
+    "Coleção": "Gerações",
+    "Número": "44/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/437.44.jpg"
+  },
+  {
+    "Pokemon": "Golem",
+    "Coleção": "Gerações",
+    "Número": "45/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/274.45.jpg"
+  },
+  {
+    "Pokemon": "Golem-EX",
+    "Coleção": "Gerações",
+    "Número": "46/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4028.46.jpg"
+  },
+  {
+    "Pokemon": "Hitmonlee",
+    "Coleção": "Gerações",
+    "Número": "47/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1139.47.jpg"
+  },
+  {
+    "Pokemon": "Hitmonchan",
+    "Coleção": "Gerações",
+    "Número": "48/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/510.48.jpg"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Gerações",
+    "Número": "49/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/536.49.jpg"
+  },
+  {
+    "Pokemon": "Clefairy",
+    "Coleção": "Gerações",
+    "Número": "50/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/319.50.jpg"
+  },
+  {
+    "Pokemon": "Clefable",
+    "Coleção": "Gerações",
+    "Número": "51/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/509.51.jpg"
+  },
+  {
+    "Pokemon": "Mr. Mime",
+    "Coleção": "Gerações",
+    "Número": "52/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/514.52.jpg"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Gerações",
+    "Número": "53/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/532.53.jpg"
+  },
+  {
+    "Pokemon": "Persian",
+    "Coleção": "Gerações",
+    "Número": "54/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/523.54.jpg"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Gerações",
+    "Número": "55/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/530.55.jpg"
+  },
+  {
+    "Pokemon": "Dodrio",
+    "Coleção": "Gerações",
+    "Número": "56/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/517.56.jpg"
+  },
+  {
+    "Pokemon": "Tauros",
+    "Coleção": "Gerações",
+    "Número": "57/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/527.57.jpg"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Gerações",
+    "Número": "58/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/515.58.jpg"
+  },
+  {
+    "Pokemon": "Clemont",
+    "Coleção": "Gerações",
+    "Número": "59/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4029.59.jpg"
+  },
+  {
+    "Pokemon": "Martelo Esmagador",
+    "Coleção": "Gerações",
+    "Número": "60/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/119.60.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Gerações",
+    "Número": "61/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/120.61.jpg"
+  },
+  {
+    "Pokemon": "Evosoda",
+    "Coleção": "Gerações",
+    "Número": "62/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/635.62.jpg"
+  },
+  {
+    "Pokemon": "Imakuni?",
+    "Coleção": "Gerações",
+    "Número": "63/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4030.63.jpg"
+  },
+  {
+    "Pokemon": "Manutenção",
+    "Coleção": "Gerações",
+    "Número": "64/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/549.64.jpg"
+  },
+  {
+    "Pokemon": "Máximo Reviver",
+    "Coleção": "Gerações",
+    "Número": "65/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/639.65.jpg"
+  },
+  {
+    "Pokemon": "Olympia",
+    "Coleção": "Gerações",
+    "Número": "66/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4031.66.jpg"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Gerações",
+    "Número": "67/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/408.67.jpg"
+  },
+  {
+    "Pokemon": "Dama do Centro Pokémon",
+    "Coleção": "Gerações",
+    "Número": "68/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1969.68.jpg"
+  },
+  {
+    "Pokemon": "Fã Clube Pokémon",
+    "Coleção": "Gerações",
+    "Número": "69/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/861.69.jpg"
+  },
+  {
+    "Pokemon": "Revitalizador",
+    "Coleção": "Gerações",
+    "Número": "70/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4032.70.jpg"
+  },
+  {
+    "Pokemon": "Cartão Vermelho",
+    "Coleção": "Gerações",
+    "Número": "71/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/643.71.jpg"
+  },
+  {
+    "Pokemon": "Shauna",
+    "Coleção": "Gerações",
+    "Número": "72/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/646.72.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Flare",
+    "Coleção": "Gerações",
+    "Número": "73",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/647.73a.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Flare",
+    "Coleção": "Gerações",
+    "Número": "73/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/647.73.jpg"
+  },
+  {
+    "Pokemon": "Energia Incolor Dupla",
+    "Coleção": "Gerações",
+    "Número": "74/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/121.74.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Gerações",
+    "Número": "75/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/559.75.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Gerações",
+    "Número": "76/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/558.76.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Gerações",
+    "Número": "77/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/562.77.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Gerações",
+    "Número": "78/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/560.78.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Gerações",
+    "Número": "79/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/561.79.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Gerações",
+    "Número": "80/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/557.80.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Gerações",
+    "Número": "81/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/361.81.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Gerações",
+    "Número": "82/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/362.82.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "Gerações",
+    "Número": "83/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/648.83.jpg"
+  },
+  {
+    "Pokemon": "Chikorita",
+    "Coleção": "Gerações",
+    "Número": "1/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1081.RC1.jpg"
+  },
+  {
+    "Pokemon": "Shroomish",
+    "Coleção": "Gerações",
+    "Número": "2/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/341.RC2.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Gerações",
+    "Número": "3/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/33.RC3.jpg"
+  },
+  {
+    "Pokemon": "Charmeleon",
+    "Coleção": "Gerações",
+    "Número": "4/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/34.RC4.jpg"
+  },
+  {
+    "Pokemon": "Charizard",
+    "Coleção": "Gerações",
+    "Número": "5/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/35.RC5.jpg"
+  },
+  {
+    "Pokemon": "Flareon-EX",
+    "Coleção": "Gerações",
+    "Número": "6/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4033.RC6.jpg"
+  },
+  {
+    "Pokemon": "Snorunt",
+    "Coleção": "Gerações",
+    "Número": "7/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/764.RC7.jpg"
+  },
+  {
+    "Pokemon": "Froslass",
+    "Coleção": "Gerações",
+    "Número": "8/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/999.RC8.jpg"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Gerações",
+    "Número": "9/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/3.RC9.jpg"
+  },
+  {
+    "Pokemon": "Dedenne",
+    "Coleção": "Gerações",
+    "Número": "10/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1172.RC10.jpg"
+  },
+  {
+    "Pokemon": "Wobbuffet",
+    "Coleção": "Gerações",
+    "Número": "11/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/433.RC11.jpg"
+  },
+  {
+    "Pokemon": "Gulpin",
+    "Coleção": "Gerações",
+    "Número": "12/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1006.RC12.jpg"
+  },
+  {
+    "Pokemon": "Jirachi",
+    "Coleção": "Gerações",
+    "Número": "13/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/900.RC13.jpg"
+  },
+  {
+    "Pokemon": "Espurr",
+    "Coleção": "Gerações",
+    "Número": "14/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1957.RC14.jpg"
+  },
+  {
+    "Pokemon": "Meowstic",
+    "Coleção": "Gerações",
+    "Número": "15/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1690.RC15.jpg"
+  },
+  {
+    "Pokemon": "Yveltal",
+    "Coleção": "Gerações",
+    "Número": "16/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/609.RC16.jpg"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Gerações",
+    "Número": "17/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1960.RC17.jpg"
+  },
+  {
+    "Pokemon": "Floette",
+    "Coleção": "Gerações",
+    "Número": "18/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1961.RC18.jpg"
+  },
+  {
+    "Pokemon": "Swirlix",
+    "Coleção": "Gerações",
+    "Número": "19/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/619.RC19.jpg"
+  },
+  {
+    "Pokemon": "Slurpuff",
+    "Coleção": "Gerações",
+    "Número": "20/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/620.RC20.jpg"
+  },
+  {
+    "Pokemon": "Sylveon-EX",
+    "Coleção": "Gerações",
+    "Número": "21/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4034.RC21.jpg"
+  },
+  {
+    "Pokemon": "Diancie",
+    "Coleção": "Gerações",
+    "Número": "22/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1173.RC22.jpg"
+  },
+  {
+    "Pokemon": "Swablu",
+    "Coleção": "Gerações",
+    "Número": "23/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/111.RC23.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Gerações",
+    "Número": "24/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/103.RC24.jpg"
+  },
+  {
+    "Pokemon": "Fletchling",
+    "Coleção": "Gerações",
+    "Número": "25/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/632.RC25.jpg"
+  },
+  {
+    "Pokemon": "Coroa de Flores",
+    "Coleção": "Gerações",
+    "Número": "26/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4035.RC26.jpg"
+  },
+  {
+    "Pokemon": "Wally",
+    "Coleção": "Gerações",
+    "Número": "27/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1446.RC27.jpg"
+  },
+  {
+    "Pokemon": "Flareon-EX",
+    "Coleção": "Gerações",
+    "Número": "28/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4033.RC28.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Gerações",
+    "Número": "29/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/15.RC29.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-EX",
+    "Coleção": "Gerações",
+    "Número": "30/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1272.RC30.jpg"
+  },
+  {
+    "Pokemon": "M Gardevoir-EX",
+    "Coleção": "Gerações",
+    "Número": "31/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/1273.RC31.jpg"
+  },
+  {
+    "Pokemon": "Sylveon-EX",
+    "Coleção": "Gerações",
+    "Número": "32/83",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/4034.RC32.jpg"
+  }
+]

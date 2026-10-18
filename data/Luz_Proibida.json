@@ -1,0 +1,920 @@
+[
+  {
+    "Pokemon": "Exeggcute",
+    "Coleção": "Luz Proibida",
+    "Número": "1/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/531_1.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor de Alola",
+    "Coleção": "Luz Proibida",
+    "Número": "2",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4486_2a.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor de Alola",
+    "Coleção": "Luz Proibida",
+    "Número": "2/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4454_2.jpg"
+  },
+  {
+    "Pokemon": "Snover",
+    "Coleção": "Luz Proibida",
+    "Número": "3/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/696_3.jpg"
+  },
+  {
+    "Pokemon": "Abomasnow",
+    "Coleção": "Luz Proibida",
+    "Número": "4/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/679_4.jpg"
+  },
+  {
+    "Pokemon": "Scatterbug",
+    "Coleção": "Luz Proibida",
+    "Número": "5/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/572_5.jpg"
+  },
+  {
+    "Pokemon": "Scatterbug",
+    "Coleção": "Luz Proibida",
+    "Número": "6/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/572_6.jpg"
+  },
+  {
+    "Pokemon": "Spewpa",
+    "Coleção": "Luz Proibida",
+    "Número": "7/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/573_7.jpg"
+  },
+  {
+    "Pokemon": "Vivillion",
+    "Coleção": "Luz Proibida",
+    "Número": "8/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4586_8.jpg"
+  },
+  {
+    "Pokemon": "Vivillon",
+    "Coleção": "Luz Proibida",
+    "Número": "8/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/574_8.jpg"
+  },
+  {
+    "Pokemon": "Skiddo",
+    "Coleção": "Luz Proibida",
+    "Número": "9/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/575_9.jpg"
+  },
+  {
+    "Pokemon": "Gogoat",
+    "Coleção": "Luz Proibida",
+    "Número": "10/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/576_10.jpg"
+  },
+  {
+    "Pokemon": "Pheromosa",
+    "Coleção": "Luz Proibida",
+    "Número": "11/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4580_11.jpg"
+  },
+  {
+    "Pokemon": "Marowak de Alola",
+    "Coleção": "Luz Proibida",
+    "Número": "12/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4427_12.jpg"
+  },
+  {
+    "Pokemon": "Heatran",
+    "Coleção": "Luz Proibida",
+    "Número": "13/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1000_13.jpg"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Luz Proibida",
+    "Número": "14/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/579_14.jpg"
+  },
+  {
+    "Pokemon": "Fennekin",
+    "Coleção": "Luz Proibida",
+    "Número": "15/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/579_15.jpg"
+  },
+  {
+    "Pokemon": "Braixen",
+    "Coleção": "Luz Proibida",
+    "Número": "16/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/580_16.jpg"
+  },
+  {
+    "Pokemon": "Delphox",
+    "Coleção": "Luz Proibida",
+    "Número": "17/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/581_17.jpg"
+  },
+  {
+    "Pokemon": "Litleo",
+    "Coleção": "Luz Proibida",
+    "Número": "18/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1155_18.jpg"
+  },
+  {
+    "Pokemon": "Pyroar",
+    "Coleção": "Luz Proibida",
+    "Número": "19/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1156_19.jpg"
+  },
+  {
+    "Pokemon": "Palkia-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "20/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4477_20.jpg"
+  },
+  {
+    "Pokemon": "Froakie",
+    "Coleção": "Luz Proibida",
+    "Número": "21/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/588_21.jpg"
+  },
+  {
+    "Pokemon": "Froakie",
+    "Coleção": "Luz Proibida",
+    "Número": "22/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/588_22.jpg"
+  },
+  {
+    "Pokemon": "Frogadier",
+    "Coleção": "Luz Proibida",
+    "Número": "23/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/589_23.jpg"
+  },
+  {
+    "Pokemon": "Greninja-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "24/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4572_24.jpg"
+  },
+  {
+    "Pokemon": "Clauncher",
+    "Coleção": "Luz Proibida",
+    "Número": "25/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1648_25.jpg"
+  },
+  {
+    "Pokemon": "Clawitzer",
+    "Coleção": "Luz Proibida",
+    "Número": "26/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1649_26.jpg"
+  },
+  {
+    "Pokemon": "Amaura",
+    "Coleção": "Luz Proibida",
+    "Número": "27/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1650_27.jpg"
+  },
+  {
+    "Pokemon": "Aurorus",
+    "Coleção": "Luz Proibida",
+    "Número": "28/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1651_28.jpg"
+  },
+  {
+    "Pokemon": "Bergmite",
+    "Coleção": "Luz Proibida",
+    "Número": "29/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1953_29.jpg"
+  },
+  {
+    "Pokemon": "Avalugg",
+    "Coleção": "Luz Proibida",
+    "Número": "30/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1954_30.jpg"
+  },
+  {
+    "Pokemon": "Volcanion Estrela Prisma",
+    "Coleção": "Luz Proibida",
+    "Número": "31/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4587_31.jpg"
+  },
+  {
+    "Pokemon": "Dewpider",
+    "Coleção": "Luz Proibida",
+    "Número": "32/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4250_32.jpg"
+  },
+  {
+    "Pokemon": "Araquanid",
+    "Coleção": "Luz Proibida",
+    "Número": "33/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4235_33.jpg"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Luz Proibida",
+    "Número": "34/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/453_34.jpg"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Luz Proibida",
+    "Número": "35/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/431_35.jpg"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Luz Proibida",
+    "Número": "36/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/662_36.jpg"
+  },
+  {
+    "Pokemon": "Helioptile",
+    "Coleção": "Luz Proibida",
+    "Número": "37/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1159_37.jpg"
+  },
+  {
+    "Pokemon": "Heliolisk",
+    "Coleção": "Luz Proibida",
+    "Número": "38/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1160_38.jpg"
+  },
+  {
+    "Pokemon": "Xurkitree",
+    "Coleção": "Luz Proibida",
+    "Número": "39/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4589_39.jpg"
+  },
+  {
+    "Pokemon": "Rotom",
+    "Coleção": "Luz Proibida",
+    "Número": "40/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/5_40.jpg"
+  },
+  {
+    "Pokemon": "Uxie",
+    "Coleção": "Luz Proibida",
+    "Número": "41/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1124_41.jpg"
+  },
+  {
+    "Pokemon": "Mesprit",
+    "Coleção": "Luz Proibida",
+    "Número": "42/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1123_42.jpg"
+  },
+  {
+    "Pokemon": "Azelf",
+    "Coleção": "Luz Proibida",
+    "Número": "43/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1121_43.jpg"
+  },
+  {
+    "Pokemon": "Espurr",
+    "Coleção": "Luz Proibida",
+    "Número": "44/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1957_44.jpg"
+  },
+  {
+    "Pokemon": "Meowstic",
+    "Coleção": "Luz Proibida",
+    "Número": "45/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1690_45.jpg"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "Luz Proibida",
+    "Número": "46/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/614_46.jpg"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "Luz Proibida",
+    "Número": "47/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/614_47.jpg"
+  },
+  {
+    "Pokemon": "Doublade",
+    "Coleção": "Luz Proibida",
+    "Número": "48/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/615_48.jpg"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "Luz Proibida",
+    "Número": "49/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/616_49.jpg"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "Luz Proibida",
+    "Número": "50/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/607_50.jpg"
+  },
+  {
+    "Pokemon": "Malamar",
+    "Coleção": "Luz Proibida",
+    "Número": "51/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/608_51.jpg"
+  },
+  {
+    "Pokemon": "Skrelp",
+    "Coleção": "Luz Proibida",
+    "Número": "52/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1958_52.jpg"
+  },
+  {
+    "Pokemon": "Dragalge",
+    "Coleção": "Luz Proibida",
+    "Número": "53/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1679_53.jpg"
+  },
+  {
+    "Pokemon": "Hoopa",
+    "Coleção": "Luz Proibida",
+    "Número": "54/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4047_54.jpg"
+  },
+  {
+    "Pokemon": "Poipole",
+    "Coleção": "Luz Proibida",
+    "Número": "55/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4581_55.jpg"
+  },
+  {
+    "Pokemon": "Naganadel-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "56/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4579_56.jpg"
+  },
+  {
+    "Pokemon": "Cubone",
+    "Coleção": "Luz Proibida",
+    "Número": "57/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/529_57.jpg"
+  },
+  {
+    "Pokemon": "Torterra",
+    "Coleção": "Luz Proibida",
+    "Número": "58/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/375_58.jpg"
+  },
+  {
+    "Pokemon": "Infernape",
+    "Coleção": "Luz Proibida",
+    "Número": "59/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/372_59.jpg"
+  },
+  {
+    "Pokemon": "Gible",
+    "Coleção": "Luz Proibida",
+    "Número": "60/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/14_60.jpg"
+  },
+  {
+    "Pokemon": "Gabite",
+    "Coleção": "Luz Proibida",
+    "Número": "61/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/8_61.jpg"
+  },
+  {
+    "Pokemon": "Garchomp",
+    "Coleção": "Luz Proibida",
+    "Número": "62/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1_62.jpg"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Luz Proibida",
+    "Número": "63/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/7_63.jpg"
+  },
+  {
+    "Pokemon": "Toxicroak",
+    "Coleção": "Luz Proibida",
+    "Número": "64/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/77_64.jpg"
+  },
+  {
+    "Pokemon": "Pancham",
+    "Coleção": "Luz Proibida",
+    "Número": "65/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1654_65.jpg"
+  },
+  {
+    "Pokemon": "Binacle",
+    "Coleção": "Luz Proibida",
+    "Número": "66/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1429_66.jpg"
+  },
+  {
+    "Pokemon": "Barbaracle",
+    "Coleção": "Luz Proibida",
+    "Número": "67/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1959_67.jpg"
+  },
+  {
+    "Pokemon": "Tyrunt",
+    "Coleção": "Luz Proibida",
+    "Número": "68/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1655_68.jpg"
+  },
+  {
+    "Pokemon": "Tyrantrum",
+    "Coleção": "Luz Proibida",
+    "Número": "69/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1656_69.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Luz Proibida",
+    "Número": "70/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1430_70.jpg"
+  },
+  {
+    "Pokemon": "Zygarde",
+    "Coleção": "Luz Proibida",
+    "Número": "71/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4109_71.jpg"
+  },
+  {
+    "Pokemon": "Zygarde",
+    "Coleção": "Luz Proibida",
+    "Número": "72/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4109_72.jpg"
+  },
+  {
+    "Pokemon": "Zygarde-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "73/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4591_73.jpg"
+  },
+  {
+    "Pokemon": "Diancie Estrela Prisma",
+    "Coleção": "Luz Proibida",
+    "Número": "74/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4567_74.jpg"
+  },
+  {
+    "Pokemon": "Rockruff",
+    "Coleção": "Luz Proibida",
+    "Número": "75/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4314_75.jpg"
+  },
+  {
+    "Pokemon": "Lycanroc",
+    "Coleção": "Luz Proibida",
+    "Número": "76/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4383_76.jpg"
+  },
+  {
+    "Pokemon": "Buzzwole",
+    "Coleção": "Luz Proibida",
+    "Número": "77/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4565_77.jpg"
+  },
+  {
+    "Pokemon": "Pangoro",
+    "Coleção": "Luz Proibida",
+    "Número": "78/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1658_78.jpg"
+  },
+  {
+    "Pokemon": "Yveltal-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "79/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4590_79.jpg"
+  },
+  {
+    "Pokemon": "Guzzlord",
+    "Coleção": "Luz Proibida",
+    "Número": "80/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4573_80.jpg"
+  },
+  {
+    "Pokemon": "Empoleon",
+    "Coleção": "Luz Proibida",
+    "Número": "81/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/50_81.jpg"
+  },
+  {
+    "Pokemon": "Dialga-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "82/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4460_82.jpg"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Luz Proibida",
+    "Número": "83/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4570_83.jpg"
+  },
+  {
+    "Pokemon": "Flabébé",
+    "Coleção": "Luz Proibida",
+    "Número": "84/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4570_84.jpg"
+  },
+  {
+    "Pokemon": "Floette",
+    "Coleção": "Luz Proibida",
+    "Número": "85/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1961_85.jpg"
+  },
+  {
+    "Pokemon": "Florges",
+    "Coleção": "Luz Proibida",
+    "Número": "86/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1962_86.jpg"
+  },
+  {
+    "Pokemon": "Sylveon",
+    "Coleção": "Luz Proibida",
+    "Número": "87/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1659_87.jpg"
+  },
+  {
+    "Pokemon": "Dedenne",
+    "Coleção": "Luz Proibida",
+    "Número": "88/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1172_88.jpg"
+  },
+  {
+    "Pokemon": "Klefki",
+    "Coleção": "Luz Proibida",
+    "Número": "89/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1170_89.jpg"
+  },
+  {
+    "Pokemon": "Xerneas-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "90/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4588_90.jpg"
+  },
+  {
+    "Pokemon": "Goomy",
+    "Coleção": "Luz Proibida",
+    "Número": "91/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1174_91.jpg"
+  },
+  {
+    "Pokemon": "Goomy",
+    "Coleção": "Luz Proibida",
+    "Número": "92/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1174_92.jpg"
+  },
+  {
+    "Pokemon": "Sliggoo",
+    "Coleção": "Luz Proibida",
+    "Número": "93/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1175_93.jpg"
+  },
+  {
+    "Pokemon": "Goodra",
+    "Coleção": "Luz Proibida",
+    "Número": "94/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1176_94.jpg"
+  },
+  {
+    "Pokemon": "Ultra Necrozma-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "95/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4582_95.jpg"
+  },
+  {
+    "Pokemon": "Arceus Estrela Prisma",
+    "Coleção": "Luz Proibida",
+    "Número": "96/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4561_96.jpg"
+  },
+  {
+    "Pokemon": "Bunnelby",
+    "Coleção": "Luz Proibida",
+    "Número": "97/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/630_97.jpg"
+  },
+  {
+    "Pokemon": "Diggersby",
+    "Coleção": "Luz Proibida",
+    "Número": "98/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/631_98.jpg"
+  },
+  {
+    "Pokemon": "Furfrou",
+    "Coleção": "Luz Proibida",
+    "Número": "99/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/633_99.jpg"
+  },
+  {
+    "Pokemon": "Noibat",
+    "Coleção": "Luz Proibida",
+    "Número": "100/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1664_100.jpg"
+  },
+  {
+    "Pokemon": "Noivern",
+    "Coleção": "Luz Proibida",
+    "Número": "101/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1661_101.jpg"
+  },
+  {
+    "Pokemon": "Portal de Criaturas",
+    "Coleção": "Luz Proibida",
+    "Número": "102",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4563s_102a.jpg"
+  },
+  {
+    "Pokemon": "Portal de Criaturas",
+    "Coleção": "Luz Proibida",
+    "Número": "102/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4563_102.jpg"
+  },
+  {
+    "Pokemon": "Portal de Criaturas - Liga",
+    "Coleção": "Luz Proibida",
+    "Número": "102",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/5279s_102b.jpg"
+  },
+  {
+    "Pokemon": "Bonnie",
+    "Coleção": "Luz Proibida",
+    "Número": "103/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4564_103.jpg"
+  },
+  {
+    "Pokemon": "Demolidor Wake",
+    "Coleção": "Luz Proibida",
+    "Número": "104/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4566_104.jpg"
+  },
+  {
+    "Pokemon": "Diantha",
+    "Coleção": "Luz Proibida",
+    "Número": "105/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4568_105.jpg"
+  },
+  {
+    "Pokemon": "Eneportal",
+    "Coleção": "Luz Proibida",
+    "Número": "106/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4569_106.jpg"
+  },
+  {
+    "Pokemon": "Mapa de Escavar Fósseis",
+    "Coleção": "Luz Proibida",
+    "Número": "107/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4571_107.jpg"
+  },
+  {
+    "Pokemon": "Juiz",
+    "Coleção": "Luz Proibida",
+    "Número": "108/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/1405_108.jpg"
+  },
+  {
+    "Pokemon": "Dama",
+    "Coleção": "Luz Proibida",
+    "Número": "109/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4574_109.jpg"
+  },
+  {
+    "Pokemon": "Lysandre Prism Star",
+    "Coleção": "Luz Proibida",
+    "Número": "110/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4576_110.jpg"
+  },
+  {
+    "Pokemon": "Laboratórios Lysandre",
+    "Coleção": "Luz Proibida",
+    "Número": "111/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4575_111.jpg"
+  },
+  {
+    "Pokemon": "Frigideira de Metal",
+    "Coleção": "Luz Proibida",
+    "Número": "112",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4577_112a.jpg"
+  },
+  {
+    "Pokemon": "Frigideira de Metal",
+    "Coleção": "Luz Proibida",
+    "Número": "112/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4577_112.jpg"
+  },
+  {
+    "Pokemon": "Tesouro Misterioso",
+    "Coleção": "Luz Proibida",
+    "Número": "113",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4578s_113a.jpg"
+  },
+  {
+    "Pokemon": "Tesouro Misterioso",
+    "Coleção": "Luz Proibida",
+    "Número": "113/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4578_113.jpg"
+  },
+  {
+    "Pokemon": "Tesouro Misterioso - Liga",
+    "Coleção": "Luz Proibida",
+    "Número": "113",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/5231s_113b.jpg"
+  },
+  {
+    "Pokemon": "Ultraesquadrão de Reconhecimento",
+    "Coleção": "Luz Proibida",
+    "Número": "114/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4583_114.jpg"
+  },
+  {
+    "Pokemon": "Ultraespaço",
+    "Coleção": "Luz Proibida",
+    "Número": "115/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4584_115.jpg"
+  },
+  {
+    "Pokemon": "Fóssil Não Identificado",
+    "Coleção": "Luz Proibida",
+    "Número": "116/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4480_116.jpg"
+  },
+  {
+    "Pokemon": "Energia para Criaturas Prism Star",
+    "Coleção": "Luz Proibida",
+    "Número": "117/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4562_117.jpg"
+  },
+  {
+    "Pokemon": "Energia Unitária FDY",
+    "Coleção": "Luz Proibida",
+    "Número": "118/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4592_118.jpg"
+  },
+  {
+    "Pokemon": "Palkia-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "119/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4477_119.jpg"
+  },
+  {
+    "Pokemon": "Greninja-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "120/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4572_120.jpg"
+  },
+  {
+    "Pokemon": "Naganadel-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "121/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4579_121.jpg"
+  },
+  {
+    "Pokemon": "Lucario-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "122/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4560_122.jpg"
+  },
+  {
+    "Pokemon": "Zygarde-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "123/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4591_123.jpg"
+  },
+  {
+    "Pokemon": "Yveltal-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "124/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4590_124.jpg"
+  },
+  {
+    "Pokemon": "Dialga-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "125/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4460_125.jpg"
+  },
+  {
+    "Pokemon": "Xerneas-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "126/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4588_126.jpg"
+  },
+  {
+    "Pokemon": "Ultra Necrozma-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "127/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4582_127.jpg"
+  },
+  {
+    "Pokemon": "Bonnie",
+    "Coleção": "Luz Proibida",
+    "Número": "128/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4564_128.jpg"
+  },
+  {
+    "Pokemon": "Demolidor Wake",
+    "Coleção": "Luz Proibida",
+    "Número": "129/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4566_129.jpg"
+  },
+  {
+    "Pokemon": "Diantha",
+    "Coleção": "Luz Proibida",
+    "Número": "130/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4568_130.jpg"
+  },
+  {
+    "Pokemon": "Ultraesquadrão de Reconhecimento",
+    "Coleção": "Luz Proibida",
+    "Número": "131/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4583_131.jpg"
+  },
+  {
+    "Pokemon": "Palkia-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "132/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4477_132.jpg"
+  },
+  {
+    "Pokemon": "Greninja-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "133/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4572_133.jpg"
+  },
+  {
+    "Pokemon": "Naganadel-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "134/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4579_134.jpg"
+  },
+  {
+    "Pokemon": "Lucario-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "135/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4560_135.jpg"
+  },
+  {
+    "Pokemon": "Zygarde-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "136/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4591_136.jpg"
+  },
+  {
+    "Pokemon": "Yveltal-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "137/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4590_137.jpg"
+  },
+  {
+    "Pokemon": "Dialga-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "138/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4460_138.jpg"
+  },
+  {
+    "Pokemon": "Xerneas-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "139/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4588_139.jpg"
+  },
+  {
+    "Pokemon": "Ultra Necrozma-GX",
+    "Coleção": "Luz Proibida",
+    "Número": "140/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4582_140.jpg"
+  },
+  {
+    "Pokemon": "Portal de Criaturas",
+    "Coleção": "Luz Proibida",
+    "Número": "141/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4563_141.jpg"
+  },
+  {
+    "Pokemon": "Eneportal",
+    "Coleção": "Luz Proibida",
+    "Número": "142/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4569_142.jpg"
+  },
+  {
+    "Pokemon": "Reciclador de Energia",
+    "Coleção": "Luz Proibida",
+    "Número": "143/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/2133_143.jpg"
+  },
+  {
+    "Pokemon": "Frigideira de Metal",
+    "Coleção": "Luz Proibida",
+    "Número": "144/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4577_144.jpg"
+  },
+  {
+    "Pokemon": "Tesouro Misterioso",
+    "Coleção": "Luz Proibida",
+    "Número": "145/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4578_145.jpg"
+  },
+  {
+    "Pokemon": "Energia Unitária FDY",
+    "Coleção": "Luz Proibida",
+    "Número": "146/131",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/117/4592_146.jpg"
+  }
+]

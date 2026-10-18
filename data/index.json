@@ -2,6 +2,8 @@
   {
     "id": "151",
     "name": "151",
+    "codigo": "MEW",
+    "dataLancamento": "2023-09-22",
     "arquivo": "151.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/sv-expansions/sv3dot5/logo/pt-br/logo.png",
     "totalCartas": 207
@@ -9,6 +11,8 @@
   {
     "id": "amigos_de_jornada",
     "name": "Amigos de Jornada",
+    "codigo": "JTG",
+    "dataLancamento": "2025-03-28",
     "arquivo": "amigos_de_jornada.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/sv-expansions/sv09/logo/pt-br/sv9-logo.png",
     "totalCartas": 190
@@ -16,6 +20,8 @@
   {
     "id": "caos_ascendente",
     "name": "Caos Ascendente",
+    "codigo": "CRI",
+    "dataLancamento": "2026-05-22",
     "arquivo": "caos_ascendente.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me04/logo/pt-br/me04-logo.png",
     "totalCartas": 122
@@ -23,6 +29,8 @@
   {
     "id": "celebração_de_30_anos",
     "name": "Celebração de 30 Anos",
+    "codigo": "30C",
+    "dataLancamento": "2026-09-16",
     "arquivo": "celebração_de_30_anos.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/thirty/logo/ptbr/logo-no-video.png",
     "totalCartas": 188
@@ -30,6 +38,8 @@
   {
     "id": "coroa_estelar",
     "name": "Coroa Estelar",
+    "codigo": "SCR",
+    "dataLancamento": "2024-09-13",
     "arquivo": "coroa_estelar.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv07.png",
     "totalCartas": 175
@@ -37,6 +47,8 @@
   {
     "id": "destinos_de_paldea",
     "name": "Destinos de Paldea",
+    "codigo": "PAF",
+    "dataLancamento": "2024-01-26",
     "arquivo": "destinos_de_paldea.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv04pt5.png",
     "totalCartas": 245
@@ -44,6 +56,8 @@
   {
     "id": "equilíbrio_perfeito",
     "name": "Equilíbrio Perfeito",
+    "codigo": "POR",
+    "dataLancamento": "2026-03-27",
     "arquivo": "equilíbrio_perfeito.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me03/logo/pt-br/me03-logo.png",
     "totalCartas": 124
@@ -51,6 +65,8 @@
   {
     "id": "escarlate_e_violeta",
     "name": "Escarlate e Violeta",
+    "codigo": "SV1",
+    "dataLancamento": "2023-03-31",
     "arquivo": "escarlate_e_violeta.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv01.png",
     "totalCartas": 258
@@ -58,6 +74,8 @@
   {
     "id": "escarlate_e_violeta_promo",
     "name": "Escarlate e violeta PROMO",
+    "codigo": "SVP",
+    "dataLancamento": "2023-03-31",
     "arquivo": "escarlate_e_violeta_promo.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv01.png",
     "totalCartas": 225
@@ -65,6 +83,8 @@
   {
     "id": "evoluções_prismáticas",
     "name": "Evoluções Prismáticas",
+    "codigo": "PRE",
+    "dataLancamento": "2025-01-17",    
     "arquivo": "evoluções_prismáticas.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv08pt5.png",
     "totalCartas": 180
@@ -72,6 +92,8 @@
   {
     "id": "evoluções_em_paldea",
     "name": "Evoluções em Paldea",
+    "codigo": "PAL",
+    "dataLancamento": "2023-06-09",
     "arquivo": "evoluções_em_paldea.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv02.png",
     "totalCartas": 279
@@ -79,6 +101,8 @@
   {
     "id": "fagulhas_impetuosas",
     "name": "Fagulhas Impetuosas",
+    "codigo": "SSP",
+    "dataLancamento": "2024-11-08",
     "arquivo": "fagulhas_impetuosas.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv08.png",
     "totalCartas": 252
@@ -86,6 +110,8 @@
   {
     "id": "fenda_paradoxal",
     "name": "Fenda Paradoxal",
+    "codigo": "PAR",
+    "dataLancamento": "2023-11-03",
     "arquivo": "fenda_paradoxal.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv04.png",
     "totalCartas": 266
@@ -93,6 +119,8 @@
   {
     "id": "fogo_branco",
     "name": "Fogo Branco",
+    "codigo": "WHT",
+    "dataLancamento": "2025-07-18",
     "arquivo": "fogo_branco.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10pt5.png",
     "totalCartas": 173
@@ -100,6 +128,8 @@
   {
     "id": "fogo_fantasmagórico",
     "name": "Fogo Fantasmagórico",
+    "codigo": "PFL",
+    "dataLancamento": "2025-11-14",
     "arquivo": "fogo_fantasmagórico.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/logo/pt-br/me02-logo.png",
     "totalCartas": 130
@@ -107,6 +137,8 @@
   {
     "id": "forças_temporais",
     "name": "Forças Temporais",
+    "codigo": "TEF",
+    "dataLancamento": "2024-03-22",
     "arquivo": "forças_temporais.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv05.png",
     "totalCartas": 218
@@ -114,6 +146,8 @@
   {
     "id": "fábulas_nebulosas",
     "name": "Fábulas Nebulosas",
+    "codigo": "SFA",
+    "dataLancamento": "2024-08-02",
     "arquivo": "fábulas_nebulosas.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv06pt5.png",
     "totalCartas": 99
@@ -121,6 +155,8 @@
   {
     "id": "heróis_excelsos",
     "name": "Heróis Excelsos",
+    "codigo": "ASC",
+    "dataLancamento": "2026-01-30",
     "arquivo": "heróis_excelsos.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/me02pt5.png",
     "totalCartas": 295
@@ -128,6 +164,8 @@
   {
     "id": "mega_evolution_promos",
     "name": "Mega Evolution Promos",
+    "codigo": "MEP",
+    "dataLancamento": "2025-09-01",
     "arquivo": "mega_evolution_promos.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/logo/pt-br/me01-logo.png",
     "totalCartas": 153
@@ -135,6 +173,8 @@
   {
     "id": "megaevolução",
     "name": "Megaevolução",
+    "codigo": "MEG",
+    "dataLancamento": "2025-09-26",
     "arquivo": "megaevolução.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/logo/pt-br/me01-logo.png",
     "totalCartas": 188
@@ -142,6 +182,8 @@
   {
     "id": "máscaras_do_crepúsculo",
     "name": "Máscaras do Crepúsculo",
+    "codigo": "TWM",
+    "dataLancamento": "2024-05-22",
     "arquivo": "máscaras_do_crepúsculo.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv06.png",
     "totalCartas": 226
@@ -149,6 +191,8 @@
   {
     "id": "obsidiana_em_chamas",
     "name": "Obsidiana em Chamas",
+    "codigo": "OBF",
+    "dataLancamento": "2023-08-11",
     "arquivo": "obsidiana_em_chamas.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv03.png",
     "totalCartas": 230
@@ -156,6 +200,8 @@
   {
     "id": "raio_preto",
     "name": "Raio Preto",
+    "codigo": "BLK",
+    "dataLancamento": "2025-07-18",
     "arquivo": "raio_preto.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10pt5.png",
     "totalCartas": 172
@@ -163,8 +209,802 @@
   {
     "id": "rivais_predestinados",
     "name": "Rivais Predestinados",
+    "codigo": "DRI",
+    "dataLancamento": "2025-05-30",
     "arquivo": "rivais_predestinados.json",
     "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/global/logos/pt-br/sv10.png",
     "totalCartas": 244
-  }
+  },
+  {
+    "id": "Céus_Em_Evolução",
+    "name": "Céus em evolução",
+    "codigo": "EVS",
+    "dataLancamento": "2021-08-27",
+    "arquivo": "C_us_em_Evolu__o.json",
+    "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh7/set_logo.webp",
+    "totalCartas": 237
+  },
+  {
+    "id": "Abyss_Eye",
+    "name": "Abyss Eye",
+    "codigo": "M5",
+    "dataLancamento": "2026-05-22",
+    "arquivo": "Abyss_Eye.json",
+    "logo": "https://pub-20ee170c554940ac8bfcce8af2da57a8.r2.dev/logos/m5_ja.png",
+    "totalCartas": 118
+  },
+  {
+    "id": "Escuridao_Absoluta",
+    "name": "Escuridão Absoluta",
+    "codigo": "PBL",
+    "dataLancamento": "2026-07-17",
+    "arquivo": "Escurid_o_Absoluta.json",
+    "logo": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me05/logo/pt-br/me05-logo.png",
+    "totalCartas": 120
+  },
+  {
+    "id": "Astros_Citilantes",
+    "name": "Astros Cintilantes",
+    "codigo": "BRS",
+    "dataLancamento": "2022-02-25",
+    "arquivo": "Astros_Cintilantes.json",
+    "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicsugcH5OFyjFqf47uGq3APDFkRs-X-7HuXr9T5Hux4ivj_mrB-geHV8ZHJK-VhhSKJDpMJ2HDMOhfPfPnFoX7g5nKD0h_run8H_XXWpzYk3eYZ4vGnUPalLbl4JbwL-hRdolDsm2TcoA/w400-h149-rw/Pokemon_TCG_Sword_Shield%25E2%2580%2594Brilliant_Stars_Logo_BRPT.png",
+    "totalCartas": 194
+  },
+  {
+    "id": "Certo_De_Vapor",
+    "name": "Cerco de Vapor",
+    "codigo": "STS",
+    "dataLancamento": "2016-08-03",
+    "arquivo": "Cerco_de_Vapor.json",
+    "logo": "https://copag.com.br/uploads/wp-copag-pokemon/2016/10/logo-cerco-de-vapor-1.png",
+    "totalCartas": 116
+  },
+  {
+    "id": "Crise_Dupla",
+    "name": "Crise Dupla",
+    "codigo": "DCR",
+    "dataLancamento": "2015-03-25",
+    "arquivo": "Crise_Dupla.json",
+    "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/dc1/set_logo.webp",
+    "totalCartas": 34
+  },
+  {
+  "id": "Expedition",
+  "name": "Expedition",
+  "codigo": "EX",
+  "dataLancamento": "2002-09-15",
+  "arquivo": "Expedition.json",
+  "logo": "https://kardsapp.com/images/game/tcg-pokemon/base_wizards/ecards1_expedition/logo-expedition.webp",
+  "totalCartas": 168
+},
+{
+  "id": "Realeza_Absoluta",
+  "name": "Realeza Absoluta",
+  "codigo": "CRZ",
+  "dataLancamento": "2023-01-20",
+  "arquivo": "Realeza_Absoluta.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh12.5/set_logo.webp",
+  "totalCartas": 160
+},
+{
+  "id": "Team_Rocket",
+  "name": "Team Rocket",
+  "codigo": "TR",
+  "dataLancamento": "2000-04-24",
+  "arquivo": "Team_Rocket.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/base5/set_logo.webp",
+  "totalCartas": 83
+},
+{
+  "id": "Alolan_Moonlight",
+  "name": "Alolan Moonlight",
+  "codigo": "SM2L",
+  "dataLancamento": "2017-03-17",
+  "arquivo": "Alolan_Moonlight.json",
+  "logo": "https://den-media.pokellector.com/logos/Alola-Moonlight.logo.210.png",
+  "totalCartas": 62
+},
+{
+  "id": "Arceus",
+  "name": "Arceus",
+  "codigo": "AR",
+  "dataLancamento": "2009-11-04",
+  "arquivo": "Arceus.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/pl4/set_logo.webp",
+  "totalCartas": 111
+},
+{
+  "id": "Battle_Region",
+  "name": "Battle Region",
+  "codigo": "S9A",
+  "dataLancamento": "2022-02-25",
+  "arquivo": "Battle_Region.json",
+  "logo": "https://den-media.pokellector.com/logos/Battle-Region.logo.339.png",
+  "totalCartas": 93
+},
+{
+  "id": "Black_White",
+  "name": "Black & White",
+  "codigo": "BLW",
+  "dataLancamento": "2011-04-25",
+  "arquivo": "Black_White.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw1/set_logo.webp",
+  "totalCartas": 115
+},
+{
+  "id": "Black_White_Promos",
+  "name": "Black & White Promos",
+  "codigo": "BWPR",
+  "dataLancamento": "2011-03-01",
+  "arquivo": "Black_White_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bwp/set_logo.webp",
+  "totalCartas": 108
+},
+{
+  "id": "Celebracoes",
+  "name": "Celebrações",
+  "codigo": "CEL",
+  "dataLancamento": "2021-10-08",
+  "arquivo": "Celebracoes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/cel25/set_logo.webp",
+  "totalCartas": 25
+},
+{
+  "id": "Clay_Burst",
+  "name": "Clay Burst",
+  "codigo": "SV2D",
+  "dataLancamento": "2023-04-14",
+  "arquivo": "Clay_Burst.json",
+  "logo": "https://den-media.pokellector.com/logos/Clay-Burst.logo.370.png",
+  "totalCartas": 99
+},
+{
+  "id": "Colecao_Basica",
+  "name": "Coleção Básica",
+  "codigo": "BS",
+  "dataLancamento": "1999-01-09",
+  "arquivo": "Colecao_Basica.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/base4/set_logo.webp",
+  "totalCartas": 102
+},
+{
+  "id": "Conflito_Primitivo",
+  "name": "Conflito Primitivo",
+  "codigo": "PRC",
+  "dataLancamento": "2015-02-04",
+  "arquivo": "Conflito_Primitivo.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy5/set_logo.webp",
+  "totalCartas": 164
+},
+{
+  "id": "Congelamento_de_Plasma",
+  "name": "Congelamento de Plasma",
+  "codigo": "PLF",
+  "dataLancamento": "2013-05-08",
+  "arquivo": "Congelamento_de_Plasma.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw9/set_logo.webp",
+  "totalCartas": 122
+},
+{
+  "id": "Conjunto_para_Iniciantes_Kalos",
+  "name": "Conjunto para Iniciantes Kalos",
+  "codigo": "KSS",
+  "dataLancamento": "2013-11-08",
+  "arquivo": "Conjunto_para_Iniciantes_Kalos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy0/set_logo.webp",
+  "totalCartas": 39
+},
+{
+  "id": "Ceus_Estrondosos",
+  "name": "Céus Estrondosos",
+  "codigo": "ROS",
+  "dataLancamento": "2015-05-06",
+  "arquivo": "Ceus_Estrondosos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy6/set_logo.webp",
+  "totalCartas": 112
+},
+{
+  "id": "Destinos_Brilhantes",
+  "name": "Destinos Brilhantes",
+  "codigo": "SHF",
+  "dataLancamento": "2021-02-19",
+  "arquivo": "Destinos_Brilhantes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh4.5/set_logo.webp",
+  "totalCartas": 73
+},
+{
+  "id": "Dragoes_Enaltecidos",
+  "name": "Dragões Enaltecidos",
+  "codigo": "DRX",
+  "dataLancamento": "2012-08-15",
+  "arquivo": "Dragoes_Enaltecidos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw6/set_logo.webp",
+  "totalCartas": 128
+},
+{
+  "id": "Dragoes_Soberanos",
+  "name": "Dragões Soberanos",
+  "codigo": "DRM",
+  "dataLancamento": "2018-09-07",
+  "arquivo": "Dragoes_Soberanos.json",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs8fp5iKdNQJ0J5E5iPxzQVnZLFZL3Fa25OKmXD1OYVNq31Gmz8rkWc2NiU9gBJJ8ICYbWMzgfv-ApEUhVmy83OW4uHBaOVU4g1t85vnawfk3u_MLSwm69l4iTs7Oc4oIAMyytxJQG93o/s320-rw/SM75.png",
+  "totalCartas": 80
+},
+{
+  "id": "Espada_e_Escudo_Promos",
+  "name": "Espada e Escudo Promos",
+  "codigo": "SSPR",
+  "dataLancamento": "2019-11-01",
+  "arquivo": "Espada_e_Escudo_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swshp/set_logo.webp",
+  "totalCartas": 135
+},
+{
+  "id": "Unseen_Forces",
+  "name": "Unseen Forces",
+  "codigo": "UF",
+  "dataLancamento": "2005-08-22",
+  "arquivo": "Unseen_Forces.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/ex10/set_logo.webp",
+  "totalCartas": 145
+},
+{
+  "id": "Rubi_Safira",
+  "name": "Rubi & Safira",
+  "codigo": "RS",
+  "dataLancamento": "2003-06-18",
+  "arquivo": "Rubi_Safira.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/ex1/set_logo.webp",
+  "totalCartas": 109
+},
+{
+  "id": "Eclipse_Cosmico",
+  "name": "Eclipse Cósmico",
+  "codigo": "CEC",
+  "dataLancamento": "2019-11-01",
+  "arquivo": "Eclipse_Cosmico.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm12/set_logo.webp",
+  "totalCartas": 272
+},
+{
+  "id": "Elos_Inquebraveis",
+  "name": "Elos Inquebráveis",
+  "codigo": "UNB",
+  "dataLancamento": "2019-05-03",
+  "arquivo": "Elos_Inquebraveis.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm10/set_logo.webp",
+  "totalCartas": 238
+},
+{
+  "id": "Escuridao_Incandescente",
+  "name": "Escuridão Incandescente",
+  "codigo": "DAA",
+  "dataLancamento": "2020-08-14",
+  "arquivo": "Escuridao_Incandescente.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh3/set_logo.webp",
+  "totalCartas": 82
+},
+{
+  "id": "Espada_e_Escudo",
+  "name": "Espada e Escudo",
+  "codigo": "SSH",
+  "dataLancamento": "2020-02-07",
+  "arquivo": "Espada_e_Escudo.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh1/set_logo.webp",
+  "totalCartas": 131
+},
+{
+  "id": "Espada_e_Escudo_Promos",
+  "name": "Espada e Escudo Promos",
+  "codigo": "SSPR",
+  "dataLancamento": "2019-11-01",
+  "arquivo": "Espada_e_Escudo_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swshp/set_logo.webp",
+  "totalCartas": 321
+},
+{
+  "id": "Estrelas_Radiantes",
+  "name": "Estrelas Radiantes",
+  "codigo": "ASR",
+  "dataLancamento": "2022-05-27",
+  "arquivo": "Estrelas_Radiantes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh10/set_logo.webp",
+  "totalCartas": 150
+},
+{
+  "id": "Evolucoes",
+  "name": "Evoluções",
+  "codigo": "EVO",
+  "dataLancamento": "2016-11-02",
+  "arquivo": "Evolucoes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy12/set_logo.webp",
+  "totalCartas": 113
+},
+{
+  "id": "Explosao_de_Plasma",
+  "name": "Explosão de Plasma",
+  "codigo": "PLB",
+  "dataLancamento": "2013-08-14",
+  "arquivo": "Explosao_de_Plasma.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw10/set_logo.webp",
+  "totalCartas": 82
+},
+{
+  "id": "Rubi_Safira",
+  "name": "Rubi & Safira",
+  "codigo": "RS",
+  "dataLancamento": "2003-06-18",
+  "arquivo": "Rubi_Safira.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/ex1/set_logo.webp",
+  "totalCartas": 109
+},
+{
+  "id": "Estilos_de_Batalha",
+  "name": "Estilos de Batalha",
+  "codigo": "BST",
+  "dataLancamento": "2021-03-19",
+  "arquivo": "Estilos_de_Batalha.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh5/set_logo.webp",
+  "totalCartas": 183
+},
+{
+  "id": "Flash_de_Fogo",
+  "name": "Flash de Fogo",
+  "codigo": "FLF",
+  "dataLancamento": "2014-05-07",
+  "arquivo": "Flash_de_Fogo.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy2/set_logo.webp",
+  "totalCartas": 110
+},
+{
+  "id": "Forca_Fantasma",
+  "name": "Força Fantasma",
+  "codigo": "PHF",
+  "dataLancamento": "2014-11-05",
+  "arquivo": "Forca_Fantasma.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy4/set_logo.webp",
+  "totalCartas": 124
+},
+{
+  "id": "Fusao_de_Destinos",
+  "name": "Fusão de Destinos",
+  "codigo": "FCO",
+  "dataLancamento": "2016-05-02",
+  "arquivo": "Fusao_de_Destinos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy10/set_logo.webp",
+  "totalCartas": 67
+},
+{
+  "id": "Fossil",
+  "name": "Fóssil",
+  "codigo": "FO",
+  "dataLancamento": "1999-10-10",
+  "arquivo": "Fossil.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/base3/set_logo.webp",
+  "totalCartas": 50
+},
+{
+  "id": "Galeria_de_Galar",
+  "name": "Galeria de Galar",
+  "codigo": "CZGG",
+  "dataLancamento": "2023-01-20",
+  "arquivo": "Galeria_de_Galar.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh12.5/set_logo.webp",
+  "totalCartas": 70
+},
+{
+  "id": "Geracoes",
+  "name": "Gerações",
+  "codigo": "GEN",
+  "dataLancamento": "2016-02-22",
+  "arquivo": "Geracoes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/g1/set_logo.webp",
+  "totalCartas": 117
+},
+{
+  "id": "Golpe_Fusao",
+  "name": "Golpe Fusão",
+  "codigo": "FST",
+  "dataLancamento": "2021-11-12",
+  "arquivo": "Golpe_Fusao.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh8/set_logo.webp",
+  "totalCartas": 89
+},
+{
+  "id": "Guardioes_Ascendentes",
+  "name": "Guardiões Ascendentes",
+  "codigo": "GRI",
+  "dataLancamento": "2017-05-05",
+  "arquivo": "Guardioes_Ascendentes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm2/set_logo.webp",
+  "totalCartas": 148
+},
+{
+  "id": "Gym_Heroes",
+  "name": "Gym Heroes",
+  "codigo": "G1",
+  "dataLancamento": "2000-08-14",
+  "arquivo": "Gym_Heroes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/gym1/set_logo.webp",
+  "totalCartas": 122
+},
+{
+  "id": "HeartGold_SoulSilver",
+  "name": "HeartGold SoulSilver",
+  "codigo": "HS",
+  "dataLancamento": "2010-02-10",
+  "arquivo": "HeartGold_SoulSilver.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/hgss1/set_logo.webp",
+  "totalCartas": 124
+},
+{
+  "id": "Incandescent_Arcana",
+  "name": "Incandescent Arcana",
+  "codigo": "S11A",
+  "dataLancamento": "2022-09-02",
+  "arquivo": "Incandescent_Arcana.json",
+  "logo": "https://den-media.pokellector.com/logos/Incandescent-Arcana.logo.352.png",
+  "totalCartas": 94
+},
+{
+  "id": "Invasao_Carmim",
+  "name": "Invasão Carmim",
+  "codigo": "CIN",
+  "dataLancamento": "2017-11-03",
+  "arquivo": "Invasao_Carmim.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm4/set_logo.webp",
+  "totalCartas": 121
+}
+,
+{
+  "id": "Lendas_Luminescentes",
+  "name": "Lendas Luminescentes",
+  "codigo": "SLG",
+  "dataLancamento": "2017-10-06",
+  "arquivo": "Lendas_Luminescentes.json",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZV-zLcYMaGhDgRR9WSmZhCO4mPnBIDTn5udlGdWiBs09hequNMR1I4U1lblghsgBovOA6B5e79uQSavsplWqD2v1dzwd3j4-IoxZfrdYkR24ecXCIBISLPqBAMIIlTFTGWk1cnwwLKsk/s1600/Shining-Legends-Logo.png",
+  "totalCartas": 81
+},
+{
+  "id": "Luz_Proibida",
+  "name": "Luz Proibida",
+  "codigo": "FLI",
+  "dataLancamento": "2018-05-04",
+  "arquivo": "Luz_Proibida.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm6/set_logo.webp",
+  "totalCartas": 153
+},
+{
+  "id": "Maravilhas_Secretas",
+  "name": "Maravilhas Secretas",
+  "codigo": "SW",
+  "dataLancamento": "2007-11-07",
+  "arquivo": "Maravilhas_Secretas.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/dp3/set_logo.webp",
+  "totalCartas": 85
+},
+{
+  "id": "Mega_Brave",
+  "name": "Mega Brave",
+  "codigo": "M1L",
+  "dataLancamento": "2025-08-01",
+  "arquivo": "Mega_Brave.json",
+  "logo": "https://den-media.pokellector.com/logos/Mega-Brave.logo.416.png",
+  "totalCartas": 77
+},
+{
+  "id": "MEGA_Dream_ex",
+  "name": "MEGA Dream ex",
+  "codigo": "M2A",
+  "dataLancamento": "2025-11-28",
+  "arquivo": "MEGA_Dream_ex.json",
+  "logo": "https://den-media.pokellector.com/logos/MEGA-Dream-ex.logo.427.png",
+  "totalCartas": 91
+},
+{
+  "id": "Mega_Evolution_Promos",
+  "name": "Mega Evolution Promos",
+  "codigo": "MEP",
+  "dataLancamento": "2025-09-01",
+  "arquivo": "Mega_Evolution_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swshp/set_logo.webp",
+  "totalCartas": 62
+},
+{
+  "id": "Neo_Genesis",
+  "name": "Neo Genesis",
+  "codigo": "N1",
+  "dataLancamento": "2000-12-16",
+  "arquivo": "Neo_Genesis.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/neo1/set_logo.webp",
+  "totalCartas": 59
+},
+{
+  "id": "Neo_Revelation",
+  "name": "Neo Revelation",
+  "codigo": "N3",
+  "dataLancamento": "2001-09-21",
+  "arquivo": "Neo_Revelation.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/neo3/set_logo.webp",
+  "totalCartas": 51
+},
+{
+  "id": "Origem_Perdida",
+  "name": "Origem Perdida",
+  "codigo": "LOR",
+  "dataLancamento": "2022-09-09",
+  "arquivo": "Origem_Perdida.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh11/set_logo.webp",
+  "totalCartas": 67
+},{
+  "id": "Origem_Perdida_Galeria_De_Treinadores",
+  "name": "Origem Perdida - Galeria de Treinadores",
+  "codigo": "LORTG",
+  "dataLancamento": "2022-09-09",
+  "arquivo": "Origem_Perdida_Galeria_De_Treinadores.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh11/set_logo.webp",
+  "totalCartas": 67
+},
+{
+  "id": "Origens_Ancestrais",
+  "name": "Origens Ancestrais",
+  "codigo": "AOR",
+  "dataLancamento": "2015-08-12",
+  "arquivo": "Origens_Ancestrais.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy7/set_logo.webp",
+  "totalCartas": 61
+},
+{
+  "id": "Pokemon_GO",
+  "name": "Pokemon GO",
+  "codigo": "PGO",
+  "dataLancamento": "2022-07-01",
+  "arquivo": "Pokemon_GO.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh10.5/set_logo.webp",
+  "totalCartas": 61
+},
+{
+  "id": "Proximos_Destinos",
+  "name": "Próximos Destinos",
+  "codigo": "NXD",
+  "dataLancamento": "2012-02-08",
+  "arquivo": "Proximos_Destinos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw4/set_logo.webp",
+  "totalCartas": 62
+},
+{
+  "id": "Punhos_Furiosos",
+  "name": "Punhos Furiosos",
+  "codigo": "FFI",
+  "dataLancamento": "2014-08-13",
+  "arquivo": "Punhos_Furiosos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy3/set_logo.webp",
+  "totalCartas": 79
+},
+{
+  "id": "Reinado_Arrepiante",
+  "name": "Reinado Arrepiante",
+  "codigo": "CRE",
+  "dataLancamento": "2021-06-18",
+  "arquivo": "Reinado_Arrepiante.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh6/set_logo.webp",
+  "totalCartas": 43
+},
+{
+  "id": "Revelado",
+  "name": "Revelado",
+  "codigo": "UL",
+  "dataLancamento": "2010-05-12",
+  "arquivo": "Revelado.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/hgss2/set_logo.webp",
+  "totalCartas": 43
+},
+{
+  "id": "Rixa_Rebelde",
+  "name": "Rixa Rebelde",
+  "codigo": "RCL",
+  "dataLancamento": "2020-05-01",
+  "arquivo": "Rixa_Rebelde.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh2/set_logo.webp",
+  "totalCartas": 42
+},
+{
+  "id": "Selva",
+  "name": "Selva",
+  "codigo": "JU",
+  "dataLancamento": "1999-06-16",
+  "arquivo": "Selva.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/base2/set_logo.webp",
+  "totalCartas": 38
+},
+{
+  "id": "Shiny_Star_V",
+  "name": "Shiny Star V",
+  "codigo": "S4A",
+  "dataLancamento": "2020-11-20",
+  "arquivo": "Shiny_Star_V.json",
+  "logo": "https://den-media.pokellector.com/logos/Shiny-Star-V.logo.301.png",
+  "totalCartas": 45
+},
+{
+  "id": "Silver_Lance",
+  "name": "Silver Lance",
+  "codigo": "S6H",
+  "dataLancamento": "2021-04-23",
+  "arquivo": "Silver_Lance.json",
+  "logo": "https://den-media.pokellector.com/logos/Silver-Lance.logo.309.png",
+  "totalCartas": 40
+},
+{
+  "id": "Silver_Lance_Jet",
+  "name": "Silver Lance & Jet",
+  "codigo": "SP3",
+  "dataLancamento": "2021-04-23",
+  "arquivo": "Silver_Lance_Jet.json",
+  "logo": "https://den-media.pokellector.com/logos/Silver-Lance-Jet-Black-Poltergeist-Promo-Set.logo.321.png",
+  "totalCartas": 6
+},
+{
+  "id": "Sintonia_Mental",
+  "name": "Sintonia Mental",
+  "codigo": "UNM",
+  "dataLancamento": "2019-08-02",
+  "arquivo": "Sintonia_Mental.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm11/set_logo.webp",
+  "totalCartas": 46
+},
+{
+  "id": "Sol_e_Lua",
+  "name": "Sol e Lua",
+  "codigo": "SUM",
+  "dataLancamento": "2016-11-27",
+  "arquivo": "Sol_e_Lua.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm1/set_logo.webp",
+  "totalCartas": 44
+},
+{
+  "id": "Sol_e_Lua_Promos",
+  "name": "Sol e Lua Promos",
+  "codigo": "SMP",
+  "dataLancamento": "2016-11-27",
+  "arquivo": "Sol_e_Lua_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm1/set_logo.webp",
+  "totalCartas": 47
+},
+{
+  "id": "Sombras_Ardentes",
+  "name": "Sombras Ardentes",
+  "codigo": "BUS",
+  "dataLancamento": "2017-08-04",
+  "arquivo": "Sombras_Ardentes.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm3/set_logo.webp",
+  "totalCartas": 41
+},
+{
+  "id": "Stormfront",
+  "name": "Stormfront",
+  "codigo": "SF",
+  "dataLancamento": "2008-11-05",
+  "arquivo": "Stormfront.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/dp7/set_logo.webp",
+  "totalCartas": 41
+},
+{
+  "id": "Super_Electric_Breaker",
+  "name": "Super Electric Breaker",
+  "codigo": "SV8",
+  "dataLancamento": "2024-10-18",
+  "arquivo": "Super_Electric_Breaker.json",
+  "logo": "https://den-media.pokellector.com/logos/Super-Electric-Breaker.logo.405.png",
+  "totalCartas": 42
+},
+{
+  "id": "Supreme_Victors",
+  "name": "Supreme Victors",
+  "codigo": "SV",
+  "dataLancamento": "2009-08-19",
+  "arquivo": "Supreme_Victors.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/pl3/set_logo.webp",
+  "totalCartas": 40
+},
+{
+  "id": "Tempestade_Celestial",
+  "name": "Tempestade Celestial",
+  "codigo": "CES",
+  "dataLancamento": "2018-08-03",
+  "arquivo": "Tempestade_Celestial.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm7/set_logo.webp",
+  "totalCartas": 46
+},
+{
+  "id": "Tempestade_Prateada",
+  "name": "Tempestade Prateada",
+  "codigo": "SIT",
+  "dataLancamento": "2022-11-11",
+  "arquivo": "Tempestade_Prateada.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/swsh12/set_logo.webp",
+  "totalCartas": 45
+},
+{
+  "id": "Trovoes_Perdidos",
+  "name": "Trovões Perdidos",
+  "codigo": "LOT",
+  "dataLancamento": "2018-11-02",
+  "arquivo": "Trovoes_Perdidos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm8/set_logo.webp",
+  "totalCartas": 46
+},
+{
+  "id": "Turbo_Colisao",
+  "name": "Turbo Colisão",
+  "codigo": "BKP",
+  "dataLancamento": "2016-02-03",
+  "arquivo": "Turbo_Colisao.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy9/set_logo.webp",
+  "totalCartas": 43
+},
+{
+  "id": "Ultraprisma",
+  "name": "Ultraprisma",
+  "codigo": "UPR",
+  "dataLancamento": "2018-02-02",
+  "arquivo": "Ultraprisma.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/sm5/set_logo.webp",
+  "totalCartas": 42
+},
+{
+  "id": "VSTAR_Universe",
+  "name": "VSTAR Universe",
+  "codigo": "S12A",
+  "dataLancamento": "2022-12-02",
+  "arquivo": "VSTAR_Universe.json",
+  "logo": "https://den-media.pokellector.com/logos/VSTAR-Universe.logo.357.png",
+  "totalCartas": 48
+},
+{
+  "id": "Vitorias_Nobres",
+  "name": "Vitórias Nobres",
+  "codigo": "NVI",
+  "dataLancamento": "2011-11-16",
+  "arquivo": "Vitorias_Nobres.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/bw3/set_logo.webp",
+  "totalCartas": 45
+},
+{
+  "id": "XY",
+  "name": "XY",
+  "codigo": "XY",
+  "dataLancamento": "2014-02-05",
+  "arquivo": "XY.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy1/set_logo.webp",
+  "totalCartas": 45
+},
+{
+  "id": "XY_Promos",
+  "name": "XY Promos",
+  "codigo": "XYPR",
+  "dataLancamento": "2013-10-01",
+  "arquivo": "XY_Promos.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy1/set_logo.webp",
+  "totalCartas": 46
+},
+{
+  "id": "Turbo_Revolucao",
+  "name": "Turbo Revolução",
+  "codigo": "BKT",
+  "dataLancamento": "2015-11-04",
+  "arquivo": "Turbo_Revolucao.json",
+  "logo": "https://blog.spellbox.com.br/wp-content/uploads/pokemon-tcg/xy8/set_logo.webp",
+  "totalCartas": 166
+},
+{
+  "id": "Collection_Moon",
+  "name": "Collection Moon",
+  "codigo": "SM1M",
+  "dataLancamento": "2016-12-09",
+  "arquivo": "Collection_Moon.json",
+  "logo": "https://den-media.pokellector.com/logos/Collection-Moon.logo.202.png",
+  "totalCartas": 73
+}
 ]
