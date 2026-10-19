@@ -1,297 +1,153 @@
 [
   {
-    "Pokemon": "Celebi-V",
+    "Pokemon": "Marine",
     "Coleção": "Espada e Escudo",
-    "Número": "1/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4986_1.jpg"
+    "Número": "200/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4913_200.jpg"
   },
   {
-    "Pokemon": "Roselia",
+    "Pokemon": "Balão de Ar",
     "Coleção": "Espada e Escudo",
-    "Número": "2/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/300_2.jpg"
+    "Número": "213/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4905_213.jpg"
   },
   {
-    "Pokemon": "Roselia",
+    "Pokemon": "Bola Rápida",
     "Coleção": "Espada e Escudo",
-    "Número": "3/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/300_3.jpg"
+    "Número": "216/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/409_216.jpg"
   },
   {
-    "Pokemon": "Roserade",
+    "Pokemon": "Morpeko-V",
     "Coleção": "Espada e Escudo",
-    "Número": "4/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/262_4.jpg"
+    "Número": "190/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4925_190.jpg"
   },
   {
-    "Pokemon": "Cottonee",
+    "Pokemon": "Zamazenta-V",
     "Coleção": "Espada e Escudo",
-    "Número": "5/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1801_5.jpg"
+    "Número": "212/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4926_212.jpg"
   },
   {
-    "Pokemon": "Whimsicott",
+    "Pokemon": "Snorlax-VMAX",
     "Coleção": "Espada e Escudo",
-    "Número": "6/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1802_6.jpg"
+    "Número": "206/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4939_206.jpg"
   },
   {
-    "Pokemon": "Maractus",
+    "Pokemon": "Marine",
     "Coleção": "Espada e Escudo",
-    "Número": "7/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/243_7.jpg"
+    "Número": "208/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4913_208.jpg"
   },
   {
-    "Pokemon": "Durant",
+    "Pokemon": "Snorlax-VMAX",
     "Coleção": "Espada e Escudo",
-    "Número": "8/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/828_8.jpg"
-  },
-  {
-    "Pokemon": "Dhelmise-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "9/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4985_9.jpg"
-  },
-  {
-    "Pokemon": "Grookey",
-    "Coleção": "Espada e Escudo",
-    "Número": "10/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4898_10.jpg"
-  },
-  {
-    "Pokemon": "Grookey",
-    "Coleção": "Espada e Escudo",
-    "Número": "11/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4898_11.jpg"
-  },
-  {
-    "Pokemon": "Thwackey",
-    "Coleção": "Espada e Escudo",
-    "Número": "12/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4935_12.jpg"
-  },
-  {
-    "Pokemon": "Thwackey",
-    "Coleção": "Espada e Escudo",
-    "Número": "13/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4935_13.jpg"
-  },
-  {
-    "Pokemon": "Rillaboom",
-    "Coleção": "Espada e Escudo",
-    "Número": "14/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4970_14.jpg"
-  },
-  {
-    "Pokemon": "Rillaboom",
-    "Coleção": "Espada e Escudo",
-    "Número": "15/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4970_15.jpg"
-  },
-  {
-    "Pokemon": "Blipbug",
-    "Coleção": "Espada e Escudo",
-    "Número": "16/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4973_16.jpg"
-  },
-  {
-    "Pokemon": "Blipbug",
-    "Coleção": "Espada e Escudo",
-    "Número": "17/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4981_17.jpg"
-  },
-  {
-    "Pokemon": "Dottler",
-    "Coleção": "Espada e Escudo",
-    "Número": "18/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4951_18.jpg"
-  },
-  {
-    "Pokemon": "Orbeetle",
-    "Coleção": "Espada e Escudo",
-    "Número": "19/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4948_19.jpg"
-  },
-  {
-    "Pokemon": "Gossifleur",
-    "Coleção": "Espada e Escudo",
-    "Número": "20/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4958_20.jpg"
-  },
-  {
-    "Pokemon": "Eldegoss",
-    "Coleção": "Espada e Escudo",
-    "Número": "21/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4956_21.jpg"
-  },
-  {
-    "Pokemon": "Vulpix",
-    "Coleção": "Espada e Escudo",
-    "Número": "22/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/36_22.jpg"
-  },
-  {
-    "Pokemon": "Ninetales",
-    "Coleção": "Espada e Escudo",
-    "Número": "23/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/37_23.jpg"
-  },
-  {
-    "Pokemon": "Torkoal-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "24/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4976_24.jpg"
-  },
-  {
-    "Pokemon": "Victini-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "25/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4980_25.jpg"
-  },
-  {
-    "Pokemon": "Heatmor",
-    "Coleção": "Espada e Escudo",
-    "Número": "26/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/713_26.jpg"
-  },
-  {
-    "Pokemon": "Salandit",
-    "Coleção": "Espada e Escudo",
-    "Número": "27/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4360_27.jpg"
-  },
-  {
-    "Pokemon": "Salazzle",
-    "Coleção": "Espada e Escudo",
-    "Número": "28/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4361_28.jpg"
-  },
-  {
-    "Pokemon": "Turtonator",
-    "Coleção": "Espada e Escudo",
-    "Número": "29/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4363_29.jpg"
-  },
-  {
-    "Pokemon": "Scorbunny",
-    "Coleção": "Espada e Escudo",
-    "Número": "30/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4899_30.jpg"
-  },
-  {
-    "Pokemon": "Scorbunny",
-    "Coleção": "Espada e Escudo",
-    "Número": "31/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4899_31.jpg"
-  },
-  {
-    "Pokemon": "Raboot",
-    "Coleção": "Espada e Escudo",
-    "Número": "32/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4963_32.jpg"
-  },
-  {
-    "Pokemon": "Raboot",
-    "Coleção": "Espada e Escudo",
-    "Número": "33/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4963_33.jpg"
-  },
-  {
-    "Pokemon": "Cinderace",
-    "Coleção": "Espada e Escudo",
-    "Número": "34/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_34.jpg"
-  },
-  {
-    "Pokemon": "Cinderace",
-    "Coleção": "Espada e Escudo",
-    "Número": "35/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_35.jpg"
-  },
-  {
-    "Pokemon": "Cinderace",
-    "Coleção": "Espada e Escudo",
-    "Número": "36/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_36.jpg"
-  },
-  {
-    "Pokemon": "Sizzlipede",
-    "Coleção": "Espada e Escudo",
-    "Número": "37/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4977_37.jpg"
-  },
-  {
-    "Pokemon": "Sizzlipede",
-    "Coleção": "Espada e Escudo",
-    "Número": "38/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4977_38.jpg"
-  },
-  {
-    "Pokemon": "Centiskorch",
-    "Coleção": "Espada e Escudo",
-    "Número": "39/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4949_39.jpg"
-  },
-  {
-    "Pokemon": "Shellder",
-    "Coleção": "Espada e Escudo",
-    "Número": "40/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/338_40.jpg"
-  },
-  {
-    "Pokemon": "Cloyster",
-    "Coleção": "Espada e Escudo",
-    "Número": "41/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/288_41.jpg"
-  },
-  {
-    "Pokemon": "Krabby",
-    "Coleção": "Espada e Escudo",
-    "Número": "42/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/214_42.jpg"
-  },
-  {
-    "Pokemon": "Krabby",
-    "Coleção": "Espada e Escudo",
-    "Número": "43/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/214_43.jpg"
-  },
-  {
-    "Pokemon": "Kingler",
-    "Coleção": "Espada e Escudo",
-    "Número": "44/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/162_44.jpg"
-  },
-  {
-    "Pokemon": "Goldeen",
-    "Coleção": "Espada e Escudo",
-    "Número": "45/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/494_45.jpg"
-  },
-  {
-    "Pokemon": "Goldeen",
-    "Coleção": "Espada e Escudo",
-    "Número": "46/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/494_46.jpg"
-  },
-  {
-    "Pokemon": "Seaking",
-    "Coleção": "Espada e Escudo",
-    "Número": "47/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/491_47.jpg"
-  },
-  {
-    "Pokemon": "Lapras",
-    "Coleção": "Espada e Escudo",
-    "Número": "48/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/163_48.jpg"
+    "Número": "142/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4939_142.jpg"
   },
   {
     "Pokemon": "Lapras-V",
     "Coleção": "Espada e Escudo",
-    "Número": "49/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4931_49.jpg"
+    "Número": "189/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4931_189.jpg"
+  },
+  {
+    "Pokemon": "Snorlax-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "197/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4979_197.jpg"
+  },
+  {
+    "Pokemon": "Sableye-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "194/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4975_194.jpg"
+  },
+  {
+    "Pokemon": "Zacian-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "211/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4914_211.jpg"
+  },
+  {
+    "Pokemon": "Snorlax-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "141/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4979_141.jpg"
+  },
+  {
+    "Pokemon": "Lapras-VMAX",
+    "Coleção": "Espada e Escudo",
+    "Número": "203/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4936_203.jpg"
+  },
+  {
+    "Pokemon": "Gengar",
+    "Coleção": "Espada e Escudo",
+    "Número": "85/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/425_85.jpg"
+  },
+  {
+    "Pokemon": "Morpeko-VMAX",
+    "Coleção": "Espada e Escudo",
+    "Número": "204/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4930_204.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Magnólia",
+    "Coleção": "Espada e Escudo",
+    "Número": "201/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4912_201.jpg"
+  },
+  {
+    "Pokemon": "Vara de Pescar Comum",
+    "Coleção": "Espada e Escudo",
+    "Número": "215/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4910_215.jpg"
+  },
+  {
+    "Pokemon": "Disco de Metal",
+    "Coleção": "Espada e Escudo",
+    "Número": "214/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4904_214.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Magnólia",
+    "Coleção": "Espada e Escudo",
+    "Número": "209/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4912_209.jpg"
+  },
+  {
+    "Pokemon": "Zacian-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "195/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4914_195.jpg"
+  },
+  {
+    "Pokemon": "Zamazenta-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "196/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4926_196.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Yell",
+    "Coleção": "Espada e Escudo",
+    "Número": "210/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4932_210.jpg"
+  },
+  {
+    "Pokemon": "Dhelmise-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "187/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4985_187.jpg"
+  },
+  {
+    "Pokemon": "Torkoal-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "188/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4976_188.jpg"
   },
   {
     "Pokemon": "Lapras-VMAX",
@@ -300,88 +156,52 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4936_50.jpg"
   },
   {
-    "Pokemon": "Qwilfish",
+    "Pokemon": "Beda",
     "Coleção": "Espada e Escudo",
-    "Número": "51/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/335_51.jpg"
+    "Número": "199/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_199.jpg"
   },
   {
-    "Pokemon": "Mantine",
+    "Pokemon": "Recruta da Equipe Yell",
     "Coleção": "Espada e Escudo",
-    "Número": "52/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1042_52.jpg"
+    "Número": "202/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4932_202.jpg"
   },
   {
-    "Pokemon": "Keldeo-V",
+    "Pokemon": "Morpeko-VMAX",
     "Coleção": "Espada e Escudo",
-    "Número": "53/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4941_53.jpg"
+    "Número": "80/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4930_80.jpg"
   },
   {
-    "Pokemon": "Sobble",
+    "Pokemon": "Snorlax",
     "Coleção": "Espada e Escudo",
-    "Número": "54/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4900_54.jpg"
+    "Número": "140/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/515_140.jpg"
   },
   {
-    "Pokemon": "Sobble",
+    "Pokemon": "Cramorant-V",
     "Coleção": "Espada e Escudo",
-    "Número": "55/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4900_55.jpg"
+    "Número": "198/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4960_198.jpg"
   },
   {
-    "Pokemon": "Drizzile",
+    "Pokemon": "Celebi-V",
     "Coleção": "Espada e Escudo",
-    "Número": "56/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4933_56.jpg"
+    "Número": "1/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4986_1.jpg"
   },
   {
-    "Pokemon": "Drizzile",
+    "Pokemon": "Beda",
     "Coleção": "Espada e Escudo",
-    "Número": "57/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4933_57.jpg"
+    "Número": "207/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_207.jpg"
   },
   {
-    "Pokemon": "Inteleon",
+    "Pokemon": "Rapidash de Galar",
     "Coleção": "Espada e Escudo",
-    "Número": "58/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4927_58.jpg"
-  },
-  {
-    "Pokemon": "Inteleon",
-    "Coleção": "Espada e Escudo",
-    "Número": "59/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4927_59.jpg"
-  },
-  {
-    "Pokemon": "Chewtle",
-    "Coleção": "Espada e Escudo",
-    "Número": "60/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4950_60.jpg"
-  },
-  {
-    "Pokemon": "Drednaw",
-    "Coleção": "Espada e Escudo",
-    "Número": "61/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4954_61.jpg"
-  },
-  {
-    "Pokemon": "Cramorant",
-    "Coleção": "Espada e Escudo",
-    "Número": "62/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4972_62.jpg"
-  },
-  {
-    "Pokemon": "Snom",
-    "Coleção": "Espada e Escudo",
-    "Número": "63/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4928_63.jpg"
-  },
-  {
-    "Pokemon": "Frosmoth",
-    "Coleção": "Espada e Escudo",
-    "Número": "64/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4923_64.jpg"
+    "Número": "82/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4937_82.jpg"
   },
   {
     "Pokemon": "Pikachu",
@@ -390,10 +210,634 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/15_65.jpg"
   },
   {
+    "Pokemon": "Wobbuffet-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "191/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4974_191.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "193/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4934_193.jpg"
+  },
+  {
+    "Pokemon": "Indeedee-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "192/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4922_192.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "Espada e Escudo",
+    "Número": "225/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/648s_225.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner-VMAX",
+    "Coleção": "Espada e Escudo",
+    "Número": "205/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4961_205.jpg"
+  },
+  {
+    "Pokemon": "Morpeko-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "79/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4925_79.jpg"
+  },
+  {
+    "Pokemon": "Cinccino",
+    "Coleção": "Espada e Escudo",
+    "Número": "147/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/113_147.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner-VMAX",
+    "Coleção": "Espada e Escudo",
+    "Número": "116/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4961_116.jpg"
+  },
+  {
+    "Pokemon": "Hitmonchan",
+    "Coleção": "Espada e Escudo",
+    "Número": "95/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/510_95.jpg"
+  },
+  {
+    "Pokemon": "Toxicroak",
+    "Coleção": "Espada e Escudo",
+    "Número": "124/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/77_124.jpg"
+  },
+  {
+    "Pokemon": "Hitmonlee",
+    "Coleção": "Espada e Escudo",
+    "Número": "94/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1139_94.jpg"
+  },
+  {
+    "Pokemon": "Haunter",
+    "Coleção": "Espada e Escudo",
+    "Número": "84/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/438_84.jpg"
+  },
+  {
+    "Pokemon": "Cramorant-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "155/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4960_155.jpg"
+  },
+  {
+    "Pokemon": "Zamazenta-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "139/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4926_139.jpg"
+  },
+  {
+    "Pokemon": "Wobbuffet-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "86/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4974_86.jpg"
+  },
+  {
     "Pokemon": "Raichu",
     "Coleção": "Espada e Escudo",
     "Número": "66/202",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/3_66.jpg"
+  },
+  {
+    "Pokemon": "Victini-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "25/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4980_25.jpg"
+  },
+  {
+    "Pokemon": "Torkoal-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "24/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4976_24.jpg"
+  },
+  {
+    "Pokemon": "Keldeo-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "53/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4941_53.jpg"
+  },
+  {
+    "Pokemon": "Dhelmise-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "9/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4985_9.jpg"
+  },
+  {
+    "Pokemon": "Tapu Koko-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "72/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4921_72.jpg"
+  },
+  {
+    "Pokemon": "Lapras-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "49/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4931_49.jpg"
+  },
+  {
+    "Pokemon": "Sableye-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "120/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4975_120.jpg"
+  },
+  {
+    "Pokemon": "Regirock-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "104/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4987_104.jpg"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "Espada e Escudo",
+    "Número": "48/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/163_48.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "115/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4934_115.jpg"
+  },
+  {
+    "Pokemon": "Indeedee-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "91/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4922_91.jpg"
+  },
+  {
+    "Pokemon": "Zacian-V",
+    "Coleção": "Espada e Escudo",
+    "Número": "138/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4914_138.jpg"
+  },
+  {
+    "Pokemon": "Cinderace",
+    "Coleção": "Espada e Escudo",
+    "Número": "35/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_35.jpg"
+  },
+  {
+    "Pokemon": "Pokegear 3.0",
+    "Coleção": "Espada e Escudo",
+    "Número": "174/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4924_174.jpg"
+  },
+  {
+    "Pokemon": "Perrserker de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "128/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4919_128.jpg"
+  },
+  {
+    "Pokemon": "Munna",
+    "Coleção": "Espada e Escudo",
+    "Número": "87/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/246_87.jpg"
+  },
+  {
+    "Pokemon": "Gastly",
+    "Coleção": "Espada e Escudo",
+    "Número": "83/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/448_83.jpg"
+  },
+  {
+    "Pokemon": "Kingler",
+    "Coleção": "Espada e Escudo",
+    "Número": "44/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/162_44.jpg"
+  },
+  {
+    "Pokemon": "Energia da Aurora",
+    "Coleção": "Espada e Escudo",
+    "Número": "186/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4903_186.jpg"
+  },
+  {
+    "Pokemon": "Drizzile",
+    "Coleção": "Espada e Escudo",
+    "Número": "56/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4933_56.jpg"
+  },
+  {
+    "Pokemon": "Copperajah",
+    "Coleção": "Espada e Escudo",
+    "Número": "137/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4953_137.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom",
+    "Coleção": "Espada e Escudo",
+    "Número": "14/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4970_14.jpg"
+  },
+  {
+    "Pokemon": "Obstagoon de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "119/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4911_119.jpg"
+  },
+  {
+    "Pokemon": "Ninetales",
+    "Coleção": "Espada e Escudo",
+    "Número": "23/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/37_23.jpg"
+  },
+  {
+    "Pokemon": "Martelo Esmagador",
+    "Coleção": "Espada e Escudo",
+    "Número": "159/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/119_159.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda",
+    "Coleção": "Espada e Escudo",
+    "Número": "110/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4968_110.jpg"
+  },
+  {
+    "Pokemon": "Ponyta de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "81/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4943_81.jpg"
+  },
+  {
+    "Pokemon": "Cinderace",
+    "Coleção": "Espada e Escudo",
+    "Número": "34/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_34.jpg"
+  },
+  {
+    "Pokemon": "Inteleon",
+    "Coleção": "Espada e Escudo",
+    "Número": "58/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4927_58.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch",
+    "Coleção": "Espada e Escudo",
+    "Número": "39/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4949_39.jpg"
+  },
+  {
+    "Pokemon": "Balão de Ar",
+    "Coleção": "Espada e Escudo",
+    "Número": "156/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4905_156.jpg"
+  },
+  {
+    "Pokemon": "Frosmoth",
+    "Coleção": "Espada e Escudo",
+    "Número": "64/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4923_64.jpg"
+  },
+  {
+    "Pokemon": "Cloyster",
+    "Coleção": "Espada e Escudo",
+    "Número": "41/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/288_41.jpg"
+  },
+  {
+    "Pokemon": "Rhyperior",
+    "Coleção": "Espada e Escudo",
+    "Número": "99/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/601_99.jpg"
+  },
+  {
+    "Pokemon": "Pal Pad",
+    "Coleção": "Espada e Escudo",
+    "Número": "172/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1968_172.jpg"
+  },
+  {
+    "Pokemon": "Boltund",
+    "Coleção": "Espada e Escudo",
+    "Número": "75/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4964_75.jpg"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Espada e Escudo",
+    "Número": "4/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/262_4.jpg"
+  },
+  {
+    "Pokemon": "Minccino",
+    "Coleção": "Espada e Escudo",
+    "Número": "146/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4915_146.jpg"
+  },
+  {
+    "Pokemon": "Raboot",
+    "Coleção": "Espada e Escudo",
+    "Número": "32/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4963_32.jpg"
+  },
+  {
+    "Pokemon": "Polteageist",
+    "Coleção": "Espada e Escudo",
+    "Número": "90/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4920_90.jpg"
+  },
+  {
+    "Pokemon": "Musharna",
+    "Coleção": "Espada e Escudo",
+    "Número": "88/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1163_88.jpg"
+  },
+  {
+    "Pokemon": "Morpeko",
+    "Coleção": "Espada e Escudo",
+    "Número": "78/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4965_78.jpg"
+  },
+  {
+    "Pokemon": "Drampa",
+    "Coleção": "Espada e Escudo",
+    "Número": "149/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4347_149.jpg"
+  },
+  {
+    "Pokemon": "Claydol",
+    "Coleção": "Espada e Escudo",
+    "Número": "103/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/157_103.jpg"
+  },
+  {
+    "Pokemon": "Cinderace",
+    "Coleção": "Espada e Escudo",
+    "Número": "36/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4969_36.jpg"
+  },
+  {
+    "Pokemon": "Boltund",
+    "Coleção": "Espada e Escudo",
+    "Número": "76/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4982_76.jpg"
+  },
+  {
+    "Pokemon": "Rhydon",
+    "Coleção": "Espada e Escudo",
+    "Número": "98/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/525_98.jpg"
+  },
+  {
+    "Pokemon": "Orbeetle",
+    "Coleção": "Espada e Escudo",
+    "Número": "19/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4948_19.jpg"
+  },
+  {
+    "Pokemon": "Grapploct",
+    "Coleção": "Espada e Escudo",
+    "Número": "113/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4944_113.jpg"
+  },
+  {
+    "Pokemon": "Inteleon",
+    "Coleção": "Espada e Escudo",
+    "Número": "59/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4927_59.jpg"
+  },
+  {
+    "Pokemon": "Thievul",
+    "Coleção": "Espada e Escudo",
+    "Número": "126/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4955_126.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom",
+    "Coleção": "Espada e Escudo",
+    "Número": "15/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4970_15.jpg"
+  },
+  {
+    "Pokemon": "Drapion",
+    "Coleção": "Espada e Escudo",
+    "Número": "122/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/681_122.jpg"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Espada e Escudo",
+    "Número": "180/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/238_180.jpg"
+  },
+  {
+    "Pokemon": "Turtonator",
+    "Coleção": "Espada e Escudo",
+    "Número": "29/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4363_29.jpg"
+  },
+  {
+    "Pokemon": "Sobble",
+    "Coleção": "Espada e Escudo",
+    "Número": "54/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4900_54.jpg"
+  },
+  {
+    "Pokemon": "Whimsicott",
+    "Coleção": "Espada e Escudo",
+    "Número": "6/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1802_6.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Espada e Escudo",
+    "Número": "22/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/36_22.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Espada e Escudo",
+    "Número": "162/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/120_162.jpg"
+  },
+  {
+    "Pokemon": "Scorbunny",
+    "Coleção": "Espada e Escudo",
+    "Número": "30/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4899_30.jpg"
+  },
+  {
+    "Pokemon": "Mudsdale",
+    "Coleção": "Espada e Escudo",
+    "Número": "106/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4358_106.jpg"
+  },
+  {
+    "Pokemon": "Lanturn",
+    "Coleção": "Espada e Escudo",
+    "Número": "69/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/430_69.jpg"
+  },
+  {
+    "Pokemon": "Corviknight",
+    "Coleção": "Espada e Escudo",
+    "Número": "135/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4938_135.jpg"
+  },
+  {
+    "Pokemon": "Linoone de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "118/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4916_118.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda",
+    "Coleção": "Espada e Escudo",
+    "Número": "109/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4968_109.jpg"
+  },
+  {
+    "Pokemon": "Grookey",
+    "Coleção": "Espada e Escudo",
+    "Número": "10/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4898_10.jpg"
+  },
+  {
+    "Pokemon": "Dottler",
+    "Coleção": "Espada e Escudo",
+    "Número": "18/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4951_18.jpg"
+  },
+  {
+    "Pokemon": "Raboot",
+    "Coleção": "Espada e Escudo",
+    "Número": "33/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4963_33.jpg"
+  },
+  {
+    "Pokemon": "Dubwool",
+    "Coleção": "Espada e Escudo",
+    "Número": "154/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4957_154.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Espada e Escudo",
+    "Número": "40/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/338_40.jpg"
+  },
+  {
+    "Pokemon": "Poké Criança",
+    "Coleção": "Espada e Escudo",
+    "Número": "173/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4983_173.jpg"
+  },
+  {
+    "Pokemon": "Oranguru",
+    "Coleção": "Espada e Escudo",
+    "Número": "148/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4266_148.jpg"
+  },
+  {
+    "Pokemon": "Minccino",
+    "Coleção": "Espada e Escudo",
+    "Número": "145/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4915_145.jpg"
+  },
+  {
+    "Pokemon": "Krabby",
+    "Coleção": "Espada e Escudo",
+    "Número": "42/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/214_42.jpg"
+  },
+  {
+    "Pokemon": "Dugtrio",
+    "Coleção": "Espada e Escudo",
+    "Número": "93/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/269_93.jpg"
+  },
+  {
+    "Pokemon": "Cufant",
+    "Coleção": "Espada e Escudo",
+    "Número": "136/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4952_136.jpg"
+  },
+  {
+    "Pokemon": "Blipbug",
+    "Coleção": "Espada e Escudo",
+    "Número": "16/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4973_16.jpg"
+  },
+  {
+    "Pokemon": "Wooloo",
+    "Coleção": "Espada e Escudo",
+    "Número": "153/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4978_153.jpg"
+  },
+  {
+    "Pokemon": "Qwilfish",
+    "Coleção": "Espada e Escudo",
+    "Número": "51/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/335_51.jpg"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Espada e Escudo",
+    "Número": "7/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/243_7.jpg"
+  },
+  {
+    "Pokemon": "Scorbunny",
+    "Coleção": "Espada e Escudo",
+    "Número": "31/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4899_31.jpg"
+  },
+  {
+    "Pokemon": "Chewtle",
+    "Coleção": "Espada e Escudo",
+    "Número": "60/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4950_60.jpg"
+  },
+  {
+    "Pokemon": "Wooloo",
+    "Coleção": "Espada e Escudo",
+    "Número": "152/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4978_152.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner",
+    "Coleção": "Espada e Escudo",
+    "Número": "114/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4971_114.jpg"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Espada e Escudo",
+    "Número": "97/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/536_97.jpg"
+  },
+  {
+    "Pokemon": "Pincurchin",
+    "Coleção": "Espada e Escudo",
+    "Número": "77/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4945_77.jpg"
+  },
+  {
+    "Pokemon": "Meowth de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "127/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4918_127.jpg"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Espada e Escudo",
+    "Número": "45/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/494_45.jpg"
+  },
+  {
+    "Pokemon": "Cottonee",
+    "Coleção": "Espada e Escudo",
+    "Número": "5/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1801_5.jpg"
   },
   {
     "Pokemon": "Chinchou",
@@ -408,10 +852,262 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/447_68.jpg"
   },
   {
-    "Pokemon": "Lanturn",
+    "Pokemon": "Bola Rápida",
     "Coleção": "Espada e Escudo",
-    "Número": "69/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/430_69.jpg"
+    "Número": "179/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/409_179.jpg"
+  },
+  {
+    "Pokemon": "Baltoy",
+    "Coleção": "Espada e Escudo",
+    "Número": "102/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/199_102.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Espada e Escudo",
+    "Número": "220/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/560s_220.jpg"
+  },
+  {
+    "Pokemon": "Dama do Centro Pokémon",
+    "Coleção": "Espada e Escudo",
+    "Número": "176/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4848_176.jpg"
+  },
+  {
+    "Pokemon": "Heatmor",
+    "Coleção": "Espada e Escudo",
+    "Número": "26/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/713_26.jpg"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Espada e Escudo",
+    "Número": "144/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1072_144.jpg"
+  },
+  {
+    "Pokemon": "Zigzagoon de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "117/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4908_117.jpg"
+  },
+  {
+    "Pokemon": "Yamper",
+    "Coleção": "Espada e Escudo",
+    "Número": "73/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4962_73.jpg"
+  },
+  {
+    "Pokemon": "Vara de Pescar Comum",
+    "Coleção": "Espada e Escudo",
+    "Número": "171/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4910_171.jpg"
+  },
+  {
+    "Pokemon": "Sinistea",
+    "Coleção": "Espada e Escudo",
+    "Número": "89/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4929_89.jpg"
+  },
+  {
+    "Pokemon": "Salandit",
+    "Coleção": "Espada e Escudo",
+    "Número": "27/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4360_27.jpg"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Espada e Escudo",
+    "Número": "2/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/300_2.jpg"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Espada e Escudo",
+    "Número": "3/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/300_3.jpg"
+  },
+  {
+    "Pokemon": "Rookidee",
+    "Coleção": "Espada e Escudo",
+    "Número": "150/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4946_150.jpg"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Espada e Escudo",
+    "Número": "96/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/536_96.jpg"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Espada e Escudo",
+    "Número": "160/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/547_160.jpg"
+  },
+  {
+    "Pokemon": "Krabby",
+    "Coleção": "Espada e Escudo",
+    "Número": "43/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/214_43.jpg"
+  },
+  {
+    "Pokemon": "Grookey",
+    "Coleção": "Espada e Escudo",
+    "Número": "11/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4898_11.jpg"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Espada e Escudo",
+    "Número": "46/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/494_46.jpg"
+  },
+  {
+    "Pokemon": "Cramorant",
+    "Coleção": "Espada e Escudo",
+    "Número": "62/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4972_62.jpg"
+  },
+  {
+    "Pokemon": "Busca de Energia",
+    "Coleção": "Espada e Escudo",
+    "Número": "161/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/413_161.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Espada e Escudo",
+    "Número": "223/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/361s_223.jpg"
+  },
+  {
+    "Pokemon": "Marine",
+    "Coleção": "Espada e Escudo",
+    "Número": "169/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4913_169.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Espada e Escudo",
+    "Número": "217/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/559s_217.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Espada e Escudo",
+    "Número": "218/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/558s_218.jpg"
+  },
+  {
+    "Pokemon": "Stunfisk de Galar",
+    "Coleção": "Espada e Escudo",
+    "Número": "132/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4942_132.jpg"
+  },
+  {
+    "Pokemon": "Skorupi",
+    "Coleção": "Espada e Escudo",
+    "Número": "121/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/695_121.jpg"
+  },
+  {
+    "Pokemon": "Sizzlipede",
+    "Coleção": "Espada e Escudo",
+    "Número": "38/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4977_38.jpg"
+  },
+  {
+    "Pokemon": "Seaking",
+    "Coleção": "Espada e Escudo",
+    "Número": "47/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/491_47.jpg"
+  },
+  {
+    "Pokemon": "Salazzle",
+    "Coleção": "Espada e Escudo",
+    "Número": "28/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4361_28.jpg"
+  },
+  {
+    "Pokemon": "Mudbray",
+    "Coleção": "Espada e Escudo",
+    "Número": "105/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4357_105.jpg"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Espada e Escudo",
+    "Número": "143/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1083_143.jpg"
+  },
+  {
+    "Pokemon": "Hiperpoção",
+    "Coleção": "Espada e Escudo",
+    "Número": "166/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1576_166.jpg"
+  },
+  {
+    "Pokemon": "Fruta Lum",
+    "Coleção": "Espada e Escudo",
+    "Número": "168/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1251_168.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Espada e Escudo",
+    "Número": "224/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/362s_224.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Espada e Escudo",
+    "Número": "222/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/557s_222.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Espada e Escudo",
+    "Número": "221/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/561s_221.jpg"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Espada e Escudo",
+    "Número": "8/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/828_8.jpg"
+  },
+  {
+    "Pokemon": "Diglett",
+    "Coleção": "Espada e Escudo",
+    "Número": "92/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/321_92.jpg"
+  },
+  {
+    "Pokemon": "Corvisquire",
+    "Coleção": "Espada e Escudo",
+    "Número": "151/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4959_151.jpg"
+  },
+  {
+    "Pokemon": "Bicicleta Rotom",
+    "Coleção": "Espada e Escudo",
+    "Número": "181/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4917_181.jpg"
+  },
+  {
+    "Pokemon": "Snom",
+    "Coleção": "Espada e Escudo",
+    "Número": "63/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4928_63.jpg"
+  },
+  {
+    "Pokemon": "Mawile",
+    "Coleção": "Espada e Escudo",
+    "Número": "129/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/166_129.jpg"
   },
   {
     "Pokemon": "Joltik",
@@ -426,172 +1122,76 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/723_71.jpg"
   },
   {
-    "Pokemon": "Tapu Koko-V",
+    "Pokemon": "Eldegoss",
     "Coleção": "Espada e Escudo",
-    "Número": "72/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4921_72.jpg"
+    "Número": "21/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4956_21.jpg"
   },
   {
-    "Pokemon": "Yamper",
+    "Pokemon": "Recruta da Equipe Yell",
     "Coleção": "Espada e Escudo",
-    "Número": "73/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4962_73.jpg"
+    "Número": "184/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4932_184.jpg"
   },
   {
-    "Pokemon": "Yamper",
+    "Pokemon": "Faixa de Vitalidade",
     "Coleção": "Espada e Escudo",
-    "Número": "74/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4962_74.jpg"
+    "Número": "185/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4907_185.jpg"
   },
   {
-    "Pokemon": "Boltund",
+    "Pokemon": "Energia de Água",
     "Coleção": "Espada e Escudo",
-    "Número": "75/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4964_75.jpg"
+    "Número": "219/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/562s_219.jpg"
   },
   {
-    "Pokemon": "Boltund",
+    "Pokemon": "Gossifleur",
     "Coleção": "Espada e Escudo",
-    "Número": "76/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4982_76.jpg"
+    "Número": "20/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4958_20.jpg"
   },
   {
-    "Pokemon": "Pincurchin",
+    "Pokemon": "Drednaw",
     "Coleção": "Espada e Escudo",
-    "Número": "77/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4945_77.jpg"
+    "Número": "61/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4954_61.jpg"
   },
   {
-    "Pokemon": "Morpeko",
+    "Pokemon": "Croagunk",
     "Coleção": "Espada e Escudo",
-    "Número": "78/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4965_78.jpg"
+    "Número": "123/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/7_123.jpg"
   },
   {
-    "Pokemon": "Morpeko-V",
+    "Pokemon": "Thwackey",
     "Coleção": "Espada e Escudo",
-    "Número": "79/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4925_79.jpg"
+    "Número": "12/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4935_12.jpg"
   },
   {
-    "Pokemon": "Morpeko-VMAX",
+    "Pokemon": "Pegador de Pokémon",
     "Coleção": "Espada e Escudo",
-    "Número": "80/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4930_80.jpg"
+    "Número": "175/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4897_175.jpg"
   },
   {
-    "Pokemon": "Ponyta de Galar",
+    "Pokemon": "Drizzile",
     "Coleção": "Espada e Escudo",
-    "Número": "81/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4943_81.jpg"
+    "Número": "57/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4933_57.jpg"
   },
   {
-    "Pokemon": "Rapidash de Galar",
+    "Pokemon": "Bisharp",
     "Coleção": "Espada e Escudo",
-    "Número": "82/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4937_82.jpg"
+    "Número": "134/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/613_134.jpg"
   },
   {
-    "Pokemon": "Gastly",
+    "Pokemon": "Incenso de Evolução",
     "Coleção": "Espada e Escudo",
-    "Número": "83/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/448_83.jpg"
-  },
-  {
-    "Pokemon": "Haunter",
-    "Coleção": "Espada e Escudo",
-    "Número": "84/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/438_84.jpg"
-  },
-  {
-    "Pokemon": "Gengar",
-    "Coleção": "Espada e Escudo",
-    "Número": "85/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/425_85.jpg"
-  },
-  {
-    "Pokemon": "Wobbuffet-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "86/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4974_86.jpg"
-  },
-  {
-    "Pokemon": "Munna",
-    "Coleção": "Espada e Escudo",
-    "Número": "87/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/246_87.jpg"
-  },
-  {
-    "Pokemon": "Musharna",
-    "Coleção": "Espada e Escudo",
-    "Número": "88/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1163_88.jpg"
-  },
-  {
-    "Pokemon": "Sinistea",
-    "Coleção": "Espada e Escudo",
-    "Número": "89/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4929_89.jpg"
-  },
-  {
-    "Pokemon": "Polteageist",
-    "Coleção": "Espada e Escudo",
-    "Número": "90/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4920_90.jpg"
-  },
-  {
-    "Pokemon": "Indeedee-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "91/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4922_91.jpg"
-  },
-  {
-    "Pokemon": "Diglett",
-    "Coleção": "Espada e Escudo",
-    "Número": "92/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/321_92.jpg"
-  },
-  {
-    "Pokemon": "Dugtrio",
-    "Coleção": "Espada e Escudo",
-    "Número": "93/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/269_93.jpg"
-  },
-  {
-    "Pokemon": "Hitmonlee",
-    "Coleção": "Espada e Escudo",
-    "Número": "94/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1139_94.jpg"
-  },
-  {
-    "Pokemon": "Hitmonchan",
-    "Coleção": "Espada e Escudo",
-    "Número": "95/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/510_95.jpg"
-  },
-  {
-    "Pokemon": "Rhyhorn",
-    "Coleção": "Espada e Escudo",
-    "Número": "96/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/536_96.jpg"
-  },
-  {
-    "Pokemon": "Rhyhorn",
-    "Coleção": "Espada e Escudo",
-    "Número": "97/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/536_97.jpg"
-  },
-  {
-    "Pokemon": "Rhydon",
-    "Coleção": "Espada e Escudo",
-    "Número": "98/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/525_98.jpg"
-  },
-  {
-    "Pokemon": "Rhyperior",
-    "Coleção": "Espada e Escudo",
-    "Número": "99/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/601_99.jpg"
+    "Número": "163/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4906_163.jpg"
   },
   {
     "Pokemon": "Sudowoodo",
@@ -600,40 +1200,130 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/386_100.jpg"
   },
   {
+    "Pokemon": "Ferrothorn",
+    "Coleção": "Espada e Escudo",
+    "Número": "131/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1806_131.jpg"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "Espada e Escudo",
+    "Número": "164/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/637_164.jpg"
+  },
+  {
+    "Pokemon": "Yamper",
+    "Coleção": "Espada e Escudo",
+    "Número": "74/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4962_74.jpg"
+  },
+  {
+    "Pokemon": "Thwackey",
+    "Coleção": "Espada e Escudo",
+    "Número": "13/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4935_13.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Espada e Escudo",
+    "Número": "183/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/360_183.jpg"
+  },
+  {
+    "Pokemon": "Sobble",
+    "Coleção": "Espada e Escudo",
+    "Número": "55/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4900_55.jpg"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Espada e Escudo",
+    "Número": "177/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/359_177.jpg"
+  },
+  {
+    "Pokemon": "Pingente Grande",
+    "Coleção": "Espada e Escudo",
+    "Número": "158/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4909_158.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Magnólia",
+    "Coleção": "Espada e Escudo",
+    "Número": "178/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4912_178.jpg"
+  },
+  {
+    "Pokemon": "Ovo da Sorte",
+    "Coleção": "Espada e Escudo",
+    "Número": "167/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1012_167.jpg"
+  },
+  {
+    "Pokemon": "Mantine",
+    "Coleção": "Espada e Escudo",
+    "Número": "52/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1042_52.jpg"
+  },
+  {
+    "Pokemon": "Fruta Sitrus",
+    "Coleção": "Espada e Escudo",
+    "Número": "182/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1925_182.jpg"
+  },
+  {
+    "Pokemon": "Ferroseed",
+    "Coleção": "Espada e Escudo",
+    "Número": "130/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1420_130.jpg"
+  },
+  {
+    "Pokemon": "Disco de Metal",
+    "Coleção": "Espada e Escudo",
+    "Número": "170/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4904_170.jpg"
+  },
+  {
+    "Pokemon": "Beda",
+    "Coleção": "Espada e Escudo",
+    "Número": "157/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_157.jpg"
+  },
+  {
+    "Pokemon": "Lupo",
+    "Coleção": "Espada e Escudo",
+    "Número": "165/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4984_165.jpg"
+  },
+  {
+    "Pokemon": "Nickit",
+    "Coleção": "Espada e Escudo",
+    "Número": "125/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4947_125.jpg"
+  },
+  {
+    "Pokemon": "Blipbug",
+    "Coleção": "Espada e Escudo",
+    "Número": "17/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4981_17.jpg"
+  },
+  {
     "Pokemon": "Baltoy",
     "Coleção": "Espada e Escudo",
     "Número": "101/202",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/199_101.jpg"
   },
   {
-    "Pokemon": "Baltoy",
+    "Pokemon": "Sizzlipede",
     "Coleção": "Espada e Escudo",
-    "Número": "102/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/199_102.jpg"
+    "Número": "37/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4977_37.jpg"
   },
   {
-    "Pokemon": "Claydol",
+    "Pokemon": "Pawniard",
     "Coleção": "Espada e Escudo",
-    "Número": "103/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/157_103.jpg"
-  },
-  {
-    "Pokemon": "Regirock-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "104/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4987_104.jpg"
-  },
-  {
-    "Pokemon": "Mudbray",
-    "Coleção": "Espada e Escudo",
-    "Número": "105/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4357_105.jpg"
-  },
-  {
-    "Pokemon": "Mudsdale",
-    "Coleção": "Espada e Escudo",
-    "Número": "106/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4358_106.jpg"
+    "Número": "133/202",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/612_133.jpg"
   },
   {
     "Pokemon": "Silicobra",
@@ -648,18 +1338,6 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4967_108.jpg"
   },
   {
-    "Pokemon": "Sandaconda",
-    "Coleção": "Espada e Escudo",
-    "Número": "109/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4968_109.jpg"
-  },
-  {
-    "Pokemon": "Sandaconda",
-    "Coleção": "Espada e Escudo",
-    "Número": "110/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4968_110.jpg"
-  },
-  {
     "Pokemon": "Clobbopus",
     "Coleção": "Espada e Escudo",
     "Número": "111/202",
@@ -670,119 +1348,5 @@
     "Coleção": "Espada e Escudo",
     "Número": "112/202",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4966_112.jpg"
-  },
-  {
-    "Pokemon": "Grapploct",
-    "Coleção": "Espada e Escudo",
-    "Número": "113/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4944_113.jpg"
-  },
-  {
-    "Pokemon": "Stonjourner",
-    "Coleção": "Espada e Escudo",
-    "Número": "114/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4971_114.jpg"
-  },
-  {
-    "Pokemon": "Stonjourner-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "115/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4934_115.jpg"
-  },
-  {
-    "Pokemon": "Stonjourner-VMAX",
-    "Coleção": "Espada e Escudo",
-    "Número": "116/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4961_116.jpg"
-  },
-  {
-    "Pokemon": "Zigzagoon de Galar",
-    "Coleção": "Espada e Escudo",
-    "Número": "117/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4908_117.jpg"
-  },
-  {
-    "Pokemon": "Linoone de Galar",
-    "Coleção": "Espada e Escudo",
-    "Número": "118/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4916_118.jpg"
-  },
-  {
-    "Pokemon": "Obstagoon de Galar",
-    "Coleção": "Espada e Escudo",
-    "Número": "119/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4911_119.jpg"
-  },
-  {
-    "Pokemon": "Sableye-V",
-    "Coleção": "Espada e Escudo",
-    "Número": "120/202",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4975_120.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4905_213.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4905_156.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_207.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_199.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4940_157.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4917_181.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/613_134.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/409_216.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/409_179.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/413_161.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Espada e Escudo",
-    "Número": "07/02",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/113_147.jpg"
   }
 ]
