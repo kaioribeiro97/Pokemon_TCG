@@ -465,6 +465,9 @@ cleaned = cleaned.replace(/\s+[A-Z]\b$/i, '');
 
 // Nidoran Fêmea / Macho
 cleaned = cleaned.replace(/^Nidoran\s+(Fêmea|Macho)$/i, 'Nidoran');
+  console.log('ANTES:', fullName);
+console.log('DEPOIS:', cleaned);
+
   return cleaned.trim().replace(/\s+/g, ' ');
 }
 // Agrupa variações de cartas de um mesmo treinador (ex: "Misty's Determination" -> "Misty")
