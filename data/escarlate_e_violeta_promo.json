@@ -1,1352 +1,2048 @@
 [
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "001",
-    "Pokemon": "Sprigatito",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_1.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "002",
-    "Pokemon": "Fuecoco",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_2.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "003",
-    "Pokemon": "Quaxly",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_3.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "004",
-    "Pokemon": "Mimikyu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_4.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "005",
-    "Pokemon": "Quaquaval",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_5.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "006",
-    "Pokemon": "Pawmot",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_6.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "007",
-    "Pokemon": "Hawlucha",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_7.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "008",
-    "Pokemon": "Revavroom",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_8.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "009",
-    "Pokemon": "Spidops",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_9.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "010",
-    "Pokemon": "Espathra",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_10.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "011",
-    "Pokemon": "Arcanine",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_11.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "012",
-    "Pokemon": "Dondozo",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_12.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "013",
-    "Pokemon": "Miraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_13.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "014",
-    "Pokemon": "Koraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_14.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "015",
-    "Pokemon": "Flaaffy",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_15.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "016",
-    "Pokemon": "Ampharos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_16.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "017",
-    "Pokemon": "Lucario",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_17.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "018",
-    "Pokemon": "Cyclizar",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_18.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "019",
-    "Pokemon": "Baxcalibur",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_19.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "020",
-    "Pokemon": "Tinkaton",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_20.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "021",
-    "Pokemon": "Murkrow",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_21.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "022",
-    "Pokemon": "Pelipper",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_22.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "023",
-    "Pokemon": "Smoliv",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_23.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "024",
-    "Pokemon": "Growlithe",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_24.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "025",
-    "Pokemon": "Tinkatink",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_25.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "026",
-    "Pokemon": "Varoom",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_26.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "027",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_27.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "028",
-    "Pokemon": "Miraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_28.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "029",
-    "Pokemon": "Koraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_29.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "030",
-    "Pokemon": "Chien-Pao",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_30.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "031",
-    "Pokemon": "Tinkaton",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_31.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "032",
-    "Pokemon": "Annihilape",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_32.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "033",
-    "Pokemon": "Meowscarada",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_33.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "034",
-    "Pokemon": "Skeledirge",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_34.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "035",
-    "Pokemon": "Quaquaval",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_35.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "036",
-    "Pokemon": "Palafin",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_36.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "037",
-    "Pokemon": "Cleffa",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_37.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "038",
-    "Pokemon": "Togekiss",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_38.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "039",
-    "Pokemon": "Mawile",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_39.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "040",
-    "Pokemon": "Pawmi",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_40.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "041",
-    "Pokemon": "Wooper de Paldea",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_41.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "042",
-    "Pokemon": "Houndstone",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_42.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "043",
-    "Pokemon": "Eevee",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_43.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "044",
-    "Pokemon": "Charmander",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_44.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "045",
-    "Pokemon": "Paradise Resort",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_45.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "046",
-    "Pokemon": "Bulbasaur",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_46.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "047",
-    "Pokemon": "Charmander",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_47.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "048",
-    "Pokemon": "Squirtle",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_48.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "049",
-    "Pokemon": "Zapdos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_49.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "050",
-    "Pokemon": "Alakazam",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_50.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "051",
-    "Pokemon": "Snorlax",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_51.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "052",
-    "Pokemon": "Mewtwo",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_52.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "053",
-    "Pokemon": "Mew",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_53.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "054",
-    "Pokemon": "Greninja",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_54.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "055",
-    "Pokemon": "Kangaskhan",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_55.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "056",
-    "Pokemon": "Charizard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_56.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "057",
-    "Pokemon": "Chi-Yu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_57.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "058",
-    "Pokemon": "Iron Bundle",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_58.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "059",
-    "Pokemon": "Xatu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_59.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "060",
-    "Pokemon": "Aegislash",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_60.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "061",
-    "Pokemon": "Pineco",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_61.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "062",
-    "Pokemon": "Sinistea",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_62.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "063",
-    "Pokemon": "Cetitan",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_63.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "064",
-    "Pokemon": "Arctibax",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_64.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "065",
-    "Pokemon": "Cauda Brado",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_65.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "066",
-    "Pokemon": "Iron Bundle",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_66.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "067",
-    "Pokemon": "Lua Estrondo",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_67.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "068",
-    "Pokemon": "Valentia Férrea",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_68.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "069",
-    "Pokemon": "Fidough",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_69.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "070",
-    "Pokemon": "Greavard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_70.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "071",
-    "Pokemon": "Maschiff",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_71.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "072",
-    "Pokemon": "Presa Grande",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_72.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "073",
-    "Pokemon": "Trilho Férreo ex",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_73.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "074",
-    "Pokemon": "Charizard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_74.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "075",
-    "Pokemon": "Mimikyu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_75.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "076",
-    "Pokemon": "Sprigatito",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_76.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "077",
-    "Pokemon": "Floragato",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_77.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "078",
-    "Pokemon": "Meowscarada",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_78.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "079",
-    "Pokemon": "Fuecoco",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_79.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "080",
-    "Pokemon": "Crocalor",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_80.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "081",
-    "Pokemon": "Skeledirge",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_81.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "082",
-    "Pokemon": "Quaxly",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_82.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "083",
-    "Pokemon": "Quaxwell",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_83.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "084",
-    "Pokemon": "Quaquaval",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_84.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "085",
     "Pokemon": "Pikachu with Grey Felt Hat",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_85.png"
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "085",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/654a96771936d-s5w9b-ljkb0-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "086",
-    "Pokemon": "Mabosstiff",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_86.png"
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "044",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67d47bb4012f8-rqmd1-wtcrg-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "087",
-    "Pokemon": "Sprigatito",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_87.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "088",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_88.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "089",
-    "Pokemon": "Feraligatr",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_89.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "090",
-    "Pokemon": "Metang",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_90.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "091",
-    "Pokemon": "Koraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_91.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "092",
-    "Pokemon": "Miraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_92.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "093",
-    "Pokemon": "Carvanha",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_93.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "094",
-    "Pokemon": "Bellibolt",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_94.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "095",
-    "Pokemon": "Cleffa",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_95.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "096",
-    "Pokemon": "Cyclizar",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_96.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "097",
-    "Pokemon": "Juba Sopro",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_97.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "098",
-    "Pokemon": "Espinhos Férreos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_98.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "099",
-    "Pokemon": "Shroodle",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_99.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "100",
-    "Pokemon": "Grafaiai",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_100.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "101",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_101.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "102",
-    "Pokemon": "Oddish",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_102.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "103",
-    "Pokemon": "Houndoom",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_103.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "104",
-    "Pokemon": "Melmetal",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_104.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "105",
-    "Pokemon": "Armarouge",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_105.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "106",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_106.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "107",
-    "Pokemon": "Mareep",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_107.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "108",
-    "Pokemon": "Flaaffy",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_108.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "109",
-    "Pokemon": "Ampharos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_109.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "110",
-    "Pokemon": "Darkrai",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_110.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "111",
-    "Pokemon": "Pawniard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_111.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "112",
-    "Pokemon": "Bisharp",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_112.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "113",
-    "Pokemon": "Kingambit",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_113.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "114",
-    "Pokemon": "Picnicker",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_114.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "115",
-    "Pokemon": "Thwackey",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_115.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "116",
-    "Pokemon": "Infernape",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_116.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "117",
-    "Pokemon": "Froslass",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_117.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "118",
-    "Pokemon": "Tatsugiri",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_118.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "119",
-    "Pokemon": "Toxel",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_119.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "120",
-    "Pokemon": "Pupitar",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_120.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "121",
-    "Pokemon": "Revavroom",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_121.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "122",
     "Pokemon": "Snorlax",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_122.png"
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "051",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a85a5825d-2lmpn-f7qvm-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "123",
-    "Pokemon": "Ogerpon Máscara Turquesa",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_123.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "124",
-    "Pokemon": "Iono",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_124.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "125",
-    "Pokemon": "Armarouge",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_125.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "126",
-    "Pokemon": "Palafin",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_126.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "127",
-    "Pokemon": "Onda Ando",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_127.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "128",
-    "Pokemon": "Folhas Férreas",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_128.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "129",
-    "Pokemon": "Pecharunt",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/342/665609b327345-dr43t-i8z4k-96aef7592372ff612f85a2591541f820.jpg"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "130",
-    "Pokemon": "Kingambit",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_130.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "131",
-    "Pokemon": "Kingdra",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_131.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "132",
-    "Pokemon": "Greninja",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_132.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "133",
-    "Pokemon": "Ledian",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_133.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "134",
-    "Pokemon": "Crabominable",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_134.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "135",
-    "Pokemon": "Drifblim",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_135.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "136",
-    "Pokemon": "Bouffalant",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_136.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "137",
-    "Pokemon": "Horsea",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_137.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "138",
-    "Pokemon": "Porygon2",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_138.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "139",
-    "Pokemon": "Latias",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_139.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "140",
-    "Pokemon": "Tinkaton",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_140.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "141",
-    "Pokemon": "Noctowl",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_141.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "142",
-    "Pokemon": "Victini",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_142.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "143",
-    "Pokemon": "Miraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_143.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "144",
-    "Pokemon": "Fogo Corrosão ex",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_144.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "145",
-    "Pokemon": "Raio Fúria ex",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_145.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "146",
-    "Pokemon": "Chifres Férreos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_146.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "147",
-    "Pokemon": "Rocha Férrea",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_147.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "148",
-    "Pokemon": "Miraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_148.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "149",
-    "Pokemon": "Pecharunt",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_149.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "150",
-    "Pokemon": "Paradise Resort",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_150.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "151",
-    "Pokemon": "Fogo Corrosão",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_151.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "152",
-    "Pokemon": "Chien-Pao",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_152.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "153",
-    "Pokemon": "Magneton",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_153.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "154",
-    "Pokemon": "Indeedee",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_154.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "155",
-    "Pokemon": "Wooper",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_155.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "156",
-    "Pokemon": "Quagsire",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_156.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "157",
-    "Pokemon": "Zapdos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_157.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "158",
-    "Pokemon": "Pachirisu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_158.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "159",
-    "Pokemon": "Magneton",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_159.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "160",
-    "Pokemon": "Squawkabilly",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_160.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "161",
-    "Pokemon": "Charizard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_161.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "162",
-    "Pokemon": "Houndstone",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_162.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "163",
-    "Pokemon": "Cinderace",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_163.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "164",
-    "Pokemon": "Lapras",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_164.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "165",
-    "Pokemon": "Terapagos",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_165.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "166",
-    "Pokemon": "Ogerpon Máscara Turquesa",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_166.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "167",
-    "Pokemon": "Flareon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_167.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "168",
-    "Pokemon": "Vaporeon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_168.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "169",
-    "Pokemon": "Jolteon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_169.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "170",
-    "Pokemon": "Leafeon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_170.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "171",
-    "Pokemon": "Glaceon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_171.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "172",
-    "Pokemon": "Sylveon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_172.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "173",
-    "Pokemon": "Eevee",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_173.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "174",
-    "Pokemon": "Eevee",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_174.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "175",
-    "Pokemon": "Espeon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_175.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "176",
-    "Pokemon": "Umbreon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_176.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "177",
-    "Pokemon": "Ursaluna Lua Sangrenta ex",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_177.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "178",
-    "Pokemon": "Kyogre",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_178.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "179",
-    "Pokemon": "Xerneas",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_179.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "180",
-    "Pokemon": "Dialga",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_180.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "181",
-    "Pokemon": "Darmanitan do N",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_181.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "182",
-    "Pokemon": "Iono's Kilowattrel",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_182.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "183",
-    "Pokemon": "Ribombee da Lilian",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_183.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "184",
-    "Pokemon": "Hop's Snorlax",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_184.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "185",
-    "Pokemon": "Yanma",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_185.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "186",
-    "Pokemon": "Scraggy",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_186.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "187",
-    "Pokemon": "Yanmega",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_187.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "188",
-    "Pokemon": "Scrafty",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_188.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "189",
-    "Pokemon": "Zorua do N",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_189.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "190",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_190.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "191",
-    "Pokemon": "Sprigatito",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_191.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "192",
-    "Pokemon": "Fuecoco",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_192.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "193",
-    "Pokemon": "Hop's Zacian",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_193.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "194",
-    "Pokemon": "Iono's Bellibolt",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_194.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "195",
-    "Pokemon": "Clefairy ex da Lilian",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_195.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "196",
-    "Pokemon": "Charizard",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_196.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "197",
     "Pokemon": "Koraidon",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_197.png"
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "014",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a84dbfa8e-ox3yv-4i6dp-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "198",
-    "Pokemon": "Zacian",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_198.png"
+    "Pokemon": "Mimikyu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "075",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65b2e1a276d08-680cr-j5gtm-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "199",
-    "Pokemon": "Zarude",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_199.png"
+    "Pokemon": "Miraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "013",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a84c33d57-asw3j-ebo6u-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "200",
-    "Pokemon": "Eevee",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_200.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "201",
-    "Pokemon": "Zebstrika",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_201.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "202",
-    "Pokemon": "Kangaskhan",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_202.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "203",
-    "Pokemon": "Wobbuffet da Equipe Rocket",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_203.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "204",
-    "Pokemon": "Cynthia's Garchomp",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_204.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "205",
-    "Pokemon": "Mewtwo ex da Equipe Rocket",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_205.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "206",
-    "Pokemon": "Morpeko da Marine",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_206.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "207",
-    "Pokemon": "Beldum do Steven",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_207.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "208",
-    "Pokemon": "Victini",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_208.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "209",
-    "Pokemon": "Thundurus",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_209.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "210",
-    "Pokemon": "Tornadus",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_210.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "211",
-    "Pokemon": "Gothitelle",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_211.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "212",
-    "Pokemon": "Reuniclus",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_212.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "213",
-    "Pokemon": "Feraligatr",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_213.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "214",
-    "Pokemon": "Pikachu",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_214.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "215",
-    "Pokemon": "Toxtricity",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_215.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "216",
-    "Pokemon": "Mewtwo ex da Equipe Rocket",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_216.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "217",
-    "Pokemon": "Nidoking da Equipe Rocket",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_217.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "218",
-    "Pokemon": "Persian da Equipe Rocket",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_218.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "219",
-    "Pokemon": "Black Belt's Training",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_219.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "220",
-    "Pokemon": "Black Belt's Training",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_220.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "221",
-    "Pokemon": "Professor's Research [Professor Birch]",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_221.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "222",
-    "Pokemon": "Professor's Research [Professor Kukui]",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_222.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "223",
-    "Pokemon": "Professor's Research [Professor Magnolia]",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_223.png"
-  },
-  {
-    "Coleção": "Escarlate e violeta PROMO",
-    "Número": "224",
     "Pokemon": "Paradise Resort",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_224.png"
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "150",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5859efcb0-a13g7-w4ajx-96aef7592372ff612f85a2591541f820.jpg"
   },
   {
-    "Coleção": "Escarlate e violeta PROMO",
+    "Pokemon": "Resort Paraíso",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "045",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e58458a3ed-csprh-ysr6v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Gyarados da Misty  [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "049",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba46894c9-wvktm-x1765-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Serena",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "164",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b7087ec6c-248cv-ftz2j-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "027",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65b2e193eb052-t2z6c-6z729-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion do Ethan  [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "034",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba42f2807-7luj4-37d8n-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Team Rocket's Moltres ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "229",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b44081d302d-j7hmc-sq09j-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
     "Número": "225",
-    "Pokemon": "Pikachu [World Championships]",
-    "Imagem": "https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SVP/SVP_PT-BR_225.png"
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/696a6fc07edf4-e8hy9-itve3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Briar",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "132",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006ba8417e-qmt87-c7jg9-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "119",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e26340d2-fakhz-utbf3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "141",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66b23439088a5-gr3pt-cyj0a-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "N's Zorua",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "189",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6a7e38ec1dce4-s84he-egkx1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "088",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609592792b-kpc7t-tokyl-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "044",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609175a79a-5n8du-yks8b-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Paradise Resort",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "224",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159c26934c-yw6ck-7lxnw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Scream Tail",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "065",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65b2e19597412-jx20h-vjesy-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Espeon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "086",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e22310d9-ch8v7-piz3s-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Teal Mask Ogerpon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "024",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e1a317f6-4e1ft-cxj6u-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charizard ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "056",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/654a9662dff17-2v3zj-zlxbt-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mimikyu da Equipe Rocket  [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "087",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba4a27452-raphi-y2fl1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mew ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "053",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560b1a9534a-m7yac-534wy-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Umbreon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "130",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/662c150825382-gjdey-8n7mr-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "173",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edd02b5af4-oqfsj-mfxr8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iron Bundle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "066",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560e037ba0b-3urgi-kp8bf-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Teal Mask Ogerpon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "123",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6733e8dd33345-eqrj0-m1htw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pecharunt",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "129",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609b4c5b3d-ys4ea-oua14-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "007",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a8491a240-caotk-6hbz2-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Team Rocket's Wobbuffet",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "203",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680be00277f4c-0n5ak-e10xy-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lechonk",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "155",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5868344fa-34riw-2o8rk-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Guita",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "188",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b70f338ed-n1uet-g8vkn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Thundurus",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "209",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c1c3c09e591-uk7gm-d0m9t-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Greninja ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "132",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e584987254-o98wv-ub9z1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "052",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560b188dfc3-zh8pm-xniho-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hop's Snorlax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "117",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b40133d5b3b-x4dvt-4qj9w-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "027",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608fb6473c-fu6z2-n56af-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "173",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e587d2bded-nva62-kmw5h-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Arven",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "166",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b70bd67fb-u1lfr-z2nqs-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "214",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e721bf4514c-kncwf-tvbl4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "101",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656096ed0b65-x08rw-mnqac-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mimikyu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "075",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609455d816-cvrgy-an1lb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lechonk",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "154",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5862de0cb-7agd6-9hnqd-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tyranitar da Equipe Rocket  [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "096",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba4e0c005-lbmr7-dmh67-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kingdra ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "131",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e584793521-hdpt5-twipb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kissera",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "124",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609ac76097-tl8qm-ntq15-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cleffa [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "037",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a99e75ad5-1c86e-bur2e-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "051",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560922e78ee-xf2c7-d8sv7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaquaval [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "005",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a845ea17a-65bmn-e48r7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Murkrow [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "021",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a85283b7d-c45x8-hdcli-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Team Rocket's Moltres ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "208",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b440668204d-elv19-ka72t-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Slither Wing",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "107",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006b16eacb-whm79-jd2zi-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Revavroom [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "008",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a84a9c8f0-8d2w9-09ma2-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pawmot [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "006",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a847867bc-qe5cw-ay03c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zorua do N",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "189",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e718a4774d4-8m3lz-nu3kg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "020",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a850e0d3c-4eyr1-qd6wm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "106",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609756a018-5oam3-wfxbn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Palafin [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "036",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a855a4db8-mez2d-espny-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mawile [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "039",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a858c6831-2mg0e-zub8x-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "159",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbd64f856-nrgty-unvp8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Baxcalibur [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "019",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a84f5b4a0-oues1-sbnc4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zekrom",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "066",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006a2f3a96-ekclo-hn16o-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iron Treads ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "073",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006a690c02-tuvlg-61ts7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iron Treads",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "118",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006b518fb6-1ifbv-s5ct8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Great Tusk ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "072",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006a4cbb42-p8rot-z1fod-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Darkrai ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "110",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656097be9999-kbfwd-smyud-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zekrom ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "034",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0069ba9830-x9asc-ybsfr-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pelipper [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "022",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a854181ec-gulhr-lzuaw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "013",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608a3464e5-3zegu-3tz6f-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Wobbuffet da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "203",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680be0009f328-beksv-wlcma-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Feraligatr",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "213",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e721bd54440-4ywrz-gclt9-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ogerpon Máscara Turquesa",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "123",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609aacff90-ma9yl-keqdg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Morpeko da Marine",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "206",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680be007dc3b2-j6i2x-vfo8r-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sprigatito",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "191",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbd826b18-tcrav-gs0hu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Togekiss [Staff]",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "038",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6567a8573c633-mjxyc-789t5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sprigatito",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "076",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609470262b-a8qij-yrt3e-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sinistcha",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "022",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e18344e9-afdit-e0cza-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "121",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e2834f82-w67l5-7ku50-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Oddish",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "102",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/654a967ac99d3-4wno2-luw5a-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Metang",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "090",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656095c77f56-i0s9g-4jd0n-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "014",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608a64c966-8brz7-45l3p-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charizard ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "074",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560943b3c27-lpt0n-enqgz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "225",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159c43a6cb-buprd-u6se8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "122",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a92cb4a-jaq19-vk92n-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Gyarados da Misty",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "049",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba44b67ea-xfwe2-gdfhb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mimikyu ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "069",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b401ab968aa-05kyl-8m759-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Alcremie ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "75",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b400ac638c7-zqcta-9cqrb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Umbreon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "176",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c85635e030c-zhl4r-5by2s-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sprigatito",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "001",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560881cdbae-7fyd6-idf3r-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "190",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66aab1ae78736-z9dsa-fjayz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Froslass",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "117",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a12d6f0-n7dik-sjwar-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Chien-Pao",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "152",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e585d82d03-1dbpe-9o2ra-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Thwackey",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "115",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609864ffe7-tl4vg-qg746-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Darmanitan do N",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "181",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67d0aca6be513-nje6z-60i7p-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "020",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608d2460a8-fqdy5-oe89f-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Juba Sopro",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "097",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560968348ad-rmswh-87ctk-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Eevee ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "174",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e721b97050a-1zmgh-y4eg6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tornadus",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "210",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c1c3c26092f-7l0yf-de09m-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Espinhos Férreos",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "098",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560969e65ca-j36ye-iqclb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Armarouge ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "105",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560973c760b-80xwj-up0fi-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sprigatito ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "087",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560957738db-0j8yv-160sq-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lechonk",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "156",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/693c69a899d9b-zf52t-dg071-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fuecoco",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "002",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560884af70f-0a2ig-3mcjv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Typhlosion do Ethan",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "034",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba4135610-z61k0-ty10n-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Clefairy ex da Lílian",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "195",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e720339a28e-smgja-mfn7r-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Team Rocket's Moltres ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "031",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ace949b65679-51ay9-1tx9z-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Snorlax do Lupo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "184",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67d0acae03697-pefwd-u6etv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Reshiram do N",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "167",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e71899e5872-0ufbm-9rhge-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mimikyu da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "087",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba485bda7-ijxag-7zvfn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hop's Dubwool",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "136",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e2a12165-sgmpe-i9zpn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Beldum do Steven",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "207",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680be009a8fe6-qopkt-75ctp-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Arven",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "166",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b70a31e3e-5uvl8-rqsv7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Serena",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "164",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b706ce6db-agx26-kab57-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cauda Brado",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "065",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609384aee4-8ozbw-64gx0-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fuecoco",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "192",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbd9df4c0-v4jqg-7maue-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Noctowl",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "141",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66b2343739547-a1t46-j2yod-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "215",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e721c1130b8-e7uy2-kj94g-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "148",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5856339e5-8dje5-19zcd-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Meowscarada ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656094a3b283-ifxrk-sk2tg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "208",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c1c3bec7a21-2gc1v-h90wm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Team Rocket's Tyranitar",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "096",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b4409e41b31-gu18j-qmlej-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ogerpon Máscara Turquesa ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "166",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e587b5b009-rqf3h-hyc4d-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Garchomp ex da Cíntia",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "204",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680be00443273-xaofe-b6e2c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Espeon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "175",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c8563405c14-q94kh-qvt6j-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tyranitar da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "096",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6849ba4c15787-0lqw2-1308r-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kingambit",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "113",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656098245a54-h3xaj-50yxn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Annihilape ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "032",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609038db48-xmvf2-zodrx-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lua Estrondo ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "067",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65b2e198c41d7-aqdre-15kbu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Chi-Yu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "057",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656092b3b40e-qht4x-rv4ep-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cleffa",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "037",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656090bb9fab-px6zm-bik2m-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charizard ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "161",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5872037cc-7vnmp-2ju71-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Capuz Bruto",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "123",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65d5249826448-cgr45-hgplz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Skeledirge ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "081",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656094f117e7-yf3i6-eusnl-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Reshiram ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "030",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b40a3390c91-48f1b-mnied-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Guita",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "188",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6660b70d80bd4-4olnv-tq1ox-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kingdra ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "012",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6995ead338213-583kb-zgb49-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pecharunt",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "129",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609b327345-dr43t-i8z4k-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "092",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656095fbdd51-7n2cw-swu74-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656097e44e13-wefzk-p1trx-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mareep",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "107",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656097704dc8-vcl4i-a7h3t-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Flaaffy",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "108",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609789a141-xp0ng-5tegw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ampharos",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "109",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656097a44304-e16su-6ntwo-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Wellspring Mask Ogerpon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "064",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69eba20cd0da2-f67st-pv8lm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bouffalant",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "136",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66cf6bc196178-gmdlf-4cr8x-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Terapagos ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "165",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e58798a571-v912f-hdem4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Salamence ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b4038026b21-j1g5t-65s1x-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pacote Férreo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "066",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560df9e6e08-3ef9b-rhx9z-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mimikyu ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656088acb11d-xy14m-8jxcy-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lapras ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "164",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e58777540c-s97ka-ayejf-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fuecoco",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "079",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656094bcf058-lnmsf-wan7l-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tatsugiri",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "118",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a2bfe22-031z5-ugb86-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kilowattrel da Kissera",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "182",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67d0aca964dd7-3hd0u-r2ifs-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cyclizar ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "018",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6361s_018.jpg"
+  },
+  {
+    "Pokemon": "Floragato",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "077",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656094891a9a-rjk10-tj5px-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Feraligatr",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "089",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656095ac9db4-6xvfy-19khu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Archaludon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "130",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69eba3a9a67ec-50t3v-vxbsc-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Folhas Férreas ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "128",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609b17c28a-ugtxe-hv205-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charizard ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "196",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e721bb63dd8-z9ub6-z02se-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "048",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656091e03453-p4q9m-j3rgh-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Greninja ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "054",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560927dc7ad-wo0zr-2vts1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaxly",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "082",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560950bb87c-0vcha-ezhpo-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo ex da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "205",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c1da70d5055-19365-wk0uh-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Crocalor",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656094d6d2f8-zlfkj-tocmr-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cinderace ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "163",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5875a0eb1-jygsx-80l9i-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaxly",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "003",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608889ae8d-txi49-0exnw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaquaval ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "084",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609540a0a6-iufg4-eki7q-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Xatu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "059",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656092e70aad-wquix-tp13x-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kyogre ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "178",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67c0c045eed8f-9apmn-ez7mu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Infernape",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "116",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656099f86df0-t19lc-9d31v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kingambit",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "130",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609b665dc7-ltoqd-hci2d-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaxwell",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "083",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656095260c67-re53z-195tv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Valentia Férrea ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "068",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/65b2e19a944c4-xb0cv-olw26-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tornadus",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "210",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159b969fd5-bo0j7-vgedi-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ribombee da Lílian",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "183",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67d0acab47e38-o5b1m-qekci-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pacote Férreo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "058",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656092ccff88-tc0zi-u1cbv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "153",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e585f4d731-csi9a-lfx1y-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Meowscarada ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "033",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560905349f2-z1axp-rcj9v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mawile",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "039",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656090f1d782-094pk-5xr2u-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iono",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "185",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6629365f42704-zfyu9-6mgjn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fogo Corrosão",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "151",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e585bbf2cf-nex4u-qxkc0-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Baxcalibur",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "019",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608b1488b5-n39lp-6hpuy-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "043",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609158fbc7-b4m9f-gp7dm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Revavroom",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "008",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656089555ca2-ov06h-0i16s-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Trilho Férreo ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "073",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560942218cc-3d8t1-5y1zt-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Raio Fúria ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "145",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66e89f56e77e7-h3c94-vw8sh-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Palafin",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "036",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656090a1649f-ubwqr-ketf7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Thundurus",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "209",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/683dfa958aad2-xlgzy-x3lw1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Skeledirge ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "034",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560906d5e20-l4dvp-c402o-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaquaval ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "035",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656090876247-n34pw-hdynw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Presa Grande ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "072",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560940825f1-qw4g3-1zfeh-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Alakazam ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "050",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560921445fb-zrwlo-uzto3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "031",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560901e6bf7-l7sbg-78bre-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Drifblim",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "135",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66cf6bbfef374-jbdpa-mo9j6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Xerneas ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "179",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67c0c047c40b7-txg4u-5cehf-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo ex da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "216",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159bebeabf-skx5e-uhf4s-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Crabominable",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "134",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66cf6bbe5cc6e-xi4td-ulab8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Armarouge ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "125",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609ae20e6e-e63ij-czhvn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Nidoking ex da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "217",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159c09365c-jwsov-xdltc-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "029",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608fea6716-5z1ys-dr5tv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cleffa",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "095",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609648eb99-9kgn2-x2ecp-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bellibolt ex da Kissera",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "194",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680bdffb3589a-q60mx-dg4pz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bulbasaur",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "046",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656091ab2444-18ypt-u8dmz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pawmot",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "006",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608914e254-734t6-c1b28-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Onda Ando ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "127",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609afd697f-jabmt-wnul5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Togekiss",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "038",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656090d7c8f3-4sav9-8t1fo-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lucario ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "017",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608ae49c52-z7dbm-f6bjz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "091",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656095e26a43-ayg9x-s1n45-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Grafaiai ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "100",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656096d3a687-1cr9t-9zo4p-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ledian",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "133",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66cf6bbcb5e8e-uig29-35c9v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Houndstone ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "162",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5873c994b-1347h-hfqx6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "112",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656098046eb5-dy53q-8gao6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Chifres Férreos ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "146",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66e89f58a1c06-cv4a1-misvf-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Victini ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "142",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e585279415-hpbxa-4u1w0-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zapdos ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "049",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656091f9ca36-1zich-ls7qz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kangaskhan ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "055",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656092983e2c-1q5n0-i37t8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Persian ex da Equipe Rocket",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "218",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68c1c3c415b73-gdh34-br8ek-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Houndoom ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "103",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656097075545-7uver-c6i9v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zacian ex do Lupo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "193",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e718a676619-buhrt-bw3iv-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zacian ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "198",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680bdffed5482-qaynd-0knaz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Palafin ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "126",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66918cbc271fb-iqjks-9w43h-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "143",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e58545ae19-fmkz8-hv1zu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fogo Corrosão ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "144",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66e89f55315f7-u6doy-hmi7c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "060",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656093018c52-d3pq4-wheb8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Rocha Férrea ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "147",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66e89f5a4428c-lcud7-1ou8g-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Mabosstiff ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "086",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560955bb071-tf70v-hcris-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ursaluna Lua Sangrenta ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "177",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67bf63e1d4e81-ml2tf-j6hif-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaquaval",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "005",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656088f197cf-bn9vg-2vtrn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pelipper",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "022",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f3502e1-cak7h-p46fo-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Murkrow",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "021",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f048b98-z597p-9vgi7-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Miraidon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "028",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608fd0ed0d-vc3sf-e3hr0-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Indeedee",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "154",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5861208ba-ajt0b-2zp0a-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "007",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560893a0548-cwpz6-tr6h3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "047",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656091c5bca7-07bhy-d8y7p-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "197",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/680bdffd0cd35-lnr0h-d49w0-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Ampharos ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "016",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608ac56804-ya9qk-oaitk-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Squawkabilly ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "160",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e587027639-pk3f6-8a3ot-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "200",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/683a470531580-s4bun-snclz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Melmetal ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "104",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609722940d-8i950-6wcqx-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Dialga ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "180",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67c0c0498708e-hbqvu-qv5nb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Chien-Pao ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "030",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609004d66c-hdmn2-3lxbs-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zapdos",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "157",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e586be607a-20nut-j8ytc-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Shroodle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "099",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656096b97fb1-dhjym-lpg8v-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sylveon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "172",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edd00cf1e4-3igrv-qmuvg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Vaporeon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "168",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edcf964790-7xpez-trm5c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Latias",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "139",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e584ef2a58-95nzv-38b0j-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Reuniclus",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "212",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159bcf113a-8edgj-u5sn3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Birch",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "221",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/691377433f1e4-o9rae-37wzg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Jolteon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "169",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edcfb43209-zmw1u-o8zs4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Flareon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "167",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edcf75d4f4-km4lp-yhz2p-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Leafeon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "170",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edcfd2846c-nxy09-0k8qn-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Gothitelle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "211",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/688159bb39c8d-tu9ks-x1dsg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Glaceon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "171",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/678edcfeeed99-6zfyg-a0ow8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Treino de Faixa Preta",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "219",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6913773f5bcc6-g3c4r-v0378-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Magnólia",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "223",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6913774699b6a-l1o3j-96whb-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Treino de Faixa Preta",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "220",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6913774167f2f-n7iyo-qm456-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Nogueira",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "222",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69137744d90f7-5ye7l-lkcz6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fidough",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "069",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656093b8061d-hl8mu-a8iqm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tinkatink",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "025",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f833bf4-bwura-7sb6e-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Horsea",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "137",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e584b54f17-6i5gn-j73ml-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Tinkaton",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "140",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e58509ddd2-d24uh-3i41o-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Arcanine",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "011",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656089de1817-1hcka-en5qt-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Wooper",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "155",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e586665968-mi0gh-kl13c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Toxel",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "119",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a45973c-qtpfc-r3p48-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pupitar",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "120",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a5f12df-pfbix-3rhkj-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pachirisu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "158",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e586e3a638-0j5v2-1gmk4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quagsire",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "156",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e586a12c23-j0itw-o73e2-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Wooper de Paldea",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "041",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656091256ec0-hmtwc-xgcfm-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Varoom",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "026",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f9c3b47-mazqd-2g3uw-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sinistea",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "062",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560933568b7-biyjl-wqpkg-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Porygon2",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "138",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e584d34f58-ip01b-fgrho-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Houndstone",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "042",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560913e8172-zkxel-h64nt-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "024",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f69147b-a39cu-7nms2-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Arctibax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "064",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609368fc19-yo79n-cflyo-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bellibolt",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "094",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560962ec0ac-a2rho-jgm4u-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Yanmega",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "187",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e718a0727e5-yap7z-yi23j-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zarude",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "199",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/683a47035a6af-1r8ev-guv0r-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "186",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e7189e70e99-hr96b-exd90-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Kangaskhan",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "202",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/683a4708bcdc2-5y6we-mhpe8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Spidops",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "009",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560899c7cbf-gew39-1u0i5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Yanma",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "185",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e7189bd5168-xhr9j-x3yef-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Smoliv",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "023",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608f4e9bf8-9bfds-pwnem-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "188",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/67e718a275c0d-hbmqr-ohq45-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pineco",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "061",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560931ac91c-uye24-4i2ws-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pawmi",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "040",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560910b0034-zc8f2-k85ct-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Greavard",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656093d2631e-1rejm-dpkb5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cetitan",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "063",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66560934f2309-ml037-58l7h-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "093",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609615b778-j0ea7-fspld-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Maschiff",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "071",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656093ed13bb-inopf-gyuhq-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Revavroom",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "121",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609a78dd04-c2kj4-enhjz-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zebstrika",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "201",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/683a470702bea-mjhot-mynwq-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fã de Piquenique",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "114",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c4cbeec6c09-ncf28-7ka5g-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Cyclizar",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "096",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665609665958d-rlvoj-s5yle-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Espathra",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "010",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6656089c46f27-8ni74-c8ybf-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Dondozo",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "012",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608a00df9b-41sbu-m4d39-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pecharunt",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "149",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5858189b5-73f1n-cieja-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Flaaffy",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "015",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/665608a9462f9-bip4q-d8ohx-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Zoroark",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "062",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006a10ee23-9fqu4-9xi03-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "100",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006a87e4a4-dt3lc-x2qu4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "012",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00689d9850-9qfza-90ibj-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Terapagos",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "161",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e2bdde7e-zx7iv-0vhgx-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Terapagos & Friends",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "1024",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbdb9ec2a-tiwum-nxy6g-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Teal Mask Ogerpon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "024",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006949e5fe-m548h-bw7as-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Teal Mask Ogerpon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "024",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00692de697-v2h0g-fwkv1-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "007",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00685da70a-eyulo-7gkwu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "007",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00687d8b73-gz7xe-kp13e-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Sprigatito",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "012",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e1557881-zcsq1-t8ybs-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Reshiram ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "020",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0068f1ac03-l8hqv-os8cu-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "022",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00691292b8-ctzxp-htsfc-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Raging Bolt",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006b32b302-sqhnt-oaued-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Quaxly",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "050",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e203ebb1-l7t08-537ug-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Professor Turo's Scenario",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "171",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006bfcff09-ylwpm-w586e-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Professor Sada's Vitality",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "170",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006be17bff-2ud10-miyg5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "025",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0069651252-ksgrv-0wskp-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "018",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0068bdaa3e-skdzo-bemri-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Paradise Resort",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "150",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbd4625ee-2ma89-hwjra-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Paradise Resort",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "150",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/66c8dbd2999b8-v1k8f-6j1z9-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Meltan",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "102",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006aa51112-2uyx9-p267c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Melmetal ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "105",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006ac10a56-tyenm-dy0i2-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lechonk",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "154",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/672e5864a03ff-qrsbf-meant-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "031",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ace964d8273b-02e6a-gx37f-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "119",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006b6ece50-aze9d-5dqn8-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Koraidon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "119",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006b8b11d2-a4k8f-362yh-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iron Moth",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "028",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e1c39f5f-g5jly-pcjh9-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Iron Moth",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "028",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0069832427-18dgu-1lsi6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hop's Snorlax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "117",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b400f5a9399-xdham-vxqoj-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hop's Snorlax",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "117",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/69b40081bc3f0-xviep-ndmp3-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Hearthflame Mask Ogerpon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "040",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0069d6dfab-mtjbg-fj6d4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Fuecoco",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "029",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/68475e1e3875d-ct6h1-asqw5-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00681df568-o04de-1ve2c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac00683d8603-yzkoe-oeyb6-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0067fdce2b-65pv9-4w97c-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bulbasaur",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "001",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0067e05d31-u8asf-25zk4-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Bulbasaur",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "001",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0067c03c5f-if9u6-mwrn9-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Blissey ex",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "134",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006bc33caa-zrsuj-j4w76-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Archeops",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "051",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac0069f421ff-at86d-129nt-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Archaludon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "107",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006adcbcdf-vt9wp-m3new-96aef7592372ff612f85a2591541f820.jpg"
+  },
+  {
+    "Pokemon": "Archaludon",
+    "Coleção": "Escarlate e Violeta Promos",
+    "Número": "107",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/342/6ac006afa344d-8vjsz-5zhc3-96aef7592372ff612f85a2591541f820.jpg"
   }
 ]
