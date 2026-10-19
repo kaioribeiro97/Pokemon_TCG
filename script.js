@@ -449,7 +449,7 @@ cleaned = cleaned.replace(/\s+Primitivo\b/i, '');
 cleaned = cleaned.replace(/\s+TURBO\b/i, '');
 
  // V-ASTRO
-cleaned = cleaned.replace(/-ASTRO\b/i, '');
+cleaned = cleaned.replace(/-V-ASTRO\b/i, '');
 // Pikachu especiais
 cleaned = cleaned.replace(/\s+(Surfista|Voador)\b/i, '');
 cleaned = cleaned.replace(/\s+at\s+the\s+Museum\b/i, '');
