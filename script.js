@@ -426,7 +426,43 @@ function getBaseName(fullName) {
 
   // 12. Normaliza espaçamento do Nidoran (ex: "Nidoran ♀" -> "Nidoran♀")
   cleaned = cleaned.replace(/Nidoran\s+([♀♂])/gi, 'Nidoran$1');
+  // Formas regionais
+cleaned = cleaned.replace(/^(Alolan|Hisuian)\s+/i, '');
 
+// Sufixos promocionais
+cleaned = cleaned.replace(/\s*-\s*STAFF\b/i, '');
+
+// Séries especiais (Butterfree FB, Absol G, Milotic C)
+cleaned = cleaned.replace(/\s+(FB|G|C)\b$/i, '');
+
+// Variantes especiais
+cleaned = cleaned.replace(/\s+(Radiante|Luminescente|Estrela Prisma|Sombrio)\b/i, '');
+
+// Star / Sparkling
+cleaned = cleaned.replace(/\s+Star\b/i, '');
+cleaned = cleaned.replace(/^Sparkling\s+/i, '');
+
+// Primitivo
+cleaned = cleaned.replace(/\s+Primitivo\b/i, '');
+
+// TURBO
+cleaned = cleaned.replace(/\s+TURBO\b/i, '');
+
+// Pikachu especiais
+cleaned = cleaned.replace(/\s+(Surfista|Voador)\b/i, '');
+cleaned = cleaned.replace(/\s+at\s+the\s+Museum\b/i, '');
+cleaned = cleaned.replace(/^Pok[eé]mon\s+RUN\s+/i, '');
+cleaned = cleaned.replace(/^Special\s+Delivery\s+/i, '');
+
+// Formas do Urshifu
+cleaned = cleaned.replace(/\s+Golpe\s+(Decisivo|Fluido)\b/i, '');
+
+// Formas Unown
+cleaned = cleaned.replace(/\s+(FLASH|RETURN)\b/i, '');
+cleaned = cleaned.replace(/\s+[A-Z]\b$/i, '');
+
+// Nidoran Fêmea / Macho
+cleaned = cleaned.replace(/^Nidoran\s+(Fêmea|Macho)$/i, 'Nidoran');
   return cleaned.trim().replace(/\s+/g, ' ');
 }
 // Agrupa variações de cartas de um mesmo treinador (ex: "Misty's Determination" -> "Misty")
