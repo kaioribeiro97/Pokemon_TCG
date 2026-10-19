@@ -288,81 +288,261 @@
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6011s_048.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Dragonite-V",
     "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/388s_056.jpg"
+    "Número": "049/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5647s_049.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Dragonite-V-ASTRO",
     "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/378s_057.jpg"
+    "Número": "050/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6012s_050.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Chansey",
     "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/626s_060.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/625s_059.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6023_059-D.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5908s_082.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5908s_064.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/481s_052.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5910s_083.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5910s_065.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Pokemon GO",
-    "Número": "01/07",
+    "Número": "051/078",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/508s_051.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Blissey",
     "Coleção": "Pokemon GO",
-    "Número": "01/07",
+    "Número": "052/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/481s_052.jpg"
+  },
+  {
+    "Pokemon": "Ditto",
+    "Coleção": "Pokemon GO",
+    "Número": "053/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/143s_053.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Pokemon GO",
+    "Número": "054/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/127s_054.jpg"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Pokemon GO",
+    "Número": "055/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/515s_055.jpg"
+  },
+  {
+    "Pokemon": "Aipom",
+    "Coleção": "Pokemon GO",
+    "Número": "056/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/388s_056.jpg"
+  },
+  {
+    "Pokemon": "Ambipom",
+    "Coleção": "Pokemon GO",
+    "Número": "057/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/378s_057.jpg"
+  },
+  {
+    "Pokemon": "Slaking-V",
+    "Coleção": "Pokemon GO",
+    "Número": "058/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6013s_058.jpg"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Pokemon GO",
+    "Número": "059/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/625s_059.jpg"
+  },
+  {
+    "Pokemon": "Bibarel",
+    "Coleção": "Pokemon GO",
+    "Número": "060/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/626s_060.jpg"
+  },
+  {
+    "Pokemon": "Pidove",
+    "Coleção": "Pokemon GO",
+    "Número": "061/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/249s_061.jpg"
+  },
+  {
+    "Pokemon": "Tranquill",
+    "Coleção": "Pokemon GO",
+    "Número": "062/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/1435s_062.jpg"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Pokemon GO",
+    "Número": "063/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/1436s_063.jpg"
+  },
+  {
+    "Pokemon": "Blanche",
+    "Coleção": "Pokemon GO",
+    "Número": "064/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5908s_064.jpg"
+  },
+  {
+    "Pokemon": "Candela",
+    "Coleção": "Pokemon GO",
+    "Número": "065/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5910s_065.jpg"
+  },
+  {
+    "Pokemon": "Incubadora de Ovo",
+    "Coleção": "Pokemon GO",
+    "Número": "066/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6014s_066.jpg"
+  },
+  {
+    "Pokemon": "Módulo Atrair",
+    "Coleção": "Pokemon GO",
+    "Número": "067/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6015s_067.jpg"
+  },
+  {
+    "Pokemon": "Poképarada",
+    "Coleção": "Pokemon GO",
+    "Número": "068/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6016s_068.jpg"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Pokemon GO",
+    "Número": "069/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/238s_069.jpg"
+  },
+  {
+    "Pokemon": "Spark",
+    "Coleção": "Pokemon GO",
+    "Número": "070/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5909s_070.jpg"
+  },
+  {
+    "Pokemon": "Exeggutor de Alola-V",
+    "Coleção": "Pokemon GO",
+    "Número": "071/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5911s_071.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo-V",
+    "Coleção": "Pokemon GO",
+    "Número": "072/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5913s_072.jpg"
+  },
+  {
+    "Pokemon": "Conkeldurr-V",
+    "Coleção": "Pokemon GO",
+    "Número": "073/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6010s_073.jpg"
+  },
+  {
+    "Pokemon": "Conkeldurr-V",
+    "Coleção": "Pokemon GO",
+    "Número": "074/078",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6010s_074.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Melmetal-V",
     "Coleção": "Pokemon GO",
-    "Número": "01/07",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6010s_073.jpg"
+    "Número": "075/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5912s_075.jpg"
+  },
+  {
+    "Pokemon": "Dragonite-V",
+    "Coleção": "Pokemon GO",
+    "Número": "076/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5647s_076.jpg"
+  },
+  {
+    "Pokemon": "Slaking-V",
+    "Coleção": "Pokemon GO",
+    "Número": "077/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6013s_077.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Willow",
+    "Coleção": "Pokemon GO",
+    "Número": "078/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5653s_078.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo-V-ASTRO",
+    "Coleção": "Pokemon GO",
+    "Número": "079/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6009s_079.jpg"
+  },
+  {
+    "Pokemon": "Melmetal-VMAX",
+    "Coleção": "Pokemon GO",
+    "Número": "080/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6011s_080.jpg"
+  },
+  {
+    "Pokemon": "Dragonite-V-ASTRO",
+    "Coleção": "Pokemon GO",
+    "Número": "081/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6012s_081.jpg"
+  },
+  {
+    "Pokemon": "Blanche",
+    "Coleção": "Pokemon GO",
+    "Número": "082/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5908s_082.jpg"
+  },
+  {
+    "Pokemon": "Candela",
+    "Coleção": "Pokemon GO",
+    "Número": "083/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5910s_083.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Willow",
+    "Coleção": "Pokemon GO",
+    "Número": "084/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5653s_084.jpg"
+  },
+  {
+    "Pokemon": "Spark",
+    "Coleção": "Pokemon GO",
+    "Número": "085/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/5909s_085.jpg"
+  },
+  {
+    "Pokemon": "Mewtwo-V-ASTRO",
+    "Coleção": "Pokemon GO",
+    "Número": "086/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6009s_086.jpg"
+  },
+  {
+    "Pokemon": "Incubadora de Ovo",
+    "Coleção": "Pokemon GO",
+    "Número": "087/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6014s_087.jpg"
+  },
+  {
+    "Pokemon": "Módulo Atrair",
+    "Coleção": "Pokemon GO",
+    "Número": "088/078",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6015s_088.jpg"
+  },
+  {
+    "Pokemon": "Spinarak",
+    "Coleção": "Pokemon GO",
+    "Número": "006",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6021_006-D.jpg"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Pokemon GO",
+    "Número": "013",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6022_013-D.jpg"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Pokemon GO",
+    "Número": "059",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/274/6023_059-D.jpg"
   }
 ]
