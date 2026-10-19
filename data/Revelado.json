@@ -288,69 +288,291 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/447.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Horsea",
     "Coleção": "Revelado",
-    "Número": "12/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/897.png"
+    "Número": "49/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/848.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Larvitar",
     "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "50/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/2826.50.png"
+  },
+  {
+    "Pokemon": "Larvitar",
+    "Coleção": "Revelado",
+    "Número": "51/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/2827.51.png"
+  },
+  {
+    "Pokemon": "Magmar",
+    "Coleção": "Revelado",
+    "Número": "52/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/328.png"
+  },
+  {
+    "Pokemon": "Mankey",
+    "Coleção": "Revelado",
+    "Número": "53/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/218.png"
+  },
+  {
+    "Pokemon": "Misdreavus",
+    "Coleção": "Revelado",
+    "Número": "54/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/72.png"
+  },
+  {
+    "Pokemon": "Natu",
+    "Coleção": "Revelado",
+    "Número": "55/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/70.png"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Revelado",
+    "Número": "56/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/2828.56.png"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Revelado",
+    "Número": "57/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/2829.57.png"
+  },
+  {
+    "Pokemon": "Poliwag",
+    "Coleção": "Revelado",
+    "Número": "58/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/535.png"
+  },
+  {
+    "Pokemon": "Remoraid",
+    "Coleção": "Revelado",
+    "Número": "59/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/496.png"
+  },
+  {
+    "Pokemon": "Riolu",
+    "Coleção": "Revelado",
+    "Número": "60/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/91.png"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Revelado",
+    "Número": "61/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/300.png"
+  },
+  {
+    "Pokemon": "Spearow",
+    "Coleção": "Revelado",
+    "Número": "62/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/399.png"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Revelado",
+    "Número": "63/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/344.png"
+  },
+  {
+    "Pokemon": "Stantler",
+    "Coleção": "Revelado",
+    "Número": "64/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/345.png"
+  },
+  {
+    "Pokemon": "Teddiursa",
+    "Coleção": "Revelado",
+    "Número": "65/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/128.png"
+  },
+  {
+    "Pokemon": "Tropius",
+    "Coleção": "Revelado",
+    "Número": "66/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/928.png"
+  },
+  {
+    "Pokemon": "Turtwig",
+    "Coleção": "Revelado",
+    "Número": "67/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/17.png"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Revelado",
+    "Número": "68/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/36.png"
+  },
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "Revelado",
+    "Número": "69/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/229.png"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Revelado",
+    "Número": "70/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/499.png"
+  },
+  {
+    "Pokemon": "Cheerleader's Cheer",
+    "Coleção": "Revelado",
+    "Número": "71/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1399.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Dual Ball",
     "Coleção": "Revelado",
-    "Número": "12/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1407.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Revelado",
-    "Número": "12/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/238.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "72/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/963.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Emcee's Chatter",
     "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "73/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1400.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Energy Returner",
     "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "74/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1401.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Engineer's Adjustments",
     "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "75/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1402.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Good Rod",
     "Coleção": "Revelado",
-    "Número": "12/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141391.png"
+    "Número": "76/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1403.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Interviewer's Questions",
     "Coleção": "Revelado",
-    "Número": "12/05",
+    "Número": "77/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1404.png"
+  },
+  {
+    "Pokemon": "Juiz",
+    "Coleção": "Revelado",
+    "Número": "78/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1405.png"
+  },
+  {
+    "Pokemon": "Erva da Vida",
+    "Coleção": "Revelado",
+    "Número": "79/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/789.png"
+  },
+  {
+    "Pokemon": "PlusPower",
+    "Coleção": "Revelado",
+    "Número": "80/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/353.png"
+  },
+  {
+    "Pokemon": "Pokémon Circulator",
+    "Coleção": "Revelado",
+    "Número": "81/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1406.png"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Revelado",
+    "Número": "82/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/238.png"
+  },
+  {
+    "Pokemon": "Super-recolhida",
+    "Coleção": "Revelado",
+    "Número": "83/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/410.png"
+  },
+  {
+    "Pokemon": "Crobat Prime",
+    "Coleção": "Revelado",
+    "Número": "84/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1407.png"
+  },
+  {
+    "Pokemon": "Kingdra Prime",
+    "Coleção": "Revelado",
+    "Número": "85/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1408.png"
+  },
+  {
+    "Pokemon": "Lanturn Prime",
+    "Coleção": "Revelado",
+    "Número": "86/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1409.png"
+  },
+  {
+    "Pokemon": "Steelix Prime",
+    "Coleção": "Revelado",
+    "Número": "87/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1410.png"
+  },
+  {
+    "Pokemon": "Tyranitar Prime",
+    "Coleção": "Revelado",
+    "Número": "88/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1411.png"
+  },
+  {
+    "Pokemon": "Ursaring Prime",
+    "Coleção": "Revelado",
+    "Número": "89/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/1412.png"
+  },
+  {
+    "Pokemon": "Entei & Raikou LEGEND",
+    "Coleção": "Revelado",
+    "Número": "90/95",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141390.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Entei & Raikou LEGEND",
     "Coleção": "Revelado",
-    "Número": "12/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/789.png"
+    "Número": "91/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141391.png"
+  },
+  {
+    "Pokemon": "Raikou & Suicune LEGEND",
+    "Coleção": "Revelado",
+    "Número": "92/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141492.png"
+  },
+  {
+    "Pokemon": "Raikou & Suicune LEGEND",
+    "Coleção": "Revelado",
+    "Número": "93/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141493.png"
+  },
+  {
+    "Pokemon": "Suicune & Entei LEGEND",
+    "Coleção": "Revelado",
+    "Número": "94/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141594.png"
+  },
+  {
+    "Pokemon": "Suicune & Entei LEGEND",
+    "Coleção": "Revelado",
+    "Número": "95/95",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/141595.png"
+  },
+  {
+    "Pokemon": "Alph Lithograph",
+    "Coleção": "Revelado",
+    "Número": "0",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/28/897.png"
   }
 ]

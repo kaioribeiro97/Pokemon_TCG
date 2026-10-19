@@ -288,69 +288,381 @@
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/844s_48.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Skiploom",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1518s_83.jpg"
+    "Número": "49/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/302s_49.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Sunflora",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1531s_99.jpg"
+    "Número": "50/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/281s_50.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Togepi",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1525s_91.jpg"
+    "Número": "51/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/225s_51.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Xatu",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1526s_92.jpg"
+    "Número": "52/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/71s_52.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Chikorita",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3513s_54.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Neo Genesis",
-    "Número": "16/12",
+    "Número": "53/111",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3512s_53.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Chikorita",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
+    "Número": "54/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3513s_54.jpg"
+  },
+  {
+    "Pokemon": "Chinchou",
+    "Coleção": "Neo Genesis",
+    "Número": "55/111",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/447s_55.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Cyndaquil",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3511s_57.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Neo Genesis",
-    "Número": "16/12",
+    "Número": "56/111",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3510s_56.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Cyndaquil",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
+    "Número": "57/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3511s_57.jpg"
+  },
+  {
+    "Pokemon": "Girafarig",
+    "Coleção": "Neo Genesis",
+    "Número": "58/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/429s_58.jpg"
+  },
+  {
+    "Pokemon": "Gligar",
+    "Coleção": "Neo Genesis",
+    "Número": "59/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1138s_59.jpg"
+  },
+  {
+    "Pokemon": "Hoothoot",
+    "Coleção": "Neo Genesis",
+    "Número": "60/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1083s_60.jpg"
+  },
+  {
+    "Pokemon": "Hoppip",
+    "Coleção": "Neo Genesis",
+    "Número": "61/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/325s_61.jpg"
+  },
+  {
+    "Pokemon": "Horsea",
+    "Coleção": "Neo Genesis",
+    "Número": "62/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/848s_62.jpg"
+  },
+  {
+    "Pokemon": "Ledyba",
+    "Coleção": "Neo Genesis",
+    "Número": "63/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/565s_63.jpg"
+  },
+  {
+    "Pokemon": "Mantine",
+    "Coleção": "Neo Genesis",
+    "Número": "64/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1042s_64.jpg"
+  },
+  {
+    "Pokemon": "Mareep",
+    "Coleção": "Neo Genesis",
+    "Número": "65/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/329s_65.jpg"
+  },
+  {
+    "Pokemon": "Marill",
+    "Coleção": "Neo Genesis",
+    "Número": "66/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/843s_66.jpg"
+  },
+  {
+    "Pokemon": "Natu",
+    "Coleção": "Neo Genesis",
+    "Número": "67/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/70s_67.jpg"
+  },
+  {
+    "Pokemon": "Oddish",
+    "Coleção": "Neo Genesis",
+    "Número": "68/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/849s_68.jpg"
+  },
+  {
+    "Pokemon": "Onix",
+    "Coleção": "Neo Genesis",
+    "Número": "69/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/534s_69.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Neo Genesis",
+    "Número": "70/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/15s_70.jpg"
+  },
+  {
+    "Pokemon": "Sentret",
+    "Coleção": "Neo Genesis",
+    "Número": "71/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/337s_71.jpg"
+  },
+  {
+    "Pokemon": "Shuckle",
+    "Coleção": "Neo Genesis",
+    "Número": "72/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/20s_72.jpg"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Neo Genesis",
+    "Número": "73/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/221s_73.jpg"
+  },
+  {
+    "Pokemon": "Snubbull",
+    "Coleção": "Neo Genesis",
+    "Número": "74/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/223s_74.jpg"
+  },
+  {
+    "Pokemon": "Spinarak",
+    "Coleção": "Neo Genesis",
+    "Número": "75/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/845s_75.jpg"
+  },
+  {
+    "Pokemon": "Stantler",
+    "Coleção": "Neo Genesis",
+    "Número": "76/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/345s_76.jpg"
+  },
+  {
+    "Pokemon": "Sudowoodo",
+    "Coleção": "Neo Genesis",
+    "Número": "77/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/386s_77.jpg"
+  },
+  {
+    "Pokemon": "Sunkern",
+    "Coleção": "Neo Genesis",
+    "Número": "78/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/346s_78.jpg"
+  },
+  {
+    "Pokemon": "Swinub",
+    "Coleção": "Neo Genesis",
+    "Número": "79/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/498s_79.jpg"
+  },
+  {
+    "Pokemon": "Totodile",
+    "Coleção": "Neo Genesis",
+    "Número": "80/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3504s_80.jpg"
+  },
+  {
+    "Pokemon": "Totodile",
+    "Coleção": "Neo Genesis",
+    "Número": "81/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/3505s_81.jpg"
+  },
+  {
+    "Pokemon": "Wooper",
+    "Coleção": "Neo Genesis",
+    "Número": "82/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/350s_82.jpg"
+  },
+  {
+    "Pokemon": "Arcade Game",
+    "Coleção": "Neo Genesis",
+    "Número": "83/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1518s_83.jpg"
+  },
+  {
+    "Pokemon": "Ecogym",
+    "Coleção": "Neo Genesis",
+    "Número": "84/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1519s_84.jpg"
+  },
+  {
+    "Pokemon": "Energy Charge",
+    "Coleção": "Neo Genesis",
+    "Número": "85/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/939s_85.jpg"
+  },
+  {
+    "Pokemon": "Focus Band",
+    "Coleção": "Neo Genesis",
+    "Número": "86/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1520s_86.jpg"
+  },
+  {
+    "Pokemon": "Mary",
+    "Coleção": "Neo Genesis",
+    "Número": "87/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1521s_87.jpg"
+  },
+  {
+    "Pokemon": "PokéGear",
+    "Coleção": "Neo Genesis",
+    "Número": "88/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1522s_88.jpg"
+  },
+  {
+    "Pokemon": "Super Energy Retrieval",
+    "Coleção": "Neo Genesis",
+    "Número": "89/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1523s_89.jpg"
+  },
+  {
+    "Pokemon": "Time Capsule",
+    "Coleção": "Neo Genesis",
+    "Número": "90/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1524s_90.jpg"
+  },
+  {
+    "Pokemon": "Bill's Teleporter",
+    "Coleção": "Neo Genesis",
+    "Número": "91/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1525s_91.jpg"
+  },
+  {
+    "Pokemon": "Card-Flip Game",
+    "Coleção": "Neo Genesis",
+    "Número": "92/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1526s_92.jpg"
+  },
+  {
+    "Pokemon": "Gold Berry",
+    "Coleção": "Neo Genesis",
+    "Número": "93/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1527s_93.jpg"
+  },
+  {
+    "Pokemon": "Miracle Berry",
+    "Coleção": "Neo Genesis",
+    "Número": "94/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1528s_94.jpg"
+  },
+  {
+    "Pokemon": "New Pokédex",
+    "Coleção": "Neo Genesis",
+    "Número": "95/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1529s_95.jpg"
+  },
+  {
+    "Pokemon": "Professor Elm",
+    "Coleção": "Neo Genesis",
+    "Número": "96/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1100s_96.jpg"
+  },
+  {
+    "Pokemon": "Sprout Tower",
+    "Coleção": "Neo Genesis",
+    "Número": "97/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1530s_97.jpg"
+  },
+  {
+    "Pokemon": "Super-recolhida",
+    "Coleção": "Neo Genesis",
+    "Número": "98/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/410s_98.jpg"
+  },
+  {
+    "Pokemon": "Berry",
+    "Coleção": "Neo Genesis",
+    "Número": "99/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1531s_99.jpg"
+  },
+  {
+    "Pokemon": "Double Gust",
+    "Coleção": "Neo Genesis",
+    "Número": "100/111",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1532s_100.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Moo-Moo Milk",
     "Coleção": "Neo Genesis",
-    "Número": "16/12",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1519s_84.jpg"
+    "Número": "101/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1480s_101.jpg"
+  },
+  {
+    "Pokemon": "Pokémon March",
+    "Coleção": "Neo Genesis",
+    "Número": "102/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1533s_102.jpg"
+  },
+  {
+    "Pokemon": "Supervara",
+    "Coleção": "Neo Genesis",
+    "Número": "103/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/835s_103.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Neo Genesis",
+    "Número": "104/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/361s_104.jpg"
+  },
+  {
+    "Pokemon": "Recycle Energy",
+    "Coleção": "Neo Genesis",
+    "Número": "105/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/1534s_105.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Neo Genesis",
+    "Número": "106/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/557s_106.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Neo Genesis",
+    "Número": "107/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/558s_107.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Neo Genesis",
+    "Número": "108/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/5154s_108.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Neo Genesis",
+    "Número": "109/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/560s_109.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Neo Genesis",
+    "Número": "110/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/561s_110.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Neo Genesis",
+    "Número": "111/111",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/65/562s_111.jpg"
   }
 ]

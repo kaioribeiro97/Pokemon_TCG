@@ -432,81 +432,825 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5060_72.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Morpeko",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/616_135.jpg"
+    "Número": "73/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4965_73.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Clefairy",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "74/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/319_74.jpg"
+  },
+  {
+    "Pokemon": "Clefable",
+    "Coleção": "Rixa Rebelde",
+    "Número": "75/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/509_75.jpg"
+  },
+  {
+    "Pokemon": "Natu",
+    "Coleção": "Rixa Rebelde",
+    "Número": "76/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/70_76.jpg"
+  },
+  {
+    "Pokemon": "Xatu",
+    "Coleção": "Rixa Rebelde",
+    "Número": "77/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/71_77.jpg"
+  },
+  {
+    "Pokemon": "Corsola de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "78/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5034_78.jpg"
+  },
+  {
+    "Pokemon": "Cursola de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "79/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5028_79.jpg"
+  },
+  {
+    "Pokemon": "Sigilyph",
+    "Coleção": "Rixa Rebelde",
+    "Número": "80/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/80_80.jpg"
+  },
+  {
+    "Pokemon": "Sandygast",
+    "Coleção": "Rixa Rebelde",
+    "Número": "81/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4280_81.jpg"
+  },
+  {
+    "Pokemon": "Palossand",
+    "Coleção": "Rixa Rebelde",
+    "Número": "82/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4267_82.jpg"
+  },
+  {
+    "Pokemon": "Hatenna",
+    "Coleção": "Rixa Rebelde",
+    "Número": "83/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5027_83.jpg"
+  },
+  {
+    "Pokemon": "Hattrem",
+    "Coleção": "Rixa Rebelde",
+    "Número": "84/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5030_84.jpg"
+  },
+  {
+    "Pokemon": "Hatterene",
+    "Coleção": "Rixa Rebelde",
+    "Número": "85/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5010_85.jpg"
+  },
+  {
+    "Pokemon": "Milcery",
+    "Coleção": "Rixa Rebelde",
+    "Número": "86/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5023_86.jpg"
+  },
+  {
+    "Pokemon": "Alcremie",
+    "Coleção": "Rixa Rebelde",
+    "Número": "87/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5044_87.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Indeedee",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5001_156.jpg"
+    "Número": "88/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5058_88.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Dreepy",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1959_104.jpg"
+    "Número": "89/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5031_89.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Drakloak",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "90/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5037_90.jpg"
+  },
+  {
+    "Pokemon": "Dragapult",
+    "Coleção": "Rixa Rebelde",
+    "Número": "91/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5021_91.jpg"
+  },
+  {
+    "Pokemon": "Dragapult-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "92/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5013_92.jpg"
+  },
+  {
+    "Pokemon": "Dragapult-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "93/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5005_93.jpg"
+  },
+  {
+    "Pokemon": "Farfetch'd de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "94/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5054_94.jpg"
+  },
+  {
+    "Pokemon": "Sirfetch'd de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "95/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5009_95.jpg"
+  },
+  {
+    "Pokemon": "Nosepass",
+    "Coleção": "Rixa Rebelde",
+    "Número": "96/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/931_96.jpg"
+  },
+  {
+    "Pokemon": "Meditite",
+    "Coleção": "Rixa Rebelde",
+    "Número": "97/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/761_97.jpg"
+  },
+  {
+    "Pokemon": "Medicham",
+    "Coleção": "Rixa Rebelde",
+    "Número": "98/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5069_98.jpg"
+  },
+  {
+    "Pokemon": "Barboach",
+    "Coleção": "Rixa Rebelde",
+    "Número": "99/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5066_99.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Whiscash",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4236_150.jpg"
+    "Número": "100/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/929_100.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Yamask de Galar",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "101/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5035_101.jpg"
+  },
+  {
+    "Pokemon": "Runerigus de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "102/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5033_102.jpg"
+  },
+  {
+    "Pokemon": "Binacle",
+    "Coleção": "Rixa Rebelde",
+    "Número": "103/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1429_103.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Barbaracle",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5052_181.jpg"
+    "Número": "104/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1959_104.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Rolycoly",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/369_130.jpg"
+    "Número": "105/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5038_105.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Carkol",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "106/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5018_106.jpg"
+  },
+  {
+    "Pokemon": "Coalossal",
+    "Coleção": "Rixa Rebelde",
+    "Número": "107/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5042_107.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "108/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5061_108.jpg"
+  },
+  {
+    "Pokemon": "Falinks",
+    "Coleção": "Rixa Rebelde",
+    "Número": "109/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5049_109.jpg"
+  },
+  {
+    "Pokemon": "Falinks-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "110/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5063_110.jpg"
+  },
+  {
+    "Pokemon": "Stonjourner",
+    "Coleção": "Rixa Rebelde",
+    "Número": "111/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4971_111.jpg"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Rixa Rebelde",
+    "Número": "112/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/213_112.jpg"
+  },
+  {
+    "Pokemon": "Weezing de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "113/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5011_113.jpg"
+  },
+  {
+    "Pokemon": "Stunky",
+    "Coleção": "Rixa Rebelde",
+    "Número": "114/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/401_114.jpg"
+  },
+  {
+    "Pokemon": "Skuntank",
+    "Coleção": "Rixa Rebelde",
+    "Número": "115/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/684_115.jpg"
+  },
+  {
+    "Pokemon": "Spiritomb",
+    "Coleção": "Rixa Rebelde",
+    "Número": "116/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/98_116.jpg"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Rixa Rebelde",
+    "Número": "117/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/81_117.jpg"
+  },
+  {
+    "Pokemon": "Garbodor",
+    "Coleção": "Rixa Rebelde",
+    "Número": "118/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/82_118.jpg"
+  },
+  {
+    "Pokemon": "Vullaby",
+    "Coleção": "Rixa Rebelde",
+    "Número": "119/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/734_119.jpg"
+  },
+  {
+    "Pokemon": "Mandibuzz",
+    "Coleção": "Rixa Rebelde",
+    "Número": "120/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1805_120.jpg"
+  },
+  {
+    "Pokemon": "Malamar-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "121/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5074_121.jpg"
+  },
+  {
+    "Pokemon": "Malamar-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "122/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5075_122.jpg"
+  },
+  {
+    "Pokemon": "Impidimp",
+    "Coleção": "Rixa Rebelde",
+    "Número": "123/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5040_123.jpg"
+  },
+  {
+    "Pokemon": "Morgrem",
+    "Coleção": "Rixa Rebelde",
+    "Número": "124/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5025_124.jpg"
+  },
+  {
+    "Pokemon": "Grimmsnarl",
+    "Coleção": "Rixa Rebelde",
+    "Número": "125/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5026_125.jpg"
+  },
+  {
+    "Pokemon": "Meowth de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "126/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4918_126.jpg"
+  },
+  {
+    "Pokemon": "Perrserker de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "127/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4919_127.jpg"
+  },
+  {
+    "Pokemon": "Scizor",
+    "Coleção": "Rixa Rebelde",
+    "Número": "128/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/374_128.jpg"
+  },
+  {
+    "Pokemon": "Bronzor",
+    "Coleção": "Rixa Rebelde",
+    "Número": "129/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/389_129.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Bronzong",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "130/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/369_130.jpg"
+  },
+  {
+    "Pokemon": "Probopass",
+    "Coleção": "Rixa Rebelde",
+    "Número": "131/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1002_131.jpg"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Rixa Rebelde",
+    "Número": "132/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/828_132.jpg"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "Rixa Rebelde",
+    "Número": "133/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/614_133.jpg"
+  },
+  {
+    "Pokemon": "Doublade",
+    "Coleção": "Rixa Rebelde",
+    "Número": "134/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/615_134.jpg"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "Rixa Rebelde",
+    "Número": "135/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/616_135.jpg"
+  },
+  {
+    "Pokemon": "Copperajah-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "136/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5065_136.jpg"
+  },
+  {
+    "Pokemon": "Copperajah-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "137/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5064_137.jpg"
+  },
+  {
+    "Pokemon": "Duraludon",
+    "Coleção": "Rixa Rebelde",
+    "Número": "138/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5019_138.jpg"
+  },
+  {
+    "Pokemon": "Zacian",
+    "Coleção": "Rixa Rebelde",
+    "Número": "139/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5057_139.jpg"
+  },
+  {
+    "Pokemon": "Zamazenta",
+    "Coleção": "Rixa Rebelde",
+    "Número": "140/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5059_140.jpg"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Rixa Rebelde",
+    "Número": "141/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/515_141.jpg"
+  },
+  {
+    "Pokemon": "Chatot",
+    "Coleção": "Rixa Rebelde",
+    "Número": "142/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/390_142.jpg"
+  },
+  {
+    "Pokemon": "Pidove",
+    "Coleção": "Rixa Rebelde",
+    "Número": "143/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/249_143.jpg"
+  },
+  {
+    "Pokemon": "Tranquill",
+    "Coleção": "Rixa Rebelde",
+    "Número": "144/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1435_144.jpg"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Rixa Rebelde",
+    "Número": "145/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1436_145.jpg"
+  },
+  {
+    "Pokemon": "Bunnelby",
+    "Coleção": "Rixa Rebelde",
+    "Número": "146/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/630_146.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Diggersby",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
+    "Número": "147/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/631_147.jpg"
+  },
+  {
+    "Pokemon": "Hawlucha",
+    "Coleção": "Rixa Rebelde",
+    "Número": "148/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1430_148.jpg"
+  },
+  {
+    "Pokemon": "Stufful",
+    "Coleção": "Rixa Rebelde",
+    "Número": "149/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4284_149.jpg"
+  },
+  {
+    "Pokemon": "Bewear",
+    "Coleção": "Rixa Rebelde",
+    "Número": "150/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4236_150.jpg"
+  },
+  {
+    "Pokemon": "Skwovet",
+    "Coleção": "Rixa Rebelde",
+    "Número": "151/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5007_151.jpg"
+  },
+  {
+    "Pokemon": "Greedent",
+    "Coleção": "Rixa Rebelde",
+    "Número": "152/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5036_152.jpg"
+  },
+  {
+    "Pokemon": "Dubwool-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "153/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5047_153.jpg"
+  },
+  {
+    "Pokemon": "Ordem da Chefia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "154/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4997_154.jpg"
+  },
+  {
+    "Pokemon": "Cachecol em Chamas",
+    "Coleção": "Rixa Rebelde",
+    "Número": "155/192",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5067_155.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Balde Profundo",
     "Coleção": "Rixa Rebelde",
-    "Número": "01/05",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5018_106.jpg"
+    "Número": "156/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5001_156.jpg"
+  },
+  {
+    "Pokemon": "Pá Amaldiçoada",
+    "Coleção": "Rixa Rebelde",
+    "Número": "157/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5006_157.jpg"
+  },
+  {
+    "Pokemon": "Dan",
+    "Coleção": "Rixa Rebelde",
+    "Número": "158/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5068_158.jpg"
+  },
+  {
+    "Pokemon": "Cura Total",
+    "Coleção": "Rixa Rebelde",
+    "Número": "159/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/548_159.jpg"
+  },
+  {
+    "Pokemon": "Mina de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "160/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5016_160.jpg"
+  },
+  {
+    "Pokemon": "Milo",
+    "Coleção": "Rixa Rebelde",
+    "Número": "161/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5048_161.jpg"
+  },
+  {
+    "Pokemon": "Pepita",
+    "Coleção": "Rixa Rebelde",
+    "Número": "162/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5070_162.jpg"
+  },
+  {
+    "Pokemon": "Oleana",
+    "Coleção": "Rixa Rebelde",
+    "Número": "163/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5071_163.jpg"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Rixa Rebelde",
+    "Número": "164",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/169/4895_164b.jpg"
+  },
+  {
+    "Pokemon": "Rede de Recolhida",
+    "Coleção": "Rixa Rebelde",
+    "Número": "165/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4994_165.jpg"
+  },
+  {
+    "Pokemon": "Skyla",
+    "Coleção": "Rixa Rebelde",
+    "Número": "166/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1947_166.jpg"
+  },
+  {
+    "Pokemon": "Sônia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "167/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5003_167.jpg"
+  },
+  {
+    "Pokemon": "Sucateador de Ferramenta",
+    "Coleção": "Rixa Rebelde",
+    "Número": "168/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1554_168.jpg"
+  },
+  {
+    "Pokemon": "Quadra de Treino",
+    "Coleção": "Rixa Rebelde",
+    "Número": "169/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5072_169.jpg"
+  },
+  {
+    "Pokemon": "Estádio de Turffield",
+    "Coleção": "Rixa Rebelde",
+    "Número": "170/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5056_170.jpg"
+  },
+  {
+    "Pokemon": "Energia de Captura",
+    "Coleção": "Rixa Rebelde",
+    "Número": "171/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4995_171.jpg"
+  },
+  {
+    "Pokemon": "Energia P Horripilante",
+    "Coleção": "Rixa Rebelde",
+    "Número": "172/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5014_172.jpg"
+  },
+  {
+    "Pokemon": "Energia E Acelerada",
+    "Coleção": "Rixa Rebelde",
+    "Número": "173/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4999_173.jpg"
+  },
+  {
+    "Pokemon": "Energia Gêmea",
+    "Coleção": "Rixa Rebelde",
+    "Número": "174/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5073_174.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "175/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5055_175.jpg"
+  },
+  {
+    "Pokemon": "Eldegoss-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "176/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5017_176.jpg"
+  },
+  {
+    "Pokemon": "Ninetales-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "177/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5045_177.jpg"
+  },
+  {
+    "Pokemon": "Cinderace-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "178/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5051s_178.jpg"
+  },
+  {
+    "Pokemon": "Milotic-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "179/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5046_179.jpg"
+  },
+  {
+    "Pokemon": "Inteleon-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "180/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5015_180.jpg"
+  },
+  {
+    "Pokemon": "Boltund-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "181/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5052_181.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "182/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5008_182.jpg"
+  },
+  {
+    "Pokemon": "Dragapult-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "183/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5013_183.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "184/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5061_184.jpg"
+  },
+  {
+    "Pokemon": "Falinks-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "185/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5063_185.jpg"
+  },
+  {
+    "Pokemon": "Malamar-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "186/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5074_186.jpg"
+  },
+  {
+    "Pokemon": "Copperajah-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "187/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5065_187.jpg"
+  },
+  {
+    "Pokemon": "Dubwool-V",
+    "Coleção": "Rixa Rebelde",
+    "Número": "188/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5047_188.jpg"
+  },
+  {
+    "Pokemon": "Ordem da Chefia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "189/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4997_189.jpg"
+  },
+  {
+    "Pokemon": "Milo",
+    "Coleção": "Rixa Rebelde",
+    "Número": "190/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5048_190.jpg"
+  },
+  {
+    "Pokemon": "Oleana",
+    "Coleção": "Rixa Rebelde",
+    "Número": "191/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5071_191.jpg"
+  },
+  {
+    "Pokemon": "Sônia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "192/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5003_192.jpg"
+  },
+  {
+    "Pokemon": "Rillaboom-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "193/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5053_193.jpg"
+  },
+  {
+    "Pokemon": "Cinderace-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "194/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5012_194.jpg"
+  },
+  {
+    "Pokemon": "Inteleon-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "195/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5004_195.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "196/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5002_196.jpg"
+  },
+  {
+    "Pokemon": "Dragapult-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "197/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5005_197.jpg"
+  },
+  {
+    "Pokemon": "Malamar-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "198/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5075_198.jpg"
+  },
+  {
+    "Pokemon": "Copperajah-VMAX",
+    "Coleção": "Rixa Rebelde",
+    "Número": "199/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5064_199.jpg"
+  },
+  {
+    "Pokemon": "Ordem da Chefia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "200/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4997_200.jpg"
+  },
+  {
+    "Pokemon": "Milo",
+    "Coleção": "Rixa Rebelde",
+    "Número": "201/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5048_201.jpg"
+  },
+  {
+    "Pokemon": "Oleana",
+    "Coleção": "Rixa Rebelde",
+    "Número": "202/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5071_202.jpg"
+  },
+  {
+    "Pokemon": "Sônia",
+    "Coleção": "Rixa Rebelde",
+    "Número": "203/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5003_203.jpg"
+  },
+  {
+    "Pokemon": "Frosmoth",
+    "Coleção": "Rixa Rebelde",
+    "Número": "204/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4923_204.jpg"
+  },
+  {
+    "Pokemon": "Perrserker de Galar",
+    "Coleção": "Rixa Rebelde",
+    "Número": "205/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4919_205.jpg"
+  },
+  {
+    "Pokemon": "Pingente Grande",
+    "Coleção": "Rixa Rebelde",
+    "Número": "206/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4909_206.jpg"
+  },
+  {
+    "Pokemon": "Rede de Recolhida",
+    "Coleção": "Rixa Rebelde",
+    "Número": "207/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4994_207.jpg"
+  },
+  {
+    "Pokemon": "Sucateador de Ferramenta",
+    "Coleção": "Rixa Rebelde",
+    "Número": "208/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/1554_208.jpg"
+  },
+  {
+    "Pokemon": "Energia Gêmea",
+    "Coleção": "Rixa Rebelde",
+    "Número": "209/192",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/5073_209.jpg"
   }
 ]

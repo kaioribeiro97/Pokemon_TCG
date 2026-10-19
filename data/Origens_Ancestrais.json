@@ -288,81 +288,321 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/758.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Metagross",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3734.87.png"
+    "Número": "49/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3727.49.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Metagross",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1424.png"
+    "Número": "50/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3728.50.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Registeel",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2132.png"
+    "Número": "51/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1595.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Ralts",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2137.png"
+    "Número": "52/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/74.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Kirlia",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2134.png"
+    "Número": "53/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/75.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Gardevoir",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2143.png"
+    "Número": "54/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/124.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Cottonee",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "55/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1801.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Whimsicott",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "56/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1802.png"
+  },
+  {
+    "Pokemon": "Giratina-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "57/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3739.57.png"
+  },
+  {
+    "Pokemon": "Goomy",
+    "Coleção": "Origens Ancestrais",
+    "Número": "58/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1174.png"
+  },
+  {
+    "Pokemon": "Sliggoo",
+    "Coleção": "Origens Ancestrais",
+    "Número": "59/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1175.png"
+  },
+  {
+    "Pokemon": "Goodra",
+    "Coleção": "Origens Ancestrais",
+    "Número": "60/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1176.png"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Origens Ancestrais",
+    "Número": "61/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/532.png"
+  },
+  {
+    "Pokemon": "Persian",
+    "Coleção": "Origens Ancestrais",
+    "Número": "62/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/523.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Origens Ancestrais",
+    "Número": "63/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/127.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Porygon",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "64/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/220.png"
+  },
+  {
+    "Pokemon": "Porygon2",
+    "Coleção": "Origens Ancestrais",
+    "Número": "65/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/188.png"
+  },
+  {
+    "Pokemon": "Porygon-Z",
+    "Coleção": "Origens Ancestrais",
+    "Número": "66/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3715.66.png"
+  },
+  {
+    "Pokemon": "Porygon-Z",
+    "Coleção": "Origens Ancestrais",
+    "Número": "67/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3716.67.png"
+  },
+  {
+    "Pokemon": "Lugia-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "68/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3721.68.png"
+  },
+  {
+    "Pokemon": "Treinador Ás",
+    "Coleção": "Origens Ancestrais",
+    "Número": "69/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2130.png"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Ampharos",
+    "Coleção": "Origens Ancestrais",
+    "Número": "70/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2131.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Braço de Eco",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "71/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2132.png"
+  },
+  {
+    "Pokemon": "Reciclador de Energia",
+    "Coleção": "Origens Ancestrais",
+    "Número": "72/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2133.png"
+  },
+  {
+    "Pokemon": "Cidade Desvanecida",
+    "Coleção": "Origens Ancestrais",
+    "Número": "73/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2134.png"
+  },
+  {
+    "Pokemon": "Floresta das Plantas Gigantes",
+    "Coleção": "Origens Ancestrais",
+    "Número": "74/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2135.png"
+  },
+  {
+    "Pokemon": "Maníaco de Feitiços",
+    "Coleção": "Origens Ancestrais",
+    "Número": "75",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2136.75a.jpg"
+  },
+  {
+    "Pokemon": "Maníaco de Feitiços",
+    "Coleção": "Origens Ancestrais",
+    "Número": "75/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2136.png"
+  },
+  {
+    "Pokemon": "Bola de Nível",
+    "Coleção": "Origens Ancestrais",
+    "Número": "76/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1424.png"
+  },
+  {
+    "Pokemon": "Capacete da Sorte",
+    "Coleção": "Origens Ancestrais",
+    "Número": "77/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2137.png"
+  },
+  {
+    "Pokemon": "Lysandre",
+    "Coleção": "Origens Ancestrais",
+    "Número": "78/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1967.png"
+  },
+  {
+    "Pokemon": "Rolo de Pintura",
+    "Coleção": "Origens Ancestrais",
+    "Número": "79/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2138.png"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Sceptile",
+    "Coleção": "Origens Ancestrais",
+    "Número": "80/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2139.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Elo Espiritual de Tyranitar",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "81/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2140.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Energia Perigosa",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
+    "Número": "82/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2141.png"
+  },
+  {
+    "Pokemon": "Energia Lampejante",
+    "Coleção": "Origens Ancestrais",
+    "Número": "83/98",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2142.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Sceptile-EX",
     "Coleção": "Origens Ancestrais",
-    "Número": "12/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2141.png"
+    "Número": "84/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3726.84.png"
+  },
+  {
+    "Pokemon": "M Sceptile-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "85/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3730.85.png"
+  },
+  {
+    "Pokemon": "Kyurem-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "86/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3718.86.png"
+  },
+  {
+    "Pokemon": "Ampharos-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "87/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3734.87.png"
+  },
+  {
+    "Pokemon": "M Ampharos-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "88/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3736.88.png"
+  },
+  {
+    "Pokemon": "Hoopa-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "89/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3742.89.png"
+  },
+  {
+    "Pokemon": "Machamp-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "90/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3706.90.png"
+  },
+  {
+    "Pokemon": "Tyranitar-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "91/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3710.91.png"
+  },
+  {
+    "Pokemon": "M Tyranitar-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "92/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3714.92.png"
+  },
+  {
+    "Pokemon": "Giratina-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "93/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3740.93.png"
+  },
+  {
+    "Pokemon": "Lugia-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "94/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/3722.94.png"
+  },
+  {
+    "Pokemon": "Steven",
+    "Coleção": "Origens Ancestrais",
+    "Número": "95/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1444.png"
+  },
+  {
+    "Pokemon": "Kyogre Primitivo-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "96/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1266.png"
+  },
+  {
+    "Pokemon": "Groudon Primitivo-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "97/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1268.png"
+  },
+  {
+    "Pokemon": "M Rayquaza-EX",
+    "Coleção": "Origens Ancestrais",
+    "Número": "98/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/1433.png"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Origens Ancestrais",
+    "Número": "99/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/547.png"
+  },
+  {
+    "Pokemon": "Correio de Treinadores",
+    "Coleção": "Origens Ancestrais",
+    "Número": "100/98",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/89/2143.png"
   }
 ]

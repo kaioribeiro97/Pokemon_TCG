@@ -432,45 +432,255 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/509.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Sylveon",
     "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1671.png"
+    "Número": "72/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1659.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Klefki",
     "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1675.png"
+    "Número": "73/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1170.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Dragonite-EX",
     "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1667.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/548.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
+    "Número": "74/111",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2245.74.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Vibrava",
     "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
+    "Número": "75/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/311.png"
+  },
+  {
+    "Pokemon": "Flygon",
+    "Coleção": "Punhos Furiosos",
+    "Número": "76/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/252.png"
+  },
+  {
+    "Pokemon": "Noivern",
+    "Coleção": "Punhos Furiosos",
+    "Número": "77/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1661.png"
+  },
+  {
+    "Pokemon": "Lickitung",
+    "Coleção": "Punhos Furiosos",
+    "Número": "78/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/326.png"
+  },
+  {
+    "Pokemon": "Lickilicky",
+    "Coleção": "Punhos Furiosos",
+    "Número": "79/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/257.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Punhos Furiosos",
+    "Número": "80/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/127.png"
+  },
+  {
+    "Pokemon": "Slakoth",
+    "Coleção": "Punhos Furiosos",
+    "Número": "81/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/763.png"
+  },
+  {
+    "Pokemon": "Vigoroth",
+    "Coleção": "Punhos Furiosos",
+    "Número": "82/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/759.png"
+  },
+  {
+    "Pokemon": "Slaking",
+    "Coleção": "Punhos Furiosos",
+    "Número": "83/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/754.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Punhos Furiosos",
+    "Número": "84/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1662.png"
+  },
+  {
+    "Pokemon": "Watchog",
+    "Coleção": "Punhos Furiosos",
+    "Número": "85/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1663.png"
+  },
+  {
+    "Pokemon": "Tornadus",
+    "Coleção": "Punhos Furiosos",
+    "Número": "86/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/116.png"
+  },
+  {
+    "Pokemon": "Noibat",
+    "Coleção": "Punhos Furiosos",
+    "Número": "87/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1664.png"
+  },
+  {
+    "Pokemon": "Repórter de Batalha",
+    "Coleção": "Punhos Furiosos",
+    "Número": "88/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2251.88.png"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Punhos Furiosos",
+    "Número": "89/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/120.png"
+  },
+  {
+    "Pokemon": "Estádio de Combate",
+    "Coleção": "Punhos Furiosos",
+    "Número": "90/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1666.png"
+  },
+  {
+    "Pokemon": "Cinto de Foco",
+    "Coleção": "Punhos Furiosos",
+    "Número": "91/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1667.png"
+  },
+  {
+    "Pokemon": "Pesquisador de Fósseis",
+    "Coleção": "Punhos Furiosos",
+    "Número": "92/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2263.92.png"
+  },
+  {
+    "Pokemon": "Cura Total",
+    "Coleção": "Punhos Furiosos",
+    "Número": "93/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/548.png"
+  },
+  {
+    "Pokemon": "Fóssil de Mandíbula",
+    "Coleção": "Punhos Furiosos",
+    "Número": "94/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1669.png"
+  },
+  {
+    "Pokemon": "Korrina",
+    "Coleção": "Punhos Furiosos",
+    "Número": "95/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2243.95.png"
+  },
+  {
+    "Pokemon": "Manutenção",
+    "Coleção": "Punhos Furiosos",
+    "Número": "96/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/549.png"
+  },
+  {
+    "Pokemon": "Anel de Montanhas",
+    "Coleção": "Punhos Furiosos",
+    "Número": "97/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1671.png"
+  },
+  {
+    "Pokemon": "Fóssil de Vela",
+    "Coleção": "Punhos Furiosos",
+    "Número": "98/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1672.png"
+  },
+  {
+    "Pokemon": "Veste Cintilante",
+    "Coleção": "Punhos Furiosos",
+    "Número": "99/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1673.png"
+  },
+  {
+    "Pokemon": "Super-recolhida",
+    "Coleção": "Punhos Furiosos",
+    "Número": "100/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/410.png"
+  },
+  {
+    "Pokemon": "Recuperador de Ferramentas",
+    "Coleção": "Punhos Furiosos",
+    "Número": "101/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1674.png"
+  },
+  {
+    "Pokemon": "Centro de Treinamento",
+    "Coleção": "Punhos Furiosos",
+    "Número": "102/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1675.png"
+  },
+  {
+    "Pokemon": "Energia Herbal",
+    "Coleção": "Punhos Furiosos",
+    "Número": "103/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1676.png"
+  },
+  {
+    "Pokemon": "Energia Intensa",
+    "Coleção": "Punhos Furiosos",
+    "Número": "104/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/1677.png"
+  },
+  {
+    "Pokemon": "Heracross-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "105/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2256.105.png"
+  },
+  {
+    "Pokemon": "Seismitoad-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "106/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2262.106.png"
+  },
+  {
+    "Pokemon": "Lucario-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "107/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2248.107.png"
+  },
+  {
+    "Pokemon": "Dragonite-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "108/111",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2246.108.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Repórter de Batalha",
     "Coleção": "Punhos Furiosos",
-    "Número": "13/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/127.png"
+    "Número": "109/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2252.109.png"
+  },
+  {
+    "Pokemon": "Pesquisador de Fósseis",
+    "Coleção": "Punhos Furiosos",
+    "Número": "110/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2264.110.png"
+  },
+  {
+    "Pokemon": "Korrina",
+    "Coleção": "Punhos Furiosos",
+    "Número": "111/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2244.111.png"
+  },
+  {
+    "Pokemon": "M Heracross-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "112/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2260.112.png"
+  },
+  {
+    "Pokemon": "M Lucario-EX",
+    "Coleção": "Punhos Furiosos",
+    "Número": "113/111",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/5/2250.113.png"
   }
 ]

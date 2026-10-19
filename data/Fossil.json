@@ -288,15 +288,87 @@
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/324s_48.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Horsea",
     "Coleção": "Fóssil",
-    "Número": "10/10",
+    "Número": "49/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/848s_49.jpg"
+  },
+  {
+    "Pokemon": "Kabuto",
+    "Coleção": "Fóssil",
+    "Número": "50/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/396s_50.jpg"
+  },
+  {
+    "Pokemon": "Krabby",
+    "Coleção": "Fóssil",
+    "Número": "51/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/214s_51.jpg"
+  },
+  {
+    "Pokemon": "Omanyte",
+    "Coleção": "Fóssil",
+    "Número": "52/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/398s_52.jpg"
+  },
+  {
+    "Pokemon": "Psyduck",
+    "Coleção": "Fóssil",
+    "Número": "53/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/334s_53.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Fóssil",
+    "Número": "54/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/338s_54.jpg"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Fóssil",
+    "Número": "55/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/221s_55.jpg"
+  },
+  {
+    "Pokemon": "Tentacool",
+    "Coleção": "Fóssil",
+    "Número": "56/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/457s_56.jpg"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Fóssil",
+    "Número": "57/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/499s_57.jpg"
+  },
+  {
+    "Pokemon": "Mr. Fuji",
+    "Coleção": "Fóssil",
+    "Número": "58/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/1882s_58.jpg"
+  },
+  {
+    "Pokemon": "Busca de Energia",
+    "Coleção": "Fóssil",
+    "Número": "59/62",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/413s_59.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Gambler",
     "Coleção": "Fóssil",
-    "Número": "10/10",
+    "Número": "60/62",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/1883s_60.jpg"
+  },
+  {
+    "Pokemon": "Reciclagem",
+    "Coleção": "Fóssil",
+    "Número": "61/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/1807s_61.jpg"
+  },
+  {
+    "Pokemon": "Mysterious Fossil",
+    "Coleção": "Fóssil",
+    "Número": "62/62",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/70/467s_62.jpg"
   }
 ]

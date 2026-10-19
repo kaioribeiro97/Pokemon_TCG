@@ -288,57 +288,285 @@
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/445_048.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Lairon",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
+    "Número": "049/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/439_049.jpg"
+  },
+  {
+    "Pokemon": "Aggron",
+    "Coleção": "Silver Lance",
+    "Número": "050/070",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/422_050.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Tauros",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/369_092.jpg"
+    "Número": "051/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/527_051.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Porygon",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5406_073.jpg"
+    "Número": "052/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/220_052.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Porygon2",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5406_072.jpg"
+    "Número": "053/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/188_053.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Porygon-Z",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5409_085.jpg"
+    "Número": "054/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/151_054.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Teddiursa",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5409_084.jpg"
+    "Número": "055/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/128_055.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Ursaring",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
-    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5395_094.jpg"
+    "Número": "056/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/129_056.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Tornadus-V",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
+    "Número": "057/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5422_057.jpg"
+  },
+  {
+    "Pokemon": "Tornadus-VMAX",
+    "Coleção": "Silver Lance",
+    "Número": "058/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5423_058.jpg"
+  },
+  {
+    "Pokemon": "Furfrou",
+    "Coleção": "Silver Lance",
+    "Número": "059/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/633_059.jpg"
+  },
+  {
+    "Pokemon": "Uniforme de Expedição",
+    "Coleção": "Silver Lance",
+    "Número": "060/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5385_060.jpg"
+  },
+  {
+    "Pokemon": "Elmo Robusto",
+    "Coleção": "Silver Lance",
+    "Número": "061/070",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5395_061.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Pergaminho Perfurante Golpe Decisivo",
     "Coleção": "Silver Lance",
-    "Número": "23/04",
+    "Número": "062/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5438_062.jpg"
+  },
+  {
+    "Pokemon": "Luvas à Prova de Fogo",
+    "Coleção": "Silver Lance",
+    "Número": "063/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5428_063.jpg"
+  },
+  {
+    "Pokemon": "Luvas Esmagadoras",
+    "Coleção": "Silver Lance",
+    "Número": "064/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5427_064.jpg"
+  },
+  {
+    "Pokemon": "Flannery",
+    "Coleção": "Silver Lance",
+    "Número": "065/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5399_065.jpg"
+  },
+  {
+    "Pokemon": "Médica",
+    "Coleção": "Silver Lance",
+    "Número": "066/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5394_066.jpg"
+  },
+  {
+    "Pokemon": "Peônio",
+    "Coleção": "Silver Lance",
+    "Número": "067/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5435_067.jpg"
+  },
+  {
+    "Pokemon": "Melony",
+    "Coleção": "Silver Lance",
+    "Número": "068/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5391_068.jpg"
+  },
+  {
+    "Pokemon": "Trilha para o Cume",
+    "Coleção": "Silver Lance",
+    "Número": "069/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5433_069.jpg"
+  },
+  {
+    "Pokemon": "Energia de Impacto",
+    "Coleção": "Silver Lance",
+    "Número": "070/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5440_070.jpg"
+  },
+  {
+    "Pokemon": "Volcanion-V",
+    "Coleção": "Silver Lance",
+    "Número": "071/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5414_071.jpg"
+  },
+  {
+    "Pokemon": "Calyrex Cavaleiro Glacial-V",
+    "Coleção": "Silver Lance",
+    "Número": "072/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5406_072.jpg"
+  },
+  {
+    "Pokemon": "Calyrex Cavaleiro Glacial-V",
+    "Coleção": "Silver Lance",
+    "Número": "073/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5406_073.jpg"
+  },
+  {
+    "Pokemon": "Rapidash de Galar-V",
+    "Coleção": "Silver Lance",
+    "Número": "074/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5401_074.jpg"
+  },
+  {
+    "Pokemon": "Rapidash de Galar-V",
+    "Coleção": "Silver Lance",
+    "Número": "075/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5401_075.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda-V",
+    "Coleção": "Silver Lance",
+    "Número": "076/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5061_076.jpg"
+  },
+  {
+    "Pokemon": "Liepard-V",
+    "Coleção": "Silver Lance",
+    "Número": "077/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5418_077.jpg"
+  },
+  {
+    "Pokemon": "Tornadus-V",
+    "Coleção": "Silver Lance",
+    "Número": "078/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5422_078.jpg"
+  },
+  {
+    "Pokemon": "Tornadus-V",
+    "Coleção": "Silver Lance",
+    "Número": "079/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5422_079.jpg"
+  },
+  {
+    "Pokemon": "Flannery",
+    "Coleção": "Silver Lance",
+    "Número": "080/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5399_080.jpg"
+  },
+  {
+    "Pokemon": "Médica",
+    "Coleção": "Silver Lance",
+    "Número": "081/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5394_081.jpg"
+  },
+  {
+    "Pokemon": "Peônio",
+    "Coleção": "Silver Lance",
+    "Número": "082/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5435_082.jpg"
+  },
+  {
+    "Pokemon": "Melony",
+    "Coleção": "Silver Lance",
+    "Número": "083/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5391_083.jpg"
+  },
+  {
+    "Pokemon": "Calyrex Cavaleiro Glacial-VMAX",
+    "Coleção": "Silver Lance",
+    "Número": "084/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5409_084.jpg"
+  },
+  {
+    "Pokemon": "Calyrex Cavaleiro Glacial-VMAX",
+    "Coleção": "Silver Lance",
+    "Número": "085/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5409_085.jpg"
+  },
+  {
+    "Pokemon": "Sandaconda-VMAX",
+    "Coleção": "Silver Lance",
+    "Número": "086/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5408_086.jpg"
+  },
+  {
+    "Pokemon": "Tornadus-VMAX",
+    "Coleção": "Silver Lance",
+    "Número": "087/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5423_087.jpg"
+  },
+  {
+    "Pokemon": "Flannery",
+    "Coleção": "Silver Lance",
+    "Número": "088/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5399_088.jpg"
+  },
+  {
+    "Pokemon": "Médica",
+    "Coleção": "Silver Lance",
+    "Número": "089/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5394_089.jpg"
+  },
+  {
+    "Pokemon": "Peônio",
+    "Coleção": "Silver Lance",
+    "Número": "090/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5435_090.jpg"
+  },
+  {
+    "Pokemon": "Melony",
+    "Coleção": "Silver Lance",
+    "Número": "091/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5391_091.jpg"
+  },
+  {
+    "Pokemon": "Bronzong",
+    "Coleção": "Silver Lance",
+    "Número": "092/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/369_092.jpg"
+  },
+  {
+    "Pokemon": "Lanterna Acolhedora",
+    "Coleção": "Silver Lance",
+    "Número": "093/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5386_093.jpg"
+  },
+  {
+    "Pokemon": "Elmo Robusto",
+    "Coleção": "Silver Lance",
+    "Número": "094/070",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/5395_094.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Silver Lance",
+    "Número": "095/070",
     "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/333/562_095.jpg"
   }
 ]
