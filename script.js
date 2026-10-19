@@ -388,85 +388,57 @@ function getBaseName(fullName) {
   if (!fullName) return "";
   let cleaned = fullName.trim();
 
+
   // 1. Remove colchetes ou parênteses e tudo que vier depois (ex: "Pikachu [World Championships", "Deoxys (Ataque)")
   cleaned = cleaned.replace(/[\[\(].*$/g, '');
+
 
   // 2. Remove complementos promocionais "with ..." (ex: "Pikachu with Grey Felt Hat")
   cleaned = cleaned.replace(/\s+with\s+.+$/i, '');
 
+
   // 3. Remove prefixos de treinadores com apóstrofo (ex: "Cynthia's Garchomp", "Rocket's Snorlax", "Brock's Zubat")
   cleaned = cleaned.replace(/^[A-Za-z0-9.\s]+['’]s\s+/i, '');
+
 
   // 4. Remove sufixos de cartas especiais do TCG (ex, GX, VMAX, VSTAR, etc.)
   cleaned = cleaned.replace(/[-\s](<ex|GX|VMAX|VSTAR|V-UNION|V|Tera|TAG\sTEAM|EX|Prime|LEGEND|ex\sTera|LV\.X|BREAK|Break|Prism Star|Lua Sangrenta|Bloodmoon>)\b/gi, '');
 
+
   // 5. Remove formas do Rotom (Ventilador, Calor, Lavagem, Corte, Congelador / Fan, Heat, Mow, Wash, Frost)
   cleaned = cleaned.replace(/\s+(Ventilador|Calor|Lavagem|Corte|Congelador|Gelo|Fan|Heat|Wash|Mow|Frost)\b/gi, '');
+
 
   // 6. Remove formas do Calyrex (Cavaleiro Espectral, Cavaleiro Glacial / Shadow Rider, Ice Rider)
   cleaned = cleaned.replace(/^(Shadow|Ice)\s+Rider\s+/i, '');
   cleaned = cleaned.replace(/[-\s]+Cavaleiro\s+(Espectral|Glacial)\b/gi, '');
 
+
   // 7. Remove cores de formas (ex: "Kyurem Preto", "Kyurem Branco", "Black Kyurem", "White Kyurem")
   cleaned = cleaned.replace(/^(Black|White|Preto|Branco)\s+/i, '');
   cleaned = cleaned.replace(/\s+(Preto|Branco|Black|White)\b/gi, '');
 
+
   // 8. Remove o "X" ou "Y" de Megaevoluções (ex: "Charizard X")
   cleaned = cleaned.replace(/[-\s][XY]\b/gi, '');
+
 
   // 9. Remove prefixos de modificadores (Mega, M, Dark, Light, Shining, Radiant)
   cleaned = cleaned.replace(/^(Mega|M|Dark|Light|Shining|Radiant|Equipe Rocket|Team Rocket)[-\s]/i, '');
 
+
   // 10. Remove proprietários e equipes após "da", "do", "de" (ex: "Nidoran♀ da Equipe Rocket" -> "Nidoran♀")
   cleaned = cleaned.replace(/\s+(da|do|de)\s+.+$/i, '');
+
 
   // 11. Remove formas e estilos gerais
   cleaned = cleaned.replace(/\s+Máscara\s+.+$/i, '');
   cleaned = cleaned.replace(/\s+(Estilo|Forma)\s+.+$/i, '');
 
+
   // 12. Normaliza espaçamento do Nidoran (ex: "Nidoran ♀" -> "Nidoran♀")
   cleaned = cleaned.replace(/Nidoran\s+([♀♂])/gi, 'Nidoran$1');
-  // Formas regionais
-cleaned = cleaned.replace(/^(Alolan|Hisuian)\s+/i, '');
 
-// Sufixos promocionais
-cleaned = cleaned.replace(/\s*-\s*STAFF\b/i, '');
-
-// Séries especiais (Butterfree FB, Absol G, Milotic C)
-cleaned = cleaned.replace(/\s+(FB|G|C)\b$/i, '');
-
-// Variantes especiais
-cleaned = cleaned.replace(/\s+(Radiante|Luminescente|Estrela Prisma|Sombrio)\b/i, '');
-
-// Star / Sparkling
-cleaned = cleaned.replace(/\s+Star\b/i, '');
-cleaned = cleaned.replace(/^Sparkling\s+/i, '');
-
-// Primitivo
-cleaned = cleaned.replace(/\s+Primitivo\b/i, '');
-
-// TURBO
-cleaned = cleaned.replace(/\s+TURBO\b/i, '');
-
- // V-ASTRO
-cleaned = cleaned.replace(/-V-ASTRO\b/i, '');
-// Pikachu especiais
-cleaned = cleaned.replace(/\s+(Surfista|Voador)\b/i, '');
-cleaned = cleaned.replace(/\s+at\s+the\s+Museum\b/i, '');
-cleaned = cleaned.replace(/^Pok[eé]mon\s+RUN\s+/i, '');
-cleaned = cleaned.replace(/^Special\s+Delivery\s+/i, '');
-
-// Formas do Urshifu
-cleaned = cleaned.replace(/\s+Golpe\s+(Decisivo|Fluido)\b/i, '');
-
-// Formas Unown
-cleaned = cleaned.replace(/\s+(FLASH|RETURN)\b/i, '');
-cleaned = cleaned.replace(/\s+[A-Z]\b$/i, '');
-
-// Nidoran Fêmea / Macho
-cleaned = cleaned.replace(/^Nidoran\s+(Fêmea|Macho)$/i, 'Nidoran');
-  console.log('ANTES:', fullName);
-console.log('DEPOIS:', cleaned);
 
   return cleaned.trim().replace(/\s+/g, ' ');
 }
