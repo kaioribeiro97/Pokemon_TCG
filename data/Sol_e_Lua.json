@@ -288,87 +288,753 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4240.48.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Chinchou",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4236.112.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4287.134.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4265.158.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4265.123.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/1165.70.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/318.81.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4241.51.jpg"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Sol e Lua",
-    "Número": "27/11",
+    "Número": "49/149",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/447.49.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Lanturn",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/981.118.jpg"
+    "Número": "50/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/430.50.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Charjabug",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4242.65.jpg"
+    "Número": "51/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4241.51.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Vikavolt",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4243.64.jpg"
+    "Número": "52/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4295.52.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Togedemaru",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4245.72.jpg"
+    "Número": "53/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4288.53.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Zubat",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
+    "Número": "54/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/499.54.jpg"
+  },
+  {
+    "Pokemon": "Golbat",
+    "Coleção": "Sol e Lua",
+    "Número": "55/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/487.55.jpg"
+  },
+  {
+    "Pokemon": "Crobat",
+    "Coleção": "Sol e Lua",
+    "Número": "56/149",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/483.56.jpg"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Grimer de Alola",
     "Coleção": "Sol e Lua",
-    "Número": "27/11",
+    "Número": "57/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4229.57.jpg"
+  },
+  {
+    "Pokemon": "Muk de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "58/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4231.58.jpg"
+  },
+  {
+    "Pokemon": "Drowzee",
+    "Coleção": "Sol e Lua",
+    "Número": "59/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/204.59.jpg"
+  },
+  {
+    "Pokemon": "Hypno",
+    "Coleção": "Sol e Lua",
+    "Número": "60/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/161.60.jpg"
+  },
+  {
+    "Pokemon": "Espeon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "61/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4251.61.jpg"
+  },
+  {
+    "Pokemon": "Mareanie",
+    "Coleção": "Sol e Lua",
+    "Número": "62/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4263.62.jpg"
+  },
+  {
+    "Pokemon": "Toxapex",
+    "Coleção": "Sol e Lua",
+    "Número": "63/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4291.63.jpg"
+  },
+  {
+    "Pokemon": "Cosmog",
+    "Coleção": "Sol e Lua",
+    "Número": "64/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4243.64.jpg"
+  },
+  {
+    "Pokemon": "Cosmoem",
+    "Coleção": "Sol e Lua",
+    "Número": "65/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4242.65.jpg"
+  },
+  {
+    "Pokemon": "Lunala-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "66/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4261.66.jpg"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Sol e Lua",
+    "Número": "67/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/217.67.jpg"
+  },
+  {
+    "Pokemon": "Hariyama",
+    "Coleção": "Sol e Lua",
+    "Número": "68/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/181.68.jpg"
+  },
+  {
+    "Pokemon": "Roggenrola",
+    "Coleção": "Sol e Lua",
+    "Número": "69/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/1164.69.jpg"
+  },
+  {
+    "Pokemon": "Boldore",
+    "Coleção": "Sol e Lua",
+    "Número": "70/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/1165.70.jpg"
+  },
+  {
+    "Pokemon": "Gigalith",
+    "Coleção": "Sol e Lua",
+    "Número": "71/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/822.71.jpg"
+  },
+  {
+    "Pokemon": "Crabrawler",
+    "Coleção": "Sol e Lua",
+    "Número": "72/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4245.72.jpg"
+  },
+  {
+    "Pokemon": "Passimian",
+    "Coleção": "Sol e Lua",
+    "Número": "73/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4268.73.jpg"
+  },
+  {
+    "Pokemon": "Sandygast",
+    "Coleção": "Sol e Lua",
+    "Número": "74/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4280.74.jpg"
+  },
+  {
+    "Pokemon": "Palossand",
+    "Coleção": "Sol e Lua",
+    "Número": "75/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4267.75.jpg"
+  },
+  {
+    "Pokemon": "Rattata de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "76/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4234.76.jpg"
+  },
+  {
+    "Pokemon": "Raticate de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "77/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4233.77.jpg"
+  },
+  {
+    "Pokemon": "Meowth de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "78/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4230.78.jpg"
+  },
+  {
+    "Pokemon": "Persian de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "79/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4232.79.jpg"
+  },
+  {
+    "Pokemon": "Umbreon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "80/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4294.80.jpg"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Sol e Lua",
+    "Número": "81/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/318.81.jpg"
+  },
+  {
+    "Pokemon": "Sharpedo",
+    "Coleção": "Sol e Lua",
+    "Número": "82/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/280.82.jpg"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Sol e Lua",
+    "Número": "83/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/247.83.jpg"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Sol e Lua",
+    "Número": "84/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/605.84.jpg"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "Sol e Lua",
+    "Número": "85/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/606.85.jpg"
+  },
+  {
+    "Pokemon": "Diglett de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "86/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4227.86.jpg"
+  },
+  {
+    "Pokemon": "Dugtrio de Alola",
+    "Coleção": "Sol e Lua",
+    "Número": "87/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4228.87.jpg"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Sol e Lua",
+    "Número": "88/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/192.88.jpg"
+  },
+  {
+    "Pokemon": "Solgaleo-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "89/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4282.89.jpg"
+  },
+  {
+    "Pokemon": "Snubbull",
+    "Coleção": "Sol e Lua",
+    "Número": "90/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/223.90.jpg"
+  },
+  {
+    "Pokemon": "Granbull",
+    "Coleção": "Sol e Lua",
+    "Número": "91/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/179.91.jpg"
+  },
+  {
+    "Pokemon": "Cutiefly",
+    "Coleção": "Sol e Lua",
+    "Número": "92/149",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4246.92.jpg"
+  },
+  {
+    "Pokemon": "Ribombee",
+    "Coleção": "Sol e Lua",
+    "Número": "93/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4278.93.jpg"
+  },
+  {
+    "Pokemon": "Dratini",
+    "Coleção": "Sol e Lua",
+    "Número": "94/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/518.94.jpg"
+  },
+  {
+    "Pokemon": "Dragonair",
+    "Coleção": "Sol e Lua",
+    "Número": "95/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/513.95.jpg"
+  },
+  {
+    "Pokemon": "Dragonite",
+    "Coleção": "Sol e Lua",
+    "Número": "96/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/875.96.jpg"
+  },
+  {
+    "Pokemon": "Spearow",
+    "Coleção": "Sol e Lua",
+    "Número": "97/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/399.97.jpg"
+  },
+  {
+    "Pokemon": "Fearow",
+    "Coleção": "Sol e Lua",
+    "Número": "98/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/379.98.jpg"
+  },
+  {
+    "Pokemon": "Kangaskhan",
+    "Coleção": "Sol e Lua",
+    "Número": "99/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/381.99.jpg"
+  },
+  {
+    "Pokemon": "Tauros-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "100/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4285.100.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Sol e Lua",
+    "Número": "101",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/127s_101a.jpg"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Sol e Lua",
+    "Número": "101/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/127.101.jpg"
+  },
+  {
+    "Pokemon": "Spinda",
+    "Coleção": "Sol e Lua",
+    "Número": "102/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/343.102.jpg"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "Sol e Lua",
+    "Número": "103/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/627.103.jpg"
+  },
+  {
+    "Pokemon": "Herdier",
+    "Coleção": "Sol e Lua",
+    "Número": "104/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/628.104.jpg"
+  },
+  {
+    "Pokemon": "Stoutland",
+    "Coleção": "Sol e Lua",
+    "Número": "105/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/629.105.jpg"
+  },
+  {
+    "Pokemon": "Pikipek",
+    "Coleção": "Sol e Lua",
+    "Número": "106/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4269.106.jpg"
+  },
+  {
+    "Pokemon": "Trumbeak",
+    "Coleção": "Sol e Lua",
+    "Número": "107/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4292.107.jpg"
+  },
+  {
+    "Pokemon": "Toucannon",
+    "Coleção": "Sol e Lua",
+    "Número": "108/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4290.108.jpg"
+  },
+  {
+    "Pokemon": "Yungoos",
+    "Coleção": "Sol e Lua",
+    "Número": "109/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4297.109.jpg"
+  },
+  {
+    "Pokemon": "Gumshoos-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "110/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4254.110.jpg"
+  },
+  {
+    "Pokemon": "Stufful",
+    "Coleção": "Sol e Lua",
+    "Número": "111/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4284.111.jpg"
+  },
+  {
+    "Pokemon": "Bewear",
+    "Coleção": "Sol e Lua",
+    "Número": "112/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4236.112.jpg"
+  },
+  {
+    "Pokemon": "Oranguru",
+    "Coleção": "Sol e Lua",
+    "Número": "113/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4266.113.jpg"
+  },
+  {
+    "Pokemon": "Sonho Recheado Grande",
+    "Coleção": "Sol e Lua",
+    "Número": "114/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4237.114.jpg"
+  },
+  {
+    "Pokemon": "Martelo Esmagador",
+    "Coleção": "Sol e Lua",
+    "Número": "115/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/119.115.jpg"
+  },
+  {
+    "Pokemon": "Recuperação de Energia",
+    "Coleção": "Sol e Lua",
+    "Número": "116/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/547.116.jpg"
+  },
+  {
+    "Pokemon": "Substituição de Energia",
+    "Coleção": "Sol e Lua",
+    "Número": "117/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/120.117.jpg"
+  },
+  {
+    "Pokemon": "Compart. Exp.",
+    "Coleção": "Sol e Lua",
+    "Número": "118/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/981.118.jpg"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "Sol e Lua",
+    "Número": "119/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/637.119.jpg"
+  },
+  {
+    "Pokemon": "Hibi",
+    "Coleção": "Sol e Lua",
+    "Número": "120/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4255.120.jpg"
+  },
+  {
+    "Pokemon": "Luan",
+    "Coleção": "Sol e Lua",
+    "Número": "121/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4256.121.jpg"
+  },
+  {
+    "Pokemon": "Lílian",
+    "Coleção": "Sol e Lua",
+    "Número": "122/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4260.122.jpg"
+  },
+  {
+    "Pokemon": "Bola de Ninho",
+    "Coleção": "Sol e Lua",
+    "Número": "123/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4265.123.jpg"
+  },
+  {
+    "Pokemon": "Farpa Venenosa",
+    "Coleção": "Sol e Lua",
+    "Número": "124/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4270.124.jpg"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Sol e Lua",
+    "Número": "125",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/100/4895_125b.jpg"
+  },
+  {
+    "Pokemon": "Pegador de Pokémon",
+    "Coleção": "Sol e Lua",
+    "Número": "126/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4272.126.jpg"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Sol e Lua",
+    "Número": "127/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/359.127.jpg"
+  },
+  {
+    "Pokemon": "Professor Nogueira",
+    "Coleção": "Sol e Lua",
+    "Número": "128/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4275.128.jpg"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Sol e Lua",
+    "Número": "129/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/238.129.jpg"
+  },
+  {
+    "Pokemon": "Repelente",
+    "Coleção": "Sol e Lua",
+    "Número": "130/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4277.130.jpg"
+  },
+  {
+    "Pokemon": "Pokédex Rotom",
+    "Coleção": "Sol e Lua",
+    "Número": "131/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4279.131.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Sol e Lua",
+    "Número": "132/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/360.132.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Skull",
+    "Coleção": "Sol e Lua",
+    "Número": "133/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4286.133.jpg"
+  },
+  {
+    "Pokemon": "Bola Tempo",
+    "Coleção": "Sol e Lua",
+    "Número": "134/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4287.134.jpg"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Sol e Lua",
+    "Número": "135/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/750.135.jpg"
+  },
+  {
+    "Pokemon": "Energia Incolor Dupla",
+    "Coleção": "Sol e Lua",
+    "Número": "136/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/121.136.jpg"
+  },
+  {
+    "Pokemon": "Energia Arco-Íris",
+    "Coleção": "Sol e Lua",
+    "Número": "137/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/469.137.jpg"
+  },
+  {
+    "Pokemon": "Lurantis-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "138/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4262.138.jpg"
+  },
+  {
+    "Pokemon": "Lapras-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "139/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4259.139.jpg"
+  },
+  {
+    "Pokemon": "Espeon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "140/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4251.140.jpg"
+  },
+  {
+    "Pokemon": "Lunala-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "141/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4261.141.jpg"
+  },
+  {
+    "Pokemon": "Umbreon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "142/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4294.142.jpg"
+  },
+  {
+    "Pokemon": "Solgaleo-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "143/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4282.143.jpg"
+  },
+  {
+    "Pokemon": "Tauros-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "144/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4285.144.jpg"
+  },
+  {
+    "Pokemon": "Gumshoos-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "145/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4254.145.jpg"
+  },
+  {
+    "Pokemon": "Luan",
+    "Coleção": "Sol e Lua",
+    "Número": "146/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4256.146.jpg"
+  },
+  {
+    "Pokemon": "Lílian",
+    "Coleção": "Sol e Lua",
+    "Número": "147/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4260.147.jpg"
+  },
+  {
+    "Pokemon": "Professor Nogueira",
+    "Coleção": "Sol e Lua",
+    "Número": "148/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4275.148.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Skull",
+    "Coleção": "Sol e Lua",
+    "Número": "149/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4286.149.jpg"
+  },
+  {
+    "Pokemon": "Lurantis-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "150/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4262.150.jpg"
+  },
+  {
+    "Pokemon": "Lapras-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "151/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4259.151.jpg"
+  },
+  {
+    "Pokemon": "Espeon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "152/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4251.152.jpg"
+  },
+  {
+    "Pokemon": "Lunala-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "153/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4261.153.jpg"
+  },
+  {
+    "Pokemon": "Umbreon-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "154/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4294.154.jpg"
+  },
+  {
+    "Pokemon": "Solgaleo-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "155/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4282.155.jpg"
+  },
+  {
+    "Pokemon": "Tauros-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "156/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4285.156.jpg"
+  },
+  {
+    "Pokemon": "Gumshoos-GX",
+    "Coleção": "Sol e Lua",
+    "Número": "157/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4254.157.jpg"
+  },
+  {
+    "Pokemon": "Bola de Ninho",
+    "Coleção": "Sol e Lua",
+    "Número": "158/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4265.158.jpg"
+  },
+  {
+    "Pokemon": "Pokédex Rotom",
+    "Coleção": "Sol e Lua",
+    "Número": "159/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4279.159.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Sol e Lua",
+    "Número": "160/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/360.160.jpg"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Sol e Lua",
+    "Número": "161/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/750.161.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Sol e Lua",
+    "Número": "162/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/561.162.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Sol e Lua",
+    "Número": "163/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/362.163.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Sol e Lua",
+    "Número": "164/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/559.164.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Sol e Lua",
+    "Número": "165/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/558.165.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Sol e Lua",
+    "Número": "166/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/562.166.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Sol e Lua",
+    "Número": "167/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/560.167.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Sol e Lua",
+    "Número": "168/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/561.168.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Sol e Lua",
+    "Número": "169/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/557.169.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Sol e Lua",
+    "Número": "170/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/361.170.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Sol e Lua",
+    "Número": "171/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/362.171.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "Sol e Lua",
+    "Número": "172/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/648.172.jpg"
   }
 ]

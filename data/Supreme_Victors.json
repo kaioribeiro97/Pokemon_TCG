@@ -288,99 +288,633 @@
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2878.48.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Altaria C",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2012.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "49/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/1997.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Arcanine",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "50/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/267.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Bibarel",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2875.148.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/199.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2006.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/760.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "51/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/626.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Breloom",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/625.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2013.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "52/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/287.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Carnivine",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/6.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/314.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
-    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/12.png"
-  },
-  {
-    "Pokemon": "Marketplace",
-    "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "53/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/22.png"
   },
   {
-    "Pokemon": "Marketplace",
+    "Pokemon": "Chatot G",
     "Coleção": "Supreme Victors",
-    "Número": "19/08",
+    "Número": "54/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/1998.png"
+  },
+  {
+    "Pokemon": "Cherrim",
+    "Coleção": "Supreme Victors",
+    "Número": "55/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/680.png"
+  },
+  {
+    "Pokemon": "Dragonite FB",
+    "Coleção": "Supreme Victors",
+    "Número": "56/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/1999.png"
+  },
+  {
+    "Pokemon": "Drifblim",
+    "Coleção": "Supreme Victors",
+    "Número": "57/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/664.png"
+  },
+  {
+    "Pokemon": "Floatzel",
+    "Coleção": "Supreme Victors",
+    "Número": "58/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/177.png"
+  },
+  {
+    "Pokemon": "Gabite",
+    "Coleção": "Supreme Victors",
+    "Número": "59/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/8.png"
+  },
+  {
+    "Pokemon": "Garchomp C",
+    "Coleção": "Supreme Victors",
+    "Número": "60/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2000.png"
+  },
+  {
+    "Pokemon": "Hippopotas",
+    "Coleção": "Supreme Victors",
+    "Número": "61/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/395.png"
+  },
+  {
+    "Pokemon": "Ivysaur",
+    "Coleção": "Supreme Victors",
+    "Número": "62/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/144.png"
+  },
+  {
+    "Pokemon": "Lopunny",
+    "Coleção": "Supreme Victors",
+    "Número": "63/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/9.png"
+  },
+  {
+    "Pokemon": "Loudred",
+    "Coleção": "Supreme Victors",
+    "Número": "64/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/184.png"
+  },
+  {
+    "Pokemon": "Magmar",
+    "Coleção": "Supreme Victors",
+    "Número": "65/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/328.png"
+  },
+  {
+    "Pokemon": "Manectric G",
+    "Coleção": "Supreme Victors",
+    "Número": "66/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2001.png"
+  },
+  {
+    "Pokemon": "Marshtomp",
+    "Coleção": "Supreme Victors",
+    "Número": "67/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/145.png"
+  },
+  {
+    "Pokemon": "Masquerain",
+    "Coleção": "Supreme Victors",
+    "Número": "68/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/930.png"
+  },
+  {
+    "Pokemon": "Metang",
+    "Coleção": "Supreme Victors",
+    "Número": "69/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/758.png"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Supreme Victors",
+    "Número": "70/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2871.70.png"
+  },
+  {
+    "Pokemon": "Minun",
+    "Coleção": "Supreme Victors",
+    "Número": "71/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/63.png"
+  },
+  {
+    "Pokemon": "Murkrow",
+    "Coleção": "Supreme Victors",
+    "Número": "72/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/330.png"
+  },
+  {
+    "Pokemon": "Ninjask",
+    "Coleção": "Supreme Victors",
+    "Número": "73/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/926.png"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Supreme Victors",
+    "Número": "74/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/936.png"
+  },
+  {
+    "Pokemon": "Pinsir",
+    "Coleção": "Supreme Victors",
+    "Número": "75/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/297.png"
+  },
+  {
+    "Pokemon": "Plusle",
+    "Coleção": "Supreme Victors",
+    "Número": "76/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/62.png"
+  },
+  {
+    "Pokemon": "Raichu",
+    "Coleção": "Supreme Victors",
+    "Número": "77/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/3.png"
+  },
+  {
+    "Pokemon": "Raticate G",
+    "Coleção": "Supreme Victors",
+    "Número": "78/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2002.png"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Supreme Victors",
+    "Número": "79/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2869.79.png"
+  },
+  {
+    "Pokemon": "Rhydon",
+    "Coleção": "Supreme Victors",
+    "Número": "80/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/525.png"
+  },
+  {
+    "Pokemon": "Roserade",
+    "Coleção": "Supreme Victors",
+    "Número": "81/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/262.png"
+  },
+  {
+    "Pokemon": "Rotom",
+    "Coleção": "Supreme Victors",
+    "Número": "82/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/5.png"
+  },
+  {
+    "Pokemon": "Skarmory FB",
+    "Coleção": "Supreme Victors",
+    "Número": "83/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2003.png"
+  },
+  {
+    "Pokemon": "Spiritomb C",
+    "Coleção": "Supreme Victors",
+    "Número": "84/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2004.png"
+  },
+  {
+    "Pokemon": "Staravia",
+    "Coleção": "Supreme Victors",
+    "Número": "85/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/385.png"
+  },
+  {
+    "Pokemon": "Togekiss C",
+    "Coleção": "Supreme Victors",
+    "Número": "86/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2005.png"
+  },
+  {
+    "Pokemon": "Wailmer",
+    "Coleção": "Supreme Victors",
+    "Número": "87/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/197.png"
+  },
+  {
+    "Pokemon": "Yanma",
+    "Coleção": "Supreme Victors",
+    "Número": "88/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2879.88.png"
+  },
+  {
+    "Pokemon": "Baltoy",
+    "Coleção": "Supreme Victors",
+    "Número": "89/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/199.png"
+  },
+  {
+    "Pokemon": "Beldum",
+    "Coleção": "Supreme Victors",
+    "Número": "90/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/760.png"
+  },
+  {
+    "Pokemon": "Bidoof",
+    "Coleção": "Supreme Victors",
+    "Número": "91/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/625.png"
+  },
+  {
+    "Pokemon": "Buizel",
+    "Coleção": "Supreme Victors",
+    "Número": "92/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/6.png"
+  },
+  {
+    "Pokemon": "Bulbasaur",
+    "Coleção": "Supreme Victors",
+    "Número": "93/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/314.png"
+  },
+  {
+    "Pokemon": "Buneary",
+    "Coleção": "Supreme Victors",
+    "Número": "94/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/12.png"
+  },
+  {
+    "Pokemon": "Chatot",
+    "Coleção": "Supreme Victors",
+    "Número": "95/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/390.png"
+  },
+  {
+    "Pokemon": "Cherubi",
+    "Coleção": "Supreme Victors",
+    "Número": "96/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/21.png"
+  },
+  {
+    "Pokemon": "Chimchar",
+    "Coleção": "Supreme Victors",
+    "Número": "97/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/13.png"
+  },
+  {
+    "Pokemon": "Chingling",
+    "Coleção": "Supreme Victors",
+    "Número": "98/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/391.png"
+  },
+  {
+    "Pokemon": "Combee",
+    "Coleção": "Supreme Victors",
+    "Número": "99/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/392.png"
+  },
+  {
+    "Pokemon": "Corphish",
+    "Coleção": "Supreme Victors",
+    "Número": "100/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/934.png"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Supreme Victors",
+    "Número": "101/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/7.png"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Supreme Victors",
+    "Número": "102/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/530.png"
+  },
+  {
+    "Pokemon": "Drifloon",
+    "Coleção": "Supreme Victors",
+    "Número": "103/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/393.png"
+  },
+  {
+    "Pokemon": "Feebas",
+    "Coleção": "Supreme Victors",
+    "Número": "104/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/206.png"
+  },
+  {
+    "Pokemon": "Geodude",
+    "Coleção": "Supreme Victors",
+    "Número": "105/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/449.png"
+  },
+  {
+    "Pokemon": "Gible",
+    "Coleção": "Supreme Victors",
+    "Número": "106/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/14.png"
+  },
+  {
+    "Pokemon": "Goldeen",
+    "Coleção": "Supreme Victors",
+    "Número": "107/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/494.png"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Supreme Victors",
+    "Número": "108/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/122.png"
+  },
+  {
+    "Pokemon": "Kricketot",
+    "Coleção": "Supreme Victors",
+    "Número": "109/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/879.png"
+  },
+  {
+    "Pokemon": "Magikarp",
+    "Coleção": "Supreme Victors",
+    "Número": "110/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/46.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Supreme Victors",
+    "Número": "111/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/453.png"
+  },
+  {
+    "Pokemon": "Mankey",
+    "Coleção": "Supreme Victors",
+    "Número": "112/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/218.png"
+  },
+  {
+    "Pokemon": "Meditite",
+    "Coleção": "Supreme Victors",
+    "Número": "113/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/761.png"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Supreme Victors",
+    "Número": "114/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/532.png"
+  },
+  {
+    "Pokemon": "Mime Jr.",
+    "Coleção": "Supreme Victors",
+    "Número": "115/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/657.png"
+  },
+  {
+    "Pokemon": "Mudkip",
+    "Coleção": "Supreme Victors",
+    "Número": "116/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/219.png"
+  },
+  {
+    "Pokemon": "Nincada",
+    "Coleção": "Supreme Victors",
+    "Número": "117/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/935.png"
+  },
+  {
+    "Pokemon": "Pachirisu",
+    "Coleção": "Supreme Victors",
+    "Número": "118/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/10.png"
+  },
+  {
+    "Pokemon": "Paras",
+    "Coleção": "Supreme Victors",
+    "Número": "119/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/495.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Supreme Victors",
+    "Número": "120/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/15.png"
+  },
+  {
+    "Pokemon": "Piplup",
+    "Coleção": "Supreme Victors",
+    "Número": "121/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/16.png"
+  },
+  {
+    "Pokemon": "Rhyhorn",
+    "Coleção": "Supreme Victors",
+    "Número": "122/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/536.png"
+  },
+  {
+    "Pokemon": "Roselia",
+    "Coleção": "Supreme Victors",
+    "Número": "123/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/300.png"
+  },
+  {
+    "Pokemon": "Sandshrew",
+    "Coleção": "Supreme Victors",
+    "Número": "124/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/537.png"
+  },
+  {
+    "Pokemon": "Seel",
+    "Coleção": "Supreme Victors",
+    "Número": "125/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/526.png"
+  },
+  {
+    "Pokemon": "Shinx",
+    "Coleção": "Supreme Victors",
+    "Número": "126/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/656.png"
+  },
+  {
+    "Pokemon": "Shroomish",
+    "Coleção": "Supreme Victors",
+    "Número": "127/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/341.png"
+  },
+  {
+    "Pokemon": "Skorupi",
+    "Coleção": "Supreme Victors",
+    "Número": "128/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/695.png"
+  },
+  {
+    "Pokemon": "Starly",
+    "Coleção": "Supreme Victors",
+    "Número": "129/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/400.png"
+  },
+  {
+    "Pokemon": "Surskit",
+    "Coleção": "Supreme Victors",
+    "Número": "130/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/937.png"
+  },
+  {
+    "Pokemon": "Turtwig",
+    "Coleção": "Supreme Victors",
+    "Número": "131/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/17.png"
+  },
+  {
+    "Pokemon": "Whismur",
+    "Coleção": "Supreme Victors",
+    "Número": "132/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/230.png"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Supreme Victors",
+    "Número": "133/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/499.png"
+  },
+  {
+    "Pokemon": "Battle Tower",
+    "Coleção": "Supreme Victors",
+    "Número": "134/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2006.png"
+  },
+  {
+    "Pokemon": "Champion's Room",
+    "Coleção": "Supreme Victors",
+    "Número": "135/147",
     "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2007.png"
+  },
+  {
+    "Pokemon": "Cynthia's Guidance",
+    "Coleção": "Supreme Victors",
+    "Número": "136/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2008.png"
+  },
+  {
+    "Pokemon": "Cyrus's Initiative",
+    "Coleção": "Supreme Victors",
+    "Número": "137/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2009.png"
+  },
+  {
+    "Pokemon": "Night Teleporter",
+    "Coleção": "Supreme Victors",
+    "Número": "138/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2010.png"
+  },
+  {
+    "Pokemon": "Palmer's Contribution",
+    "Coleção": "Supreme Victors",
+    "Número": "139/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2011.png"
+  },
+  {
+    "Pokemon": "Explorador VS",
+    "Coleção": "Supreme Victors",
+    "Número": "140/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/794.png"
+  },
+  {
+    "Pokemon": "Absol G LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "141/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2012.png"
+  },
+  {
+    "Pokemon": "Blaziken FB LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "142/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2013.png"
+  },
+  {
+    "Pokemon": "Charizard G LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "143/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/671.png"
+  },
+  {
+    "Pokemon": "Electivire FB LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "144/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2014.png"
+  },
+  {
+    "Pokemon": "Garchomp C LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "145/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/672.png"
+  },
+  {
+    "Pokemon": "Rayquaza C LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "146/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/673.png"
+  },
+  {
+    "Pokemon": "Staraptor FB LV.X",
+    "Coleção": "Supreme Victors",
+    "Número": "147/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2015.png"
+  },
+  {
+    "Pokemon": "Articuno",
+    "Coleção": "Supreme Victors",
+    "Número": "148/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2875.148.png"
+  },
+  {
+    "Pokemon": "Moltres",
+    "Coleção": "Supreme Victors",
+    "Número": "149/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2873.149.png"
+  },
+  {
+    "Pokemon": "Zapdos",
+    "Coleção": "Supreme Victors",
+    "Número": "150/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2877.150.png"
+  },
+  {
+    "Pokemon": "Milotic",
+    "Coleção": "Supreme Victors",
+    "Número": "7/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2872.SH7.png"
+  },
+  {
+    "Pokemon": "Relicanth",
+    "Coleção": "Supreme Victors",
+    "Número": "8/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2870.SH8.png"
+  },
+  {
+    "Pokemon": "Yanma",
+    "Coleção": "Supreme Victors",
+    "Número": "9/147",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/32/2880.SH9.png"
   }
 ]
