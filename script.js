@@ -770,17 +770,32 @@ function processTCGJson(json) {
   });
 
   const dynamicCollections = new Set();
+  
+  // Lista de espécies oficiais para busca Tag-Team e Master Set
+  const officialSpeciesKeys = Object.keys(speciesMap);
+
   json.forEach(card => {
     // Guarda no mapa rápido O(1)
     const cardId = `${card.Coleção}#${card.Número}`;
     state.allCardsMap.set(cardId, card);
 
-    const baseName = getBaseName(card.Pokemon).toLowerCase();
-    const officialName = speciesMap[baseName];
+    const baseNameRaw = getBaseName(card.Pokemon).toLowerCase();
+    let isPokemon = false;
 
-    if (officialName) {
-      state.pokedexCardsBySpecies[officialName].push(card);
-    } else {
+    // Procura todos os Pokémons incluídos no nome da carta (Ex: "Pikachu & Zekrom")
+    officialSpeciesKeys.forEach(speciesKey => {
+      if (baseNameRaw.includes(speciesKey)) {
+        const officialName = speciesMap[speciesKey];
+        if(!state.pokedexCardsBySpecies[officialName]) state.pokedexCardsBySpecies[officialName] = [];
+        // Evita duplicar a mesma carta no array do Pokémon
+        if(!state.pokedexCardsBySpecies[officialName].some(c => c.Coleção === card.Coleção && c.Número === card.Número)) {
+            state.pokedexCardsBySpecies[officialName].push(card);
+        }
+        isPokemon = true;
+      }
+    });
+
+    if (!isPokemon) {
       const groupName = getTrainerGroupName(card.Pokemon);
       if (!state.trainersCardsByName[groupName]) {
         state.trainersCardsByName[groupName] = [];
@@ -1014,9 +1029,12 @@ function renderCards() {
             <p class="text-[8px] font-bold truncate">${card.Pokemon}</p>
          </div>
       </div>
-      <div class="flex items-center justify-between w-full px-1">
+      <div class="flex items-center justify-between w-full px-1 mt-1">
          <span class="text-[9px] font-mono text-slate-500">#${card.Número}</span>
-         <div class="pokeball-toggle ${isOwned ? 'active' : ''}"></div>
+         <div class="flex items-center gap-2">
+            <button class="text-amber-400 hover:text-amber-300 transition text-xs" onclick="event.stopPropagation(); setPokedexRepresentative('${getBaseName(card.Pokemon)}', '${cardId}')" title="Favoritar"><i class="fa-solid fa-star"></i></button>
+            <div class="pokeball-toggle ${isOwned ? 'active' : ''}"></div>
+         </div>
       </div>
     `;
     const holoCard = container.querySelector('.card-container');
@@ -1318,6 +1336,24 @@ function openPokedexModal(species) {
   $("#pokedex-modal-name").textContent = name;
   $("#pokedex-modal-id").textContent = `#${species.id.toString().padStart(3, '0')}`;
   
+  // Ativa o botão de criar Master Set para este Pokémon
+  document.querySelector("#btn-create-masterset").onclick = () => {
+      state.pendingMasterSetPokemon = name;
+      state.currentViewedCardId = null;
+      
+      const select = document.querySelector("#select-custom-col");
+      select.innerHTML = '<option value="">Selecione uma existente...</option>';
+      Object.values(state.thematicCollections).sort((a,b) => a.name.localeCompare(b.name)).forEach(col => {
+          const opt = document.createElement("option");
+          opt.value = col.id;
+          opt.textContent = col.name;
+          select.appendChild(opt);
+      });
+      document.querySelector("#new-custom-col-name").value = "";
+      document.querySelector("#custom-col-modal").classList.remove("hidden");
+      document.querySelector("#custom-col-modal").classList.add("flex");
+  };
+
   const container = $("#pokedex-cards-container");
   container.innerHTML = "";
 
@@ -1684,7 +1720,12 @@ async function deleteCustomCard(customId) {
         
         document.querySelector("#card-modal").classList.add("hidden");
         showToast("Carta removida com sucesso!", "success");
+        
+        // Remove da memória e recarrega as views sem F5
+        state.allCardsMap.delete(customId);
         await loadData(); 
+        renderAlbums();
+        if(state.currentCollection) renderCards();
         
     } catch (error) {
         console.error("Erro ao remover carta:", error);
@@ -2258,21 +2299,58 @@ function renderThematicCards() {
     const colData = state.thematicCollections[state.currentThematicCollection];
     if (!colData || !colData.cards) return;
     const cardsArray = Object.keys(colData.cards);
-    $("#thematic-details-subtitle").textContent = `${cardsArray.length} cartas totais`;
+    // A contagem será atualizada dinamicamente após a renderização
+    setTimeout(() => {
+        $("#thematic-details-subtitle").textContent = `${obtainedCount} obtidas de ${cardsArray.length} totais`;
+    }, 50);
     if (cardsArray.length === 0) {
         grid.innerHTML = `<p class="col-span-full text-center text-slate-500 py-10">Não há cartas nesta coleção.</p>`;
         return;
     }
+
+    // Mapa de metadados para buscar a data de lançamento
+    const metaMap = {};
+    if (state.colecoesIndex) {
+        state.colecoesIndex.forEach(c => { metaMap[c.name.toLowerCase()] = c; });
+    }
+
+    // Ordenação (1º Pokedex ID, 2º Data Lançamento Coleção)
+    cardsArray.sort((a, b) => {
+        const cardA = state.allCardsMap.get(a);
+        const cardB = state.allCardsMap.get(b);
+        if (!cardA || !cardB) return 0;
+
+        const speciesA = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === getBaseName(cardA.Pokemon).toLowerCase());
+        const speciesB = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === getBaseName(cardB.Pokemon).toLowerCase());
+        const idA = speciesA ? speciesA.id : 9999;
+        const idB = speciesB ? speciesB.id : 9999;
+        
+        if (idA !== idB) return idA - idB;
+
+        const metaA = metaMap[cardA.Coleção.toLowerCase()] || {};
+        const metaB = metaMap[cardB.Coleção.toLowerCase()] || {};
+        const dateA = metaA.dataLancamento || "1900-01-01";
+        const dateB = metaB.dataLancamento || "1900-01-01";
+        return dateA.localeCompare(dateB);
+    });
+
+    let obtainedCount = 0;
+
     const fragment = document.createDocumentFragment();
     cardsArray.forEach(cardId => {
-        // Busca instantânea em O(1) através do Mapa
         const cardObj = state.allCardsMap.get(cardId);
         if (!cardObj) return;
+
+        // Verifica se realmente possui na base principal
+        const realColId = cardObj.Coleção.replace(/[\s/]/g, '').toLowerCase();
+        const isOwned = state.collections[realColId]?.owned.has(cardId);
+        if (isOwned) obtainedCount++;
+
         const container = document.createElement("div");
-        container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border border-indigo-500/50 hover:border-indigo-400 transition relative`;
+        container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border ${isOwned ? 'border-indigo-500/50 hover:border-indigo-400' : 'border-slate-800'} transition relative`;
         container.innerHTML = `
-        <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition">
-            <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border border-indigo-500/50" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'">
+        <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition ${isOwned ? '' : 'grayscale opacity-40'}">
+            <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border ${isOwned ? 'border-indigo-500/50' : 'border-slate-800'}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'">
         </div>
         <div class="flex items-center justify-center w-full px-1">
             <span class="text-[9px] font-mono text-slate-500">#${cardObj.Número}</span>
@@ -2363,7 +2441,7 @@ document.querySelector("#btn-cancel-custom-col").onclick = () => {
 };
 
 document.querySelector("#btn-save-custom-col").onclick = async () => {
-    if (!state.user || !state.currentViewedCardId) return;
+    if (!state.user || (!state.currentViewedCardId && !state.pendingMasterSetPokemon)) return;
 
     const selectVal = document.querySelector("#select-custom-col").value;
     const inputVal = document.querySelector("#new-custom-col-name").value.trim();
@@ -2387,7 +2465,17 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
 
     try {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
-        await setDoc(docRef, { name: colName, cards: { [state.currentViewedCardId]: true } }, { merge: true });
+        
+        let cardsToAdd = {};
+        if (state.pendingMasterSetPokemon) {
+            const tcgCards = state.pokedexCardsBySpecies[state.pendingMasterSetPokemon] || [];
+            tcgCards.forEach(c => { cardsToAdd[`${c.Coleção}#${c.Número}`] = true; });
+            state.pendingMasterSetPokemon = null; // Limpa após usar
+        } else if (state.currentViewedCardId) {
+            cardsToAdd[state.currentViewedCardId] = true;
+        }
+
+        await setDoc(docRef, { name: colName, cards: cardsToAdd }, { merge: true });
 
         document.querySelector("#custom-col-modal").classList.add("hidden");
         document.querySelector("#custom-col-modal").classList.remove("flex");

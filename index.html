@@ -471,8 +471,20 @@
           <div class="flex items-center gap-4">
              <span id="pokedex-modal-id" class="pokedex-number-badge text-lg">#000</span>
              <div>
-               <h3 id="pokedex-modal-name" class="text-2xl font-black text-white uppercase tracking-widest"></h3>
-               <p class="text-xs text-slate-400">Escolha o card favorito para representar este Pokémon na Pokedex.</p>
+              <h3 id="pokedex-modal-name" class="text-2xl font-black text-white uppercase tracking-widest"></h3>
+               <p class="text-xs text-slate-400 mb-2">Escolha o card favorito para representar este Pokémon na Pokedex.</p>
+               <div class="flex flex-col sm:flex-row gap-2 mt-2 w-full">
+                 <input type="text" id="pokedex-modal-filter" placeholder="Filtrar coleção ou nº..." class="w-full sm:w-64 px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white outline-none focus:border-rose-500 transition" onkeyup="
+                   const term = this.value.toLowerCase();
+                   document.querySelectorAll('#pokedex-cards-container > div').forEach(el => {
+                     const text = el.textContent.toLowerCase();
+                     el.style.display = text.includes(term) ? '' : 'none';
+                   });
+                 ">
+                 <button id="btn-create-masterset" class="px-4 py-1.5 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-500 transition text-xs flex items-center justify-center gap-2 whitespace-nowrap shadow-lg shadow-indigo-500/20">
+                   <i class="fa-solid fa-folder-plus"></i> Master Set
+                 </button>
+               </div>
              </div>
           </div>
           <button id="pokedex-modal-close" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-700 text-white hover:bg-slate-600 transition">
@@ -694,6 +706,16 @@
       </div>
     </div>
 
+  </div>
+
+<!-- Botões Flutuantes -->
+  <div class="fixed bottom-5 right-5 z-[90] flex flex-col gap-2">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); document.querySelector('input[type=text]:not(.hidden)').focus();" class="w-12 h-12 bg-sky-500 text-slate-950 rounded-full shadow-lg shadow-sky-500/30 flex items-center justify-center hover:bg-sky-400 transition text-xl">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="w-12 h-12 bg-slate-800 border border-slate-700 text-sky-400 rounded-full shadow-lg flex items-center justify-center hover:bg-slate-700 transition text-xl">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </div>
 
   <script type="module" src="script.js"></script>
