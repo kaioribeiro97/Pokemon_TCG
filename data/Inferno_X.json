@@ -1,0 +1,698 @@
+[
+  {
+    "Pokemon": "Oddish",
+    "Coleção": "Inferno X",
+    "Número": "001/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036b539328-v9183-hcirg-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Gloom",
+    "Coleção": "Inferno X",
+    "Número": "002/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036b6d335e-0no4t-8wlzs-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Vileplume",
+    "Coleção": "Inferno X",
+    "Número": "003/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036b8910ba-u4etx-y7qt2-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Heracross ex",
+    "Coleção": "Inferno X",
+    "Número": "004/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036ba56d35-npcol-likfa-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Lotad",
+    "Coleção": "Inferno X",
+    "Número": "005/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036bc0e522-4infm-xa5ko-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Lombre",
+    "Coleção": "Inferno X",
+    "Número": "006/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036bdcbad8-2oeis-nwv0f-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Ludicolo",
+    "Coleção": "Inferno X",
+    "Número": "007/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036bf8897d-kjqmc-ilnd8-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Genesect",
+    "Coleção": "Inferno X",
+    "Número": "008/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036c15a8fc-6jzpy-kjn4y-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Nymble",
+    "Coleção": "Inferno X",
+    "Número": "009/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036c32aa44-lui6w-6h9yj-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Lokix",
+    "Coleção": "Inferno X",
+    "Número": "010/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036c4db20e-rqa9d-ijh0g-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Inferno X",
+    "Número": "011/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036c6993be-21jzv-io6s2-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Charmeleon",
+    "Coleção": "Inferno X",
+    "Número": "012/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036c854f27-4np9o-f8vqg-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Charizard X ex",
+    "Coleção": "Inferno X",
+    "Número": "013/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036ca1b694-txych-ki4pe-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Moltres",
+    "Coleção": "Inferno X",
+    "Número": "014/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036cbe3961-hblr5-m1fkl-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Darumaka",
+    "Coleção": "Inferno X",
+    "Número": "015/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036cda3882-e53xl-lx23o-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Darmanitan",
+    "Coleção": "Inferno X",
+    "Número": "016/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036cf5dc34-2pmjo-y8waz-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Reshiram",
+    "Coleção": "Inferno X",
+    "Número": "017/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d117bc3-p3c07-xm9gk-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Oricorio ex",
+    "Coleção": "Inferno X",
+    "Número": "018/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d2ad809-lzf4g-sbk09-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Charcadet",
+    "Coleção": "Inferno X",
+    "Número": "019/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d46d8e7-4zoh2-3uxnf-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Ceruledge",
+    "Coleção": "Inferno X",
+    "Número": "020/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d6166db-yruzc-vqt9y-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Seel",
+    "Coleção": "Inferno X",
+    "Número": "021/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d7ccb38-risl7-956tu-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Dewgong",
+    "Coleção": "Inferno X",
+    "Número": "022/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036d989e76-de8ua-iym7j-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Swinub",
+    "Coleção": "Inferno X",
+    "Número": "023/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036db40053-h8qf2-rhcta-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Piloswine",
+    "Coleção": "Inferno X",
+    "Número": "024/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036dcd3b2e-685z1-ps58v-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mamoswine",
+    "Coleção": "Inferno X",
+    "Número": "025/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036de918a1-1ljhg-zp62o-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Suicune",
+    "Coleção": "Inferno X",
+    "Número": "026/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e04e714-p8h4c-s5a2p-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Piplup",
+    "Coleção": "Inferno X",
+    "Número": "027/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e205e43-1ypfw-0d5ek-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Prinplup",
+    "Coleção": "Inferno X",
+    "Número": "028/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e3a674b-alwox-m7htn-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Rotom ex",
+    "Coleção": "Inferno X",
+    "Número": "029/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e5630b6-v2dh3-586um-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Yamper",
+    "Coleção": "Inferno X",
+    "Número": "030/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e700f99-jl6d1-k2n4h-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Boltund",
+    "Coleção": "Inferno X",
+    "Número": "031/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036e8a8cb5-xywlg-ti4vg-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Pawmi",
+    "Coleção": "Inferno X",
+    "Número": "032/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036ea5b6d0-xfwpe-1vfxq-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Pawmo",
+    "Coleção": "Inferno X",
+    "Número": "033/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036ec103e2-1fykx-jxfvq-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Pawmot",
+    "Coleção": "Inferno X",
+    "Número": "034/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036edb7c70-a148l-owdu0-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Misdreavus",
+    "Coleção": "Inferno X",
+    "Número": "035/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036ef5a8b6-xbztc-riwv8-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mismagius ex",
+    "Coleção": "Inferno X",
+    "Número": "036/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036f0f1dab-vj46o-cx6uv-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Cottonee",
+    "Coleção": "Inferno X",
+    "Número": "037/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036f49e54c-2l8kx-p8g2m-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Whimsicott",
+    "Coleção": "Inferno X",
+    "Número": "038/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036f654396-a1rqz-my9e8-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Zacian",
+    "Coleção": "Inferno X",
+    "Número": "039/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036f811d42-vbroi-65o2q-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Bramblin",
+    "Coleção": "Inferno X",
+    "Número": "040/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036f9c034c-m1q9v-cwfdi-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Brambleghast",
+    "Coleção": "Inferno X",
+    "Número": "041/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036fb7a110-ydw9p-0vqym-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Tauros de Paldea",
+    "Coleção": "Inferno X",
+    "Número": "042/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036fd215bc-ejl7q-e3970-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Gligar",
+    "Coleção": "Inferno X",
+    "Número": "043/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e036fed0360-qp31g-cazy8-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Gliscor",
+    "Coleção": "Inferno X",
+    "Número": "044/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03700882c5-3vo71-y2uz1-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Trapinch",
+    "Coleção": "Inferno X",
+    "Número": "045/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037023faf8-0gdq4-tzg21-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Vibrava",
+    "Coleção": "Inferno X",
+    "Número": "046/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03703d91f1-p9eyx-tj605-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Flygon",
+    "Coleção": "Inferno X",
+    "Número": "047/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037059a83a-mo72z-szg02-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Sneasel",
+    "Coleção": "Inferno X",
+    "Número": "048/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03707ebac0-4cehd-8bxpe-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Weavile",
+    "Coleção": "Inferno X",
+    "Número": "049/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03709a924d-tyomx-r8pok-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Inferno X",
+    "Número": "050/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0370b4b9d0-walnm-h4mlb-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Sharpedo ex",
+    "Coleção": "Inferno X",
+    "Número": "051/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0370d0f327-pulv8-h850y-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Seviper",
+    "Coleção": "Inferno X",
+    "Número": "052/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0370ebcbaa-q50t1-cgnj4-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Inferno X",
+    "Número": "053/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037109ebcd-uv3wm-b7f1o-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Inferno X",
+    "Número": "054/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037125bd08-sn309-xmayp-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "Inferno X",
+    "Número": "055/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03714c2059-eckrp-k2b5m-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Toxel",
+    "Coleção": "Inferno X",
+    "Número": "056/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037176e405-ase8m-dipu1-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity",
+    "Coleção": "Inferno X",
+    "Número": "057/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037197239d-gnsry-70elw-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Empoleon ex",
+    "Coleção": "Inferno X",
+    "Número": "058/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0371b638a2-redo9-1vqhi-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Bronzor",
+    "Coleção": "Inferno X",
+    "Número": "059/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0371d5c4f9-gwue3-jeaux-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Bronzong",
+    "Coleção": "Inferno X",
+    "Número": "060/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0371f5b653-2gv7n-8x3pv-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Togedemaru",
+    "Coleção": "Inferno X",
+    "Número": "061/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037215b9d2-7bx4v-viota-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Duraludon",
+    "Coleção": "Inferno X",
+    "Número": "062/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037242704d-843ib-bgv6x-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Archaludon",
+    "Coleção": "Inferno X",
+    "Número": "063/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03725d6fae-tvwhl-9dzyf-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Jigglypuff",
+    "Coleção": "Inferno X",
+    "Número": "064/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037278e6af-ov6gz-coag4-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "Inferno X",
+    "Número": "065/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037292e181-3scfg-4buhd-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Aipom",
+    "Coleção": "Inferno X",
+    "Número": "066/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0372acb5d8-o547v-o6rdt-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Ambipom",
+    "Coleção": "Inferno X",
+    "Número": "067/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0372c82057-6dyo9-buw4q-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Smeargle",
+    "Coleção": "Inferno X",
+    "Número": "068/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0372e38e9c-zabeg-78l05-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Zigzagoon",
+    "Coleção": "Inferno X",
+    "Número": "069/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0372fe016c-3c897-4zx6o-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Linoone",
+    "Coleção": "Inferno X",
+    "Número": "070/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03731976dc-wkd4x-4z1mf-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Buneary",
+    "Coleção": "Inferno X",
+    "Número": "071/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037334f32d-u74fw-2xb6k-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Lopunny ex",
+    "Coleção": "Inferno X",
+    "Número": "072/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037350c212-5ytbn-cgzod-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Sorvetão Jumbo",
+    "Coleção": "Inferno X",
+    "Número": "073/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03736d3315-fn7pv-uv7nz-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Maçarico",
+    "Coleção": "Inferno X",
+    "Número": "074/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/691642bbc8e60-obmer-e8xbo-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Pingente Sagrado",
+    "Coleção": "Inferno X",
+    "Número": "075/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0373a24f41-0hpla-ptngf-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Artimanha do Funesto",
+    "Coleção": "Inferno X",
+    "Número": "076/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0373bd4ba1-rhela-aboyv-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Dawn",
+    "Coleção": "Inferno X",
+    "Número": "077/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0373da2384-pearc-xlfiz-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Cuspidor de Fogo",
+    "Coleção": "Inferno X",
+    "Número": "078/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0373f73e9a-9lsun-8f4et-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Jaula de Batalha",
+    "Coleção": "Inferno X",
+    "Número": "079/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/691642bd8e7f1-2ce51-c9ist-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Vale Vertiginoso",
+    "Coleção": "Inferno X",
+    "Número": "080/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03742c3c64-fthvc-741ta-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Ludicolo",
+    "Coleção": "Inferno X",
+    "Número": "081/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0374491d52-xrque-p714e-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Nymble",
+    "Coleção": "Inferno X",
+    "Número": "082/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03746692da-nt84z-cvd38-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Charcadet",
+    "Coleção": "Inferno X",
+    "Número": "083/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0374834f2e-cuyf8-w64ph-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Dewgong",
+    "Coleção": "Inferno X",
+    "Número": "084/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03749c9fb4-xpecy-4u79i-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Piplup",
+    "Coleção": "Inferno X",
+    "Número": "085/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0374b93a00-8xc5h-69wuz-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Yamper",
+    "Coleção": "Inferno X",
+    "Número": "086/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0374d529a4-d8owc-ox048-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Zacian",
+    "Coleção": "Inferno X",
+    "Número": "087/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0374f566c3-zh09r-c1wfh-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Flygon",
+    "Coleção": "Inferno X",
+    "Número": "088/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03751235c4-1n0w9-40qdw-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Toxtricity",
+    "Coleção": "Inferno X",
+    "Número": "089/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03752ec3e2-12ohm-sxtdl-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Togedemaru",
+    "Coleção": "Inferno X",
+    "Número": "090/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037549e456-oep0f-rbqo9-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Wigglytuff",
+    "Coleção": "Inferno X",
+    "Número": "091/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375663aac-gcmyi-q8y7x-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Ambipom",
+    "Coleção": "Inferno X",
+    "Número": "092/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375861827-gekrs-xyea6-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Heracross ex",
+    "Coleção": "Inferno X",
+    "Número": "093/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375a21b85-aotz0-eunzb-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Charizard X ex",
+    "Coleção": "Inferno X",
+    "Número": "094/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375bd4eb5-e40rd-xr8ok-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Oricorio ex",
+    "Coleção": "Inferno X",
+    "Número": "095/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375d94797-ns1wt-kobtn-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Rotom ex",
+    "Coleção": "Inferno X",
+    "Número": "096/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0375f6878e-pczy7-w39qg-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mismagius ex",
+    "Coleção": "Inferno X",
+    "Número": "097/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03761318ad-xpqbt-mzbk2-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Sharpedo ex",
+    "Coleção": "Inferno X",
+    "Número": "098/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03762e7cec-lbdhv-5p4ka-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Empoleon ex",
+    "Coleção": "Inferno X",
+    "Número": "099/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03764a44bc-j8amd-wv8en-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Lopunny ex",
+    "Coleção": "Inferno X",
+    "Número": "100/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03766afee4-zrfal-qidtv-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Maçarico",
+    "Coleção": "Inferno X",
+    "Número": "101/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/691642bf6088c-1hrw5-4ozic-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Inferno X",
+    "Número": "102/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0376a35e96-dc9n4-ko6aw-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Pingente Sagrado",
+    "Coleção": "Inferno X",
+    "Número": "103/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0376c0a3d6-92lre-h3b6n-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Capacete Punk",
+    "Coleção": "Inferno X",
+    "Número": "104/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0376db5422-wtgvd-n9rtp-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Artimanha do Funesto",
+    "Coleção": "Inferno X",
+    "Número": "105/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0376f85439-a8rle-fsl2v-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Dawn",
+    "Coleção": "Inferno X",
+    "Número": "106/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0377147fed-8di41-uzr79-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Cuspidor de Fogo",
+    "Coleção": "Inferno X",
+    "Número": "107/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03773076ab-8mkxl-o0wu4-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Jaula de Batalha",
+    "Coleção": "Inferno X",
+    "Número": "108/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/691642c1410e4-6ba5f-0d4uz-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Energia de Ignição",
+    "Coleção": "Inferno X",
+    "Número": "109/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0377807f91-1ruqb-ph8sn-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Charizard X ex",
+    "Coleção": "Inferno X",
+    "Número": "110/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03779c03d1-hk8r6-etxv7-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Oricorio ex",
+    "Coleção": "Inferno X",
+    "Número": "111/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0377b9cea4-enbfm-ncd3y-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Rotom ex",
+    "Coleção": "Inferno X",
+    "Número": "112/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0377d64c78-dmqfe-kpzd4-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Sharpedo ex",
+    "Coleção": "Inferno X",
+    "Número": "113/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0377f2645b-143uz-0cy2n-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Lopunny ex",
+    "Coleção": "Inferno X",
+    "Número": "114/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e03780dc394-bf6v3-o2iar-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Dawn",
+    "Coleção": "Inferno X",
+    "Número": "115/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e037829bb87-01y4o-rsi0f-6ae38b0201118336de9a47b0a391b519.jpg"
+  },
+  {
+    "Pokemon": "Mega Charizard X ex",
+    "Coleção": "Inferno X",
+    "Número": "116/080",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/735/68e0378465270-985fr-k3sv4-6ae38b0201118336de9a47b0a391b519.jpg"
+  }
+]
