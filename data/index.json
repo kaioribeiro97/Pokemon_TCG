@@ -1006,5 +1006,14 @@
   "arquivo": "Collection_Moon.json",
   "logo": "https://den-media.pokellector.com/logos/Collection-Moon.logo.202.png",
   "totalCartas": 73
+},
+{
+  "id": "Inferno_X",
+  "name": "Inferno X",
+  "codigo": "M2",
+  "dataLancamento": "2025-09-26",
+  "arquivo": "Inferno_X.json",
+  "logo": "",
+  "totalCartas": 116
 }
 ]
