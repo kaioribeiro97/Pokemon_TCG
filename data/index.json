@@ -1015,5 +1015,14 @@
   "arquivo": "Inferno_X.json",
   "logo": "",
   "totalCartas": 116
+},
+{
+  "id": "Pokemon_Card_151",
+  "name": "Pokémon Card 151",
+  "codigo": "SV2A",
+  "dataLancamento": "2023-06-16",
+  "arquivo": "Pokemon_Card_151.json",
+  "logo": "",
+  "totalCartas": 210
 }
 ]
