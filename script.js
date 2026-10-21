@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from
 import { getFirestore, doc, setDoc, onSnapshot, collection, addDoc, getDocs, deleteDoc, updateDoc, arrayUnion, deleteField } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 // 2. CONFIGURAÇÃO
-const DATA_VERSION = "1.24"; 
+const DATA_VERSION = "1.25"; 
 const firebaseConfig = {
   apiKey: "AIzaSyB7zUjd4yGPvJkd_dZxy7gADHmNK7UUe-I",
   authDomain: "pokemon-tcg-sp.firebaseapp.com",
