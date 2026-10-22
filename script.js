@@ -664,6 +664,71 @@ $("#album-sort")?.addEventListener("change", (e) => {
   renderAlbums();
 });
 
+// --- PESQUISA RÁPIDA FLUTUANTE (DINÂMICA) ---
+window.openFloatSearch = function(type) {
+  const panel = document.getElementById('float-search-panel');
+  const contAlbum = document.getElementById('float-container-album');
+  const contPoke = document.getElementById('float-container-pokemon');
+  const title = document.getElementById('float-search-title');
+  
+  panel.classList.remove('hidden');
+  panel.classList.add('flex');
+
+  if (type === 'album') {
+    contAlbum.classList.remove('hidden');
+    contPoke.classList.add('hidden');
+    title.innerHTML = '<i class="fa-solid fa-book mr-1"></i> Buscar Coleção';
+    title.className = "text-xs font-black text-sky-400 uppercase tracking-widest";
+    document.getElementById('float-search-album').focus();
+  } else {
+    contAlbum.classList.add('hidden');
+    contPoke.classList.remove('hidden');
+    
+    const pokeInput = document.getElementById('float-search-pokemon');
+    
+    // Se estiver em Álbuns E com um Álbum aberto, pesquisa dentro da coleção atual
+    if (state.currentView === 'albums' && state.currentCollection) {
+      title.innerHTML = '<i class="fa-solid fa-box-open mr-1"></i> Cartas da Coleção';
+      title.className = "text-xs font-black text-emerald-400 uppercase tracking-widest";
+      pokeInput.placeholder = "Buscar carta ou nº...";
+      pokeInput.className = "w-full px-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-emerald-500 transition";
+    } else {
+      // Senão, é pesquisa de Pokedex
+      title.innerHTML = '<i class="fa-solid fa-dragon mr-1"></i> Pokedex Global';
+      title.className = "text-xs font-black text-rose-400 uppercase tracking-widest";
+      pokeInput.placeholder = "Buscar Pokémon (ex: Pikachu)...";
+      pokeInput.className = "w-full px-3 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-rose-500 transition";
+    }
+    pokeInput.focus();
+  }
+};
+
+$("#float-search-album")?.addEventListener("input", debounce((e) => {
+  const val = e.target.value.toLowerCase().trim();
+  if (state.currentView !== "albums") document.querySelector('[data-view="albums"]')?.click();
+  
+  state.albumSearch = val;
+  if ($("#album-search")) $("#album-search").value = val;
+  renderAlbums();
+}, 200));
+
+$("#float-search-pokemon")?.addEventListener("input", debounce((e) => {
+  const val = e.target.value.toLowerCase().trim();
+  
+  if (state.currentView === "albums" && state.currentCollection) {
+    // Pesquisa dentro da coleção aberta (Filtra as Cartas)
+    state.searchQuery = val;
+    if ($("#card-search")) $("#card-search").value = val;
+    renderCards();
+  } else {
+    // Pesquisa na Pokedex Geral
+    if (state.currentView !== "pokedex") document.querySelector('[data-view="pokedex"]')?.click();
+    state.pokedexSearch = val;
+    if ($("#pokedex-search")) $("#pokedex-search").value = val;
+    renderPokedex();
+  }
+}, 250));
+
 document.querySelector("#copa-search")?.addEventListener("input", debounce((e) => { 
   state.copaSearch = e.target.value.toLowerCase().trim(); 
   renderCopaTeams(); 
@@ -784,7 +849,11 @@ function processTCGJson(json) {
 
     // Procura todos os Pokémons incluídos no nome da carta (Ex: "Pikachu & Zekrom")
     officialSpeciesKeys.forEach(speciesKey => {
-      if (baseNameRaw.includes(speciesKey)) {
+      // Escapa caracteres especiais e usa verificação exata de palavra (impede que 'Pawmo' valide 'Pawmot' ou 'Mew' valide 'Mewtwo')
+      const escapedKey = speciesKey.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?:^|\\W)(${escapedKey})(?:\\W|$)`, 'i');
+      
+      if (regex.test(baseNameRaw)) {
         const officialName = speciesMap[speciesKey];
         if(!state.pokedexCardsBySpecies[officialName]) state.pokedexCardsBySpecies[officialName] = [];
         // Evita duplicar a mesma carta no array do Pokémon
