@@ -1024,5 +1024,23 @@
   "arquivo": "Pokemon_Card_151.json",
   "logo": "",
   "totalCartas": 210
+},
+{
+  "id": "McDonalds_Collection_2021",
+  "name": "McDonald's Collection 2021",
+  "codigo": "MC21",
+  "dataLancamento": "2021-02-09",
+  "arquivo": "McDonalds_Collection_2021.json",
+  "logo": "https://pokesymbols.com/images/tcg/sets/symbols/mcdonalds-collection-2021.avif",
+  "totalCartas": 25
+},
+{
+  "id": "Uniao_de_Aliados",
+  "name": "União de Aliados",
+  "codigo": "TEU",
+  "dataLancamento": "2019-02-01",
+  "arquivo": "Uniao_de_Aliados.json",
+  "logo": "https://www.pokemontcg.com/assets/team-up/img/logos/pt-br/intro-logo.png",
+  "totalCartas": 207
 }
 ]
