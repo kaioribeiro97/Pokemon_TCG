@@ -1,0 +1,758 @@
+[
+  {
+    "Pokemon": "Chikorita",
+    "Coleção": "Turbo Colisão",
+    "Número": "1/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1081.1.jpg"
+  },
+  {
+    "Pokemon": "Bayleef",
+    "Coleção": "Turbo Colisão",
+    "Número": "2/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1076.2.jpg"
+  },
+  {
+    "Pokemon": "Meganium",
+    "Coleção": "Turbo Colisão",
+    "Número": "3/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1075.3.jpg"
+  },
+  {
+    "Pokemon": "Seedot",
+    "Coleção": "Turbo Colisão",
+    "Número": "4/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/454.4.jpg"
+  },
+  {
+    "Pokemon": "Kricketot",
+    "Coleção": "Turbo Colisão",
+    "Número": "5/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/879.5.jpg"
+  },
+  {
+    "Pokemon": "Kricketune",
+    "Coleção": "Turbo Colisão",
+    "Número": "6/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/876.6.jpg"
+  },
+  {
+    "Pokemon": "Petilil",
+    "Coleção": "Turbo Colisão",
+    "Número": "7/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/806.7.jpg"
+  },
+  {
+    "Pokemon": "Lilligant",
+    "Coleção": "Turbo Colisão",
+    "Número": "8/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/807.8.jpg"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Turbo Colisão",
+    "Número": "9/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/828.9.jpg"
+  },
+  {
+    "Pokemon": "Growlithe",
+    "Coleção": "Turbo Colisão",
+    "Número": "10/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/122.10.jpg"
+  },
+  {
+    "Pokemon": "Arcanine",
+    "Coleção": "Turbo Colisão",
+    "Número": "11/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/267.11.jpg"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Turbo Colisão",
+    "Número": "12/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/936.12.jpg"
+  },
+  {
+    "Pokemon": "Camerupt",
+    "Coleção": "Turbo Colisão",
+    "Número": "13/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/923.13.jpg"
+  },
+  {
+    "Pokemon": "Emboar-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "14/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3979.14.jpg"
+  },
+  {
+    "Pokemon": "Heatmor",
+    "Coleção": "Turbo Colisão",
+    "Número": "15/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/713.15.jpg"
+  },
+  {
+    "Pokemon": "Psyduck",
+    "Coleção": "Turbo Colisão",
+    "Número": "16/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/334.16.jpg"
+  },
+  {
+    "Pokemon": "Golduck",
+    "Coleção": "Turbo Colisão",
+    "Número": "17/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/273.17.jpg"
+  },
+  {
+    "Pokemon": "Golduck TURBO",
+    "Coleção": "Turbo Colisão",
+    "Número": "18/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3980.18.jpg"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Turbo Colisão",
+    "Número": "19/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/221.19.jpg"
+  },
+  {
+    "Pokemon": "Slowbro",
+    "Coleção": "Turbo Colisão",
+    "Número": "20/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/193.20.jpg"
+  },
+  {
+    "Pokemon": "Slowking",
+    "Coleção": "Turbo Colisão",
+    "Número": "21/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/170.21.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Turbo Colisão",
+    "Número": "22/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/338.22.jpg"
+  },
+  {
+    "Pokemon": "Shellder",
+    "Coleção": "Turbo Colisão",
+    "Número": "23/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/338.23.jpg"
+  },
+  {
+    "Pokemon": "Cloyster",
+    "Coleção": "Turbo Colisão",
+    "Número": "24/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/288.24.jpg"
+  },
+  {
+    "Pokemon": "Staryu",
+    "Coleção": "Turbo Colisão",
+    "Número": "25/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/497.25.jpg"
+  },
+  {
+    "Pokemon": "Gyarados-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "26/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3981.26.jpg"
+  },
+  {
+    "Pokemon": "M Gyarados-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "27/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3982.27.jpg"
+  },
+  {
+    "Pokemon": "Lapras",
+    "Coleção": "Turbo Colisão",
+    "Número": "28/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/163.28.jpg"
+  },
+  {
+    "Pokemon": "Corsola",
+    "Coleção": "Turbo Colisão",
+    "Número": "29/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/320.29.jpg"
+  },
+  {
+    "Pokemon": "Suicune",
+    "Coleção": "Turbo Colisão",
+    "Número": "30/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/264.30.jpg"
+  },
+  {
+    "Pokemon": "Palkia-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "31/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1455.31.jpg"
+  },
+  {
+    "Pokemon": "Manaphy-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "32/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3983.32.jpg"
+  },
+  {
+    "Pokemon": "Tympole",
+    "Coleção": "Turbo Colisão",
+    "Número": "33/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/55.33.jpg"
+  },
+  {
+    "Pokemon": "Palpitoad",
+    "Coleção": "Turbo Colisão",
+    "Número": "34/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/56.34.jpg"
+  },
+  {
+    "Pokemon": "Seismitoad",
+    "Coleção": "Turbo Colisão",
+    "Número": "35/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/57.35.jpg"
+  },
+  {
+    "Pokemon": "Ducklett",
+    "Coleção": "Turbo Colisão",
+    "Número": "36/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/719.36.jpg"
+  },
+  {
+    "Pokemon": "Swanna",
+    "Coleção": "Turbo Colisão",
+    "Número": "37/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/720.37.jpg"
+  },
+  {
+    "Pokemon": "Froakie",
+    "Coleção": "Turbo Colisão",
+    "Número": "38/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/588.38.jpg"
+  },
+  {
+    "Pokemon": "Frogadier",
+    "Coleção": "Turbo Colisão",
+    "Número": "39/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/589.39.jpg"
+  },
+  {
+    "Pokemon": "Greninja",
+    "Coleção": "Turbo Colisão",
+    "Número": "40/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/590.40.jpg"
+  },
+  {
+    "Pokemon": "Greninja TURBO",
+    "Coleção": "Turbo Colisão",
+    "Número": "41/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3984.41.jpg"
+  },
+  {
+    "Pokemon": "Electabuzz",
+    "Coleção": "Turbo Colisão",
+    "Número": "42/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/323.42.jpg"
+  },
+  {
+    "Pokemon": "Electivire",
+    "Coleção": "Turbo Colisão",
+    "Número": "43/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/270.43.jpg"
+  },
+  {
+    "Pokemon": "Shinx",
+    "Coleção": "Turbo Colisão",
+    "Número": "44/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/656.44.jpg"
+  },
+  {
+    "Pokemon": "Luxio",
+    "Coleção": "Turbo Colisão",
+    "Número": "45/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/988.45.jpg"
+  },
+  {
+    "Pokemon": "Luxray",
+    "Coleção": "Turbo Colisão",
+    "Número": "46/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1001.46.jpg"
+  },
+  {
+    "Pokemon": "Luxray TURBO",
+    "Coleção": "Turbo Colisão",
+    "Número": "47/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3985.47.jpg"
+  },
+  {
+    "Pokemon": "Blitzle",
+    "Coleção": "Turbo Colisão",
+    "Número": "48/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/245.48.jpg"
+  },
+  {
+    "Pokemon": "Zebstrika",
+    "Coleção": "Turbo Colisão",
+    "Número": "49/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/816.49.jpg"
+  },
+  {
+    "Pokemon": "Drowzee",
+    "Coleção": "Turbo Colisão",
+    "Número": "50/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/204.50.jpg"
+  },
+  {
+    "Pokemon": "Hypno",
+    "Coleção": "Turbo Colisão",
+    "Número": "51/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/161.51.jpg"
+  },
+  {
+    "Pokemon": "Espeon-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "52/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4005.52.jpg"
+  },
+  {
+    "Pokemon": "Skorupi",
+    "Coleção": "Turbo Colisão",
+    "Número": "53/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/695.53.jpg"
+  },
+  {
+    "Pokemon": "Drapion",
+    "Coleção": "Turbo Colisão",
+    "Número": "54/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/681.54.jpg"
+  },
+  {
+    "Pokemon": "Sigilyph",
+    "Coleção": "Turbo Colisão",
+    "Número": "55/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/80.55.jpg"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Turbo Colisão",
+    "Número": "56/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/81.56.jpg"
+  },
+  {
+    "Pokemon": "Garbodor",
+    "Coleção": "Turbo Colisão",
+    "Número": "57/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/82.57.jpg"
+  },
+  {
+    "Pokemon": "Espurr",
+    "Coleção": "Turbo Colisão",
+    "Número": "58/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1957.58.jpg"
+  },
+  {
+    "Pokemon": "Meowstic",
+    "Coleção": "Turbo Colisão",
+    "Número": "59/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1690.59.jpg"
+  },
+  {
+    "Pokemon": "Honedge",
+    "Coleção": "Turbo Colisão",
+    "Número": "60/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/614.60.jpg"
+  },
+  {
+    "Pokemon": "Doublade",
+    "Coleção": "Turbo Colisão",
+    "Número": "61/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/615.61.jpg"
+  },
+  {
+    "Pokemon": "Aegislash",
+    "Coleção": "Turbo Colisão",
+    "Número": "62/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/616.62.jpg"
+  },
+  {
+    "Pokemon": "Skrelp",
+    "Coleção": "Turbo Colisão",
+    "Número": "63/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1958.63.jpg"
+  },
+  {
+    "Pokemon": "Phantump",
+    "Coleção": "Turbo Colisão",
+    "Número": "64/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/597.64.jpg"
+  },
+  {
+    "Pokemon": "Trevenant",
+    "Coleção": "Turbo Colisão",
+    "Número": "65/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/598.65.jpg"
+  },
+  {
+    "Pokemon": "Trevenant TURBO",
+    "Coleção": "Turbo Colisão",
+    "Número": "66/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3987.66.jpg"
+  },
+  {
+    "Pokemon": "Sudowoodo",
+    "Coleção": "Turbo Colisão",
+    "Número": "67/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/386.67.jpg"
+  },
+  {
+    "Pokemon": "Gible",
+    "Coleção": "Turbo Colisão",
+    "Número": "68/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/14.68.jpg"
+  },
+  {
+    "Pokemon": "Gabite",
+    "Coleção": "Turbo Colisão",
+    "Número": "69/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/8.69.jpg"
+  },
+  {
+    "Pokemon": "Garchomp",
+    "Coleção": "Turbo Colisão",
+    "Número": "70/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1.70.jpg"
+  },
+  {
+    "Pokemon": "Pancham",
+    "Coleção": "Turbo Colisão",
+    "Número": "71/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1654.71.jpg"
+  },
+  {
+    "Pokemon": "Nuzleaf",
+    "Coleção": "Turbo Colisão",
+    "Número": "72/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/441.72.jpg"
+  },
+  {
+    "Pokemon": "Shiftry",
+    "Coleção": "Turbo Colisão",
+    "Número": "73/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/427.73.jpg"
+  },
+  {
+    "Pokemon": "Darkrai-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "74/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/99.74.jpg"
+  },
+  {
+    "Pokemon": "Pangoro",
+    "Coleção": "Turbo Colisão",
+    "Número": "75/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1658.75.jpg"
+  },
+  {
+    "Pokemon": "Scizor-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "76/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3988.76.jpg"
+  },
+  {
+    "Pokemon": "M Scizor-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "77/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3989.77.jpg"
+  },
+  {
+    "Pokemon": "Mawile",
+    "Coleção": "Turbo Colisão",
+    "Número": "78/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/166.78.jpg"
+  },
+  {
+    "Pokemon": "Ferroseed",
+    "Coleção": "Turbo Colisão",
+    "Número": "79/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1420.79.jpg"
+  },
+  {
+    "Pokemon": "Ferrothorn",
+    "Coleção": "Turbo Colisão",
+    "Número": "80/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1806.80.jpg"
+  },
+  {
+    "Pokemon": "Clefairy",
+    "Coleção": "Turbo Colisão",
+    "Número": "81/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/319.81.jpg"
+  },
+  {
+    "Pokemon": "Clefable",
+    "Coleção": "Turbo Colisão",
+    "Número": "82/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/509.82.jpg"
+  },
+  {
+    "Pokemon": "Togekiss-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "83/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3990.83.jpg"
+  },
+  {
+    "Pokemon": "Spritzee",
+    "Coleção": "Turbo Colisão",
+    "Número": "84/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/617.84.jpg"
+  },
+  {
+    "Pokemon": "Aromatisse",
+    "Coleção": "Turbo Colisão",
+    "Número": "85/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/618.85.jpg"
+  },
+  {
+    "Pokemon": "Dragalge",
+    "Coleção": "Turbo Colisão",
+    "Número": "86/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1679.86.jpg"
+  },
+  {
+    "Pokemon": "Rattata",
+    "Coleção": "Turbo Colisão",
+    "Número": "87/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/336.87.jpg"
+  },
+  {
+    "Pokemon": "Raticate",
+    "Coleção": "Turbo Colisão",
+    "Número": "88/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/299.88.jpg"
+  },
+  {
+    "Pokemon": "Raticate TURBO",
+    "Coleção": "Turbo Colisão",
+    "Número": "89/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3991.89.jpg"
+  },
+  {
+    "Pokemon": "Dunsparce",
+    "Coleção": "Turbo Colisão",
+    "Número": "90/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/436.90.jpg"
+  },
+  {
+    "Pokemon": "Stantler",
+    "Coleção": "Turbo Colisão",
+    "Número": "91/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/345.91.jpg"
+  },
+  {
+    "Pokemon": "Ho-Oh-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "92/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1545.92.jpg"
+  },
+  {
+    "Pokemon": "Glameow",
+    "Coleção": "Turbo Colisão",
+    "Número": "93/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/207.93.jpg"
+  },
+  {
+    "Pokemon": "Purugly",
+    "Coleção": "Turbo Colisão",
+    "Número": "94/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/189.94.jpg"
+  },
+  {
+    "Pokemon": "Furfrou",
+    "Coleção": "Turbo Colisão",
+    "Número": "95/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/633.95.jpg"
+  },
+  {
+    "Pokemon": "Festa a Noite Toda",
+    "Coleção": "Turbo Colisão",
+    "Número": "96/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3992.96.jpg"
+  },
+  {
+    "Pokemon": "Estouro de Balão",
+    "Coleção": "Turbo Colisão",
+    "Número": "97/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3993.97.jpg"
+  },
+  {
+    "Pokemon": "Delinquente",
+    "Coleção": "Turbo Colisão",
+    "Número": "98b/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3994.98b.jpg"
+  },
+  {
+    "Pokemon": "Delinquente",
+    "Coleção": "Turbo Colisão",
+    "Número": "98a/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3994s_98a.jpg"
+  },
+  {
+    "Pokemon": "Delinquente",
+    "Coleção": "Turbo Colisão",
+    "Número": "98/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3994.98.jpg"
+  },
+  {
+    "Pokemon": "Cinto de Luta Furiosa",
+    "Coleção": "Turbo Colisão",
+    "Número": "99/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3995.99.jpg"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "Turbo Colisão",
+    "Número": "100/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/637.100.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Gyarados",
+    "Coleção": "Turbo Colisão",
+    "Número": "101/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3996.101.jpg"
+  },
+  {
+    "Pokemon": "Elixir Máximo",
+    "Coleção": "Turbo Colisão",
+    "Número": "102/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3997.102.jpg"
+  },
+  {
+    "Pokemon": "Poção Máxima",
+    "Coleção": "Turbo Colisão",
+    "Número": "103/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1120.103.jpg"
+  },
+  {
+    "Pokemon": "Determinação da Misty",
+    "Coleção": "Turbo Colisão",
+    "Número": "104/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3998.104.jpg"
+  },
+  {
+    "Pokemon": "Pegador de Pokémon",
+    "Coleção": "Turbo Colisão",
+    "Número": "105/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/752.105.jpg"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Turbo Colisão",
+    "Número": "106/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/359.106.jpg"
+  },
+  {
+    "Pokemon": "Professor Sycamore",
+    "Coleção": "Turbo Colisão",
+    "Número": "107a/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/641s_107a.jpg"
+  },
+  {
+    "Pokemon": "Professor Sycamore",
+    "Coleção": "Turbo Colisão",
+    "Número": "107/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/641.107.jpg"
+  },
+  {
+    "Pokemon": "Terceiro Olho do Psíquico",
+    "Coleção": "Turbo Colisão",
+    "Número": "108/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3999.108.jpg"
+  },
+  {
+    "Pokemon": "Enigma do Tempo",
+    "Coleção": "Turbo Colisão",
+    "Número": "109/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4000.109.jpg"
+  },
+  {
+    "Pokemon": "Vale Invertido",
+    "Coleção": "Turbo Colisão",
+    "Número": "110/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4001.110.jpg"
+  },
+  {
+    "Pokemon": "Elo Espiritual de Scizor",
+    "Coleção": "Turbo Colisão",
+    "Número": "111/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4002.111.jpg"
+  },
+  {
+    "Pokemon": "Tierno",
+    "Coleção": "Turbo Colisão",
+    "Número": "112/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1189.112.jpg"
+  },
+  {
+    "Pokemon": "Energia Borrifada",
+    "Coleção": "Turbo Colisão",
+    "Número": "113/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4003.113.jpg"
+  },
+  {
+    "Pokemon": "Gyarados-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "114/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3981.114.jpg"
+  },
+  {
+    "Pokemon": "M Gyarados-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "115/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3982.115.jpg"
+  },
+  {
+    "Pokemon": "Manaphy-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "116/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3983.116.jpg"
+  },
+  {
+    "Pokemon": "Espeon-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "117/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/4004.117.jpg"
+  },
+  {
+    "Pokemon": "Darkrai-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "118/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/99.118.jpg"
+  },
+  {
+    "Pokemon": "Scizor-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "119/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3988.119.jpg"
+  },
+  {
+    "Pokemon": "M Scizor-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "120/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3989.120.jpg"
+  },
+  {
+    "Pokemon": "Ho-Oh-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "121/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1545.121.jpg"
+  },
+  {
+    "Pokemon": "Skyla",
+    "Coleção": "Turbo Colisão",
+    "Número": "122/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/1947.122.jpg"
+  },
+  {
+    "Pokemon": "Gyarados-EX",
+    "Coleção": "Turbo Colisão",
+    "Número": "123/122",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/94/3981.123.jpg"
+  }
+]
