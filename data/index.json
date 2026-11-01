@@ -1051,5 +1051,14 @@
   "arquivo": "XY_Trainer_Kit.json",
   "logo": "https://noxustcg.com.br/assets/logos/XY.webp",
   "totalCartas": 30
+},
+{
+  "id": "Pikachus_New_Friends",
+  "name": "Pikachu's New Friends",
+  "codigo": "SM0",
+  "dataLancamento": "2016-11-18",
+  "arquivo": "Pikachus_New_Friends.json",
+  "logo": "https://archives.bulbagarden.net/media/upload/f/fd/SetSymbolPikachu_New_Friends.png",
+  "totalCartas": 4
 }
 ]
