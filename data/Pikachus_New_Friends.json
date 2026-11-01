@@ -1,0 +1,26 @@
+[
+  {
+    "Pokemon": "Rowlet",
+    "Coleção": "Pikachu's New Friends",
+    "Número": "001/004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/501/6594656972901-28njr-8qndg-f00ce55a01e162bee34abcc9c969115d.jpg"
+  },
+  {
+    "Pokemon": "Litten",
+    "Coleção": "Pikachu's New Friends",
+    "Número": "002/004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/501/6594656b2eb6e-s1l2e-8ife1-f00ce55a01e162bee34abcc9c969115d.jpg"
+  },
+  {
+    "Pokemon": "Popplio",
+    "Coleção": "Pikachu's New Friends",
+    "Número": "003/004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/501/6594656cba204-ilw28-gclkt-f00ce55a01e162bee34abcc9c969115d.jpg"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Pikachu's New Friends",
+    "Número": "004/004",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/501/6594656e5861e-a7qyt-giuvq-f00ce55a01e162bee34abcc9c969115d.jpg"
+  }
+]
