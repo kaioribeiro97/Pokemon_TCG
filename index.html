@@ -5,6 +5,7 @@
   <title>Pokémon TCG – Coleção Privada</title>
   <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1218" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -13,7 +14,7 @@
       theme: {
         extend: {
           fontFamily: { inter: ['Inter', 'system-ui', 'sans-serif'] },
-          colors: { prismBlue: '#38bdf8' },
+          colors: { slate: {50:'#f6f7f9',100:'#eceef2',200:'#d5d9e0',300:'#b4bac6',400:'#8a92a3',500:'#667085',600:'#4a5262',700:'#353b48',800:'#232833',900:'#181c25',950:'#0f1218'}, sky: {300:'#9db8f5',400:'#7c9ef0',500:'#5b82e8',600:'#4468cf'} },
         },
       },
     };
@@ -32,7 +33,7 @@
 
   <!-- MODAL DE CONFIRMAÇÃO CUSTOMIZADO -->
   <div id="custom-confirm-modal" class="fixed inset-0 z-[90] hidden bg-slate-950/80 backdrop-blur-md items-center justify-center p-4">
-    <div id="custom-confirm-box" class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl relative transform transition-all scale-95 opacity-0 duration-200">
+    <div id="custom-confirm-box" class="bg-slate-900 border border-slate-700 p-6 rounded-2xl w-full max-w-sm shadow-2xl relative transform transition-all scale-95 opacity-0 duration-200">
       <div id="confirm-icon-bg" class="w-12 h-12 rounded-2xl flex items-center justify-center mb-4 text-xl shadow-lg">
         <i id="confirm-icon" class="fa-solid fa-triangle-exclamation"></i>
       </div>
@@ -48,7 +49,7 @@
 
   <!-- 1. TELA DE LOGIN -->
   <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950">
-    <div class="w-full max-w-md p-8 bg-slate-900 rounded-3xl border border-slate-700 shadow-2xl">
+    <div class="w-full max-w-md p-8 bg-slate-900 rounded-2xl border border-slate-700 shadow-2xl">
       <div class="flex flex-col items-center mb-6">
         <div class="w-16 h-16 rounded-2xl bg-sky-500 flex items-center justify-center shadow-lg shadow-sky-500/20 mb-4">
           <i class="fa-solid fa-lock text-slate-950 text-2xl"></i>
@@ -76,14 +77,14 @@
 
   <!-- 2. CONTEÚDO PROTEGIDO -->
   <div id="main-content" class="hidden">
-    <div class="fixed inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 opacity-90 pointer-events-none"></div>
+    
 
-    <div class="bg-pokeball-foil"></div>
+    
 
     <nav class="fixed top-0 inset-x-0 z-20">
       <div class="mx-auto max-w-6xl px-4 py-3 mt-3 rounded-2xl border border-slate-700/60 bg-slate-900/50 backdrop-blur-xl shadow-[0_0_40px_rgba(15,23,42,0.9)] flex items-center justify-between">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 via-cyan-300 to-indigo-500 flex items-center justify-center shadow-lg">
+          <div class="w-9 h-9 rounded-xl bg-sky-500 flex items-center justify-center shadow-lg">
             <i class="fa-solid fa-dragon text-slate-950"></i>
           </div>
           <div class="hidden sm:block">
@@ -115,7 +116,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <button id="logout-btn" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 text-slate-400 hover:text-white border border-slate-700 transition">
+          <button id="logout-btn" aria-label="Sair" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 text-slate-400 hover:text-white border border-slate-700 transition">
             <i class="fa-solid fa-right-from-bracket"></i>
           </button>
         </div>
@@ -126,7 +127,7 @@
       
       <!-- VISÃO: ÁLBUNS -->
       <section id="view-albums" class="space-y-6">
-        <section class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-5 flex flex-col gap-3">
+        <section class="border border-slate-800 bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
           <div class="flex items-center justify-between">
             <h2 class="text-sm font-semibold text-slate-300">Carregar Dados</h2>
             <div id="global-progress" class="hidden flex items-center gap-3">
@@ -167,11 +168,11 @@
             <!-- SELETOR DE ORDENAÇÃO -->
             <div class="relative w-full sm:w-auto shrink-0">
               <select id="album-sort" class="w-full sm:w-auto px-3 py-2 bg-slate-800/80 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-sky-500 transition cursor-pointer">
-                <option value="date-desc">📅 Mais Recentes</option>
-                <option value="date-asc">📅 Mais Antigas</option>
-                <option value="name-asc">🔤 Nome (A - Z)</option>
-                <option value="name-desc">🔤 Nome (Z - A)</option>
-                <option value="progress-desc">🏆 Maior Conclusão</option>
+                <option value="date-desc">Mais Recentes</option>
+                <option value="date-asc">Mais Antigas</option>
+                <option value="name-asc">Nome (A - Z)</option>
+                <option value="name-desc">Nome (Z - A)</option>
+                <option value="progress-desc">Maior Conclusão</option>
               </select>
             </div>
           </div>
@@ -202,10 +203,10 @@
 
       <!-- VISÃO: POKEDEX -->
       <section id="view-pokedex" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+        <header class="border border-slate-800 bg-slate-900 rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 tracking-tight">
                 <i class="fa-solid fa-address-book text-rose-500"></i>
                 Pokedex Nacional
               </h2>
@@ -248,10 +249,10 @@
 
       <!-- VISÃO: COPA 2026 -->
       <section id="view-copa" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+        <header class="border border-slate-800 bg-slate-900 rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 tracking-tight">
                 <i class="fa-solid fa-futbol text-emerald-500"></i> Álbum Copa 2026
               </h2>
               <p class="text-xs text-slate-400 mt-1">Controle de Repetidas e Faltantes</p>
@@ -295,10 +296,10 @@
 
       <!-- VISÃO: MINHAS COLEÇÕES (TEMÁTICAS) -->
       <section id="view-custom-col" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+        <header class="border border-slate-800 bg-slate-900 rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 tracking-tight">
                 <i class="fa-solid fa-folder-open text-indigo-500"></i> Coleções Temáticas
               </h2>
               <p class="text-xs text-slate-400 mt-1">Suas coleções personalizadas (ex: Coleção Pikachu).</p>
@@ -332,10 +333,10 @@
   
       <!-- VISÃO: TREINADORES & ITENS (AGRUPADOS COMO A POKEDEX) -->
       <section id="view-trainers" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-4 sm:p-6 flex flex-col gap-4 sm:gap-6">
+        <header class="border border-slate-800 bg-slate-900 rounded-2xl p-4 sm:p-6 flex flex-col gap-4 sm:gap-6">
           <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 tracking-tight">
                 <i class="fa-solid fa-id-badge text-amber-400"></i>
                 Treinadores & Itens
               </h2>
@@ -378,10 +379,10 @@
       </section>
       <!-- VISÃO: TCGDEX EXPLORER (FILTROS COMBINADOS MULTI-CRITÉRIO) -->
       <section id="view-tcgdex" class="hidden space-y-6">
-        <header class="border border-slate-700/60 bg-slate-900/60 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-6">
+        <header class="border border-slate-800 bg-slate-900 rounded-2xl p-6 flex flex-col gap-6">
           <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <h2 class="text-xl font-bold text-white flex items-center gap-2 uppercase tracking-tighter">
+              <h2 class="text-xl font-bold text-white flex items-center gap-2 tracking-tight">
                 <i class="fa-solid fa-satellite-dish text-sky-500"></i> Banco de Dados Global
               </h2>
               <p class="text-xs text-slate-400 mt-1">Combine múltiplos filtros (Nome, Coleção, Artista) para encontrar cartas específicas (PT, EN, JP).</p>
@@ -447,7 +448,7 @@
             </div>
 
             <!-- Botão de Ação -->
-            <button onclick="window.buscarTCGdex()" class="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-sky-500 to-indigo-500 text-slate-950 font-black rounded-xl hover:from-sky-400 hover:to-indigo-400 transition shadow-lg shadow-sky-500/20 text-xs flex items-center justify-center gap-2">
+            <button onclick="window.buscarTCGdex()" class="w-full sm:w-auto px-8 py-3 bg-sky-500 text-slate-950 font-bold rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20 text-xs flex items-center justify-center gap-2">
               <i class="fa-solid fa-magnifying-glass"></i> Buscar Cartas
             </button>
           </div>
@@ -465,8 +466,8 @@
     </main>
 
     <!-- MODAL: DETALHES POKEMON (POKEDEX) -->
-    <div id="pokedex-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 backdrop-blur-xl p-4">
-      <div class="relative max-w-4xl w-full bg-slate-900 border-2 border-slate-700 rounded-[2rem] overflow-hidden flex flex-col max-h-[90vh] shadow-[0_0_100px_rgba(0,0,0,0.5)]">
+    <div id="pokedex-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 p-4">
+      <div class="relative max-w-4xl w-full bg-slate-900 border-2 border-slate-700 rounded-2xl overflow-hidden flex flex-col max-h-[90vh] shadow-[0_0_100px_rgba(0,0,0,0.5)]">
         <header class="p-6 bg-slate-800/50 border-b border-slate-700 flex justify-between items-center">
           <div class="flex items-center gap-4">
              <span id="pokedex-modal-id" class="pokedex-number-badge text-lg">#000</span>
@@ -487,7 +488,7 @@
                </div>
              </div>
           </div>
-          <button id="pokedex-modal-close" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-700 text-white hover:bg-slate-600 transition">
+          <button id="pokedex-modal-close" aria-label="Fechar" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-700 text-white hover:bg-slate-600 transition">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </header>
@@ -495,8 +496,8 @@
       </div>
     </div>
     <!-- MODAL: DETALHES DO TREINADOR/ITEM (TODAS AS CARTAS DO PERSONAGEM) -->
-    <div id="trainers-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 backdrop-blur-xl p-3 sm:p-4">
-      <div class="relative max-w-4xl w-full bg-slate-900 border-2 border-slate-700 rounded-[2rem] overflow-hidden flex flex-col max-h-[90vh] shadow-[0_0_100px_rgba(0,0,0,0.5)]">
+    <div id="trainers-modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/90 p-3 sm:p-4">
+      <div class="relative max-w-4xl w-full bg-slate-900 border-2 border-slate-700 rounded-2xl overflow-hidden flex flex-col max-h-[90vh] shadow-[0_0_100px_rgba(0,0,0,0.5)]">
         <header class="p-4 sm:p-6 bg-slate-800/50 border-b border-slate-700 flex justify-between items-center gap-4">
           <div class="flex items-center gap-3 min-w-0">
              <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
@@ -507,7 +508,7 @@
                <p class="text-[10px] sm:text-xs text-slate-400">Escolha a carta favorita para representar este Treinador na galeria.</p>
              </div>
           </div>
-          <button id="trainers-modal-close" class="w-9 h-9 sm:w-10 sm:h-10 shrink-0 flex items-center justify-center rounded-full bg-slate-700 text-white hover:bg-slate-600 transition">
+          <button id="trainers-modal-close" aria-label="Fechar" class="w-9 h-9 sm:w-10 sm:h-10 shrink-0 flex items-center justify-center rounded-full bg-slate-700 text-white hover:bg-slate-600 transition">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </header>
@@ -515,9 +516,9 @@
       </div>
     </div>
         <!-- MODAL: CARD PADRÃO (VISUALIZAÇÃO AMPLIADA) -->
-    <div id="card-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/80 backdrop-blur-xl p-3 sm:p-4">
-      <div class="relative max-w-3xl w-full bg-slate-900 border border-slate-700 rounded-3xl p-5 sm:p-8 shadow-2xl overflow-y-auto max-h-[92vh]">
-        <button id="modal-close" class="absolute top-4 right-4 text-slate-400 hover:text-white transition z-10">
+    <div id="card-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/80 p-3 sm:p-4">
+      <div class="relative max-w-3xl w-full bg-slate-900 border border-slate-700 rounded-2xl p-5 sm:p-8 shadow-2xl overflow-y-auto max-h-[92vh]">
+        <button id="modal-close" aria-label="Fechar" class="absolute top-4 right-4 text-slate-400 hover:text-white transition z-10">
           <i class="fa-solid fa-xmark text-2xl"></i>
         </button>
         <div class="flex flex-col sm:flex-row gap-8">
@@ -552,7 +553,7 @@
 
     <!-- MODAL: ADICIONAR CARTA AVULSA -->
     <div id="add-card-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
-      <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl">
+      <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-2xl p-6 shadow-2xl">
         <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
           <i class="fa-solid fa-pen-to-square text-emerald-400"></i> Adicionar Carta
         </h3>
@@ -628,7 +629,7 @@
 
     <!-- MODAL: EDITAR CARTA CUSTOMIZADA -->
     <div id="edit-card-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-md shadow-2xl relative">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-2xl w-full max-w-md shadow-2xl relative">
         <h2 class="text-xl font-black text-amber-400 mb-4 flex items-center gap-2">
           <i class="fa-solid fa-pen-to-square"></i> Editar Carta
         </h2>
@@ -669,7 +670,7 @@
 
     <!-- MODAL: SELECIONAR COLEÇÃO TEMÁTICA -->
     <div id="custom-col-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-2xl w-full max-w-sm shadow-2xl">
         <h3 class="text-lg font-bold text-white mb-4">Adicionar a qual coleção?</h3>
         
         <select id="select-custom-col" class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-white mb-4 text-sm">
@@ -688,7 +689,7 @@
 
     <!-- MODAL: RENOMEAR COLEÇÃO TEMÁTICA -->
     <div id="rename-thematic-modal" class="fixed inset-0 z-[70] hidden bg-black/80 backdrop-blur-sm items-center justify-center p-4">
-      <div class="bg-slate-900 border border-slate-700 p-6 rounded-3xl w-full max-w-sm shadow-2xl">
+      <div class="bg-slate-900 border border-slate-700 p-6 rounded-2xl w-full max-w-sm shadow-2xl">
         <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
           <i class="fa-solid fa-pen-to-square text-amber-400"></i> Renomear Coleção
         </h3>
@@ -710,7 +711,7 @@
     <div class="fixed bottom-5 right-5 z-[90] flex flex-col items-end gap-2">
       
       <!-- Painel de Pesquisa Flutuante Dinâmico -->
-      <div id="float-search-panel" class="hidden bg-slate-900/95 backdrop-blur-xl border border-slate-700 p-4 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.8)] mb-2 w-[calc(100vw-2.5rem)] max-w-xs flex-col gap-3 transition-all">
+      <div id="float-search-panel" class="hidden bg-slate-900/95 backdrop-blur-xl border border-slate-700 p-4 rounded-2xl shadow-[0_0_40px_rgba(0,0,0,0.8)] mb-2 w-[calc(100vw-2.5rem)] max-w-xs flex-col gap-3 transition-all">
         <div class="flex justify-between items-center">
           <h4 id="float-search-title" class="text-xs font-black uppercase tracking-widest text-white">Pesquisa</h4>
           <button onclick="document.getElementById('float-search-panel').classList.add('hidden')" class="w-6 h-6 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition">

@@ -588,14 +588,7 @@ document.querySelectorAll(".view-tab").forEach(tab => {
     window.scrollTo({ top: 0, behavior: 'instant' });
     document.querySelectorAll(".view-tab").forEach(t => t.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition whitespace-nowrap");
     
-    if (view === 'copa') {
-        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-emerald-500 text-slate-950 whitespace-nowrap";
-    } else if (view === 'trainers') {
-        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-amber-500 text-slate-950 whitespace-nowrap";
-    } else {
-        tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950 whitespace-nowrap";
-    }
-    
+    tab.className = "view-tab shrink-0 px-3 sm:px-4 py-1.5 rounded-lg text-xs font-medium transition bg-sky-500 text-slate-950 whitespace-nowrap";
     $("#view-albums").classList.add("hidden");
     $("#view-pokedex").classList.add("hidden");
     $("#view-trainers")?.classList.add("hidden");
@@ -623,11 +616,6 @@ document.querySelectorAll(".view-tab").forEach(tab => {
   });
 });
 
-// Eventos de Busca e Filtro da aba Treinadores
-$("#trainers-search")?.addEventListener("input", (e) => { 
-  state.trainersSearch = e.target.value.toLowerCase().trim(); 
-  renderTrainers(); 
-});
 
 document.querySelectorAll(".trainers-filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -1107,9 +1095,7 @@ function renderCards() {
       </div>
     `;
     const holoCard = container.querySelector('.card-container');
-    if (isOwned) {
-        holoCard.onclick = () => openModal(card, cardId, isOwned);
-    }
+    holoCard.onclick = () => openModal(card, cardId, isOwned);
     container.querySelector('.pokeball-toggle').onclick = (e) => { 
       e.stopPropagation(); 
       vibrateTouch();
@@ -1122,89 +1108,70 @@ function renderCards() {
 
 
 function renderPokedex() {
-  const grid = document.querySelector("#pokedex-grid"); 
+  const grid = document.querySelector("#pokedex-grid");
   if (!grid) return;
-  grid.innerHTML = "";
 
-  let totalSpecies = 0;
-  let ownedSpeciesCount = 0;
+  // Memo por renderização: antes eram 3 varreduras completas por espécie
+  const memo = new Map();
+  const ownedOf = (name) => {
+    let r = memo.get(name);
+    if (!r) {
+      r = (state.pokedexCardsBySpecies[name] || []).filter(c => {
+        const cardId = `${c.Coleção}#${c.Número}`;
+        const a = c.Coleção.replace(/\s/g, '').toLowerCase();
+        const b = c.Coleção.replace(/[\s/]/g, '').toLowerCase();
+        return state.collections[a]?.owned.has(cardId) || state.collections[b]?.owned.has(cardId);
+      });
+      memo.set(name, r);
+    }
+    return r;
+  };
 
-  state.pokedexSpecies.forEach(species => {
-    totalSpecies++;
-    const name = species.name.english;
-    const tcgCards = state.pokedexCardsBySpecies[name] || [];
-    
-    const hasAny = tcgCards.some(c => {
-      const colId = c.Coleção.replace(/[\s/]/g, '').toLowerCase();
-      const cardId = `${c.Coleção}#${c.Número}`;
-      return state.collections[colId]?.owned.has(cardId);
-    });
-
-    if (hasAny) ownedSpeciesCount++;
-  });
-
-  const pct = totalSpecies > 0 ? Math.round((ownedSpeciesCount / totalSpecies) * 100) : 0;
+  const total = state.pokedexSpecies.length;
+  let ownedCount = 0;
+  for (const sp of state.pokedexSpecies) if (ownedOf(sp.name.english).length) ownedCount++;
+  const pct = total ? Math.round((ownedCount / total) * 100) : 0;
   document.querySelector("#pokedex-progress-bar").style.width = `${pct}%`;
-  document.querySelector("#pokedex-stats-text").textContent = `${ownedSpeciesCount} / ${totalSpecies} (${pct}%)`;
+  document.querySelector("#pokedex-stats-text").textContent = `${ownedCount} / ${total} (${pct}%)`;
 
-  const filteredSpecies = state.pokedexSpecies.filter(species => {
-    const matchesSearch = species.name.english.toLowerCase().includes(state.pokedexSearch) || 
-                          species.id.toString().includes(state.pokedexSearch);
-    
-    if (!matchesSearch) return false;
-
-    const name = species.name.english;
-    const tcgCards = state.pokedexCardsBySpecies[name] || [];
-    const hasAny = tcgCards.some(c => {
-      const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
-      const cardId = `${c.Coleção}#${c.Número}`;
-      return state.collections[colId]?.owned.has(cardId);
-    });
-
-    if (state.pokedexFilter === "owned" && !hasAny) return false;
-    if (state.pokedexFilter === "missing" && hasAny) return false;
-
-    return true;
+  const q = state.pokedexSearch;
+  const filtered = state.pokedexSpecies.filter(sp => {
+    if (q && !sp.name.english.toLowerCase().includes(q) && !String(sp.id).includes(q)) return false;
+    const has = ownedOf(sp.name.english).length > 0;
+    return !(state.pokedexFilter === "owned" && !has) && !(state.pokedexFilter === "missing" && has);
   });
 
-  filteredSpecies.forEach(species => {
-    const name = species.name.english;
-    const tcgCards = state.pokedexCardsBySpecies[name] || [];
-    
-    const ownedCards = tcgCards.filter(c => {
-      const colId = c.Coleção.replace(/\s/g, '').toLowerCase();
-      const cardId = `${c.Coleção}#${c.Número}`;
-      return state.collections[colId]?.owned.has(cardId);
-    });
+  if (!filtered.length) {
+    grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500 text-sm">Nenhum Pokémon encontrado com estes filtros.</div>`;
+    return;
+  }
 
+  const frag = document.createDocumentFragment();
+  for (const species of filtered) {
+    const name = species.name.english;
+    const ownedCards = ownedOf(name);
     const hasAny = ownedCards.length > 0;
-    
-    let displayImage = `https://repositorio.sbrauble.com/arquivos/up/pokedex/${species.id}.svg`;
+
+    let img = `https://repositorio.sbrauble.com/arquivos/up/pokedex/${species.id}.svg`;
     if (hasAny) {
-      const repId = state.representatives[name];
-      const favoriteCard = ownedCards.find(c => `${c.Coleção}#${c.Número}` === repId);
-      displayImage = favoriteCard ? favoriteCard.Imagem : ownedCards[0].Imagem;
+      const fav = ownedCards.find(c => `${c.Coleção}#${c.Número}` === state.representatives[name]);
+      img = (fav || ownedCards[0]).Imagem;
     }
 
     const card = document.createElement("button");
-    card.className = `relative flex flex-col items-center p-4 rounded-3xl border-2 transition transform hover:scale-105 pokedex-card-bg ${hasAny ? 'border-slate-500 shadow-[0_10px_30px_rgba(0,0,0,0.5)]' : 'border-slate-800 opacity-80'}`;
-    
+    card.className = `relative flex flex-col items-center p-4 rounded-2xl border transition pokedex-card-bg ${hasAny ? 'border-slate-600' : 'opacity-70'}`;
     card.innerHTML = `
-      <div class="absolute top-2 left-2 pokedex-number-badge ${hasAny ? 'bg-rose-500 text-white' : 'bg-slate-700 text-slate-400'}">#${species.id.toString().padStart(3, '0')}</div>
+      <div class="absolute top-2 left-2 pokedex-number-badge ${hasAny ? '' : '!bg-slate-700 !text-slate-400'}">#${String(species.id).padStart(3, '0')}</div>
       <div class="w-[137px] h-[205px] mb-3 flex items-center justify-center relative mx-auto">
-        <img src="${displayImage}" class="max-h-full max-w-full object-contain drop-shadow-2xl transition-all duration-300 ${hasAny ? '' : 'brightness-0 opacity-50'}" loading="lazy">
-        ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full shadow"></i>' : '<i class="fa-solid fa-lock absolute -bottom-1 -right-1 text-slate-600 text-sm bg-slate-900 rounded-full p-1"></i>'}
+        <img src="${img}" alt="${name}" width="137" height="205" class="max-h-full max-w-full object-contain ${hasAny ? '' : 'brightness-0 opacity-40'}" loading="lazy" decoding="async">
+        ${hasAny ? '<i class="fa-solid fa-circle-check absolute -bottom-1 -right-1 text-emerald-400 text-lg bg-slate-900 rounded-full"></i>' : '<i class="fa-solid fa-lock absolute -bottom-1 -right-1 text-slate-600 text-sm bg-slate-900 rounded-full p-1"></i>'}
       </div>
-      <p class="text-[10px] font-black uppercase text-center truncate w-full tracking-wider ${hasAny ? 'text-slate-100' : 'text-slate-500'}">${name}</p>
-      <p class="text-[8px] font-bold ${hasAny ? 'text-slate-400' : 'text-slate-600'}">${ownedCards.length} Cartas</p>
-    `;
+      <p class="text-xs font-semibold text-center truncate w-full ${hasAny ? 'text-slate-100' : 'text-slate-500'}">${name}</p>
+      <p class="text-[10px] ${hasAny ? 'text-slate-400' : 'text-slate-600'}">${ownedCards.length} ${ownedCards.length === 1 ? 'carta' : 'cartas'}</p>`;
     card.onclick = () => openPokedexModal(species);
-    grid.appendChild(card);
-  });
-  
-  if (filteredSpecies.length === 0) {
-      grid.innerHTML = `<div class="col-span-full py-10 text-center text-slate-500">Nenhum Pokémon encontrado com estes filtros.</div>`;
+    frag.appendChild(card);
   }
+  grid.replaceChildren(frag);
 }
 
 // --- RENDERIZADOR DA GALERIA DE TREINADORES & ITENS (ESTILO POKEDEX) ---
@@ -1400,7 +1367,13 @@ function attachTrainerPrefsListener() {
 
 function openPokedexModal(species) {
   const name = species.name.english;
-  const tcgCards = state.pokedexCardsBySpecies[name] || [];
+  const metaByCol = {};
+  (state.colecoesIndex || []).forEach(c => { metaByCol[c.name.toLowerCase()] = c; metaByCol[c.id.toLowerCase()] = c; });
+  const releaseOf = (c) => metaByCol[String(c.Coleção).toLowerCase()]?.dataLancamento || "";
+  // Mais recentes primeiro; coleções sem data vão para o fim
+  const tcgCards = [...(state.pokedexCardsBySpecies[name] || [])].sort((a, b) =>
+    releaseOf(b).localeCompare(releaseOf(a)) ||
+    String(a.Número).localeCompare(String(b.Número), undefined, { numeric: true }));
   
   $("#pokedex-modal-name").textContent = name;
   $("#pokedex-modal-id").textContent = `#${species.id.toString().padStart(3, '0')}`;
@@ -1489,7 +1462,7 @@ async function setPokedexRepresentative(pokemonName, cardId) {
   }
 }
 
-async function toggleCard(cardId, isOwned) {
+async function toggleCard(cardId, isOwned, silent = false) {
   if (!state.user) return;
   vibrateTouch();
 
@@ -1514,6 +1487,7 @@ async function toggleCard(cardId, isOwned) {
     // Atualiza a tela ativa
     if (state.currentView === 'trainers') renderTrainers();
     if (state.currentView === 'pokedex') renderPokedex();
+    if (!silent && state.currentView === 'custom-col' && state.currentThematicCollection) renderThematicCards();
   } catch (error) {
     // Se falhar, reverte o estado local
     if (state.collections[colId]) {
@@ -1523,6 +1497,107 @@ async function toggleCard(cardId, isOwned) {
     console.error("Erro ao alterar o estado da carta:", error);
     showToast("Erro de permissão no Firebase ao alterar carta.", "error");
   }
+}
+
+// ---- Preço estimado em R$ (preços do TCGdex + câmbio da AwesomeAPI) ----
+const PRICE_TTL = 6 * 3600 * 1000;
+const priceCache = new Map();
+let fxCache = null;
+
+async function getFx() {
+  if (fxCache && Date.now() - fxCache.t < PRICE_TTL) return fxCache;
+  try {
+    const saved = JSON.parse(localStorage.getItem("fx_brl") || "null");
+    if (saved && Date.now() - saved.t < PRICE_TTL) return (fxCache = saved);
+  } catch {}
+  const j = await (await fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL")).json();
+  fxCache = { t: Date.now(), usd: parseFloat(j.USDBRL.bid), eur: parseFloat(j.EURBRL.bid) };
+  try { localStorage.setItem("fx_brl", JSON.stringify(fxCache)); } catch {}
+  return fxCache;
+}
+
+const normName = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+const tcgJson = async (url) => { const r = await fetch(url); return r.ok ? r.json() : null; };
+const setIdCache = (() => { try { return JSON.parse(localStorage.getItem("tcgdex_set_map") || "{}"); } catch { return {}; } })();
+let setsListPromise = null;
+
+function getSetsList() {
+  if (!setsListPromise) {
+    setsListPromise = Promise.all([
+      tcgJson("https://api.tcgdex.net/v2/pt/sets"),
+      tcgJson("https://api.tcgdex.net/v2/en/sets")
+    ]).then(([pt, en]) => [...(pt || []), ...(en || [])]);
+  }
+  return setsListPromise;
+}
+
+// Liga a coleção do seu index.json ao set do TCGdex:
+// 1) pelo nome; 2) pelo total oficial ("001/128" → 128) confirmado pela data de lançamento
+async function resolveSetId(colName, numero) {
+  if (setIdCache[colName]) return setIdCache[colName];
+  const meta = (state.colecoesIndex || []).find(c => c.name === colName || c.id === colName);
+  const sets = await getSetsList();
+  let found = sets.find(s => normName(s.name) === normName(colName))?.id;
+
+  if (!found) {
+    const total = parseInt(String(numero).split("/")[1], 10);
+    const cands = total ? [...new Map(sets.filter(s => s.cardCount?.official === total).map(s => [s.id, s])).values()] : [];
+    if (meta?.dataLancamento) {
+      const t0 = Date.parse(meta.dataLancamento);
+      for (const s of cands.slice(0, 10)) {
+        const d = await tcgJson(`https://api.tcgdex.net/v2/en/sets/${s.id}`);
+        if (d?.releaseDate && Math.abs(Date.parse(d.releaseDate) - t0) < 60 * 864e5) { found = s.id; break; }
+      }
+    } else if (cands.length === 1) {
+      found = cands[0].id;
+    }
+  }
+  if (found) {
+    setIdCache[colName] = found;
+    try { localStorage.setItem("tcgdex_set_map", JSON.stringify(setIdCache)); } catch {}
+  }
+  return found || null;
+}
+
+function fetchPriceBRL(card) {
+  const key = `${card.Coleção}#${card.Número}`;
+  if (priceCache.has(key)) return priceCache.get(key);
+  const p = (async () => {
+    const setId = await resolveSetId(card.Coleção, card.Número);
+    if (!setId) return null;
+    const raw = String(card.Número).split("/")[0].trim();
+    const locals = [...new Set([raw, String(parseInt(raw, 10))])].filter(v => v && v !== "NaN");
+    for (const local of locals) {
+      const res = await fetch(`https://api.tcgdex.net/v2/en/cards/${encodeURIComponent(setId + "-" + local)}`);
+      if (!res.ok) continue;
+      const pr = (await res.json()).pricing;
+      if (!pr) return null;
+      const fx = await getFx();
+      const tp = pr.tcgplayer && Object.values(pr.tcgplayer).find(v => v && typeof v === "object" && v.marketPrice);
+      if (tp) return { brl: tp.marketPrice * fx.usd, src: "TCGplayer" };
+      const cm = pr.cardmarket?.trend ?? pr.cardmarket?.avg;
+      return cm ? { brl: cm * fx.eur, src: "Cardmarket" } : null;
+    }
+    return null;
+  })().catch(() => null);
+  priceCache.set(key, p);
+  return p;
+}
+
+async function showCardPrice(card, cardId) {
+  let el = document.querySelector("#modal-price");
+  if (!el) {
+    el = document.createElement("p");
+    el.id = "modal-price";
+    el.className = "-mt-6 mb-8 text-sm text-slate-300";
+    document.querySelector("#modal-number").after(el);
+  }
+  el.textContent = "Consultando preço…";
+  const r = await fetchPriceBRL(card);
+  if (state.currentViewedCardId !== cardId) return;
+  el.textContent = r
+    ? `Preço estimado: ${r.brl.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} (${r.src})`
+    : "Preço indisponível para esta carta";
 }
 
 function openModal(card, cardId, isOwned) {
@@ -1535,6 +1610,7 @@ function openModal(card, cardId, isOwned) {
   titleEl.textContent = card.Pokemon;
   imgEl.src = card.Imagem;
   numEl.textContent = `Nº ${card.Número} | ${card.Coleção}`;
+  showCardPrice(card, cardId);
 
   const modal = document.querySelector("#card-modal");
   modal.classList.remove("hidden");
@@ -2309,10 +2385,13 @@ function renderThematicAlbums() {
     keys.sort().forEach(id => {
         const col = state.thematicCollections[id];
         const numCards = col.cards ? Object.keys(col.cards).length : 0;
+        const coverId = col.cover && col.cards?.[col.cover] ? col.cover : Object.keys(col.cards || {})[0];
+        const coverImg = coverId ? state.allCardsMap.get(coverId)?.Imagem : null;
         
         const cardDiv = document.createElement("div");
         cardDiv.className = "group p-5 bg-slate-800/50 border border-slate-700 rounded-2xl text-left hover:border-indigo-500 transition shadow-xl flex flex-col justify-between cursor-pointer";
         cardDiv.innerHTML = `
+            ${coverImg ? `<div class="mb-4 flex justify-center"><img src="${coverImg}" alt="Capa de ${col.name}" class="w-28 aspect-[3/4] object-cover rounded-xl border border-indigo-500/40 shadow-lg" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'"></div>` : ''}
             <div>
                 <div class="flex justify-between items-start mb-4">
                     <h4 class="font-bold text-indigo-400 text-base group-hover:text-indigo-300 transition pr-2">${col.name}</h4>
@@ -2368,6 +2447,7 @@ function renderThematicCards() {
     const colData = state.thematicCollections[state.currentThematicCollection];
     if (!colData || !colData.cards) return;
     const cardsArray = Object.keys(colData.cards);
+    const coverNow = colData.cover && colData.cards[colData.cover] ? colData.cover : null;
     // A contagem será atualizada dinamicamente após a renderização
     setTimeout(() => {
         $("#thematic-details-subtitle").textContent = `${obtainedCount} obtidas de ${cardsArray.length} totais`;
@@ -2421,15 +2501,63 @@ function renderThematicCards() {
         <div class="card-container relative w-full aspect-[3/4] cursor-pointer transition ${isOwned ? '' : 'grayscale opacity-40'}">
             <img src="${cardObj.Imagem}" class="w-full h-full object-cover rounded-xl border ${isOwned ? 'border-indigo-500/50' : 'border-slate-800'}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMG}'">
         </div>
-        <div class="flex items-center justify-center w-full px-1">
+        <div class="flex items-center justify-between w-full px-1">
             <span class="text-[9px] font-mono text-slate-500">#${cardObj.Número}</span>
+            <div class="pokeball-toggle ${isOwned ? 'active' : ''}" title="${isOwned ? 'Tenho' : 'Não tenho'}"></div>
         </div>
+        <button class="cover-thematic-btn absolute -top-2 -left-2 w-8 h-8 rounded-full shadow-lg transition flex items-center justify-center text-[12px] z-40 border-2 border-slate-900 ${cardId === coverNow ? 'bg-amber-400 text-slate-950' : 'bg-slate-700 text-slate-300 hover:bg-amber-400 hover:text-slate-950'}" title="${cardId === coverNow ? 'Capa da coleção' : 'Definir como capa'}">
+            <i class="fa-solid fa-image"></i>
+        </button>
         <button class="remove-thematic-btn absolute -top-2 -right-2 w-8 h-8 bg-rose-500 text-white rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:bg-rose-400 transition flex items-center justify-center text-[12px] z-40 border-2 border-slate-900">
             <i class="fa-solid fa-trash"></i>
         </button>
         `;
-        container.querySelector('.card-container').onclick = () => openModal(cardObj, cardId, true);
+        const cardBox = container.querySelector('.card-container');
+        const imgEl = cardBox.querySelector('img');
+        const toggleEl = container.querySelector('.pokeball-toggle');
+        const ownedNow = () => !!state.collections[realColId]?.owned.has(cardId);
+        const paint = () => {
+            const o = ownedNow();
+            toggleEl.classList.toggle('active', o);
+            toggleEl.title = o ? 'Tenho' : 'Não tenho';
+            cardBox.classList.toggle('grayscale', !o);
+            cardBox.classList.toggle('opacity-40', !o);
+            imgEl.classList.toggle('border-indigo-500/50', o);
+            imgEl.classList.toggle('border-slate-800', !o);
+            container.classList.toggle('border-indigo-500/50', o);
+            container.classList.toggle('border-slate-800', !o);
+            $("#thematic-details-subtitle").textContent = `${grid.querySelectorAll('.pokeball-toggle.active').length} obtidas de ${cardsArray.length} totais`;
+        };
+        cardBox.onclick = () => openModal(cardObj, cardId, ownedNow());
+        toggleEl.onclick = async (e) => {
+            e.stopPropagation();
+            const pending = toggleCard(cardId, ownedNow(), true); // atualização otimista roda de imediato
+            paint();
+            await pending;
+            paint(); // se o Firebase falhar, o estado local é revertido e a carta acompanha
+        };
         
+        container.querySelector('.cover-thematic-btn').onclick = async (e) => {
+            e.stopPropagation();
+            vibrateTouch();
+            const btn = e.currentTarget;
+            const colId = state.currentThematicCollection;
+            state.thematicCollections[colId].cover = cardId; // atualiza na hora, sem recarregar
+            grid.querySelectorAll('.cover-thematic-btn').forEach(b => {
+                b.className = b.className.replace('bg-amber-400 text-slate-950', 'bg-slate-700 text-slate-300 hover:bg-amber-400 hover:text-slate-950');
+                b.title = 'Definir como capa';
+            });
+            btn.className = btn.className.replace('bg-slate-700 text-slate-300 hover:bg-amber-400 hover:text-slate-950', 'bg-amber-400 text-slate-950');
+            btn.title = 'Capa da coleção';
+            try {
+                await setDoc(doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId), { cover: cardId }, { merge: true });
+                showToast("Capa da coleção definida!", "success");
+            } catch (err) {
+                console.error("Erro ao definir capa:", err);
+                showToast("Erro ao definir a capa.", "error");
+            }
+        };
+
         container.querySelector('.remove-thematic-btn').onclick = async (e) => {
             e.stopPropagation();
             vibrateTouch();
@@ -2558,3 +2686,7 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
         btn.textContent = "Adicionar";
     }
 };
+
+
+// Necessário porque o onclick inline em renderCards() enxerga apenas o escopo global
+window.setPokedexRepresentative = setPokedexRepresentative;
