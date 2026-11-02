@@ -790,6 +790,7 @@ async function loadData() {
 
   // Processa todas as cartas
   processTCGJson(finalTCGData);
+  setTimeout(syncAutoMastersets, 0);
 
   // Carrega posse do Firebase
   if (state.user) {
@@ -2354,6 +2355,149 @@ function openRenameThematicModal(colId) {
     setTimeout(() => $("#rename-thematic-name-input").focus(), 100);
 }
 
+// ================= MASTER SETS AUTOMÁTICOS =================
+let syncingMasters = false;
+const ARTIST_SYNC_TTL = 24 * 3600 * 1000;
+const thematicDoc = (colId) => doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
+
+// Mantém os master sets por Pokémon e por artista sempre completos
+async function syncAutoMastersets() {
+  if (syncingMasters || !state.user || !state.allCardsMap.size) return;
+  syncingMasters = true;
+  try {
+    for (const [colId, col] of Object.entries(state.thematicCollections)) {
+      if (!col.autoSpecies?.length) continue;
+      const missing = {};
+      col.autoSpecies.forEach(sp => (state.pokedexCardsBySpecies[sp] || []).forEach(c => {
+        const id = `${c.Coleção}#${c.Número}`;
+        if (!col.cards?.[id] && !col.excluded?.[id]) missing[id] = true;
+      }));
+      const n = Object.keys(missing).length;
+      if (!n) continue;
+      await setDoc(thematicDoc(colId), { cards: missing }, { merge: true });
+      showToast(`${n} carta(s) nova(s) adicionada(s) em "${col.name}"`, "success");
+    }
+    for (const [colId, col] of Object.entries(state.thematicCollections)) {
+      if (!col.autoArtist || Date.now() - (col.artistSyncedAt || 0) < ARTIST_SYNC_TTL) continue;
+      try {
+        const { found } = await fetchArtistCards(col.autoArtist);
+        const missing = {};
+        Object.keys(found).forEach(id => { if (!col.cards?.[id] && !col.excluded?.[id]) missing[id] = true; });
+        await setDoc(thematicDoc(colId), { cards: missing, artistSyncedAt: Date.now() }, { merge: true });
+        const n = Object.keys(missing).length;
+        if (n) showToast(`${n} carta(s) nova(s) de ${col.autoArtist} em "${col.name}"`, "success");
+      } catch (e) { console.warn("Sync de artista falhou:", col.autoArtist, e); }
+    }
+  } catch (e) {
+    console.error("Erro no sync de master sets:", e);
+  } finally {
+    syncingMasters = false;
+  }
+}
+
+// Liga todas as suas coleções a sets do TCGdex (resultado fica salvo no navegador)
+const triedSets = new Set();
+async function ensureAllSetsMapped() {
+  const sample = new Map();
+  state.allCardsMap.forEach(c => { if (!sample.has(c.Coleção) && String(c.Número).includes("/")) sample.set(c.Coleção, c.Número); });
+  const names = [...sample.keys()].filter(n => !setIdCache[n] && !triedSets.has(n));
+  if (!names.length) return;
+  showToast("Ligando suas coleções ao TCGdex (só na primeira vez)…", "info");
+  let i = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (i < names.length) {
+      const n = names[i++];
+      triedSets.add(n);
+      try { await resolveSetId(n, sample.get(n)); } catch {}
+    }
+  }));
+}
+
+// Cartas do artista no TCGdex → cartas equivalentes na sua base
+async function fetchArtistCards(artist) {
+  const res = await fetch(`https://api.tcgdex.net/v2/en/cards?illustrator=${encodeURIComponent(artist)}`);
+  if (!res.ok) throw new Error("TCGdex respondeu " + res.status);
+  const list = await res.json();
+  await ensureAllSetsMapped();
+  const normLocal = (v) => String(v).split("/")[0].trim().toUpperCase().replace(/^0+(?=\d)/, "");
+  const idx = new Map();
+  state.allCardsMap.forEach((c, cardId) => {
+    const setId = setIdCache[c.Coleção];
+    if (setId) idx.set(`${setId}|${normLocal(c.Número)}`, cardId);
+  });
+  const found = {};
+  let unmatched = 0;
+  for (const b of list) {
+    const local = String(b.localId ?? b.id.slice(b.id.lastIndexOf("-") + 1));
+    const setId = b.id.slice(0, b.id.length - local.length - 1);
+    const cardId = idx.get(`${setId}|${normLocal(local)}`);
+    if (cardId) found[cardId] = true; else unmatched++;
+  }
+  return { found, total: list.length, unmatched };
+}
+
+function openArtistMastersetDialog() {
+  let dlg = document.querySelector("#artist-dialog");
+  if (!dlg) {
+    dlg = document.createElement("div");
+    dlg.id = "artist-dialog";
+    dlg.className = "fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/80 p-4";
+    dlg.innerHTML = `
+      <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-2xl p-6">
+        <h3 class="text-lg font-bold text-white mb-1">Master set por artista</h3>
+        <p class="text-sm text-slate-400 mb-4">Traz todas as cartas do artista que existem na sua base. Depois é só marcar as que você tem.</p>
+        <input id="artist-name" type="text" placeholder="Ex.: Oswaldo Kato" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white outline-none focus:border-indigo-500">
+        <p id="artist-status" class="text-xs text-slate-400 mt-3 min-h-[1rem]"></p>
+        <div class="flex justify-end gap-2 mt-4">
+          <button id="artist-cancel" class="px-4 py-2 rounded-xl text-sm text-slate-300 hover:text-white">Cancelar</button>
+          <button id="artist-create" class="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 hover:bg-indigo-500 text-white disabled:opacity-50">Criar</button>
+        </div>
+      </div>`;
+    document.body.appendChild(dlg);
+    const close = () => { dlg.classList.add("hidden"); dlg.classList.remove("flex"); };
+    dlg.querySelector("#artist-cancel").onclick = close;
+    dlg.onclick = (e) => { if (e.target === dlg) close(); };
+    dlg.querySelector("#artist-create").onclick = async () => {
+      const name = dlg.querySelector("#artist-name").value.trim();
+      const status = dlg.querySelector("#artist-status");
+      const btn = dlg.querySelector("#artist-create");
+      if (!name || !state.user) return;
+      btn.disabled = true;
+      status.textContent = "Buscando cartas no TCGdex…";
+      try {
+        const { found, total, unmatched } = await fetchArtistCards(name);
+        const n = Object.keys(found).length;
+        if (!total) { status.textContent = "Nenhuma carta encontrada para esse artista. Confira a grafia do nome."; return; }
+        if (!n) { status.textContent = `O TCGdex tem ${total} carta(s) dele(a), mas nenhuma está na sua base.`; return; }
+        const colId = `artista_${normName(name)}`;
+        await setDoc(thematicDoc(colId), { name: `Master Set: ${name}`, cards: found, autoArtist: name, artistSyncedAt: Date.now() }, { merge: true });
+        showToast(`${n} cartas de ${name} adicionadas${unmatched ? ` (${unmatched} do TCGdex ainda não estão na sua base)` : ""}.`, "success");
+        dlg.querySelector("#artist-name").value = "";
+        status.textContent = "";
+        close();
+      } catch (err) {
+        console.error(err);
+        status.textContent = "Não foi possível consultar o TCGdex agora. Tente novamente.";
+      } finally {
+        btn.disabled = false;
+      }
+    };
+  }
+  dlg.classList.remove("hidden");
+  dlg.classList.add("flex");
+  dlg.querySelector("#artist-name").focus();
+}
+
+function ensureArtistButton(grid) {
+  if (document.querySelector("#btn-artist-masterset") || !grid.parentElement) return;
+  const btn = document.createElement("button");
+  btn.id = "btn-artist-masterset";
+  btn.className = "mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold transition";
+  btn.innerHTML = '<i class="fa-solid fa-palette"></i> Master set por artista';
+  btn.onclick = openArtistMastersetDialog;
+  grid.parentElement.insertBefore(btn, grid);
+}
+
 function attachThematicListener() {
     if (!state.user) return;
     const colRef = collection(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections");
@@ -2368,6 +2512,7 @@ function attachThematicListener() {
             renderThematicAlbums();
             if (state.currentThematicCollection) renderThematicCards();
         }
+        syncAutoMastersets();
     }, (err) => console.error("Erro nas coleções temáticas:", err));
 }
 
@@ -2375,6 +2520,7 @@ function renderThematicAlbums() {
     const grid = $("#thematic-albums-grid"); 
     if (!grid) return;
     grid.innerHTML = "";
+    ensureArtistButton(grid);
 
     const keys = Object.keys(state.thematicCollections);
     if (keys.length === 0) {
@@ -2571,7 +2717,7 @@ function renderThematicCards() {
             if (confirmar) {
                 const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", state.currentThematicCollection);
                 try {
-                    await setDoc(docRef, { cards: { [cardId]: deleteField() } }, { merge: true });
+                    await setDoc(docRef, { cards: { [cardId]: deleteField() }, excluded: { [cardId]: true } }, { merge: true });
                     showToast("Carta removida da coleção temática.", "info");
                 } catch (err) {
                     console.error("Erro ao remover:", err);
@@ -2664,15 +2810,17 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
         const docRef = doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "thematic_collections", colId);
         
         let cardsToAdd = {};
+        let masterSpecies = null;
         if (state.pendingMasterSetPokemon) {
             const tcgCards = state.pokedexCardsBySpecies[state.pendingMasterSetPokemon] || [];
             tcgCards.forEach(c => { cardsToAdd[`${c.Coleção}#${c.Número}`] = true; });
+            masterSpecies = state.pendingMasterSetPokemon;
             state.pendingMasterSetPokemon = null; // Limpa após usar
         } else if (state.currentViewedCardId) {
             cardsToAdd[state.currentViewedCardId] = true;
         }
 
-        await setDoc(docRef, { name: colName, cards: cardsToAdd }, { merge: true });
+        await setDoc(docRef, { name: colName, cards: cardsToAdd, ...(masterSpecies ? { autoSpecies: arrayUnion(masterSpecies) } : {}) }, { merge: true });
 
         document.querySelector("#custom-col-modal").classList.add("hidden");
         document.querySelector("#custom-col-modal").classList.remove("flex");
