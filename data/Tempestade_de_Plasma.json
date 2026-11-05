@@ -1,0 +1,830 @@
+[
+  {
+    "Pokemon": "Turtwig",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "1/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/17.png"
+  },
+  {
+    "Pokemon": "Grotle",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "2/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/380.png"
+  },
+  {
+    "Pokemon": "Torterra",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "3/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/375.png"
+  },
+  {
+    "Pokemon": "Combee",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "4/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/392.png"
+  },
+  {
+    "Pokemon": "Vespiquen",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "5/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/688.png"
+  },
+  {
+    "Pokemon": "Cherubi",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "6/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/21.png"
+  },
+  {
+    "Pokemon": "Cherrim",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "7/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/680.png"
+  },
+  {
+    "Pokemon": "Sewaddle",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "8/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/26.png"
+  },
+  {
+    "Pokemon": "Swadloon",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "9/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/27.png"
+  },
+  {
+    "Pokemon": "Leavanny",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "10/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/28.png"
+  },
+  {
+    "Pokemon": "Maractus",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "11/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/243.png"
+  },
+  {
+    "Pokemon": "Foongus",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "12/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/808.png"
+  },
+  {
+    "Pokemon": "Amoonguss",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "13/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/809.png"
+  },
+  {
+    "Pokemon": "Moltres-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "14/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2073.png"
+  },
+  {
+    "Pokemon": "Chimchar",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "15/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/13.png"
+  },
+  {
+    "Pokemon": "Monferno",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "16/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/383.png"
+  },
+  {
+    "Pokemon": "Infernape",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "17/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/372.png"
+  },
+  {
+    "Pokemon": "Victini-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "18/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2490.18.png"
+  },
+  {
+    "Pokemon": "Pansear",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "19/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/577.png"
+  },
+  {
+    "Pokemon": "Simisear",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "20/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/578.png"
+  },
+  {
+    "Pokemon": "Litwick",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "21/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/819.png"
+  },
+  {
+    "Pokemon": "Lampent",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "22/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/820.png"
+  },
+  {
+    "Pokemon": "Heatmor",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "23/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/713.png"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "24/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/344.png"
+  },
+  {
+    "Pokemon": "Articuno-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "25/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2478.25.png"
+  },
+  {
+    "Pokemon": "Swinub",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "26/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/498.png"
+  },
+  {
+    "Pokemon": "Piloswine",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "27/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/490.png"
+  },
+  {
+    "Pokemon": "Mamoswine",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "28/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/682.png"
+  },
+  {
+    "Pokemon": "Lotad",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "29/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/327.png"
+  },
+  {
+    "Pokemon": "Lombre",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "30/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/292.png"
+  },
+  {
+    "Pokemon": "Ludicolo",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "31/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/258.png"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "32/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/318.png"
+  },
+  {
+    "Pokemon": "Sharpedo",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "33/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/280.png"
+  },
+  {
+    "Pokemon": "Manaphy",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "34/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2.png"
+  },
+  {
+    "Pokemon": "Vanillite",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "35/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/717.png"
+  },
+  {
+    "Pokemon": "Vanillish",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "36/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/718.png"
+  },
+  {
+    "Pokemon": "Vanilluxe",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "37/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/812.png"
+  },
+  {
+    "Pokemon": "Frillish",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "38/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/813.png"
+  },
+  {
+    "Pokemon": "Jellicent",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "39/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/814.png"
+  },
+  {
+    "Pokemon": "Cubchoo",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "40/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1417.png"
+  },
+  {
+    "Pokemon": "Beartic",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "41/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1418.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "42/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2499.42.png"
+  },
+  {
+    "Pokemon": "Magnemite",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "43/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2500.43.png"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "44/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2505.44.png"
+  },
+  {
+    "Pokemon": "Magneton",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "45/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2506.45.png"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "46/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2479.46.png"
+  },
+  {
+    "Pokemon": "Magnezone",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "47/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2480.47.png"
+  },
+  {
+    "Pokemon": "Zapdos-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "48/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2075.png"
+  },
+  {
+    "Pokemon": "Rotom",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "49/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/5.png"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "50/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/722.png"
+  },
+  {
+    "Pokemon": "Galvantula",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "51/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/723.png"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "52/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2487.52.png"
+  },
+  {
+    "Pokemon": "Zubat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "53/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2488.53.png"
+  },
+  {
+    "Pokemon": "Golbat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "54/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/487.png"
+  },
+  {
+    "Pokemon": "Crobat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "55/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/483.png"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "56/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2501.56.png"
+  },
+  {
+    "Pokemon": "Koffing",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "57/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2502.57.png"
+  },
+  {
+    "Pokemon": "Weezing",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "58/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/173.png"
+  },
+  {
+    "Pokemon": "Ralts",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "59/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/74.png"
+  },
+  {
+    "Pokemon": "Kirlia",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "60/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/75.png"
+  },
+  {
+    "Pokemon": "Gallade",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "61/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/93.png"
+  },
+  {
+    "Pokemon": "Giratina",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "62/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/995.png"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "63/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2513.63.png"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "64/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2514.64.png"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "65/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2515.65.png"
+  },
+  {
+    "Pokemon": "Garbodor",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "66/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2493.66.png"
+  },
+  {
+    "Pokemon": "Garbodor",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "67/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2494.67.png"
+  },
+  {
+    "Pokemon": "Elgyem",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "68/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2511.68.png"
+  },
+  {
+    "Pokemon": "Elgyem",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "69/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2512.69.png"
+  },
+  {
+    "Pokemon": "Beheeyem",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "70/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/818.png"
+  },
+  {
+    "Pokemon": "Phanpy",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "71/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/332.png"
+  },
+  {
+    "Pokemon": "Donphan",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "72/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/139.png"
+  },
+  {
+    "Pokemon": "Lunatone",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "73/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/215.png"
+  },
+  {
+    "Pokemon": "Solrock",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "74/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/224.png"
+  },
+  {
+    "Pokemon": "Riolu",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "75/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2503.75.png"
+  },
+  {
+    "Pokemon": "Riolu",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "76/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2504.76.png"
+  },
+  {
+    "Pokemon": "Lucario",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "77/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2507.77.png"
+  },
+  {
+    "Pokemon": "Lucario",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "78/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2508.78.png"
+  },
+  {
+    "Pokemon": "Timburr",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "79/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/602.png"
+  },
+  {
+    "Pokemon": "Gurdurr",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "80/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/603.png"
+  },
+  {
+    "Pokemon": "Conkeldurr",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "81/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/604.png"
+  },
+  {
+    "Pokemon": "Purrloin",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "82/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2485.82.png"
+  },
+  {
+    "Pokemon": "Purrloin",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "83/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2486.83.png"
+  },
+  {
+    "Pokemon": "Liepard",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "84/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1166.png"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "85/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/732.png"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "86/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/733.png"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "87/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/192.png"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "88/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/248.png"
+  },
+  {
+    "Pokemon": "Klang",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "89/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/736.png"
+  },
+  {
+    "Pokemon": "Klinklang",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "90/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/737.png"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "91/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2497.91.png"
+  },
+  {
+    "Pokemon": "Durant",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "92/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2498.92.png"
+  },
+  {
+    "Pokemon": "Cobalion-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "93/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2484.93.png"
+  },
+  {
+    "Pokemon": "Druddigon",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "94/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/114.png"
+  },
+  {
+    "Pokemon": "Black Kyurem-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "95/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/108.png"
+  },
+  {
+    "Pokemon": "White Kyurem-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "96/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/109.png"
+  },
+  {
+    "Pokemon": "Clefairy",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "97/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/319.png"
+  },
+  {
+    "Pokemon": "Clefable",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "98/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/509.png"
+  },
+  {
+    "Pokemon": "Doduo",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "99/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/530.png"
+  },
+  {
+    "Pokemon": "Dodrio",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "100/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/517.png"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "101/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/515.png"
+  },
+  {
+    "Pokemon": "Togepi",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "102/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/225.png"
+  },
+  {
+    "Pokemon": "Togetic",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "103/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/194.png"
+  },
+  {
+    "Pokemon": "Togekiss",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "104/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/154.png"
+  },
+  {
+    "Pokemon": "Whismur",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "105/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/230.png"
+  },
+  {
+    "Pokemon": "Loudred",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "106/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/184.png"
+  },
+  {
+    "Pokemon": "Exploud",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "107/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/159.png"
+  },
+  {
+    "Pokemon": "Lugia-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "108/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2481.108.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "109/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/455.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "110/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2509.110.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "111/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2510.111.png"
+  },
+  {
+    "Pokemon": "Watchog",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "112/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2491.112.png"
+  },
+  {
+    "Pokemon": "Watchog",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "113/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2492.113.png"
+  },
+  {
+    "Pokemon": "Bouffalant",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "114/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/115.png"
+  },
+  {
+    "Pokemon": "Rufflet",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "115/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1549.png"
+  },
+  {
+    "Pokemon": "Braviary",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "116/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1550.png"
+  },
+  {
+    "Pokemon": "Bicicleta",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "117/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2077.png"
+  },
+  {
+    "Pokemon": "Colress",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "118/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2495.118.png"
+  },
+  {
+    "Pokemon": "Máquina Colress",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "119/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2079.png"
+  },
+  {
+    "Pokemon": "Corda de Fuga",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "120/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1278.png"
+  },
+  {
+    "Pokemon": "Éter",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "121/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2080.png"
+  },
+  {
+    "Pokemon": "Eviolite",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "122/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/832.png"
+  },
+  {
+    "Pokemon": "Laser Hipnotóxico",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "123/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2081.png"
+  },
+  {
+    "Pokemon": "Fragata de Plasma",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "124/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2082.png"
+  },
+  {
+    "Pokemon": "Grunhido da Equipe Plasma",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "125/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2083.png"
+  },
+  {
+    "Pokemon": "Ginásio da Cidade de Virbank",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "126/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2084.png"
+  },
+  {
+    "Pokemon": "Energia de Plasma",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "127/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/1117.png"
+  },
+  {
+    "Pokemon": "Máquina de Prospecção",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "128/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2085.png"
+  },
+  {
+    "Pokemon": "Chave de Embaralhamento",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "129/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2086.png"
+  },
+  {
+    "Pokemon": "Peça da Vitória",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "130/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2087.png"
+  },
+  {
+    "Pokemon": "Victini-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "131/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2489.131.png"
+  },
+  {
+    "Pokemon": "Articuno-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "132/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2477.132.png"
+  },
+  {
+    "Pokemon": "Cobalion-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "133/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2483.133.png"
+  },
+  {
+    "Pokemon": "Lugia-EX",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "134/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2482.134.png"
+  },
+  {
+    "Pokemon": "Colress",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "135/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/2496.135.png"
+  },
+  {
+    "Pokemon": "Charizard",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "136/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/35.png"
+  },
+  {
+    "Pokemon": "Blastoise",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "137/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/134.png"
+  },
+  {
+    "Pokemon": "Receptor Aleatório",
+    "Coleção": "Tempestade de Plasma",
+    "Número": "138/135",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/13/748.png"
+  }
+]

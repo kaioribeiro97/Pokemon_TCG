@@ -1,0 +1,920 @@
+[
+  {
+    "Pokemon": "Oddish",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "1/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/849.png"
+  },
+  {
+    "Pokemon": "Gloom",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "2/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/842.png"
+  },
+  {
+    "Pokemon": "Vileplume",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "3/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/841.png"
+  },
+  {
+    "Pokemon": "Bellossom",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "4/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/839.png"
+  },
+  {
+    "Pokemon": "Tangela",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "5/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/18.png"
+  },
+  {
+    "Pokemon": "Tangrowth",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "6/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/19.png"
+  },
+  {
+    "Pokemon": "Scyther",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "7/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/384.png"
+  },
+  {
+    "Pokemon": "Heracross",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "8/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1041.png"
+  },
+  {
+    "Pokemon": "Celebi-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "9/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2531.9.png"
+  },
+  {
+    "Pokemon": "Shaymin",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "10/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1398.png"
+  },
+  {
+    "Pokemon": "Snivy",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "11/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/23.png"
+  },
+  {
+    "Pokemon": "Servine",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "12/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/24.png"
+  },
+  {
+    "Pokemon": "Serperior",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "13/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/25.png"
+  },
+  {
+    "Pokemon": "Cottonee",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "14/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1801.png"
+  },
+  {
+    "Pokemon": "Whimsicott",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "15/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1802.png"
+  },
+  {
+    "Pokemon": "Petilil",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "16/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/806.png"
+  },
+  {
+    "Pokemon": "Lilligant",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "17/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/807.png"
+  },
+  {
+    "Pokemon": "Charmander",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "18/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/33.png"
+  },
+  {
+    "Pokemon": "Charmeleon",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "19/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/34.png"
+  },
+  {
+    "Pokemon": "Charizard",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "20/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/35.png"
+  },
+  {
+    "Pokemon": "Numel",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "21/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/936.png"
+  },
+  {
+    "Pokemon": "Camerupt",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "22/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/923.png"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "23/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/39.png"
+  },
+  {
+    "Pokemon": "Tepig",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "24/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/41.png"
+  },
+  {
+    "Pokemon": "Pignite",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "25/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/42.png"
+  },
+  {
+    "Pokemon": "Emboar",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "26/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/43.png"
+  },
+  {
+    "Pokemon": "Darumaka",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "27/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/983.png"
+  },
+  {
+    "Pokemon": "Darmanitan",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "28/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1419.png"
+  },
+  {
+    "Pokemon": "Squirtle",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "29/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/344.png"
+  },
+  {
+    "Pokemon": "Wartortle",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "30/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/312.png"
+  },
+  {
+    "Pokemon": "Blastoise",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "31/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/134.png"
+  },
+  {
+    "Pokemon": "Psyduck",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "32/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2524.32.png"
+  },
+  {
+    "Pokemon": "Psyduck",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "33/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2525.33.png"
+  },
+  {
+    "Pokemon": "Golduck",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "34/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2540.34.png"
+  },
+  {
+    "Pokemon": "Golduck",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "35/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2541.35.png"
+  },
+  {
+    "Pokemon": "Marill",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "36/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/843.png"
+  },
+  {
+    "Pokemon": "Azumarill",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "37/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/838.png"
+  },
+  {
+    "Pokemon": "Delibird",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "38/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/176.png"
+  },
+  {
+    "Pokemon": "Oshawott",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "39/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/52.png"
+  },
+  {
+    "Pokemon": "Dewott",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "40/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/53.png"
+  },
+  {
+    "Pokemon": "Samurott",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "41/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/54.png"
+  },
+  {
+    "Pokemon": "Ducklett",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "42/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/719.png"
+  },
+  {
+    "Pokemon": "Swanna",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "43/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/720.png"
+  },
+  {
+    "Pokemon": "Frillish",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "44/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/813.png"
+  },
+  {
+    "Pokemon": "Jellicent",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "45/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/814.png"
+  },
+  {
+    "Pokemon": "Cryogonal",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "46/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/815.png"
+  },
+  {
+    "Pokemon": "Keldeo",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "47/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2520.47.png"
+  },
+  {
+    "Pokemon": "Keldeo",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "48/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2521.48.png"
+  },
+  {
+    "Pokemon": "Keldeo-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "49/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2527.49.png"
+  },
+  {
+    "Pokemon": "Pikachu",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "50/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/15.png"
+  },
+  {
+    "Pokemon": "Voltorb",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "51/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/349.png"
+  },
+  {
+    "Pokemon": "Electrode",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "52/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/271.png"
+  },
+  {
+    "Pokemon": "Electabuzz",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "53/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/323.png"
+  },
+  {
+    "Pokemon": "Electivire",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "54/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/270.png"
+  },
+  {
+    "Pokemon": "Chinchou",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "55/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/447.png"
+  },
+  {
+    "Pokemon": "Blitzle",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "56/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/245.png"
+  },
+  {
+    "Pokemon": "Zebstrika",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "57/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/816.png"
+  },
+  {
+    "Pokemon": "Wobbuffet",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "58/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/433.png"
+  },
+  {
+    "Pokemon": "Spoink",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "59/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/592.png"
+  },
+  {
+    "Pokemon": "Grumpig",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "60/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/593.png"
+  },
+  {
+    "Pokemon": "Duskull",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "61/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/322.png"
+  },
+  {
+    "Pokemon": "Dusclops",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "62/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/690.png"
+  },
+  {
+    "Pokemon": "Dusknoir",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "63/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/663.png"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "64/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2522.64.png"
+  },
+  {
+    "Pokemon": "Croagunk",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "65/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2523.65.png"
+  },
+  {
+    "Pokemon": "Toxicroak",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "66/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/77.png"
+  },
+  {
+    "Pokemon": "Cresselia-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "67/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2535.67.png"
+  },
+  {
+    "Pokemon": "Munna",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "68/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/246.png"
+  },
+  {
+    "Pokemon": "Musharna",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "69/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1163.png"
+  },
+  {
+    "Pokemon": "Woobat",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "70/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/78.png"
+  },
+  {
+    "Pokemon": "Swoobat",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "71/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/79.png"
+  },
+  {
+    "Pokemon": "Venipede",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "72/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/594.png"
+  },
+  {
+    "Pokemon": "Whirlipede",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "73/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/595.png"
+  },
+  {
+    "Pokemon": "Scolipede",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "74/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/596.png"
+  },
+  {
+    "Pokemon": "Gothita",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "75/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/83.png"
+  },
+  {
+    "Pokemon": "Gothorita",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "76/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/84.png"
+  },
+  {
+    "Pokemon": "Meloetta",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "77/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/90.png"
+  },
+  {
+    "Pokemon": "Sandshrew",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "78/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/537.png"
+  },
+  {
+    "Pokemon": "Sandslash",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "79/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/957.png"
+  },
+  {
+    "Pokemon": "Gligar",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "80/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1138.png"
+  },
+  {
+    "Pokemon": "Gliscor",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "81/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/665.png"
+  },
+  {
+    "Pokemon": "Makuhita",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "82/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/217.png"
+  },
+  {
+    "Pokemon": "Trapinch",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "83/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/347.png"
+  },
+  {
+    "Pokemon": "Dwebble",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "84/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/29.png"
+  },
+  {
+    "Pokemon": "Crustle",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "85/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/30.png"
+  },
+  {
+    "Pokemon": "Mienfoo",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "86/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2536.86.png"
+  },
+  {
+    "Pokemon": "Mienfoo",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "87/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2537.87.png"
+  },
+  {
+    "Pokemon": "Mienshao",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "88/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/825.png"
+  },
+  {
+    "Pokemon": "Landorus-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "89/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2539.89.png"
+  },
+  {
+    "Pokemon": "Purrloin",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "90/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/126.png"
+  },
+  {
+    "Pokemon": "Liepard",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "91/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1166.png"
+  },
+  {
+    "Pokemon": "Vullaby",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "92/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/734.png"
+  },
+  {
+    "Pokemon": "Mandibuzz",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "93/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1805.png"
+  },
+  {
+    "Pokemon": "Scizor",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "94/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/374.png"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "95/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2532.95.png"
+  },
+  {
+    "Pokemon": "Skarmory",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "96/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2533.96.png"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "97/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/248.png"
+  },
+  {
+    "Pokemon": "Vibrava",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "98/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/311.png"
+  },
+  {
+    "Pokemon": "Flygon",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "99/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/252.png"
+  },
+  {
+    "Pokemon": "Kyurem Preto",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "100/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/992.png"
+  },
+  {
+    "Pokemon": "Black Kyurem-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "101/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2528.101.png"
+  },
+  {
+    "Pokemon": "Kyurem Branco",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "102/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/993.png"
+  },
+  {
+    "Pokemon": "White Kyurem-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "103/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2542.103.png"
+  },
+  {
+    "Pokemon": "Rattata",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "104/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/336.png"
+  },
+  {
+    "Pokemon": "Raticate",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "105/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/299.png"
+  },
+  {
+    "Pokemon": "Meowth",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "106/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/532.png"
+  },
+  {
+    "Pokemon": "Farfetch'd",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "107/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/289.png"
+  },
+  {
+    "Pokemon": "Ditto",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "108/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/143.png"
+  },
+  {
+    "Pokemon": "Snorlax",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "109/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/515.png"
+  },
+  {
+    "Pokemon": "Togepi",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "110/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/225.png"
+  },
+  {
+    "Pokemon": "Dunsparce",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "111/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/436.png"
+  },
+  {
+    "Pokemon": "Taillow",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "112/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/623.png"
+  },
+  {
+    "Pokemon": "Skitty",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "113/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/455.png"
+  },
+  {
+    "Pokemon": "Delcatty",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "114/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/424.png"
+  },
+  {
+    "Pokemon": "Spinda",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "115/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/343.png"
+  },
+  {
+    "Pokemon": "Buneary",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "116/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/12.png"
+  },
+  {
+    "Pokemon": "Lopunny",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "117/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/9.png"
+  },
+  {
+    "Pokemon": "Patrat",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "118/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1662.png"
+  },
+  {
+    "Pokemon": "Watchog",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "119/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1663.png"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "120/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/627.png"
+  },
+  {
+    "Pokemon": "Herdier",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "121/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/628.png"
+  },
+  {
+    "Pokemon": "Stoutland",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "122/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/629.png"
+  },
+  {
+    "Pokemon": "Pidove",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "123/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/249.png"
+  },
+  {
+    "Pokemon": "Tranquill",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "124/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1435.png"
+  },
+  {
+    "Pokemon": "Unfezant",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "125/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1436.png"
+  },
+  {
+    "Pokemon": "Audino",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "126/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/130.png"
+  },
+  {
+    "Pokemon": "Ginásio da Cidade de Aspertia",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "127/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1945.png"
+  },
+  {
+    "Pokemon": "Busca de Energia",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "128/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/413.png"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "129/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/637.png"
+  },
+  {
+    "Pokemon": "Hugh",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "130/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1946.png"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "131/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/408.png"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "132/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/359.png"
+  },
+  {
+    "Pokemon": "Capacete de Pedra",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "133/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2518.133.png"
+  },
+  {
+    "Pokemon": "Skyla",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "134/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2516.134.png"
+  },
+  {
+    "Pokemon": "Substituição",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "135/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/360.png"
+  },
+  {
+    "Pokemon": "Mapa da Cidade",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "136/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1948.png"
+  },
+  {
+    "Pokemon": "Pesquisa no Computador",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "137/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/538.png"
+  },
+  {
+    "Pokemon": "Gume de Cristal",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "138/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1949.png"
+  },
+  {
+    "Pokemon": "Parede de Cristal",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "139/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1950.png"
+  },
+  {
+    "Pokemon": "Poção de Ouro",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "140/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/1951.png"
+  },
+  {
+    "Pokemon": "Celebi-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "141/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2530.141.png"
+  },
+  {
+    "Pokemon": "Keldeo-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "142/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2526.142.png"
+  },
+  {
+    "Pokemon": "Cresselia-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "143/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2534.143.png"
+  },
+  {
+    "Pokemon": "Landorus-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "144/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2538.144.png"
+  },
+  {
+    "Pokemon": "Black Kyurem-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "145/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2529.145.png"
+  },
+  {
+    "Pokemon": "White Kyurem-EX",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "146/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2543.146.png"
+  },
+  {
+    "Pokemon": "Bianca",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "147/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/117.png"
+  },
+  {
+    "Pokemon": "Cheren",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "148/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/740.png"
+  },
+  {
+    "Pokemon": "Skyla",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "149/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2517.149.png"
+  },
+  {
+    "Pokemon": "Golurk",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "150/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/827.png"
+  },
+  {
+    "Pokemon": "Terrakion",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "151/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/96.png"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "152/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/103.png"
+  },
+  {
+    "Pokemon": "Capacete de Pedra",
+    "Coleção": "Fronteiras Cruzadas",
+    "Número": "153/149",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/14/2519.153.png"
+  }
+]

@@ -1,0 +1,680 @@
+[
+  {
+    "Pokemon": "Bulbasaur",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "1/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/314.png"
+  },
+  {
+    "Pokemon": "Ivysaur",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "2/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/144.png"
+  },
+  {
+    "Pokemon": "Venusaur",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "3/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/265.png"
+  },
+  {
+    "Pokemon": "Scyther",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "4/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/384.png"
+  },
+  {
+    "Pokemon": "Carnivine",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "5/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/22.png"
+  },
+  {
+    "Pokemon": "Leafeon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "6/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/367.png"
+  },
+  {
+    "Pokemon": "Dwebble",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "7/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/29.png"
+  },
+  {
+    "Pokemon": "Crustle",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "8/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/30.png"
+  },
+  {
+    "Pokemon": "Karrablast",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "9/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/709.png"
+  },
+  {
+    "Pokemon": "Shelmet",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "10/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/710.png"
+  },
+  {
+    "Pokemon": "Accelgor",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "11/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/711.png"
+  },
+  {
+    "Pokemon": "Flareon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "12/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/135.png"
+  },
+  {
+    "Pokemon": "Entei-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "13/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2595.13.png"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "14/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2592.14.png"
+  },
+  {
+    "Pokemon": "Torchic",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "15/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2593.15.png"
+  },
+  {
+    "Pokemon": "Combusken",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "16/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/138.png"
+  },
+  {
+    "Pokemon": "Blaziken",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "17/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/148.png"
+  },
+  {
+    "Pokemon": "Torkoal",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "18/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/432.png"
+  },
+  {
+    "Pokemon": "Heatmor",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "19/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/713.png"
+  },
+  {
+    "Pokemon": "Larvesta",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "20/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2608.20.png"
+  },
+  {
+    "Pokemon": "Larvesta",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "21/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2609.21.png"
+  },
+  {
+    "Pokemon": "Volcarona",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "22/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/715.png"
+  },
+  {
+    "Pokemon": "Slowpoke",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "23/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/221.png"
+  },
+  {
+    "Pokemon": "Slowbro",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "24/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/193.png"
+  },
+  {
+    "Pokemon": "Vaporeon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "25/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/137.png"
+  },
+  {
+    "Pokemon": "Kyogre-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "26/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2607.26.png"
+  },
+  {
+    "Pokemon": "Piplup",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "27/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/16.png"
+  },
+  {
+    "Pokemon": "Prinplup",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "28/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/49.png"
+  },
+  {
+    "Pokemon": "Empoleon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "29/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/50.png"
+  },
+  {
+    "Pokemon": "Glaceon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "30/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/365.png"
+  },
+  {
+    "Pokemon": "Tympole",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "31/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/55.png"
+  },
+  {
+    "Pokemon": "Palpitoad",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "32/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/56.png"
+  },
+  {
+    "Pokemon": "Vanillite",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "33/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/717.png"
+  },
+  {
+    "Pokemon": "Vanillish",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "34/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/718.png"
+  },
+  {
+    "Pokemon": "Ducklett",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "35/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/719.png"
+  },
+  {
+    "Pokemon": "Swanna",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "36/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/720.png"
+  },
+  {
+    "Pokemon": "Jolteon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "37/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/136.png"
+  },
+  {
+    "Pokemon": "Raikou-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "38/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2605.38.png"
+  },
+  {
+    "Pokemon": "Plusle",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "39/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/62.png"
+  },
+  {
+    "Pokemon": "Minun",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "40/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/63.png"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "41/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2612.41.png"
+  },
+  {
+    "Pokemon": "Joltik",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "42/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2613.42.png"
+  },
+  {
+    "Pokemon": "Galvantula",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "43/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/723.png"
+  },
+  {
+    "Pokemon": "Tynamo",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "44/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2610.44.png"
+  },
+  {
+    "Pokemon": "Tynamo",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "45/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2611.45.png"
+  },
+  {
+    "Pokemon": "Eelektrik",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "46/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/725.png"
+  },
+  {
+    "Pokemon": "Eelektross",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "47/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/726.png"
+  },
+  {
+    "Pokemon": "Espeon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "48/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/370.png"
+  },
+  {
+    "Pokemon": "Slowking",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "49/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/170.png"
+  },
+  {
+    "Pokemon": "Woobat",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "50/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/78.png"
+  },
+  {
+    "Pokemon": "Yamask",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "51/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/727.png"
+  },
+  {
+    "Pokemon": "Cofagrigus",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "52/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/728.png"
+  },
+  {
+    "Pokemon": "Aerodactyl",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "53/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/368.png"
+  },
+  {
+    "Pokemon": "Groudon-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "54/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2601.54.png"
+  },
+  {
+    "Pokemon": "Drilbur",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "55/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/730.png"
+  },
+  {
+    "Pokemon": "Excadrill",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "56/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2614.56.png"
+  },
+  {
+    "Pokemon": "Excadrill",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "57/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2615.57.png"
+  },
+  {
+    "Pokemon": "Timburr",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "58/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/602.png"
+  },
+  {
+    "Pokemon": "Gurdurr",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "59/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/603.png"
+  },
+  {
+    "Pokemon": "Umbreon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "60/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/37660.png"
+  },
+  {
+    "Pokemon": "Umbreon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "61/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/37661.png"
+  },
+  {
+    "Pokemon": "Sableye",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "62/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/76.png"
+  },
+  {
+    "Pokemon": "Darkrai-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "63/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2617.63.png"
+  },
+  {
+    "Pokemon": "Sandile",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "64/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/247.png"
+  },
+  {
+    "Pokemon": "Krokorok",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "65/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/605.png"
+  },
+  {
+    "Pokemon": "Krookodile",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "66/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/606.png"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "67/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/732.png"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "68/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/733.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "69/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2596.69.png"
+  },
+  {
+    "Pokemon": "Zorua",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "70/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2597.70.png"
+  },
+  {
+    "Pokemon": "Zoroark",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "71/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/101.png"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "72/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2598.72.png"
+  },
+  {
+    "Pokemon": "Vullaby",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "73/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/734.png"
+  },
+  {
+    "Pokemon": "Escavalier",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "74/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/735.png"
+  },
+  {
+    "Pokemon": "Klink",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "75/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/248.png"
+  },
+  {
+    "Pokemon": "Klang",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "76/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/736.png"
+  },
+  {
+    "Pokemon": "Klinklang",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "77/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/737.png"
+  },
+  {
+    "Pokemon": "Pawniard",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "78/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/612.png"
+  },
+  {
+    "Pokemon": "Bisharp",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "79/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2599.79.png"
+  },
+  {
+    "Pokemon": "Chansey",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "80/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2590.80.png"
+  },
+  {
+    "Pokemon": "Chansey",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "81/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2591.81.png"
+  },
+  {
+    "Pokemon": "Blissey",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "82/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/481.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "83/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2588.83.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "84/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2589.84.png"
+  },
+  {
+    "Pokemon": "Chatot",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "85/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/390.png"
+  },
+  {
+    "Pokemon": "Lillipup",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "86/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/627.png"
+  },
+  {
+    "Pokemon": "Herdier",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "87/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/628.png"
+  },
+  {
+    "Pokemon": "Stoutland",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "88/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/629.png"
+  },
+  {
+    "Pokemon": "Haxorus",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "89/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/738.png"
+  },
+  {
+    "Pokemon": "Tornadus-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "90/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2603.90.png"
+  },
+  {
+    "Pokemon": "Cheren",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "91/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/740.png"
+  },
+  {
+    "Pokemon": "Garra da Escuridão",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "92/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/741.png"
+  },
+  {
+    "Pokemon": "Fragmento Sombrio",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "93/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/742.png"
+  },
+  {
+    "Pokemon": "Martelo Avançado",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "94/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/743.png"
+  },
+  {
+    "Pokemon": "Hooligans Jim & Cas",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "95/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2152.png"
+  },
+  {
+    "Pokemon": "N",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "96/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/745.png"
+  },
+  {
+    "Pokemon": "Âmbar Velho de Aerodactyl",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "97/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/746.png"
+  },
+  {
+    "Pokemon": "Professor Juniper",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "98/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/4507_98.jpg"
+  },
+  {
+    "Pokemon": "Professora Juniper",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "98/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/747.png"
+  },
+  {
+    "Pokemon": "Receptor Aleatório",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "99/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/748.png"
+  },
+  {
+    "Pokemon": "Doce Raro",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "100/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/238.png"
+  },
+  {
+    "Pokemon": "Montanha Trançada",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "101/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/749.png"
+  },
+  {
+    "Pokemon": "Ultra Bola",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "102/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/750.png"
+  },
+  {
+    "Pokemon": "Entei-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "103/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2594.103.png"
+  },
+  {
+    "Pokemon": "Kyogre-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "104/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2606.104.png"
+  },
+  {
+    "Pokemon": "Raikou-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "105/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2604.105.png"
+  },
+  {
+    "Pokemon": "Groudon-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "106/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2600.106.png"
+  },
+  {
+    "Pokemon": "Darkrai-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "107/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2616.107.png"
+  },
+  {
+    "Pokemon": "Tornadus-EX",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "108/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/2602.108.png"
+  },
+  {
+    "Pokemon": "Gardevoir",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "109/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/124.png"
+  },
+  {
+    "Pokemon": "Archeops",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "110/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/751.png"
+  },
+  {
+    "Pokemon": "Pegador de Pokémon",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "111/108",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/752.png"
+  },
+  {
+    "Pokemon": "Eevee",
+    "Coleção": "Exploradores da Escuridão",
+    "Número": "84",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/17/127_84e.jpg"
+  }
+]
