@@ -1060,5 +1060,50 @@
   "arquivo": "Pikachus_New_Friends.json",
   "logo": "https://archives.bulbagarden.net/media/upload/f/fd/SetSymbolPikachu_New_Friends.png",
   "totalCartas": 4
+},
+{
+  "id": "Poderes_Emergentes",
+  "name": "Poderes Emergentes",
+  "codigo": "EPO",
+  "dataLancamento": "2011-08-31",
+  "arquivo": "Poderes_Emergentes.json",
+  "logo": "",
+  "totalCartas": 98
+},
+{
+  "id": "Exploradores_da_Escuridao",
+  "name": "Exploradores da Escuridão",
+  "codigo": "DEX",
+  "dataLancamento": "2012-05-09",
+  "arquivo": "Exploradores_da_Escuridao.json",
+  "logo": "",
+  "totalCartas": 113
+},
+{
+  "id": "Fronteiras_Cruzadas",
+  "name": "Fronteiras Cruzadas",
+  "codigo": "BCR",
+  "dataLancamento": "2012-11-07",
+  "arquivo": "Fronteiras_Cruzadas.json",
+  "logo": "",
+  "totalCartas": 153
+},
+{
+  "id": "Tempestade_de_Plasma",
+  "name": "Tempestade de Plasma",
+  "codigo": "PLS",
+  "dataLancamento": "2013-02-06",
+  "arquivo": "Tempestade_de_Plasma.json",
+  "logo": "",
+  "totalCartas": 138
+},
+{
+  "id": "Tesouros_Lendarios",
+  "name": "Tesouros Lendários",
+  "codigo": "LTR",
+  "dataLancamento": "2013-11-06",
+  "arquivo": "Tesouros_Lendarios.json",
+  "logo": "",
+  "totalCartas": 140
 }
 ]
