@@ -1124,5 +1124,126 @@
   "arquivo": "Extra_Booster_One_Piece_Heroines_Edition_Vol_2.json",
   "logo": "",
   "totalCartas": 100
+},
+{
+  "id": "The_Time_of_Battle",
+  "tcg": "onepiece",
+  "name": "The Time of Battle",
+  "codigo": "OP-16",
+  "dataLancamento": "2026-06-12",
+  "arquivo": "The_Time_of_Battle.json",
+  "logo": "",
+  "totalCartas": 159
+},
+{
+  "id": "Adventure_on_Kamis_Island",
+  "tcg": "onepiece",
+  "name": "Adventure on Kami's Island",
+  "codigo": "OP-15",
+  "dataLancamento": "2026-04-03",
+  "arquivo": "Adventure_on_Kamis_Island.json",
+  "logo": "",
+  "totalCartas": 206
+},
+{
+  "id": "Carrying_On_His_Will",
+  "tcg": "onepiece",
+  "name": "Carrying On His Will",
+  "codigo": "OP-13",
+  "dataLancamento": "2025-11-07",
+  "arquivo": "Carrying_On_His_Will.json",
+  "logo": "",
+  "totalCartas": 177
+},
+{
+  "id": "A_Fist_of_Divine_Speed",
+  "tcg": "onepiece",
+  "name": "A Fist of Divine Speed",
+  "codigo": "OP-11",
+  "dataLancamento": "2025-06-13",
+  "arquivo": "A_Fist_of_Divine_Speed.json",
+  "logo": "",
+  "totalCartas": 159
+},
+{
+  "id": "Royal_Blood",
+  "tcg": "onepiece",
+  "name": "Royal Blood",
+  "codigo": "OP-10",
+  "dataLancamento": "2025-03-21",
+  "arquivo": "Royal_Blood.json",
+  "logo": "",
+  "totalCartas": 152
+},
+{
+  "id": "Emperors_in_the_New_World",
+  "tcg": "onepiece",
+  "name": "Emperors in the New World",
+  "codigo": "OP-09",
+  "dataLancamento": "2024-12-13",
+  "arquivo": "Emperors_in_the_New_World.json",
+  "logo": "",
+  "totalCartas": 162
+},
+{
+  "id": "500_Years_in_the_Future",
+  "tcg": "onepiece",
+  "name": "500 Years in the Future",
+  "codigo": "OP-07",
+  "dataLancamento": "2024-06-28",
+  "arquivo": "500_Years_in_the_Future.json",
+  "logo": "",
+  "totalCartas": 154
+},
+{
+  "id": "Paramount_War",
+  "tcg": "onepiece",
+  "name": "Paramount War",
+  "codigo": "OP-02",
+  "dataLancamento": "2023-03-10",
+  "arquivo": "Paramount_War.json",
+  "logo": "",
+  "totalCartas": 155
+},
+{
+  "id": "Super_Pre-Release_Starter_Deck_1_Straw_Hat_Crew",
+  "tcg": "onepiece",
+  "name": "Super Pre-Release Starter Deck 1: Straw Hat Crew",
+  "codigo": "ST-01-PR",
+  "dataLancamento": "2022-09-30",
+  "arquivo": "Super_Pre-Release_Starter_Deck_1_Straw_Hat_Crew.json",
+  "logo": "",
+  "totalCartas": 18
+},
+{
+  "id": "Starter_Deck_14_3D2Y",
+  "tcg": "onepiece",
+  "name": "Starter Deck 14: 3D2Y",
+  "codigo": "ST14",
+  "dataLancamento": "2024-08-16",
+  "arquivo": "Starter_Deck_14_3D2Y.json",
+  "logo": "",
+  "totalCartas": 17
+},
+{
+  "id": "Learn_Together_Deck_Set_Luffy_Deck",
+  "tcg": "onepiece",
+  "name": "Learn Together Deck Set (Luffy Deck)",
+  "codigo": "LTDS-L",
+  "dataLancamento": "2025-10-03",
+  "arquivo": "Learn_Together_Deck_Set_Luffy_Deck.json",
+  "logo": "",
+  "totalCartas": 51
+}
+,
+{
+  "id": "Extra_Booster_One_Piece_Heroines_Edition",
+  "tcg": "onepiece",
+  "name": "Extra Booster: One Piece Heroines Edition",
+  "codigo": "EB03",
+  "dataLancamento": "2026-02-20",
+  "arquivo": "Extra_Booster_One_Piece_Heroines_Edition.json",
+  "logo": "",
+  "totalCartas": 102
 }
 ]
