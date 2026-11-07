@@ -1107,6 +1107,15 @@
   "totalCartas": 140
 },
 {
+  "id": "Reinado_Delta",
+  "name": "Reinado Delta",
+  "codigo": "DLR",
+  "dataLancamento": "2026-11-06",
+  "arquivo": "Reinado_Delta.json",
+  "logo": "",
+  "totalCartas": 141
+},
+{
   "id": "Extra_Booster_One_Piece_Heroines_Edition_Vol_2",
   "tcg": "onepiece",
   "name": "Extra Booster: One Piece Heroines Edition Vol. 2",
