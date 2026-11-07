@@ -2653,6 +2653,7 @@ function renderThematicAlbums() {
                 return;
             }
             state.currentThematicCollection = id; 
+            state.thematicSearch = ""; if ($("#thematic-search")) $("#thematic-search").value = "";
             $("#thematic-details-title").textContent = col.name; 
             $("#thematic-collection-details").classList.remove("hidden");
             $("#thematic-albums-grid").classList.add("hidden");
@@ -2723,6 +2724,10 @@ function renderThematicCards() {
         const realColId = cardObj.Coleção.replace(/[\s/]/g, '').toLowerCase();
         const isOwned = state.collections[realColId]?.owned.has(cardId);
         if (isOwned) obtainedCount++;
+
+        // Busca: todas as palavras digitadas precisam aparecer no nome, na coleção ou no número
+        const hay = normChar(`${cardObj.Pokemon} ${cardObj.Coleção} ${cardObj.Número}`);
+        if (!normChar(state.thematicSearch).split(" ").filter(Boolean).every(t => hay.includes(t))) return;
 
         const container = document.createElement("div");
         container.className = `flex flex-col gap-2 items-center bg-slate-900/40 p-2 rounded-2xl border ${isOwned ? 'border-indigo-500/50 hover:border-indigo-400' : 'border-slate-800'} transition relative`;
@@ -2810,6 +2815,7 @@ function renderThematicCards() {
         };
         fragment.appendChild(container);
     });
+    if (!fragment.childNodes.length) { grid.innerHTML = `<p class="col-span-full text-center text-slate-500 py-10">Nenhuma carta encontrada para essa busca.</p>`; return; }
     grid.appendChild(fragment);
 }
 
@@ -3039,3 +3045,10 @@ function openCharacterMastersetDialog() {
   dlg.classList.remove("hidden"); dlg.classList.add("flex");
   dlg.querySelector("#char-name").focus();
 }
+
+// Busca dentro da coleção temática (com pequeno atraso para não redesenhar a cada tecla)
+let thematicSearchTimer;
+$("#thematic-search")?.addEventListener("input", (e) => {
+  clearTimeout(thematicSearchTimer);
+  thematicSearchTimer = setTimeout(() => { state.thematicSearch = e.target.value; renderThematicCards(); }, 200);
+});
