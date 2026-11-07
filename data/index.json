@@ -1105,5 +1105,15 @@
   "arquivo": "Tesouros_Lendarios.json",
   "logo": "",
   "totalCartas": 140
+},
+{
+  "id": "Extra_Booster_One_Piece_Heroines_Edition_Vol_2",
+  "tcg": "onepiece",
+  "name": "Extra Booster: One Piece Heroines Edition Vol. 2",
+  "codigo": "EB-05",
+  "dataLancamento": "2026-10-30",
+  "arquivo": "Extra_Booster_One_Piece_Heroines_Edition_Vol_2.json",
+  "logo": "",
+  "totalCartas": 100
 }
 ]
