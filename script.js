@@ -45,6 +45,19 @@ function vibrateTouch() {
 // 3. Fallback para imagens com erro de carregamento
 const PLACEHOLDER_IMG = "https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg";
 
+// ── MULTI-TCG ──────────────────────────────────────────────────────────────
+// A chave (ex: "onepiece") é o valor do campo "tcg" no index.json.
+// Para adicionar outro jogo no futuro, basta incluir uma linha aqui.
+const INITIAL_TCG_FILTER = "pokemon"; // filtro inicial da aba Álbuns ("all" = Todos)
+const DEFAULT_TCG = "pokemon"; // entradas sem "tcg" no index.json contam como Pokémon
+const TCGS = {
+  pokemon:   { label: "Pokémon",   icon: "fa-bolt",             chip: "text-yellow-300 bg-yellow-500/10 border-yellow-500/30" },
+  onepiece:  { label: "One Piece", icon: "fa-skull-crossbones", chip: "text-rose-300 bg-rose-500/10 border-rose-500/30" },
+  riftbound: { label: "Riftbound", icon: "fa-gem",              chip: "text-violet-300 bg-violet-500/10 border-violet-500/30" },
+};
+const tcgOf = (card) => card?.TCG || DEFAULT_TCG;
+const tcgInfoOf = (id) => TCGS[id] || { label: id, icon: "fa-layer-group", chip: "text-slate-300 bg-slate-500/10 border-slate-500/30" };
+
 const state = { 
   user: null, 
   collections: {}, 
@@ -63,6 +76,7 @@ const state = {
   currentThematicCollection: null,
   currentViewedCardId: null,  
   albumSearch: "",   // <-- Guarda o texto de busca dos álbuns
+  tcgFilter: INITIAL_TCG_FILTER, // <-- filtro de TCG nos álbuns (começa sempre em INITIAL_TCG_FILTER)
   tcgdexLangFilter: "all",      // <-- NOVO: controle de filtro de idioma
   tcgdexLastResults: [],        // <-- NOVO: cache da última busca para filtro instantâneo
   trainersSearch: "",           // <-- NOVO: busca para treinadores/itens
@@ -753,21 +767,25 @@ async function loadData() {
     state.colecoesIndex = listaColecoes; // Guarda a lista de logos e nomes
 
     // 2. Carrega todos os JSONs de coleções da pasta 'data/' em paralelo
-    const promessasColecoes = listaColecoes.map(async (col) => {
+    const carregarColecoes = () => Promise.all(listaColecoes.map(async (col) => {
       try {
         const res = await fetch(`./data/${col.arquivo}`);
-        if (!res.ok) return [];
+        if (!res.ok) { console.warn(`Coleção não carregada (${res.status}): ./data/${col.arquivo}`); return []; }
         const cartas = await res.json();
         // Garante que o nome da coleção no card seja o nome oficial do index
-        return cartas.map(c => ({ ...c, Coleção: c.Coleção || col.name }));
+        const tcg = col.tcg || DEFAULT_TCG;
+        return cartas.map(c => ({ ...c, Coleção: c.Coleção || col.name, TCG: c.TCG || tcg }));
       } catch (err) {
         console.warn(`Aviso: Não foi possível carregar ./data/${col.arquivo}`, err);
         return [];
       }
-    });
+    }));
 
-    const resultados = await Promise.all(promessasColecoes);
-    finalTCGData = resultados.flat();
+    // A chave inclui a lista de coleções: mudou o index.json, o cache se renova sozinho
+    const cacheKey = DATA_VERSION + "|" + listaColecoes.map(c => `${c.id}:${c.tcg || ""}`).join(",");
+    const cached = await idbGet(cacheKey);
+    finalTCGData = cached || (await carregarColecoes()).flat();
+    if (!cached && finalTCGData.length) idbSet(cacheKey, [...finalTCGData]);
 
   } catch (e) {
     console.error("Erro ao carregar dados modulares:", e);
@@ -781,6 +799,7 @@ async function loadData() {
       snapshot.forEach(docSnap => {
         let cardData = docSnap.data();
         cardData.customId = docSnap.id;
+        cardData.TCG = cardData.TCG || DEFAULT_TCG;
         finalTCGData.push(cardData);
       });
     } catch (err) {
@@ -827,11 +846,17 @@ function processTCGJson(json) {
   
   // Lista de espécies oficiais para busca Tag-Team e Master Set
   const officialSpeciesKeys = Object.keys(speciesMap);
+  const speciesRegex = {};
+  officialSpeciesKeys.forEach(k => { speciesRegex[k] = new RegExp(`(?:^|\\W)(${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?:\\W|$)`, "i"); });
 
   json.forEach(card => {
     // Guarda no mapa rápido O(1)
     const cardId = `${card.Coleção}#${card.Número}`;
     state.allCardsMap.set(cardId, card);
+    if (card.Coleção) dynamicCollections.add(card.Coleção);
+
+    // Pokédex e Treinadores são exclusivos de Pokémon: cartas de outros TCGs só entram nos Álbuns
+    if (tcgOf(card) !== DEFAULT_TCG) return;
 
     const baseNameRaw = getBaseName(card.Pokemon).toLowerCase();
     let isPokemon = false;
@@ -839,8 +864,7 @@ function processTCGJson(json) {
     // Procura todos os Pokémons incluídos no nome da carta (Ex: "Pikachu & Zekrom")
     officialSpeciesKeys.forEach(speciesKey => {
       // Escapa caracteres especiais e usa verificação exata de palavra (impede que 'Pawmo' valide 'Pawmot' ou 'Mew' valide 'Mewtwo')
-      const escapedKey = speciesKey.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`(?:^|\\W)(${escapedKey})(?:\\W|$)`, 'i');
+      const regex = speciesRegex[speciesKey];
       
       if (regex.test(baseNameRaw)) {
         const officialName = speciesMap[speciesKey];
@@ -869,7 +893,9 @@ function processTCGJson(json) {
   Array.from(dynamicCollections).sort().forEach(name => {
     const filteredCards = json.filter(c => c.Coleção === name);
     const id = name.replace(/[\s/]/g, '').toLowerCase();
-    state.collections[id] = { name, cards: filteredCards, owned: new Set() };
+    const tcgsDoAlbum = new Set(filteredCards.map(tcgOf));
+    if (tcgsDoAlbum.size > 1) console.warn(`A coleção "${name}" aparece em mais de um TCG (${[...tcgsDoAlbum].join(", ")}). Use nomes únicos no index.json.`);
+    state.collections[id] = { name, cards: filteredCards, owned: new Set(), tcg: filteredCards.length ? tcgOf(filteredCards[0]) : DEFAULT_TCG };
   });
 
   renderAlbums();
@@ -886,7 +912,7 @@ async function loadAllUserCollectionsOnce() {
       const colId = docSnap.id;
       const data = docSnap.data() || {};
       if (state.collections[colId]) {
-        state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+        setOwned(state.collections[colId], data);
       }
     });
 
@@ -913,7 +939,7 @@ function attachActiveCollectionListener(colId) {
   state.unsubscribeMap['active_collection'] = onSnapshot(docRef, (snap) => {
     const data = snap.data() || {};
     if (state.collections[colId]) {
-      state.collections[colId].owned = new Set(Object.keys(data).filter(k => data[k]));
+      setOwned(state.collections[colId], data);
       if (state.currentCollection === colId) renderCards();
       renderAlbums();
       updateGlobalProgress();
@@ -931,7 +957,36 @@ function attachPokedexPrefsListener() {
 }
 
 // --- RENDERIZADORES ---
+// Barra de filtro por TCG (só aparece quando há mais de um jogo carregado)
+function renderTcgFilter() {
+  const bar = document.getElementById("tcg-filter-bar");
+  if (!bar) return;
+
+  const counts = {};
+  Object.values(state.collections).forEach(c => { const t = c.tcg || DEFAULT_TCG; counts[t] = (counts[t] || 0) + 1; });
+  const ids = [...Object.keys(TCGS).filter(t => counts[t]), ...Object.keys(counts).filter(t => !TCGS[t])];
+
+  if (ids.length > 0 && state.tcgFilter !== "all" && !counts[state.tcgFilter]) state.tcgFilter = "all";
+  if (ids.length <= 1) { bar.innerHTML = ""; return; }
+
+  const total = Object.keys(state.collections).length;
+  const mk = (id, label, icon, n) => {
+    const active = state.tcgFilter === id;
+    return `<button type="button" data-tcg="${id}" class="tcg-filter-btn shrink-0 px-3 py-1.5 rounded-xl border text-[11px] font-semibold transition flex items-center gap-1.5 ${active ? "bg-sky-500 text-slate-950 border-sky-500" : "bg-slate-800/60 text-slate-300 border-slate-700 hover:border-sky-500"}"><i class="fa-solid ${icon}"></i>${label}<span class="opacity-60 font-mono text-[10px]">${n}</span></button>`;
+  };
+  bar.innerHTML = mk("all", "Todos", "fa-layer-group", total) +
+    ids.map(id => { const t = tcgInfoOf(id); return mk(id, t.label, t.icon, counts[id]); }).join("");
+
+  bar.querySelectorAll(".tcg-filter-btn").forEach(btn => {
+    btn.onclick = () => {
+      state.tcgFilter = btn.dataset.tcg;
+      renderAlbums();
+    };
+  });
+}
+
 function renderAlbums() {
+  renderTcgFilter();
   const grid = $("#albums-grid"); 
   if (!grid) return;
   grid.innerHTML = "";
@@ -950,6 +1005,7 @@ function renderAlbums() {
   // 1. FILTRAGEM: Busca por Nome, ID da pasta ou Código da coleção
   let colKeys = Object.keys(state.collections).filter(id => {
     const col = state.collections[id];
+    if (state.tcgFilter !== "all" && (col.tcg || DEFAULT_TCG) !== state.tcgFilter) return false;
     const meta = metaMap[col.name.toLowerCase()] || metaMap[id.toLowerCase()] || {};
     const codigo = (meta.codigo || "").toLowerCase();
     const nome = col.name.toLowerCase();
@@ -994,6 +1050,11 @@ function renderAlbums() {
     const meta = metaMap[col.name.toLowerCase()] || metaMap[id.toLowerCase()] || {};
     const logoUrl = meta.logo || "";
     const codigo = meta.codigo || "";
+    const multiTcg = new Set(Object.values(state.collections).map(c => c.tcg || DEFAULT_TCG)).size > 1;
+    const tcgInfo = tcgInfoOf(col.tcg || DEFAULT_TCG);
+    const tcgBadge = multiTcg
+      ? `<span class="inline-flex items-center gap-1 text-[9px] font-bold px-1.5 py-0.5 rounded border ${tcgInfo.chip}"><i class="fa-solid ${tcgInfo.icon}"></i>${tcgInfo.label}</span>`
+      : "";
     
     // Formata o ano ou data para exibição discreta
     let anoExibicao = "";
@@ -1035,7 +1096,7 @@ function renderAlbums() {
         ${headerHTML}
         <div class="flex justify-between items-center text-xs text-slate-400 mt-1">
           <span>${col.owned.size} / ${col.cards.length} obtidas</span>
-          ${anoExibicao ? `<span class="text-[10px] text-slate-500 font-mono">${anoExibicao}</span>` : ''}
+          <span class="flex items-center gap-2">${tcgBadge}${anoExibicao ? `<span class="text-[10px] text-slate-500 font-mono">${anoExibicao}</span>` : ''}</span>
         </div>
       </div>
       <div class="mt-4 w-full h-1.5 bg-slate-700 rounded-full overflow-hidden">
@@ -1068,7 +1129,7 @@ function renderCards() {
   
   const col = state.collections[state.currentCollection];
   if (!col) return;
-  const filtered = col.cards.filter(c => c.Pokemon.toLowerCase().includes(state.searchQuery) || c.Número.includes(state.searchQuery));
+  const filtered = col.cards.filter(c => String(c.Pokemon).toLowerCase().includes(state.searchQuery) || String(c.Número).toLowerCase().includes(state.searchQuery));
   
   document.querySelector("#details-subtitle").textContent = `${col.owned.size} obtidas de ${col.cards.length} totais`;
   document.querySelector("#details-progress-bar").style.width = `${(col.owned.size / col.cards.length) * 100}%`;
@@ -1088,15 +1149,16 @@ function renderCards() {
          </div>
       </div>
       <div class="flex items-center justify-between w-full px-1 mt-1">
-         <span class="text-[9px] font-mono text-slate-500">#${card.Número}</span>
+         <span class="text-[9px] font-mono text-slate-500">#${card.Número}${isOwned && (col.qty?.[cardId] || 1) > 1 ? ` <b class="text-sky-400">×${col.qty[cardId]}</b>` : ''}</span>
          <div class="flex items-center gap-2">
-            <button class="text-amber-400 hover:text-amber-300 transition text-xs" onclick="event.stopPropagation(); setPokedexRepresentative('${getBaseName(card.Pokemon)}', '${cardId}')" title="Favoritar"><i class="fa-solid fa-star"></i></button>
+            ${tcgOf(card) === DEFAULT_TCG ? `<button class="text-amber-400 hover:text-amber-300 transition text-xs" data-fav title="Favoritar"><i class="fa-solid fa-star"></i></button>` : ''}
             <div class="pokeball-toggle ${isOwned ? 'active' : ''}"></div>
          </div>
       </div>
     `;
     const holoCard = container.querySelector('.card-container');
     holoCard.onclick = () => openModal(card, cardId, isOwned);
+    container.querySelector('[data-fav]')?.addEventListener('click', (e) => { e.stopPropagation(); setPokedexRepresentative(getBaseName(card.Pokemon), cardId); });
     container.querySelector('.pokeball-toggle').onclick = (e) => { 
       e.stopPropagation(); 
       vibrateTouch();
@@ -1471,6 +1533,7 @@ async function toggleCard(cardId, isOwned, silent = false) {
 
   // 1. Atualização Otimista imediata na memória local
   if (state.collections[colId]) {
+    delete state.collections[colId].qty?.[cardId];
     if (!isOwned) {
       state.collections[colId].owned.add(cardId);
     } else {
@@ -1561,6 +1624,7 @@ async function resolveSetId(colName, numero) {
 }
 
 function fetchPriceBRL(card) {
+  if (tcgOf(card) !== DEFAULT_TCG) return Promise.resolve(null); // TCGdex só cobre Pokémon
   const key = `${card.Coleção}#${card.Número}`;
   if (priceCache.has(key)) return priceCache.get(key);
   const p = (async () => {
@@ -1612,6 +1676,7 @@ function openModal(card, cardId, isOwned) {
   imgEl.src = card.Imagem;
   numEl.textContent = `Nº ${card.Número} | ${card.Coleção}`;
   showCardPrice(card, cardId);
+  renderQtyControl(cardId);
 
   const modal = document.querySelector("#card-modal");
   modal.classList.remove("hidden");
@@ -1760,7 +1825,8 @@ async function handleAddCustomCard(saveMode, btn) {
         Pokemon: name,
         Coleção: colName,
         Número: num,
-        Imagem: img
+        Imagem: img,
+        TCG: document.querySelector("#new-card-tcg")?.value || DEFAULT_TCG
     };
 
     try {
@@ -1778,7 +1844,7 @@ async function handleAddCustomCard(saveMode, btn) {
         }
 
         // 3. Se o modo inclui definir como favorita na Pokédex ('fav')
-        if (saveMode === 'fav') {
+        if (saveMode === 'fav' && newCard.TCG === DEFAULT_TCG) {
             const baseName = getBaseName(newCard.Pokemon).toLowerCase();
             const species = state.pokedexSpecies.find(s => s.name.english.toLowerCase() === baseName);
             const officialName = species ? species.name.english : newCard.Pokemon;
@@ -2378,6 +2444,15 @@ async function syncAutoMastersets() {
       showToast(`${n} carta(s) nova(s) adicionada(s) em "${col.name}"`, "success");
     }
     for (const [colId, col] of Object.entries(state.thematicCollections)) {
+      if (!col.autoCharacter) continue;
+      const missing = {};
+      findCharacterCards(col.autoCharacter.tcg, col.autoCharacter.name).forEach(id => { if (!col.cards?.[id] && !col.excluded?.[id]) missing[id] = true; });
+      const n = Object.keys(missing).length;
+      if (!n) continue;
+      await setDoc(thematicDoc(colId), { cards: missing }, { merge: true });
+      showToast(`${n} carta(s) nova(s) adicionada(s) em "${col.name}"`, "success");
+    }
+    for (const [colId, col] of Object.entries(state.thematicCollections)) {
       if (!col.autoArtist || Date.now() - (col.artistSyncedAt || 0) < ARTIST_SYNC_TTL) continue;
       try {
         const { found } = await fetchArtistCards(col.autoArtist);
@@ -2399,7 +2474,7 @@ async function syncAutoMastersets() {
 const triedSets = new Set();
 async function ensureAllSetsMapped() {
   const sample = new Map();
-  state.allCardsMap.forEach(c => { if (!sample.has(c.Coleção) && String(c.Número).includes("/")) sample.set(c.Coleção, c.Número); });
+  state.allCardsMap.forEach(c => { if (tcgOf(c) === DEFAULT_TCG && !sample.has(c.Coleção) && String(c.Número).includes("/")) sample.set(c.Coleção, c.Número); });
   const names = [...sample.keys()].filter(n => !setIdCache[n] && !triedSets.has(n));
   if (!names.length) return;
   showToast("Ligando suas coleções ao TCGdex (só na primeira vez)…", "info");
@@ -2489,6 +2564,14 @@ function openArtistMastersetDialog() {
 }
 
 function ensureArtistButton(grid) {
+  if (grid.parentElement && !document.querySelector("#btn-char-masterset")) {
+    const b = document.createElement("button");
+    b.id = "btn-char-masterset";
+    b.className = "mb-4 mr-2 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold transition";
+    b.innerHTML = '<i class="fa-solid fa-user-plus"></i> Master set de personagem';
+    b.onclick = openCharacterMastersetDialog;
+    grid.parentElement.insertBefore(b, grid);
+  }
   if (document.querySelector("#btn-artist-masterset") || !grid.parentElement) return;
   const btn = document.createElement("button");
   btn.id = "btn-artist-masterset";
@@ -2838,3 +2921,121 @@ document.querySelector("#btn-save-custom-col").onclick = async () => {
 
 // Necessário porque o onclick inline em renderCards() enxerga apenas o escopo global
 window.setPokedexRepresentative = setPokedexRepresentative;
+
+// Preenche o seletor de TCG do modal "Adicionar Carta"
+function populateTcgSelect() {
+  const sel = document.getElementById("new-card-tcg");
+  if (!sel) return;
+  sel.innerHTML = Object.entries(TCGS).map(([id, t]) => `<option value="${id}">${t.label}</option>`).join("");
+}
+populateTcgSelect();
+
+// ── Cache local (IndexedDB) ──
+const idbOpen = () => new Promise((res, rej) => { const r = indexedDB.open("tcg-cache", 1); r.onupgradeneeded = () => r.result.createObjectStore("kv"); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+async function idbGet(v) { try { const d = await idbOpen(); return await new Promise(res => { const q = d.transaction("kv").objectStore("kv").get("cards"); q.onsuccess = () => res(q.result?.v === v ? q.result.data : null); q.onerror = () => res(null); }); } catch { return null; } }
+async function idbSet(v, data) { try { (await idbOpen()).transaction("kv", "readwrite").objectStore("kv").put({ v, data }, "cards"); } catch {} }
+
+// ── Quantidade de cópias ──
+const colIdOf = (cardId) => cardId.split("#")[0].replace(/[\s/]/g, "").toLowerCase();
+function setOwned(col, data) {
+  col.owned = new Set(Object.keys(data).filter(k => data[k]));
+  col.qty = {}; col.owned.forEach(k => { col.qty[k] = Number(data[k]) > 0 ? Number(data[k]) : 1; });
+}
+async function setCardQty(cardId, n) {
+  const colId = colIdOf(cardId), col = state.collections[colId];
+  if (!state.user || !col) return;
+  n = Math.max(0, Math.min(99, n));
+  col.qty = col.qty || {};
+  if (n) { col.owned.add(cardId); col.qty[cardId] = n; } else { col.owned.delete(cardId); delete col.qty[cardId]; }
+  updateGlobalProgress(); renderAlbums(); if (state.currentCollection === colId) renderCards();
+  try { await setDoc(doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", colId), { [cardId]: n || false }, { merge: true }); }
+  catch { showToast("Erro ao salvar a quantidade.", "error"); }
+}
+function renderQtyControl(cardId) {
+  let el = document.querySelector("#modal-qty");
+  if (!el) { el = document.createElement("div"); el.id = "modal-qty"; el.className = "mb-6 flex items-center gap-3 text-sm text-slate-300"; (document.querySelector("#modal-price") || document.querySelector("#modal-number")).after(el); }
+  const col = state.collections[colIdOf(cardId)];
+  const n = col?.owned.has(cardId) ? (col.qty?.[cardId] || 1) : 0;
+  const b = "w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 hover:border-sky-500 font-bold transition";
+  el.innerHTML = `<span>Cópias:</span><button data-d="-1" class="${b}">−</button><b class="w-6 text-center text-white">${n}</b><button data-d="1" class="${b}">+</button>`;
+  el.querySelectorAll("button").forEach(btn => btn.onclick = async () => { await setCardQty(cardId, n + Number(btn.dataset.d)); renderQtyControl(cardId); });
+}
+
+// ── Lista de faltantes, exportar e importar backup ──
+function downloadFile(name, text, type = "text/plain") {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click(); URL.revokeObjectURL(a.href);
+}
+$("#btn-missing-list")?.addEventListener("click", async () => {
+  const col = state.collections[state.currentCollection]; if (!col) return;
+  const miss = col.cards.filter(c => !col.owned.has(`${c.Coleção}#${c.Número}`));
+  const txt = `Faltam em ${col.name} (${miss.length}/${col.cards.length}):\n` + miss.map(c => `${c.Número} - ${c.Pokemon}`).join("\n");
+  try { await navigator.clipboard.writeText(txt); showToast(`Lista com ${miss.length} faltantes copiada!`, "success"); }
+  catch { downloadFile(`faltantes-${col.name}.txt`, txt); }
+});
+$("#btn-export")?.addEventListener("click", () => {
+  const out = {};
+  Object.entries(state.collections).forEach(([id, c]) => { if (!c.owned.size) return; out[id] = {}; c.owned.forEach(k => { out[id][k] = c.qty?.[k] || 1; }); });
+  downloadFile(`backup-tcg-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify({ version: 1, exportedAt: new Date().toISOString(), collections: out }, null, 2), "application/json");
+});
+$("#import-input")?.addEventListener("change", async (e) => {
+  const f = e.target.files[0]; e.target.value = ""; if (!f || !state.user) return;
+  try {
+    const { collections } = JSON.parse(await f.text()); const ids = Object.keys(collections || {}); if (!ids.length) throw new Error("vazio");
+    if (!await showConfirmModal({ title: "Importar backup", message: `Mesclar ${ids.length} coleções com o seu progresso atual?`, confirmText: "Importar", cancelText: "Cancelar", type: "warning" })) return;
+    for (const id of ids) await setDoc(doc(db, "artifacts", firebaseConfig.appId, "users", state.user.uid, "collections", id), collections[id], { merge: true });
+    await loadAllUserCollectionsOnce(); showToast("Backup importado!", "success");
+  } catch { showToast("Arquivo de backup inválido.", "error"); }
+});
+
+// ── Master set de personagem (One Piece, Riftbound...) ──
+const normChar = (s) => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+// IDs das cartas de um TCG cujo nome contém o personagem (palavra inteira: "Robin" não casa com "Robinson")
+function findCharacterCards(tcg, name) {
+  const q = ` ${normChar(name)} `, ids = [];
+  if (q.trim() === "") return ids;
+  state.allCardsMap.forEach((c, id) => { if (tcgOf(c) === tcg && ` ${normChar(c.Pokemon)} `.includes(q)) ids.push(id); });
+  return ids;
+}
+function openCharacterMastersetDialog() {
+  let dlg = document.querySelector("#char-dialog");
+  if (!dlg) {
+    dlg = document.createElement("div");
+    dlg.id = "char-dialog";
+    dlg.className = "fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/80 p-4";
+    dlg.innerHTML = `
+      <div class="w-full max-w-md bg-slate-900 border border-slate-700 rounded-2xl p-6">
+        <h3 class="text-lg font-bold text-white mb-1">Master set de personagem</h3>
+        <p class="text-sm text-slate-400 mb-4">Reúne todas as cartas do personagem no jogo escolhido. Cartas novas dele entram sozinhas quando você adicionar coleções.</p>
+        <select id="char-tcg" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white outline-none focus:border-indigo-500 mb-3"></select>
+        <input id="char-name" type="text" placeholder="Ex.: Nico Robin" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white outline-none focus:border-indigo-500">
+        <p id="char-status" class="text-xs text-slate-400 mt-3 min-h-[1rem]"></p>
+        <div class="flex justify-end gap-2 mt-4">
+          <button id="char-cancel" class="px-4 py-2 rounded-xl text-sm text-slate-300 hover:text-white">Cancelar</button>
+          <button id="char-create" class="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 hover:bg-indigo-500 text-white disabled:opacity-50">Criar</button>
+        </div>
+      </div>`;
+    document.body.appendChild(dlg);
+    const close = () => { dlg.classList.add("hidden"); dlg.classList.remove("flex"); };
+    dlg.querySelector("#char-cancel").onclick = close;
+    dlg.onclick = (e) => { if (e.target === dlg) close(); };
+    dlg.querySelector("#char-create").onclick = async () => {
+      const tcg = dlg.querySelector("#char-tcg").value, name = dlg.querySelector("#char-name").value.trim();
+      const status = dlg.querySelector("#char-status"), btn = dlg.querySelector("#char-create");
+      if (!name || !state.user) return;
+      const ids = findCharacterCards(tcg, name);
+      if (!ids.length) { status.textContent = `Nenhuma carta de "${name}" em ${tcgInfoOf(tcg).label}. Confira a grafia do nome.`; return; }
+      btn.disabled = true;
+      try {
+        const cards = Object.fromEntries(ids.map(id => [id, true]));
+        await setDoc(thematicDoc(`personagem_${tcg}_${normChar(name).replace(/ /g, "_")}`), { name: `Master Set: ${name}`, cards, autoCharacter: { tcg, name } }, { merge: true });
+        showToast(`${ids.length} cartas de ${name} adicionadas em Minhas Coleções.`, "success");
+        dlg.querySelector("#char-name").value = ""; status.textContent = ""; close();
+      } catch (err) { console.error(err); status.textContent = "Não foi possível salvar agora. Tente novamente."; }
+      finally { btn.disabled = false; }
+    };
+  }
+  const sel = dlg.querySelector("#char-tcg");
+  sel.innerHTML = Object.entries(TCGS).map(([id, t]) => `<option value="${id}" ${id === (state.tcgFilter !== "all" && state.tcgFilter !== DEFAULT_TCG ? state.tcgFilter : "onepiece") ? "selected" : ""}>${t.label}</option>`).join("");
+  dlg.classList.remove("hidden"); dlg.classList.add("flex");
+  dlg.querySelector("#char-name").focus();
+}

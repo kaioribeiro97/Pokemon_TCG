@@ -2,9 +2,12 @@
 <html lang="pt-BR" class="dark">
 <head>
   <meta charset="UTF-8" />
-  <title>Pokémon TCG – Coleção Privada</title>
+  <title>TCG Manager – Coleção Privada</title>
   <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="apple-touch-icon" href="icon-192.png">
   <meta name="theme-color" content="#0f1218" />
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -149,7 +152,15 @@
             </div>
           </div>
         </section>
-                <!-- BARRA DE AÇÕES: ADICIONAR CARTA + PESQUISAR ÁLBUM -->
+                <div class="flex flex-wrap gap-2">
+          <button id="btn-export" class="px-3 py-2 rounded-xl border border-slate-700 bg-slate-800/60 text-[11px] text-slate-300 hover:border-sky-500 transition flex items-center gap-2"><i class="fa-solid fa-download text-sky-400"></i>Exportar backup</button>
+          <label class="px-3 py-2 rounded-xl border border-slate-700 bg-slate-800/60 text-[11px] text-slate-300 hover:border-sky-500 transition flex items-center gap-2 cursor-pointer"><i class="fa-solid fa-upload text-sky-400"></i>Importar backup<input id="import-input" type="file" accept="application/json" class="hidden"></label>
+        </div>
+
+        <!-- FILTRO POR TCG (preenchido via JS) -->
+        <div id="tcg-filter-bar" class="flex items-center gap-2 overflow-x-auto no-scrollbar"></div>
+
+        <!-- BARRA DE AÇÕES: ADICIONAR CARTA + PESQUISAR ÁLBUM -->
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
           <button id="btn-open-add-card" class="px-3 py-2 rounded-xl border border-sky-500/50 bg-sky-500/10 text-[11px] flex items-center justify-center gap-2 text-sky-400 hover:bg-sky-500 hover:text-slate-950 transition shrink-0">
             <i class="fa-solid fa-plus"></i>
@@ -186,10 +197,11 @@
               <div>
                 <h3 id="details-title" class="text-lg font-bold text-sky-400 mb-1"></h3>
                 <p id="details-subtitle" class="text-xs text-slate-400"></p>
+                <button id="btn-missing-list" class="mt-2 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-[11px] text-slate-300 hover:border-sky-500 transition"><i class="fa-solid fa-clipboard-list mr-1"></i>Copiar lista de faltantes</button>
               </div>
               <div class="relative w-full md:w-64">
                 <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-                <input type="text" id="card-search" placeholder="Buscar Pokémon ou nº..." 
+                <input type="text" id="card-search" placeholder="Buscar carta ou nº..." 
                   class="w-full pl-9 pr-3 py-2 bg-slate-800 border border-slate-700 rounded-xl text-xs text-white outline-none focus:border-sky-500 transition">
               </div>
             </div>
@@ -560,7 +572,12 @@
         
         <form id="form-add-card" class="space-y-4">
           <div>
-            <label class="block text-xs text-slate-400 mb-1 ml-1">Nome do Pokémon</label>
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Jogo (TCG)</label>
+            <select id="new-card-tcg" class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm"></select>
+          </div>
+
+          <div>
+            <label class="block text-xs text-slate-400 mb-1 ml-1">Nome da Carta</label>
             <input type="text" id="new-card-name" required placeholder="Ex: Charizard" 
               class="w-full p-3 rounded-xl bg-slate-800 border border-slate-700 text-white outline-none focus:border-emerald-500 transition text-sm">
           </div>
@@ -747,5 +764,6 @@
   </div> <!-- FIM DO #main-content -->
 
   <script type="module" src="script.js"></script>
+  <script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");</script>
 </body>
 </html>
