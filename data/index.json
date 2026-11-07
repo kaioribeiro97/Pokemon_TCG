@@ -1245,5 +1245,15 @@
   "arquivo": "Extra_Booster_One_Piece_Heroines_Edition.json",
   "logo": "",
   "totalCartas": 102
+},
+{
+  "id": "Awakening_of_the_New_Era",
+  "tcg": "onepiece",
+  "name": "Awakening of the New Era",
+  "codigo": "OP-05",
+  "dataLancamento": "2023-12-08",
+  "arquivo": "Awakening_of_the_New_Era.json",
+  "logo": "",
+  "totalCartas": 155
 }
 ]
