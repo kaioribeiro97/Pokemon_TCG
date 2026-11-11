@@ -1255,5 +1255,14 @@
   "arquivo": "Awakening_of_the_New_Era.json",
   "logo": "",
   "totalCartas": 155
+},
+{
+  "id": "Caminho_do_Campeao",
+  "name": "Caminho do Campeão",
+  "codigo": "CPA",
+  "dataLancamento": "2020-09-25",
+  "arquivo": "Caminho_do_Campeao.json",
+  "logo": "",
+  "totalCartas": 89
 }
 ]
