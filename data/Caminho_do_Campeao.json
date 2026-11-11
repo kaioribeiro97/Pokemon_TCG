@@ -1,0 +1,536 @@
+[
+  {
+    "Pokemon": "Venusaur-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "1/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5135_001.jpg"
+  },
+  {
+    "Pokemon": "Weedle",
+    "Coleção": "Caminho do Campeão",
+    "Número": "2/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/229_002.jpg"
+  },
+  {
+    "Pokemon": "Kakuna",
+    "Coleção": "Caminho do Campeão",
+    "Número": "3/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/212_003.jpg"
+  },
+  {
+    "Pokemon": "Beedrill",
+    "Coleção": "Caminho do Campeão",
+    "Número": "4/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/155_004.jpg"
+  },
+  {
+    "Pokemon": "Eldegoss-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "5/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5152_005.jpg"
+  },
+  {
+    "Pokemon": "Vulpix",
+    "Coleção": "Caminho do Campeão",
+    "Número": "6/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/36_006.jpg"
+  },
+  {
+    "Pokemon": "Victini",
+    "Coleção": "Caminho do Campeão",
+    "Número": "7/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/39_007.jpg"
+  },
+  {
+    "Pokemon": "Incineroar-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "8/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5134_008.jpg"
+  },
+  {
+    "Pokemon": "Sizzlipede",
+    "Coleção": "Caminho do Campeão",
+    "Número": "9/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4977_009.jpg"
+  },
+  {
+    "Pokemon": "Centiskorch",
+    "Coleção": "Caminho do Campeão",
+    "Número": "10/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4949_010.jpg"
+  },
+  {
+    "Pokemon": "Carvanha",
+    "Coleção": "Caminho do Campeão",
+    "Número": "11/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/318_011.jpg"
+  },
+  {
+    "Pokemon": "Sharpedo",
+    "Coleção": "Caminho do Campeão",
+    "Número": "12/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/280_012.jpg"
+  },
+  {
+    "Pokemon": "Wailord-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "13/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5130_013.jpg"
+  },
+  {
+    "Pokemon": "Drednaw-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "14/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5136_014.jpg"
+  },
+  {
+    "Pokemon": "Drednaw-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "15/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5137_015.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "16/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5145_016.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "17/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5144_017.jpg"
+  },
+  {
+    "Pokemon": "Hattena",
+    "Coleção": "Caminho do Campeão",
+    "Número": "18/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5151_018.jpg"
+  },
+  {
+    "Pokemon": "Hattrem",
+    "Coleção": "Caminho do Campeão",
+    "Número": "19/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5030_019.jpg"
+  },
+  {
+    "Pokemon": "Hatterene",
+    "Coleção": "Caminho do Campeão",
+    "Número": "20/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5010_020.jpg"
+  },
+  {
+    "Pokemon": "Cursola de Galar-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "21/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5139_021.jpg"
+  },
+  {
+    "Pokemon": "Alcremie-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "22/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5140_022.jpg"
+  },
+  {
+    "Pokemon": "Alcremie-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "23/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5142_023.jpg"
+  },
+  {
+    "Pokemon": "Machop",
+    "Coleção": "Caminho do Campeão",
+    "Número": "24/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/451_024.jpg"
+  },
+  {
+    "Pokemon": "Machoke",
+    "Coleção": "Caminho do Campeão",
+    "Número": "25/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/440_025.jpg"
+  },
+  {
+    "Pokemon": "Machamp",
+    "Coleção": "Caminho do Campeão",
+    "Número": "26/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/426_026.jpg"
+  },
+  {
+    "Pokemon": "Lucario-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "27/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5131_027.jpg"
+  },
+  {
+    "Pokemon": "Zygarde",
+    "Coleção": "Caminho do Campeão",
+    "Número": "28/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4109_028.jpg"
+  },
+  {
+    "Pokemon": "Rockruff",
+    "Coleção": "Caminho do Campeão",
+    "Número": "29/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4314_029.jpg"
+  },
+  {
+    "Pokemon": "Lycanroc",
+    "Coleção": "Caminho do Campeão",
+    "Número": "30/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4383_030.jpg"
+  },
+  {
+    "Pokemon": "Rolycoly",
+    "Coleção": "Caminho do Campeão",
+    "Número": "31/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5038_031.jpg"
+  },
+  {
+    "Pokemon": "Grapploct-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "32/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5141_032.jpg"
+  },
+  {
+    "Pokemon": "Ekans",
+    "Coleção": "Caminho do Campeão",
+    "Número": "33/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/205_033.jpg"
+  },
+  {
+    "Pokemon": "Arbok",
+    "Coleção": "Caminho do Campeão",
+    "Número": "34/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/175_034.jpg"
+  },
+  {
+    "Pokemon": "Zigzagoon de Galar",
+    "Coleção": "Caminho do Campeão",
+    "Número": "35/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4908_035.jpg"
+  },
+  {
+    "Pokemon": "Linoone de Galar",
+    "Coleção": "Caminho do Campeão",
+    "Número": "36/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4916_036.jpg"
+  },
+  {
+    "Pokemon": "Obstagoon de Galar",
+    "Coleção": "Caminho do Campeão",
+    "Número": "37/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4911_037.jpg"
+  },
+  {
+    "Pokemon": "Absol",
+    "Coleção": "Caminho do Campeão",
+    "Número": "38/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/266_038.jpg"
+  },
+  {
+    "Pokemon": "Purrloin",
+    "Coleção": "Caminho do Campeão",
+    "Número": "39/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/126_039.jpg"
+  },
+  {
+    "Pokemon": "Liepard",
+    "Coleção": "Caminho do Campeão",
+    "Número": "40/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/1166_040.jpg"
+  },
+  {
+    "Pokemon": "Scraggy",
+    "Coleção": "Caminho do Campeão",
+    "Número": "41/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/732_041.jpg"
+  },
+  {
+    "Pokemon": "Scrafty",
+    "Coleção": "Caminho do Campeão",
+    "Número": "42/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/733_042.jpg"
+  },
+  {
+    "Pokemon": "Trubbish",
+    "Coleção": "Caminho do Campeão",
+    "Número": "43/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/81_043.jpg"
+  },
+  {
+    "Pokemon": "Inkay",
+    "Coleção": "Caminho do Campeão",
+    "Número": "44/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/607_044.jpg"
+  },
+  {
+    "Pokemon": "Malamar",
+    "Coleção": "Caminho do Campeão",
+    "Número": "45/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/608_045.jpg"
+  },
+  {
+    "Pokemon": "Nickit",
+    "Coleção": "Caminho do Campeão",
+    "Número": "46/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4947_046.jpg"
+  },
+  {
+    "Pokemon": "Duraludon-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "47/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5143_047.jpg"
+  },
+  {
+    "Pokemon": "Swablu",
+    "Coleção": "Caminho do Campeão",
+    "Número": "48/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/111_048.jpg"
+  },
+  {
+    "Pokemon": "Altaria",
+    "Coleção": "Caminho do Campeão",
+    "Número": "49/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/103_049.jpg"
+  },
+  {
+    "Pokemon": "Beda",
+    "Coleção": "Caminho do Campeão",
+    "Número": "50/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4940_050.jpg"
+  },
+  {
+    "Pokemon": "Cura Total",
+    "Coleção": "Caminho do Campeão",
+    "Número": "51/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/548_051.jpg"
+  },
+  {
+    "Pokemon": "Grande Bola",
+    "Coleção": "Caminho do Campeão",
+    "Número": "52/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/637_052.jpg"
+  },
+  {
+    "Pokemon": "Lupo",
+    "Coleção": "Caminho do Campeão",
+    "Número": "53/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4984_053.jpg"
+  },
+  {
+    "Pokemon": "Hiperpoção",
+    "Coleção": "Caminho do Campeão",
+    "Número": "54/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/1576_054.jpg"
+  },
+  {
+    "Pokemon": "Kabu",
+    "Coleção": "Caminho do Campeão",
+    "Número": "55/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5115_055.jpg"
+  },
+  {
+    "Pokemon": "Marine",
+    "Coleção": "Caminho do Campeão",
+    "Número": "56/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4913_056.jpg"
+  },
+  {
+    "Pokemon": "Milo",
+    "Coleção": "Caminho do Campeão",
+    "Número": "57/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5048_057.jpg"
+  },
+  {
+    "Pokemon": "Pietro",
+    "Coleção": "Caminho do Campeão",
+    "Número": "58/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5085_058.jpg"
+  },
+  {
+    "Pokemon": "Poké Bola",
+    "Coleção": "Caminho do Campeão",
+    "Número": "59",
+    "Imagem": "https://repositorio.sbrauble.com//arquivos/in/pokemon_bkp/cd/174/4895_59b.jpg"
+  },
+  {
+    "Pokemon": "Dama do Centro Pokémon",
+    "Coleção": "Caminho do Campeão",
+    "Número": "60/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4848_060.jpg"
+  },
+  {
+    "Pokemon": "Poção",
+    "Coleção": "Caminho do Campeão",
+    "Número": "61/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/359_061.jpg"
+  },
+  {
+    "Pokemon": "Pesquisa de Professores: Prof. Magnólia",
+    "Coleção": "Caminho do Campeão",
+    "Número": "62/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5150_062.jpg"
+  },
+  {
+    "Pokemon": "Bicicleta Rotom",
+    "Coleção": "Caminho do Campeão",
+    "Número": "63/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4917_063.jpg"
+  },
+  {
+    "Pokemon": "Rotom Fone",
+    "Coleção": "Caminho do Campeão",
+    "Número": "64/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5132_064.jpg"
+  },
+  {
+    "Pokemon": "Sônia",
+    "Coleção": "Caminho do Campeão",
+    "Número": "65/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5003_065.jpg"
+  },
+  {
+    "Pokemon": "Lata de Comida Suspeita",
+    "Coleção": "Caminho do Campeão",
+    "Número": "66/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5133_066.jpg"
+  },
+  {
+    "Pokemon": "Recruta da Equipe Yell",
+    "Coleção": "Caminho do Campeão",
+    "Número": "67/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4932_067.jpg"
+  },
+  {
+    "Pokemon": "Estádio de Turffield",
+    "Coleção": "Caminho do Campeão",
+    "Número": "68/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5056_068.jpg"
+  },
+  {
+    "Pokemon": "Drednaw-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "69/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5136_069.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "70/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5145_070.jpg"
+  },
+  {
+    "Pokemon": "Cursola de Galar-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "71/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5139_071.jpg"
+  },
+  {
+    "Pokemon": "Grapploct-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "72/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5141_072.jpg"
+  },
+  {
+    "Pokemon": "Lupo",
+    "Coleção": "Caminho do Campeão",
+    "Número": "73/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/4984_073.jpg"
+  },
+  {
+    "Pokemon": "Charizard-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "74/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5138_074.jpg"
+  },
+  {
+    "Pokemon": "Drednaw-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "75/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5137_075.jpg"
+  },
+  {
+    "Pokemon": "Gardevoir-VMAX",
+    "Coleção": "Caminho do Campeão",
+    "Número": "76/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5144_076.jpg"
+  },
+  {
+    "Pokemon": "Kabu",
+    "Coleção": "Caminho do Campeão",
+    "Número": "77/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5115_077.jpg"
+  },
+  {
+    "Pokemon": "Pietro",
+    "Coleção": "Caminho do Campeão",
+    "Número": "78/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5085_078.jpg"
+  },
+  {
+    "Pokemon": "Charizard-V",
+    "Coleção": "Caminho do Campeão",
+    "Número": "79/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5129_079.jpg"
+  },
+  {
+    "Pokemon": "Lata de Comida Suspeita",
+    "Coleção": "Caminho do Campeão",
+    "Número": "80/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5133_080.jpg"
+  },
+  {
+    "Pokemon": "Energia de Grama",
+    "Coleção": "Caminho do Campeão",
+    "Número": "81/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/5154s_081.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fogo",
+    "Coleção": "Caminho do Campeão",
+    "Número": "82/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/558s_082.jpg"
+  },
+  {
+    "Pokemon": "Energia de Água",
+    "Coleção": "Caminho do Campeão",
+    "Número": "83/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/562s_083.jpg"
+  },
+  {
+    "Pokemon": "Energia de Raio",
+    "Coleção": "Caminho do Campeão",
+    "Número": "84/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/560s_084.jpg"
+  },
+  {
+    "Pokemon": "Energia Psíquica",
+    "Coleção": "Caminho do Campeão",
+    "Número": "85/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/561s_085.jpg"
+  },
+  {
+    "Pokemon": "Energia de Luta",
+    "Coleção": "Caminho do Campeão",
+    "Número": "86/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/557s_086.jpg"
+  },
+  {
+    "Pokemon": "Energia de Escuridão",
+    "Coleção": "Caminho do Campeão",
+    "Número": "87/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/361s_087.jpg"
+  },
+  {
+    "Pokemon": "Energia de Metal",
+    "Coleção": "Caminho do Campeão",
+    "Número": "88/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/362s_088.jpg"
+  },
+  {
+    "Pokemon": "Energia de Fada",
+    "Coleção": "Caminho do Campeão",
+    "Número": "89/073",
+    "Imagem": "https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/174/648s_089.jpg"
+  }
+]
