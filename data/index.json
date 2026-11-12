@@ -1264,5 +1264,14 @@
   "arquivo": "Caminho_do_Campeao.json",
   "logo": "",
   "totalCartas": 89
+},
+{
+  "id": "Islands_Await_You",
+  "name": "Islands Await You",
+  "codigo": "SM2K",
+  "dataLancamento": "2017-03-17",
+  "arquivo": "Islands_Await_You.json",
+  "logo": "",
+  "totalCartas": 62
 }
 ]
