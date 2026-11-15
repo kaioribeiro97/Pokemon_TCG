@@ -1697,7 +1697,7 @@ function openModal(card, cardId, isOwned) {
   if (isOwned) {
       wrapper.classList.add("auto-holo");
 
-      wrapper.onmousemove = (e) => {
+      wrapper.onpointermove = (e) => {
           wrapper.classList.remove("auto-holo");
           wrapper.classList.add("active");
 
@@ -1723,15 +1723,15 @@ function openModal(card, cardId, isOwned) {
           wrapper.style.setProperty('--opacity', `${p_opc / 100}`);
       };
 
-      wrapper.onmouseleave = () => {
+      wrapper.onpointerleave = () => {
           wrapper.classList.remove("active");
           wrapper.removeAttribute("style"); 
           wrapper.classList.add("auto-holo"); 
       };
   } else {
       wrapper.classList.remove("auto-holo");
-      wrapper.onmousemove = null;
-      wrapper.onmouseleave = null;
+      wrapper.onpointermove = null;
+      wrapper.onpointerleave = null;
   }
   
   const customActions = document.querySelector("#custom-card-actions");
@@ -3051,4 +3051,10 @@ let thematicSearchTimer;
 $("#thematic-search")?.addEventListener("input", (e) => {
   clearTimeout(thematicSearchTimer);
   thematicSearchTimer = setTimeout(() => { state.thematicSearch = e.target.value; renderThematicCards(); }, 200);
+});
+
+// --- MOBILE: mantém a aba ativa visível na barra de abas rolável ---
+document.addEventListener('click', (e) => {
+  const t = e.target.closest?.('.view-tab');
+  if (t) requestAnimationFrame(() => t.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' }));
 });
