@@ -125,3 +125,64 @@ button:focus-visible, a:focus-visible, select:focus-visible, [tabindex]:focus-vi
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
 }
+
+/* ==========================================================================
+   MOBILE
+   ========================================================================== */
+
+/* Sem atraso de toque / zoom por toque duplo; sem flash cinza ao tocar */
+html { -webkit-tap-highlight-color: transparent; }
+button, a, label, select, summary, [role="button"], .card-container, .pokeball-toggle {
+  touch-action: manipulation;
+}
+
+/* iOS dá zoom automático em campos com fonte < 16px. Evita isso no celular. */
+@media (max-width: 639px) {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+  select, textarea { font-size: 16px !important; }
+}
+
+/* Trava a rolagem da página de fundo quando algum modal está aberto */
+body:has(
+  #card-modal:not(.hidden), #pokedex-modal:not(.hidden), #trainers-modal:not(.hidden),
+  #add-card-modal:not(.hidden), #edit-card-modal:not(.hidden), #custom-col-modal:not(.hidden),
+  #rename-thematic-modal:not(.hidden), #custom-confirm-modal:not(.hidden), #login-screen:not(.hidden)
+) { overflow: hidden; }
+
+/* Os botões flutuantes não devem ficar por cima de modais */
+body:has(
+  #card-modal:not(.hidden), #pokedex-modal:not(.hidden), #trainers-modal:not(.hidden),
+  #add-card-modal:not(.hidden), #edit-card-modal:not(.hidden), #custom-col-modal:not(.hidden),
+  #rename-thematic-modal:not(.hidden)
+) #fab-container { display: none; }
+
+/* Telas estreitas: filtros (Todos/Tenho/Falta, idiomas) dividem a largura igualmente */
+@media (max-width: 767px) {
+  .pokedex-filter-btn, .trainers-filter-btn, .tcgdex-lang-btn { flex: 1 1 0; justify-content: center; text-align: center; }
+}
+
+/* Dispositivos de toque (sem mouse) */
+@media (hover: none) {
+  /* No toque não existe "hover": mostra as ações (Favoritar / Ampliar) fixas, na base da carta,
+     em vez de cobrir a carta inteira. */
+  .group > .absolute.inset-0.opacity-0 {
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 60%);
+    justify-content: flex-end;
+    padding-bottom: 6px;
+    gap: 6px;
+  }
+  .hover\:scale-105:hover { transform: none; }
+}
+
+/* Alvos de toque maiores (mínimo ~40px) */
+@media (pointer: coarse) {
+  .pokeball-toggle { width: 30px; height: 30px; }
+  .pokeball-toggle::after { width: 10px; height: 10px; }
+  [data-fav] { padding: 8px; margin: -8px; }
+  .view-tab, .pokedex-filter-btn, .trainers-filter-btn, .tcgdex-lang-btn { min-height: 36px; }
+  #float-search-panel button, #close-copa-details, #close-thematic-details {
+    min-width: 40px; min-height: 40px;
+  }
+  .set-fav-btn, .set-trainer-fav-btn, .zoom-card-btn { min-height: 36px; padding-inline: 12px; }
+}
