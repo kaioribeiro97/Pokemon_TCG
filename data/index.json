@@ -1273,5 +1273,14 @@
   "arquivo": "Islands_Await_You.json",
   "logo": "",
   "totalCartas": 62
+},
+{
+  "id": "Shining_Synergy",
+  "name": "Shining Synergy",
+  "codigo": "CSM2B",
+  "dataLancamento": "2023-01-18",
+  "arquivo": "Shining_Synergy.json",
+  "logo": "",
+  "totalCartas": 193
 }
 ]
